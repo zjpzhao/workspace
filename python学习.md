@@ -5,7 +5,7 @@ print('{:03d}'.format(i))
 ```
 这里`{:03d}`的意思是三位整数用0补齐
 
-## 2.排序
+## 2.文件排序
 ```python
 import os
 sorted(glob.glob('*.png'), key=os.path.getmtime)# 按照修改时间排序
