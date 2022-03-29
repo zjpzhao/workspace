@@ -48,3 +48,7 @@ _, dirnames, _ = next(os.walk(path), (None, [], None))
 _, dirnames, filenames = next(os.walk(path), (None, [], []))
 ```
 采用glob()函数
+```python
+list = glob.glob('.\**', recursive=True)
+```
+参考[link](https://www.geeksforgeeks.org/how-to-use-glob-function-to-find-files-recursively-in-python/)
