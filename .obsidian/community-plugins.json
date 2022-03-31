@@ -2,5 +2,8 @@
   "obsidian-annotator",
   "obsidian-git",
   "obsidian-plugin-toc",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "obsidian-image-auto-upload-plugin",
+  "nldates-obsidian",
+  "remember-cursor-position"
 ]

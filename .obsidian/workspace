@@ -6,14 +6,28 @@
       {
         "id": "c377eed86dc519ef",
         "type": "leaf",
+        "dimension": 82.31292517006803,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "python学习.md",
-            "mode": "preview",
+            "file": "Obsidian用法.md",
+            "mode": "source",
             "source": false
           }
-        }
+        },
+        "group": "8355e44ac5b53850"
+      },
+      {
+        "id": "db3059dc5d7caa4b",
+        "type": "leaf",
+        "dimension": 17.687074829931973,
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Obsidian用法.md"
+          }
+        },
+        "group": "8355e44ac5b53850"
       }
     ],
     "direction": "vertical"
@@ -53,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 170
   },
   "right": {
     "id": "15dd14e7068b76d4",
@@ -69,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "python学习.md",
+                "file": "Obsidian用法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -79,20 +93,34 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "6278bdfc5111baec",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Obsidian用法.md"
+              }
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "c377eed86dc519ef",
   "lastOpenFiles": [
+    "Obsidian用法.md",
+    "Markdown语法.md",
+    "容错系统.md",
     "python学习.md",
-    "插件用法.md",
     "图床搭建及配置.md",
-    "Excalidraw/Drawing 2022-03-25 09.33.01.excalidraw.md",
     "全系workflow搭建.md",
+    "插件用法.md",
+    "Excalidraw/Drawing 2022-03-25 09.33.01.excalidraw.md",
     "Computer Architecture A Quantitative Approach (6th Edition).pdf",
     "全系workflow搭建 6246f898146145ef9722cae14c813ed6.md"
   ]

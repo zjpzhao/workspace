@@ -1,4 +1,5 @@
 # Python base
+#doc #python #learning
 ## 1. 补齐整数
 ```python
 print('{:03d}'.format(i))
