@@ -6,7 +6,6 @@
       {
         "id": "c377eed86dc519ef",
         "type": "leaf",
-        "dimension": 82.31292517006803,
         "state": {
           "type": "markdown",
           "state": {
@@ -14,20 +13,7 @@
             "mode": "source",
             "source": false
           }
-        },
-        "group": "8355e44ac5b53850"
-      },
-      {
-        "id": "db3059dc5d7caa4b",
-        "type": "leaf",
-        "dimension": 17.687074829931973,
-        "state": {
-          "type": "outline",
-          "state": {
-            "file": "Obsidian用法.md"
-          }
-        },
-        "group": "8355e44ac5b53850"
+        }
       }
     ],
     "direction": "vertical"
