@@ -13,7 +13,8 @@ sorted(glob.glob('*.png'), key=os.path.getmtime)# 按照修改时间排序
 sorted(glob.glob('*.png'), key=os.path.getsize)# 按照文件大小排序
 ```
 
-## 3. 多线程
+## 3. 多线程+参数打包
+
 ```python
 
 ```
