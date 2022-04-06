@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "c377eed86dc519ef",
+        "id": "a85e969eb57a23e5",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Markdown语法.md",
+            "file": "换源.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 170
+    "width": 204
   },
   "right": {
     "id": "15dd14e7068b76d4",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Markdown语法.md",
+                "file": "换源.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Markdown语法.md"
+                "file": "换源.md"
               }
             }
           },
@@ -99,23 +99,23 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
-  "active": "c377eed86dc519ef",
+  "active": "a85e969eb57a23e5",
   "lastOpenFiles": [
+    "换源.md",
+    "python学习.md",
+    "全系workflow搭建.md",
+    "插件用法.md",
+    "图床搭建及配置.md",
+    "linux配置代理Qv2ray和Clash.md",
     "Markdown语法.md",
     "Obsidian用法.md",
     "容错系统.md",
-    "python学习.md",
-    "图床搭建及配置.md",
-    "全系workflow搭建.md",
-    "插件用法.md",
-    "Excalidraw/Drawing 2022-03-25 09.33.01.excalidraw.md",
-    "Computer Architecture A Quantitative Approach (6th Edition).pdf",
-    "全系workflow搭建 6246f898146145ef9722cae14c813ed6.md"
+    "Excalidraw/Drawing 2022-03-25 09.33.01.excalidraw.md"
   ]
 }

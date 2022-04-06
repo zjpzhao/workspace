@@ -13,6 +13,10 @@ sorted(glob.glob('*.png'), key=os.path.getmtime)# 按照修改时间排序
 sorted(glob.glob('*.png'), key=os.path.getsize)# 按照文件大小排序
 ```
 
+## 3. 多线程
+```python
+
+```
 
 # Pandas
 ## 1. 转excel
@@ -29,14 +33,14 @@ df=pd.DataFrame(np.array([x,y].T, columns=['x','y'])
 
 
 ___
-## 文件操作
-1. 列举当前文件夹下所有以.pdf结尾的文件名
+# 文件操作
+## 1. 列举当前文件夹下所有以.pdf结尾的文件名
 ```python
 # 采用glob.glob()函数
 pdflist=glob.glob("*\\*.pdf", root_dir=".\\Zotero\\storage\\", recursive=True)
 ```
 
-2.列举当前文件夹下所有文件（夹）名
+## 2.列举当前文件夹下所有文件（夹）名
 采用os.walk()函数
 ```python
 # 文件
@@ -53,3 +57,21 @@ _, dirnames, filenames = next(os.walk(path), (None, [], []))
 list = glob.glob('.\**', recursive=True)
 ```
 参考[link](https://www.geeksforgeeks.org/how-to-use-glob-function-to-find-files-recursively-in-python/)
+
+## 3. excel读操作
+```python
+import xlrd
+checked_students=set()
+data = xlrd.open_workbook("./本科生每日打卡数据表.xls")
+table = data.sheet_by_name("Sheet0")#选择sheet
+for r in range(2, table.nrows):
+	checked_students.add(table.cell(r, 2).value)
+```
+
+
+# 其他
+## 1. 微信发送消息脚本
+```python
+import 
+itchat.auto_login(hotReload=True)
+```
