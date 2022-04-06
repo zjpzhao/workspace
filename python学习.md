@@ -14,7 +14,7 @@ sorted(glob.glob('*.png'), key=os.path.getsize)# 按照文件大小排序
 ```
 
 ## 3. 多线程
-参考<https://docs.python.org/3/library/multiprocessing.html>
+参考[docs.python.org](https://docs.python.org/3/library/multiprocessing.html)
 ```python
 from multiprocessing import Pool
 
@@ -29,8 +29,47 @@ if __name__ == '__main__':
 ```
 
 ## 4. 多线程+偏函数（参数打包）
+pool.map只支持单参数，参考[python.omics.wiki](https://python.omics.wiki/multiprocessing_map/multiprocessing_partial_function_multiple_arguments)采用如下方式解决
+### 方法一：采用偏函数
 ```python
+#方法一：利用partial()进行参数打包
+# Example: multiply all numbers in a list by 10
+import multiprocessing
+from functools import partial
+data_list = [1, 2, 3, 4]
 
+def prod_xy(x,y):
+    return x * y
+
+def parallel_runs(data_list):
+    pool = multiprocessing.Pool(processes=4)
+    prod_x=partial(prod_xy, y=10) # prod_x has only one argument x (y is fixed to 10)
+    result_list = pool.map(prod_x, data_list)
+    print(result_list)
+
+if __name__ == '__main__':
+    parallel_runs(data_list)
+    #返回[10, 20, 30, 40]
+```
+我自己写的一个更复杂的例子是[[对神经网络模型参数进行多线程单比特位故障注入代码]]
+
+### 方法二：外套列表
+多个参数的列表可以通过pool.map传递给子任务函数 （该函数需要接受列表作为单个参数）
+```python
+# 本例是给定多个列表，求每个列表的乘积（production）
+import multiprocessing
+import numpy as np
+
+data_pairs = [ [3,5], [4,3], [7,3], [1,6] ]
+def myfunc(p):
+    product_of_list = np.prod(p)
+    return product_of_list
+
+if __name__ == '__main__':
+    pool = multiprocessing.Pool(processes=4)
+    result_list = pool.map(myfunc, data_pairs)
+    print(result_list)
+    #返回[15, 12, 21, 6]
 ```
 # Pandas
 ## 1. 转excel
