@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Obsidian用法.md",
+            "file": "Markdown语法.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian用法.md",
+                "file": "Markdown语法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,21 +86,29 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian用法.md"
+                "file": "Markdown语法.md"
               }
             }
+          },
+          {
+            "id": "ce6311edaba4ddbf",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "c377eed86dc519ef",
   "lastOpenFiles": [
-    "Obsidian用法.md",
     "Markdown语法.md",
+    "Obsidian用法.md",
     "容错系统.md",
     "python学习.md",
     "图床搭建及配置.md",
