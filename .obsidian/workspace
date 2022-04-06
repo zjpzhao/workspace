@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "换源.md",
+            "file": "python学习.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "换源.md",
+                "file": "python学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "换源.md"
+                "file": "python学习.md"
               }
             }
           },
@@ -107,8 +107,8 @@
   },
   "active": "a85e969eb57a23e5",
   "lastOpenFiles": [
-    "换源.md",
     "python学习.md",
+    "换源.md",
     "全系workflow搭建.md",
     "插件用法.md",
     "图床搭建及配置.md",

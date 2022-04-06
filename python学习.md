@@ -70,8 +70,29 @@ for r in range(2, table.nrows):
 
 
 # 其他
-## 1. 微信发送消息脚本
+## 1. 微信给好友发送消息脚本
 ```python
-import 
-itchat.auto_login(hotReload=True)
+import itchat
+# itchat不支持python3.10和3.9，该脚本在3.7.13下跑通
+name="聂晨飞"
+msg = "——飞哥今天是红的还是绿的\n——今天不喝"
+
+itchat.auto_login(hotReload=True)   #登录
+info = itchat.search_friends(name=name) #查找朋友
+
+if len(info) == 0:
+    print("No such friend!")
+else:
+    info = info[0]
+    if info["RemarkName"] != name:
+        print("Name incorrect")
+    else: 
+        print(msg)
+        cmd = input("确定发送?(y/n): ")
+        if cmd != "y" and cmd != "Y":
+            print("Terminated")
+        else:
+            print("Sended to {}".format(name))
+            itchat.send(msg, info["UserName"]) #用来真正发送消息
+# itchat.logout()
 ```
