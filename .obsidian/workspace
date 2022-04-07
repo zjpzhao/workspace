@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "python学习.md",
-            "mode": "preview",
+            "file": "容错系统.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "python学习.md",
+                "file": "容错系统.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "python学习.md"
+                "file": "容错系统.md"
               }
             }
           },
@@ -107,6 +107,7 @@
   },
   "active": "51136537e9cd7d52",
   "lastOpenFiles": [
+    "容错系统.md",
     "python学习.md",
     "对神经网络模型参数进行多线程单比特位故障注入代码.md",
     "换源.md",
@@ -115,7 +116,6 @@
     "图床搭建及配置.md",
     "linux配置代理Qv2ray和Clash.md",
     "Markdown语法.md",
-    "Obsidian用法.md",
-    "容错系统.md"
+    "Obsidian用法.md"
   ]
 }
