@@ -4,36 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0ae86d065999c7f8",
+        "id": "b31c82a4298ff3d4",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Obsidian用法.md",
-            "mode": "preview",
+            "file": "插件用法.md",
+            "mode": "source",
             "backlinks": false,
             "source": false
           }
-        },
-        "group": "a74edfcf0d779fd9"
-      },
-      {
-        "id": "f4f79c99d51b3200",
-        "type": "leaf",
-        "state": {
-          "type": "media-view",
-          "state": {
-            "info": {
-              "host": 1,
-              "id": "BV1nR4y157kd/",
-              "src": "https://www.bilibili.com/video/BV1nR4y157kd/?spm_id_from=333.788",
-              "iframe": "https://player.bilibili.com/player.html?bvid=BV1nR4y157kd/&high_quality=1&danmaku=0",
-              "hash": ""
-            },
-            "currentTime": 0
-          }
-        },
-        "group": "a74edfcf0d779fd9"
+        }
       }
     ],
     "direction": "vertical"
@@ -68,8 +49,17 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "f20fbb262ea231a5",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -84,50 +74,80 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f47dc01edff98446",
+            "id": "6278bdfc5111baec",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "插件用法.md"
+              }
+            }
+          },
+          {
+            "id": "02e91bbb0f9df946",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8d295dc264cea39f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian用法.md",
+                "file": "插件用法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "6278bdfc5111baec",
+            "id": "c18d085f403f0a80",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "outgoing-link",
               "state": {
-                "file": "Obsidian用法.md"
+                "file": "插件用法.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               }
+            }
+          },
+          {
+            "id": "4eb7bd2ba78753e4",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "0ae86d065999c7f8",
+  "active": "b31c82a4298ff3d4",
   "lastOpenFiles": [
-    "Obsidian用法.md",
     "插件用法.md",
-    "对神经网络模型参数进行多线程单比特位故障注入代码.md",
-    "换源.md",
-    "容错系统.md",
-    "Markdown语法.md",
+    "linux配置代理Qv2ray和Clash.md",
     "全系workflow搭建.md",
-    "python学习.md",
+    "换源.md",
     "图床搭建及配置.md",
-    "linux配置代理Qv2ray和Clash.md"
+    "容错系统.md",
+    "常用指令.md",
+    "Markdown语法.md",
+    "python学习.md",
+    "对神经网络模型参数进行多线程单比特位故障注入代码.md"
   ]
 }
