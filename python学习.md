@@ -1,5 +1,8 @@
+---
+id: 6cdd0919-5e72-4495-9f39-8a0fa6f8fb85
+---
 # Python base
-#doc #python #learning
+#doc #learning/python
 ## 1. 补齐整数
 ```python
 print('{:03d}'.format(i))

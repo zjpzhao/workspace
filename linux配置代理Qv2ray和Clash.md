@@ -1,3 +1,6 @@
+---
+id: a1353f4e-fbc5-4077-b112-8789474e9443
+---
 # Qv2ray: 
 #tool #proxy #linux
 一款linux上很好用的图形话界面科学上网工具-Qv2ray。
