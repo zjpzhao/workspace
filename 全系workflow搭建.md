@@ -36,4 +36,4 @@ Last Edited Time: January 21, 2022 6:11 PM
 # 待完成
 - [x] 阿里云OSS图床
 - [ ] zotero
-- [ ] [[插件用法]]
+- [ ] obsidian://advanced-uri?vault=Workflow&heading=Obsidian%25E6%258F%2592%25E4%25BB%25B6&uid=8cb26d8c-8439-464d-823d-052ae9fd1cc8
