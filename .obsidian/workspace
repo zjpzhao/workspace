@@ -7,8 +7,13 @@
         "id": "63c6eb773fc8ec90",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "插件用法.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -80,7 +85,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "插件用法.md"
+              }
             }
           },
           {
@@ -100,6 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "插件用法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,6 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "插件用法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,14 +131,6 @@
             }
           },
           {
-            "id": "3196c87b10eadf76",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
-          },
-          {
             "id": "b2f77919d5b213fd",
             "type": "leaf",
             "state": {
@@ -137,8 +138,21 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
+      },
+      {
+        "id": "4efc2f220c12a4b5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3196c87b10eadf76",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -146,8 +160,8 @@
   },
   "active": "63c6eb773fc8ec90",
   "lastOpenFiles": [
-    "2022-04-07.md",
     "插件用法.md",
+    "2022-04-07.md",
     "CUDA.md",
     "Markdown语法.md",
     "Obsidian用法.md",
