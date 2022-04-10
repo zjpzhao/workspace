@@ -2,18 +2,16 @@
 id: a1353f4e-fbc5-4077-b112-8789474e9443
 ---
 # Qv2ray: 
-#tool #proxy #linux
+#tool/proxy #linux
 一款linux上很好用的图形话界面科学上网工具-Qv2ray。
 🌟 Linux/Windows/macOS 跨平台 v2ray GUI 🔨 使用 c++ 编写，支持订阅，扫描二维码，支持自定义路由编辑 🌟。使用 Qt 框架的跨平台 v2ray 客户端。支持 Windows, Linux, macOS
 
 来自 https://www.zsxcool.com/7137.html
 
-[Ubuntu 20.04系统 使用 V2ray GUI 界面软件配置翻墙上网](https://www.youtube.com/watch?reload=9&v=fwvUjQJHmgk&app=desktop) 
 
 ![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/1.png)
- 
-
-https://www.youtube.com/watch?reload=9&v=fwvUjQJHmgk&app=desktop 
+[Ubuntu 20.04系统 使用 V2ray GUI 界面软件配置翻墙上网](https://www.youtube.com/watch?reload=9&v=fwvUjQJHmgk&app=desktop) 
+[00:00](https://www.youtube.com/watch?reload=9&v=fwvUjQJHmgk&app=desktop#t=12.090908122070312)  
 
 `$ gnome-session-properties`打开开机自启动应用程序
  

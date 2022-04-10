@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b31c82a4298ff3d4",
+        "id": "63c6eb773fc8ec90",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Markdown语法.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -41,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#doc",
+                "query": "tag:#proxy",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,8 +61,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,9 +80,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Markdown语法.md"
-              }
+              "state": {}
             }
           },
           {
@@ -103,12 +95,22 @@
             }
           },
           {
-            "id": "8d295dc264cea39f",
+            "id": "c18d085f403f0a80",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c1786f4c5d4f8e7f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Markdown语法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,43 +122,39 @@
             }
           },
           {
-            "id": "c18d085f403f0a80",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Markdown语法.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "4eb7bd2ba78753e4",
+            "id": "3196c87b10eadf76",
             "type": "leaf",
             "state": {
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "b2f77919d5b213fd",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
-  "active": "b31c82a4298ff3d4",
+  "active": "63c6eb773fc8ec90",
   "lastOpenFiles": [
+    "2022-04-07.md",
+    "插件用法.md",
+    "CUDA.md",
     "Markdown语法.md",
+    "Obsidian用法.md",
+    "linux配置代理Qv2ray和Clash.md",
     "对神经网络模型参数进行多线程单比特位故障注入代码.md",
     "容错系统.md",
     "python学习.md",
-    "插件用法.md",
-    "Obsidian用法.md",
-    "linux配置代理Qv2ray和Clash.md",
-    "图床搭建及配置.md",
-    "全系workflow搭建.md",
-    "换源.md"
+    "图床搭建及配置.md"
   ]
 }
