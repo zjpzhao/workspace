@@ -15,7 +15,7 @@ Device: GPU and GPU memory (Device memory)
 所以代码中一般以h_为前缀表示host memory，d_为前缀表示device memory。
 
 ## kernel()
-kernel函数是CUDA编程的关键，主要对拷贝到GPU的数据进行操作，在GPU中执行，函数用标识符__global__修饰。
+kernel函数是CUDA编程的关键，主要对拷贝到GPU的数据进行操作，在GPU中执行，函数用标识符`__global__`修饰。
 
 ## 异步性
 CUDA编程的异步性体现在：CPU和GPU都属于计算机的计算部件，各有存储空间。GPU执行程序时启动kernel()后控制权返还给CPU，串行代码C由Host执行，并行代码CUDA C由Device执行。

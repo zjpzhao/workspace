@@ -9,6 +9,26 @@
       "path": "CUDA.md"
     },
     {
+      "basename": "容错系统",
+      "path": "容错系统.md"
+    },
+    {
+      "basename": "全系workflow搭建",
+      "path": "全系workflow搭建.md"
+    },
+    {
+      "basename": "换源",
+      "path": "换源.md"
+    },
+    {
+      "basename": "常用指令",
+      "path": "常用指令.md"
+    },
+    {
+      "basename": "python学习",
+      "path": "python学习.md"
+    },
+    {
       "basename": "Markdown语法",
       "path": "Markdown语法.md"
     },
@@ -25,28 +45,8 @@
       "path": "对神经网络模型参数进行多线程单比特位故障注入代码.md"
     },
     {
-      "basename": "容错系统",
-      "path": "容错系统.md"
-    },
-    {
-      "basename": "python学习",
-      "path": "python学习.md"
-    },
-    {
       "basename": "图床搭建及配置",
       "path": "图床搭建及配置.md"
-    },
-    {
-      "basename": "全系workflow搭建",
-      "path": "全系workflow搭建.md"
-    },
-    {
-      "basename": "换源",
-      "path": "换源.md"
-    },
-    {
-      "basename": "常用指令",
-      "path": "常用指令.md"
     }
   ],
   "omittedPaths": [],

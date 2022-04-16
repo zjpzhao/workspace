@@ -152,3 +152,10 @@ else:
             itchat.send(msg, info["UserName"]) #用来真正发送消息
 # itchat.logout()
 ```
+
+
+
+# 可视化
+## 数据可视化视频/动图
+采用celluloid库
+参考<https://pypi.org/project/celluloid/>

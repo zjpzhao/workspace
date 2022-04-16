@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "63c6eb773fc8ec90",
+        "id": "65ed13fe71376335",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -67,10 +67,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "9a5b3b26fe303080",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3196c87b10eadf76",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 204
+    "width": 336
   },
   "right": {
     "id": "15dd14e7068b76d4",
@@ -87,17 +101,6 @@
               "type": "outline",
               "state": {
                 "file": "插件用法.md"
-              }
-            }
-          },
-          {
-            "id": "02e91bbb0f9df946",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
               }
             }
           },
@@ -141,34 +144,38 @@
         ]
       },
       {
-        "id": "4efc2f220c12a4b5",
+        "id": "55926376afea7878",
         "type": "tabs",
         "children": [
           {
-            "id": "3196c87b10eadf76",
+            "id": "02e91bbb0f9df946",
             "type": "leaf",
             "state": {
-              "type": "git-view",
-              "state": {}
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "63c6eb773fc8ec90",
+  "active": "65ed13fe71376335",
   "lastOpenFiles": [
     "插件用法.md",
-    "2022-04-07.md",
     "CUDA.md",
+    "容错系统.md",
+    "全系workflow搭建.md",
+    "换源.md",
+    "常用指令.md",
+    "python学习.md",
     "Markdown语法.md",
     "Obsidian用法.md",
-    "linux配置代理Qv2ray和Clash.md",
-    "对神经网络模型参数进行多线程单比特位故障注入代码.md",
-    "容错系统.md",
-    "python学习.md",
-    "图床搭建及配置.md"
+    "2022-04-07.md"
   ]
 }
