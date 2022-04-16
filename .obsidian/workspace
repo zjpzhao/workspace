@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "65ed13fe71376335",
+        "id": "b7fa187fdcc26453",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -166,17 +166,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "65ed13fe71376335",
+  "active": "b7fa187fdcc26453",
   "lastOpenFiles": [
     "Git.md",
     "并行计算.md",
+    "Untitled.md",
     "Markdown语法.md",
     "Obsidian用法.md",
     "插件用法.md",
     "linux配置代理Qv2ray和Clash.md",
     "对神经网络模型参数进行多线程单比特位故障注入代码.md",
     "CUDA.md",
-    "容错系统.md",
-    "全系workflow搭建.md"
+    "容错系统.md"
   ]
 }
