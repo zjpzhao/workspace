@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "插件用法.md",
+            "file": "并行计算.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#proxy",
+                "query": "tag:#learning/multithread",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "插件用法.md"
+                "file": "并行计算.md"
               }
             }
           },
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "插件用法.md",
+                "file": "并行计算.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "插件用法.md",
+                "file": "并行计算.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "55926376afea7878",
@@ -167,15 +168,15 @@
   },
   "active": "65ed13fe71376335",
   "lastOpenFiles": [
+    "并行计算.md",
+    "Markdown语法.md",
+    "Obsidian用法.md",
     "插件用法.md",
+    "linux配置代理Qv2ray和Clash.md",
+    "对神经网络模型参数进行多线程单比特位故障注入代码.md",
     "CUDA.md",
     "容错系统.md",
     "全系workflow搭建.md",
-    "换源.md",
-    "常用指令.md",
-    "python学习.md",
-    "Markdown语法.md",
-    "Obsidian用法.md",
-    "2022-04-07.md"
+    "换源.md"
   ]
 }

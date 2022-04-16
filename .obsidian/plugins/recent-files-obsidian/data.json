@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "并行计算",
+      "path": "并行计算.md"
+    },
+    {
+      "basename": "Markdown语法",
+      "path": "Markdown语法.md"
+    },
+    {
+      "basename": "Obsidian用法",
+      "path": "Obsidian用法.md"
+    },
+    {
       "basename": "插件用法",
       "path": "插件用法.md"
+    },
+    {
+      "basename": "linux配置代理Qv2ray和Clash",
+      "path": "linux配置代理Qv2ray和Clash.md"
+    },
+    {
+      "basename": "对神经网络模型参数进行多线程单比特位故障注入代码",
+      "path": "对神经网络模型参数进行多线程单比特位故障注入代码.md"
     },
     {
       "basename": "CUDA",
@@ -27,22 +47,6 @@
     {
       "basename": "python学习",
       "path": "python学习.md"
-    },
-    {
-      "basename": "Markdown语法",
-      "path": "Markdown语法.md"
-    },
-    {
-      "basename": "Obsidian用法",
-      "path": "Obsidian用法.md"
-    },
-    {
-      "basename": "linux配置代理Qv2ray和Clash",
-      "path": "linux配置代理Qv2ray和Clash.md"
-    },
-    {
-      "basename": "对神经网络模型参数进行多线程单比特位故障注入代码",
-      "path": "对神经网络模型参数进行多线程单比特位故障注入代码.md"
     },
     {
       "basename": "图床搭建及配置",
