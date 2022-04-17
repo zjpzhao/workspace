@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "bc61845d92c0fbc3",
+        "id": "a4a0eda358248df6",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Git.md",
+            "file": "并行计算.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -79,6 +79,14 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "b7fa187fdcc26453",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ]
       }
@@ -100,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git.md"
+                "file": "并行计算.md"
               }
             }
           },
@@ -110,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git.md",
+                "file": "并行计算.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git.md",
+                "file": "并行计算.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,8 +149,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "55926376afea7878",
@@ -163,20 +170,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "bc61845d92c0fbc3",
+  "active": "a4a0eda358248df6",
   "lastOpenFiles": [
-    "Git.md",
     "并行计算.md",
+    "python学习.md",
+    "Obsidian用法.md",
+    "Git.md",
     "Untitled.md",
     "Markdown语法.md",
-    "Obsidian用法.md",
     "插件用法.md",
     "linux配置代理Qv2ray和Clash.md",
     "对神经网络模型参数进行多线程单比特位故障注入代码.md",
-    "CUDA.md",
-    "容错系统.md"
+    "CUDA.md"
   ]
 }

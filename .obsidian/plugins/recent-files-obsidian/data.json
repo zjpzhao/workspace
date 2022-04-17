@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Git",
-      "path": "Git.md"
-    },
-    {
       "basename": "并行计算",
       "path": "并行计算.md"
     },
     {
-      "basename": "Markdown语法",
-      "path": "Markdown语法.md"
+      "basename": "python学习",
+      "path": "python学习.md"
     },
     {
       "basename": "Obsidian用法",
       "path": "Obsidian用法.md"
+    },
+    {
+      "basename": "Git",
+      "path": "Git.md"
+    },
+    {
+      "basename": "Markdown语法",
+      "path": "Markdown语法.md"
     },
     {
       "basename": "插件用法",
@@ -47,10 +51,6 @@
     {
       "basename": "常用指令",
       "path": "常用指令.md"
-    },
-    {
-      "basename": "python学习",
-      "path": "python学习.md"
     },
     {
       "basename": "图床搭建及配置",
