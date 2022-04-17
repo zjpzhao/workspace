@@ -1,0 +1,50 @@
+# 方案：Zotero + NutStore + WebDAV
+## NutStore WebDAV
+### 在坚果云建立文件夹zotero和zotero_backup，将坚果云空间映射到本地便于管理
+![400](https://zjpimage.oss-cn-qingdao.aliyuncs.com/%E5%9D%9A%E6%9E%9C%E4%BA%91%E7%A9%BA%E9%97%B4%E8%AE%BE%E7%BD%AE.png)
+
+### 在安全选项注册第三方应用
+![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/%E5%9D%9A%E6%9E%9C%E4%BA%91%E5%AE%89%E5%85%A8%E9%80%89%E9%A1%B9%E6%B3%A8%E5%86%8C%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%94%E7%94%A8.png)
+
+记住webdav地址、应用名称（zotero）和应用密码。
+
+---
+
+## Zotero
+### 1. 本地D盘重新建立Zotero文件夹，配置路径
+原来默认在C盘的“文档”中，需要将原有的文件夹整个剪切到D盘，然后重新配置data dir路径和backup路径。（backup好像没有什么用，但是不配这个的话可能会报错）
+![500](https://zjpimage.oss-cn-qingdao.aliyuncs.com/%E8%BF%81%E7%A7%BBZotero%E6%95%B0%E6%8D%AE%E6%96%87%E4%BB%B6%E5%A4%B9.png)
+
+### 2. 安装ZotFile，设置storage路径
+该路径是存储文献file及其相关信息的。而下方的location of files如图选择默认值。
+![500](https://zjpimage.oss-cn-qingdao.aliyuncs.com/%E8%AE%BE%E7%BD%AEZotFile%E7%9A%84storage%E8%B7%AF%E5%BE%84.png)
+
+### 3. 配置Zotero同步方式
+注意几点：
+- URL选https，填写后缀dav.jianguoyun.com/dav	**(一定注意dav后没有/，否则会因为有两个/而找不到路径)**
+- Username是坚果云用户名
+- Password是上面记的坚果云WebDAV第三方应用zotero的密码
+- 然后点击Verify Server，完美AC通过。
+![500](https://zjpimage.oss-cn-qingdao.aliyuncs.com/%E9%85%8D%E7%BD%AEZotero%E5%9D%9A%E6%9E%9C%E4%BA%91WebDAV%E5%90%8C%E6%AD%A5.png)
+
+### 4. 配置iPad端Zotero app
+Zotero官方6.0重大更新，最有用的两点是：
+**“PC端Zotero内置原生pdf阅读器” 以及 “iPadOS上线zotero app”**。
+完成以上配置之后，iPad在appstore下载Zotero app，像上一步同样的操作完成同步方面的设置，我们就可以实现打通“iPadOS-Windows”的文献阅读、批注、同步体系：
+通过平板或者PC阅读和批注PDF文件，经过双向的同步过程，两端都能看到和修改。
+我主要通过在PC端添加/删除文献，来完成对iPad端zotero文献的管理。
+
+### 关于删除文献的云同步
+如果你采用坚果云WebDAV方式同步文献，从Zotero中删除文献后，是可以将其在坚果云中的附件彻底删除的。关于几种删除，参看青柠学术的[Zotero的【删除】功能，竟然有这么多花样！](https://mp.weixin.qq.com/s/90S0plmWopkQMOY8Gn0NBw)
+总结起来就是：
+- `Remove Item from Collection`是从文献集合中删除
+- `Move Item to Trash`是移动到回收站
+- `Delete Permanently`是从回收站永久删除（**云盘中也会同步删除**，删除最彻底）
+#### 详细解释如下
+彻底删除文献并且想要云空间同步删除时，需要我们在zotero的回收站中删除（Delete Permanently）。当我们不清空回收站时，其实你已经删除的zotero文献仍然在坚果云空间备份，可以通过此方式找到：
+1. 先找到storage文件夹下对应缓存文件夹长度为8的文件名，如6GEXUR2Y
+![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/storage%E5%AF%B9%E5%BA%94%E7%BC%93%E5%AD%98%E6%96%87%E7%8C%AE%E6%96%87%E4%BB%B6.png)
+2. 然后在坚果云zotero文件夹下发现同名的.prop和.zip文件。
+![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/%E5%9D%9A%E6%9E%9C%E4%BA%91%E7%BC%93%E5%AD%98%E6%96%87%E7%8C%AE%E6%96%87%E4%BB%B6.png)
+
+**所以，我们以后如果彻底删除文献，要求云盘里对应的备份文件也同时删除的话，就要在回收站里*Delete Permanently***

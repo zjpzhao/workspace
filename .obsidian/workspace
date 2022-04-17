@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "并行计算.md",
+            "file": "Git.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#learning/multithread",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "并行计算.md"
+                "file": "Git.md"
               }
             }
           },
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "并行计算.md",
+                "file": "Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "并行计算.md",
+                "file": "Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,15 +174,15 @@
   },
   "active": "a4a0eda358248df6",
   "lastOpenFiles": [
+    "Git.md",
+    "CUDA.md",
+    "全系workflow搭建.md",
+    "图床搭建及配置.md",
+    "打通“iPadOS-Windows”的文献阅读、批注、同步体系.md",
+    "容错系统.md",
     "并行计算.md",
     "python学习.md",
     "Obsidian用法.md",
-    "Git.md",
-    "Untitled.md",
-    "Markdown语法.md",
-    "插件用法.md",
-    "linux配置代理Qv2ray和Clash.md",
-    "对神经网络模型参数进行多线程单比特位故障注入代码.md",
-    "CUDA.md"
+    "Untitled.md"
   ]
 }

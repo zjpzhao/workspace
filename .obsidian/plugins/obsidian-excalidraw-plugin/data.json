@@ -50,7 +50,7 @@
   "experimentalLivePreview": true,
   "experimentalEnableFourthFont": false,
   "experimantalFourthFont": "Virgil",
-  "fieldSuggestor": true,
+  "fieldSuggester": true,
   "compatibilityMode": false,
   "drawingOpenCount": 0,
   "library": "deprecated",
@@ -69,6 +69,7 @@
   "mdCSS": "",
   "scriptEngineSettings": {},
   "defaultTrayMode": false,
-  "previousRelease": "1.6.23",
-  "showReleaseNotes": true
+  "previousRelease": "1.6.25",
+  "showReleaseNotes": true,
+  "fieldSuggestor": true
 }
