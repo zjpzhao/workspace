@@ -5,8 +5,8 @@
       "path": "图床搭建及配置.md"
     },
     {
-      "basename": "论文撰写",
-      "path": "论文撰写.md"
+      "basename": "全系workflow搭建",
+      "path": "全系workflow搭建.md"
     },
     {
       "basename": "Git",
@@ -15,10 +15,6 @@
     {
       "basename": "CUDA",
       "path": "CUDA.md"
-    },
-    {
-      "basename": "全系workflow搭建",
-      "path": "全系workflow搭建.md"
     },
     {
       "basename": "打通“iPadOS-Windows”的文献阅读、批注、同步体系",
