@@ -4,13 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a4a0eda358248df6",
+        "id": "deac1cb5aec696b4",
         "type": "leaf",
         "state": {
-          "type": "diff-view",
+          "type": "markdown",
           "state": {
-            "file": ".obsidian/plugins/remember-cursor-position/cursor-positions.json",
-            "staged": false
+            "file": "容错系统.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
           }
         }
       }
@@ -105,7 +107,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "容错系统.md"
+              }
             }
           },
           {
@@ -114,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "容错系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,6 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "容错系统.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,15 +172,15 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "a4a0eda358248df6",
+  "active": "deac1cb5aec696b4",
   "lastOpenFiles": [
+    "容错系统.md",
     "图床搭建及配置.md",
     "论文撰写.md",
     "Git.md",
     "CUDA.md",
     "全系workflow搭建.md",
     "打通“iPadOS-Windows”的文献阅读、批注、同步体系.md",
-    "容错系统.md",
     "并行计算.md",
     "python学习.md",
     "Obsidian用法.md"
