@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "deac1cb5aec696b4",
+        "id": "418b3ebcac9d98d0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "容错系统.md",
+            "file": "Lectures/云计算课程论文研读报告.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "容错系统.md"
+                "file": "Lectures/云计算课程论文研读报告.md"
               }
             }
           },
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "容错系统.md",
+                "file": "Lectures/云计算课程论文研读报告.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "容错系统.md",
+                "file": "Lectures/云计算课程论文研读报告.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,17 +172,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "deac1cb5aec696b4",
+  "active": "418b3ebcac9d98d0",
   "lastOpenFiles": [
-    "容错系统.md",
-    "图床搭建及配置.md",
-    "论文撰写.md",
-    "Git.md",
-    "CUDA.md",
-    "全系workflow搭建.md",
-    "打通“iPadOS-Windows”的文献阅读、批注、同步体系.md",
-    "并行计算.md",
-    "python学习.md",
-    "Obsidian用法.md"
+    "Lectures/云计算课程论文研读报告.md",
+    "linux配置代理Qv2ray和Clash.md",
+    "Learning/Git.md",
+    "Learning/CUDA.md",
+    "Learning/python学习.md",
+    "Learning/Markdown语法.md",
+    "Learning/Obsidian用法.md",
+    "Lectures/容错系统.md",
+    "Workflow/图床搭建及配置.md",
+    "论文撰写.md"
   ]
 }
