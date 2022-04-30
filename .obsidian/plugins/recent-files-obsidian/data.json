@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "容错系统",
+      "path": "Lectures/容错系统.md"
+    },
+    {
       "basename": "云计算课程论文研读报告",
       "path": "Lectures/云计算课程论文研读报告.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "Obsidian用法",
       "path": "Learning/Obsidian用法.md"
-    },
-    {
-      "basename": "容错系统",
-      "path": "Lectures/容错系统.md"
     },
     {
       "basename": "图床搭建及配置",
