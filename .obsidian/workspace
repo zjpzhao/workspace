@@ -36,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "notation",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,14 +68,6 @@
         "id": "9a5b3b26fe303080",
         "type": "tabs",
         "children": [
-          {
-            "id": "3196c87b10eadf76",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
-          },
           {
             "id": "b7fa187fdcc26453",
             "type": "leaf",
