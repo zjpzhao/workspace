@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "418b3ebcac9d98d0",
+        "id": "91d221e16eea425d",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "常用指令.md",
-            "mode": "preview",
-            "backlinks": true,
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -41,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "notation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +61,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "9a5b3b26fe303080",
@@ -107,9 +103,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "常用指令.md"
-              }
+              "state": {}
             }
           },
           {
@@ -118,7 +112,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用指令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +123,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用指令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,8 +164,9 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "418b3ebcac9d98d0",
+  "active": "91d221e16eea425d",
   "lastOpenFiles": [
+    "论文撰写.md",
     "常用指令.md",
     "对神经网络模型参数进行多线程单比特位故障注入代码.md",
     "Lectures/容错系统.md",
@@ -182,7 +175,6 @@
     "Learning/Git.md",
     "Learning/CUDA.md",
     "Learning/python学习.md",
-    "Learning/Markdown语法.md",
-    "Learning/Obsidian用法.md"
+    "Learning/Markdown语法.md"
   ]
 }

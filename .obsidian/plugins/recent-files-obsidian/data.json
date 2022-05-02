@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "论文撰写",
+      "path": "论文撰写.md"
+    },
+    {
       "basename": "常用指令",
       "path": "常用指令.md"
     },
@@ -43,10 +47,6 @@
     {
       "basename": "图床搭建及配置",
       "path": "Workflow/图床搭建及配置.md"
-    },
-    {
-      "basename": "论文撰写",
-      "path": "论文撰写.md"
     },
     {
       "basename": "全系workflow搭建",
