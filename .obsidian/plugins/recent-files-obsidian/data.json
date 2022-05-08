@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "云计算课程论文研读报告",
+      "path": "Lectures/云计算课程论文研读报告.md"
+    },
+    {
       "basename": "插件用法",
       "path": "Workflow/插件用法.md"
     },
     {
       "basename": "全系workflow搭建",
       "path": "Workflow/全系workflow搭建.md"
-    },
-    {
-      "basename": "excalibrain",
-      "path": "excalibrain.md"
     },
     {
       "basename": "论文撰写",
@@ -27,10 +27,6 @@
     {
       "basename": "容错系统",
       "path": "Lectures/容错系统.md"
-    },
-    {
-      "basename": "云计算课程论文研读报告",
-      "path": "Lectures/云计算课程论文研读报告.md"
     },
     {
       "basename": "linux配置代理Qv2ray和Clash",

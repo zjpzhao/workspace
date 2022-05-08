@@ -1,11 +1,12 @@
 {
   "pluginList": [
+    "stefanopagliari/bibnotes",
     "zsviczian/excalibrain"
   ],
   "pluginSubListFrozenVersion": [],
   "themesList": [],
-  "updateAtStartup": false,
-  "updateThemesAtStartup": false,
+  "updateAtStartup": true,
+  "updateThemesAtStartup": true,
   "ribbonIconEnabled": true,
   "loggingEnabled": false,
   "loggingPath": "BRAT-log",

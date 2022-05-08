@@ -7,13 +7,8 @@
         "id": "9dd1471e6e7496f4",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Workflow/插件用法.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -99,9 +94,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Workflow/插件用法.md"
-              }
+              "state": {}
             }
           },
           {
@@ -110,7 +103,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Workflow/插件用法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +114,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Workflow/插件用法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,15 +158,15 @@
   },
   "active": "9dd1471e6e7496f4",
   "lastOpenFiles": [
+    "Paper/zo2ob/mds/@jaloteFaultToleranceDistributed1994.md",
+    "Lectures/云计算课程论文研读报告.md",
+    "2022-04-07.md",
+    "excalibrain.md",
     "Workflow/插件用法.md",
     "Workflow/全系workflow搭建.md",
-    "excalibrain.md",
     "论文撰写.md",
     "常用指令.md",
     "对神经网络模型参数进行多线程单比特位故障注入代码.md",
-    "Lectures/容错系统.md",
-    "Lectures/云计算课程论文研读报告.md",
-    "linux配置代理Qv2ray和Clash.md",
-    "Learning/Git.md"
+    "Lectures/容错系统.md"
   ]
 }
