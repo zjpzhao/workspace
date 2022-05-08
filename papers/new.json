@@ -1,0 +1,3479 @@
+{
+  "collections": {
+    "89K6PZVW": {
+      "collections": [],
+      "items": [
+        97,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        118,
+        119,
+        120,
+        121,
+        122,
+        168,
+        169,
+        170
+      ],
+      "key": "89K6PZVW",
+      "name": "Detection Model",
+      "parent": ""
+    },
+    "9ML3SXBU": {
+      "collections": [],
+      "items": [
+        57,
+        58,
+        63,
+        7786
+      ],
+      "key": "9ML3SXBU",
+      "name": "To be Classified",
+      "parent": ""
+    },
+    "FS5ZRIWZ": {
+      "collections": [],
+      "items": [
+        252
+      ],
+      "key": "FS5ZRIWZ",
+      "name": "Computer Architecture",
+      "parent": "YXK8S2C9"
+    },
+    "HMQVTZ7W": {
+      "collections": [],
+      "items": [
+        247,
+        250,
+        251,
+        7790
+      ],
+      "key": "HMQVTZ7W",
+      "name": "CUDA",
+      "parent": "YXK8S2C9"
+    },
+    "JYHUVDJF": {
+      "collections": [],
+      "items": [
+        210,
+        321,
+        324
+      ],
+      "key": "JYHUVDJF",
+      "name": "Cloud Computing",
+      "parent": ""
+    },
+    "KCJQMBL7": {
+      "collections": [],
+      "items": [
+        108,
+        114,
+        115,
+        122,
+        144,
+        168,
+        169,
+        170
+      ],
+      "key": "KCJQMBL7",
+      "name": "Reading",
+      "parent": ""
+    },
+    "NTN23YJ8": {
+      "collections": [],
+      "items": [
+        248,
+        329,
+        363,
+        385,
+        401
+      ],
+      "key": "NTN23YJ8",
+      "name": "Fault Tolerance",
+      "parent": "YXK8S2C9"
+    },
+    "Q7FV3VXB": {
+      "collections": [],
+      "items": [
+        7791,
+        7793
+      ],
+      "key": "Q7FV3VXB",
+      "name": "Inputs Related",
+      "parent": ""
+    },
+    "RLZKFTSE": {
+      "collections": [],
+      "items": [
+        62,
+        64,
+        99,
+        102,
+        107,
+        144,
+        176,
+        207
+      ],
+      "key": "RLZKFTSE",
+      "name": "Modeling Tools",
+      "parent": ""
+    },
+    "TSDC4869": {
+      "collections": [],
+      "items": [
+        342
+      ],
+      "key": "TSDC4869",
+      "name": "Linux",
+      "parent": "YXK8S2C9"
+    },
+    "VK6XIGJC": {
+      "collections": [],
+      "items": [
+        351
+      ],
+      "key": "VK6XIGJC",
+      "name": "Vulnerability",
+      "parent": ""
+    },
+    "W43MLK4H": {
+      "collections": [],
+      "items": [
+        119,
+        209,
+        236,
+        249,
+        346,
+        7788,
+        7791
+      ],
+      "key": "W43MLK4H",
+      "name": "Resilience",
+      "parent": ""
+    },
+    "YXK8S2C9": {
+      "collections": [
+        "FS5ZRIWZ",
+        "HMQVTZ7W",
+        "NTN23YJ8",
+        "TSDC4869"
+      ],
+      "items": [],
+      "key": "YXK8S2C9",
+      "name": "Books",
+      "parent": ""
+    }
+  },
+  "config": {
+    "id": "36a3b0b5-bad0-4a04-b79b-441c7cef77db",
+    "label": "BetterBibTeX JSON",
+    "localeDateOrder": "mdy",
+    "options": {
+      "exportFileData": false,
+      "exportNotes": true,
+      "keepUpdated": true
+    },
+    "preferences": {
+      "DOIandURL": "both",
+      "ascii": "",
+      "asciiBibLaTeX": false,
+      "asciiBibTeX": true,
+      "autoAbbrev": false,
+      "autoAbbrevStyle": "",
+      "autoExport": "immediate",
+      "autoExportDelay": 5,
+      "autoExportIdleWait": 10,
+      "autoExportPathReplaceDiacritics": false,
+      "autoExportPathReplaceDirSep": "-",
+      "autoExportPathReplaceSpace": " ",
+      "autoPinDelay": 0,
+      "automaticTags": true,
+      "auxImport": false,
+      "baseAttachmentPath": "F:\\zotero_backup",
+      "biblatexExtendedDateFormat": true,
+      "biblatexExtendedNameFormat": false,
+      "biblatexExtractEprint": true,
+      "bibtexParticleNoOp": false,
+      "bibtexURL": "off",
+      "cache": true,
+      "cacheFlushInterval": 5,
+      "charmap": "",
+      "citeCommand": "cite",
+      "citekeyFold": true,
+      "citekeyFormat": "shorttitle(3,3) + year +auth.lower",
+      "citekeyFormatBackup": "",
+      "citekeySearch": true,
+      "csquotes": "",
+      "exportBibTeXStrings": "off",
+      "exportBraceProtection": true,
+      "exportTitleCase": true,
+      "extraMergeCSL": false,
+      "extraMergeCitekeys": false,
+      "extraMergeTeX": false,
+      "git": "config",
+      "import": true,
+      "importBibTeXStrings": true,
+      "importCaseProtection": "as-needed",
+      "importCitationKey": true,
+      "importExtra": true,
+      "importJabRefAbbreviations": true,
+      "importJabRefStrings": true,
+      "importSentenceCase": "on+guess",
+      "importUnknownTexCommand": "ignore",
+      "itemObserverDelay": 5,
+      "jabrefFormat": 0,
+      "jieba": false,
+      "keyConflictPolicy": "keep",
+      "keyScope": "library",
+      "kuroshiro": false,
+      "mapMath": "",
+      "mapText": "",
+      "mapUnicode": "conservative",
+      "parseParticles": true,
+      "patchDates": "",
+      "platform": "win",
+      "postscript": "",
+      "postscriptOverride": "",
+      "preferencesOverride": "",
+      "qualityReport": false,
+      "quickCopyEta": "",
+      "quickCopyMode": "latex",
+      "quickCopyOrgMode": "zotero",
+      "quickCopyPandocBrackets": false,
+      "quickCopySelectLink": "zotero",
+      "rawImports": false,
+      "rawLaTag": "#LaTeX",
+      "relativeFilePaths": false,
+      "retainCache": false,
+      "scrubDatabase": false,
+      "separatorList": "and",
+      "separatorNames": "and",
+      "skipFields": "",
+      "skipWords": "a,ab,aboard,about,above,across,after,against,al,along,amid,among,an,and,anti,around,as,at,before,behind,below,beneath,beside,besides,between,beyond,but,by,d,da,das,de,del,dell,dello,dei,degli,della,dell,delle,dem,den,der,des,despite,die,do,down,du,during,ein,eine,einem,einen,einer,eines,el,en,et,except,for,from,gli,i,il,in,inside,into,is,l,la,las,le,les,like,lo,los,near,nor,of,off,on,onto,or,over,past,per,plus,round,save,since,so,some,sur,than,the,through,to,toward,towards,un,una,unas,under,underneath,une,unlike,uno,unos,until,up,upon,versus,via,von,while,with,within,without,yet,zu,zum",
+      "startupProgress": "popup",
+      "strings": "",
+      "stringsOverride": "",
+      "testing": false,
+      "verbatimFields": "url,doi,file,ids,eprint,verba,verbb,verbc,groups",
+      "warnBulkModify": 10,
+      "warnTitleCased": false,
+      "workers": 1
+    }
+  },
+  "items": [
+    {
+      "DOI": "10.1109/ISCA45697.2020.00047",
+      "ISBN": "978-1-72814-661-4",
+      "abstractNote": "In computer architecture, signiﬁcant innovation frequently comes from industry. However, the simulation tools used by industry are often not released for open use, and even when they are, the exact details of industrial designs are not disclosed. As a result, research in the architecture space must ensure that assumptions about contemporary processor design remain true. To help bridge the gap between opaque industrial innovation and public research, we introduce three mechanisms that make it much easier for GPU simulators to keep up with industry. First, we introduce a new GPU simulator frontend that minimizes the effort required to simulate different machine ISAs through trace-driven simulation of NVIDIA’s native machine ISA, while still supporting execution-driven simulation of the virtual ISA. Second, we extensively update GPGPU-Sim’s performance model to increase its level of detail, conﬁgurability and accuracy. Finally, surrounding the new frontend and ﬂexible performance model is an infrastructure that enables quick, detailed validation. A comprehensive set of microbenchmarks and automated correlation plotting ease the modeling process.",
+      "accessDate": "2021-12-10T00:23:29Z",
+      "attachments": [
+        {
+          "dateAdded": "2021-12-10T00:23:22Z",
+          "dateModified": "2021-12-10T00:23:29Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\6GEXUR2Y\\Khairy et al. - 2020 - Accel-Sim An Extensible Simulation Framework for .pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Khairy et al. - 2020 - Accel-Sim An Extensible Simulation Framework for .pdf",
+          "uri": "http://zotero.org/users/7659667/items/6GEXUR2Y"
+        }
+      ],
+      "citationKey": "khairyAccelSimExtensibleSimulation2020",
+      "citekey": "khairyAccelSimExtensibleSimulation2020",
+      "conferenceName": "2020 ACM/IEEE 47th Annual International Symposium on Computer Architecture (ISCA)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Mahmoud",
+          "lastName": "Khairy"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Zhesheng",
+          "lastName": "Shen"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Tor M.",
+          "lastName": "Aamodt"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Timothy G.",
+          "lastName": "Rogers"
+        }
+      ],
+      "date": "5/2020",
+      "dateAdded": "2021-12-10T00:23:29Z",
+      "dateModified": "2022-04-17T10:16:20Z",
+      "itemID": 144,
+      "itemKey": "2AUJKQMF",
+      "itemType": "conferencePaper",
+      "key": "2AUJKQMF",
+      "language": "en",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "473-486",
+      "place": "Valencia, Spain",
+      "publicationTitle": "2020 ACM/IEEE 47th Annual International Symposium on Computer Architecture (ISCA)",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/2AUJKQMF",
+      "shortTitle": "Accel-Sim",
+      "tags": [],
+      "title": "Accel-Sim: An Extensible Simulation Framework for Validated GPU Modeling",
+      "uri": "http://zotero.org/users/7659667/items/2AUJKQMF",
+      "url": "https://ieeexplore.ieee.org/document/9138922/",
+      "version": 730
+    },
+    {
+      "DOI": "10.1109/SC41405.2020.00092",
+      "ISBN": "978-1-72819-998-6",
+      "accessDate": "2021-12-03T03:44:41Z",
+      "attachments": [
+        {
+          "dateAdded": "2021-12-03T03:54:56Z",
+          "dateModified": "2021-12-03T03:54:57Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\GUFBQ8AZ\\Anwer et al_2020_GPU-Trident.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Anwer et al_2020_GPU-Trident.pdf",
+          "uri": "http://zotero.org/users/7659667/items/GUFBQ8AZ"
+        }
+      ],
+      "citationKey": "anwerGPUTridentEfficientModeling2020",
+      "citekey": "anwerGPUTridentEfficientModeling2020",
+      "conferenceName": "SC20: International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Abdul Rehman",
+          "lastName": "Anwer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Guanpeng",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Karthik",
+          "lastName": "Pattabiraman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michael",
+          "lastName": "Sullivan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Timothy",
+          "lastName": "Tsai"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Siva Kumar Sastry",
+          "lastName": "Hari"
+        }
+      ],
+      "date": "11/2020",
+      "dateAdded": "2021-12-03T03:44:41Z",
+      "dateModified": "2022-05-07T16:09:41Z",
+      "itemID": 122,
+      "itemKey": "2FZELCHL",
+      "itemType": "conferencePaper",
+      "key": "2FZELCHL",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1-15",
+      "place": "Atlanta, GA, USA",
+      "publicationTitle": "SC20: International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/2FZELCHL",
+      "shortTitle": "GPU-Trident",
+      "tags": [
+        {
+          "tag": "Error Propagation"
+        },
+        {
+          "tag": "⭐"
+        },
+        {
+          "tag": "Soft Error"
+        },
+        {
+          "tag": "SDC"
+        },
+        {
+          "tag": "Error Resilience"
+        }
+      ],
+      "title": "GPU-Trident: Efficient Modeling of Error Propagation in GPU Programs",
+      "uri": "http://zotero.org/users/7659667/items/2FZELCHL",
+      "url": "https://ieeexplore.ieee.org/document/9355257/",
+      "version": 2046
+    },
+    {
+      "DOI": "10.1145/3437801.3441589",
+      "attachments": [
+        {
+          "dateAdded": "2022-04-30T12:54:16Z",
+          "dateModified": "2022-04-30T12:54:16Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\G8S9DN2B\\Li et al_2021_Understanding a program's resiliency through error propagation.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Li et al_2021_Understanding a program's resiliency through error propagation.pdf",
+          "uri": "http://zotero.org/users/7659667/items/G8S9DN2B"
+        }
+      ],
+      "citationKey": "liUnderstandingProgramResiliency2021",
+      "citekey": "liUnderstandingProgramResiliency2021",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Zhimin",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Harshitha",
+          "lastName": "Menon"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Kathryn",
+          "lastName": "Mohror"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Peer-Timo",
+          "lastName": "Bremer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yarden",
+          "lastName": "Livnat"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Valerio",
+          "lastName": "Pascucci"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Jaejin",
+          "lastName": "Lee"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Erez",
+          "lastName": "Petrank"
+        }
+      ],
+      "date": "2021",
+      "dateAdded": "2022-04-30T12:53:50Z",
+      "dateModified": "2022-04-30T12:53:50Z",
+      "itemID": 346,
+      "itemKey": "38QS7MFI",
+      "itemType": "conferencePaper",
+      "key": "38QS7MFI",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "362–373",
+      "publicationTitle": "PPoPP '21: 26th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming, Virtual Event, Republic of Korea, February 27- March 3, 2021",
+      "publisher": "ACM",
+      "relations": [],
+      "select": "zotero://select/library/items/38QS7MFI",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Understanding a program's resiliency through error propagation",
+      "uri": "http://zotero.org/users/7659667/items/38QS7MFI",
+      "url": "https://doi.org/10.1145/3437801.3441589",
+      "version": 1473
+    },
+    {
+      "DOI": "10.1109/DSN48987.2021.00041",
+      "ISBN": "978-1-66543-572-7",
+      "accessDate": "2021-12-02T08:51:11Z",
+      "attachments": [
+        {
+          "dateAdded": "2021-12-02T08:53:14Z",
+          "dateModified": "2021-12-02T08:53:15Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\L8WF96WK\\Tsai et al_2021_NVBitFI.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Tsai et al_2021_NVBitFI.pdf",
+          "uri": "http://zotero.org/users/7659667/items/L8WF96WK"
+        }
+      ],
+      "citationKey": "tsaiNVBitFIDynamicFault2021",
+      "citekey": "tsaiNVBitFIDynamicFault2021",
+      "conferenceName": "2021 51st Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Timothy",
+          "lastName": "Tsai"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Siva Kumar Sastry",
+          "lastName": "Hari"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michael",
+          "lastName": "Sullivan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Oreste",
+          "lastName": "Villa"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Stephen W.",
+          "lastName": "Keckler"
+        }
+      ],
+      "date": "6/2021",
+      "dateAdded": "2021-12-02T08:51:11Z",
+      "dateModified": "2022-04-17T10:16:21Z",
+      "itemID": 102,
+      "itemKey": "3PBS8V9V",
+      "itemType": "conferencePaper",
+      "key": "3PBS8V9V",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "284-291",
+      "place": "Taipei, Taiwan",
+      "publicationTitle": "2021 51st Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/3PBS8V9V",
+      "shortTitle": "NVBitFI",
+      "tags": [],
+      "title": "NVBitFI: Dynamic Fault Injection for GPUs",
+      "uri": "http://zotero.org/users/7659667/items/3PBS8V9V",
+      "url": "https://ieeexplore.ieee.org/document/9505068/",
+      "version": 728
+    },
+    {
+      "DOI": "10.1145/3339363.3339382",
+      "ISBN": "978-1-4503-7172-8",
+      "accessDate": "2021-12-03T03:27:53Z",
+      "attachments": [
+        {
+          "dateAdded": "2021-12-03T03:31:02Z",
+          "dateModified": "2021-12-03T03:31:02Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\B6FVZ4QM\\Xue et al_2019_Modeling the Propagation of Soft Errors in Programs.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Xue et al_2019_Modeling the Propagation of Soft Errors in Programs.pdf",
+          "uri": "http://zotero.org/users/7659667/items/B6FVZ4QM"
+        }
+      ],
+      "citationKey": "xueModelingPropagationSoft2019",
+      "citekey": "xueModelingPropagationSoft2019",
+      "conferenceName": "the 2nd International Conference",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Lixing",
+          "lastName": "Xue"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Zhan",
+          "lastName": "Zhang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Decheng",
+          "lastName": "Zou"
+        }
+      ],
+      "date": "2019",
+      "dateAdded": "2021-12-03T03:27:53Z",
+      "dateModified": "2022-05-03T13:43:01Z",
+      "itemID": 108,
+      "itemKey": "55ZXU92X",
+      "itemType": "conferencePaper",
+      "key": "55ZXU92X",
+      "language": "en",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "144-152",
+      "place": "Xi'an, China",
+      "publicationTitle": "Proceedings of the 2nd International Conference on Computer Science and Software Engineering  - CSSE 2019",
+      "publisher": "ACM Press",
+      "relations": [],
+      "select": "zotero://select/library/items/55ZXU92X",
+      "tags": [
+        {
+          "tag": "Error Propagation"
+        }
+      ],
+      "title": "Modeling the Propagation of Soft Errors in Programs",
+      "uri": "http://zotero.org/users/7659667/items/55ZXU92X",
+      "url": "http://dl.acm.org/citation.cfm?doid=3339363.3339382",
+      "version": 1905
+    },
+    {
+      "ISBN": "978-0-471-46406-8 978-0-471-29342-2 978-0-471-22460-0 978-1-280-36749-6",
+      "abstractNote": "With computers becoming embedded as controllers in everything from network servers to the routing of subway schedules to NASA missions, there is a critical need to ensure that systems continue to function even when a component fails. In this book, bestselling author Martin Shooman draws on his expertise in reliability engineering and software engineering to provide a complete and authoritative look at fault tolerant computing. He clearly explains all fundamentals, including how to use redundant elements in system design to ensure the reliability of computer systems and networks. Market: Syst.",
+      "accessDate": "2022-04-08T07:29:02Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-08T04:21:40Z",
+          "dateModified": "2022-05-08T04:21:40Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\ZJP\\Desktop\\ReliabilityComputerSystems2003shooman-zotero.md",
+          "relations": [],
+          "tags": [],
+          "title": "ReliabilityComputerSystems2003shooman-zotero.md",
+          "uri": "http://zotero.org/users/7659667/items/E3IU9RL8"
+        },
+        {
+          "dateAdded": "2022-04-08T07:28:39Z",
+          "dateModified": "2022-04-08T07:29:03Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\RX7RQLEZ\\Shooman - 2003 - Reliability of Computer Systems and Networks Fault.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Shooman - 2003 - Reliability of Computer Systems and Networks Fault.pdf",
+          "uri": "http://zotero.org/users/7659667/items/RX7RQLEZ"
+        }
+      ],
+      "citationKey": "ReliabilityComputerSystems2003shooman",
+      "citekey": "ReliabilityComputerSystems2003shooman",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Martin L",
+          "lastName": "Shooman"
+        }
+      ],
+      "date": "2003",
+      "dateAdded": "2022-04-08T07:29:02Z",
+      "dateModified": "2022-04-17T10:16:19Z",
+      "extra": "OCLC: 849895333",
+      "itemID": 248,
+      "itemKey": "5MCDKWYB",
+      "itemType": "book",
+      "key": "5MCDKWYB",
+      "language": "en",
+      "libraryID": 1,
+      "notes": [
+        {
+          "dateAdded": "2022-05-08T03:47:11Z",
+          "dateModified": "2022-05-08T03:47:15Z",
+          "itemType": "note",
+          "key": "F8TZ8ET2",
+          "note": "<div data-citation-items=\"%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%2C%22type%22%3A%22book%22%2C%22abstract%22%3A%22With%20computers%20becoming%20embedded%20as%20controllers%20in%20everything%20from%20network%20servers%20to%20the%20routing%20of%20subway%20schedules%20to%20NASA%20missions%2C%20there%20is%20a%20critical%20need%20to%20ensure%20that%20systems%20continue%20to%20function%20even%20when%20a%20component%20fails.%20In%20this%20book%2C%20bestselling%20author%20Martin%20Shooman%20draws%20on%20his%20expertise%20in%20reliability%20engineering%20and%20software%20engineering%20to%20provide%20a%20complete%20and%20authoritative%20look%20at%20fault%20tolerant%20computing.%20He%20clearly%20explains%20all%20fundamentals%2C%20including%20how%20to%20use%20redundant%20elements%20in%20system%20design%20to%20ensure%20the%20reliability%20of%20computer%20systems%20and%20networks.%20Market%3A%20Syst.%22%2C%22ISBN%22%3A%22978-0-471-46406-8%22%2C%22language%22%3A%22en%22%2C%22note%22%3A%22OCLC%3A%20849895333%22%2C%22title%22%3A%22Reliability%20of%20Computer%20Systems%20and%20Networks%20Fault%20Tolerance%2C%20Analysis%2C%20and%20Design%22%2C%22URL%22%3A%22https%3A%2F%2Fdoi.org%2F10.1002%2F047122460X%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Shooman%22%2C%22given%22%3A%22Martin%20L%22%7D%5D%2C%22accessed%22%3A%7B%22date-parts%22%3A%5B%5B%222022%22%2C4%2C8%5D%5D%7D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%222003%22%5D%5D%7D%2C%22citation-key%22%3A%22ReliabilityComputerSystems2003shooman%22%7D%7D%5D\" data-schema-version=\"8\"><h1>Annotations<br/>(5/8/2022, 11:47:12 AM)</h1>\n<p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FRX7RQLEZ%22%2C%22annotationKey%22%3A%22DGXZRHW7%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%22119%22%2C%22position%22%3A%7B%22pageIndex%22%3A118%2C%22rects%22%3A%5B%5B96.53%2C442.874%2C154.611%2C452.421%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22119%22%7D%7D\">“r-OUT-OF-n”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22119%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Shooman, 2003, p. 119</span>)</span></p><p><img data-attachment-key=\"S6HRQAM6\" width=\"281\" height=\"60\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FRX7RQLEZ%22%2C%22annotationKey%22%3A%22MDCICSSV%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%22119%22%2C%22position%22%3A%7B%22pageIndex%22%3A118%2C%22rects%22%3A%5B%5B136.19999885559082%2C59.09999084472656%2C304.5749988555908%2C95.09999084472656%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22119%22%7D%7D\"/><br/><span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22119%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Shooman, 2003, p. 119</span>)</span> r out of n</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FRX7RQLEZ%22%2C%22annotationKey%22%3A%2299UFU9S4%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%22124%22%2C%22position%22%3A%7B%22pageIndex%22%3A123%2C%22rects%22%3A%5B%5B94.809%2C503.729%2C343.548%2C512.499%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22124%22%7D%7D\">“Figure 3.11 A probabilistic state model for a standby system.”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22124%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Shooman, 2003, p. 124</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FRX7RQLEZ%22%2C%22annotationKey%22%3A%22EXIH7LNL%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%22127%22%2C%22position%22%3A%7B%22pageIndex%22%3A126%2C%22rects%22%3A%5B%5B63.236%2C385.729%2C379.51%2C394.499%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22127%22%7D%7D\">“Figure 3.12 A standby system in which input and power switching are shown.”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22127%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Shooman, 2003, p. 127</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FRX7RQLEZ%22%2C%22annotationKey%22%3A%2235VJCXS4%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%22131%22%2C%22position%22%3A%7B%22pageIndex%22%3A130%2C%22rects%22%3A%5B%5B229.157%2C587.496%2C388.736%2C597.17%5D%2C%5B54%2C575.541%2C309.795%2C585.215%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22131%22%7D%7D\">“The Markov equations corresponding to Fig. 3.14 can be written by utilizing a simple algorithm:”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22131%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Shooman, 2003, p. 131</span>)</span> 对Markov图直接列微分方程的算法</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FRX7RQLEZ%22%2C%22annotationKey%22%3A%2222Q5RXBK%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%22196%22%2C%22position%22%3A%7B%22pageIndex%22%3A195%2C%22rects%22%3A%5B%5B83.487%2C432.732%2C325.206%2C442.279%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22196%22%7D%7D\">“Comparison of TMR, Parallel, and Standby Systems”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22196%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Shooman, 2003, p. 196</span>)</span></p><p><img data-attachment-key=\"E9E35TF9\" width=\"202\" height=\"177\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FRX7RQLEZ%22%2C%22annotationKey%22%3A%227UE2MCFN%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%22303%22%2C%22position%22%3A%7B%22pageIndex%22%3A302%2C%22rects%22%3A%5B%5B159.375%2C497.25%2C280.5%2C603.375%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22303%22%7D%7D\"/><br/><span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22303%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Shooman, 2003, p. 303</span>)</span> network reliability</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FRX7RQLEZ%22%2C%22annotationKey%22%3A%22CI3V7DUI%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%22306%22%2C%22position%22%3A%7B%22pageIndex%22%3A305%2C%22rects%22%3A%5B%5B75.567%2C264.97%2C236.919%2C274.517%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22306%22%7D%7D\">“TWO-TERMINAL RELIABILITY”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22306%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Shooman, 2003, p. 306</span>)</span></p><p><img data-attachment-key=\"PXCKGR9I\" width=\"573\" height=\"334\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FRX7RQLEZ%22%2C%22annotationKey%22%3A%228SIHC62I%22%2C%22color%22%3A%22%23ff6666%22%2C%22pageLabel%22%3A%22407%22%2C%22position%22%3A%7B%22pageIndex%22%3A406%2C%22rects%22%3A%5B%5B54%2C58.125000000000085%2C397.875%2C258.5250091552735%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22407%22%7D%7D\"/><br/><span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22407%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Shooman, 2003, p. 407</span>)</span> inclusion-exclusion formula</p><p><img data-attachment-key=\"K22LI9BK\" width=\"466\" height=\"62\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FRX7RQLEZ%22%2C%22annotationKey%22%3A%227Z3T9QU2%22%2C%22color%22%3A%22%23ff6666%22%2C%22pageLabel%22%3A%22409%22%2C%22position%22%3A%7B%22pageIndex%22%3A408%2C%22rects%22%3A%5B%5B83.32499885559082%2C471.52499771118164%2C363.0749988555908%2C508.64999771118164%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22409%22%7D%7D\"/><br/><span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22409%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Shooman, 2003, p. 409</span>)</span> 非独立事件的乘</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FRX7RQLEZ%22%2C%22annotationKey%22%3A%22DWQ8V4U5%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%22413%22%2C%22position%22%3A%7B%22rects%22%3A%5B%5B161.906%2C509.789%2C388.16%2C519.462%5D%2C%5B54.033%2C497.833%2C134.45%2C507.506%5D%5D%2C%22pageIndex%22%3A412%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22413%22%7D%7D\">“we let np, the most probable number of occurrences, <br>be some number m”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22413%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Shooman, 2003, p. 413</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FRX7RQLEZ%22%2C%22annotationKey%22%3A%22S89K725I%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%22413%22%2C%22position%22%3A%7B%22rects%22%3A%5B%5B376.652%2C333.613%2C388.532%2C343.286%5D%2C%5B54.264%2C321.657%2C388.121%2C331.351%5D%2C%5B54.138%2C309.703%2C102.71%2C319.398%5D%5D%2C%22pageIndex%22%3A412%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22413%22%7D%7D\">“we <br>can define the rate of occurrence as the constant l c occurrences per unit time; <br>thus m c lt.”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22413%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Shooman, 2003, p. 413</span>)</span></p><p><img data-attachment-key=\"HLPADERL\" width=\"174\" height=\"60\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FRX7RQLEZ%22%2C%22annotationKey%22%3A%22WB5ZSB3V%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%22413%22%2C%22position%22%3A%7B%22pageIndex%22%3A412%2C%22rects%22%3A%5B%5B167.60715831730164%2C266.418%2C272.1706687099114%2C302.744%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22413%22%7D%7D\"/><br/><span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22413%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Shooman, 2003, p. 413</span>)</span> poisson distribution（r: num of occurrences）</p><p><img data-attachment-key=\"DZY8GHHF\" width=\"577\" height=\"323\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FRX7RQLEZ%22%2C%22annotationKey%22%3A%22UGFD6WCR%22%2C%22color%22%3A%22%23ff6666%22%2C%22pageLabel%22%3A%22421%22%2C%22position%22%3A%7B%22pageIndex%22%3A420%2C%22rects%22%3A%5B%5B50.25%2C408.3000011444092%2C396.375%2C602.2500000000001%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22421%22%7D%7D\"/><br/><span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22421%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Shooman, 2003, p. 421</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FRX7RQLEZ%22%2C%22annotationKey%22%3A%22FJJYQ9SY%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%22429%22%2C%22position%22%3A%7B%22pageIndex%22%3A428%2C%22rects%22%3A%5B%5B53.798%2C562.079%2C177.825%2C578.831%5D%2C%5B53.798%2C519.241%2C314.259%2C535.992%5D%2C%5B53.798%2C501.307%2C141.581%2C520.666%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22429%22%7D%7D\">“APPENDIX B SUMMARY OF RELIABILITY THEORY*”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22429%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Shooman, 2003, p. 429</span>)</span></p><p><img data-attachment-key=\"TW42DEDB\" width=\"278\" height=\"49\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FRX7RQLEZ%22%2C%22annotationKey%22%3A%22E62QN4JR%22%2C%22color%22%3A%22%23ff6666%22%2C%22pageLabel%22%3A%22440%22%2C%22position%22%3A%7B%22pageIndex%22%3A439%2C%22rects%22%3A%5B%5B76.20000457763672%2C381.0750045776367%2C242.70000457763672%2C410.69999999999993%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22440%22%7D%7D\"/><br/><span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22440%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Shooman, 2003, p. 440</span>)</span> failure density function</p><p><img data-attachment-key=\"RSDEUWFP\" width=\"279\" height=\"46\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FRX7RQLEZ%22%2C%22annotationKey%22%3A%22DL2A7IUV%22%2C%22color%22%3A%22%23ff6666%22%2C%22pageLabel%22%3A%22440%22%2C%22position%22%3A%7B%22pageIndex%22%3A439%2C%22rects%22%3A%5B%5B75.07500457763672%2C291.17999267578125%2C242.32500457763672%2C318.82500457763683%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22440%22%7D%7D\"/><br/><span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22440%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Shooman, 2003, p. 440</span>)</span> hazard rate function</p><p><img data-attachment-key=\"FQK6YMV8\" width=\"261\" height=\"47\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FRX7RQLEZ%22%2C%22annotationKey%22%3A%22NJZ6YFR2%22%2C%22color%22%3A%22%23ff6666%22%2C%22pageLabel%22%3A%22443%22%2C%22position%22%3A%7B%22pageIndex%22%3A442%2C%22rects%22%3A%5B%5B141.07500457763672%2C571.125%2C297.4500045776367%2C599.25%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22443%22%7D%7D\"/><br/><span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22443%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Shooman, 2003, p. 443</span>)</span></p><p><img data-attachment-key=\"9HXI9DAP\" width=\"248\" height=\"51\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FRX7RQLEZ%22%2C%22annotationKey%22%3A%22K4WY5D3U%22%2C%22color%22%3A%22%23ff6666%22%2C%22pageLabel%22%3A%22449%22%2C%22position%22%3A%7B%22pageIndex%22%3A448%2C%22rects%22%3A%5B%5B149.32500457763672%2C191.25%2C298.2000045776367%2C222.15000915527344%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22449%22%7D%7D\"/><br/><span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22449%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Shooman, 2003, p. 449</span>)</span></p><p><img data-attachment-key=\"Q78Z5QLS\" width=\"300\" height=\"55\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FRX7RQLEZ%22%2C%22annotationKey%22%3A%22G4PHU5YN%22%2C%22color%22%3A%22%23ff6666%22%2C%22pageLabel%22%3A%22450%22%2C%22position%22%3A%7B%22pageIndex%22%3A449%2C%22rects%22%3A%5B%5B129.75%2C424.50000000000006%2C309.75%2C457.50000000000006%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22450%22%7D%7D\"/><br/><span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22450%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Shooman, 2003, p. 450</span>)</span> z(t) = ln'n(t)</p><p><img data-attachment-key=\"F6DXD7KT\" width=\"295\" height=\"61\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FRX7RQLEZ%22%2C%22annotationKey%22%3A%227HCRQGA2%22%2C%22color%22%3A%22%23ff6666%22%2C%22pageLabel%22%3A%22450%22%2C%22position%22%3A%7B%22pageIndex%22%3A449%2C%22rects%22%3A%5B%5B133.20000457763672%2C241.50000000000003%2C310.125%2C278.25000000000006%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22450%22%7D%7D\"/><br/><span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22450%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Shooman, 2003, p. 450</span>)</span> 通常z(t)已知，可以求出来R(t)进而通过公式B(37)求出f(t)</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FRX7RQLEZ%22%2C%22annotationKey%22%3A%223A6MVASW%22%2C%22color%22%3A%22%23ff6666%22%2C%22pageLabel%22%3A%22469%22%2C%22position%22%3A%7B%22pageIndex%22%3A468%2C%22rects%22%3A%5B%5B36.067%2C587.846%2C263.216%2C596.411%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22469%22%7D%7D\">“TABLE B5 State Transition Matrix for Two Elements”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22469%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Shooman, 2003, p. 469</span>)</span></p><p><img data-attachment-key=\"ED46W2LP\" width=\"609\" height=\"226\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FRX7RQLEZ%22%2C%22annotationKey%22%3A%22GBN7XHKX%22%2C%22color%22%3A%22%23ff6666%22%2C%22pageLabel%22%3A%22471%22%2C%22position%22%3A%7B%22pageIndex%22%3A470%2C%22rects%22%3A%5B%5B40.781%2C74.90625000000001%2C406.406%2C210.84374999999997%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22471%22%7D%7D\"/><br/><span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22471%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Shooman, 2003, p. 471</span>)</span> Collapsed Markov Graph</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FRX7RQLEZ%22%2C%22annotationKey%22%3A%224ZIXX5BE%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%22474%22%2C%22position%22%3A%7B%22pageIndex%22%3A473%2C%22rects%22%3A%5B%5B213.711%2C401.843%2C261.81%2C412.403%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22474%22%7D%7D\">“R(t) ≤ A(t).”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22474%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Shooman, 2003, p. 474</span>)</span> 可靠性和可用性的关系</p><p><img data-attachment-key=\"I6KFLPRV\" width=\"556\" height=\"305\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FRX7RQLEZ%22%2C%22annotationKey%22%3A%225MW6RNQW%22%2C%22color%22%3A%22%23ff6666%22%2C%22pageLabel%22%3A%22476%22%2C%22position%22%3A%7B%22pageIndex%22%3A475%2C%22rects%22%3A%5B%5B58.12499999999999%2C420.375%2C391.875%2C603.6562499999999%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22476%22%7D%7D\"/><br/><span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22476%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Shooman, 2003, p. 476</span>)</span> 极限值是稳态（Steady-State）</p><p><img data-attachment-key=\"REIQE428\" width=\"319\" height=\"55\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FRX7RQLEZ%22%2C%22annotationKey%22%3A%22ENXYCF82%22%2C%22color%22%3A%22%23ff6666%22%2C%22pageLabel%22%3A%22476%22%2C%22position%22%3A%7B%22pageIndex%22%3A475%2C%22rects%22%3A%5B%5B125.625%2C253.03100000000003%2C316.9687557220459%2C285.84375%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22476%22%7D%7D\"/><br/><span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22476%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Shooman, 2003, p. 476</span>)</span> 求单部件系统的可用性</p><p><img data-attachment-key=\"BAGDNXUW\" width=\"342\" height=\"44\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FRX7RQLEZ%22%2C%22annotationKey%22%3A%22R5KWPSA8%22%2C%22color%22%3A%22%23ff6666%22%2C%22pageLabel%22%3A%22476%22%2C%22position%22%3A%7B%22pageIndex%22%3A475%2C%22rects%22%3A%5B%5B128.5312557220459%2C107.24999999999999%2C333.75%2C133.49999999999997%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22476%22%7D%7D\"/><br/><span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22476%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Shooman, 2003, p. 476</span>)</span> 稳态可用性</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FRX7RQLEZ%22%2C%22annotationKey%22%3A%22LAVEQAX2%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%22525%22%2C%22position%22%3A%7B%22pageIndex%22%3A524%2C%22rects%22%3A%5B%5B85.385%2C545.78%2C241.442%2C555.327%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22525%22%7D%7D\">“Reliability Block Diagram Models”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F5MCDKWYB%22%5D%2C%22locator%22%3A%22525%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Shooman, 2003, p. 525</span>)</span></p></div>",
+          "parentItem": "5MCDKWYB",
+          "relations": {},
+          "tags": [],
+          "uri": "http://zotero.org/users/7659667/items/F8TZ8ET2",
+          "version": 2102
+        }
+      ],
+      "relations": [],
+      "select": "zotero://select/library/items/5MCDKWYB",
+      "tags": [],
+      "title": "Reliability of Computer Systems and Networks Fault Tolerance, Analysis, and Design",
+      "uri": "http://zotero.org/users/7659667/items/5MCDKWYB",
+      "url": "https://doi.org/10.1002/047122460X",
+      "version": 730
+    },
+    {
+      "DOI": "10.1145/3503221.3508414",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-08T02:33:03Z",
+          "dateModified": "2022-05-08T02:33:44Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\4MN3LIKW\\Huang et al_2022_Hardening selective protection across multiple program inputs for HPC.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Huang et al_2022_Hardening selective protection across multiple program inputs for HPC.pdf",
+          "uri": "http://zotero.org/users/7659667/items/4MN3LIKW"
+        }
+      ],
+      "citationKey": "huangHardeningSelectiveProtection2022",
+      "citekey": "huangHardeningSelectiveProtection2022",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Yafan",
+          "lastName": "Huang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Shengjian",
+          "lastName": "Guo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sheng",
+          "lastName": "Di"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Guanpeng",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Franck",
+          "lastName": "Cappello"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Jaejin",
+          "lastName": "Lee"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Kunal",
+          "lastName": "Agrawal"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Michael F.",
+          "lastName": "Spear"
+        }
+      ],
+      "date": "2022",
+      "dateAdded": "2022-04-30T13:06:50Z",
+      "dateModified": "2022-05-08T02:33:44Z",
+      "itemID": 7791,
+      "itemKey": "6CKDY9TW",
+      "itemType": "conferencePaper",
+      "key": "6CKDY9TW",
+      "libraryCatalog": "DBLP Computer Science Bibliography",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "437–438",
+      "publicationTitle": "PPoPP '22: 27th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming, Seoul, Republic of Korea, April 2 - 6, 2022",
+      "publisher": "ACM",
+      "relations": [],
+      "select": "zotero://select/library/items/6CKDY9TW",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        },
+        {
+          "tag": "Program Input"
+        }
+      ],
+      "title": "Hardening selective protection across multiple program inputs for HPC applications",
+      "uri": "http://zotero.org/users/7659667/items/6CKDY9TW",
+      "version": 2082
+    },
+    {
+      "DOI": "10.1109/TC.2020.2980541",
+      "ISSN": "0018-9340, 1557-9956, 2326-3814",
+      "accessDate": "2021-12-03T03:26:36Z",
+      "attachments": [
+        {
+          "dateAdded": "2021-12-03T03:31:10Z",
+          "dateModified": "2021-12-03T03:31:10Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\DBMHJ86K\\Yang et al_2021_Practical Resilience Analysis of GPGPU Applications in the Presence of Single-.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Yang et al_2021_Practical Resilience Analysis of GPGPU Applications in the Presence of Single-.pdf",
+          "uri": "http://zotero.org/users/7659667/items/DBMHJ86K"
+        }
+      ],
+      "callNumber": "2.663",
+      "citationKey": "yangPracticalResilienceAnalysis2021",
+      "citekey": "yangPracticalResilienceAnalysis2021",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Lishan",
+          "lastName": "Yang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bin",
+          "lastName": "Nie"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Adwait",
+          "lastName": "Jog"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Evgenia",
+          "lastName": "Smirni"
+        }
+      ],
+      "date": "2021-1-1",
+      "dateAdded": "2021-12-03T03:26:36Z",
+      "dateModified": "2022-04-17T10:16:29Z",
+      "issue": "1",
+      "itemID": 110,
+      "itemKey": "6J7Q9N23",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "IEEE T Comput",
+      "key": "6J7Q9N23",
+      "libraryCatalog": "2",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "30-44",
+      "publicationTitle": "IEEE Transactions on Computers",
+      "relations": [],
+      "select": "zotero://select/library/items/6J7Q9N23",
+      "tags": [],
+      "title": "Practical Resilience Analysis of GPGPU Applications in the Presence of Single- and Multi-Bit Faults",
+      "uri": "http://zotero.org/users/7659667/items/6J7Q9N23",
+      "url": "https://ieeexplore.ieee.org/document/9035460/",
+      "version": 728,
+      "volume": "70"
+    },
+    {
+      "attachments": [
+        {
+          "dateAdded": "2022-04-14T05:50:23Z",
+          "dateModified": "2022-04-14T05:50:30Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\QUFIX9C9\\Hennessy - Computer Architecture A Quantitative Approach.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Hennessy - Computer Architecture A Quantitative Approach.pdf",
+          "uri": "http://zotero.org/users/7659667/items/QUFIX9C9"
+        }
+      ],
+      "citationKey": "hennessyComputerArchitectureQuantitative",
+      "citekey": "hennessyComputerArchitectureQuantitative",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "John L",
+          "lastName": "Hennessy"
+        }
+      ],
+      "dateAdded": "2022-04-14T05:50:29Z",
+      "dateModified": "2022-04-17T10:05:13Z",
+      "itemID": 252,
+      "itemKey": "8SLI5H4Q",
+      "itemType": "journalArticle",
+      "key": "8SLI5H4Q",
+      "language": "en",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1527",
+      "relations": [],
+      "select": "zotero://select/library/items/8SLI5H4Q",
+      "tags": [],
+      "title": "Computer Architecture: A Quantitative Approach",
+      "uri": "http://zotero.org/users/7659667/items/8SLI5H4Q",
+      "version": 727
+    },
+    {
+      "charset": "",
+      "contentType": "application/pdf",
+      "dateAdded": "2022-04-29T09:29:58Z",
+      "dateModified": "2022-04-29T09:29:58Z",
+      "defaultPath": "files/342/Linux命令行与shell脚本编程大全.3rd.pdf",
+      "filename": "Linux命令行与shell脚本编程大全.3rd.pdf",
+      "itemID": 342,
+      "itemKey": "99HMLUVN",
+      "itemType": "attachment",
+      "key": "99HMLUVN",
+      "libraryID": 1,
+      "linkMode": "imported_file",
+      "localPath": "D:\\Zotero\\storage\\99HMLUVN\\Linux命令行与shell脚本编程大全.3rd.pdf",
+      "relations": [],
+      "select": "zotero://select/library/items/99HMLUVN",
+      "tags": [],
+      "title": "Linux命令行与shell脚本编程大全.3rd.pdf",
+      "uri": "http://zotero.org/users/7659667/items/99HMLUVN",
+      "version": 1433
+    },
+    {
+      "DOI": "10.1016/j.jpdc.2021.02.015",
+      "ISSN": "07437315",
+      "accessDate": "2021-12-03T03:22:17Z",
+      "attachments": [
+        {
+          "dateAdded": "2021-12-03T03:22:22Z",
+          "dateModified": "2021-12-03T03:22:22Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\JSUBUS8W\\Guo et al_2021_PARIS.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Guo et al_2021_PARIS.pdf",
+          "uri": "http://zotero.org/users/7659667/items/JSUBUS8W"
+        }
+      ],
+      "callNumber": "3.734",
+      "citationKey": "guoPARISPredictingApplication2021",
+      "citekey": "guoPARISPredictingApplication2021",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Luanzheng",
+          "lastName": "Guo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dong",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ignacio",
+          "lastName": "Laguna"
+        }
+      ],
+      "date": "06/2021",
+      "dateAdded": "2021-12-03T03:22:17Z",
+      "dateModified": "2022-04-17T10:16:29Z",
+      "itemID": 118,
+      "itemKey": "9GEJK34J",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "J Parallel Distr Com",
+      "key": "9GEJK34J",
+      "language": "en",
+      "libraryCatalog": "2",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "111-124",
+      "publicationTitle": "Journal of Parallel and Distributed Computing",
+      "relations": [],
+      "select": "zotero://select/library/items/9GEJK34J",
+      "shortTitle": "PARIS",
+      "tags": [],
+      "title": "PARIS: Predicting application resilience using machine learning",
+      "uri": "http://zotero.org/users/7659667/items/9GEJK34J",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0743731521000368",
+      "version": 728,
+      "volume": "152"
+    },
+    {
+      "DOI": "10.1016/j.future.2004.11.016",
+      "ISSN": "0167739X",
+      "accessDate": "2022-04-22T14:28:49Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-04-22T14:28:56Z",
+          "dateModified": "2022-04-22T14:28:57Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\KLG468HR\\Daly_2006_A higher order estimate of the optimum checkpoint interval for restart dumps.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Daly_2006_A higher order estimate of the optimum checkpoint interval for restart dumps.pdf",
+          "uri": "http://zotero.org/users/7659667/items/KLG468HR"
+        }
+      ],
+      "citationKey": "dalyHigherOrderEstimate2006",
+      "citekey": "dalyHigherOrderEstimate2006",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "J.T.",
+          "lastName": "Daly"
+        }
+      ],
+      "date": "2/2006",
+      "dateAdded": "2022-04-22T14:28:49Z",
+      "dateModified": "2022-04-27T13:51:15Z",
+      "issue": "3",
+      "itemID": 321,
+      "itemKey": "A7M6R2B5",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Future Generation Computer Systems",
+      "key": "A7M6R2B5",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "303-312",
+      "publicationTitle": "Future Generation Computer Systems",
+      "relations": [],
+      "select": "zotero://select/library/items/A7M6R2B5",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "A higher order estimate of the optimum checkpoint interval for restart dumps",
+      "uri": "http://zotero.org/users/7659667/items/A7M6R2B5",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0167739X04002213",
+      "version": 1421,
+      "volume": "22"
+    },
+    {
+      "DOI": "10.1145/3297858.3304050",
+      "ISBN": "978-1-4503-6240-5",
+      "abstractNote": "With the end of conventional CMOS scaling, efficient resiliency solutions are needed to address the increased likelihood of hardware errors. Silent data corruptions (SDCs) are especially harmful because they can create unacceptable output without the user's knowledge. Several resiliency analysis techniques have been proposed to identify SDC-causing instructions, but they remain too slow for practical use and/or sacrifice accuracy to improve analysis speed. We develop Minotaur, a novel toolkit to improve the speed and accuracy of resiliency analysis. The key insight behind Minotaur is that modern resiliency analysis has many conceptual similarities to software testing; therefore, adapting techniques from the rich software testing literature can lead to principled and significant improvements in resiliency analysis. Minotaur identifies and adapts four concepts from software testing: 1) it introduces the concept of input quality criteria for resiliency analysis and identifies PC coverage as a simple but effective criterion; 2) it creates (fast) minimized inputs from (slow) standard benchmark inputs, using the input quality criteria to assess the goodness of the created input; 3) it adapts the concept of test case prioritization to prioritize error injections and invoke early termination for a given instruction to speed up error-injection campaigns; and 4) it further adapts test case or input prioritization to accelerate SDC discovery across multiple inputs. We evaluate Minotaur by applying it to Approxilyzer, a state-of-the-art resiliency analysis tool. Minotaur's first three techniques speed up Approxilyzer's resiliency analysis by 10.3X (on average) for the workloads studied. Moreover, they identify 96% (on average) of all SDC-causing instructions explored, compared to 64% identified by Approxilyzer alone. Minotaur's fourth technique (input prioritization) enables identifying all SDC-causing instructions explored across multiple inputs at a speed 2.3X faster (on average) than analyzing each input independently for our workloads.",
+      "attachments": [
+        {
+          "dateAdded": "2021-12-03T04:14:36Z",
+          "dateModified": "2021-12-03T04:14:36Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\4K578Y4W\\Mahmoud et al_2019_Minotaur.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Mahmoud et al_2019_Minotaur.pdf",
+          "uri": "http://zotero.org/users/7659667/items/4K578Y4W"
+        }
+      ],
+      "citationKey": "mahmoudMinotaurAdaptingSoftware2019",
+      "citekey": "mahmoudMinotaurAdaptingSoftware2019",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Abdulrahman",
+          "lastName": "Mahmoud"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Radha",
+          "lastName": "Venkatagiri"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Khalique",
+          "lastName": "Ahmed"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sasa",
+          "lastName": "Misailovic"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Darko",
+          "lastName": "Marinov"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christopher W.",
+          "lastName": "Fletcher"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sarita V.",
+          "lastName": "Adve"
+        }
+      ],
+      "date": "2019",
+      "dateAdded": "2021-12-03T04:13:49Z",
+      "dateModified": "2022-05-07T16:11:47Z",
+      "extra": "event-place: Providence, RI, USA",
+      "itemID": 107,
+      "itemKey": "ALANDUY6",
+      "itemType": "conferencePaper",
+      "key": "ALANDUY6",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1087–1103",
+      "place": "New York, NY, USA",
+      "publicationTitle": "Proceedings of the Twenty-Fourth International Conference on Architectural Support for Programming Languages and Operating Systems",
+      "publisher": "Association for Computing Machinery",
+      "relations": [],
+      "select": "zotero://select/library/items/ALANDUY6",
+      "series": "ASPLOS '19",
+      "shortTitle": "Minotaur",
+      "tags": [],
+      "title": "Minotaur: Adapting Software Testing Techniques for Hardware Errors",
+      "uri": "http://zotero.org/users/7659667/items/ALANDUY6",
+      "url": "https://doi.org/10.1145/3297858.3304050",
+      "version": 2051
+    },
+    {
+      "attachments": [
+        {
+          "dateAdded": "2022-03-29T12:46:43Z",
+          "dateModified": "2022-03-29T12:46:51Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\7LURGYRT\\CUDA C++ Programming Guide.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "CUDA C++ Programming Guide.pdf",
+          "uri": "http://zotero.org/users/7659667/items/7LURGYRT"
+        }
+      ],
+      "citationKey": "CUDAProgrammingGuide",
+      "citekey": "CUDAProgrammingGuide",
+      "creators": [],
+      "dateAdded": "2022-03-29T12:46:50Z",
+      "dateModified": "2022-04-17T10:05:14Z",
+      "itemID": 251,
+      "itemKey": "BRBKEICS",
+      "itemType": "journalArticle",
+      "key": "BRBKEICS",
+      "language": "en",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "442",
+      "relations": [],
+      "select": "zotero://select/library/items/BRBKEICS",
+      "tags": [],
+      "title": "CUDA C++ Programming Guide",
+      "uri": "http://zotero.org/users/7659667/items/BRBKEICS",
+      "version": 727
+    },
+    {
+      "ISBN": "978-1-939133-23-6",
+      "attachments": [
+        {
+          "dateAdded": "2022-01-20T03:31:29Z",
+          "dateModified": "2022-01-20T03:31:29Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\HT2B5C6J\\Tian et al_2021_CrystalPerf.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Tian et al_2021_CrystalPerf.pdf",
+          "uri": "http://zotero.org/users/7659667/items/HT2B5C6J"
+        }
+      ],
+      "citationKey": "tianCrystalPerfLearningCharacterize2021",
+      "citekey": "tianCrystalPerfLearningCharacterize2021",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Huangshi",
+          "lastName": "Tian"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Minchen",
+          "lastName": "Yu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Wei",
+          "lastName": "Wang"
+        }
+      ],
+      "date": "2021-07",
+      "dateAdded": "2022-01-20T03:31:21Z",
+      "dateModified": "2022-05-07T04:15:16Z",
+      "itemID": 168,
+      "itemKey": "BWNTSNZZ",
+      "itemType": "conferencePaper",
+      "key": "BWNTSNZZ",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "253–267",
+      "publicationTitle": "2021 USENIX Annual Technical Conference (USENIX ATC 21)",
+      "publisher": "USENIX Association",
+      "relations": [],
+      "select": "zotero://select/library/items/BWNTSNZZ",
+      "tags": [],
+      "title": "CrystalPerf: Learning to Characterize the Performance of Dataflow Computation through Code Analysis",
+      "uri": "http://zotero.org/users/7659667/items/BWNTSNZZ",
+      "url": "https://www.usenix.org/conference/atc21/presentation/tian",
+      "version": 2027
+    },
+    {
+      "DOI": "10.1145/3458817.3476147",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-08T02:37:01Z",
+          "dateModified": "2022-05-08T02:37:02Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\CUKBJTEB\\Rahman et al_2021_PEPPA-X.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Rahman et al_2021_PEPPA-X.pdf",
+          "uri": "http://zotero.org/users/7659667/items/CUKBJTEB"
+        }
+      ],
+      "citationKey": "rahmanPEPPAXFindingProgram2021",
+      "citekey": "rahmanPEPPAXFindingProgram2021",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Md Hasanur",
+          "lastName": "Rahman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Aabid",
+          "lastName": "Shamji"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Shengjian",
+          "lastName": "Guo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Guanpeng",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Bronis R. de",
+          "lastName": "Supinski"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Mary W.",
+          "lastName": "Hall"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Todd",
+          "lastName": "Gamblin"
+        }
+      ],
+      "date": "2021",
+      "dateAdded": "2022-05-08T02:36:58Z",
+      "dateModified": "2022-05-08T02:37:11Z",
+      "itemID": 7793,
+      "itemKey": "CCN9DIVW",
+      "itemType": "conferencePaper",
+      "key": "CCN9DIVW",
+      "libraryCatalog": "DBLP Computer Science Bibliography",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "80:1–80:13",
+      "publicationTitle": "SC '21: The International Conference for High Performance Computing, Networking, Storage and Analysis, St. Louis, Missouri, USA, November 14 - 19, 2021",
+      "publisher": "ACM",
+      "relations": [],
+      "select": "zotero://select/library/items/CCN9DIVW",
+      "shortTitle": "PEPPA-X",
+      "tags": [],
+      "title": "PEPPA-X: finding program test inputs to bound silent data corruption vulnerability in HPC applications",
+      "uri": "http://zotero.org/users/7659667/items/CCN9DIVW",
+      "version": 2087
+    },
+    {
+      "DOI": "10.1109/MICRO.2018.00066",
+      "ISBN": "978-1-5386-6240-3",
+      "accessDate": "2021-12-03T03:35:06Z",
+      "attachments": [
+        {
+          "dateAdded": "2021-12-03T03:55:23Z",
+          "dateModified": "2021-12-03T03:55:23Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\T6FKW76N\\Nie et al_2018_Fault Site Pruning for Practical Reliability Analysis of GPGPU Applications.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Nie et al_2018_Fault Site Pruning for Practical Reliability Analysis of GPGPU Applications.pdf",
+          "uri": "http://zotero.org/users/7659667/items/T6FKW76N"
+        }
+      ],
+      "citationKey": "nieFaultSitePruning2018",
+      "citekey": "nieFaultSitePruning2018",
+      "conferenceName": "2018 51st Annual IEEE/ACM International Symposium on Microarchitecture (MICRO)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Bin",
+          "lastName": "Nie"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lishan",
+          "lastName": "Yang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Adwait",
+          "lastName": "Jog"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Evgenia",
+          "lastName": "Smirni"
+        }
+      ],
+      "date": "10/2018",
+      "dateAdded": "2021-12-03T03:35:06Z",
+      "dateModified": "2022-04-17T10:16:21Z",
+      "itemID": 111,
+      "itemKey": "DI2QUIAU",
+      "itemType": "conferencePaper",
+      "key": "DI2QUIAU",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "749-761",
+      "place": "Fukuoka",
+      "publicationTitle": "2018 51st Annual IEEE/ACM International Symposium on Microarchitecture (MICRO)",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/DI2QUIAU",
+      "tags": [],
+      "title": "Fault Site Pruning for Practical Reliability Analysis of GPGPU Applications",
+      "uri": "http://zotero.org/users/7659667/items/DI2QUIAU",
+      "url": "https://ieeexplore.ieee.org/document/8574583/",
+      "version": 729
+    },
+    {
+      "ISBN": "978-0-13-301367-2",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-02T04:38:38Z",
+          "dateModified": "2022-05-02T04:38:43Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\XY2VCDKG\\Jalote - 1994 - Fault tolerance in distributed systems.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Jalote - 1994 - Fault tolerance in distributed systems.pdf",
+          "uri": "http://zotero.org/users/7659667/items/XY2VCDKG"
+        }
+      ],
+      "callNumber": "QA76.9.F38 J35 1994",
+      "citationKey": "jaloteFaultToleranceDistributed1994",
+      "citekey": "jaloteFaultToleranceDistributed1994",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Pankaj",
+          "lastName": "Jalote"
+        }
+      ],
+      "date": "1994",
+      "dateAdded": "2022-05-02T04:38:42Z",
+      "dateModified": "2022-05-07T16:13:47Z",
+      "itemID": 363,
+      "itemKey": "DY8FYKM8",
+      "itemType": "book",
+      "key": "DY8FYKM8",
+      "language": "en",
+      "libraryCatalog": "Library of Congress ISBN",
+      "libraryID": 1,
+      "notes": [
+        {
+          "dateAdded": "2022-05-08T03:26:32Z",
+          "dateModified": "2022-05-08T03:26:34Z",
+          "itemType": "note",
+          "key": "YDSH5ZGX",
+          "note": "<div data-citation-items=\"%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%2C%22type%22%3A%22book%22%2C%22call-number%22%3A%22QA76.9.F38%20J35%201994%22%2C%22event-place%22%3A%22Englewood%20Cliffs%2C%20N.J%22%2C%22ISBN%22%3A%22978-0-13-301367-2%22%2C%22language%22%3A%22en%22%2C%22number-of-pages%22%3A%22432%22%2C%22publisher%22%3A%22PTR%20Prentice%20Hall%22%2C%22publisher-place%22%3A%22Englewood%20Cliffs%2C%20N.J%22%2C%22source%22%3A%22Library%20of%20Congress%20ISBN%22%2C%22title%22%3A%22Fault%20tolerance%20in%20distributed%20systems%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Jalote%22%2C%22given%22%3A%22Pankaj%22%7D%5D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%221994%22%5D%5D%7D%2C%22citation-key%22%3A%22jaloteFaultToleranceDistributed1994%22%7D%7D%5D\" data-schema-version=\"8\"><h1>Annotations<br/>(5/8/2022, 11:26:33 AM)</h1>\n<p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FXY2VCDKG%22%2C%22annotationKey%22%3A%22B4FJHCBR%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%22102%22%2C%22position%22%3A%7B%22pageIndex%22%3A101%2C%22rects%22%3A%5B%5B307.688%2C334.405%2C444.77%2C350.802%5D%2C%5B85.375%2C321.519%2C445.01%2C335.378%5D%2C%5B85.291%2C307.847%2C445.012%2C321.656%5D%2C%5B85.374%2C294.083%2C445.248%2C307.706%5D%2C%5B85.129%2C280.287%2C222.332%2C295.482%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22102%22%7D%7D\">“External clock synchronization requires maintaining processor clocks within some given maximum deviation from an external time reference, which keeps real time. Internal clock synchronization requires that the clocks of different processors be kept within some maximum relative deviation of each other.”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22102%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Jalote, 1994, p. 102</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FXY2VCDKG%22%2C%22annotationKey%22%3A%22UMBRDNBG%22%2C%22color%22%3A%22%232ea8e5%22%2C%22pageLabel%22%3A%22102%22%2C%22position%22%3A%7B%22pageIndex%22%3A101%2C%22rects%22%3A%5B%5B227.057%2C280.287%2C444.792%2C295.482%5D%2C%5B85.151%2C266.383%2C274.814%2C283.564%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22102%22%7D%7D\">“Externally synchronized clocks are also internally synchronized, though the reverse is not true.”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22102%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Jalote, 1994, p. 102</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FXY2VCDKG%22%2C%22annotationKey%22%3A%22M6CZA4ZC%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%22102%22%2C%22position%22%3A%7B%22pageIndex%22%3A101%2C%22rects%22%3A%5B%5B349.822%2C143.909%2C445.508%2C157.855%5D%2C%5B85.368%2C130.153%2C445.761%2C143.779%5D%2C%5B85.565%2C117.036%2C161.535%2C132.032%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22102%22%7D%7D\">“This implies that the network delay has to be assessed properly if the clock values of other nodes are to be determined.”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22102%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Jalote, 1994, p. 102</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FXY2VCDKG%22%2C%22annotationKey%22%3A%22KA2ZTFYQ%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%22103%22%2C%22position%22%3A%7B%22pageIndex%22%3A102%2C%22rects%22%3A%5B%5B78.555%2C576.963%2C199.898%2C592.168%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22103%22%7D%7D\">“a clock may be “dual-faced”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22103%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Jalote, 1994, p. 103</span>)</span> shortcoming of clock</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FXY2VCDKG%22%2C%22annotationKey%22%3A%22T3G4JP22%22%2C%22color%22%3A%22%23a28ae5%22%2C%22pageLabel%22%3A%22103%22%2C%22position%22%3A%7B%22pageIndex%22%3A102%2C%22rects%22%3A%5B%5B96.501%2C389.687%2C442.455%2C406.637%5D%2C%5B79.551%2C378.198%2C443.542%2C392.289%5D%2C%5B79.7%2C363.337%2C365.747%2C379.278%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22103%22%7D%7D\">“Let Ci (t ) denote the reading of a clock Q (i.e., the value returned by the process controlling this clock if an attempt is made to read this clock) at the physical time t . Let Ci (T ) denote the real time when the ith clock reaches a value T .”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22103%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Jalote, 1994, p. 103</span>)</span></p><p><img data-attachment-key=\"XYIQDRMZ\" width=\"294\" height=\"39\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FXY2VCDKG%22%2C%22annotationKey%22%3A%22AFF5R49C%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%22103%22%2C%22position%22%3A%7B%22pageIndex%22%3A102%2C%22rects%22%3A%5B%5B172.31186688956572%2C244.356%2C348.44746010990474%2C267.949%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22103%22%7D%7D\"/><br/><span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22103%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Jalote, 1994, p. 103</span>)</span> non-faulty clock</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FXY2VCDKG%22%2C%22annotationKey%22%3A%22MDKPEGBN%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%22103%22%2C%22position%22%3A%7B%22pageIndex%22%3A102%2C%22rects%22%3A%5B%5B97.544%2C169.397%2C443.575%2C182.934%5D%2C%5B80.902%2C155.463%2C214.546%2C170.223%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22103%22%7D%7D\">“We assume that a process can read a clock only by sending a message to the process controlling that clock.”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22103%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Jalote, 1994, p. 103</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FXY2VCDKG%22%2C%22annotationKey%22%3A%22A5KMAB9Y%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%22104%22%2C%22position%22%3A%7B%22pageIndex%22%3A103%2C%22rects%22%3A%5B%5B219.805%2C328.065%2C445.968%2C341.37%5D%2C%5B82.181%2C314.144%2C445.971%2C329.087%5D%2C%5B82.501%2C300.643%2C446.062%2C315.406%5D%2C%5B82.489%2C286.954%2C445.969%2C300.336%5D%2C%5B82.195%2C273.554%2C183.852%2C288.284%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22104%22%7D%7D\">“In deterministic protocols, the clock synchronization conditions and the bounds are guaranteed. However, these protocols often require some assumptions about message delays. Probabilistic clock synchronization does not require any assumption about maximum message delays, but guarantees precision only with a probability.”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22104%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Jalote, 1994, p. 104</span>)</span> differences between deterministic and probabilistic protocols</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FXY2VCDKG%22%2C%22annotationKey%22%3A%22AY6QHFQ3%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%22104%22%2C%22position%22%3A%7B%22pageIndex%22%3A103%2C%22rects%22%3A%5B%5B305.252%2C108.717%2C446.422%2C121.411%5D%2C%5B83.012%2C94.883%2C446.179%2C109.069%5D%2C%5B83.022%2C82.296%2C149.793%2C94.745%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22104%22%7D%7D\">“One approach to synchronization isthat a processreads all the clocksin the system and then setsits value to the median of these values.”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22104%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Jalote, 1994, p. 104</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FXY2VCDKG%22%2C%22annotationKey%22%3A%22VPARNNKH%22%2C%22color%22%3A%22%23ff6666%22%2C%22pageLabel%22%3A%22104%22%2C%22position%22%3A%7B%22pageIndex%22%3A103%2C%22rects%22%3A%5B%5B83.014%2C67.396%2C446.427%2C81.453%5D%2C%5B83.02%2C54.424%2C175.472%2C69.149%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22104%22%7D%7D\">“However, due to the possibility of dual-faced clocks, the directly read value of a clock cannot be used.”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22104%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Jalote, 1994, p. 104</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FXY2VCDKG%22%2C%22annotationKey%22%3A%22ERGKXYGG%22%2C%22color%22%3A%22%23a28ae5%22%2C%22pageLabel%22%3A%22105%22%2C%22position%22%3A%7B%22pageIndex%22%3A104%2C%22rects%22%3A%5B%5B312.19%2C338.921%2C443.559%2C352.185%5D%2C%5B82.025%2C324.161%2C442.837%2C338.83%5D%2C%5B82.254%2C310.545%2C444.53%2C325.266%5D%2C%5B82.761%2C296.019%2C443.297%2C315.455%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22105%22%7D%7D\">“If max is the maximum time delay for message delivery, and min is the minimum time delay, and there are n processes, then for a deterministic clock synchronization protocol, the closeness of synchronization that can be attained is roughly (max — min )(1 — l / n) [LL88].”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22105%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Jalote, 1994, p. 105</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FXY2VCDKG%22%2C%22annotationKey%22%3A%222JV3ZDER%22%2C%22color%22%3A%22%23a28ae5%22%2C%22pageLabel%22%3A%22105%22%2C%22position%22%3A%7B%22pageIndex%22%3A104%2C%22rects%22%3A%5B%5B287.481%2C256.804%2C444.278%2C270.491%5D%2C%5B83.215%2C240.076%2C444.763%2C257.998%5D%2C%5B83.721%2C228.483%2C180.293%2C241.289%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22105%22%7D%7D\">“assuming that the number of faulty processesisless than n/3 for an n processsystem. It requires only n2 messagesin a synchronization round”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22105%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Jalote, 1994, p. 105</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FXY2VCDKG%22%2C%22annotationKey%22%3A%22YC429TV3%22%2C%22color%22%3A%22%23a28ae5%22%2C%22pageLabel%22%3A%22105%22%2C%22position%22%3A%7B%22rects%22%3A%5B%5B183.795%2C188.053%2C445.243%2C203.073%5D%2C%5B83.714%2C173.865%2C212.194%2C187.323%5D%5D%2C%22pageIndex%22%3A104%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22105%22%7D%7D\">“the hardware clock is never altered, and that the drift of a correct clock is bounded by p”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22105%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Jalote, 1994, p. 105</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FXY2VCDKG%22%2C%22annotationKey%22%3A%22TIZM4ZNH%22%2C%22color%22%3A%22%23a28ae5%22%2C%22pageLabel%22%3A%22105%22%2C%22position%22%3A%7B%22rects%22%3A%5B%5B114.432%2C96.558%2C445.962%2C112.21%5D%2C%5B84.921%2C83.275%2C307.48%2C97.116%5D%5D%2C%22pageIndex%22%3A104%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22105%22%7D%7D\">“H (t ) is the time shown by the hardware clock at time t , and CORR(t ) is the adjustment function, whose value changes with time”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22105%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Jalote, 1994, p. 105</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FXY2VCDKG%22%2C%22annotationKey%22%3A%22P28P6AZY%22%2C%22color%22%3A%22%23a28ae5%22%2C%22pageLabel%22%3A%22106%22%2C%22position%22%3A%7B%22rects%22%3A%5B%5B143.52%2C560.796%2C444.958%2C575.894%5D%2C%5B84.72%2C547.049%2C276.962%2C562.457%5D%5D%2C%22pageIndex%22%3A105%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22106%22%7D%7D\">“the number of faulty processes is at most /,such that the total number of processes in the system is at least 3/ + 1.”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22106%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Jalote, 1994, p. 106</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FXY2VCDKG%22%2C%22annotationKey%22%3A%22MJN9QBEZ%22%2C%22color%22%3A%22%23a28ae5%22%2C%22pageLabel%22%3A%22106%22%2C%22position%22%3A%7B%22pageIndex%22%3A105%2C%22rects%22%3A%5B%5B114.48%2C372.371%2C444.24%2C386.51%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22106%22%7D%7D\">“A message is delivered in [5 — e, 5 + e ] time, for a fixed S and e , with &lt;$ &gt; &lt;?.”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22106%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Jalote, 1994, p. 106</span>)</span></p><p><img data-attachment-key=\"64ZN8QNT\" width=\"244\" height=\"42\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FXY2VCDKG%22%2C%22annotationKey%22%3A%22JZU9KH5F%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%22107%22%2C%22position%22%3A%7B%22pageIndex%22%3A106%2C%22rects%22%3A%5B%5B195.106%2C546.784%2C341.435%2C572.225%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22107%22%7D%7D\"/><br/><span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22107%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Jalote, 1994, p. 107</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FXY2VCDKG%22%2C%22annotationKey%22%3A%22HZ9UE6P3%22%2C%22color%22%3A%22%23a28ae5%22%2C%22pageLabel%22%3A%22107%22%2C%22position%22%3A%7B%22rects%22%3A%5B%5B288.72%2C176.536%2C454.801%2C189.125%5D%2C%5B91.2%2C162.525%2C454.561%2C175.898%5D%2C%5B91.2%2C148.623%2C388.802%2C163.745%5D%5D%2C%22pageIndex%22%3A106%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22107%22%7D%7D\">“The main parameters of the algorithm are p (bound on the clock drift), f) (bound on how far apart the clocks are initially), 8 , (bound on message delays), and AT (period between rounds).”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22107%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Jalote, 1994, p. 107</span>)</span></p><p><img data-attachment-key=\"ZKQSSV6A\" width=\"443\" height=\"35\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FXY2VCDKG%22%2C%22annotationKey%22%3A%22X5J24TXZ%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%22110%22%2C%22position%22%3A%7B%22pageIndex%22%3A109%2C%22rects%22%3A%5B%5B135.458%2C551.475%2C401.085%2C572.627%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22110%22%7D%7D\"/><br/><span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22110%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Jalote, 1994, p. 110</span>)</span></p><p><img data-attachment-key=\"NMWRVZ63\" width=\"285\" height=\"25\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FXY2VCDKG%22%2C%22annotationKey%22%3A%22YMM7ZFAN%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%22110%22%2C%22position%22%3A%7B%22pageIndex%22%3A109%2C%22rects%22%3A%5B%5B185.53220587261652%2C489.2370000000001%2C356.37966349973516%2C504.4508449748411%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22110%22%7D%7D\"/><br/><span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22110%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Jalote, 1994, p. 110</span>)</span></p><p><img data-attachment-key=\"9AGMIY3W\" width=\"284\" height=\"27\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FXY2VCDKG%22%2C%22annotationKey%22%3A%22FI8YN2D7%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%22110%22%2C%22position%22%3A%7B%22pageIndex%22%3A109%2C%22rects%22%3A%5B%5B185.53220587261652%2C445.63050971596925%2C355.9728838387182%2C461.9016961566473%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22110%22%7D%7D\"/><br/><span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22110%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Jalote, 1994, p. 110</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FXY2VCDKG%22%2C%22annotationKey%22%3A%22YDWWLDNB%22%2C%22color%22%3A%22%235fb236%22%2C%22pageLabel%22%3A%22413%22%2C%22position%22%3A%7B%22pageIndex%22%3A412%2C%22rects%22%3A%5B%5B83.324%2C402.584%2C115.639%2C418.934%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22413%22%7D%7D\">“[Cri89]”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22413%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Jalote, 1994, p. 413</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FXY2VCDKG%22%2C%22annotationKey%22%3A%22BGQPB4WL%22%2C%22color%22%3A%22%235fb236%22%2C%22pageLabel%22%3A%22413%22%2C%22position%22%3A%7B%22pageIndex%22%3A412%2C%22rects%22%3A%5B%5B84.433%2C79.079%2C124.52%2C93.899%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22413%22%7D%7D\">“[DHS84]”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22413%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Jalote, 1994, p. 413</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FXY2VCDKG%22%2C%22annotationKey%22%3A%22U3JEYAG4%22%2C%22color%22%3A%22%235fb236%22%2C%22pageLabel%22%3A%22419%22%2C%22position%22%3A%7B%22pageIndex%22%3A418%2C%22rects%22%3A%5B%5B81.499%2C68.049%2C112.603%2C86.128%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22419%22%7D%7D\">“[LL88]”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22419%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Jalote, 1994, p. 419</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FXY2VCDKG%22%2C%22annotationKey%22%3A%2233TJFR2P%22%2C%22color%22%3A%22%235fb236%22%2C%22pageLabel%22%3A%22420%22%2C%22position%22%3A%7B%22pageIndex%22%3A419%2C%22rects%22%3A%5B%5B89.013%2C571.138%2C122.833%2C587.317%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22420%22%7D%7D\">“[LM85]”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22420%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Jalote, 1994, p. 420</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FXY2VCDKG%22%2C%22annotationKey%22%3A%22Y8SYNCIR%22%2C%22color%22%3A%22%235fb236%22%2C%22pageLabel%22%3A%22420%22%2C%22position%22%3A%7B%22pageIndex%22%3A419%2C%22rects%22%3A%5B%5B87.333%2C230.224%2C123.883%2C242.961%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22420%22%7D%7D\">“[LSP82]”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDY8FYKM8%22%5D%2C%22locator%22%3A%22420%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Jalote, 1994, p. 420</span>)</span></p></div>",
+          "parentItem": "DY8FYKM8",
+          "relations": {},
+          "tags": [],
+          "uri": "http://zotero.org/users/7659667/items/YDSH5ZGX",
+          "version": 2096
+        }
+      ],
+      "numPages": "432",
+      "place": "Englewood Cliffs, N.J",
+      "publisher": "PTR Prentice Hall",
+      "relations": [],
+      "select": "zotero://select/library/items/DY8FYKM8",
+      "tags": [
+        {
+          "tag": "Fault Tolerance"
+        },
+        {
+          "tag": "Distributed Processing"
+        }
+      ],
+      "title": "Fault tolerance in distributed systems",
+      "uri": "http://zotero.org/users/7659667/items/DY8FYKM8",
+      "version": 2060
+    },
+    {
+      "accessDate": "2022-05-07T16:28:09Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-07T16:29:46Z",
+          "dateModified": "2022-05-07T16:29:48Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\KC9XQZVV\\Kalra et al_2018_PRISM.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Kalra et al_2018_PRISM.pdf",
+          "uri": "http://zotero.org/users/7659667/items/KC9XQZVV"
+        }
+      ],
+      "citationKey": "kalraPRISMPredictingResilience2018",
+      "citekey": "kalraPRISMPredictingResilience2018",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Cham",
+          "lastName": "Kalra"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Fritz",
+          "lastName": "Previlon"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Xiangyu",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Norman",
+          "lastName": "Rubin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David R.",
+          "lastName": "Kaeli"
+        }
+      ],
+      "date": "2018",
+      "dateAdded": "2022-05-07T16:28:09Z",
+      "dateModified": "2022-05-07T16:28:10Z",
+      "itemID": 7788,
+      "itemKey": "EJ3XLIZG",
+      "itemType": "conferencePaper",
+      "key": "EJ3XLIZG",
+      "libraryCatalog": "DBLP Computer Science Bibliography",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "69:1–69:14",
+      "publicationTitle": "Proceedings of the International Conference for High Performance Computing, Networking, Storage, and Analysis, SC 2018, Dallas, TX, USA, November 11-16, 2018",
+      "publisher": "IEEE / ACM",
+      "relations": [],
+      "select": "zotero://select/library/items/EJ3XLIZG",
+      "shortTitle": "PRISM",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "PRISM: predicting resilience of GPU applications using statistical methods",
+      "uri": "http://zotero.org/users/7659667/items/EJ3XLIZG",
+      "url": "http://dl.acm.org/citation.cfm?id=3291748",
+      "version": 2065
+    },
+    {
+      "charset": "",
+      "contentType": "application/pdf",
+      "dateAdded": "2022-03-29T02:19:00Z",
+      "dateModified": "2022-04-17T10:16:19Z",
+      "defaultPath": "files/249/面向 GPGPU 体系结构的软错误弹性分析与容错策略研究.pdf",
+      "filename": "面向 GPGPU 体系结构的软错误弹性分析与容错策略研究.pdf",
+      "itemID": 249,
+      "itemKey": "EWSZML69",
+      "itemType": "attachment",
+      "key": "EWSZML69",
+      "libraryID": 1,
+      "linkMode": "imported_file",
+      "localPath": "D:\\Zotero\\storage\\EWSZML69\\面向 GPGPU 体系结构的软错误弹性分析与容错策略研究.pdf",
+      "relations": [],
+      "select": "zotero://select/library/items/EWSZML69",
+      "tags": [],
+      "title": "面向 GPGPU 体系结构的软错误弹性分析与容错策略研究.pdf",
+      "uri": "http://zotero.org/users/7659667/items/EWSZML69",
+      "version": 730
+    },
+    {
+      "ISBN": "978-0-13-138768-3",
+      "attachments": [
+        {
+          "dateAdded": "2022-04-09T04:28:54Z",
+          "dateModified": "2022-04-09T04:28:59Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\96JIJM6W\\Sanders and Kandrot - 2011 - CUDA by example an introduction to general-purpos.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Sanders and Kandrot - 2011 - CUDA by example an introduction to general-purpos.pdf",
+          "uri": "http://zotero.org/users/7659667/items/96JIJM6W"
+        }
+      ],
+      "citationKey": "sandersCUDAExampleIntroduction2011",
+      "citekey": "sandersCUDAExampleIntroduction2011",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jason",
+          "lastName": "Sanders"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Edward",
+          "lastName": "Kandrot"
+        }
+      ],
+      "date": "2011",
+      "dateAdded": "2022-04-09T04:28:59Z",
+      "dateModified": "2022-05-07T16:14:37Z",
+      "itemID": 247,
+      "itemKey": "FVPFBNAS",
+      "itemType": "book",
+      "key": "FVPFBNAS",
+      "language": "en",
+      "libraryID": 1,
+      "notes": [],
+      "numPages": "290",
+      "place": "Upper Saddle River, NJ",
+      "publisher": "Addison-Wesley",
+      "relations": [],
+      "select": "zotero://select/library/items/FVPFBNAS",
+      "shortTitle": "CUDA by example",
+      "tags": [
+        {
+          "tag": "GPU"
+        },
+        {
+          "tag": "Parallel Programming"
+        },
+        {
+          "tag": "CUDA"
+        }
+      ],
+      "title": "CUDA by example: an introduction to general-purpose GPU programming",
+      "uri": "http://zotero.org/users/7659667/items/FVPFBNAS",
+      "version": 2063
+    },
+    {
+      "attachments": [
+        {
+          "dateAdded": "2022-03-29T12:46:46Z",
+          "dateModified": "2022-03-29T12:46:52Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\VEQKGMQA\\CUDA C++ Best Practices Guide.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "CUDA C++ Best Practices Guide.pdf",
+          "uri": "http://zotero.org/users/7659667/items/VEQKGMQA"
+        }
+      ],
+      "citationKey": "CUDABestPractices",
+      "citekey": "CUDABestPractices",
+      "creators": [],
+      "dateAdded": "2022-03-29T12:46:52Z",
+      "dateModified": "2022-04-17T10:05:14Z",
+      "itemID": 250,
+      "itemKey": "GPSWZE48",
+      "itemType": "journalArticle",
+      "key": "GPSWZE48",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "100",
+      "relations": [],
+      "select": "zotero://select/library/items/GPSWZE48",
+      "tags": [],
+      "title": "CUDA C++ Best Practices Guide",
+      "uri": "http://zotero.org/users/7659667/items/GPSWZE48",
+      "version": 727
+    },
+    {
+      "DOI": "10.1145/3352460.3358307",
+      "ISBN": "978-1-4503-6938-1",
+      "abstractNote": "Binary instrumentation frameworks are widely used to implement profilers, performance evaluation, error checking, and bug detection tools. While dynamic binary instrumentation tools such as PIN and DynamoRio are supported on CPUs, GPU architectures currently only have limited support for similar capabilities through static compile-time tools, which prohibits instrumentation of dynamically loaded libraries that are foundations for modern highperformance applications. This work presents NVBit, a fast, dynamic, and portable, binary instrumentation framework, that allows users to write instrumentation tools in CUDA/C/C++ and selectively apply that functionality to pre-compiled binaries and libraries executing on NVIDIA GPUs. Using dynamic recompilation at the SASS level, NVBit analyzes GPU kernel register requirements to generate efficient ABI compliant instrumented code without requiring the tool developer to have detailed knowledge of the underlying GPU architecture. NVBit allows basic-block instrumentation, multiple function injections to the same location, inspection of all ISA visible state, dynamic selection of instrumented or uninstrumented code, permanent modification of register state, source code correlation, and instruction removal. NVBit supports all recent NVIDIA GPU architecture families including Kepler, Maxwell, Pascal and Volta and works on any pre-compiled CUDA, OpenACC, OpenCL, or CUDA-Fortran application.",
+      "accessDate": "2021-11-15T02:03:41Z",
+      "attachments": [
+        {
+          "dateAdded": "2021-11-15T02:03:32Z",
+          "dateModified": "2021-11-23T06:27:18Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\S2WCUPK5\\Villa et al_2019_NVBit.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Villa et al_2019_NVBit.pdf",
+          "uri": "http://zotero.org/users/7659667/items/S2WCUPK5"
+        }
+      ],
+      "citationKey": "villaNVBitDynamicBinary2019",
+      "citekey": "villaNVBitDynamicBinary2019",
+      "conferenceName": "MICRO '52: The 52nd Annual IEEE/ACM International Symposium on Microarchitecture",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Oreste",
+          "lastName": "Villa"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mark",
+          "lastName": "Stephenson"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David",
+          "lastName": "Nellans"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Stephen W.",
+          "lastName": "Keckler"
+        }
+      ],
+      "date": "2019-10-12",
+      "dateAdded": "2021-11-15T02:03:41Z",
+      "dateModified": "2022-04-17T10:16:21Z",
+      "itemID": 64,
+      "itemKey": "H39WTC66",
+      "itemType": "conferencePaper",
+      "key": "H39WTC66",
+      "language": "en",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "372-383",
+      "place": "Columbus OH USA",
+      "publicationTitle": "Proceedings of the 52nd Annual IEEE/ACM International Symposium on Microarchitecture",
+      "publisher": "ACM",
+      "relations": [],
+      "select": "zotero://select/library/items/H39WTC66",
+      "shortTitle": "NVBit",
+      "tags": [],
+      "title": "NVBit: A Dynamic Binary Instrumentation Framework for NVIDIA GPUs",
+      "uri": "http://zotero.org/users/7659667/items/H39WTC66",
+      "url": "https://dl.acm.org/doi/10.1145/3352460.3358307",
+      "version": 728
+    },
+    {
+      "DOI": "10.1109/SC.2018.00048",
+      "ISBN": "978-1-5386-8384-2",
+      "accessDate": "2021-12-03T03:57:45Z",
+      "attachments": [
+        {
+          "dateAdded": "2021-12-03T03:57:57Z",
+          "dateModified": "2021-12-03T03:57:57Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\FUEDUQLI\\Chang et al_2018_Evaluating and Accelerating High-Fidelity Error Injection for HPC.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Chang et al_2018_Evaluating and Accelerating High-Fidelity Error Injection for HPC.pdf",
+          "uri": "http://zotero.org/users/7659667/items/FUEDUQLI"
+        }
+      ],
+      "citationKey": "changEvaluatingAcceleratingHighFidelity2018",
+      "citekey": "changEvaluatingAcceleratingHighFidelity2018",
+      "conferenceName": "SC18: International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Chun-Kai",
+          "lastName": "Chang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sangkug",
+          "lastName": "Lym"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nicholas",
+          "lastName": "Kelly"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michael B.",
+          "lastName": "Sullivan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mattan",
+          "lastName": "Erez"
+        }
+      ],
+      "date": "11/2018",
+      "dateAdded": "2021-12-03T03:57:45Z",
+      "dateModified": "2022-04-17T10:16:19Z",
+      "itemID": 121,
+      "itemKey": "IL8HDX8N",
+      "itemType": "conferencePaper",
+      "key": "IL8HDX8N",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "577-589",
+      "place": "Dallas, TX, USA",
+      "publicationTitle": "SC18: International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/IL8HDX8N",
+      "tags": [],
+      "title": "Evaluating and Accelerating High-Fidelity Error Injection for HPC",
+      "uri": "http://zotero.org/users/7659667/items/IL8HDX8N",
+      "url": "https://ieeexplore.ieee.org/document/8665790/",
+      "version": 730
+    },
+    {
+      "DOI": "10.24963/ijcai.2020/454",
+      "ISBN": "978-0-9992411-6-5",
+      "abstractNote": "The security problems of smart contracts have drawn extensive attention due to the enormous financial losses caused by vulnerabilities. Existing methods on smart contract vulnerability detection heavily rely on fixed expert rules, leading to low detection accuracy. In this paper, we explore using graph neural networks (GNNs) for smart contract vulnerability detection. Particularly, we construct a contract graph to represent both syntactic and semantic structures of a smart contract function. To highlight the major nodes, we design an elimination phase to normalize the graph. Then, we propose a degree-free graph convolutional neural network (DR-GCN) and a novel temporal message propagation network (TMP) to learn from the normalized graphs for vulnerability detection. Extensive experiments show that our proposed approach significantly outperforms state-of-the-art methods in detecting three different types of vulnerabilities.",
+      "accessDate": "2021-12-02T08:44:47Z",
+      "attachments": [
+        {
+          "dateAdded": "2021-12-02T08:45:54Z",
+          "dateModified": "2021-12-02T08:45:55Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\987WB2ZF\\Zhuang et al_2020_Smart Contract Vulnerability Detection using Graph Neural Network.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Zhuang et al_2020_Smart Contract Vulnerability Detection using Graph Neural Network.pdf",
+          "uri": "http://zotero.org/users/7659667/items/987WB2ZF"
+        }
+      ],
+      "citationKey": "zhuangSmartContractVulnerability2020",
+      "citekey": "zhuangSmartContractVulnerability2020",
+      "conferenceName": "Twenty-Ninth International Joint Conference on Artificial Intelligence and Seventeenth Pacific Rim International Conference on Artificial Intelligence {IJCAI-PRICAI-20}",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Yuan",
+          "lastName": "Zhuang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Zhenguang",
+          "lastName": "Liu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Peng",
+          "lastName": "Qian"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Qi",
+          "lastName": "Liu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Xiang",
+          "lastName": "Wang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Qinming",
+          "lastName": "He"
+        }
+      ],
+      "date": "7/2020",
+      "dateAdded": "2021-12-02T08:44:47Z",
+      "dateModified": "2022-05-07T16:10:52Z",
+      "itemID": 97,
+      "itemKey": "JC6AQZNP",
+      "itemType": "conferencePaper",
+      "key": "JC6AQZNP",
+      "language": "en",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "3283-3290",
+      "place": "Yokohama, Japan",
+      "publicationTitle": "Proceedings of the Twenty-Ninth International Joint Conference on Artificial Intelligence",
+      "publisher": "International Joint Conferences on Artificial Intelligence Organization",
+      "relations": [],
+      "select": "zotero://select/library/items/JC6AQZNP",
+      "tags": [
+        {
+          "tag": "GNN"
+        },
+        {
+          "tag": "Vulnerability"
+        }
+      ],
+      "title": "Smart Contract Vulnerability Detection using Graph Neural Network",
+      "uri": "http://zotero.org/users/7659667/items/JC6AQZNP",
+      "url": "https://www.ijcai.org/proceedings/2020/454",
+      "version": 2050
+    },
+    {
+      "DOI": "10.1145/3458817.3476221",
+      "ISBN": "978-1-4503-8442-1",
+      "accessDate": "2022-01-16T03:26:57Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-01-20T03:12:02Z",
+          "dateModified": "2022-01-20T03:12:04Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\SIISNLWJ\\Arafa et al_2021_Hybrid, scalable, trace-driven performance modeling of GPGPUs.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Arafa et al_2021_Hybrid, scalable, trace-driven performance modeling of GPGPUs.pdf",
+          "uri": "http://zotero.org/users/7659667/items/SIISNLWJ"
+        }
+      ],
+      "citationKey": "arafaHybridScalableTracedriven2021",
+      "citekey": "arafaHybridScalableTracedriven2021",
+      "conferenceName": "SC '21: The International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Yehia",
+          "lastName": "Arafa"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Abdel-Hameed",
+          "lastName": "Badawy"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ammar",
+          "lastName": "ElWazir"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Atanu",
+          "lastName": "Barai"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ali",
+          "lastName": "Eker"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Gopinath",
+          "lastName": "Chennupati"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nandakishore",
+          "lastName": "Santhi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Stephan",
+          "lastName": "Eidenbenz"
+        }
+      ],
+      "date": "2021-11-14",
+      "dateAdded": "2022-01-16T03:26:57Z",
+      "dateModified": "2022-05-03T13:42:49Z",
+      "itemID": 169,
+      "itemKey": "KDD3TSZG",
+      "itemType": "conferencePaper",
+      "key": "KDD3TSZG",
+      "language": "en",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1-15",
+      "place": "St. Louis Missouri",
+      "publicationTitle": "Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "publisher": "ACM",
+      "relations": [],
+      "select": "zotero://select/library/items/KDD3TSZG",
+      "tags": [],
+      "title": "Hybrid, scalable, trace-driven performance modeling of GPGPUs",
+      "uri": "http://zotero.org/users/7659667/items/KDD3TSZG",
+      "url": "https://dl.acm.org/doi/10.1145/3458817.3476221",
+      "version": 1903
+    },
+    {
+      "DOI": "10.1145/3386263.3406938",
+      "ISBN": "978-1-4503-7944-1",
+      "abstractNote": "Convolutional Neural Networks (CNNs) are popular in artificial intelligence areas due to their high accuracy. Meanwhile, as manufacturing process technology scales, the probability of soft errors occurrence in computer systems increases, which causes reliability challenges for CNNs. For emerging safety and reliability critical CNN applications, such as autonomous vehicles, soft errors may cause catastrophic consequences. Thus it is important to analyze the vulnerability characteristics of CNNs. A common approach to analyze CNNs’ reliability is fault injection, which requires a lot of computation resources and is time consuming. Thus a more efficient method is desired. In this work, we propose an analytical model named SERN to analyze the soft error reliability of CNNs, which requires only a small number of parameters in CNN models. Validation on several common CNN models shows SERN can efficiently and accurately perform soft error reliability analysis for CNNs. We also observe that the reliability of CNNs depend on data types, values, the sign of data and types of layers. Take advantage of these observations, we propose to protect vulnerable bits through ECC and protect error-prone layers through redundancy.",
+      "accessDate": "2021-11-15T01:30:38Z",
+      "attachments": [
+        {
+          "dateAdded": "2021-11-15T01:30:34Z",
+          "dateModified": "2021-11-23T06:27:30Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\SGE3TKE3\\Ping et al_2020_SERN.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Ping et al_2020_SERN.pdf",
+          "uri": "http://zotero.org/users/7659667/items/SGE3TKE3"
+        }
+      ],
+      "citationKey": "pingSERNModelingAnalyzing2020",
+      "citekey": "pingSERNModelingAnalyzing2020",
+      "conferenceName": "GLSVLSI '20: Great Lakes Symposium on VLSI 2020",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Liqi",
+          "lastName": "Ping"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jingweijia",
+          "lastName": "Tan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Kaige",
+          "lastName": "Yan"
+        }
+      ],
+      "date": "2020-09-07",
+      "dateAdded": "2021-11-15T01:30:38Z",
+      "dateModified": "2022-04-17T10:16:21Z",
+      "itemID": 57,
+      "itemKey": "KQ6BVPTZ",
+      "itemType": "conferencePaper",
+      "key": "KQ6BVPTZ",
+      "language": "en",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "445-450",
+      "place": "Virtual Event China",
+      "publicationTitle": "Proceedings of the 2020 on Great Lakes Symposium on VLSI",
+      "publisher": "ACM",
+      "relations": [],
+      "select": "zotero://select/library/items/KQ6BVPTZ",
+      "shortTitle": "SERN",
+      "tags": [],
+      "title": "SERN: Modeling and Analyzing the Soft Error Reliability of Convolutional Neural Networks",
+      "uri": "http://zotero.org/users/7659667/items/KQ6BVPTZ",
+      "url": "https://dl.acm.org/doi/10.1145/3386263.3406938",
+      "version": 728
+    },
+    {
+      "DOI": "10.1109/SC.2016.84",
+      "ISBN": "978-1-4673-8815-3",
+      "abstractNote": "To prevent rejecting requests, cloud platforms typically provision for their peak demand. Thus, a platform’s idle capacity can be signiﬁcant, as demand varies widely over multiple time scales, e.g., daily and seasonally. To reduce waste, platforms have begun to offer this idle capacity in the form of transient servers, which they may unilaterally revoke, for much lower prices—∼50-90% less—than on-demand servers, which they cannot revoke. However, transient servers’ revocation characteristics—their volatility and predictability—inﬂuence their performance, since they affect the overhead of faulttolerance mechanisms applications use to handle revocations. Unfortunately, current cloud platforms offer no guarantees on revocation characteristics, which makes it difﬁcult for users to optimally conﬁgure (and correctly value) transient servers. To address the problem, we propose the abstraction of a transient guarantee, which offers probabilistic assurances on revocation characteristics. Transient guarantees have numerous beneﬁts: they increase the performance of transient servers, enable users to optimally use and correctly value them, and permit platforms to control their freedom to revoke them. We present policies for partitioning a variable amount of idle capacity into classes with different transient guarantees to maximize performance and value. We then implement and evaluate these policies on job traces from a production Google cluster. We show that our approach can increase the aggregate revenue from idle server capacity by up to ∼6.5× compared to existing approaches.",
+      "accessDate": "2022-04-10T09:09:33Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-04-10T09:09:23Z",
+          "dateModified": "2022-04-10T09:09:33Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\8SLGGVX4\\Shastri et al. - 2016 - Transient Guarantees Maximizing the Value of Idle.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Shastri et al. - 2016 - Transient Guarantees Maximizing the Value of Idle.pdf",
+          "uri": "http://zotero.org/users/7659667/items/8SLGGVX4"
+        }
+      ],
+      "citationKey": "shastriTransientGuaranteesMaximizing2016",
+      "citekey": "shastriTransientGuaranteesMaximizing2016",
+      "conferenceName": "SC16: International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Supreeth",
+          "lastName": "Shastri"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Amr",
+          "lastName": "Rizk"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David",
+          "lastName": "Irwin"
+        }
+      ],
+      "date": "11/2016",
+      "dateAdded": "2022-04-10T09:09:33Z",
+      "dateModified": "2022-04-17T10:16:21Z",
+      "itemID": 210,
+      "itemKey": "M3KD8MK6",
+      "itemType": "conferencePaper",
+      "key": "M3KD8MK6",
+      "language": "en",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "992-1002",
+      "place": "Salt Lake City, UT, USA",
+      "publicationTitle": "SC16: International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/M3KD8MK6",
+      "shortTitle": "Transient Guarantees",
+      "tags": [],
+      "title": "Transient Guarantees: Maximizing the Value of Idle Cloud Capacity",
+      "uri": "http://zotero.org/users/7659667/items/M3KD8MK6",
+      "url": "http://ieeexplore.ieee.org/document/7877163/",
+      "version": 731
+    },
+    {
+      "DOI": "10.1109/CCGrid49817.2020.00-82",
+      "ISBN": "978-1-72816-095-5",
+      "accessDate": "2021-12-03T03:41:27Z",
+      "attachments": [
+        {
+          "dateAdded": "2021-12-03T03:55:15Z",
+          "dateModified": "2021-12-03T03:55:15Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\D9KGUTQA\\Nie et al_2020_Characterizing Accuracy-Aware Resilience of GPGPU Applications.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Nie et al_2020_Characterizing Accuracy-Aware Resilience of GPGPU Applications.pdf",
+          "uri": "http://zotero.org/users/7659667/items/D9KGUTQA"
+        }
+      ],
+      "citationKey": "nieCharacterizingAccuracyAwareResilience2020",
+      "citekey": "nieCharacterizingAccuracyAwareResilience2020",
+      "conferenceName": "2020 20th IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGRID)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Bin",
+          "lastName": "Nie"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Adwait",
+          "lastName": "Jog"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Evgenia",
+          "lastName": "Smirni"
+        }
+      ],
+      "date": "5/2020",
+      "dateAdded": "2021-12-03T03:41:27Z",
+      "dateModified": "2022-04-17T10:16:21Z",
+      "itemID": 113,
+      "itemKey": "MU4K8QA7",
+      "itemType": "conferencePaper",
+      "key": "MU4K8QA7",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "111-120",
+      "place": "Melbourne, Australia",
+      "publicationTitle": "2020 20th IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGRID)",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/MU4K8QA7",
+      "tags": [],
+      "title": "Characterizing Accuracy-Aware Resilience of GPGPU Applications",
+      "uri": "http://zotero.org/users/7659667/items/MU4K8QA7",
+      "url": "https://ieeexplore.ieee.org/document/9139732/",
+      "version": 729
+    },
+    {
+      "DOI": "10.1145/2854038.2854059",
+      "ISBN": "978-1-4503-3778-6",
+      "abstractNote": "This paper presents IPAS, an instruction duplication technique that protects scientiﬁc applications from silent data corruption (SDC) in their output. The motivation for IPAS is that, due to natural error masking, only a subset of SDC errors actually affects the output of scientiﬁc codes—we call these errors silent output corruption (SOC) errors. Thus applications require duplication only on code that, when affected by a fault, yields SOC. We use machine learning to learn code instructions that must be protected to avoid SOC, and, using a compiler, we protect only those vulnerable instructions by duplication, thus signiﬁcantly reducing the overhead that is introduced by instruction duplication. In our experiments with ﬁve workloads, IPAS reduces the percentage of SOC by up to 90% with a slowdown that ranges between 1.04× and 1.35×, which corresponds to as much as 47% less slowdown than state-of-the-art instruction duplication techniques.",
+      "accessDate": "2022-04-17T09:53:40Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-04-17T09:53:31Z",
+          "dateModified": "2022-04-17T09:53:40Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\J8BQWUTB\\Laguna et al. - 2016 - IPAS intelligent protection against silent output.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Laguna et al. - 2016 - IPAS intelligent protection against silent output.pdf",
+          "uri": "http://zotero.org/users/7659667/items/J8BQWUTB"
+        }
+      ],
+      "citationKey": "lagunaIPASIntelligentProtection2016",
+      "citekey": "lagunaIPASIntelligentProtection2016",
+      "conferenceName": "CGO '16: 14th Annual IEEE/ACM International Symposium on Code Generation and Optimization",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Ignacio",
+          "lastName": "Laguna"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Martin",
+          "lastName": "Schulz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David F.",
+          "lastName": "Richards"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jon",
+          "lastName": "Calhoun"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Luke",
+          "lastName": "Olson"
+        }
+      ],
+      "date": "2016-02-29",
+      "dateAdded": "2022-04-17T09:53:40Z",
+      "dateModified": "2022-05-07T16:13:07Z",
+      "itemID": 236,
+      "itemKey": "N3ZLLEGS",
+      "itemType": "conferencePaper",
+      "key": "N3ZLLEGS",
+      "language": "en",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "227-238",
+      "place": "Barcelona Spain",
+      "publicationTitle": "Proceedings of the 2016 International Symposium on Code Generation and Optimization",
+      "publisher": "ACM",
+      "relations": [],
+      "select": "zotero://select/library/items/N3ZLLEGS",
+      "shortTitle": "IPAS",
+      "tags": [
+        {
+          "tag": "compiler analysis"
+        },
+        {
+          "tag": "Error Resilience"
+        },
+        {
+          "tag": "Machine Learning"
+        }
+      ],
+      "title": "IPAS: intelligent protection against silent output corruption in scientific applications",
+      "uri": "http://zotero.org/users/7659667/items/N3ZLLEGS",
+      "url": "https://dl.acm.org/doi/10.1145/2854038.2854059",
+      "version": 2057
+    },
+    {
+      "DOI": "10.1109/TDSC.2020.2991136",
+      "ISSN": "1545-5971, 1941-0018, 2160-9209",
+      "accessDate": "2021-12-03T03:49:33Z",
+      "attachments": [
+        {
+          "dateAdded": "2021-12-03T03:55:28Z",
+          "dateModified": "2021-12-03T03:55:28Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\AEMBEV7F\\Previlon et al_2020_Characterizing and Exploiting Soft Error Vulnerability Phase Behavior in GPU.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Previlon et al_2020_Characterizing and Exploiting Soft Error Vulnerability Phase Behavior in GPU.pdf",
+          "uri": "http://zotero.org/users/7659667/items/AEMBEV7F"
+        }
+      ],
+      "callNumber": "7.329",
+      "citationKey": "previlonCharacterizingExploitingSoft2020",
+      "citekey": "previlonCharacterizingExploitingSoft2020",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Fritz Gerald",
+          "lastName": "Previlon"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Charu",
+          "lastName": "Kalra"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "devesh",
+          "lastName": "tiwari"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David R.",
+          "lastName": "Kaeli"
+        }
+      ],
+      "date": "2020",
+      "dateAdded": "2021-12-03T03:49:33Z",
+      "dateModified": "2022-04-17T10:16:29Z",
+      "itemID": 109,
+      "itemKey": "N8QC8W93",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "IEEE T Depend Secure",
+      "key": "N8QC8W93",
+      "libraryCatalog": "2",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1-1",
+      "publicationTitle": "IEEE Transactions on Dependable and Secure Computing",
+      "relations": [],
+      "select": "zotero://select/library/items/N8QC8W93",
+      "tags": [],
+      "title": "Characterizing and Exploiting Soft Error Vulnerability Phase Behavior in GPU Applications",
+      "uri": "http://zotero.org/users/7659667/items/N8QC8W93",
+      "url": "https://ieeexplore.ieee.org/document/9080079/",
+      "version": 729
+    },
+    {
+      "DOI": "10.1109/DSN.2016.24",
+      "attachments": [
+        {
+          "dateAdded": "2022-04-30T13:31:21Z",
+          "dateModified": "2022-04-30T13:31:21Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\L5NSS6TG\\Fang et al_2016_ePVF.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Fang et al_2016_ePVF.pdf",
+          "uri": "http://zotero.org/users/7659667/items/L5NSS6TG"
+        }
+      ],
+      "citationKey": "fangEPVFEnhancedProgram2016",
+      "citekey": "fangEPVFEnhancedProgram2016",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Bo",
+          "lastName": "Fang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Qining",
+          "lastName": "Lu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Karthik",
+          "lastName": "Pattabiraman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Matei",
+          "lastName": "Ripeanu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sudhanva",
+          "lastName": "Gurumurthi"
+        }
+      ],
+      "date": "2016",
+      "dateAdded": "2022-04-30T13:28:33Z",
+      "dateModified": "2022-05-05T13:05:37Z",
+      "itemID": 351,
+      "itemKey": "NA6RFSXL",
+      "itemType": "conferencePaper",
+      "key": "NA6RFSXL",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "168–179",
+      "publicationTitle": "46th Annual IEEE/IFIP International Conference on Dependable Systems and Networks, DSN 2016, Toulouse, France, June 28 - July 1, 2016",
+      "publisher": "IEEE Computer Society",
+      "relations": [],
+      "select": "zotero://select/library/items/NA6RFSXL",
+      "shortTitle": "ePVF",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "ePVF: An Enhanced Program Vulnerability Factor Methodology for Cross-Layer Resilience Analysis",
+      "uri": "http://zotero.org/users/7659667/items/NA6RFSXL",
+      "url": "https://doi.org/10.1109/DSN.2016.24",
+      "version": 2016
+    },
+    {
+      "charset": "",
+      "contentType": "application/pdf",
+      "dateAdded": "2021-11-15T02:03:19Z",
+      "dateModified": "2022-04-17T10:16:19Z",
+      "defaultPath": "files/58/中国计算机学会推荐国际学术会议和期刊目录-2019.pdf",
+      "filename": "中国计算机学会推荐国际学术会议和期刊目录-2019.pdf",
+      "itemID": 58,
+      "itemKey": "NXC8BMNC",
+      "itemType": "attachment",
+      "key": "NXC8BMNC",
+      "libraryID": 1,
+      "linkMode": "imported_file",
+      "localPath": "D:\\Zotero\\storage\\NXC8BMNC\\中国计算机学会推荐国际学术会议和期刊目录-2019.pdf",
+      "relations": [],
+      "select": "zotero://select/library/items/NXC8BMNC",
+      "tags": [],
+      "title": "中国计算机学会推荐国际学术会议和期刊目录-2019.pdf",
+      "uri": "http://zotero.org/users/7659667/items/NXC8BMNC",
+      "version": 728
+    },
+    {
+      "DOI": "10.1145/3302255",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-07T16:03:40Z",
+          "dateModified": "2022-05-07T16:03:41Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\XVWE56ES\\Öz_Arslan_2019_A Survey on Multithreading Alternatives for Soft Error Fault Tolerance.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Öz_Arslan_2019_A Survey on Multithreading Alternatives for Soft Error Fault Tolerance.pdf",
+          "uri": "http://zotero.org/users/7659667/items/XVWE56ES"
+        }
+      ],
+      "callNumber": "10.282",
+      "citationKey": "ozSurveyMultithreadingAlternatives2019",
+      "citekey": "ozSurveyMultithreadingAlternatives2019",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Isil",
+          "lastName": "Öz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sanem",
+          "lastName": "Arslan"
+        }
+      ],
+      "date": "2019",
+      "dateAdded": "2022-05-07T15:57:26Z",
+      "dateModified": "2022-05-07T16:28:33Z",
+      "issue": "2",
+      "itemID": 7786,
+      "itemKey": "PGXQDX7T",
+      "itemType": "journalArticle",
+      "key": "PGXQDX7T",
+      "libraryCatalog": "1",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "27:1–27:38",
+      "publicationTitle": "ACM Comput. Surv.",
+      "relations": [],
+      "select": "zotero://select/library/items/PGXQDX7T",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "A Survey on Multithreading Alternatives for Soft Error Fault Tolerance",
+      "uri": "http://zotero.org/users/7659667/items/PGXQDX7T",
+      "url": "https://doi.org/10.1145/3302255",
+      "version": 2066,
+      "volume": "52"
+    },
+    {
+      "DOI": "10.1109/DSN.2018.00038",
+      "ISBN": "978-1-5386-5596-2",
+      "accessDate": "2021-12-03T03:30:20Z",
+      "attachments": [
+        {
+          "dateAdded": "2021-12-03T03:30:56Z",
+          "dateModified": "2021-12-03T03:30:56Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\SS4W7MVT\\Li_Pattabiraman_2018_Modeling Input-Dependent Error Propagation in Programs.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Li_Pattabiraman_2018_Modeling Input-Dependent Error Propagation in Programs.pdf",
+          "uri": "http://zotero.org/users/7659667/items/SS4W7MVT"
+        }
+      ],
+      "citationKey": "liModelingInputDependentError2018",
+      "citekey": "liModelingInputDependentError2018",
+      "conferenceName": "2018 48th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Guanpeng",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Karthik",
+          "lastName": "Pattabiraman"
+        }
+      ],
+      "date": "6/2018",
+      "dateAdded": "2021-12-03T03:30:20Z",
+      "dateModified": "2022-04-17T10:16:20Z",
+      "itemID": 116,
+      "itemKey": "PNVNPJJG",
+      "itemType": "conferencePaper",
+      "key": "PNVNPJJG",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "279-290",
+      "place": "Luxembourg City",
+      "publicationTitle": "2018 48th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/PNVNPJJG",
+      "tags": [],
+      "title": "Modeling Input-Dependent Error Propagation in Programs",
+      "uri": "http://zotero.org/users/7659667/items/PNVNPJJG",
+      "url": "https://ieeexplore.ieee.org/document/8416490/",
+      "version": 729
+    },
+    {
+      "DOI": "10.1109/DSN.2018.00022",
+      "ISBN": "978-1-5386-5596-2",
+      "accessDate": "2021-12-03T03:36:55Z",
+      "attachments": [
+        {
+          "dateAdded": "2021-12-03T03:55:18Z",
+          "dateModified": "2021-12-03T03:55:19Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\TGMLVGYP\\Nie et al_2018_Machine Learning Models for GPU Error Prediction in a Large Scale HPC System.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Nie et al_2018_Machine Learning Models for GPU Error Prediction in a Large Scale HPC System.pdf",
+          "uri": "http://zotero.org/users/7659667/items/TGMLVGYP"
+        }
+      ],
+      "citationKey": "nieMachineLearningModels2018",
+      "citekey": "nieMachineLearningModels2018",
+      "conferenceName": "2018 48th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Bin",
+          "lastName": "Nie"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ji",
+          "lastName": "Xue"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Saurabh",
+          "lastName": "Gupta"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Tirthak",
+          "lastName": "Patel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christian",
+          "lastName": "Engelmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Evgenia",
+          "lastName": "Smirni"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Devesh",
+          "lastName": "Tiwari"
+        }
+      ],
+      "date": "6/2018",
+      "dateAdded": "2021-12-03T03:36:55Z",
+      "dateModified": "2022-04-17T10:16:21Z",
+      "itemID": 112,
+      "itemKey": "Q66WU2QT",
+      "itemType": "conferencePaper",
+      "key": "Q66WU2QT",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "95-106",
+      "place": "Luxembourg City",
+      "publicationTitle": "2018 48th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/Q66WU2QT",
+      "tags": [],
+      "title": "Machine Learning Models for GPU Error Prediction in a Large Scale HPC System",
+      "uri": "http://zotero.org/users/7659667/items/Q66WU2QT",
+      "url": "https://ieeexplore.ieee.org/document/8416474/",
+      "version": 729
+    },
+    {
+      "DOI": "10.1145/2717311",
+      "ISSN": "1544-3566, 1544-3973",
+      "abstractNote": "The purpose of this research is to find a neural-network-based solution to the well-known problem of branch divergence in Single Instruction Multiple Data (SIMD) architectures. Our approach differs from existing techniques that handle branch (or control-flow) divergence, which use costly hardware modifications, low-utilization masking techniques, or static prediction methods. As we examine divergent applications, we characterize the degree of data-dependent control flow seen in each and isolate the code regions (or “kernels”) that cause the most performance degradation due to branch divergence. We then train neural networks (NNs) offline to approximate these kernels and inject the NN computations directly into the applications as substitutes for the kernels they approximate. This essentially translates control flow into nondivergent computation, trading off precision for performance. As our methodology manipulates application source code directly, it is inherently platform agnostic and can be adopted as a general means for accelerating divergent applications on data-parallel architectures. In this article, we present the Neuralizer, an automated software flow for kernel identification, NN training, and NN integration, as well as supplementary user-controlled optimization techniques. Evaluating our approach on a variety of divergent applications run on a Graphics Processing Unit (GPU), we on average achieve performance gains of 13.6 × and energy savings of 14.8 × with 96% accuracy.",
+      "accessDate": "2022-02-19T03:45:32Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-02-19T03:45:38Z",
+          "dateModified": "2022-02-19T03:45:39Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\YF4W8PH4\\Grigorian_Reinman_2015_Accelerating Divergent Applications on SIMD Architectures Using Neural Networks.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Grigorian_Reinman_2015_Accelerating Divergent Applications on SIMD Architectures Using Neural Networks.pdf",
+          "uri": "http://zotero.org/users/7659667/items/YF4W8PH4"
+        }
+      ],
+      "callNumber": "0.919",
+      "citationKey": "grigorianAcceleratingDivergentApplications2015",
+      "citekey": "grigorianAcceleratingDivergentApplications2015",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Beayna",
+          "lastName": "Grigorian"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Glenn",
+          "lastName": "Reinman"
+        }
+      ],
+      "date": "2015-04-16",
+      "dateAdded": "2022-02-19T03:45:32Z",
+      "dateModified": "2022-04-17T10:16:28Z",
+      "issue": "1",
+      "itemID": 176,
+      "itemKey": "QGCNYTVU",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Acm T Archit Code Op",
+      "key": "QGCNYTVU",
+      "language": "en",
+      "libraryCatalog": "3",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1-23",
+      "publicationTitle": "ACM Transactions on Architecture and Code Optimization",
+      "relations": [],
+      "select": "zotero://select/library/items/QGCNYTVU",
+      "tags": [],
+      "title": "Accelerating Divergent Applications on SIMD Architectures Using Neural Networks",
+      "uri": "http://zotero.org/users/7659667/items/QGCNYTVU",
+      "url": "https://dl.acm.org/doi/10.1145/2717311",
+      "version": 730,
+      "volume": "12"
+    },
+    {
+      "DOI": "10.1016/j.microrel.2020.113648",
+      "ISSN": "00262714",
+      "abstractNote": "Convolutional Neural Networks (CNNs) models are widely implemented on Graphic Processing Units (GPUs) due to their computational powers, particularly, in object classiﬁcation and detection. In safety-critical environments, reliability issues of these models induced by soft errors are a major concern. In this paper, we analyze the reliability of VGG model, a well-known CNN architecture, through two metrics: (1) the so-called Kernels Vulnerability Factor (KVF) used to identify vulnerable kernels and (2) the Layer Vulnerability Factor (LVF) used to determine track fault propagation through layers. As our model runs on an NVIDIA's GPU, our main evaluation tool in this study is the fault injector called SASSIFI. Our results show that Im2col presents the highest vulnerability among all kernels and hardening this kernel signiﬁcantly reduces silent data corruption rate by 85.67% with 35.63% time penalty. The average of errors causing misclassiﬁcation may reach up to 19.7% in some injection modes and this may be extremely high and unacceptable. Fault injection mode aﬀects both KVF and LVF because RF mode is performed at architecture level, while IOV and IOA modes are at a diﬀerent level (i.e., program level). Also, a thorough comparison among VGG, AlexNet, and ResNet indicates that LVF and KVF are determined by CNN network architecture. This is because layers of these networks, particularly convolutional layers, are implemented with the Im2col kernel, the most vulnerable and invoked in these CNN networks.",
+      "accessDate": "2022-03-28T03:45:51Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-03-28T03:45:45Z",
+          "dateModified": "2022-03-28T03:45:51Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\IFTQMPRV\\Wei et al. - 2020 - Analyzing the impact of soft errors in VGG network.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Wei et al. - 2020 - Analyzing the impact of soft errors in VGG network.pdf",
+          "uri": "http://zotero.org/users/7659667/items/IFTQMPRV"
+        }
+      ],
+      "callNumber": "1.589",
+      "citationKey": "weiAnalyzingImpactSoft2020",
+      "citekey": "weiAnalyzingImpactSoft2020",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jinghe",
+          "lastName": "Wei"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Younis",
+          "lastName": "Ibrahim"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Siyu",
+          "lastName": "Qian"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Haibin",
+          "lastName": "Wang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Guozhu",
+          "lastName": "Liu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Qingkui",
+          "lastName": "Yu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Rong",
+          "lastName": "Qian"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Junwei",
+          "lastName": "Shi"
+        }
+      ],
+      "date": "07/2020",
+      "dateAdded": "2022-03-28T03:45:51Z",
+      "dateModified": "2022-04-17T10:16:29Z",
+      "itemID": 209,
+      "itemKey": "S498KHCR",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Microelectron Reliab",
+      "key": "S498KHCR",
+      "language": "en",
+      "libraryCatalog": "4",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "113648",
+      "publicationTitle": "Microelectronics Reliability",
+      "relations": [],
+      "select": "zotero://select/library/items/S498KHCR",
+      "tags": [],
+      "title": "Analyzing the impact of soft errors in VGG networks implemented on GPUs",
+      "uri": "http://zotero.org/users/7659667/items/S498KHCR",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S002627141930914X",
+      "version": 730,
+      "volume": "110"
+    },
+    {
+      "DOI": "10.1145/3458817.3476170",
+      "ISBN": "978-1-4503-8442-1",
+      "accessDate": "2021-12-02T08:47:48Z",
+      "attachments": [
+        {
+          "dateAdded": "2021-12-02T08:47:55Z",
+          "dateModified": "2021-12-02T08:47:55Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\FTLFBP44\\Yue et al_2021_G-SEPM.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Yue et al_2021_G-SEPM.pdf",
+          "uri": "http://zotero.org/users/7659667/items/FTLFBP44"
+        }
+      ],
+      "citationKey": "yueGSEPMBuildingAccurate2021",
+      "citekey": "yueGSEPMBuildingAccurate2021",
+      "conferenceName": "SC '21: The International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Hengshan",
+          "lastName": "Yue"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Xiaohui",
+          "lastName": "Wei"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Guangli",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jianpeng",
+          "lastName": "Zhao"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nan",
+          "lastName": "Jiang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jingweijia",
+          "lastName": "Tan"
+        }
+      ],
+      "date": "2021-11-14",
+      "dateAdded": "2021-12-02T08:47:48Z",
+      "dateModified": "2022-04-17T10:16:21Z",
+      "itemID": 99,
+      "itemKey": "TUW8PKTJ",
+      "itemType": "conferencePaper",
+      "key": "TUW8PKTJ",
+      "language": "en",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1-15",
+      "place": "St. Louis Missouri",
+      "publicationTitle": "Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "publisher": "ACM",
+      "relations": [],
+      "select": "zotero://select/library/items/TUW8PKTJ",
+      "shortTitle": "G-SEPM",
+      "tags": [],
+      "title": "G-SEPM: building an accurate and efficient soft error prediction model for GPGPUs",
+      "uri": "http://zotero.org/users/7659667/items/TUW8PKTJ",
+      "url": "https://dl.acm.org/doi/10.1145/3458817.3476170",
+      "version": 728
+    },
+    {
+      "DOI": "10.1145/2901318.2901319",
+      "ISBN": "978-1-4503-4240-7",
+      "abstractNote": "Cloud providers now offer transient servers, which they may revoke at anytime, for signiﬁcantly lower prices than ondemand servers, which they cannot revoke. The low price of transient servers is particularly attractive for executing an emerging class of workload, which we call Batch-Interactive Data-Intensive (BIDI), that is becoming increasingly important for data analytics. BIDI workloads require large sets of servers to cache massive datasets in memory to enable low latency operation. In this paper, we illustrate the challenges of executing BIDI workloads on transient servers, where revocations (akin to failures) are the common case. To address these challenges, we design Flint, which is based on Spark and includes automated checkpointing and server selection policies that i) support batch and interactive applications and ii) dynamically adapt to application characteristics. We evaluate a prototype of Flint using EC2 spot instances, and show that it yields cost savings of up to 90% compared to using on-demand servers, while increasing running time by < 2%.",
+      "accessDate": "2022-04-22T14:29:12Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-04-22T14:29:07Z",
+          "dateModified": "2022-04-22T14:29:14Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\TY5LAJ5J\\Sharma et al. - 2016 - Flint batch-interactive data-intensive processing.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Sharma et al. - 2016 - Flint batch-interactive data-intensive processing.pdf",
+          "uri": "http://zotero.org/users/7659667/items/TY5LAJ5J"
+        }
+      ],
+      "citationKey": "sharmaFlintBatchinteractiveDataintensive2016",
+      "citekey": "sharmaFlintBatchinteractiveDataintensive2016",
+      "conferenceName": "EuroSys '16: Eleventh EuroSys Conference 2016",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Prateek",
+          "lastName": "Sharma"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Tian",
+          "lastName": "Guo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Xin",
+          "lastName": "He"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David",
+          "lastName": "Irwin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Prashant",
+          "lastName": "Shenoy"
+        }
+      ],
+      "date": "2016-04-18",
+      "dateAdded": "2022-04-22T14:29:12Z",
+      "dateModified": "2022-04-27T13:51:14Z",
+      "itemID": 324,
+      "itemKey": "UQKHPFBR",
+      "itemType": "conferencePaper",
+      "key": "UQKHPFBR",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1-15",
+      "place": "London United Kingdom",
+      "publicationTitle": "Proceedings of the Eleventh European Conference on Computer Systems",
+      "publisher": "ACM",
+      "relations": [],
+      "select": "zotero://select/library/items/UQKHPFBR",
+      "shortTitle": "Flint",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Flint: batch-interactive data-intensive processing on transient servers",
+      "uri": "http://zotero.org/users/7659667/items/UQKHPFBR",
+      "url": "https://dl.acm.org/doi/10.1145/2901318.2901319",
+      "version": 1421
+    },
+    {
+      "DOI": "10.1007/BF01784024",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-02T12:52:12Z",
+          "dateModified": "2022-05-02T12:52:13Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\CLZG6AFJ\\Cristian_1989_Probabilistic Clock Synchronization.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Cristian_1989_Probabilistic Clock Synchronization.pdf",
+          "uri": "http://zotero.org/users/7659667/items/CLZG6AFJ"
+        }
+      ],
+      "citationKey": "cristianProbabilisticClockSynchronization1989",
+      "citekey": "cristianProbabilisticClockSynchronization1989",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Flaviu",
+          "lastName": "Cristian"
+        }
+      ],
+      "date": "1989",
+      "dateAdded": "2022-05-02T12:50:49Z",
+      "dateModified": "2022-05-02T12:50:49Z",
+      "issue": "3",
+      "itemID": 401,
+      "itemKey": "VA432A9X",
+      "itemType": "journalArticle",
+      "key": "VA432A9X",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "146–158",
+      "publicationTitle": "Distributed Comput.",
+      "relations": [],
+      "select": "zotero://select/library/items/VA432A9X",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Probabilistic Clock Synchronization",
+      "uri": "http://zotero.org/users/7659667/items/VA432A9X",
+      "url": "https://doi.org/10.1007/BF01784024",
+      "version": 1719,
+      "volume": "3"
+    },
+    {
+      "DOI": "10.1109/SC.2016.20",
+      "ISBN": "978-1-4673-8815-3",
+      "accessDate": "2021-12-02T14:12:10Z",
+      "attachments": [
+        {
+          "dateAdded": "2021-12-02T14:15:12Z",
+          "dateModified": "2021-12-02T14:15:13Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\QZ2Q8BGF\\Li et al_2016_Understanding Error Propagation in GPGPU Applications.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Li et al_2016_Understanding Error Propagation in GPGPU Applications.pdf",
+          "uri": "http://zotero.org/users/7659667/items/QZ2Q8BGF"
+        }
+      ],
+      "citationKey": "liUnderstandingErrorPropagation2016",
+      "citekey": "liUnderstandingErrorPropagation2016",
+      "conferenceName": "SC16: International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Guanpeng",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Karthik",
+          "lastName": "Pattabiraman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Chen-Yang",
+          "lastName": "Cher"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Pradip",
+          "lastName": "Bose"
+        }
+      ],
+      "date": "11/2016",
+      "dateAdded": "2021-12-02T14:12:10Z",
+      "dateModified": "2022-04-17T10:16:20Z",
+      "itemID": 115,
+      "itemKey": "VI7SEKR4",
+      "itemType": "conferencePaper",
+      "key": "VI7SEKR4",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "240-251",
+      "place": "Salt Lake City, UT, USA",
+      "publicationTitle": "SC16: International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/VI7SEKR4",
+      "tags": [
+        {
+          "tag": "Error Propagation"
+        }
+      ],
+      "title": "Understanding Error Propagation in GPGPU Applications",
+      "uri": "http://zotero.org/users/7659667/items/VI7SEKR4",
+      "url": "http://ieeexplore.ieee.org/document/7877099/",
+      "version": 1913
+    },
+    {
+      "DOI": "10.1145/3295500.3356177",
+      "ISBN": "978-1-4503-6229-0",
+      "abstractNote": "As machine learning (ML) becomes pervasive in high performance computing, ML has found its way into safety-critical domains (e.g., autonomous vehicles). Thus the reliability of ML has grown in importance. Specifically, failures of ML systems can have catastrophic consequences, and can occur due to soft errors, which are increasing in frequency due to system scaling. Therefore, we need to evaluate ML systems in the presence of soft errors.In this work, we propose BinFI, an efficient fault injector (FI) for finding the safety-critical bits in ML applications. We find the widely-used ML computations are often monotonic. Thus we can approximate the error propagation behavior of a ML application as a monotonic function. BinFI uses a binary-search like FI technique to pinpoint the safety-critical bits (also measure the overall resilience). BinFI identifies 99.56% of safety-critical bits (with 99.63% precision) in the systems, which significantly outperforms random FI, with much lower costs.",
+      "attachments": [
+        {
+          "dateAdded": "2021-12-03T03:55:00Z",
+          "dateModified": "2021-12-03T03:55:00Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\UTPVT6WG\\Chen et al_2019_BinFI.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Chen et al_2019_BinFI.pdf",
+          "uri": "http://zotero.org/users/7659667/items/UTPVT6WG"
+        }
+      ],
+      "citationKey": "chenBinFIEfficientFault2019",
+      "citekey": "chenBinFIEfficientFault2019",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Zitao",
+          "lastName": "Chen"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Guanpeng",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Karthik",
+          "lastName": "Pattabiraman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nathan",
+          "lastName": "DeBardeleben"
+        }
+      ],
+      "date": "2019",
+      "dateAdded": "2021-12-03T03:47:04Z",
+      "dateModified": "2022-05-07T16:12:33Z",
+      "extra": "event-place: Denver, Colorado",
+      "itemID": 120,
+      "itemKey": "WSJICZX4",
+      "itemType": "conferencePaper",
+      "key": "WSJICZX4",
+      "libraryID": 1,
+      "notes": [],
+      "place": "New York, NY, USA",
+      "publicationTitle": "Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "publisher": "Association for Computing Machinery",
+      "relations": [],
+      "select": "zotero://select/library/items/WSJICZX4",
+      "series": "SC '19",
+      "tags": [
+        {
+          "tag": "Error Resilience"
+        },
+        {
+          "tag": "Fault Injection"
+        },
+        {
+          "tag": "Machine Learning"
+        }
+      ],
+      "title": "BinFI: An Efficient Fault Injector for Safety-Critical Machine Learning Systems",
+      "uri": "http://zotero.org/users/7659667/items/WSJICZX4",
+      "url": "https://doi.org/10.1145/3295500.3356177",
+      "version": 2054
+    },
+    {
+      "DOI": "10.1109/ICCD46524.2019.00072",
+      "ISBN": "978-1-5386-6648-7",
+      "abstractNote": "Power consumption in the dense chip multiprocessors restricts the operational life of the battery operated devices. Voltage scaling for ensuring longer battery life exhibits hard and soft errors in cache. Hard faults, early detectable at boot time, are tractable but soft errors, being unpredictable in nature, are indeed hard to handle. Error correcting codes for soft error mitigation perform effectively for single event upsets (SEUs) but future technology nodes are anticipated to have signiﬁcant multi bit upsets (MBUs) due to miniaturization which demands additional system level protection. Several redundancy based schemes have been proposed but none of them reported any scalable solution for shared NUCA cache in multicore and suffered from either low coverage due to partial redundancy or performance degradation due to capacity loss in full coverage. This work addresses both these issues by ensuring full error coverage with minimum cache bypass. Errors are detected using simple error detection technique like CRC and the dirty as well as reusable clean words are replicated either locally in same tile or globally to remote tiles to ensure complete error coverage. Word re-usability is calculated using a Markov Chain based novel re-usability prediction mechanism by analysing the cache access pattern. An invalidation strategy is applied that invalidates nonreusable words for reducing the vulnerable time to soft errors. A re-usability aware replacement policy is also designed that replaces the line with lowest re-usability, calculated at line level. The proposed technique has been evaluated in Multi2Sim 5.0 simulation framework with the benchmark programs in SPEC CPU2000 suite. The results indicate on average 83.33% decrease of vulnerability for integer benchmarks and 87.09% for ﬂoating point benchmarks, with full multi-bit error coverage, at the cost of 4.99% area, 5.54% dynamic power and 6.55% leakage power overheads with negligible performance penalty.",
+      "accessDate": "2021-11-15T02:03:36Z",
+      "attachments": [
+        {
+          "dateAdded": "2021-11-15T02:03:30Z",
+          "dateModified": "2021-11-23T06:27:35Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\FR8CPA6U\\Choudhury_Sikdar_2019_Soft Error Resilience in Chip Multiprocessor Cache using a Markov Model Based.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Choudhury_Sikdar_2019_Soft Error Resilience in Chip Multiprocessor Cache using a Markov Model Based.pdf",
+          "uri": "http://zotero.org/users/7659667/items/FR8CPA6U"
+        }
+      ],
+      "citationKey": "choudhurySoftErrorResilience2019",
+      "citekey": "choudhurySoftErrorResilience2019",
+      "conferenceName": "2019 IEEE 37th International Conference on Computer Design (ICCD)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Avishek",
+          "lastName": "Choudhury"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Biplab K",
+          "lastName": "Sikdar"
+        }
+      ],
+      "date": "11/2019",
+      "dateAdded": "2021-11-15T02:03:36Z",
+      "dateModified": "2022-05-03T13:44:59Z",
+      "itemID": 62,
+      "itemKey": "X7BVKF78",
+      "itemType": "conferencePaper",
+      "key": "X7BVKF78",
+      "language": "en",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "468-476",
+      "place": "Abu Dhabi, United Arab Emirates",
+      "publicationTitle": "2019 IEEE 37th International Conference on Computer Design (ICCD)",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/X7BVKF78",
+      "tags": [
+        {
+          "tag": "Markov"
+        }
+      ],
+      "title": "Soft Error Resilience in Chip Multiprocessor Cache using a Markov Model Based Re-usability Predictor",
+      "uri": "http://zotero.org/users/7659667/items/X7BVKF78",
+      "url": "https://ieeexplore.ieee.org/document/8988703/",
+      "version": 1908
+    },
+    {
+      "DOI": "10.1145/361147.361115",
+      "ISSN": "0001-0782, 1557-7317",
+      "abstractNote": "To avoid having to restart a job from the beginning in case of random failure, it is standard practice to save periodically sufficient information to enable the job to be restarted at the previous point at which information was saved. Such points are referred to as checkpoints, and the saving of such information at these points is called checkpointing [1].",
+      "accessDate": "2022-04-22T16:31:46Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-04-22T16:31:40Z",
+          "dateModified": "2022-04-22T16:31:46Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\F9R6RYFQ\\Young - 1974 - A first order approximation to the optimum checkpo.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Young - 1974 - A first order approximation to the optimum checkpo.pdf",
+          "uri": "http://zotero.org/users/7659667/items/F9R6RYFQ"
+        }
+      ],
+      "callNumber": "4.654",
+      "citationKey": "youngFirstOrderApproximation1974",
+      "citekey": "youngFirstOrderApproximation1974",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "John W.",
+          "lastName": "Young"
+        }
+      ],
+      "date": "09/1974",
+      "dateAdded": "2022-04-22T16:31:46Z",
+      "dateModified": "2022-05-08T02:27:37Z",
+      "issue": "9",
+      "itemID": 329,
+      "itemKey": "XUL38RPG",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Commun. ACM",
+      "key": "XUL38RPG",
+      "language": "en",
+      "libraryCatalog": "4",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "530-531",
+      "publicationTitle": "Communications of the ACM",
+      "relations": [],
+      "select": "zotero://select/library/items/XUL38RPG",
+      "tags": [],
+      "title": "A first order approximation to the optimum checkpoint interval",
+      "uri": "http://zotero.org/users/7659667/items/XUL38RPG",
+      "url": "https://dl.acm.org/doi/10.1145/361147.361115",
+      "version": 2076,
+      "volume": "17"
+    },
+    {
+      "DOI": "10.1109/SC.2018.00011",
+      "ISBN": "978-1-5386-8384-2",
+      "accessDate": "2021-12-03T03:44:02Z",
+      "attachments": [
+        {
+          "dateAdded": "2021-12-03T03:55:03Z",
+          "dateModified": "2022-03-25T03:13:40Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\YUYQMAWW\\Guo et al_2018_FlipTracker.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Guo et al_2018_FlipTracker.pdf",
+          "uri": "http://zotero.org/users/7659667/items/YUYQMAWW"
+        }
+      ],
+      "citationKey": "guoFlipTrackerUnderstandingNatural2018",
+      "citekey": "guoFlipTrackerUnderstandingNatural2018",
+      "conferenceName": "SC18: International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Luanzheng",
+          "lastName": "Guo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dong",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ignacio",
+          "lastName": "Laguna"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Martin",
+          "lastName": "Schulz"
+        }
+      ],
+      "date": "11/2018",
+      "dateAdded": "2021-12-03T03:44:02Z",
+      "dateModified": "2022-04-17T10:16:20Z",
+      "itemID": 119,
+      "itemKey": "XZVXYMD6",
+      "itemType": "conferencePaper",
+      "key": "XZVXYMD6",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "94-107",
+      "place": "Dallas, TX, USA",
+      "publicationTitle": "SC18: International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/XZVXYMD6",
+      "shortTitle": "FlipTracker",
+      "tags": [],
+      "title": "FlipTracker: Understanding Natural Error Resilience in HPC Applications",
+      "uri": "http://zotero.org/users/7659667/items/XZVXYMD6",
+      "url": "https://ieeexplore.ieee.org/document/8665769/",
+      "version": 729
+    },
+    {
+      "DOI": "10.1145/800222.806738",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-02T06:42:24Z",
+          "dateModified": "2022-05-02T06:42:24Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\XVUA77NH\\Lundelius_Lynch_1984_A New Fault-Tolerant Algorithm for Clock Synchronization.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Lundelius_Lynch_1984_A New Fault-Tolerant Algorithm for Clock Synchronization.pdf",
+          "uri": "http://zotero.org/users/7659667/items/XVUA77NH"
+        }
+      ],
+      "citationKey": "lundeliusNewFaultTolerantAlgorithm1984",
+      "citekey": "lundeliusNewFaultTolerantAlgorithm1984",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jennifer",
+          "lastName": "Lundelius"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nancy A.",
+          "lastName": "Lynch"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Tiko",
+          "lastName": "Kameda"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Jayadev",
+          "lastName": "Misra"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Joseph G.",
+          "lastName": "Peters"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Nicola",
+          "lastName": "Santoro"
+        }
+      ],
+      "date": "1984",
+      "dateAdded": "2022-05-02T06:42:04Z",
+      "dateModified": "2022-05-02T06:42:05Z",
+      "itemID": 385,
+      "itemKey": "Y47STNTW",
+      "itemType": "conferencePaper",
+      "key": "Y47STNTW",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "75–88",
+      "publicationTitle": "Proceedings of the Third Annual ACM Symposium on Principles of Distributed Computing, Vancouver, B. C., Canada, August 27-29, 1984",
+      "publisher": "ACM",
+      "relations": [],
+      "select": "zotero://select/library/items/Y47STNTW",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "A New Fault-Tolerant Algorithm for Clock Synchronization",
+      "uri": "http://zotero.org/users/7659667/items/Y47STNTW",
+      "url": "https://doi.org/10.1145/800222.806738",
+      "version": 1636
+    },
+    {
+      "charset": "",
+      "contentType": "application/pdf",
+      "dateAdded": "2022-05-07T16:34:43Z",
+      "dateModified": "2022-05-07T16:34:43Z",
+      "defaultPath": "files/7790/CUDA_Profiler_Users_Guide.pdf",
+      "filename": "CUDA_Profiler_Users_Guide.pdf",
+      "itemID": 7790,
+      "itemKey": "YAALNJE4",
+      "itemType": "attachment",
+      "key": "YAALNJE4",
+      "libraryID": 1,
+      "linkMode": "imported_file",
+      "localPath": "D:\\Zotero\\storage\\YAALNJE4\\CUDA_Profiler_Users_Guide.pdf",
+      "relations": [],
+      "select": "zotero://select/library/items/YAALNJE4",
+      "tags": [],
+      "title": "CUDA_Profiler_Users_Guide.pdf",
+      "uri": "http://zotero.org/users/7659667/items/YAALNJE4",
+      "version": 2072
+    },
+    {
+      "DOI": "10.1109/DSN.2018.00016",
+      "ISBN": "978-1-5386-5596-2",
+      "accessDate": "2021-12-03T03:32:25Z",
+      "attachments": [
+        {
+          "dateAdded": "2021-12-03T03:55:11Z",
+          "dateModified": "2021-12-03T03:55:11Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\2AS2L6C9\\Li et al_2018_Modeling Soft-Error Propagation in Programs.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Li et al_2018_Modeling Soft-Error Propagation in Programs.pdf",
+          "uri": "http://zotero.org/users/7659667/items/2AS2L6C9"
+        }
+      ],
+      "citationKey": "liModelingSoftErrorPropagation2018",
+      "citekey": "liModelingSoftErrorPropagation2018",
+      "conferenceName": "2018 48th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Guanpeng",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Karthik",
+          "lastName": "Pattabiraman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Siva Kumar Sastry",
+          "lastName": "Hari"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michael",
+          "lastName": "Sullivan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Timothy",
+          "lastName": "Tsai"
+        }
+      ],
+      "date": "6/2018",
+      "dateAdded": "2021-12-03T03:32:25Z",
+      "dateModified": "2022-05-07T16:10:29Z",
+      "itemID": 114,
+      "itemKey": "YEHZWJ4Z",
+      "itemType": "conferencePaper",
+      "key": "YEHZWJ4Z",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "27-38",
+      "place": "Luxembourg City",
+      "publicationTitle": "2018 48th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/YEHZWJ4Z",
+      "shortTitle": "Trident",
+      "tags": [
+        {
+          "tag": "Error Propagation"
+        },
+        {
+          "tag": "⭐"
+        },
+        {
+          "tag": "Soft Error"
+        },
+        {
+          "tag": "SDC"
+        },
+        {
+          "tag": "Error Resilience"
+        }
+      ],
+      "title": "Modeling Soft-Error Propagation in Programs",
+      "uri": "http://zotero.org/users/7659667/items/YEHZWJ4Z",
+      "url": "https://ieeexplore.ieee.org/document/8416468/",
+      "version": 2049
+    },
+    {
+      "DOI": "10.1109/SC41405.2020.00032",
+      "ISBN": "978-1-72819-998-6",
+      "accessDate": "2022-01-16T03:26:24Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-01-16T03:26:44Z",
+          "dateModified": "2022-01-16T03:26:44Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\WSKEQ3AH\\Jin et al_2020_SCALANA.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Jin et al_2020_SCALANA.pdf",
+          "uri": "http://zotero.org/users/7659667/items/WSKEQ3AH"
+        }
+      ],
+      "citationKey": "jinSCALANAAutomatingScaling2020",
+      "citekey": "jinSCALANAAutomatingScaling2020",
+      "conferenceName": "SC20: International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Yuyang",
+          "lastName": "Jin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Haojie",
+          "lastName": "Wang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Teng",
+          "lastName": "Yu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Xiongchao",
+          "lastName": "Tang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Torsten",
+          "lastName": "Hoefler"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Xu",
+          "lastName": "Liu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jidong",
+          "lastName": "Zhai"
+        }
+      ],
+      "date": "11/2020",
+      "dateAdded": "2022-01-16T03:26:24Z",
+      "dateModified": "2022-04-17T10:16:20Z",
+      "itemID": 170,
+      "itemKey": "YMNVQNGA",
+      "itemType": "conferencePaper",
+      "key": "YMNVQNGA",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1-14",
+      "place": "Atlanta, GA, USA",
+      "publicationTitle": "SC20: International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/YMNVQNGA",
+      "shortTitle": "SCALANA",
+      "tags": [
+        {
+          "tag": "GNN"
+        }
+      ],
+      "title": "SCALANA: Automating Scaling Loss Detection with Graph Analysis",
+      "uri": "http://zotero.org/users/7659667/items/YMNVQNGA",
+      "url": "https://ieeexplore.ieee.org/document/9355294/",
+      "version": 730
+    },
+    {
+      "DOI": "10.23919/DATE51398.2021.9474098",
+      "ISBN": "978-3-9819263-5-4",
+      "abstractNote": "Due to the continuous technology scaling and lowering of operating voltages, modern computer systems are highly vulnerable to soft errors induced by the high-energy particles. Soft errors can corrupt program outputs leading to silent data corruption or a Crash. To protect computer systems against such failures, architects need to precisely and quickly identify vulnerable program instructions that need to be protected. Traditional techniques for program reliability estimation either use expensive and time-consuming fault injection or inaccurate analytical models to identify the program instructions that need to be protected against soft errors. In this work, we present GLAIVE, a graph learning-assisted model for fast, accurate, and transferable soft-error induced instruction vulnerability estimation. GLAIVE leverages a synergy between static analysis and datadriven statistical reasoning to automatically learn signatures of instruction-level vulnerabilities and their propagation to program outputs using a ﬁne-grain error propagation information from the bit-level program graphs of a set of realistic benchmarks. Our experiments show that the learned knowledge of instruction vulnerability is transferable to unseen programs. We further show that GLAIVE can achieve an average 221× speedup and up to 33.09% lower program vulnerability estimation error as compared to a baseline fault-injection technique, up to 30.29% higher vulnerability estimation accuracy, and on average can cover up to 90.23% vulnerable instructions for a given protection budget compared to a set of baseline machine learning algorithms.",
+      "accessDate": "2022-03-04T03:07:24Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-03-04T03:07:16Z",
+          "dateModified": "2022-03-04T03:07:24Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\BXZH3Z37\\Jiao et al. - 2021 - GLAIVE Graph Learning Assisted Instruction Vulner.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Jiao et al. - 2021 - GLAIVE Graph Learning Assisted Instruction Vulner.pdf",
+          "uri": "http://zotero.org/users/7659667/items/BXZH3Z37"
+        }
+      ],
+      "citationKey": "jiaoGLAIVEGraphLearning2021",
+      "citekey": "jiaoGLAIVEGraphLearning2021",
+      "conferenceName": "2021 Design, Automation & Test in Europe Conference & Exhibition (DATE)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jiajia",
+          "lastName": "Jiao"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Debjit",
+          "lastName": "Pal"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Chenhui",
+          "lastName": "Deng"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Zhiru",
+          "lastName": "Zhang"
+        }
+      ],
+      "date": "2021-2-1",
+      "dateAdded": "2022-03-04T03:07:24Z",
+      "dateModified": "2022-04-17T10:16:20Z",
+      "itemID": 207,
+      "itemKey": "ZED9PC3D",
+      "itemType": "conferencePaper",
+      "key": "ZED9PC3D",
+      "language": "en",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "82-87",
+      "place": "Grenoble, France",
+      "publicationTitle": "2021 Design, Automation & Test in Europe Conference & Exhibition (DATE)",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/ZED9PC3D",
+      "shortTitle": "GLAIVE",
+      "tags": [],
+      "title": "GLAIVE: Graph Learning Assisted Instruction Vulnerability Estimation",
+      "uri": "http://zotero.org/users/7659667/items/ZED9PC3D",
+      "url": "https://ieeexplore.ieee.org/document/9474098/",
+      "version": 730
+    },
+    {
+      "attachments": [
+        {
+          "dateAdded": "2021-11-15T02:03:31Z",
+          "dateModified": "2021-11-15T02:03:38Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\Y5KQJWBX\\Parallel Thread Execution ISA.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Parallel Thread Execution ISA.pdf",
+          "uri": "http://zotero.org/users/7659667/items/Y5KQJWBX"
+        }
+      ],
+      "citationKey": "ParallelThreadExecution",
+      "citekey": "ParallelThreadExecution",
+      "creators": [],
+      "dateAdded": "2021-11-15T02:03:38Z",
+      "dateModified": "2022-04-17T10:05:14Z",
+      "itemID": 63,
+      "itemKey": "ZF685QVQ",
+      "itemType": "journalArticle",
+      "key": "ZF685QVQ",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "447",
+      "relations": [],
+      "select": "zotero://select/library/items/ZF685QVQ",
+      "tags": [],
+      "title": "Parallel Thread Execution ISA",
+      "uri": "http://zotero.org/users/7659667/items/ZF685QVQ",
+      "version": 727
+    }
+  ],
+  "version": {
+    "bbt": "6.7.1",
+    "zotero": "6.0.6"
+  }
+}

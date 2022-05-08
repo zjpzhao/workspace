@@ -1,11 +1,11 @@
 {
-  "bibPath": "/Paper/zo2ob/jsons/new.json",
+  "bibPath": "papers/new.json",
   "templateContent": "# {{title}}\n\n## Metadata\n- **CiteKey**: {{citekey}}\n - **Type**: {{itemType}}\n - **Title**: {{title}}, \n - **Author**: {{author}};  \n- **Editor**: {{editor}};  \n- **Translator**: {{translator}}\n- **Publisher**: {{publisher}},\n- **Location**: {{place}},\n- **Series**: {{series}}\n- **Series Number**: {{seriesNumber}}\n- **Journal**: {{publicationTitle}}, \n- **Volume**: {{volume}},\n- **Issue**: {{issue}}\n- **Pages**: {{pages}}\n- **Year**: {{year}} \n- **DOI**: {{DOI}}\n- **ISSN**: {{ISSN}}\n- **ISBN**: {{ISBN}}\n\n## Abstract\n{{abstractNote}}\n## Files and Links\n- **Url**: {{url}}\n- **Uri**: {{uri}}\n- **Eprint**: {{eprint}}\n- **File**: {{file}}\n- **Local Library**: [Zotero]({{localLibraryLink}})\n\n## Tags and Collections\n- **Keywords**: {{keywordsAll}}\n- **Collections**: {{collectionsParent}}\n\n\n----\n\n## Comments\n{{UserNotes}}\n\n\n----\n\n## Extracted Annotations\n{{PDFNotes}}",
   "templatePath": "",
   "templateType": "Admonition",
-  "lastUpdateDate": "2022-05-08T03:48:01.003Z",
-  "updateLibrary": "Create new notes when missing",
-  "exportPath": "Paper/zo2ob/mds",
+  "lastUpdateDate": "2022-05-08T04:32:06.453Z",
+  "updateLibrary": "Only update existing notes",
+  "exportPath": "papers",
   "exportTitle": "@{{citeKey}}",
   "missingfield": "Leave placeholder",
   "saveManualEdits": "Save Entire Note",
@@ -13,7 +13,7 @@
   "saveManualEditsEnd": "",
   "imagesImport": true,
   "imagesCopy": false,
-  "imagesPath": "Paper/zo2ob/imgs",
+  "imagesPath": "",
   "imagesCommentPosition": "Above the image",
   "keyMergeAbove": "+",
   "keyCommentPrepend": "%",
@@ -60,6 +60,6 @@
   "highlightCitationsFormat": "Author, year, page number",
   "highlightCitationsLink": true,
   "debugMode": false,
-  "zoteroStoragePathManual": "D:\\Zotero",
+  "zoteroStoragePathManual": "D:\\Zotero\\storage",
   "missingfieldreplacement": "NA"
 }

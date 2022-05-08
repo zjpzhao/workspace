@@ -7,8 +7,13 @@
         "id": "9dd1471e6e7496f4",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "papers/@jaloteFaultToleranceDistributed1994.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -94,7 +99,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "papers/@jaloteFaultToleranceDistributed1994.md"
+              }
             }
           },
           {
@@ -103,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "papers/@jaloteFaultToleranceDistributed1994.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,6 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "papers/@jaloteFaultToleranceDistributed1994.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,6 +167,8 @@
   },
   "active": "9dd1471e6e7496f4",
   "lastOpenFiles": [
+    "papers/@jaloteFaultToleranceDistributed1994.md",
+    "papers/@ReliabilityComputerSystems2003shooman.md",
     "Paper/zo2ob/mds/@jaloteFaultToleranceDistributed1994.md",
     "Lectures/云计算课程论文研读报告.md",
     "2022-04-07.md",
@@ -165,8 +176,6 @@
     "Workflow/插件用法.md",
     "Workflow/全系workflow搭建.md",
     "论文撰写.md",
-    "常用指令.md",
-    "对神经网络模型参数进行多线程单比特位故障注入代码.md",
-    "Lectures/容错系统.md"
+    "常用指令.md"
   ]
 }
