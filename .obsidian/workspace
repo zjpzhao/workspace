@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "91d221e16eea425d",
+        "id": "9dd1471e6e7496f4",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Workflow/插件用法.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -94,7 +99,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Workflow/插件用法.md"
+              }
             }
           },
           {
@@ -103,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Workflow/插件用法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,6 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Workflow/插件用法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,19 +162,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "91d221e16eea425d",
+  "active": "9dd1471e6e7496f4",
   "lastOpenFiles": [
+    "Workflow/插件用法.md",
+    "Workflow/全系workflow搭建.md",
+    "excalibrain.md",
     "论文撰写.md",
     "常用指令.md",
     "对神经网络模型参数进行多线程单比特位故障注入代码.md",
     "Lectures/容错系统.md",
     "Lectures/云计算课程论文研读报告.md",
     "linux配置代理Qv2ray和Clash.md",
-    "Learning/Git.md",
-    "Learning/CUDA.md",
-    "Learning/python学习.md",
-    "Learning/Markdown语法.md"
+    "Learning/Git.md"
   ]
 }
