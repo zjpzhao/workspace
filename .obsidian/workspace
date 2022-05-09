@@ -141,7 +141,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "55926376afea7878",
@@ -162,8 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "9dd1471e6e7496f4",
   "lastOpenFiles": [
