@@ -195,9 +195,7 @@
     "label": "BetterBibTeX JSON",
     "localeDateOrder": "mdy",
     "options": {
-      "exportFileData": false,
-      "exportNotes": true,
-      "keepUpdated": true
+      "exportNotes": true
     },
     "preferences": {
       "DOIandURL": "both",
@@ -455,8 +453,9 @@
           "uri": "http://zotero.org/users/7659667/items/G8S9DN2B"
         }
       ],
-      "citationKey": "liUnderstandingProgramResiliency2021",
-      "citekey": "liUnderstandingProgramResiliency2021",
+      "citationKey": "UnderstandingProgramResiliency2021li",
+      "citekey": "UnderstandingProgramResiliency2021li",
+      "conferenceName": "PPoPP",
       "creators": [
         {
           "creatorType": "author",
@@ -501,7 +500,7 @@
       ],
       "date": "2021",
       "dateAdded": "2022-04-30T12:53:50Z",
-      "dateModified": "2022-04-30T12:53:50Z",
+      "dateModified": "2022-05-09T13:08:20Z",
       "itemID": 346,
       "itemKey": "38QS7MFI",
       "itemType": "conferencePaper",
@@ -515,14 +514,13 @@
       "select": "zotero://select/library/items/38QS7MFI",
       "tags": [
         {
-          "tag": "/unread",
-          "type": 1
+          "tag": "Monotonic"
         }
       ],
       "title": "Understanding a program's resiliency through error propagation",
       "uri": "http://zotero.org/users/7659667/items/38QS7MFI",
       "url": "https://doi.org/10.1145/3437801.3441589",
-      "version": 1473
+      "version": 2199
     },
     {
       "dateAdded": "2022-05-09T09:33:00Z",

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "papers/@jaloteFaultToleranceDistributed1994.md",
+            "file": "papers/@ReliabilityComputerSystems2003shooman.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/@jaloteFaultToleranceDistributed1994.md"
+                "file": "papers/@ReliabilityComputerSystems2003shooman.md"
               }
             }
           },
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/@jaloteFaultToleranceDistributed1994.md",
+                "file": "papers/@ReliabilityComputerSystems2003shooman.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/@jaloteFaultToleranceDistributed1994.md",
+                "file": "papers/@ReliabilityComputerSystems2003shooman.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,9 +140,17 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "93ca10b8689a9f78",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "55926376afea7878",
@@ -167,8 +175,8 @@
   },
   "active": "9dd1471e6e7496f4",
   "lastOpenFiles": [
-    "papers/@jaloteFaultToleranceDistributed1994.md",
     "papers/@ReliabilityComputerSystems2003shooman.md",
+    "papers/@jaloteFaultToleranceDistributed1994.md",
     "Paper/zo2ob/mds/@jaloteFaultToleranceDistributed1994.md",
     "Lectures/云计算课程论文研读报告.md",
     "2022-04-07.md",
