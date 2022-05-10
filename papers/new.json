@@ -29,10 +29,11 @@
         122,
         168,
         169,
-        170
+        170,
+        7853
       ],
       "key": "89K6PZVW",
-      "name": "Detection Model",
+      "name": "Error Propagation",
       "parent": ""
     },
     "9ML3SXBU": {
@@ -111,11 +112,22 @@
     "Q7FV3VXB": {
       "collections": [],
       "items": [
+        107,
         7791,
-        7793
+        7793,
+        7855
       ],
       "key": "Q7FV3VXB",
       "name": "Inputs Related",
+      "parent": ""
+    },
+    "QVWNZEJA": {
+      "collections": [],
+      "items": [
+        7847
+      ],
+      "key": "QVWNZEJA",
+      "name": "Fault Tolerance",
       "parent": ""
     },
     "RLZKFTSE": {
@@ -155,7 +167,11 @@
     "VK6XIGJC": {
       "collections": [],
       "items": [
-        351
+        351,
+        7844,
+        7851,
+        7870,
+        7872
       ],
       "key": "VK6XIGJC",
       "name": "Vulnerability",
@@ -195,7 +211,9 @@
     "label": "BetterBibTeX JSON",
     "localeDateOrder": "mdy",
     "options": {
-      "exportNotes": true
+      "exportFileData": false,
+      "exportNotes": true,
+      "keepUpdated": true
     },
     "preferences": {
       "DOIandURL": "both",
@@ -523,6 +541,95 @@
       "version": 2199
     },
     {
+      "DOI": "10.1145/3447818.3460364",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-09T14:41:44Z",
+          "dateModified": "2022-05-09T14:41:45Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\94DD9QF4\\Zhai et al_2021_FT-BLAS.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Zhai et al_2021_FT-BLAS.pdf",
+          "uri": "http://zotero.org/users/7659667/items/94DD9QF4"
+        }
+      ],
+      "citationKey": "FTBLASHighPerformance2021zhai",
+      "citekey": "FTBLASHighPerformance2021zhai",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Yujia",
+          "lastName": "Zhai"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Elisabeth",
+          "lastName": "Giem"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Quan",
+          "lastName": "Fan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Kai",
+          "lastName": "Zhao"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jinyang",
+          "lastName": "Liu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Zizhong",
+          "lastName": "Chen"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Huiyang",
+          "lastName": "Zhou"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Jose",
+          "lastName": "Moreira"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Frank",
+          "lastName": "Mueller"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Yoav",
+          "lastName": "Etsion"
+        }
+      ],
+      "date": "2021",
+      "dateAdded": "2022-05-09T14:41:40Z",
+      "dateModified": "2022-05-09T14:41:53Z",
+      "itemID": 7847,
+      "itemKey": "39D2PFAH",
+      "itemType": "conferencePaper",
+      "key": "39D2PFAH",
+      "libraryCatalog": "DBLP Computer Science Bibliography",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "127–138",
+      "publicationTitle": "ICS '21: 2021 International Conference on Supercomputing, Virtual Event, USA, June 14-17, 2021",
+      "publisher": "ACM",
+      "relations": [],
+      "select": "zotero://select/library/items/39D2PFAH",
+      "shortTitle": "FT-BLAS",
+      "tags": [],
+      "title": "FT-BLAS: a high performance BLAS implementation with online fault tolerance",
+      "uri": "http://zotero.org/users/7659667/items/39D2PFAH",
+      "version": 2233
+    },
+    {
       "dateAdded": "2022-05-09T09:33:00Z",
       "dateModified": "2022-05-09T09:42:38Z",
       "itemID": 7836,
@@ -604,6 +711,98 @@
       "uri": "http://zotero.org/users/7659667/items/3PBS8V9V",
       "url": "https://ieeexplore.ieee.org/document/9505068/",
       "version": 728
+    },
+    {
+      "DOI": "10.1109/TVCG.2020.2994954",
+      "ISSN": "1077-2626, 1941-0506, 2160-9306",
+      "abstractNote": "The trend of rapid technology scaling is expected to make the hardware of high-performance computing (HPC) systems more susceptible to computational errors due to random bit ﬂips. Some bit ﬂips may cause a program to crash or have a minimal effect on the output, but others may lead to silent data corruption (SDC), i.e., undetected yet signiﬁcant output errors. Classical fault injection analysis methods employ uniform sampling of random bit ﬂips during program execution to derive a statistical resiliency proﬁle. However, summarizing such fault injection result with sufﬁcient detail is difﬁcult, and understanding the behavior of the fault-corrupted program is still a challenge. In this article, we introduce SpotSDC, a visualization system to facilitate the analysis of a program’s resilience to SDC. SpotSDC provides multiple perspectives at various levels of detail of the impact on the output relative to where in the source code the ﬂipped bit occurs, which bit is ﬂipped, and when during the execution it happens. SpotSDC also enables users to study the code protection and provide new insights to understand the behavior of a fault-injected program. Based on lessons learned, we demonstrate how what we found can improve the fault injection campaign method.",
+      "accessDate": "2022-05-09T14:48:07Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-09T14:48:02Z",
+          "dateModified": "2022-05-09T14:48:10Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\PVRFJDWW\\Li et al. - 2021 - SpotSDC Revealing the Silent Data Corruption Prop.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Li et al. - 2021 - SpotSDC Revealing the Silent Data Corruption Prop.pdf",
+          "uri": "http://zotero.org/users/7659667/items/PVRFJDWW"
+        }
+      ],
+      "callNumber": "4.579",
+      "citationKey": "SpotSDCRevealingSilent2021li",
+      "citekey": "SpotSDCRevealingSilent2021li",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Zhimin",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Harshitha",
+          "lastName": "Menon"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dan",
+          "lastName": "Maljovec"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yarden",
+          "lastName": "Livnat"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Shusen",
+          "lastName": "Liu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Kathryn",
+          "lastName": "Mohror"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Peer-Timo",
+          "lastName": "Bremer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Valerio",
+          "lastName": "Pascucci"
+        }
+      ],
+      "date": "2021-10-1",
+      "dateAdded": "2022-05-09T14:48:07Z",
+      "dateModified": "2022-05-09T14:48:09Z",
+      "issue": "10",
+      "itemID": 7853,
+      "itemKey": "3YEZUP2W",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "IEEE Trans. Visual. Comput. Graphics",
+      "key": "3YEZUP2W",
+      "language": "en",
+      "libraryCatalog": "1",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "3938-3952",
+      "publicationTitle": "IEEE Transactions on Visualization and Computer Graphics",
+      "relations": [],
+      "select": "zotero://select/library/items/3YEZUP2W",
+      "shortTitle": "SpotSDC",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "SpotSDC: Revealing the Silent Data Corruption Propagation in High-Performance Computing Systems",
+      "uri": "http://zotero.org/users/7659667/items/3YEZUP2W",
+      "url": "https://ieeexplore.ieee.org/document/9094379/",
+      "version": 2243,
+      "volume": "27"
     },
     {
       "DOI": "10.1145/3339363.3339382",
@@ -694,7 +893,7 @@
       ],
       "date": "2003",
       "dateAdded": "2022-04-08T07:29:02Z",
-      "dateModified": "2022-04-17T10:16:19Z",
+      "dateModified": "2022-05-09T16:33:30Z",
       "extra": "OCLC: 849895333",
       "itemID": 248,
       "itemKey": "5MCDKWYB",
@@ -718,7 +917,11 @@
       ],
       "relations": [],
       "select": "zotero://select/library/items/5MCDKWYB",
-      "tags": [],
+      "tags": [
+        {
+          "tag": "ObsCite"
+        }
+      ],
       "title": "Reliability of Computer Systems and Networks Fault Tolerance, Analysis, and Design",
       "uri": "http://zotero.org/users/7659667/items/5MCDKWYB",
       "url": "https://doi.org/10.1002/047122460X",
@@ -873,6 +1076,142 @@
       "url": "https://ieeexplore.ieee.org/document/9035460/",
       "version": 728,
       "volume": "70"
+    },
+    {
+      "DOI": "10.1109/SC.2014.62",
+      "ISBN": "978-1-4799-5500-8 978-1-4799-5499-5",
+      "abstractNote": "Recent strategies to improve the observable resilience of applications require the ability to classify vulnerabilities of individual components (e.g., data structures, instructions) of an application, and then, selectively apply protection mechanisms to its critical components. To facilitate this vulnerability classiﬁcation, it is important to have accurate, quantitative techniques that can be applied uniformly and automatically across real-world applications. Traditional methods cannot effectively quantify vulnerability, because they lack a holistic view to examine system resilience, and come with prohibitive evaluation costs. In this paper, we introduce a data-driven, practical methodology to analyze these application vulnerabilities using a novel resilience metric: the data vulnerability factor (DVF). DVF integrates knowledge from both the application and target hardware into the calculation. To calculate DVF, we extend a performance modeling language to provide a structured, fast modeling solution. We evaluate our methodology on six representative computational kernels; we demonstrate the signiﬁcance of DVF by quantifying the impact of algorithm optimization on vulnerability, and by quantifying the effectiveness of speciﬁc hardware protection mechanisms.",
+      "accessDate": "2022-05-09T14:44:43Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-09T14:44:38Z",
+          "dateModified": "2022-05-09T14:44:45Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\8NWT2XB9\\Yu et al. - 2014 - Quantitatively Modeling Application Resilience wit.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Yu et al. - 2014 - Quantitatively Modeling Application Resilience wit.pdf",
+          "uri": "http://zotero.org/users/7659667/items/8NWT2XB9"
+        }
+      ],
+      "citationKey": "QuantitativelyModelingApplication2014yu",
+      "citekey": "QuantitativelyModelingApplication2014yu",
+      "conferenceName": "SC14: International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Li",
+          "lastName": "Yu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dong",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sparsh",
+          "lastName": "Mittal"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jeffrey S.",
+          "lastName": "Vetter"
+        }
+      ],
+      "date": "11/2014",
+      "dateAdded": "2022-05-09T14:44:43Z",
+      "dateModified": "2022-05-09T15:41:33Z",
+      "itemID": 7851,
+      "itemKey": "75GV3HYZ",
+      "itemType": "conferencePaper",
+      "key": "75GV3HYZ",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "695-706",
+      "place": "New Orleans, LA, USA",
+      "publicationTitle": "SC14: International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/75GV3HYZ",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        },
+        {
+          "tag": "⭐"
+        },
+        {
+          "tag": "DVF"
+        }
+      ],
+      "title": "Quantitatively Modeling Application Resilience with the Data Vulnerability Factor",
+      "uri": "http://zotero.org/users/7659667/items/75GV3HYZ",
+      "url": "http://ieeexplore.ieee.org/document/7013044/",
+      "version": 2296
+    },
+    {
+      "DOI": "10.1109/PDP55904.2022.00025",
+      "ISBN": "978-1-66546-958-6",
+      "abstractNote": "As Graphics Processing Units (GPUs) have evolved to deliver performance increases for general-purpose computations as well as graphics and multimedia applications, soft error reliability becomes an important concern. The soft error vulnerability of the applications is evaluated via fault injection experiments. Since performing fault injection takes impractical times to cover the fault locations in complex GPU hardware structures, prediction-based techniques have been proposed to evaluate the soft error vulnerability of General-Purpose GPU (GPGPU) programs based on the hardware performance characteristics.",
+      "accessDate": "2022-05-09T15:23:14Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-09T15:23:09Z",
+          "dateModified": "2022-05-09T15:23:15Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\Q3G3TLMC\\Topcu and Oz - 2022 - Predicting the Soft Error Vulnerability of GPGPU A.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Topcu and Oz - 2022 - Predicting the Soft Error Vulnerability of GPGPU A.pdf",
+          "uri": "http://zotero.org/users/7659667/items/Q3G3TLMC"
+        }
+      ],
+      "citationKey": "PredictingSoftError2022topcua",
+      "citekey": "PredictingSoftError2022topcua",
+      "conferenceName": "2022 30th Euromicro International Conference on Parallel, Distributed and Network-Based Processing (PDP)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Burak",
+          "lastName": "Topcu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Isil",
+          "lastName": "Oz"
+        }
+      ],
+      "date": "3/2022",
+      "dateAdded": "2022-05-09T15:23:14Z",
+      "dateModified": "2022-05-09T15:23:14Z",
+      "itemID": 7870,
+      "itemKey": "7P3LUHQG",
+      "itemType": "conferencePaper",
+      "key": "7P3LUHQG",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "108-115",
+      "place": "Valladolid, Spain",
+      "publicationTitle": "2022 30th Euromicro International Conference on Parallel, Distributed and Network-based Processing (PDP)",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/7P3LUHQG",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Predicting the Soft Error Vulnerability of GPGPU Applications",
+      "uri": "http://zotero.org/users/7659667/items/7P3LUHQG",
+      "url": "https://ieeexplore.ieee.org/document/9756720/",
+      "version": 2279
     },
     {
       "attachments": [
@@ -1064,8 +1403,9 @@
           "uri": "http://zotero.org/users/7659667/items/4K578Y4W"
         }
       ],
-      "citationKey": "mahmoudMinotaurAdaptingSoftware2019",
-      "citekey": "mahmoudMinotaurAdaptingSoftware2019",
+      "citationKey": "MinotaurAdaptingSoftware2019mahmoud",
+      "citekey": "MinotaurAdaptingSoftware2019mahmoud",
+      "conferenceName": "ASPLOS",
       "creators": [
         {
           "creatorType": "author",
@@ -1105,7 +1445,7 @@
       ],
       "date": "2019",
       "dateAdded": "2021-12-03T04:13:49Z",
-      "dateModified": "2022-05-07T16:11:47Z",
+      "dateModified": "2022-05-09T14:31:40Z",
       "extra": "event-place: Providence, RI, USA",
       "itemID": 107,
       "itemKey": "ALANDUY6",
@@ -1121,11 +1461,15 @@
       "select": "zotero://select/library/items/ALANDUY6",
       "series": "ASPLOS '19",
       "shortTitle": "Minotaur",
-      "tags": [],
+      "tags": [
+        {
+          "tag": "Input Minimization"
+        }
+      ],
       "title": "Minotaur: Adapting Software Testing Techniques for Hardware Errors",
       "uri": "http://zotero.org/users/7659667/items/ALANDUY6",
       "url": "https://doi.org/10.1145/3297858.3304050",
-      "version": 2051
+      "version": 2217
     },
     {
       "attachments": [
@@ -1233,8 +1577,8 @@
           "uri": "http://zotero.org/users/7659667/items/CUKBJTEB"
         }
       ],
-      "citationKey": "rahmanPEPPAXFindingProgram2021",
-      "citekey": "rahmanPEPPAXFindingProgram2021",
+      "citationKey": "PEPPAXFindingProgram2021rahman",
+      "citekey": "PEPPAXFindingProgram2021rahman",
       "creators": [
         {
           "creatorType": "author",
@@ -1274,7 +1618,7 @@
       ],
       "date": "2021",
       "dateAdded": "2022-05-08T02:36:58Z",
-      "dateModified": "2022-05-08T02:37:11Z",
+      "dateModified": "2022-05-09T14:33:22Z",
       "itemID": 7793,
       "itemKey": "CCN9DIVW",
       "itemType": "conferencePaper",
@@ -1288,7 +1632,11 @@
       "relations": [],
       "select": "zotero://select/library/items/CCN9DIVW",
       "shortTitle": "PEPPA-X",
-      "tags": [],
+      "tags": [
+        {
+          "tag": "Multiple Inputs"
+        }
+      ],
       "title": "PEPPA-X: finding program test inputs to bound silent data corruption vulnerability in HPC applications",
       "uri": "http://zotero.org/users/7659667/items/CCN9DIVW",
       "version": 2087
@@ -1381,7 +1729,7 @@
       ],
       "date": "1994",
       "dateAdded": "2022-05-02T04:38:42Z",
-      "dateModified": "2022-05-08T04:50:10Z",
+      "dateModified": "2022-05-09T16:33:29Z",
       "itemID": 363,
       "itemKey": "DY8FYKM8",
       "itemType": "book",
@@ -1400,7 +1748,7 @@
           "relations": {},
           "tags": [],
           "uri": "http://zotero.org/users/7659667/items/YDSH5ZGX",
-          "version": 2096
+          "version": 2173
         }
       ],
       "numPages": "432",
@@ -1410,13 +1758,10 @@
       "select": "zotero://select/library/items/DY8FYKM8",
       "tags": [
         {
-          "tag": "Fault Tolerance"
-        },
-        {
           "tag": "Distributed Processing"
         },
         {
-          "tag": "ObsCite"
+          "tag": "Fault Tolerance"
         }
       ],
       "title": "Fault tolerance in distributed systems",
@@ -1736,6 +2081,80 @@
       "uri": "http://zotero.org/users/7659667/items/IL8HDX8N",
       "url": "https://ieeexplore.ieee.org/document/8665790/",
       "version": 730
+    },
+    {
+      "DOI": "10.1145/3447375",
+      "ISSN": "2476-1249",
+      "abstractNote": "As Graphics Processing Units (GPUs) are becoming a de facto solution for accelerating a wide range of applications, their reliable operation is becoming increasingly important. One of the major challenges in the domain of GPU reliability is to accurately measure GPGPU application error resilience. This challenge stems from the fact that a typical GPGPU application spawns a huge number of threads and then utilizes a large amount of potentially unreliable compute and memory resources available on the GPUs. As the number of possible fault locations can be in the billions, evaluating every fault and examining its effect on theapplication error resilience is impractical. Application resilience is evaluated via extensive fault injection campaigns based on sampling of an extensive fault site space. Typically, the larger the input of the GPGPU application, the longer the experimental campaign. In this work, we devise a methodology, SUGAR (Speeding Up GPGPU Application Resilience Estimation with input sizing), that dramatically speeds up the evaluation of GPGPU application error resilience by judicious input sizing. We show how analyzing a small fraction of the input is sufficient to estimate the application resilience with high accuracy and dramatically reduce the duration of experimentation. Key of our estimation methodology is the discovery of repeating patterns as a function of the input size. Using the well-established fact that error resilience in GPGPU applications is mostly determined by the dynamic instruction count at the thread level, we identify the patterns that allow us to accurately predict application error resilience for arbitrarily large inputs. For the cases that we examine in this paper, this new resilience estimation mechanism provides significant speedups (up to 1336 times) and 97.0 on the average, while keeping estimation errors to less than 1%.",
+      "accessDate": "2022-05-09T14:49:17Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-09T14:49:12Z",
+          "dateModified": "2022-05-09T14:49:18Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\MJ3SA9GD\\Yang et al. - 2021 - SUGAR Speeding Up GPGPU Application Resilience Es.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Yang et al. - 2021 - SUGAR Speeding Up GPGPU Application Resilience Es.pdf",
+          "uri": "http://zotero.org/users/7659667/items/MJ3SA9GD"
+        }
+      ],
+      "citationKey": "SUGARSpeedingGPGPU2021yang",
+      "citekey": "SUGARSpeedingGPGPU2021yang",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Lishan",
+          "lastName": "Yang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bin",
+          "lastName": "Nie"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Adwait",
+          "lastName": "Jog"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Evgenia",
+          "lastName": "Smirni"
+        }
+      ],
+      "date": "2021-02-18",
+      "dateAdded": "2022-05-09T14:49:17Z",
+      "dateModified": "2022-05-09T14:52:43Z",
+      "issue": "1",
+      "itemID": 7855,
+      "itemKey": "J67PSCWK",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Proc. ACM Meas. Anal. Comput. Syst.",
+      "key": "J67PSCWK",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1-29",
+      "publicationTitle": "Proceedings of the ACM on Measurement and Analysis of Computing Systems",
+      "relations": [],
+      "select": "zotero://select/library/items/J67PSCWK",
+      "shortTitle": "SUGAR",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        },
+        {
+          "tag": "Input Sizing"
+        }
+      ],
+      "title": "SUGAR: Speeding Up GPGPU Application Resilience Estimation with Input Sizing",
+      "uri": "http://zotero.org/users/7659667/items/J67PSCWK",
+      "url": "https://dl.acm.org/doi/10.1145/3447375",
+      "version": 2248,
+      "volume": "5"
     },
     {
       "DOI": "10.24963/ijcai.2020/454",
@@ -2311,6 +2730,60 @@
       "version": 728
     },
     {
+      "DOI": "10.1007/s11227-021-04026-6",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-09T15:34:03Z",
+          "dateModified": "2022-05-09T15:34:04Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\BY553RCX\\Öz_Karadas_2022_Regional soft error vulnerability and error propagation analysis for GPGPU.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Öz_Karadas_2022_Regional soft error vulnerability and error propagation analysis for GPGPU.pdf",
+          "uri": "http://zotero.org/users/7659667/items/BY553RCX"
+        }
+      ],
+      "callNumber": "2.474",
+      "citationKey": "RegionalSoftError2022oz",
+      "citekey": "RegionalSoftError2022oz",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Isil",
+          "lastName": "Öz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ömer Faruk",
+          "lastName": "Karadas"
+        }
+      ],
+      "date": "2022",
+      "dateAdded": "2022-05-09T15:33:45Z",
+      "dateModified": "2022-05-09T15:42:00Z",
+      "issue": "3",
+      "itemID": 7872,
+      "itemKey": "PAGCBY7S",
+      "itemType": "journalArticle",
+      "key": "PAGCBY7S",
+      "libraryCatalog": "4",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "4095–4130",
+      "publicationTitle": "J. Supercomput.",
+      "relations": [],
+      "select": "zotero://select/library/items/PAGCBY7S",
+      "tags": [
+        {
+          "tag": "⭐"
+        }
+      ],
+      "title": "Regional soft error vulnerability and error propagation analysis for GPGPU applications",
+      "uri": "http://zotero.org/users/7659667/items/PAGCBY7S",
+      "version": 2297,
+      "volume": "78"
+    },
+    {
       "DOI": "10.1145/3302255",
       "attachments": [
         {
@@ -2550,6 +3023,67 @@
       "url": "https://dl.acm.org/doi/10.1145/2717311",
       "version": 730,
       "volume": "12"
+    },
+    {
+      "DOI": "10.1109/HPCA.2009.4798243",
+      "ISBN": "978-1-4244-2932-5",
+      "abstractNote": "The Architectural Vulnerability Factor (AVF) of a hardware structure is the probability that a fault in the structure will affect the output of a program. AVF captures both microarchitectural and architectural fault masking effects; therefore, AVF measurements cannot generate insight into the vulnerability of software independent of hardware. To evaluate the behavior of software in the presence of hardware faults, we must isolate the software-dependent (architecture-level masking) portion of AVF from the hardware-dependent (microarchitecture-level masking) portion, providing a quantitative basis to make reliability decisions about software independent of hardware.",
+      "accessDate": "2022-05-09T14:37:10Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-09T14:37:04Z",
+          "dateModified": "2022-05-09T14:37:12Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\5Z6LD9L7\\Sridharan and Kaeli - 2009 - Eliminating microarchitectural dependency from Arc.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Sridharan and Kaeli - 2009 - Eliminating microarchitectural dependency from Arc.pdf",
+          "uri": "http://zotero.org/users/7659667/items/5Z6LD9L7"
+        }
+      ],
+      "citationKey": "EliminatingMicroarchitecturalDependency2009sridharan",
+      "citekey": "EliminatingMicroarchitecturalDependency2009sridharan",
+      "conferenceName": "2009 IEEE 15th International Symposium on High Performance Computer Architecture (HPCA)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Vilas",
+          "lastName": "Sridharan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David R.",
+          "lastName": "Kaeli"
+        }
+      ],
+      "date": "02/2009",
+      "dateAdded": "2022-05-09T14:37:10Z",
+      "dateModified": "2022-05-09T14:39:39Z",
+      "itemID": 7844,
+      "itemKey": "S434NRHX",
+      "itemType": "conferencePaper",
+      "key": "S434NRHX",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "117-128",
+      "place": "Raleigh, NC, USA",
+      "publicationTitle": "2009 IEEE 15th International Symposium on High Performance Computer Architecture",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/S434NRHX",
+      "shortTitle": "PVF",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Eliminating microarchitectural dependency from Architectural Vulnerability",
+      "uri": "http://zotero.org/users/7659667/items/S434NRHX",
+      "url": "http://ieeexplore.ieee.org/document/4798243/",
+      "version": 2224
     },
     {
       "DOI": "10.1016/j.microrel.2020.113648",
@@ -3353,8 +3887,8 @@
           "uri": "http://zotero.org/users/7659667/items/2AS2L6C9"
         }
       ],
-      "citationKey": "liModelingSoftErrorPropagation2018",
-      "citekey": "liModelingSoftErrorPropagation2018",
+      "citationKey": "ModelingSoftErrorPropagation2018li",
+      "citekey": "ModelingSoftErrorPropagation2018li",
       "conferenceName": "2018 48th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)",
       "creators": [
         {
@@ -3385,7 +3919,7 @@
       ],
       "date": "6/2018",
       "dateAdded": "2021-12-03T03:32:25Z",
-      "dateModified": "2022-05-07T16:10:29Z",
+      "dateModified": "2022-05-09T14:31:19Z",
       "itemID": 114,
       "itemKey": "YEHZWJ4Z",
       "itemType": "conferencePaper",
@@ -3401,25 +3935,25 @@
       "shortTitle": "Trident",
       "tags": [
         {
-          "tag": "Error Propagation"
-        },
-        {
           "tag": "⭐"
         },
         {
-          "tag": "Soft Error"
+          "tag": "Error Propagation"
+        },
+        {
+          "tag": "Error Resilience"
         },
         {
           "tag": "SDC"
         },
         {
-          "tag": "Error Resilience"
+          "tag": "Soft Error"
         }
       ],
       "title": "Modeling Soft-Error Propagation in Programs",
       "uri": "http://zotero.org/users/7659667/items/YEHZWJ4Z",
       "url": "https://ieeexplore.ieee.org/document/8416468/",
-      "version": 2049
+      "version": 2218
     },
     {
       "DOI": "10.1109/SC41405.2020.00032",
