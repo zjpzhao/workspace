@@ -211,9 +211,7 @@
     "label": "BetterBibTeX JSON",
     "localeDateOrder": "mdy",
     "options": {
-      "exportFileData": false,
-      "exportNotes": true,
-      "keepUpdated": true
+      "exportNotes": true
     },
     "preferences": {
       "DOIandURL": "both",
@@ -1729,7 +1727,7 @@
       ],
       "date": "1994",
       "dateAdded": "2022-05-02T04:38:42Z",
-      "dateModified": "2022-05-09T16:33:29Z",
+      "dateModified": "2022-05-10T02:31:21Z",
       "itemID": 363,
       "itemKey": "DY8FYKM8",
       "itemType": "book",
@@ -1762,11 +1760,14 @@
         },
         {
           "tag": "Fault Tolerance"
+        },
+        {
+          "tag": "ObsCite"
         }
       ],
       "title": "Fault tolerance in distributed systems",
       "uri": "http://zotero.org/users/7659667/items/DY8FYKM8",
-      "version": 2112
+      "version": 2324
     },
     {
       "accessDate": "2022-05-07T16:28:09Z",

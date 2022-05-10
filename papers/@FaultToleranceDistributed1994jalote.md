@@ -2,7 +2,7 @@
 
 ``` ad-info
 title: Metadata
-- **CiteKey**: jaloteFaultToleranceDistributed1994
+- **CiteKey**: FaultToleranceDistributed1994jalote
 - **Type**: book
 - **Author**: Jalote, Pankaj
 - **Editor**: {{editor}}
@@ -103,4 +103,5 @@ Annotations(5/8/2022, 11:26:33 AM)
 - *“[LM85]”* [(Jalote, 1994, p. 420)](zotero://open-pdf/library/items/XY2VCDKG?page=420&annotation=33TJFR2P)
 
 - *“[LSP82]”* [(Jalote, 1994, p. 420)](zotero://open-pdf/library/items/XY2VCDKG?page=420&annotation=Y8SYNCIR)
+
 

@@ -34,6 +34,7 @@ title: Files and Links
 ```
 ```ad-note
 title: Tags and Collections
+- **Keywords**: ObsCite
 - **Keywords**: {{keywordsAll}}
 - **Collections**: Books; Fault Tolerance
 ```

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "papers/@ReliabilityComputerSystems2003shooman.md",
+            "file": "papers/@FaultToleranceDistributed1994jalote.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/@ReliabilityComputerSystems2003shooman.md"
+                "file": "papers/@FaultToleranceDistributed1994jalote.md"
               }
             }
           },
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/@ReliabilityComputerSystems2003shooman.md",
+                "file": "papers/@FaultToleranceDistributed1994jalote.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/@ReliabilityComputerSystems2003shooman.md",
+                "file": "papers/@FaultToleranceDistributed1994jalote.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,15 +175,15 @@
   },
   "active": "9dd1471e6e7496f4",
   "lastOpenFiles": [
-    "papers/@ReliabilityComputerSystems2003shooman.md",
+    "papers/@FaultToleranceDistributed1994jalote.md",
     "papers/@jaloteFaultToleranceDistributed1994.md",
+    "papers/@ReliabilityComputerSystems2003shooman.md",
     "Paper/zo2ob/mds/@jaloteFaultToleranceDistributed1994.md",
     "Lectures/云计算课程论文研读报告.md",
     "2022-04-07.md",
     "excalibrain.md",
     "Workflow/插件用法.md",
     "Workflow/全系workflow搭建.md",
-    "论文撰写.md",
-    "常用指令.md"
+    "论文撰写.md"
   ]
 }
