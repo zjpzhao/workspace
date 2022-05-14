@@ -15,7 +15,6 @@
         97,
         108,
         109,
-        110,
         111,
         112,
         113,
@@ -23,14 +22,14 @@
         115,
         116,
         118,
-        119,
         120,
         121,
-        122,
         168,
         169,
         170,
-        7853
+        7853,
+        7884,
+        7887
       ],
       "key": "89K6PZVW",
       "name": "Error Propagation",
@@ -73,8 +72,8 @@
       "collections": [],
       "items": [
         210,
-        321,
-        324
+        324,
+        7881
       ],
       "key": "JYHUVDJF",
       "name": "Cloud Computing",
@@ -86,7 +85,6 @@
         108,
         114,
         115,
-        122,
         144,
         168,
         169,
@@ -140,7 +138,8 @@
         107,
         144,
         176,
-        207
+        207,
+        7889
       ],
       "key": "RLZKFTSE",
       "name": "Modeling Tools",
@@ -167,11 +166,12 @@
     "VK6XIGJC": {
       "collections": [],
       "items": [
-        351,
+        97,
         7844,
         7851,
         7870,
-        7872
+        7872,
+        7894
       ],
       "key": "VK6XIGJC",
       "name": "Vulnerability",
@@ -180,14 +180,15 @@
     "W43MLK4H": {
       "collections": [],
       "items": [
-        119,
         209,
         236,
         249,
-        346,
         7788,
         7791,
-        7831
+        7831,
+        7879,
+        7887,
+        7891
       ],
       "key": "W43MLK4H",
       "name": "Resilience",
@@ -367,34 +368,30 @@
       "version": 730
     },
     {
-      "DOI": "10.1109/SC41405.2020.00092",
-      "ISBN": "978-1-72819-998-6",
-      "accessDate": "2021-12-03T03:44:41Z",
+      "DOI": "10.1145/2656106.2656127",
+      "ISBN": "978-1-4503-3050-3",
+      "abstractNote": "Silent Data Corruption (SDC) is a serious reliability issue in many domains, including embedded systems. However, current protection techniques are brittle, and do not allow programmers to trade off performance for SDC coverage. Further, many of them require tens of thousands of fault injection experiments, which are highly time-intensive. In this paper, we propose an empirical model to predict the SDC proneness of a program’s data called SDCTune. SDCTune is based on static and dynamic features of the program alone, and does not require fault injections to be performed. We then develop an algorithm using SDCTune to selectively protect the most SDC-prone data in the program subject to a given performance overhead bound. Our results show that our technique is highly accurate at predicting the relative SDC rate of an application, and outperforms full duplication by a factor of 0.83 to 1.87x in efﬁciency of detection (i.e., ratio of SDC coverage provided to performance overhead).",
+      "accessDate": "2022-05-10T15:32:56Z",
       "attachments": [
         {
-          "dateAdded": "2021-12-03T03:54:56Z",
-          "dateModified": "2021-12-03T03:54:57Z",
+          "dateAdded": "2022-05-10T15:32:52Z",
+          "dateModified": "2022-05-10T15:32:57Z",
           "itemType": "attachment",
-          "path": "D:\\Zotero\\storage\\GUFBQ8AZ\\Anwer et al_2020_GPU-Trident.pdf",
+          "path": "D:\\Zotero\\storage\\3NZQHZXK\\Lu et al. - 2014 - SDCTune a model for predicting the SDC proneness .pdf",
           "relations": [],
           "tags": [],
-          "title": "Anwer et al_2020_GPU-Trident.pdf",
-          "uri": "http://zotero.org/users/7659667/items/GUFBQ8AZ"
+          "title": "Lu et al. - 2014 - SDCTune a model for predicting the SDC proneness .pdf",
+          "uri": "http://zotero.org/users/7659667/items/3NZQHZXK"
         }
       ],
-      "citationKey": "anwerGPUTridentEfficientModeling2020",
-      "citekey": "anwerGPUTridentEfficientModeling2020",
-      "conferenceName": "SC20: International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "citationKey": "SDCTuneModelPredicting2014lu",
+      "citekey": "SDCTuneModelPredicting2014lu",
+      "conferenceName": "ESWEEK'14: TENTH EMBEDDED SYSTEM WEEK",
       "creators": [
         {
           "creatorType": "author",
-          "firstName": "Abdul Rehman",
-          "lastName": "Anwer"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Guanpeng",
-          "lastName": "Li"
+          "firstName": "Qining",
+          "lastName": "Lu"
         },
         {
           "creatorType": "author",
@@ -403,143 +400,47 @@
         },
         {
           "creatorType": "author",
-          "firstName": "Michael",
-          "lastName": "Sullivan"
+          "firstName": "Meeta S.",
+          "lastName": "Gupta"
         },
         {
           "creatorType": "author",
-          "firstName": "Timothy",
-          "lastName": "Tsai"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Siva Kumar Sastry",
-          "lastName": "Hari"
+          "firstName": "Jude A.",
+          "lastName": "Rivers"
         }
       ],
-      "date": "11/2020",
-      "dateAdded": "2021-12-03T03:44:41Z",
-      "dateModified": "2022-05-07T16:09:41Z",
-      "itemID": 122,
-      "itemKey": "2FZELCHL",
+      "date": "2014-10-12",
+      "dateAdded": "2022-05-10T15:32:56Z",
+      "dateModified": "2022-05-10T15:32:57Z",
+      "itemID": 7889,
+      "itemKey": "2Q2KRCHG",
       "itemType": "conferencePaper",
-      "key": "2FZELCHL",
+      "key": "2Q2KRCHG",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
       "libraryID": 1,
       "notes": [],
-      "pages": "1-15",
-      "place": "Atlanta, GA, USA",
-      "publicationTitle": "SC20: International Conference for High Performance Computing, Networking, Storage and Analysis",
-      "publisher": "IEEE",
-      "relations": [],
-      "select": "zotero://select/library/items/2FZELCHL",
-      "shortTitle": "GPU-Trident",
-      "tags": [
-        {
-          "tag": "Error Propagation"
-        },
-        {
-          "tag": "⭐"
-        },
-        {
-          "tag": "Soft Error"
-        },
-        {
-          "tag": "SDC"
-        },
-        {
-          "tag": "Error Resilience"
-        }
-      ],
-      "title": "GPU-Trident: Efficient Modeling of Error Propagation in GPU Programs",
-      "uri": "http://zotero.org/users/7659667/items/2FZELCHL",
-      "url": "https://ieeexplore.ieee.org/document/9355257/",
-      "version": 2046
-    },
-    {
-      "DOI": "10.1145/3437801.3441589",
-      "attachments": [
-        {
-          "dateAdded": "2022-04-30T12:54:16Z",
-          "dateModified": "2022-04-30T12:54:16Z",
-          "itemType": "attachment",
-          "path": "D:\\Zotero\\storage\\G8S9DN2B\\Li et al_2021_Understanding a program's resiliency through error propagation.pdf",
-          "relations": [],
-          "tags": [],
-          "title": "Li et al_2021_Understanding a program's resiliency through error propagation.pdf",
-          "uri": "http://zotero.org/users/7659667/items/G8S9DN2B"
-        }
-      ],
-      "citationKey": "UnderstandingProgramResiliency2021li",
-      "citekey": "UnderstandingProgramResiliency2021li",
-      "conferenceName": "PPoPP",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Zhimin",
-          "lastName": "Li"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Harshitha",
-          "lastName": "Menon"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Kathryn",
-          "lastName": "Mohror"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Peer-Timo",
-          "lastName": "Bremer"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Yarden",
-          "lastName": "Livnat"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Valerio",
-          "lastName": "Pascucci"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Jaejin",
-          "lastName": "Lee"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Erez",
-          "lastName": "Petrank"
-        }
-      ],
-      "date": "2021",
-      "dateAdded": "2022-04-30T12:53:50Z",
-      "dateModified": "2022-05-09T13:08:20Z",
-      "itemID": 346,
-      "itemKey": "38QS7MFI",
-      "itemType": "conferencePaper",
-      "key": "38QS7MFI",
-      "libraryID": 1,
-      "notes": [],
-      "pages": "362–373",
-      "publicationTitle": "PPoPP '21: 26th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming, Virtual Event, Republic of Korea, February 27- March 3, 2021",
+      "pages": "1-10",
+      "place": "New Delhi India",
+      "publicationTitle": "Proceedings of the 2014 International Conference on Compilers, Architecture and Synthesis for Embedded Systems",
       "publisher": "ACM",
       "relations": [],
-      "select": "zotero://select/library/items/38QS7MFI",
+      "select": "zotero://select/library/items/2Q2KRCHG",
+      "shortTitle": "SDCTune",
       "tags": [
         {
-          "tag": "Monotonic"
+          "tag": "/unread",
+          "type": 1
         }
       ],
-      "title": "Understanding a program's resiliency through error propagation",
-      "uri": "http://zotero.org/users/7659667/items/38QS7MFI",
-      "url": "https://doi.org/10.1145/3437801.3441589",
-      "version": 2199
+      "title": "SDCTune: a model for predicting the SDC proneness of an application for configurable protection",
+      "uri": "http://zotero.org/users/7659667/items/2Q2KRCHG",
+      "url": "https://dl.acm.org/doi/10.1145/2656106.2656127",
+      "version": 2431
     },
     {
       "DOI": "10.1145/3447818.3460364",
+      "abstractNote": "Basic Linear Algebra Subprograms (BLAS) is a core library in scientific computing and machine learning. This paper presents FT-BLAS, a new implementation of BLAS routines that not only tolerates soft errors on the fly, but also provides comparable performance to modern state-of-the-art BLAS libraries on widely-used processors such as Intel Skylake and Cascade Lake. To accommodate the features of BLAS, which contains both memory-bound and computing-bound routines, we propose a hybrid strategy to incorporate fault tolerance into our brand-new BLAS implementation: duplicating computing instructions for memory-bound Level-1 and Level-2 BLAS routines and incorporating an Algorithm-Based Fault Tolerance mechanism for computing-bound Level-3 BLAS routines. Our high performance and low overhead are obtained from delicate assembly-level optimization and a kernel-fusion approach to the computing kernels. Experimental results demonstrate that FT-BLAS offers high reliability and high performance – faster than Intel MKL, OpenBLAS, and BLIS by up to 3.50%, 22.14% and 21.70%, respectively, for routines spanning all three levels of BLAS we benchmarked, even under hundreds of errors injected per minute.",
       "attachments": [
         {
           "dateAdded": "2022-05-09T14:41:44Z",
@@ -608,7 +509,7 @@
       ],
       "date": "2021",
       "dateAdded": "2022-05-09T14:41:40Z",
-      "dateModified": "2022-05-09T14:41:53Z",
+      "dateModified": "2022-05-10T15:47:21Z",
       "itemID": 7847,
       "itemKey": "39D2PFAH",
       "itemType": "conferencePaper",
@@ -625,7 +526,7 @@
       "tags": [],
       "title": "FT-BLAS: a high performance BLAS implementation with online fault tolerance",
       "uri": "http://zotero.org/users/7659667/items/39D2PFAH",
-      "version": 2233
+      "version": 2458
     },
     {
       "dateAdded": "2022-05-09T09:33:00Z",
@@ -658,8 +559,8 @@
           "uri": "http://zotero.org/users/7659667/items/L8WF96WK"
         }
       ],
-      "citationKey": "tsaiNVBitFIDynamicFault2021",
-      "citekey": "tsaiNVBitFIDynamicFault2021",
+      "citationKey": "NVBitFIDynamicFault2021tsai",
+      "citekey": "NVBitFIDynamicFault2021tsai",
       "conferenceName": "2021 51st Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)",
       "creators": [
         {
@@ -690,7 +591,7 @@
       ],
       "date": "6/2021",
       "dateAdded": "2021-12-02T08:51:11Z",
-      "dateModified": "2022-04-17T10:16:21Z",
+      "dateModified": "2022-05-10T09:00:29Z",
       "itemID": 102,
       "itemKey": "3PBS8V9V",
       "itemType": "conferencePaper",
@@ -704,11 +605,15 @@
       "relations": [],
       "select": "zotero://select/library/items/3PBS8V9V",
       "shortTitle": "NVBitFI",
-      "tags": [],
+      "tags": [
+        {
+          "tag": "toReaADD"
+        }
+      ],
       "title": "NVBitFI: Dynamic Fault Injection for GPUs",
       "uri": "http://zotero.org/users/7659667/items/3PBS8V9V",
       "url": "https://ieeexplore.ieee.org/document/9505068/",
-      "version": 728
+      "version": 2382
     },
     {
       "DOI": "10.1109/TVCG.2020.2994954",
@@ -818,8 +723,8 @@
           "uri": "http://zotero.org/users/7659667/items/B6FVZ4QM"
         }
       ],
-      "citationKey": "xueModelingPropagationSoft2019",
-      "citekey": "xueModelingPropagationSoft2019",
+      "citationKey": "ModelingPropagationSoft2019xue",
+      "citekey": "ModelingPropagationSoft2019xue",
       "conferenceName": "the 2nd International Conference",
       "creators": [
         {
@@ -840,7 +745,7 @@
       ],
       "date": "2019",
       "dateAdded": "2021-12-03T03:27:53Z",
-      "dateModified": "2022-05-03T13:43:01Z",
+      "dateModified": "2022-05-10T08:59:17Z",
       "itemID": 108,
       "itemKey": "55ZXU92X",
       "itemType": "conferencePaper",
@@ -857,12 +762,15 @@
       "tags": [
         {
           "tag": "Error Propagation"
+        },
+        {
+          "tag": "toReaADD"
         }
       ],
       "title": "Modeling the Propagation of Soft Errors in Programs",
       "uri": "http://zotero.org/users/7659667/items/55ZXU92X",
       "url": "http://dl.acm.org/citation.cfm?doid=3339363.3339382",
-      "version": 1905
+      "version": 2379
     },
     {
       "ISBN": "978-0-471-46406-8 978-0-471-29342-2 978-0-471-22460-0 978-1-280-36749-6",
@@ -923,7 +831,78 @@
       "title": "Reliability of Computer Systems and Networks Fault Tolerance, Analysis, and Design",
       "uri": "http://zotero.org/users/7659667/items/5MCDKWYB",
       "url": "https://doi.org/10.1002/047122460X",
-      "version": 730
+      "version": 2323
+    },
+    {
+      "DOI": "10.1109/TC.2020.2980541",
+      "ISSN": "0018-9340, 1557-9956, 2326-3814",
+      "abstractNote": "Graphics Processing Units (GPUs) have rapidly evolved to enable energy-efﬁcient data-parallel computing for a broad range of scientiﬁc areas. While GPUs achieve exascale performance at a stringent power budget, they are also susceptible to soft errors, often caused by high-energy particle strikes, that can signiﬁcantly affect the application output quality. Understanding the resilience of general purpose GPU (GPGPU) applications is especially challenging because unlike CPU applications, which are mostly single-threaded, GPGPU applications can contain hundreds to thousands of threads, resulting in a tremendously large fault site space in the order of billions, even for some simple applications and even when considering the occurrence of just a single-bit fault. We present a systematic way to progressively prune the fault site space aiming to dramatically reduce the number of fault injections such that assessment for GPGPU application error resilience becomes practical. The key insight behind our proposed methodology stems from the fact that while GPGPU applications spawn a lot of threads, many of them execute the same set of instructions. Therefore, several fault sites are redundant and can be pruned by careful analysis. We identify important features across a set of 10 applications (16 kernels) from Rodinia and Polybench suites and conclude that threads can be primarily classiﬁed based on the number of the dynamic instructions they execute. We therefore achieve signiﬁcant fault site reduction by analyzing only a small subset of threads that are representative of the dynamic instruction behavior (and therefore error resilience behavior) of the GPGPU applications. Further pruning is achieved by identifying the dynamic instruction commonalities (and differences) across code blocks within this representative set of threads, a subset of loop iterations within the representative threads, and a subset of destination register bit positions. The above steps result in a tremendous reduction of fault sites by up to seven orders of magnitude. Yet, this reduced fault site space accurately captures the error resilience proﬁle of GPGPU applications. We show the effectiveness of the proposed progressive pruning technique for a single-bit model and illustrate its application to even more challenging cases with three distinct multi-bit fault models.",
+      "accessDate": "2022-05-10T08:49:56Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-10T08:49:48Z",
+          "dateModified": "2022-05-10T08:49:58Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\5864PMFA\\Yang et al. - 2021 - Practical Resilience Analysis of GPGPU Application.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Yang et al. - 2021 - Practical Resilience Analysis of GPGPU Application.pdf",
+          "uri": "http://zotero.org/users/7659667/items/5864PMFA"
+        }
+      ],
+      "callNumber": "2.663",
+      "citationKey": "PracticalResilienceAnalysis2021yang",
+      "citekey": "PracticalResilienceAnalysis2021yang",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Lishan",
+          "lastName": "Yang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bin",
+          "lastName": "Nie"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Adwait",
+          "lastName": "Jog"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Evgenia",
+          "lastName": "Smirni"
+        }
+      ],
+      "date": "2021-1-1",
+      "dateAdded": "2022-05-10T08:49:56Z",
+      "dateModified": "2022-05-10T08:49:58Z",
+      "issue": "1",
+      "itemID": 7879,
+      "itemKey": "66MG5YLJ",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "IEEE Trans. Comput.",
+      "key": "66MG5YLJ",
+      "language": "en",
+      "libraryCatalog": "2",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "30-44",
+      "publicationTitle": "IEEE Transactions on Computers",
+      "relations": [],
+      "select": "zotero://select/library/items/66MG5YLJ",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Practical Resilience Analysis of GPGPU Applications in the Presence of Single- and Multi-Bit Faults",
+      "uri": "http://zotero.org/users/7659667/items/66MG5YLJ",
+      "url": "https://ieeexplore.ieee.org/document/9035460/",
+      "version": 2354,
+      "volume": "70"
     },
     {
       "DOI": "10.1145/3503221.3508414",
@@ -939,8 +918,8 @@
           "uri": "http://zotero.org/users/7659667/items/4MN3LIKW"
         }
       ],
-      "citationKey": "huangHardeningSelectiveProtection2022",
-      "citekey": "huangHardeningSelectiveProtection2022",
+      "citationKey": "HardeningSelectiveProtection2022huang",
+      "citekey": "HardeningSelectiveProtection2022huang",
       "creators": [
         {
           "creatorType": "author",
@@ -985,7 +964,7 @@
       ],
       "date": "2022",
       "dateAdded": "2022-04-30T13:06:50Z",
-      "dateModified": "2022-05-08T02:33:44Z",
+      "dateModified": "2022-05-10T09:01:54Z",
       "itemID": 7791,
       "itemKey": "6CKDY9TW",
       "itemType": "conferencePaper",
@@ -1005,75 +984,14 @@
         },
         {
           "tag": "Program Input"
+        },
+        {
+          "tag": "toReaADD"
         }
       ],
       "title": "Hardening selective protection across multiple program inputs for HPC applications",
       "uri": "http://zotero.org/users/7659667/items/6CKDY9TW",
-      "version": 2082
-    },
-    {
-      "DOI": "10.1109/TC.2020.2980541",
-      "ISSN": "0018-9340, 1557-9956, 2326-3814",
-      "accessDate": "2021-12-03T03:26:36Z",
-      "attachments": [
-        {
-          "dateAdded": "2021-12-03T03:31:10Z",
-          "dateModified": "2021-12-03T03:31:10Z",
-          "itemType": "attachment",
-          "path": "D:\\Zotero\\storage\\DBMHJ86K\\Yang et al_2021_Practical Resilience Analysis of GPGPU Applications in the Presence of Single-.pdf",
-          "relations": [],
-          "tags": [],
-          "title": "Yang et al_2021_Practical Resilience Analysis of GPGPU Applications in the Presence of Single-.pdf",
-          "uri": "http://zotero.org/users/7659667/items/DBMHJ86K"
-        }
-      ],
-      "callNumber": "2.663",
-      "citationKey": "yangPracticalResilienceAnalysis2021",
-      "citekey": "yangPracticalResilienceAnalysis2021",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Lishan",
-          "lastName": "Yang"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Bin",
-          "lastName": "Nie"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Adwait",
-          "lastName": "Jog"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Evgenia",
-          "lastName": "Smirni"
-        }
-      ],
-      "date": "2021-1-1",
-      "dateAdded": "2021-12-03T03:26:36Z",
-      "dateModified": "2022-04-17T10:16:29Z",
-      "issue": "1",
-      "itemID": 110,
-      "itemKey": "6J7Q9N23",
-      "itemType": "journalArticle",
-      "journalAbbreviation": "IEEE T Comput",
-      "key": "6J7Q9N23",
-      "libraryCatalog": "2",
-      "libraryID": 1,
-      "notes": [],
-      "pages": "30-44",
-      "publicationTitle": "IEEE Transactions on Computers",
-      "relations": [],
-      "select": "zotero://select/library/items/6J7Q9N23",
-      "tags": [],
-      "title": "Practical Resilience Analysis of GPGPU Applications in the Presence of Single- and Multi-Bit Faults",
-      "uri": "http://zotero.org/users/7659667/items/6J7Q9N23",
-      "url": "https://ieeexplore.ieee.org/document/9035460/",
-      "version": 728,
-      "volume": "70"
+      "version": 2390
     },
     {
       "DOI": "10.1109/SC.2014.62",
@@ -1212,6 +1130,61 @@
       "version": 2279
     },
     {
+      "DOI": "10.1016/j.future.2004.11.016",
+      "ISSN": "0167739X",
+      "abstractNote": "This paper examines methods of approximating the optimum checkpoint restart strategy for minimizing application run time on a system exhibiting Poisson single component failures. Two different models will be developed and compared. We will begin with a simpliﬁed cost function that yields a ﬁrst-order model. Then we will derive a more complete cost function and demonstrate a perturbation solution that provides accurate high order approximations to the optimum checkpoint interval.",
+      "accessDate": "2022-05-10T08:53:36Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-10T08:53:32Z",
+          "dateModified": "2022-05-10T08:53:38Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\YBBY4VSK\\Daly - 2006 - A higher order estimate of the optimum checkpoint .pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Daly - 2006 - A higher order estimate of the optimum checkpoint .pdf",
+          "uri": "http://zotero.org/users/7659667/items/YBBY4VSK"
+        }
+      ],
+      "citationKey": "HigherOrderEstimate2006dalya",
+      "citekey": "HigherOrderEstimate2006dalya",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "J.T.",
+          "lastName": "Daly"
+        }
+      ],
+      "date": "2/2006",
+      "dateAdded": "2022-05-10T08:53:36Z",
+      "dateModified": "2022-05-10T08:53:37Z",
+      "issue": "3",
+      "itemID": 7881,
+      "itemKey": "8D43MDXS",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Future Generation Computer Systems",
+      "key": "8D43MDXS",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "303-312",
+      "publicationTitle": "Future Generation Computer Systems",
+      "relations": [],
+      "select": "zotero://select/library/items/8D43MDXS",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "A higher order estimate of the optimum checkpoint interval for restart dumps",
+      "uri": "http://zotero.org/users/7659667/items/8D43MDXS",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0167739X04002213",
+      "version": 2361,
+      "volume": "22"
+    },
+    {
       "attachments": [
         {
           "dateAdded": "2022-04-14T05:50:23Z",
@@ -1288,8 +1261,8 @@
         }
       ],
       "callNumber": "3.734",
-      "citationKey": "guoPARISPredictingApplication2021",
-      "citekey": "guoPARISPredictingApplication2021",
+      "citationKey": "PARISPredictingApplication2021guo",
+      "citekey": "PARISPredictingApplication2021guo",
       "creators": [
         {
           "creatorType": "author",
@@ -1309,7 +1282,7 @@
       ],
       "date": "06/2021",
       "dateAdded": "2021-12-03T03:22:17Z",
-      "dateModified": "2022-04-17T10:16:29Z",
+      "dateModified": "2022-05-10T09:00:33Z",
       "itemID": 118,
       "itemKey": "9GEJK34J",
       "itemType": "journalArticle",
@@ -1324,66 +1297,16 @@
       "relations": [],
       "select": "zotero://select/library/items/9GEJK34J",
       "shortTitle": "PARIS",
-      "tags": [],
+      "tags": [
+        {
+          "tag": "toReaADD"
+        }
+      ],
       "title": "PARIS: Predicting application resilience using machine learning",
       "uri": "http://zotero.org/users/7659667/items/9GEJK34J",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0743731521000368",
-      "version": 728,
+      "version": 2384,
       "volume": "152"
-    },
-    {
-      "DOI": "10.1016/j.future.2004.11.016",
-      "ISSN": "0167739X",
-      "accessDate": "2022-04-22T14:28:49Z",
-      "attachments": [
-        {
-          "dateAdded": "2022-04-22T14:28:56Z",
-          "dateModified": "2022-04-22T14:28:57Z",
-          "itemType": "attachment",
-          "path": "D:\\Zotero\\storage\\KLG468HR\\Daly_2006_A higher order estimate of the optimum checkpoint interval for restart dumps.pdf",
-          "relations": [],
-          "tags": [],
-          "title": "Daly_2006_A higher order estimate of the optimum checkpoint interval for restart dumps.pdf",
-          "uri": "http://zotero.org/users/7659667/items/KLG468HR"
-        }
-      ],
-      "citationKey": "dalyHigherOrderEstimate2006",
-      "citekey": "dalyHigherOrderEstimate2006",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "J.T.",
-          "lastName": "Daly"
-        }
-      ],
-      "date": "2/2006",
-      "dateAdded": "2022-04-22T14:28:49Z",
-      "dateModified": "2022-04-27T13:51:15Z",
-      "issue": "3",
-      "itemID": 321,
-      "itemKey": "A7M6R2B5",
-      "itemType": "journalArticle",
-      "journalAbbreviation": "Future Generation Computer Systems",
-      "key": "A7M6R2B5",
-      "language": "en",
-      "libraryCatalog": "DOI.org (Crossref)",
-      "libraryID": 1,
-      "notes": [],
-      "pages": "303-312",
-      "publicationTitle": "Future Generation Computer Systems",
-      "relations": [],
-      "select": "zotero://select/library/items/A7M6R2B5",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
-      "title": "A higher order estimate of the optimum checkpoint interval for restart dumps",
-      "uri": "http://zotero.org/users/7659667/items/A7M6R2B5",
-      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0167739X04002213",
-      "version": 1421,
-      "volume": "22"
     },
     {
       "DOI": "10.1145/3297858.3304050",
@@ -1467,7 +1390,7 @@
       "title": "Minotaur: Adapting Software Testing Techniques for Hardware Errors",
       "uri": "http://zotero.org/users/7659667/items/ALANDUY6",
       "url": "https://doi.org/10.1145/3297858.3304050",
-      "version": 2217
+      "version": 2219
     },
     {
       "attachments": [
@@ -1542,7 +1465,7 @@
       ],
       "date": "2021-07",
       "dateAdded": "2022-01-20T03:31:21Z",
-      "dateModified": "2022-05-08T14:25:53Z",
+      "dateModified": "2022-05-10T09:00:59Z",
       "itemID": 168,
       "itemKey": "BWNTSNZZ",
       "itemType": "conferencePaper",
@@ -1555,11 +1478,15 @@
       "relations": [],
       "select": "zotero://select/library/items/BWNTSNZZ",
       "shortTitle": "CrystalPerf",
-      "tags": [],
+      "tags": [
+        {
+          "tag": "toReaADD"
+        }
+      ],
       "title": "CrystalPerf: Learning to Characterize the Performance of Dataflow Computation through Code Analysis",
       "uri": "http://zotero.org/users/7659667/items/BWNTSNZZ",
       "url": "https://www.usenix.org/conference/atc21/presentation/tian",
-      "version": 2132
+      "version": 2388
     },
     {
       "DOI": "10.1145/3458817.3476147",
@@ -1616,7 +1543,7 @@
       ],
       "date": "2021",
       "dateAdded": "2022-05-08T02:36:58Z",
-      "dateModified": "2022-05-09T14:33:22Z",
+      "dateModified": "2022-05-10T09:02:29Z",
       "itemID": 7793,
       "itemKey": "CCN9DIVW",
       "itemType": "conferencePaper",
@@ -1632,12 +1559,102 @@
       "shortTitle": "PEPPA-X",
       "tags": [
         {
+          "tag": "/unread",
+          "type": 1
+        },
+        {
           "tag": "Multiple Inputs"
+        },
+        {
+          "tag": "toReaADD"
         }
       ],
       "title": "PEPPA-X: finding program test inputs to bound silent data corruption vulnerability in HPC applications",
       "uri": "http://zotero.org/users/7659667/items/CCN9DIVW",
-      "version": 2087
+      "version": 2391
+    },
+    {
+      "DOI": "10.1145/3437801.3441589",
+      "ISBN": "978-1-4503-8294-6",
+      "abstractNote": "Aggressive technology scaling trends have worsened the transient fault problem in high-performance computing (HPC) systems. Some faults are benign, but others can lead to silent data corruption (SDC), which represents a serious problem; a fault introducing an error that is not readily detected nto an HPC simulation . Due to the insidious nature of SDCs, researchers have worked to understand their impact on applications. Previous studies have relied on expensive fault injection campaigns with uniform sampling to provide overall SDC rates, but this solution does not provide any feedback on the code regions without samples. In this research, we develop a method to systematically analyze all fault injection sites in an application with a low number of fault injection experiments. We use fault propagation data from a fault injection experiment to predict the resiliency of other untested fault sites and obtain an approximate fault tolerance threshold value for each site, which represents the largest error that can be introduced at the site without incurring incorrect simulation results. We define the collection of threshold values over all fault sites in the program as a fault tolerance boundary and propose a simple but efficient method to approximate the boundary. In our experiments, we show our method reduces the number of fault injection samples required to understand a program’s resiliency by several orders of magnitude when compared with a traditional fault injection study.",
+      "accessDate": "2022-05-10T15:32:16Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-10T15:32:10Z",
+          "dateModified": "2022-05-10T15:34:09Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\DVV7IMBY\\Li et al. - 2021 - Understanding a program's resiliency through error.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Li et al. - 2021 - Understanding a program's resiliency through error.pdf",
+          "uri": "http://zotero.org/users/7659667/items/DVV7IMBY"
+        }
+      ],
+      "citationKey": "UnderstandingProgramResiliency2021li",
+      "citekey": "UnderstandingProgramResiliency2021li",
+      "conferenceName": "PPoPP '21: 26th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Zhimin",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Harshitha",
+          "lastName": "Menon"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Kathryn",
+          "lastName": "Mohror"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Peer-Timo",
+          "lastName": "Bremer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yarden",
+          "lastName": "Livant"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Valerio",
+          "lastName": "Pascucci"
+        }
+      ],
+      "date": "2021-02-17",
+      "dateAdded": "2022-04-30T12:53:50Z",
+      "dateModified": "2022-05-11T06:38:18Z",
+      "itemID": 7887,
+      "itemKey": "DHK2BJGG",
+      "itemType": "conferencePaper",
+      "key": "DHK2BJGG",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "362-373",
+      "place": "Virtual Event Republic of Korea",
+      "publicationTitle": "Proceedings of the 26th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming",
+      "publisher": "ACM",
+      "relations": [],
+      "select": "zotero://select/library/items/DHK2BJGG",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        },
+        {
+          "tag": "Monotonic"
+        }
+      ],
+      "title": "Understanding a program's resiliency through error propagation",
+      "uri": "http://zotero.org/users/7659667/items/DHK2BJGG",
+      "url": "https://dl.acm.org/doi/10.1145/3437801.3441589",
+      "version": 2491
     },
     {
       "DOI": "10.1109/MICRO.2018.00066",
@@ -1655,8 +1672,8 @@
           "uri": "http://zotero.org/users/7659667/items/T6FKW76N"
         }
       ],
-      "citationKey": "nieFaultSitePruning2018",
-      "citekey": "nieFaultSitePruning2018",
+      "citationKey": "FaultSitePruning2018nie",
+      "citekey": "FaultSitePruning2018nie",
       "conferenceName": "2018 51st Annual IEEE/ACM International Symposium on Microarchitecture (MICRO)",
       "creators": [
         {
@@ -1682,7 +1699,7 @@
       ],
       "date": "10/2018",
       "dateAdded": "2021-12-03T03:35:06Z",
-      "dateModified": "2022-04-17T10:16:21Z",
+      "dateModified": "2022-05-10T09:00:38Z",
       "itemID": 111,
       "itemKey": "DI2QUIAU",
       "itemType": "conferencePaper",
@@ -1695,11 +1712,15 @@
       "publisher": "IEEE",
       "relations": [],
       "select": "zotero://select/library/items/DI2QUIAU",
-      "tags": [],
+      "tags": [
+        {
+          "tag": "toReaADD"
+        }
+      ],
       "title": "Fault Site Pruning for Practical Reliability Analysis of GPGPU Applications",
       "uri": "http://zotero.org/users/7659667/items/DI2QUIAU",
       "url": "https://ieeexplore.ieee.org/document/8574583/",
-      "version": 729
+      "version": 2385
     },
     {
       "ISBN": "978-0-13-301367-2",
@@ -1756,10 +1777,10 @@
       "select": "zotero://select/library/items/DY8FYKM8",
       "tags": [
         {
-          "tag": "Distributed Processing"
+          "tag": "Fault Tolerance"
         },
         {
-          "tag": "Fault Tolerance"
+          "tag": "Distributed Processing"
         },
         {
           "tag": "ObsCite"
@@ -1783,8 +1804,8 @@
           "uri": "http://zotero.org/users/7659667/items/KC9XQZVV"
         }
       ],
-      "citationKey": "kalraPRISMPredictingResilience2018",
-      "citekey": "kalraPRISMPredictingResilience2018",
+      "citationKey": "PRISMPredictingResilience2018kalra",
+      "citekey": "PRISMPredictingResilience2018kalra",
       "creators": [
         {
           "creatorType": "author",
@@ -1814,7 +1835,7 @@
       ],
       "date": "2018",
       "dateAdded": "2022-05-07T16:28:09Z",
-      "dateModified": "2022-05-07T16:28:10Z",
+      "dateModified": "2022-05-10T09:02:23Z",
       "itemID": 7788,
       "itemKey": "EJ3XLIZG",
       "itemType": "conferencePaper",
@@ -1832,12 +1853,15 @@
         {
           "tag": "/unread",
           "type": 1
+        },
+        {
+          "tag": "toReaADD"
         }
       ],
       "title": "PRISM: predicting resilience of GPU applications using statistical methods",
       "uri": "http://zotero.org/users/7659667/items/EJ3XLIZG",
       "url": "http://dl.acm.org/citation.cfm?id=3291748",
-      "version": 2065
+      "version": 2391
     },
     {
       "charset": "",
@@ -1920,6 +1944,99 @@
       "version": 2063
     },
     {
+      "DOI": "10.1109/SC41405.2020.00092",
+      "ISBN": "978-1-72819-998-6",
+      "abstractNote": "Fault injection (FI) techniques are typically used to determine the reliability proﬁles of programs under soft errors. However, these techniques are highly resource- and time-intensive. Prior research developed a model, TRIDENT to analytically predict Silent Data Corruption (SDC, i.e., incorrect output without any indication) probabilities of single-threaded CPU applications without requiring FIs. Unfortunately, TRIDENT is incompatible with GPU programs, due to their high degree of parallelism and different memory architectures than CPU programs. The main challenge is that modeling error propagation across thousands of threads in a GPU kernel requires enormous amounts of data to be proﬁled and analyzed, posing a major scalability bottleneck for HPC applications.",
+      "accessDate": "2022-05-10T08:57:22Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-10T08:57:15Z",
+          "dateModified": "2022-05-10T08:57:23Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\9HZAMRJW\\Anwer et al. - 2020 - GPU-Trident Efficient Modeling of Error Propagati.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Anwer et al. - 2020 - GPU-Trident Efficient Modeling of Error Propagati.pdf",
+          "uri": "http://zotero.org/users/7659667/items/9HZAMRJW"
+        }
+      ],
+      "citationKey": "GPUTridentEfficientModeling2020anwer",
+      "citekey": "GPUTridentEfficientModeling2020anwer",
+      "conferenceName": "SC20: International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Abdul Rehman",
+          "lastName": "Anwer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Guanpeng",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Karthik",
+          "lastName": "Pattabiraman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michael",
+          "lastName": "Sullivan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Timothy",
+          "lastName": "Tsai"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Siva Kumar Sastry",
+          "lastName": "Hari"
+        }
+      ],
+      "date": "11/2020",
+      "dateAdded": "2022-05-10T08:57:22Z",
+      "dateModified": "2022-05-11T06:38:18Z",
+      "itemID": 7884,
+      "itemKey": "GRG9GGER",
+      "itemType": "conferencePaper",
+      "key": "GRG9GGER",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1-15",
+      "place": "Atlanta, GA, USA",
+      "publicationTitle": "SC20: International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/GRG9GGER",
+      "shortTitle": "GPU-Trident",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        },
+        {
+          "tag": "Error Propagation"
+        },
+        {
+          "tag": "⭐"
+        },
+        {
+          "tag": "SDC"
+        },
+        {
+          "tag": "Error Resilience"
+        }
+      ],
+      "title": "GPU-Trident: Efficient Modeling of Error Propagation in GPU Programs",
+      "uri": "http://zotero.org/users/7659667/items/GRG9GGER",
+      "url": "https://ieeexplore.ieee.org/document/9355257/",
+      "version": 2491
+    },
+    {
       "DOI": "10.1145/3352460.3358307",
       "ISBN": "978-1-4503-6938-1",
       "abstractNote": "Binary instrumentation frameworks are widely used to implement profilers, performance evaluation, error checking, and bug detection tools. While dynamic binary instrumentation tools such as PIN and DynamoRio are supported on CPUs, GPU architectures currently only have limited support for similar capabilities through static compile-time tools, which prohibits instrumentation of dynamically loaded libraries that are foundations for modern highperformance applications. This work presents NVBit, a fast, dynamic, and portable, binary instrumentation framework, that allows users to write instrumentation tools in CUDA/C/C++ and selectively apply that functionality to pre-compiled binaries and libraries executing on NVIDIA GPUs. Using dynamic recompilation at the SASS level, NVBit analyzes GPU kernel register requirements to generate efficient ABI compliant instrumented code without requiring the tool developer to have detailed knowledge of the underlying GPU architecture. NVBit allows basic-block instrumentation, multiple function injections to the same location, inspection of all ISA visible state, dynamic selection of instrumented or uninstrumented code, permanent modification of register state, source code correlation, and instruction removal. NVBit supports all recent NVIDIA GPU architecture families including Kepler, Maxwell, Pascal and Volta and works on any pre-compiled CUDA, OpenACC, OpenCL, or CUDA-Fortran application.",
@@ -1997,11 +2114,11 @@
           "uri": "http://zotero.org/users/7659667/items/Z3QVCXAV"
         }
       ],
-      "citationKey": "CUDABestPracticesa",
-      "citekey": "CUDABestPracticesa",
+      "citationKey": "CUDABestPractices",
+      "citekey": "CUDABestPractices",
       "creators": [],
       "dateAdded": "2022-05-08T12:53:09Z",
-      "dateModified": "2022-05-08T12:54:07Z",
+      "dateModified": "2022-05-10T07:00:48Z",
       "itemID": 7826,
       "itemKey": "HEHJV8IC",
       "itemType": "book",
@@ -2011,10 +2128,15 @@
       "notes": [],
       "relations": [],
       "select": "zotero://select/library/items/HEHJV8IC",
-      "tags": [],
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
       "title": "CUDA C++ Best Practices Guide",
       "uri": "http://zotero.org/users/7659667/items/HEHJV8IC",
-      "version": 2118
+      "version": 2337
     },
     {
       "DOI": "10.1109/SC.2018.00048",
@@ -2032,8 +2154,8 @@
           "uri": "http://zotero.org/users/7659667/items/FUEDUQLI"
         }
       ],
-      "citationKey": "changEvaluatingAcceleratingHighFidelity2018",
-      "citekey": "changEvaluatingAcceleratingHighFidelity2018",
+      "citationKey": "EvaluatingAcceleratingHighFidelity2018chang",
+      "citekey": "EvaluatingAcceleratingHighFidelity2018chang",
       "conferenceName": "SC18: International Conference for High Performance Computing, Networking, Storage and Analysis",
       "creators": [
         {
@@ -2064,7 +2186,7 @@
       ],
       "date": "11/2018",
       "dateAdded": "2021-12-03T03:57:45Z",
-      "dateModified": "2022-04-17T10:16:19Z",
+      "dateModified": "2022-05-10T09:00:49Z",
       "itemID": 121,
       "itemKey": "IL8HDX8N",
       "itemType": "conferencePaper",
@@ -2077,11 +2199,86 @@
       "publisher": "IEEE",
       "relations": [],
       "select": "zotero://select/library/items/IL8HDX8N",
-      "tags": [],
+      "tags": [
+        {
+          "tag": "toReaADD"
+        }
+      ],
       "title": "Evaluating and Accelerating High-Fidelity Error Injection for HPC",
       "uri": "http://zotero.org/users/7659667/items/IL8HDX8N",
       "url": "https://ieeexplore.ieee.org/document/8665790/",
-      "version": 730
+      "version": 2387
+    },
+    {
+      "DOI": "10.1109/SC.2018.00011",
+      "ISBN": "978-1-5386-8384-2",
+      "abstractNote": "As high-performance computing systems scale in size and computational power, the danger of silent errors, i.e., errors that can bypass hardware detection mechanisms and impact application state, grows dramatically. Consequently, applications running on HPC systems need to exhibit resilience to such errors. Previous work has found that, for certain codes, this resilience can come for free, i.e., some applications are naturally resilient, but few studies have shown the code patterns—combinations or sequences of computations—that make an application naturally resilient. In this paper, we present FlipTracker, a framework designed to extract these patterns using ﬁne-grained tracking of error propagation and resilience properties, and we use it to present a set of computation patterns that are responsible for making representative HPC applications naturally resilient to errors. This not only enables a deeper understanding of resilience properties of these codes, but also can guide future application designs towards patterns with natural resilience.",
+      "accessDate": "2022-05-10T15:37:16Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-10T15:37:11Z",
+          "dateModified": "2022-05-10T15:37:17Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\NN5Q3DJU\\Guo et al. - 2018 - FlipTracker Understanding Natural Error Resilienc.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Guo et al. - 2018 - FlipTracker Understanding Natural Error Resilienc.pdf",
+          "uri": "http://zotero.org/users/7659667/items/NN5Q3DJU"
+        }
+      ],
+      "citationKey": "FlipTrackerUnderstandingNatural2018guoa",
+      "citekey": "FlipTrackerUnderstandingNatural2018guoa",
+      "conferenceName": "SC18: International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Luanzheng",
+          "lastName": "Guo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dong",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ignacio",
+          "lastName": "Laguna"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Martin",
+          "lastName": "Schulz"
+        }
+      ],
+      "date": "11/2018",
+      "dateAdded": "2022-05-10T15:37:16Z",
+      "dateModified": "2022-05-10T15:37:17Z",
+      "itemID": 7891,
+      "itemKey": "IVP59RG9",
+      "itemType": "conferencePaper",
+      "key": "IVP59RG9",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "94-107",
+      "place": "Dallas, TX, USA",
+      "publicationTitle": "SC18: International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/IVP59RG9",
+      "shortTitle": "FlipTracker",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "FlipTracker: Understanding Natural Error Resilience in HPC Applications",
+      "uri": "http://zotero.org/users/7659667/items/IVP59RG9",
+      "url": "https://ieeexplore.ieee.org/document/8665769/",
+      "version": 2438
     },
     {
       "DOI": "10.1145/3447375",
@@ -2174,8 +2371,8 @@
           "uri": "http://zotero.org/users/7659667/items/987WB2ZF"
         }
       ],
-      "citationKey": "zhuangSmartContractVulnerability2020",
-      "citekey": "zhuangSmartContractVulnerability2020",
+      "citationKey": "SmartContractVulnerability2020zhuang",
+      "citekey": "SmartContractVulnerability2020zhuang",
       "conferenceName": "Twenty-Ninth International Joint Conference on Artificial Intelligence and Seventeenth Pacific Rim International Conference on Artificial Intelligence {IJCAI-PRICAI-20}",
       "creators": [
         {
@@ -2254,8 +2451,8 @@
           "uri": "http://zotero.org/users/7659667/items/SIISNLWJ"
         }
       ],
-      "citationKey": "arafaHybridScalableTracedriven2021",
-      "citekey": "arafaHybridScalableTracedriven2021",
+      "citationKey": "HybridScalableTracedriven2021arafa",
+      "citekey": "HybridScalableTracedriven2021arafa",
       "conferenceName": "SC '21: The International Conference for High Performance Computing, Networking, Storage and Analysis",
       "creators": [
         {
@@ -2301,7 +2498,7 @@
       ],
       "date": "2021-11-14",
       "dateAdded": "2022-01-16T03:26:57Z",
-      "dateModified": "2022-05-03T13:42:49Z",
+      "dateModified": "2022-05-10T09:00:58Z",
       "itemID": 169,
       "itemKey": "KDD3TSZG",
       "itemType": "conferencePaper",
@@ -2315,11 +2512,94 @@
       "publisher": "ACM",
       "relations": [],
       "select": "zotero://select/library/items/KDD3TSZG",
-      "tags": [],
+      "tags": [
+        {
+          "tag": "toReaADD"
+        }
+      ],
       "title": "Hybrid, scalable, trace-driven performance modeling of GPGPUs",
       "uri": "http://zotero.org/users/7659667/items/KDD3TSZG",
       "url": "https://dl.acm.org/doi/10.1145/3458817.3476221",
-      "version": 1903
+      "version": 2388
+    },
+    {
+      "DOI": "10.1109/DSN.2016.24",
+      "ISBN": "978-1-4673-8891-7",
+      "abstractNote": "The Program Vulnerability Factor (PVF) has been proposed as a metric to understand the impact of hardware faults on software. The PVF is calculated by identifying the program bits required for architecturally correct execution (ACE bits). PVF, however, is conservative as it assumes that all erroneous executions are a major concern, not just those that result in silent data corruptions, and it also does not account for errors that are detected at runtime, i.e., lead to program crashes. A more discriminating metric can inform the choice of the appropriate resilience techniques with acceptable performance and energy overheads. This paper proposes ePVF, an enhancement of the original PVF methodology, which ﬁlters out the crash-causing bits from the ACE bits identiﬁed by the traditional PVF analysis. The ePVF methodology consists of an error propagation model that reasons about error propagation in the program, and a crash model that encapsulates the platform-speciﬁc characteristics for handling hardware exceptions. ePVF reduces the vulnerable bits estimated by the original PVF analysis by between 45% and 67% depending on the benchmark, and has high accuracy (89% recall, 92% precision) in identifying the crash-causing bits. We demonstrate the utility of ePVF by using it to inform selective protection of the most SDC-prone instructions in a program.",
+      "accessDate": "2022-05-10T15:41:34Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-10T15:41:29Z",
+          "dateModified": "2022-05-10T15:42:25Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\L2F7EYUF\\Fang et al. - 2016 - ePVF An Enhanced Program Vulnerability Factor Met.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Fang et al. - 2016 - ePVF An Enhanced Program Vulnerability Factor Met.pdf",
+          "uri": "http://zotero.org/users/7659667/items/L2F7EYUF"
+        }
+      ],
+      "citationKey": "EPVFEnhancedProgram2016fanga",
+      "citekey": "EPVFEnhancedProgram2016fanga",
+      "conferenceName": "2016 46th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Bo",
+          "lastName": "Fang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Qining",
+          "lastName": "Lu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Karthik",
+          "lastName": "Pattabiraman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Matei",
+          "lastName": "Ripeanu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sudhanva",
+          "lastName": "Gurumurthi"
+        }
+      ],
+      "date": "6/2016",
+      "dateAdded": "2022-04-30T13:28:33Z",
+      "dateModified": "2022-05-10T15:42:25Z",
+      "itemID": 7894,
+      "itemKey": "KEKU9MGL",
+      "itemType": "conferencePaper",
+      "key": "KEKU9MGL",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "168-179",
+      "place": "Toulouse, France",
+      "publicationTitle": "2016 46th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/KEKU9MGL",
+      "shortTitle": "ePVF",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        },
+        {
+          "tag": "toReaADD"
+        }
+      ],
+      "title": "ePVF: An Enhanced Program Vulnerability Factor Methodology for Cross-Layer Resilience Analysis",
+      "uri": "http://zotero.org/users/7659667/items/KEKU9MGL",
+      "url": "http://ieeexplore.ieee.org/document/7579739/",
+      "version": 2450
     },
     {
       "DOI": "10.1145/3386263.3406938",
@@ -2457,8 +2737,8 @@
           "uri": "http://zotero.org/users/7659667/items/D9KGUTQA"
         }
       ],
-      "citationKey": "nieCharacterizingAccuracyAwareResilience2020",
-      "citekey": "nieCharacterizingAccuracyAwareResilience2020",
+      "citationKey": "CharacterizingAccuracyAwareResilience2020nie",
+      "citekey": "CharacterizingAccuracyAwareResilience2020nie",
       "conferenceName": "2020 20th IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGRID)",
       "creators": [
         {
@@ -2479,7 +2759,7 @@
       ],
       "date": "5/2020",
       "dateAdded": "2021-12-03T03:41:27Z",
-      "dateModified": "2022-04-17T10:16:21Z",
+      "dateModified": "2022-05-10T09:00:41Z",
       "itemID": 113,
       "itemKey": "MU4K8QA7",
       "itemType": "conferencePaper",
@@ -2492,11 +2772,15 @@
       "publisher": "IEEE",
       "relations": [],
       "select": "zotero://select/library/items/MU4K8QA7",
-      "tags": [],
+      "tags": [
+        {
+          "tag": "toReaADD"
+        }
+      ],
       "title": "Characterizing Accuracy-Aware Resilience of GPGPU Applications",
       "uri": "http://zotero.org/users/7659667/items/MU4K8QA7",
       "url": "https://ieeexplore.ieee.org/document/9139732/",
-      "version": 729
+      "version": 2385
     },
     {
       "DOI": "10.1145/2854038.2854059",
@@ -2595,8 +2879,8 @@
         }
       ],
       "callNumber": "7.329",
-      "citationKey": "previlonCharacterizingExploitingSoft2020",
-      "citekey": "previlonCharacterizingExploitingSoft2020",
+      "citationKey": "CharacterizingExploitingSoft2020previlon",
+      "citekey": "CharacterizingExploitingSoft2020previlon",
       "creators": [
         {
           "creatorType": "author",
@@ -2621,7 +2905,7 @@
       ],
       "date": "2020",
       "dateAdded": "2021-12-03T03:49:33Z",
-      "dateModified": "2022-04-17T10:16:29Z",
+      "dateModified": "2022-05-10T09:00:48Z",
       "itemID": 109,
       "itemKey": "N8QC8W93",
       "itemType": "journalArticle",
@@ -2634,80 +2918,15 @@
       "publicationTitle": "IEEE Transactions on Dependable and Secure Computing",
       "relations": [],
       "select": "zotero://select/library/items/N8QC8W93",
-      "tags": [],
+      "tags": [
+        {
+          "tag": "toReaADD"
+        }
+      ],
       "title": "Characterizing and Exploiting Soft Error Vulnerability Phase Behavior in GPU Applications",
       "uri": "http://zotero.org/users/7659667/items/N8QC8W93",
       "url": "https://ieeexplore.ieee.org/document/9080079/",
-      "version": 729
-    },
-    {
-      "DOI": "10.1109/DSN.2016.24",
-      "attachments": [
-        {
-          "dateAdded": "2022-04-30T13:31:21Z",
-          "dateModified": "2022-04-30T13:31:21Z",
-          "itemType": "attachment",
-          "path": "D:\\Zotero\\storage\\L5NSS6TG\\Fang et al_2016_ePVF.pdf",
-          "relations": [],
-          "tags": [],
-          "title": "Fang et al_2016_ePVF.pdf",
-          "uri": "http://zotero.org/users/7659667/items/L5NSS6TG"
-        }
-      ],
-      "citationKey": "fangEPVFEnhancedProgram2016",
-      "citekey": "fangEPVFEnhancedProgram2016",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Bo",
-          "lastName": "Fang"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Qining",
-          "lastName": "Lu"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Karthik",
-          "lastName": "Pattabiraman"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Matei",
-          "lastName": "Ripeanu"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Sudhanva",
-          "lastName": "Gurumurthi"
-        }
-      ],
-      "date": "2016",
-      "dateAdded": "2022-04-30T13:28:33Z",
-      "dateModified": "2022-05-05T13:05:37Z",
-      "itemID": 351,
-      "itemKey": "NA6RFSXL",
-      "itemType": "conferencePaper",
-      "key": "NA6RFSXL",
-      "libraryID": 1,
-      "notes": [],
-      "pages": "168–179",
-      "publicationTitle": "46th Annual IEEE/IFIP International Conference on Dependable Systems and Networks, DSN 2016, Toulouse, France, June 28 - July 1, 2016",
-      "publisher": "IEEE Computer Society",
-      "relations": [],
-      "select": "zotero://select/library/items/NA6RFSXL",
-      "shortTitle": "ePVF",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
-      "title": "ePVF: An Enhanced Program Vulnerability Factor Methodology for Cross-Layer Resilience Analysis",
-      "uri": "http://zotero.org/users/7659667/items/NA6RFSXL",
-      "url": "https://doi.org/10.1109/DSN.2016.24",
-      "version": 2016
+      "version": 2386
     },
     {
       "charset": "",
@@ -2761,7 +2980,7 @@
       ],
       "date": "2022",
       "dateAdded": "2022-05-09T15:33:45Z",
-      "dateModified": "2022-05-09T15:42:00Z",
+      "dateModified": "2022-05-10T15:45:07Z",
       "issue": "3",
       "itemID": 7872,
       "itemKey": "PAGCBY7S",
@@ -2781,7 +3000,7 @@
       ],
       "title": "Regional soft error vulnerability and error propagation analysis for GPGPU applications",
       "uri": "http://zotero.org/users/7659667/items/PAGCBY7S",
-      "version": 2297,
+      "version": 2443,
       "volume": "78"
     },
     {
@@ -2799,8 +3018,8 @@
         }
       ],
       "callNumber": "10.282",
-      "citationKey": "ozSurveyMultithreadingAlternatives2019",
-      "citekey": "ozSurveyMultithreadingAlternatives2019",
+      "citationKey": "SurveyMultithreadingAlternatives2019oz",
+      "citekey": "SurveyMultithreadingAlternatives2019oz",
       "creators": [
         {
           "creatorType": "author",
@@ -2815,7 +3034,7 @@
       ],
       "date": "2019",
       "dateAdded": "2022-05-07T15:57:26Z",
-      "dateModified": "2022-05-07T16:28:33Z",
+      "dateModified": "2022-05-10T09:02:18Z",
       "issue": "2",
       "itemID": 7786,
       "itemKey": "PGXQDX7T",
@@ -2832,12 +3051,15 @@
         {
           "tag": "/unread",
           "type": 1
+        },
+        {
+          "tag": "toReaADD"
         }
       ],
       "title": "A Survey on Multithreading Alternatives for Soft Error Fault Tolerance",
       "uri": "http://zotero.org/users/7659667/items/PGXQDX7T",
       "url": "https://doi.org/10.1145/3302255",
-      "version": 2066,
+      "version": 2393,
       "volume": "52"
     },
     {
@@ -2856,8 +3078,8 @@
           "uri": "http://zotero.org/users/7659667/items/SS4W7MVT"
         }
       ],
-      "citationKey": "liModelingInputDependentError2018",
-      "citekey": "liModelingInputDependentError2018",
+      "citationKey": "ModelingInputDependentError2018li",
+      "citekey": "ModelingInputDependentError2018li",
       "conferenceName": "2018 48th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)",
       "creators": [
         {
@@ -2873,7 +3095,7 @@
       ],
       "date": "6/2018",
       "dateAdded": "2021-12-03T03:30:20Z",
-      "dateModified": "2022-04-17T10:16:20Z",
+      "dateModified": "2022-05-10T09:00:35Z",
       "itemID": 116,
       "itemKey": "PNVNPJJG",
       "itemType": "conferencePaper",
@@ -2886,11 +3108,18 @@
       "publisher": "IEEE",
       "relations": [],
       "select": "zotero://select/library/items/PNVNPJJG",
-      "tags": [],
+      "tags": [
+        {
+          "tag": "Pattabiraman"
+        },
+        {
+          "tag": "toReaADD"
+        }
+      ],
       "title": "Modeling Input-Dependent Error Propagation in Programs",
       "uri": "http://zotero.org/users/7659667/items/PNVNPJJG",
       "url": "https://ieeexplore.ieee.org/document/8416490/",
-      "version": 729
+      "version": 2385
     },
     {
       "DOI": "10.1109/DSN.2018.00022",
@@ -2908,8 +3137,8 @@
           "uri": "http://zotero.org/users/7659667/items/TGMLVGYP"
         }
       ],
-      "citationKey": "nieMachineLearningModels2018",
-      "citekey": "nieMachineLearningModels2018",
+      "citationKey": "MachineLearningModels2018nie",
+      "citekey": "MachineLearningModels2018nie",
       "conferenceName": "2018 48th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)",
       "creators": [
         {
@@ -2950,7 +3179,7 @@
       ],
       "date": "6/2018",
       "dateAdded": "2021-12-03T03:36:55Z",
-      "dateModified": "2022-04-17T10:16:21Z",
+      "dateModified": "2022-05-10T09:00:40Z",
       "itemID": 112,
       "itemKey": "Q66WU2QT",
       "itemType": "conferencePaper",
@@ -2963,11 +3192,15 @@
       "publisher": "IEEE",
       "relations": [],
       "select": "zotero://select/library/items/Q66WU2QT",
-      "tags": [],
+      "tags": [
+        {
+          "tag": "toReaADD"
+        }
+      ],
       "title": "Machine Learning Models for GPU Error Prediction in a Large Scale HPC System",
       "uri": "http://zotero.org/users/7659667/items/Q66WU2QT",
       "url": "https://ieeexplore.ieee.org/document/8416474/",
-      "version": 729
+      "version": 2385
     },
     {
       "DOI": "10.1145/2717311",
@@ -3084,7 +3317,7 @@
       "title": "Eliminating microarchitectural dependency from Architectural Vulnerability",
       "uri": "http://zotero.org/users/7659667/items/S434NRHX",
       "url": "http://ieeexplore.ieee.org/document/4798243/",
-      "version": 2224
+      "version": 2230
     },
     {
       "DOI": "10.1016/j.microrel.2020.113648",
@@ -3187,8 +3420,8 @@
           "uri": "http://zotero.org/users/7659667/items/FTLFBP44"
         }
       ],
-      "citationKey": "yueGSEPMBuildingAccurate2021",
-      "citekey": "yueGSEPMBuildingAccurate2021",
+      "citationKey": "GSEPMBuildingAccurate2021yue",
+      "citekey": "GSEPMBuildingAccurate2021yue",
       "conferenceName": "SC '21: The International Conference for High Performance Computing, Networking, Storage and Analysis",
       "creators": [
         {
@@ -3224,7 +3457,7 @@
       ],
       "date": "2021-11-14",
       "dateAdded": "2021-12-02T08:47:48Z",
-      "dateModified": "2022-04-17T10:16:21Z",
+      "dateModified": "2022-05-10T09:00:24Z",
       "itemID": 99,
       "itemKey": "TUW8PKTJ",
       "itemType": "conferencePaper",
@@ -3239,11 +3472,15 @@
       "relations": [],
       "select": "zotero://select/library/items/TUW8PKTJ",
       "shortTitle": "G-SEPM",
-      "tags": [],
+      "tags": [
+        {
+          "tag": "toReaADD"
+        }
+      ],
       "title": "G-SEPM: building an accurate and efficient soft error prediction model for GPGPUs",
       "uri": "http://zotero.org/users/7659667/items/TUW8PKTJ",
       "url": "https://dl.acm.org/doi/10.1145/3458817.3476170",
-      "version": 728
+      "version": 2381
     },
     {
       "DOI": "10.1145/2901318.2901319",
@@ -3262,8 +3499,8 @@
           "uri": "http://zotero.org/users/7659667/items/TY5LAJ5J"
         }
       ],
-      "citationKey": "sharmaFlintBatchinteractiveDataintensive2016",
-      "citekey": "sharmaFlintBatchinteractiveDataintensive2016",
+      "citationKey": "FlintBatchinteractiveDataintensive2016sharma",
+      "citekey": "FlintBatchinteractiveDataintensive2016sharma",
       "conferenceName": "EuroSys '16: Eleventh EuroSys Conference 2016",
       "creators": [
         {
@@ -3294,7 +3531,7 @@
       ],
       "date": "2016-04-18",
       "dateAdded": "2022-04-22T14:29:12Z",
-      "dateModified": "2022-04-27T13:51:14Z",
+      "dateModified": "2022-05-10T08:53:10Z",
       "itemID": 324,
       "itemKey": "UQKHPFBR",
       "itemType": "conferencePaper",
@@ -3310,12 +3547,7 @@
       "relations": [],
       "select": "zotero://select/library/items/UQKHPFBR",
       "shortTitle": "Flint",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
+      "tags": [],
       "title": "Flint: batch-interactive data-intensive processing on transient servers",
       "uri": "http://zotero.org/users/7659667/items/UQKHPFBR",
       "url": "https://dl.acm.org/doi/10.1145/2901318.2901319",
@@ -3335,8 +3567,8 @@
           "uri": "http://zotero.org/users/7659667/items/CLZG6AFJ"
         }
       ],
-      "citationKey": "cristianProbabilisticClockSynchronization1989",
-      "citekey": "cristianProbabilisticClockSynchronization1989",
+      "citationKey": "ProbabilisticClockSynchronization1989cristian",
+      "citekey": "ProbabilisticClockSynchronization1989cristian",
       "creators": [
         {
           "creatorType": "author",
@@ -3346,7 +3578,7 @@
       ],
       "date": "1989",
       "dateAdded": "2022-05-02T12:50:49Z",
-      "dateModified": "2022-05-02T12:50:49Z",
+      "dateModified": "2022-05-10T09:02:07Z",
       "issue": "3",
       "itemID": 401,
       "itemKey": "VA432A9X",
@@ -3362,12 +3594,15 @@
         {
           "tag": "/unread",
           "type": 1
+        },
+        {
+          "tag": "toReaADD"
         }
       ],
       "title": "Probabilistic Clock Synchronization",
       "uri": "http://zotero.org/users/7659667/items/VA432A9X",
       "url": "https://doi.org/10.1007/BF01784024",
-      "version": 1719,
+      "version": 2390,
       "volume": "3"
     },
     {
@@ -3421,7 +3656,7 @@
       ],
       "date": "2021",
       "dateAdded": "2022-05-08T14:29:02Z",
-      "dateModified": "2022-05-08T14:33:49Z",
+      "dateModified": "2022-05-10T09:02:34Z",
       "itemID": 7831,
       "itemKey": "VDFASSWC",
       "itemType": "conferencePaper",
@@ -3445,12 +3680,15 @@
           "tag": "Reliability"
         },
         {
+          "tag": "toReaADD"
+        },
+        {
           "tag": "Warp Protection"
         }
       ],
       "title": "Enabling Software Resilience in GPGPU Applications via Partial Thread Protection",
       "uri": "http://zotero.org/users/7659667/items/VDFASSWC",
-      "version": 2150
+      "version": 2391
     },
     {
       "DOI": "10.1109/SC.2016.20",
@@ -3468,8 +3706,8 @@
           "uri": "http://zotero.org/users/7659667/items/QZ2Q8BGF"
         }
       ],
-      "citationKey": "liUnderstandingErrorPropagation2016",
-      "citekey": "liUnderstandingErrorPropagation2016",
+      "citationKey": "UnderstandingErrorPropagation2016li",
+      "citekey": "UnderstandingErrorPropagation2016li",
       "conferenceName": "SC16: International Conference for High Performance Computing, Networking, Storage and Analysis",
       "creators": [
         {
@@ -3495,7 +3733,7 @@
       ],
       "date": "11/2016",
       "dateAdded": "2021-12-02T14:12:10Z",
-      "dateModified": "2022-04-17T10:16:20Z",
+      "dateModified": "2022-05-10T09:00:31Z",
       "itemID": 115,
       "itemKey": "VI7SEKR4",
       "itemType": "conferencePaper",
@@ -3511,12 +3749,15 @@
       "tags": [
         {
           "tag": "Error Propagation"
+        },
+        {
+          "tag": "toReaADD"
         }
       ],
       "title": "Understanding Error Propagation in GPGPU Applications",
       "uri": "http://zotero.org/users/7659667/items/VI7SEKR4",
       "url": "http://ieeexplore.ieee.org/document/7877099/",
-      "version": 1913
+      "version": 2383
     },
     {
       "DOI": "10.1145/3295500.3356177",
@@ -3682,8 +3923,8 @@
         }
       ],
       "callNumber": "4.654",
-      "citationKey": "youngFirstOrderApproximation1974",
-      "citekey": "youngFirstOrderApproximation1974",
+      "citationKey": "FirstOrderApproximation1974young",
+      "citekey": "FirstOrderApproximation1974young",
       "creators": [
         {
           "creatorType": "author",
@@ -3693,7 +3934,7 @@
       ],
       "date": "09/1974",
       "dateAdded": "2022-04-22T16:31:46Z",
-      "dateModified": "2022-05-08T02:27:37Z",
+      "dateModified": "2022-05-10T09:01:41Z",
       "issue": "9",
       "itemID": 329,
       "itemKey": "XUL38RPG",
@@ -3708,75 +3949,16 @@
       "publicationTitle": "Communications of the ACM",
       "relations": [],
       "select": "zotero://select/library/items/XUL38RPG",
-      "tags": [],
+      "tags": [
+        {
+          "tag": "toReaADD"
+        }
+      ],
       "title": "A first order approximation to the optimum checkpoint interval",
       "uri": "http://zotero.org/users/7659667/items/XUL38RPG",
       "url": "https://dl.acm.org/doi/10.1145/361147.361115",
-      "version": 2076,
+      "version": 2389,
       "volume": "17"
-    },
-    {
-      "DOI": "10.1109/SC.2018.00011",
-      "ISBN": "978-1-5386-8384-2",
-      "accessDate": "2021-12-03T03:44:02Z",
-      "attachments": [
-        {
-          "dateAdded": "2021-12-03T03:55:03Z",
-          "dateModified": "2022-03-25T03:13:40Z",
-          "itemType": "attachment",
-          "path": "D:\\Zotero\\storage\\YUYQMAWW\\Guo et al_2018_FlipTracker.pdf",
-          "relations": [],
-          "tags": [],
-          "title": "Guo et al_2018_FlipTracker.pdf",
-          "uri": "http://zotero.org/users/7659667/items/YUYQMAWW"
-        }
-      ],
-      "citationKey": "guoFlipTrackerUnderstandingNatural2018",
-      "citekey": "guoFlipTrackerUnderstandingNatural2018",
-      "conferenceName": "SC18: International Conference for High Performance Computing, Networking, Storage and Analysis",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Luanzheng",
-          "lastName": "Guo"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Dong",
-          "lastName": "Li"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Ignacio",
-          "lastName": "Laguna"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Martin",
-          "lastName": "Schulz"
-        }
-      ],
-      "date": "11/2018",
-      "dateAdded": "2021-12-03T03:44:02Z",
-      "dateModified": "2022-04-17T10:16:20Z",
-      "itemID": 119,
-      "itemKey": "XZVXYMD6",
-      "itemType": "conferencePaper",
-      "key": "XZVXYMD6",
-      "libraryID": 1,
-      "notes": [],
-      "pages": "94-107",
-      "place": "Dallas, TX, USA",
-      "publicationTitle": "SC18: International Conference for High Performance Computing, Networking, Storage and Analysis",
-      "publisher": "IEEE",
-      "relations": [],
-      "select": "zotero://select/library/items/XZVXYMD6",
-      "shortTitle": "FlipTracker",
-      "tags": [],
-      "title": "FlipTracker: Understanding Natural Error Resilience in HPC Applications",
-      "uri": "http://zotero.org/users/7659667/items/XZVXYMD6",
-      "url": "https://ieeexplore.ieee.org/document/8665769/",
-      "version": 729
     },
     {
       "DOI": "10.1145/800222.806738",
@@ -3792,8 +3974,8 @@
           "uri": "http://zotero.org/users/7659667/items/XVUA77NH"
         }
       ],
-      "citationKey": "lundeliusNewFaultTolerantAlgorithm1984",
-      "citekey": "lundeliusNewFaultTolerantAlgorithm1984",
+      "citationKey": "NewFaultTolerantAlgorithm1984lundelius",
+      "citekey": "NewFaultTolerantAlgorithm1984lundelius",
       "creators": [
         {
           "creatorType": "author",
@@ -3828,7 +4010,7 @@
       ],
       "date": "1984",
       "dateAdded": "2022-05-02T06:42:04Z",
-      "dateModified": "2022-05-02T06:42:05Z",
+      "dateModified": "2022-05-10T09:02:05Z",
       "itemID": 385,
       "itemKey": "Y47STNTW",
       "itemType": "conferencePaper",
@@ -3844,12 +4026,15 @@
         {
           "tag": "/unread",
           "type": 1
+        },
+        {
+          "tag": "toReaADD"
         }
       ],
       "title": "A New Fault-Tolerant Algorithm for Clock Synchronization",
       "uri": "http://zotero.org/users/7659667/items/Y47STNTW",
       "url": "https://doi.org/10.1145/800222.806738",
-      "version": 1636
+      "version": 2390
     },
     {
       "charset": "",
@@ -3920,7 +4105,7 @@
       ],
       "date": "6/2018",
       "dateAdded": "2021-12-03T03:32:25Z",
-      "dateModified": "2022-05-09T14:31:19Z",
+      "dateModified": "2022-05-10T09:00:37Z",
       "itemID": 114,
       "itemKey": "YEHZWJ4Z",
       "itemType": "conferencePaper",
@@ -3936,25 +4121,28 @@
       "shortTitle": "Trident",
       "tags": [
         {
-          "tag": "⭐"
-        },
-        {
           "tag": "Error Propagation"
         },
         {
-          "tag": "Error Resilience"
+          "tag": "⭐"
+        },
+        {
+          "tag": "Soft Error"
         },
         {
           "tag": "SDC"
         },
         {
-          "tag": "Soft Error"
+          "tag": "Error Resilience"
+        },
+        {
+          "tag": "toReaADD"
         }
       ],
       "title": "Modeling Soft-Error Propagation in Programs",
       "uri": "http://zotero.org/users/7659667/items/YEHZWJ4Z",
       "url": "https://ieeexplore.ieee.org/document/8416468/",
-      "version": 2218
+      "version": 2385
     },
     {
       "DOI": "10.1109/SC41405.2020.00032",
@@ -3972,8 +4160,8 @@
           "uri": "http://zotero.org/users/7659667/items/WSKEQ3AH"
         }
       ],
-      "citationKey": "jinSCALANAAutomatingScaling2020",
-      "citekey": "jinSCALANAAutomatingScaling2020",
+      "citationKey": "SCALANAAutomatingScaling2020jin",
+      "citekey": "SCALANAAutomatingScaling2020jin",
       "conferenceName": "SC20: International Conference for High Performance Computing, Networking, Storage and Analysis",
       "creators": [
         {
@@ -4014,7 +4202,7 @@
       ],
       "date": "11/2020",
       "dateAdded": "2022-01-16T03:26:24Z",
-      "dateModified": "2022-04-17T10:16:20Z",
+      "dateModified": "2022-05-10T09:00:56Z",
       "itemID": 170,
       "itemKey": "YMNVQNGA",
       "itemType": "conferencePaper",
@@ -4031,12 +4219,15 @@
       "tags": [
         {
           "tag": "GNN"
+        },
+        {
+          "tag": "toReaADD"
         }
       ],
       "title": "SCALANA: Automating Scaling Loss Detection with Graph Analysis",
       "uri": "http://zotero.org/users/7659667/items/YMNVQNGA",
       "url": "https://ieeexplore.ieee.org/document/9355294/",
-      "version": 730
+      "version": 2388
     },
     {
       "DOI": "10.23919/DATE51398.2021.9474098",
@@ -4138,6 +4329,6 @@
   ],
   "version": {
     "bbt": "6.7.1",
-    "zotero": "6.0.6"
+    "zotero": "6.0.7"
   }
 }
