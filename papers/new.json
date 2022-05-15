@@ -607,15 +607,11 @@
       "relations": [],
       "select": "zotero://select/library/items/3PBS8V9V",
       "shortTitle": "NVBitFI",
-      "tags": [
-        {
-          "tag": "toReaADD"
-        }
-      ],
+      "tags": [],
       "title": "NVBitFI: Dynamic Fault Injection for GPUs",
       "uri": "http://zotero.org/users/7659667/items/3PBS8V9V",
       "url": "https://ieeexplore.ieee.org/document/9505068/",
-      "version": 2382
+      "version": 2601
     },
     {
       "DOI": "10.1109/TVCG.2020.2994954",
@@ -764,15 +760,12 @@
       "tags": [
         {
           "tag": "Error Propagation"
-        },
-        {
-          "tag": "toReaADD"
         }
       ],
       "title": "Modeling the Propagation of Soft Errors in Programs",
       "uri": "http://zotero.org/users/7659667/items/55ZXU92X",
       "url": "http://dl.acm.org/citation.cfm?doid=3339363.3339382",
-      "version": 2379
+      "version": 2601
     },
     {
       "ISBN": "978-0-471-46406-8 978-0-471-29342-2 978-0-471-22460-0 978-1-280-36749-6",
@@ -986,14 +979,11 @@
         },
         {
           "tag": "Program Input"
-        },
-        {
-          "tag": "toReaADD"
         }
       ],
       "title": "Hardening selective protection across multiple program inputs for HPC applications",
       "uri": "http://zotero.org/users/7659667/items/6CKDY9TW",
-      "version": 2390
+      "version": 2602
     },
     {
       "DOI": "10.1109/SC.2014.62",
@@ -1386,15 +1376,11 @@
       "relations": [],
       "select": "zotero://select/library/items/9GEJK34J",
       "shortTitle": "PARIS",
-      "tags": [
-        {
-          "tag": "toReaADD"
-        }
-      ],
+      "tags": [],
       "title": "PARIS: Predicting application resilience using machine learning",
       "uri": "http://zotero.org/users/7659667/items/9GEJK34J",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0743731521000368",
-      "version": 2384,
+      "version": 2601,
       "volume": "152"
     },
     {
@@ -1567,15 +1553,11 @@
       "relations": [],
       "select": "zotero://select/library/items/BWNTSNZZ",
       "shortTitle": "CrystalPerf",
-      "tags": [
-        {
-          "tag": "toReaADD"
-        }
-      ],
+      "tags": [],
       "title": "CrystalPerf: Learning to Characterize the Performance of Dataflow Computation through Code Analysis",
       "uri": "http://zotero.org/users/7659667/items/BWNTSNZZ",
       "url": "https://www.usenix.org/conference/atc21/presentation/tian",
-      "version": 2388
+      "version": 2602
     },
     {
       "DOI": "10.1145/3458817.3476147",
@@ -1653,14 +1635,11 @@
         },
         {
           "tag": "Multiple Inputs"
-        },
-        {
-          "tag": "toReaADD"
         }
       ],
       "title": "PEPPA-X: finding program test inputs to bound silent data corruption vulnerability in HPC applications",
       "uri": "http://zotero.org/users/7659667/items/CCN9DIVW",
-      "version": 2391
+      "version": 2603
     },
     {
       "DOI": "10.1145/3437801.3441589",
@@ -1788,7 +1767,7 @@
       ],
       "date": "10/2018",
       "dateAdded": "2021-12-03T03:35:06Z",
-      "dateModified": "2022-05-10T09:00:38Z",
+      "dateModified": "2022-05-15T11:50:16Z",
       "itemID": 111,
       "itemKey": "DI2QUIAU",
       "itemType": "conferencePaper",
@@ -1803,13 +1782,13 @@
       "select": "zotero://select/library/items/DI2QUIAU",
       "tags": [
         {
-          "tag": "toReaADD"
+          "tag": "⭐"
         }
       ],
       "title": "Fault Site Pruning for Practical Reliability Analysis of GPGPU Applications",
       "uri": "http://zotero.org/users/7659667/items/DI2QUIAU",
       "url": "https://ieeexplore.ieee.org/document/8574583/",
-      "version": 2385
+      "version": 2598
     },
     {
       "ISBN": "978-0-13-301367-2",
@@ -1942,15 +1921,12 @@
         {
           "tag": "/unread",
           "type": 1
-        },
-        {
-          "tag": "toReaADD"
         }
       ],
       "title": "PRISM: predicting resilience of GPU applications using statistical methods",
       "uri": "http://zotero.org/users/7659667/items/EJ3XLIZG",
       "url": "http://dl.acm.org/citation.cfm?id=3291748",
-      "version": 2391
+      "version": 2602
     },
     {
       "charset": "",
@@ -2125,7 +2101,7 @@
       ],
       "date": "11/2020",
       "dateAdded": "2022-05-10T08:57:22Z",
-      "dateModified": "2022-05-11T15:13:20Z",
+      "dateModified": "2022-05-15T11:46:19Z",
       "itemID": 7884,
       "itemKey": "GRG9GGER",
       "itemType": "conferencePaper",
@@ -2144,9 +2120,6 @@
       "tags": [
         {
           "tag": "Error Propagation"
-        },
-        {
-          "tag": "⭐"
         },
         {
           "tag": "SDC"
@@ -2323,15 +2296,11 @@
       "publisher": "IEEE",
       "relations": [],
       "select": "zotero://select/library/items/IL8HDX8N",
-      "tags": [
-        {
-          "tag": "toReaADD"
-        }
-      ],
+      "tags": [],
       "title": "Evaluating and Accelerating High-Fidelity Error Injection for HPC",
       "uri": "http://zotero.org/users/7659667/items/IL8HDX8N",
       "url": "https://ieeexplore.ieee.org/document/8665790/",
-      "version": 2387
+      "version": 2602
     },
     {
       "DOI": "10.1109/SC.2018.00011",
@@ -2636,15 +2605,11 @@
       "publisher": "ACM",
       "relations": [],
       "select": "zotero://select/library/items/KDD3TSZG",
-      "tags": [
-        {
-          "tag": "toReaADD"
-        }
-      ],
+      "tags": [],
       "title": "Hybrid, scalable, trace-driven performance modeling of GPGPUs",
       "uri": "http://zotero.org/users/7659667/items/KDD3TSZG",
       "url": "https://dl.acm.org/doi/10.1145/3458817.3476221",
-      "version": 2388
+      "version": 2602
     },
     {
       "DOI": "10.1109/DSN.2016.24",
@@ -2715,15 +2680,12 @@
         {
           "tag": "/unread",
           "type": 1
-        },
-        {
-          "tag": "toReaADD"
         }
       ],
       "title": "ePVF: An Enhanced Program Vulnerability Factor Methodology for Cross-Layer Resilience Analysis",
       "uri": "http://zotero.org/users/7659667/items/KEKU9MGL",
       "url": "http://ieeexplore.ieee.org/document/7579739/",
-      "version": 2450
+      "version": 2603
     },
     {
       "DOI": "10.1145/3386263.3406938",
@@ -2896,15 +2858,11 @@
       "publisher": "IEEE",
       "relations": [],
       "select": "zotero://select/library/items/MU4K8QA7",
-      "tags": [
-        {
-          "tag": "toReaADD"
-        }
-      ],
+      "tags": [],
       "title": "Characterizing Accuracy-Aware Resilience of GPGPU Applications",
       "uri": "http://zotero.org/users/7659667/items/MU4K8QA7",
       "url": "https://ieeexplore.ieee.org/document/9139732/",
-      "version": 2385
+      "version": 2601
     },
     {
       "DOI": "10.1145/2854038.2854059",
@@ -3042,15 +3000,11 @@
       "publicationTitle": "IEEE Transactions on Dependable and Secure Computing",
       "relations": [],
       "select": "zotero://select/library/items/N8QC8W93",
-      "tags": [
-        {
-          "tag": "toReaADD"
-        }
-      ],
+      "tags": [],
       "title": "Characterizing and Exploiting Soft Error Vulnerability Phase Behavior in GPU Applications",
       "uri": "http://zotero.org/users/7659667/items/N8QC8W93",
       "url": "https://ieeexplore.ieee.org/document/9080079/",
-      "version": 2386
+      "version": 2601
     },
     {
       "charset": "",
@@ -3124,7 +3078,7 @@
       ],
       "title": "Regional soft error vulnerability and error propagation analysis for GPGPU applications",
       "uri": "http://zotero.org/users/7659667/items/PAGCBY7S",
-      "version": 2443,
+      "version": 2453,
       "volume": "78"
     },
     {
@@ -3175,15 +3129,12 @@
         {
           "tag": "/unread",
           "type": 1
-        },
-        {
-          "tag": "toReaADD"
         }
       ],
       "title": "A Survey on Multithreading Alternatives for Soft Error Fault Tolerance",
       "uri": "http://zotero.org/users/7659667/items/PGXQDX7T",
       "url": "https://doi.org/10.1145/3302255",
-      "version": 2393,
+      "version": 2602,
       "volume": "52"
     },
     {
@@ -3235,15 +3186,12 @@
       "tags": [
         {
           "tag": "Pattabiraman"
-        },
-        {
-          "tag": "toReaADD"
         }
       ],
       "title": "Modeling Input-Dependent Error Propagation in Programs",
       "uri": "http://zotero.org/users/7659667/items/PNVNPJJG",
       "url": "https://ieeexplore.ieee.org/document/8416490/",
-      "version": 2385
+      "version": 2601
     },
     {
       "DOI": "10.1109/DSN.2018.00022",
@@ -3316,15 +3264,11 @@
       "publisher": "IEEE",
       "relations": [],
       "select": "zotero://select/library/items/Q66WU2QT",
-      "tags": [
-        {
-          "tag": "toReaADD"
-        }
-      ],
+      "tags": [],
       "title": "Machine Learning Models for GPU Error Prediction in a Large Scale HPC System",
       "uri": "http://zotero.org/users/7659667/items/Q66WU2QT",
       "url": "https://ieeexplore.ieee.org/document/8416474/",
-      "version": 2385
+      "version": 2601
     },
     {
       "DOI": "10.1145/2717311",
@@ -3596,15 +3540,11 @@
       "relations": [],
       "select": "zotero://select/library/items/TUW8PKTJ",
       "shortTitle": "G-SEPM",
-      "tags": [
-        {
-          "tag": "toReaADD"
-        }
-      ],
+      "tags": [],
       "title": "G-SEPM: building an accurate and efficient soft error prediction model for GPGPUs",
       "uri": "http://zotero.org/users/7659667/items/TUW8PKTJ",
       "url": "https://dl.acm.org/doi/10.1145/3458817.3476170",
-      "version": 2381
+      "version": 2601
     },
     {
       "DOI": "10.1145/2901318.2901319",
@@ -3718,15 +3658,12 @@
         {
           "tag": "/unread",
           "type": 1
-        },
-        {
-          "tag": "toReaADD"
         }
       ],
       "title": "Probabilistic Clock Synchronization",
       "uri": "http://zotero.org/users/7659667/items/VA432A9X",
       "url": "https://doi.org/10.1007/BF01784024",
-      "version": 2390,
+      "version": 2602,
       "volume": "3"
     },
     {
@@ -3804,15 +3741,12 @@
           "tag": "Reliability"
         },
         {
-          "tag": "toReaADD"
-        },
-        {
           "tag": "Warp Protection"
         }
       ],
       "title": "Enabling Software Resilience in GPGPU Applications via Partial Thread Protection",
       "uri": "http://zotero.org/users/7659667/items/VDFASSWC",
-      "version": 2391
+      "version": 2603
     },
     {
       "DOI": "10.1109/SC.2016.20",
@@ -3873,15 +3807,12 @@
       "tags": [
         {
           "tag": "Error Propagation"
-        },
-        {
-          "tag": "toReaADD"
         }
       ],
       "title": "Understanding Error Propagation in GPGPU Applications",
       "uri": "http://zotero.org/users/7659667/items/VI7SEKR4",
       "url": "http://ieeexplore.ieee.org/document/7877099/",
-      "version": 2383
+      "version": 2601
     },
     {
       "DOI": "10.1145/3295500.3356177",
@@ -4073,15 +4004,11 @@
       "publicationTitle": "Communications of the ACM",
       "relations": [],
       "select": "zotero://select/library/items/XUL38RPG",
-      "tags": [
-        {
-          "tag": "toReaADD"
-        }
-      ],
+      "tags": [],
       "title": "A first order approximation to the optimum checkpoint interval",
       "uri": "http://zotero.org/users/7659667/items/XUL38RPG",
       "url": "https://dl.acm.org/doi/10.1145/361147.361115",
-      "version": 2389,
+      "version": 2602,
       "volume": "17"
     },
     {
@@ -4150,15 +4077,12 @@
         {
           "tag": "/unread",
           "type": 1
-        },
-        {
-          "tag": "toReaADD"
         }
       ],
       "title": "A New Fault-Tolerant Algorithm for Clock Synchronization",
       "uri": "http://zotero.org/users/7659667/items/Y47STNTW",
       "url": "https://doi.org/10.1145/800222.806738",
-      "version": 2390
+      "version": 2602
     },
     {
       "charset": "",
@@ -4229,7 +4153,7 @@
       ],
       "date": "6/2018",
       "dateAdded": "2021-12-03T03:32:25Z",
-      "dateModified": "2022-05-10T09:00:37Z",
+      "dateModified": "2022-05-15T11:46:14Z",
       "itemID": 114,
       "itemKey": "YEHZWJ4Z",
       "itemType": "conferencePaper",
@@ -4248,25 +4172,19 @@
           "tag": "Error Propagation"
         },
         {
-          "tag": "⭐"
-        },
-        {
-          "tag": "Soft Error"
+          "tag": "Error Resilience"
         },
         {
           "tag": "SDC"
         },
         {
-          "tag": "Error Resilience"
-        },
-        {
-          "tag": "toReaADD"
+          "tag": "Soft Error"
         }
       ],
       "title": "Modeling Soft-Error Propagation in Programs",
       "uri": "http://zotero.org/users/7659667/items/YEHZWJ4Z",
       "url": "https://ieeexplore.ieee.org/document/8416468/",
-      "version": 2385
+      "version": 2601
     },
     {
       "DOI": "10.1109/SC41405.2020.00032",
@@ -4343,15 +4261,12 @@
       "tags": [
         {
           "tag": "GNN"
-        },
-        {
-          "tag": "toReaADD"
         }
       ],
       "title": "SCALANA: Automating Scaling Loss Detection with Graph Analysis",
       "uri": "http://zotero.org/users/7659667/items/YMNVQNGA",
       "url": "https://ieeexplore.ieee.org/document/9355294/",
-      "version": 2388
+      "version": 2602
     },
     {
       "DOI": "10.23919/DATE51398.2021.9474098",
