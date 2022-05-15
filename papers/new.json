@@ -139,7 +139,8 @@
         144,
         176,
         207,
-        7889
+        7889,
+        7899
       ],
       "key": "RLZKFTSE",
       "name": "Modeling Tools",
@@ -1037,7 +1038,7 @@
       ],
       "date": "11/2014",
       "dateAdded": "2022-05-09T14:44:43Z",
-      "dateModified": "2022-05-09T15:41:33Z",
+      "dateModified": "2022-05-11T15:13:20Z",
       "itemID": 7851,
       "itemKey": "75GV3HYZ",
       "itemType": "conferencePaper",
@@ -1054,10 +1055,6 @@
       "select": "zotero://select/library/items/75GV3HYZ",
       "tags": [
         {
-          "tag": "/unread",
-          "type": 1
-        },
-        {
           "tag": "⭐"
         },
         {
@@ -1067,7 +1064,98 @@
       "title": "Quantitatively Modeling Application Resilience with the Data Vulnerability Factor",
       "uri": "http://zotero.org/users/7659667/items/75GV3HYZ",
       "url": "http://ieeexplore.ieee.org/document/7013044/",
-      "version": 2296
+      "version": 2533
+    },
+    {
+      "DOI": "10.1145/3466752.3480063",
+      "ISBN": "978-1-4503-8557-2",
+      "abstractNote": "Graphics Processing Units (GPUs) are rapidly dominating the accelerator space, as illustrated by their wide-spread adoption in the data analytics and machine learning markets. At the same time, performance per watt has emerged as a crucial evaluation metric together with peak performance. As such, GPU architects require robust tools that will enable them to model both the performance and the power consumption of modern GPUs. However, while GPU performance modeling has progressed in great strides, power modeling has lagged behind. To mitigate this problem we propose AccelWattch, a configurable GPU power model that resolves two long-standing needs: the lack of a detailed and accurate cycle-level power model for modern GPU architectures, and the inability to capture their constant and static power with existing tools. AccelWattch can be driven by emulation and trace-driven environments, hardware counters, or a mix of the two, models both PTX and SASS ISAs, accounts for power gating and control-flow divergence, and supports DVFS. We integrate AccelWattch with GPGPU-Sim and Accel-Sim to facilitate its widespread use. We validate AccelWattch on a NVIDIA Volta GPU, and show that it achieves strong correlation against hardware power measurements. Finally, we demonstrate that AccelWattch can enable reliable design space exploration: by directly applying AccelWattch tuned for Volta on GPU configurations resembling NVIDIA Pascal and Turing GPUs, we obtain accurate power models for these architectures.",
+      "accessDate": "2022-05-14T16:05:07Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-14T16:05:00Z",
+          "dateModified": "2022-05-14T16:05:09Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\IBTTQDQF\\Kandiah et al. - 2021 - AccelWattch A Power Modeling Framework for Modern.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Kandiah et al. - 2021 - AccelWattch A Power Modeling Framework for Modern.pdf",
+          "uri": "http://zotero.org/users/7659667/items/IBTTQDQF"
+        }
+      ],
+      "citationKey": "AccelWattchPowerModeling2021kandiah",
+      "citekey": "AccelWattchPowerModeling2021kandiah",
+      "conferenceName": "MICRO '21: 54th Annual IEEE/ACM International Symposium on Microarchitecture",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Vijay",
+          "lastName": "Kandiah"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Scott",
+          "lastName": "Peverelle"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mahmoud",
+          "lastName": "Khairy"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Junrui",
+          "lastName": "Pan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Amogh",
+          "lastName": "Manjunath"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Timothy G.",
+          "lastName": "Rogers"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Tor M.",
+          "lastName": "Aamodt"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nikos",
+          "lastName": "Hardavellas"
+        }
+      ],
+      "date": "2021-10-18",
+      "dateAdded": "2022-05-14T16:05:07Z",
+      "dateModified": "2022-05-14T16:05:08Z",
+      "itemID": 7899,
+      "itemKey": "79U9YNU8",
+      "itemType": "conferencePaper",
+      "key": "79U9YNU8",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "738-753",
+      "place": "Virtual Event Greece",
+      "publicationTitle": "MICRO-54: 54th Annual IEEE/ACM International Symposium on Microarchitecture",
+      "publisher": "ACM",
+      "relations": [],
+      "select": "zotero://select/library/items/79U9YNU8",
+      "shortTitle": "AccelWattch",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "AccelWattch: A Power Modeling Framework for Modern GPUs",
+      "uri": "http://zotero.org/users/7659667/items/79U9YNU8",
+      "url": "https://dl.acm.org/doi/10.1145/3466752.3480063",
+      "version": 2571
     },
     {
       "DOI": "10.1109/PDP55904.2022.00025",
@@ -1997,7 +2085,7 @@
       ],
       "date": "11/2020",
       "dateAdded": "2022-05-10T08:57:22Z",
-      "dateModified": "2022-05-11T06:38:18Z",
+      "dateModified": "2022-05-11T15:13:20Z",
       "itemID": 7884,
       "itemKey": "GRG9GGER",
       "itemType": "conferencePaper",
@@ -2015,10 +2103,6 @@
       "shortTitle": "GPU-Trident",
       "tags": [
         {
-          "tag": "/unread",
-          "type": 1
-        },
-        {
           "tag": "Error Propagation"
         },
         {
@@ -2034,7 +2118,7 @@
       "title": "GPU-Trident: Efficient Modeling of Error Propagation in GPU Programs",
       "uri": "http://zotero.org/users/7659667/items/GRG9GGER",
       "url": "https://ieeexplore.ieee.org/document/9355257/",
-      "version": 2491
+      "version": 2533
     },
     {
       "DOI": "10.1145/3352460.3358307",

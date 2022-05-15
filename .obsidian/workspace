@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "papers/@FaultToleranceDistributed1994jalote.md",
+            "file": "Learning/Docker.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/@FaultToleranceDistributed1994jalote.md"
+                "file": "Learning/Docker.md"
               }
             }
           },
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/@FaultToleranceDistributed1994jalote.md",
+                "file": "Learning/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/@FaultToleranceDistributed1994jalote.md",
+                "file": "Learning/Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,6 +175,7 @@
   },
   "active": "9dd1471e6e7496f4",
   "lastOpenFiles": [
+    "Learning/Docker.md",
     "papers/@FaultToleranceDistributed1994jalote.md",
     "papers/@jaloteFaultToleranceDistributed1994.md",
     "papers/@ReliabilityComputerSystems2003shooman.md",
@@ -183,7 +184,6 @@
     "2022-04-07.md",
     "excalibrain.md",
     "Workflow/插件用法.md",
-    "Workflow/全系workflow搭建.md",
-    "论文撰写.md"
+    "Workflow/全系workflow搭建.md"
   ]
 }
