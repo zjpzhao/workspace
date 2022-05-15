@@ -41,7 +41,8 @@
         57,
         58,
         63,
-        7786
+        7786,
+        7901
       ],
       "key": "9ML3SXBU",
       "name": "To be Classified",
@@ -1971,6 +1972,45 @@
       "title": "面向 GPGPU 体系结构的软错误弹性分析与容错策略研究.pdf",
       "uri": "http://zotero.org/users/7659667/items/EWSZML69",
       "version": 730
+    },
+    {
+      "ISBN": "978-1-4673-0805-2 978-1-4673-0806-9",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-15T04:04:10Z",
+          "dateModified": "2022-05-15T04:06:17Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\7QR4PUL3\\2012 - TH-CPL.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "2019 - TH-CPL.pdf",
+          "uri": "http://zotero.org/users/7659667/items/7QR4PUL3"
+        }
+      ],
+      "citationKey": "THCPL2012",
+      "citekey": "THCPL2012",
+      "conferenceName": "2012 SC - International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "creators": [],
+      "date": "11/2012",
+      "dateAdded": "2022-05-15T04:04:19Z",
+      "dateModified": "2022-05-15T04:06:09Z",
+      "itemID": 7901,
+      "itemKey": "FPJZE89P",
+      "itemType": "conferencePaper",
+      "key": "FPJZE89P",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "place": "Salt Lake City, UT",
+      "publicationTitle": "2012 International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/FPJZE89P",
+      "tags": [],
+      "title": "TH-CPL",
+      "uri": "http://zotero.org/users/7659667/items/FPJZE89P",
+      "version": 2583
     },
     {
       "ISBN": "978-0-13-138768-3",

@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Network",
+      "path": "Learning/Network.md"
+    },
+    {
+      "basename": "CUDA",
+      "path": "Learning/CUDA.md"
+    },
+    {
       "basename": "Docker",
       "path": "Learning/Docker.md"
     },
@@ -47,10 +55,6 @@
     {
       "basename": "Git",
       "path": "Learning/Git.md"
-    },
-    {
-      "basename": "CUDA",
-      "path": "Learning/CUDA.md"
     },
     {
       "basename": "python学习",
