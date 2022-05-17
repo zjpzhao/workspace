@@ -63,7 +63,8 @@
         247,
         7790,
         7826,
-        7828
+        7828,
+        7903
       ],
       "key": "HMQVTZ7W",
       "name": "CUDA",
@@ -439,6 +440,38 @@
       "uri": "http://zotero.org/users/7659667/items/2Q2KRCHG",
       "url": "https://dl.acm.org/doi/10.1145/2656106.2656127",
       "version": 2431
+    },
+    {
+      "attachments": [
+        {
+          "dateAdded": "2022-05-16T14:16:20Z",
+          "dateModified": "2022-05-16T14:16:25Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\HAMZCXMT\\Parallel Thread Execution ISA.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Parallel Thread Execution ISA.pdf",
+          "uri": "http://zotero.org/users/7659667/items/HAMZCXMT"
+        }
+      ],
+      "citationKey": "ParallelThreadExecutiona",
+      "citekey": "ParallelThreadExecutiona",
+      "creators": [],
+      "dateAdded": "2022-05-16T14:16:24Z",
+      "dateModified": "2022-05-16T15:21:43Z",
+      "itemID": 7903,
+      "itemKey": "2WPUCD43",
+      "itemType": "book",
+      "key": "2WPUCD43",
+      "libraryCatalog": "Zotero",
+      "libraryID": 1,
+      "notes": [],
+      "relations": [],
+      "select": "zotero://select/library/items/2WPUCD43",
+      "tags": [],
+      "title": "Parallel Thread Execution ISA",
+      "uri": "http://zotero.org/users/7659667/items/2WPUCD43",
+      "version": 2615
     },
     {
       "DOI": "10.1145/3447818.3460364",

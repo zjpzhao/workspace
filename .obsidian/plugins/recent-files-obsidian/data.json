@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "并行计算",
+      "path": "Lectures/并行计算.md"
+    },
+    {
       "basename": "Network",
       "path": "Learning/Network.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "打通“iPadOS-Windows”的文献阅读、批注、同步体系",
       "path": "Workflow/打通“iPadOS-Windows”的文献阅读、批注、同步体系.md"
-    },
-    {
-      "basename": "并行计算",
-      "path": "Lectures/并行计算.md"
     },
     {
       "basename": "换源",
