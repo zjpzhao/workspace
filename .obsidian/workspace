@@ -167,14 +167,14 @@
   "active": "9dd1471e6e7496f4",
   "lastOpenFiles": [
     "Lectures/并行计算.md",
+    "Lectures/容错系统.md",
+    "2022-04-07.md",
     "Learning/Network.md",
     "Learning/CUDA.md",
     "Excalidraw/Drawing 2022-05-15 11.45.27.excalidraw.md",
     "Learning/Docker.md",
     "papers/@FaultToleranceDistributed1994jalote.md",
     "papers/@jaloteFaultToleranceDistributed1994.md",
-    "papers/@ReliabilityComputerSystems2003shooman.md",
-    "Paper/zo2ob/mds/@jaloteFaultToleranceDistributed1994.md",
-    "Lectures/云计算课程论文研读报告.md"
+    "papers/@ReliabilityComputerSystems2003shooman.md"
   ]
 }
