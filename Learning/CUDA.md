@@ -43,9 +43,14 @@ __global__ void helloFromGPU (void){
 
 
 
+
 nvprof 分析工具使您能够从命令行收集和查看分析数据。请注意，Visual Profiler 和 nvprof 将在将来的 CUDA 版本中弃用。NVIDIA Volta 平台是最后一个完全支持这些工具的架构。建议使用下一代工具 NVIDIA Nsight Systems 进行 GPU 和 CPU 采样和跟踪，并使用 NVIDIA Nsight Compute 进行 GPU 内核分析。
 
-
+---
+使用`deviceQuery`命令确定系统上的 CUDA 驱动程序和运行时版本。deviceQuery 命令在 CUDA SDK 中可用。
+`cd /usr/local/cuda/samples/1_Utilities/deviceQuery`
+`./deviceQuery`
+![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/deviceQuery%E6%9F%A5%E7%9C%8BCUDA%E9%A9%B1%E5%8A%A8%E7%A8%8B%E5%BA%8F%E5%92%8C%E8%BF%90%E8%A1%8C%E6%97%B6%E7%89%88%E6%9C%AC.png)
 
 
 
