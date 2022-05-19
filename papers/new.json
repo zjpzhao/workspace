@@ -1309,8 +1309,8 @@
           "uri": "http://zotero.org/users/7659667/items/QUFIX9C9"
         }
       ],
-      "citationKey": "hennessyComputerArchitectureQuantitative",
-      "citekey": "hennessyComputerArchitectureQuantitative",
+      "citationKey": "ComputerArchitectureQuantitativehennessy",
+      "citekey": "ComputerArchitectureQuantitativehennessy",
       "creators": [
         {
           "creatorType": "author",
@@ -1319,7 +1319,7 @@
         }
       ],
       "dateAdded": "2022-04-14T05:50:29Z",
-      "dateModified": "2022-04-17T10:05:13Z",
+      "dateModified": "2022-05-19T12:00:32Z",
       "itemID": 252,
       "itemKey": "8SLI5H4Q",
       "itemType": "journalArticle",
@@ -1333,7 +1333,7 @@
       "tags": [],
       "title": "Computer Architecture: A Quantitative Approach",
       "uri": "http://zotero.org/users/7659667/items/8SLI5H4Q",
-      "version": 727
+      "version": 2638
     },
     {
       "charset": "",
@@ -1394,7 +1394,7 @@
       ],
       "date": "06/2021",
       "dateAdded": "2021-12-03T03:22:17Z",
-      "dateModified": "2022-05-10T09:00:33Z",
+      "dateModified": "2022-05-19T12:01:28Z",
       "itemID": 118,
       "itemKey": "9GEJK34J",
       "itemType": "journalArticle",
@@ -1409,7 +1409,11 @@
       "relations": [],
       "select": "zotero://select/library/items/9GEJK34J",
       "shortTitle": "PARIS",
-      "tags": [],
+      "tags": [
+        {
+          "tag": "⭐"
+        }
+      ],
       "title": "PARIS: Predicting application resilience using machine learning",
       "uri": "http://zotero.org/users/7659667/items/9GEJK34J",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0743731521000368",
@@ -2164,7 +2168,7 @@
       "title": "GPU-Trident: Efficient Modeling of Error Propagation in GPU Programs",
       "uri": "http://zotero.org/users/7659667/items/GRG9GGER",
       "url": "https://ieeexplore.ieee.org/document/9355257/",
-      "version": 2533
+      "version": 2590
     },
     {
       "DOI": "10.1145/3352460.3358307",
@@ -2559,7 +2563,7 @@
       "title": "Smart Contract Vulnerability Detection using Graph Neural Network",
       "uri": "http://zotero.org/users/7659667/items/JC6AQZNP",
       "url": "https://www.ijcai.org/proceedings/2020/454",
-      "version": 2050
+      "version": 2359
     },
     {
       "DOI": "10.1145/3458817.3476221",
@@ -2914,8 +2918,8 @@
           "uri": "http://zotero.org/users/7659667/items/J8BQWUTB"
         }
       ],
-      "citationKey": "lagunaIPASIntelligentProtection2016",
-      "citekey": "lagunaIPASIntelligentProtection2016",
+      "citationKey": "IPASIntelligentProtection2016laguna",
+      "citekey": "IPASIntelligentProtection2016laguna",
       "conferenceName": "CGO '16: 14th Annual IEEE/ACM International Symposium on Code Generation and Optimization",
       "creators": [
         {
@@ -2946,7 +2950,7 @@
       ],
       "date": "2016-02-29",
       "dateAdded": "2022-04-17T09:53:40Z",
-      "dateModified": "2022-05-07T16:13:07Z",
+      "dateModified": "2022-05-19T12:06:45Z",
       "itemID": 236,
       "itemKey": "N3ZLLEGS",
       "itemType": "conferencePaper",
@@ -2963,10 +2967,16 @@
       "shortTitle": "IPAS",
       "tags": [
         {
-          "tag": "compiler analysis"
+          "tag": "⭐"
+        },
+        {
+          "tag": "Compiler Analysis"
         },
         {
           "tag": "Error Resilience"
+        },
+        {
+          "tag": "Instruction Duplication"
         },
         {
           "tag": "Machine Learning"
@@ -2975,7 +2985,7 @@
       "title": "IPAS: intelligent protection against silent output corruption in scientific applications",
       "uri": "http://zotero.org/users/7659667/items/N3ZLLEGS",
       "url": "https://dl.acm.org/doi/10.1145/2854038.2854059",
-      "version": 2057
+      "version": 2642
     },
     {
       "DOI": "10.1109/TDSC.2020.2991136",
@@ -3648,7 +3658,7 @@
       "title": "Flint: batch-interactive data-intensive processing on transient servers",
       "uri": "http://zotero.org/users/7659667/items/UQKHPFBR",
       "url": "https://dl.acm.org/doi/10.1145/2901318.2901319",
-      "version": 1421
+      "version": 2360
     },
     {
       "DOI": "10.1007/BF01784024",
@@ -3765,10 +3775,10 @@
       "select": "zotero://select/library/items/VDFASSWC",
       "tags": [
         {
-          "tag": "Error Resilience"
+          "tag": "GPU"
         },
         {
-          "tag": "GPU"
+          "tag": "Error Resilience"
         },
         {
           "tag": "Reliability"
@@ -4205,13 +4215,13 @@
           "tag": "Error Propagation"
         },
         {
-          "tag": "Error Resilience"
+          "tag": "Soft Error"
         },
         {
           "tag": "SDC"
         },
         {
-          "tag": "Soft Error"
+          "tag": "Error Resilience"
         }
       ],
       "title": "Modeling Soft-Error Propagation in Programs",
@@ -4401,6 +4411,6 @@
   ],
   "version": {
     "bbt": "6.7.1",
-    "zotero": "6.0.7"
+    "zotero": "6.0.8"
   }
 }

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "CUDA",
+      "path": "Learning/CUDA.md"
+    },
+    {
       "basename": "并行计算",
       "path": "Lectures/并行计算.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "Network",
       "path": "Learning/Network.md"
-    },
-    {
-      "basename": "CUDA",
-      "path": "Learning/CUDA.md"
     },
     {
       "basename": "Docker",
