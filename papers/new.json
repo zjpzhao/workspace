@@ -64,7 +64,8 @@
         7790,
         7826,
         7828,
-        7903
+        7903,
+        7907
       ],
       "key": "HMQVTZ7W",
       "name": "CUDA",
@@ -1828,6 +1829,27 @@
       "version": 2598
     },
     {
+      "charset": "",
+      "contentType": "application/pdf",
+      "dateAdded": "2022-05-19T12:36:23Z",
+      "dateModified": "2022-05-19T12:36:23Z",
+      "defaultPath": "files/7907/UserGuide.pdf",
+      "filename": "UserGuide.pdf",
+      "itemID": 7907,
+      "itemKey": "DT7959Q9",
+      "itemType": "attachment",
+      "key": "DT7959Q9",
+      "libraryID": 1,
+      "linkMode": "imported_file",
+      "localPath": "D:\\Zotero\\storage\\DT7959Q9\\UserGuide.pdf",
+      "relations": [],
+      "select": "zotero://select/library/items/DT7959Q9",
+      "tags": [],
+      "title": "UserGuide.pdf",
+      "uri": "http://zotero.org/users/7659667/items/DT7959Q9",
+      "version": 2644
+    },
+    {
       "ISBN": "978-0-13-301367-2",
       "attachments": [
         {
@@ -2970,16 +2992,16 @@
           "tag": "⭐"
         },
         {
-          "tag": "Compiler Analysis"
-        },
-        {
           "tag": "Error Resilience"
         },
         {
-          "tag": "Instruction Duplication"
+          "tag": "Machine Learning"
         },
         {
-          "tag": "Machine Learning"
+          "tag": "Compiler Analysis"
+        },
+        {
+          "tag": "Instruction Duplication"
         }
       ],
       "title": "IPAS: intelligent protection against silent output corruption in scientific applications",
