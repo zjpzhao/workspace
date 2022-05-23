@@ -13,10 +13,6 @@
       "path": "Lectures/容错系统.md"
     },
     {
-      "basename": "2022-04-07",
-      "path": "2022-04-07.md"
-    },
-    {
       "basename": "Network",
       "path": "Learning/Network.md"
     },
@@ -46,19 +42,19 @@
     },
     {
       "basename": "论文撰写",
-      "path": "论文撰写.md"
+      "path": "papers/论文撰写.md"
     },
     {
       "basename": "常用指令",
-      "path": "常用指令.md"
+      "path": "util/常用指令.md"
     },
     {
       "basename": "对神经网络模型参数进行多线程单比特位故障注入代码",
-      "path": "对神经网络模型参数进行多线程单比特位故障注入代码.md"
+      "path": "Learning/对神经网络模型参数进行多线程单比特位故障注入代码.md"
     },
     {
       "basename": "linux配置代理Qv2ray和Clash",
-      "path": "linux配置代理Qv2ray和Clash.md"
+      "path": "util/linux配置代理Qv2ray和Clash.md"
     },
     {
       "basename": "Git",
@@ -86,7 +82,7 @@
     },
     {
       "basename": "换源",
-      "path": "换源.md"
+      "path": "util/换源.md"
     }
   ],
   "omittedPaths": [],

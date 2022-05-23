@@ -1,9 +1,19 @@
 {
   "collections": {
+    "54V62H83": {
+      "collections": [],
+      "items": [
+        7911
+      ],
+      "key": "54V62H83",
+      "name": "Marx",
+      "parent": "YXK8S2C9"
+    },
     "7ICWRSQS": {
       "collections": [],
       "items": [
-        7834
+        7834,
+        7912
       ],
       "key": "7ICWRSQS",
       "name": "My Knowledges",
@@ -203,7 +213,8 @@
         "FS5ZRIWZ",
         "HMQVTZ7W",
         "NTN23YJ8",
-        "TSDC4869"
+        "TSDC4869",
+        "54V62H83"
       ],
       "items": [],
       "key": "YXK8S2C9",
@@ -1418,7 +1429,7 @@
       "title": "PARIS: Predicting application resilience using machine learning",
       "uri": "http://zotero.org/users/7659667/items/9GEJK34J",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0743731521000368",
-      "version": 2601,
+      "version": 2640,
       "volume": "152"
     },
     {
@@ -3392,6 +3403,21 @@
       "volume": "12"
     },
     {
+      "dateAdded": "2022-05-21T14:55:39Z",
+      "dateModified": "2022-05-21T15:26:45Z",
+      "itemID": 7912,
+      "itemKey": "R3BB6YPA",
+      "itemType": "note",
+      "key": "R3BB6YPA",
+      "libraryID": 1,
+      "note": "<div data-schema-version=\"8\"><h1>Marx</h1>\n<p>第二国际</p>\n<p>第二国际（Second International）即“社会主义国际（Internationale socialiste）”（1889年–1914年）是一个工人运动的世界组织。1889年7月14日在巴黎召开了第一次大会，通过《劳工法案》及《五一节案》，决定以同盟罢工作为工人斗争的武器。</p>\n<p>组织后因第一次世界大战爆发而解散，其后伯尔尼国际成立并作为实体运作。第二国际所作出影响最大的动作包括宣布每年的五月一日为国际劳动节，宣布每年的3月8日为国际妇女节，并创始了八小时工作制运动。世界最大的政党组织“社会党国际”实际上为其延续，在二战后的1951年成立，成员均为原第二国际成员。</p>\n<p>存在时间：1889年至1914年</p>\n<p>创立者：弗里德里希·恩格斯</p>\n<p></p>\n<p>社会沙文主义流派：</p>\n<p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FTGWYNK5F%22%2C%22annotationKey%22%3A%228BBDD546%22%2C%22color%22%3A%22%23ff6666%22%2C%22pageLabel%22%3A%222%22%2C%22position%22%3A%7B%22pageIndex%22%3A1%2C%22rects%22%3A%5B%5B297.492%2C372.797%2C492.492%2C391.693%5D%2C%5B117.492%2C352.547%2C492.492%2C371.443%5D%2C%5B117.492%2C332.297%2C492.492%2C351.193%5D%2C%5B117.492%2C312.047%2C492.492%2C330.943%5D%2C%5B117.492%2C291.797%2C462.492%2C310.693%5D%5D%7D%7D\">“在俄国有普列汉诺夫、波特列 索夫、布列什柯夫斯卡娅、鲁巴诺维维奇以及以稍加掩饰 的形式出现的策列铁里先生、切尔诺夫先生之流，在德国 有谢德曼、列金、大卫等；在法国和比利时有列诺得尔、 盖得、王德威尔得；在英国有海德门和费边派，等等”</span> </p>\n</div>",
+      "relations": [],
+      "select": "zotero://select/library/items/R3BB6YPA",
+      "tags": [],
+      "uri": "http://zotero.org/users/7659667/items/R3BB6YPA",
+      "version": 2665
+    },
+    {
       "DOI": "10.1109/HPCA.2009.4798243",
       "ISBN": "978-1-4244-2932-5",
       "abstractNote": "The Architectural Vulnerability Factor (AVF) of a hardware structure is the probability that a fault in the structure will affect the output of a program. AVF captures both microarchitectural and architectural fault masking effects; therefore, AVF measurements cannot generate insight into the vulnerability of software independent of hardware. To evaluate the behavior of software in the presence of hardware faults, we must isolate the software-dependent (architecture-level masking) portion of AVF from the hardware-dependent (microarchitecture-level masking) portion, providing a quantitative basis to make reliability decisions about software independent of hardware.",
@@ -3536,6 +3562,27 @@
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S002627141930914X",
       "version": 730,
       "volume": "110"
+    },
+    {
+      "charset": "",
+      "contentType": "application/pdf",
+      "dateAdded": "2022-05-21T14:28:16Z",
+      "dateModified": "2022-05-21T14:28:16Z",
+      "defaultPath": "files/7911/国家与革命_列宁.pdf",
+      "filename": "国家与革命_列宁.pdf",
+      "itemID": 7911,
+      "itemKey": "TGWYNK5F",
+      "itemType": "attachment",
+      "key": "TGWYNK5F",
+      "libraryID": 1,
+      "linkMode": "imported_file",
+      "localPath": "D:\\Zotero\\storage\\TGWYNK5F\\国家与革命_列宁.pdf",
+      "relations": [],
+      "select": "zotero://select/library/items/TGWYNK5F",
+      "tags": [],
+      "title": "国家与革命_列宁.pdf",
+      "uri": "http://zotero.org/users/7659667/items/TGWYNK5F",
+      "version": 2656
     },
     {
       "DOI": "10.1145/3458817.3476170",
