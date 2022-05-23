@@ -1,12 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "常用指令",
+      "path": "util/常用指令.md"
+    },
+    {
+      "basename": "常用缩写",
+      "path": "util/常用缩写.md"
+    },
+    {
+      "basename": "Tricks",
+      "path": "util/Tricks.md"
+    },
+    {
+      "basename": "Obsidian用法",
+      "path": "Learning/Obsidian用法.md"
+    },
+    {
+      "basename": "Network",
+      "path": "Learning/Network.md"
+    },
+    {
+      "basename": "linux配置代理Qv2ray和Clash",
+      "path": "util/linux配置代理Qv2ray和Clash.md"
+    },
+    {
+      "basename": "Git",
+      "path": "Learning/Git.md"
+    },
+    {
       "basename": "python学习",
       "path": "Learning/python学习.md"
     },
     {
-      "basename": "常用指令",
-      "path": "util/常用指令.md"
+      "basename": "对神经网络模型参数进行多线程单比特位故障注入代码",
+      "path": "Learning/对神经网络模型参数进行多线程单比特位故障注入代码.md"
     },
     {
       "basename": "换源",
@@ -23,10 +51,6 @@
     {
       "basename": "容错系统",
       "path": "Lectures/容错系统.md"
-    },
-    {
-      "basename": "Network",
-      "path": "Learning/Network.md"
     },
     {
       "basename": "Docker",
@@ -57,24 +81,8 @@
       "path": "papers/论文撰写.md"
     },
     {
-      "basename": "对神经网络模型参数进行多线程单比特位故障注入代码",
-      "path": "Learning/对神经网络模型参数进行多线程单比特位故障注入代码.md"
-    },
-    {
-      "basename": "linux配置代理Qv2ray和Clash",
-      "path": "util/linux配置代理Qv2ray和Clash.md"
-    },
-    {
-      "basename": "Git",
-      "path": "Learning/Git.md"
-    },
-    {
       "basename": "Markdown语法",
       "path": "Learning/Markdown语法.md"
-    },
-    {
-      "basename": "Obsidian用法",
-      "path": "Learning/Obsidian用法.md"
     },
     {
       "basename": "图床搭建及配置",
