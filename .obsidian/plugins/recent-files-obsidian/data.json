@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "python学习",
+      "path": "Learning/python学习.md"
+    },
+    {
       "basename": "常用指令",
       "path": "util/常用指令.md"
+    },
+    {
+      "basename": "换源",
+      "path": "util/换源.md"
     },
     {
       "basename": "CUDA",
@@ -61,10 +69,6 @@
       "path": "Learning/Git.md"
     },
     {
-      "basename": "python学习",
-      "path": "Learning/python学习.md"
-    },
-    {
       "basename": "Markdown语法",
       "path": "Learning/Markdown语法.md"
     },
@@ -79,10 +83,6 @@
     {
       "basename": "打通“iPadOS-Windows”的文献阅读、批注、同步体系",
       "path": "Workflow/打通“iPadOS-Windows”的文献阅读、批注、同步体系.md"
-    },
-    {
-      "basename": "换源",
-      "path": "util/换源.md"
     }
   ],
   "omittedPaths": [],

@@ -50,7 +50,6 @@
       "items": [
         57,
         58,
-        63,
         7786,
         7901
       ],
@@ -4444,38 +4443,6 @@
       "uri": "http://zotero.org/users/7659667/items/ZED9PC3D",
       "url": "https://ieeexplore.ieee.org/document/9474098/",
       "version": 730
-    },
-    {
-      "attachments": [
-        {
-          "dateAdded": "2021-11-15T02:03:31Z",
-          "dateModified": "2021-11-15T02:03:38Z",
-          "itemType": "attachment",
-          "path": "D:\\Zotero\\storage\\Y5KQJWBX\\Parallel Thread Execution ISA.pdf",
-          "relations": [],
-          "tags": [],
-          "title": "Parallel Thread Execution ISA.pdf",
-          "uri": "http://zotero.org/users/7659667/items/Y5KQJWBX"
-        }
-      ],
-      "citationKey": "ParallelThreadExecution",
-      "citekey": "ParallelThreadExecution",
-      "creators": [],
-      "dateAdded": "2021-11-15T02:03:38Z",
-      "dateModified": "2022-04-17T10:05:14Z",
-      "itemID": 63,
-      "itemKey": "ZF685QVQ",
-      "itemType": "journalArticle",
-      "key": "ZF685QVQ",
-      "libraryID": 1,
-      "notes": [],
-      "pages": "447",
-      "relations": [],
-      "select": "zotero://select/library/items/ZF685QVQ",
-      "tags": [],
-      "title": "Parallel Thread Execution ISA",
-      "uri": "http://zotero.org/users/7659667/items/ZF685QVQ",
-      "version": 727
     }
   ],
   "version": {
