@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "util/常用指令.md",
+            "file": "Learning/Git.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "util/常用指令.md"
+                "file": "Learning/Git.md"
               }
             }
           },
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "util/常用指令.md",
+                "file": "Learning/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "util/常用指令.md",
+                "file": "Learning/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,13 +166,13 @@
   },
   "active": "2d1e59eb5e411092",
   "lastOpenFiles": [
+    "Learning/Git.md",
     "util/常用指令.md",
     "util/常用缩写.md",
     "util/Tricks.md",
     "Learning/Obsidian用法.md",
     "Learning/Network.md",
     "util/linux配置代理Qv2ray和Clash.md",
-    "Learning/Git.md",
     "Learning/python学习.md",
     "Learning/对神经网络模型参数进行多线程单比特位故障注入代码.md",
     "util/换源.md"

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Git",
+      "path": "Learning/Git.md"
+    },
+    {
       "basename": "常用指令",
       "path": "util/常用指令.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "linux配置代理Qv2ray和Clash",
       "path": "util/linux配置代理Qv2ray和Clash.md"
-    },
-    {
-      "basename": "Git",
-      "path": "Learning/Git.md"
     },
     {
       "basename": "python学习",
