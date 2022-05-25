@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Learning/Git.md",
+            "file": "Learning/CUDA.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#learning/ComputerSystem",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
         ]
       },
       {
-        "id": "9a5b3b26fe303080",
+        "id": "e9d25589cbee286f",
         "type": "tabs",
         "children": [
           {
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/Git.md"
+                "file": "Learning/CUDA.md"
               }
             }
           },
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/Git.md",
+                "file": "Learning/CUDA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/Git.md",
+                "file": "Learning/CUDA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,15 +166,15 @@
   },
   "active": "2d1e59eb5e411092",
   "lastOpenFiles": [
+    "Learning/CUDA.md",
+    "Lectures/CSAPP.md",
+    "Learning/Docker.md",
     "Learning/Git.md",
+    "Workflow/文献阅读批注和同步体系.md",
+    "Workflow/全系workflow搭建.md",
     "util/常用指令.md",
     "util/常用缩写.md",
     "util/Tricks.md",
-    "Learning/Obsidian用法.md",
-    "Learning/Network.md",
-    "util/linux配置代理Qv2ray和Clash.md",
-    "Learning/python学习.md",
-    "Learning/对神经网络模型参数进行多线程单比特位故障注入代码.md",
-    "util/换源.md"
+    "Learning/Obsidian用法.md"
   ]
 }

@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "CUDA",
+      "path": "Learning/CUDA.md"
+    },
+    {
+      "basename": "CSAPP",
+      "path": "Lectures/CSAPP.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "Learning/Docker.md"
+    },
+    {
       "basename": "Git",
       "path": "Learning/Git.md"
+    },
+    {
+      "basename": "文献阅读批注和同步体系",
+      "path": "Workflow/文献阅读批注和同步体系.md"
+    },
+    {
+      "basename": "全系workflow搭建",
+      "path": "Workflow/全系workflow搭建.md"
     },
     {
       "basename": "常用指令",
@@ -41,20 +61,12 @@
       "path": "util/换源.md"
     },
     {
-      "basename": "CUDA",
-      "path": "Learning/CUDA.md"
-    },
-    {
       "basename": "并行计算",
       "path": "Lectures/并行计算.md"
     },
     {
       "basename": "容错系统",
       "path": "Lectures/容错系统.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "Learning/Docker.md"
     },
     {
       "basename": "@FaultToleranceDistributed1994jalote",
@@ -73,10 +85,6 @@
       "path": "Workflow/插件用法.md"
     },
     {
-      "basename": "全系workflow搭建",
-      "path": "Workflow/全系workflow搭建.md"
-    },
-    {
       "basename": "论文撰写",
       "path": "papers/论文撰写.md"
     },
@@ -87,10 +95,6 @@
     {
       "basename": "图床搭建及配置",
       "path": "Workflow/图床搭建及配置.md"
-    },
-    {
-      "basename": "打通“iPadOS-Windows”的文献阅读、批注、同步体系",
-      "path": "Workflow/打通“iPadOS-Windows”的文献阅读、批注、同步体系.md"
     }
   ],
   "omittedPaths": [],

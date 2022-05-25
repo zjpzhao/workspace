@@ -1,4 +1,15 @@
 #learning/Git
+# Git
+## 嵌套git repo的push
+当我外层项目目录是一个git repo，目录需要用到另外一个git repo的内容时，git add时会出现 "fatal: in unpopulated submodule XXX" 错误。
+解决方法是：
+```shell
+git rm -rf --cached [内层git仓库的项目名]
+```
+然后正常push三联即可
+
+---
+
 # Github
 
 ## Github高级搜索
@@ -34,7 +45,7 @@ springboot vue stars:>1000 pushed:>2022-05-02 language:Java
 ## 强制同步Github仓库到Gitee同名仓库
 ![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/%E5%BC%BA%E5%88%B6%E5%90%8C%E6%AD%A5Github%E4%BB%93%E5%BA%93%E5%88%B0Gitee%E5%90%8C%E5%90%8D%E4%BB%93%E5%BA%93.png)
 
-## 双向同步
+## Gitee与Github仓库双向同步
 参考<https://gitee.com/help/articles/4336>和<https://blog.csdn.net/yi_rui_jie/article/details/111357163>
 
 
