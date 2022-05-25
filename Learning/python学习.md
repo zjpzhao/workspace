@@ -74,6 +74,7 @@ if __name__ == '__main__':
     print(result_list)
     #返回[15, 12, 21, 6]
 ```
+
 # Pandas
 ## 1. 转excel
 ```python

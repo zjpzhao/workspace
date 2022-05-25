@@ -1,4 +1,4 @@
-#learning/cuda
+#learning/GPU/cuda
 
 # 概述
 一个经典的CUDA程序结构包含五个部分[^1]

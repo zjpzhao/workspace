@@ -1,7 +1,7 @@
 ---
 id: e8dac33a-edb1-4561-b721-ff2f0ff136fb
 ---
-#doc #learning 
+#doc #tool/notes
 # 插件
 
 ---

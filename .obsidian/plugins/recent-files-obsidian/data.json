@@ -1,36 +1,64 @@
 {
   "recentFiles": [
     {
-      "basename": "CSAPP",
-      "path": "Lectures/CSAPP.md"
-    },
-    {
-      "basename": "云计算课程论文研读报告",
-      "path": "Lectures/云计算课程论文研读报告.md"
+      "basename": "Python学习",
+      "path": "Learning/Python学习.md"
     },
     {
       "basename": "容错系统",
       "path": "Lectures/容错系统.md"
     },
     {
+      "basename": "Git",
+      "path": "Learning/Git.md"
+    },
+    {
       "basename": "Docker",
       "path": "Learning/Docker.md"
     },
     {
-      "basename": "CUDA",
-      "path": "Learning/CUDA.md"
+      "basename": "Zotero",
+      "path": "util/Zotero.md"
     },
     {
-      "basename": "Git",
-      "path": "Learning/Git.md"
+      "basename": "图床搭建及配置",
+      "path": "Workflow/图床搭建及配置.md"
+    },
+    {
+      "basename": "全系workflow搭建",
+      "path": "Workflow/全系workflow搭建.md"
+    },
+    {
+      "basename": "插件用法",
+      "path": "Workflow/插件用法.md"
     },
     {
       "basename": "文献阅读批注和同步体系",
       "path": "Workflow/文献阅读批注和同步体系.md"
     },
     {
-      "basename": "全系workflow搭建",
-      "path": "Workflow/全系workflow搭建.md"
+      "basename": "Tricks",
+      "path": "util/Tricks.md"
+    },
+    {
+      "basename": "Obsidian",
+      "path": "util/Obsidian.md"
+    },
+    {
+      "basename": "CAAQA",
+      "path": "Lectures/CAAQA.md"
+    },
+    {
+      "basename": "CUDA",
+      "path": "Learning/CUDA.md"
+    },
+    {
+      "basename": "CSAPP",
+      "path": "Lectures/CSAPP.md"
+    },
+    {
+      "basename": "云计算课程论文研读报告",
+      "path": "Lectures/云计算课程论文研读报告.md"
     },
     {
       "basename": "常用指令",
@@ -41,24 +69,12 @@
       "path": "util/常用缩写.md"
     },
     {
-      "basename": "Tricks",
-      "path": "util/Tricks.md"
-    },
-    {
-      "basename": "Obsidian用法",
-      "path": "Learning/Obsidian用法.md"
-    },
-    {
       "basename": "Network",
       "path": "Learning/Network.md"
     },
     {
       "basename": "linux配置代理Qv2ray和Clash",
       "path": "util/linux配置代理Qv2ray和Clash.md"
-    },
-    {
-      "basename": "python学习",
-      "path": "Learning/python学习.md"
     },
     {
       "basename": "对神经网络模型参数进行多线程单比特位故障注入代码",
@@ -81,20 +97,12 @@
       "path": "papers/@ReliabilityComputerSystems2003shooman.md"
     },
     {
-      "basename": "插件用法",
-      "path": "Workflow/插件用法.md"
-    },
-    {
       "basename": "论文撰写",
       "path": "papers/论文撰写.md"
     },
     {
       "basename": "Markdown语法",
       "path": "Learning/Markdown语法.md"
-    },
-    {
-      "basename": "图床搭建及配置",
-      "path": "Workflow/图床搭建及配置.md"
     }
   ],
   "omittedPaths": [],
