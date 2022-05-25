@@ -63,7 +63,7 @@
         252
       ],
       "key": "FS5ZRIWZ",
-      "name": "Computer Architecture",
+      "name": "Architecture",
       "parent": "YXK8S2C9"
     },
     "HMQVTZ7W": {
@@ -78,6 +78,15 @@
       ],
       "key": "HMQVTZ7W",
       "name": "CUDA",
+      "parent": "YXK8S2C9"
+    },
+    "IMDBXX2S": {
+      "collections": [],
+      "items": [
+        8092
+      ],
+      "key": "IMDBXX2S",
+      "name": "System",
       "parent": "YXK8S2C9"
     },
     "JYHUVDJF": {
@@ -213,7 +222,8 @@
         "HMQVTZ7W",
         "NTN23YJ8",
         "TSDC4869",
-        "54V62H83"
+        "54V62H83",
+        "IMDBXX2S"
       ],
       "items": [],
       "key": "YXK8S2C9",
@@ -1330,21 +1340,20 @@
         }
       ],
       "dateAdded": "2022-04-14T05:50:29Z",
-      "dateModified": "2022-05-19T12:00:32Z",
+      "dateModified": "2022-05-25T09:53:43Z",
       "itemID": 252,
       "itemKey": "8SLI5H4Q",
-      "itemType": "journalArticle",
+      "itemType": "book",
       "key": "8SLI5H4Q",
       "language": "en",
       "libraryID": 1,
       "notes": [],
-      "pages": "1527",
       "relations": [],
       "select": "zotero://select/library/items/8SLI5H4Q",
       "tags": [],
       "title": "Computer Architecture: A Quantitative Approach",
       "uri": "http://zotero.org/users/7659667/items/8SLI5H4Q",
-      "version": 2638
+      "version": 2722
     },
     {
       "charset": "",
@@ -3267,6 +3276,62 @@
       "uri": "http://zotero.org/users/7659667/items/PNVNPJJG",
       "url": "https://ieeexplore.ieee.org/document/8416490/",
       "version": 2601
+    },
+    {
+      "ISBN": "978-1-292-10176-7",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-25T09:37:35Z",
+          "dateModified": "2022-05-25T09:37:47Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\QQZRN8HQ\\Bryant and O'Hallaron - 2016 - Computer systems a programmer's perspective.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Bryant and O'Hallaron - 2016 - Computer systems a programmer's perspective.pdf",
+          "uri": "http://zotero.org/users/7659667/items/QQZRN8HQ"
+        }
+      ],
+      "citationKey": "ComputerSystemsProgrammer2016bryant",
+      "citekey": "ComputerSystemsProgrammer2016bryant",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Randal E.",
+          "lastName": "Bryant"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David",
+          "lastName": "O'Hallaron"
+        }
+      ],
+      "date": "2016",
+      "dateAdded": "2022-05-25T09:37:45Z",
+      "dateModified": "2022-05-25T09:37:46Z",
+      "edition": "Third edition, global edition",
+      "itemID": 8092,
+      "itemKey": "Q44WELPL",
+      "itemType": "book",
+      "key": "Q44WELPL",
+      "language": "en",
+      "libraryCatalog": "K10plus ISBN",
+      "libraryID": 1,
+      "notes": [],
+      "numPages": "1120",
+      "place": "Boston München",
+      "publisher": "Pearson Education",
+      "relations": [],
+      "select": "zotero://select/library/items/Q44WELPL",
+      "shortTitle": "Computer systems",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Computer systems: a programmer's perspective",
+      "uri": "http://zotero.org/users/7659667/items/Q44WELPL",
+      "version": 2709
     },
     {
       "DOI": "10.1109/DSN.2018.00022",

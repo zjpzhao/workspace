@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "CUDA",
-      "path": "Learning/CUDA.md"
-    },
-    {
       "basename": "CSAPP",
       "path": "Lectures/CSAPP.md"
     },
     {
+      "basename": "云计算课程论文研读报告",
+      "path": "Lectures/云计算课程论文研读报告.md"
+    },
+    {
+      "basename": "容错系统",
+      "path": "Lectures/容错系统.md"
+    },
+    {
       "basename": "Docker",
       "path": "Learning/Docker.md"
+    },
+    {
+      "basename": "CUDA",
+      "path": "Learning/CUDA.md"
     },
     {
       "basename": "Git",
@@ -65,20 +73,12 @@
       "path": "Lectures/并行计算.md"
     },
     {
-      "basename": "容错系统",
-      "path": "Lectures/容错系统.md"
-    },
-    {
       "basename": "@FaultToleranceDistributed1994jalote",
       "path": "papers/@FaultToleranceDistributed1994jalote.md"
     },
     {
       "basename": "@ReliabilityComputerSystems2003shooman",
       "path": "papers/@ReliabilityComputerSystems2003shooman.md"
-    },
-    {
-      "basename": "云计算课程论文研读报告",
-      "path": "Lectures/云计算课程论文研读报告.md"
     },
     {
       "basename": "插件用法",
