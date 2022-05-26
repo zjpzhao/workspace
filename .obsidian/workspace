@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Learning/Python学习.md",
+            "file": "Learning/Markdown.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/Python学习.md"
+                "file": "Learning/Markdown.md"
               }
             }
           },
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/Python学习.md",
+                "file": "Learning/Markdown.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/Python学习.md",
+                "file": "Learning/Markdown.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,15 +175,15 @@
   },
   "active": "98a3a239ea03b963",
   "lastOpenFiles": [
-    "Learning/Python学习.md",
+    "Learning/Markdown.md",
+    "Learning/Python.md",
+    "Learning/对神经网络模型参数进行多线程单比特位故障注入代码.md",
     "Lectures/容错系统.md",
     "Learning/Git.md",
     "Learning/Docker.md",
     "util/Zotero.md",
     "Workflow/图床搭建及配置.md",
     "Workflow/全系workflow搭建.md",
-    "Workflow/插件用法.md",
-    "Workflow/文献阅读批注和同步体系.md",
-    "util/Tricks.md"
+    "Workflow/插件用法.md"
   ]
 }
