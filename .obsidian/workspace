@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Learning/Markdown.md",
+            "file": "Workflow/文献阅读批注和同步体系.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/Markdown.md"
+                "file": "Workflow/文献阅读批注和同步体系.md"
               }
             }
           },
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/Markdown.md",
+                "file": "Workflow/文献阅读批注和同步体系.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/Markdown.md",
+                "file": "Workflow/文献阅读批注和同步体系.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,15 +175,15 @@
   },
   "active": "98a3a239ea03b963",
   "lastOpenFiles": [
+    "Workflow/文献阅读批注和同步体系.md",
+    "util/Zotero.md",
+    "Learning/Git.md",
+    "Workflow/全系workflow搭建.md",
+    "util/linux配置代理Qv2ray和Clash.md",
+    "util/Obsidian.md",
+    "Workflow/图床搭建及配置.md",
     "Learning/Markdown.md",
     "Learning/Python.md",
-    "Learning/对神经网络模型参数进行多线程单比特位故障注入代码.md",
-    "Lectures/容错系统.md",
-    "Learning/Git.md",
-    "Learning/Docker.md",
-    "util/Zotero.md",
-    "Workflow/图床搭建及配置.md",
-    "Workflow/全系workflow搭建.md",
-    "Workflow/插件用法.md"
+    "Learning/对神经网络模型参数进行多线程单比特位故障注入代码.md"
   ]
 }

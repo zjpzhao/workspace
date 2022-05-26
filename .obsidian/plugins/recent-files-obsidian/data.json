@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "文献阅读批注和同步体系",
+      "path": "Workflow/文献阅读批注和同步体系.md"
+    },
+    {
+      "basename": "Zotero",
+      "path": "util/Zotero.md"
+    },
+    {
+      "basename": "Git",
+      "path": "Learning/Git.md"
+    },
+    {
+      "basename": "全系workflow搭建",
+      "path": "Workflow/全系workflow搭建.md"
+    },
+    {
+      "basename": "linux配置代理Qv2ray和Clash",
+      "path": "util/linux配置代理Qv2ray和Clash.md"
+    },
+    {
+      "basename": "Obsidian",
+      "path": "util/Obsidian.md"
+    },
+    {
+      "basename": "图床搭建及配置",
+      "path": "Workflow/图床搭建及配置.md"
+    },
+    {
       "basename": "Markdown",
       "path": "Learning/Markdown.md"
     },
@@ -17,40 +45,16 @@
       "path": "Lectures/容错系统.md"
     },
     {
-      "basename": "Git",
-      "path": "Learning/Git.md"
-    },
-    {
       "basename": "Docker",
       "path": "Learning/Docker.md"
-    },
-    {
-      "basename": "Zotero",
-      "path": "util/Zotero.md"
-    },
-    {
-      "basename": "图床搭建及配置",
-      "path": "Workflow/图床搭建及配置.md"
-    },
-    {
-      "basename": "全系workflow搭建",
-      "path": "Workflow/全系workflow搭建.md"
     },
     {
       "basename": "插件用法",
       "path": "Workflow/插件用法.md"
     },
     {
-      "basename": "文献阅读批注和同步体系",
-      "path": "Workflow/文献阅读批注和同步体系.md"
-    },
-    {
       "basename": "Tricks",
       "path": "util/Tricks.md"
-    },
-    {
-      "basename": "Obsidian",
-      "path": "util/Obsidian.md"
     },
     {
       "basename": "CAAQA",
@@ -79,10 +83,6 @@
     {
       "basename": "Network",
       "path": "Learning/Network.md"
-    },
-    {
-      "basename": "linux配置代理Qv2ray和Clash",
-      "path": "util/linux配置代理Qv2ray和Clash.md"
     },
     {
       "basename": "换源",

@@ -7,6 +7,8 @@
 直接点击文件右键`Export Item`，选择Zotero RDF，勾选所有选项即可。
 ![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/%E5%AF%BC%E5%87%BApdf%E5%92%8C%E6%89%B9%E6%B3%A8%E4%B8%80%E4%BD%93%E6%96%87%E4%BB%B6.png)
 
+[[文献阅读批注和同步体系|Zotero]]
+
 ## Zotero与Obsidian联动
 使用插件：
 - Obsidian端—*BibNotes Formmater (for Zotero)*

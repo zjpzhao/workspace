@@ -49,3 +49,27 @@ springboot vue stars:>1000 pushed:>2022-05-02 language:Java
 参考<https://gitee.com/help/articles/4336>和<https://blog.csdn.net/yi_rui_jie/article/details/111357163>
 
 
+## Gitee repo init
+#### A simple command-line tutorial:
+
+Git global settings:
+
+git config --global user.name "zjpzhao"
+git config --global user.email "1284610325@qq.com"
+
+Create git repository:
+
+mkdir my-book-notes
+cd my-book-notes
+git init 
+touch README.md
+git add README.md
+git commit -m "first commit"
+git remote add origin https://gitee.com/simonhouhou/my-book-notes.git
+git push -u origin "master"
+
+Existing repository?
+
+cd existing_git_repo
+git remote add origin https://gitee.com/simonhouhou/my-book-notes.git
+git push -u origin "master"

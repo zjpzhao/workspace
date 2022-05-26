@@ -6,19 +6,19 @@ Created: January 21, 2022 3:46 PM
 Last Edited Time: January 21, 2022 6:11 PM
 
 ---
-- [[#语雀: 在外应急时撰写Markdown草稿|语雀: 在外应急时撰写Markdown草稿]]
+- [[#语雀: 撰写Markdown草稿|语雀: 撰写Markdown草稿]]
 - [[#Obsidian: 笔记排版和本地知识库|Obsidian: 笔记排版和本地知识库]]
+- [[#图床：阿里云OSS|图床：阿里云OSS]]
 - [[#Github Page：发布公开博客|Github Page：发布公开博客]]
-- [[#Zotero：文献整理和引擎|Zotero：文献整理和引擎]]
-- [[#PaperShip：IOS端文献同步和阅读工具|PaperShip：IOS端文献同步和阅读工具]]
+- [[#Zotero：文献整理引擎|Zotero：文献整理引擎]]
 - [[#阿里云盘&百度网盘：备份文件|阿里云盘&百度网盘：备份文件]]
 
 ---
 
-## 语雀: 在外应急时撰写Markdown草稿
+## 语雀: 撰写Markdown草稿
 
-## Obsidian: 笔记排版和本地知识库
-
+## Obsidian: md笔记-排版和本地知识库
+[[Obsidian]]
 
 
 ## 图床：阿里云OSS
@@ -29,15 +29,21 @@ Last Edited Time: January 21, 2022 6:11 PM
 
 ## Github Page：发布公开博客
 
-## Zotero：文献整理和引擎
-
-## PaperShip：IOS端文献同步和阅读工具
+## Zotero：文献-整理引擎
+~~PaperShip：IOS端文献同步和阅读工具~~
+PaperShip虽然能实现IOS端的文献同步和阅读，但是免费用户不能做批注，所以采用Zotero 6进行替代，搭建过程参考[[文献阅读批注和同步体系]]，Zotero的一些用法参考[[Zotero]]
 
 ## 阿里云盘&百度网盘：备份文件
 
+## BookxNote：书籍-批注和构建知识网络
+
+
+
+## Gitee和Github
 
 # 待完成
 - [x] 阿里云OSS图床
-- [ ] zotero
+- [ ] Zotero
+- [ ] Obsidian
 - [ ] [[插件用法]]
 

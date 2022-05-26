@@ -60,7 +60,8 @@
     "FS5ZRIWZ": {
       "collections": [],
       "items": [
-        252
+        252,
+        8145
       ],
       "key": "FS5ZRIWZ",
       "name": "Architecture",
@@ -3621,6 +3622,45 @@
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S002627141930914X",
       "version": 730,
       "volume": "110"
+    },
+    {
+      "attachments": [
+        {
+          "dateAdded": "2022-05-26T06:56:18Z",
+          "dateModified": "2022-05-26T06:56:23Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\IQ36XW6N\\Patterson - Computer Organization and Design The HardwareSof.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Patterson - Computer Organization and Design The HardwareSof.pdf",
+          "uri": "http://zotero.org/users/7659667/items/IQ36XW6N"
+        }
+      ],
+      "citationKey": "ComputerOrganizationDesignpatterson",
+      "citekey": "ComputerOrganizationDesignpatterson",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "David A",
+          "lastName": "Patterson"
+        }
+      ],
+      "dateAdded": "2022-05-26T06:56:22Z",
+      "dateModified": "2022-05-26T06:57:40Z",
+      "itemID": 8145,
+      "itemKey": "T8ECUJSS",
+      "itemType": "book",
+      "key": "T8ECUJSS",
+      "language": "en",
+      "libraryCatalog": "Zotero",
+      "libraryID": 1,
+      "notes": [],
+      "relations": [],
+      "select": "zotero://select/library/items/T8ECUJSS",
+      "tags": [],
+      "title": "Computer Organization and Design: The Hardware/Software Interface, ARM® Edition",
+      "uri": "http://zotero.org/users/7659667/items/T8ECUJSS",
+      "version": 2737
     },
     {
       "charset": "",
