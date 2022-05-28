@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Workflow/文献阅读批注和同步体系.md",
+            "file": "util/Obsidian.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Workflow/文献阅读批注和同步体系.md"
+                "file": "util/Obsidian.md"
               }
             }
           },
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Workflow/文献阅读批注和同步体系.md",
+                "file": "util/Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Workflow/文献阅读批注和同步体系.md",
+                "file": "util/Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,8 +149,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "55926376afea7878",
@@ -175,15 +174,15 @@
   },
   "active": "98a3a239ea03b963",
   "lastOpenFiles": [
+    "util/Obsidian.md",
+    "Learning/Markdown.md",
+    "Lectures/容错系统.md",
     "Workflow/文献阅读批注和同步体系.md",
     "util/Zotero.md",
     "Learning/Git.md",
     "Workflow/全系workflow搭建.md",
     "util/linux配置代理Qv2ray和Clash.md",
-    "util/Obsidian.md",
     "Workflow/图床搭建及配置.md",
-    "Learning/Markdown.md",
-    "Learning/Python.md",
-    "Learning/对神经网络模型参数进行多线程单比特位故障注入代码.md"
+    "Learning/Python.md"
   ]
 }
