@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "常用指令",
+      "path": "util/常用指令.md"
+    },
+    {
+      "basename": "Zotero",
+      "path": "util/Zotero.md"
+    },
+    {
       "basename": "全系workflow搭建",
       "path": "Workflow/全系workflow搭建.md"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "文献阅读批注和同步体系",
       "path": "Workflow/文献阅读批注和同步体系.md"
-    },
-    {
-      "basename": "Zotero",
-      "path": "util/Zotero.md"
     },
     {
       "basename": "Git",
@@ -71,10 +75,6 @@
     {
       "basename": "云计算课程论文研读报告",
       "path": "Lectures/云计算课程论文研读报告.md"
-    },
-    {
-      "basename": "常用指令",
-      "path": "util/常用指令.md"
     },
     {
       "basename": "常用缩写",
