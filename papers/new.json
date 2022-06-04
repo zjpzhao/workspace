@@ -476,11 +476,11 @@
           "uri": "http://zotero.org/users/7659667/items/HAMZCXMT"
         }
       ],
-      "citationKey": "ParallelThreadExecutiona",
-      "citekey": "ParallelThreadExecutiona",
+      "citationKey": "ParallelThreadExecution",
+      "citekey": "ParallelThreadExecution",
       "creators": [],
       "dateAdded": "2022-05-16T14:16:24Z",
-      "dateModified": "2022-05-16T15:21:43Z",
+      "dateModified": "2022-06-02T08:43:42Z",
       "itemID": 7903,
       "itemKey": "2WPUCD43",
       "itemType": "book",
@@ -490,10 +490,15 @@
       "notes": [],
       "relations": [],
       "select": "zotero://select/library/items/2WPUCD43",
-      "tags": [],
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
       "title": "Parallel Thread Execution ISA",
       "uri": "http://zotero.org/users/7659667/items/2WPUCD43",
-      "version": 2615
+      "version": 2741
     },
     {
       "DOI": "10.1145/3447818.3460364",
@@ -2048,7 +2053,7 @@
       "creators": [],
       "date": "11/2012",
       "dateAdded": "2022-05-15T04:04:19Z",
-      "dateModified": "2022-05-15T04:06:09Z",
+      "dateModified": "2022-06-02T08:43:42Z",
       "itemID": 7901,
       "itemKey": "FPJZE89P",
       "itemType": "conferencePaper",
@@ -2062,10 +2067,15 @@
       "publisher": "IEEE",
       "relations": [],
       "select": "zotero://select/library/items/FPJZE89P",
-      "tags": [],
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
       "title": "TH-CPL",
       "uri": "http://zotero.org/users/7659667/items/FPJZE89P",
-      "version": 2583
+      "version": 2741
     },
     {
       "ISBN": "978-0-13-138768-3",
@@ -3308,7 +3318,7 @@
       ],
       "date": "2016",
       "dateAdded": "2022-05-25T09:37:45Z",
-      "dateModified": "2022-05-25T14:19:46Z",
+      "dateModified": "2022-06-02T08:43:40Z",
       "edition": "Third edition, global edition",
       "itemID": 8092,
       "itemKey": "Q44WELPL",
@@ -3324,10 +3334,15 @@
       "relations": [],
       "select": "zotero://select/library/items/Q44WELPL",
       "shortTitle": "Computer systems",
-      "tags": [],
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
       "title": "Computer systems: a programmer's perspective",
       "uri": "http://zotero.org/users/7659667/items/Q44WELPL",
-      "version": 2733
+      "version": 2741
     },
     {
       "DOI": "10.1109/DSN.2018.00022",
@@ -3646,7 +3661,7 @@
         }
       ],
       "dateAdded": "2022-05-26T06:56:22Z",
-      "dateModified": "2022-05-26T06:57:40Z",
+      "dateModified": "2022-06-02T08:43:40Z",
       "itemID": 8145,
       "itemKey": "T8ECUJSS",
       "itemType": "book",
@@ -3657,10 +3672,15 @@
       "notes": [],
       "relations": [],
       "select": "zotero://select/library/items/T8ECUJSS",
-      "tags": [],
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
       "title": "Computer Organization and Design: The Hardware/Software Interface, ARM® Edition",
       "uri": "http://zotero.org/users/7659667/items/T8ECUJSS",
-      "version": 2737
+      "version": 2741
     },
     {
       "charset": "",
