@@ -102,3 +102,66 @@ w -s查看所有激活的tty的情况
 ps -t tty4查看目标tty中CMD的PID号，再sudo kill pid
 
 ---
+## ZSH
+安装zsh比较简单，直接用：`sudo apt install zsh`即可，然后切换默认shell为zsh：`sudo chsh -s $(which zsh)`，然后log out重新登录ubuntu系统用户即可。
+>参考zsh官方文档：https://github.com/ohmyzsh/ohmyzsh/wiki
+
+开始时zsh下命令`ll`是不能用的，需要`vim ~/.zshrc然后添加一行：
+```shell
+alias ll='ls -alF'
+```
+保存退出然后source一下：`source ~/.zshrc
+
+>其他插件参考ZSH官方文档：https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins-Overview
+
+---
+### ZSH的FS Jumping工具
+FS Jumping是指文件系统的跳转工具
+官方文档给了7个：**autojump**, fasd, jump, pj, wd, z, zoxide（我选autojump）
+>参考ZSH官方文档：https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins-Overview#fs-jumping
+
+### ZSH主题
+#### spaceship
+spaceship主题很强大，git repo有17k的star，（不过我怕过重了没有选用）
+>参考：https://github.com/spaceship-prompt/spaceship-prompt
+
+#### jovial（我选择用的这个）
+jovial采用苹果风格，响应式设计（responsive-design），显示信息比较丰富，集成了几个主流的插件。
+![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/jovial.png)
+
+##### 集成插件：
+- **[jovial](https://github.com/zthxxx/jovial/blob/master/jovial.plugin.zsh)**: jovial plugin defined some utils functions and alias, you can see in [jovial.plugin.zsh](https://github.com/zthxxx/jovial/blob/master/jovial.plugin.zsh)
+-   **[git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git)**: some short alias for commonly used command
+-   **[autojump](https://github.com/wting/autojump)**: make you can use `j <keyword>` to jump to the full path folder
+-   **[bgnotify](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/bgnotify)**: background notifications for long running commands
+-   **[zsh-history-enquirer](https://github.com/zthxxx/zsh-history-enquirer)**: widget for history searching, enhance `Ctrl+R`
+-   **[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)**: shell auto-completion
+-   **[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)**: user input syntax highlighting
+
+##### 安装和配置
+安装时需要注意先安装nvm（参考[https://github.com/nvm-sh/nvm#installing-and-updating]），然后source一下.zshrc
+然后按照[官网](https://github.com/zthxxx/jovial#glance)执行：
+```shell
+curl -sSL https://github.com/zthxxx/jovial/raw/master/installer.sh | sudo -E bash -s $USER
+```
+然后更新一下npm：`npm install -g npm@8.12.1`
+然后再跑一遍
+```shell
+curl -sSL https://github.com/zthxxx/jovial/raw/master/installer.sh | sudo -E bash -s $USER
+```
+完成。
+然后参考[教程](https://github.com/cstrap/monaco-font)安装苹果字体monaco（我是在[这个链接]([https://github.com/todylu/monaco.ttf/blob/master/monaco.ttf?raw=true](https://github.com/todylu/monaco.ttf/blob/master/monaco.ttf?raw=true))下载的monaco.ttf，而且安装ttf后需要Update一下font cache：用`sudo fc-cache -f -v`），然后调整终端背景色号*\#282a36*，安装gnome-tweaks后修改字体即可：
+![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/%E7%BB%88%E7%AB%AF%E9%85%8D%E7%BD%AE%E8%8B%B9%E6%9E%9C%E5%AD%97%E4%BD%93monaco.png)
+>自定义配置参考：https://github.com/zthxxx/jovial#customization
+>官方项目地址：https://github.com/zthxxx/jovial
+
+
+#### zeta
+zeta比较简洁，该显示的信息基本都有
+https://github.com/skylerlee/zeta-zsh-theme
+
+
+小技巧：
+在任何界面按alt + space可以调出截图、移动、缩放等功能目录
+![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/alt%E5%92%8C%E7%A9%BA%E6%A0%BC%E8%B0%83%E5%87%BA%E6%88%AA%E5%9B%BE%E7%A7%BB%E5%8A%A8%E7%BC%A9%E6%94%BE%E7%AD%89%E5%8A%9F%E8%83%BD%E7%9B%AE%E5%BD%95.png)
+鼠标放在浏览器标签栏滚动滚轮可以切换标签页
