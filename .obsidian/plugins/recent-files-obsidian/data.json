@@ -5,12 +5,24 @@
       "path": "待归档/Ubuntu 22.04探索.md"
     },
     {
+      "basename": "linux配置代理Qv2ray和Clash",
+      "path": "util/linux配置代理Qv2ray和Clash.md"
+    },
+    {
+      "basename": "常用缩写",
+      "path": "util/常用缩写.md"
+    },
+    {
       "basename": "常用指令",
       "path": "util/常用指令.md"
     },
     {
       "basename": "Zotero",
       "path": "util/Zotero.md"
+    },
+    {
+      "basename": "文献阅读批注和同步体系",
+      "path": "Workflow/文献阅读批注和同步体系.md"
     },
     {
       "basename": "全系workflow搭建",
@@ -29,16 +41,8 @@
       "path": "Lectures/容错系统.md"
     },
     {
-      "basename": "文献阅读批注和同步体系",
-      "path": "Workflow/文献阅读批注和同步体系.md"
-    },
-    {
       "basename": "Git",
       "path": "Learning/Git.md"
-    },
-    {
-      "basename": "linux配置代理Qv2ray和Clash",
-      "path": "util/linux配置代理Qv2ray和Clash.md"
     },
     {
       "basename": "图床搭建及配置",
@@ -79,10 +83,6 @@
     {
       "basename": "云计算课程论文研读报告",
       "path": "Lectures/云计算课程论文研读报告.md"
-    },
-    {
-      "basename": "常用缩写",
-      "path": "util/常用缩写.md"
     },
     {
       "basename": "Network",
