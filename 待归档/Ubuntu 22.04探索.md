@@ -152,6 +152,8 @@ curl -sSL https://github.com/zthxxx/jovial/raw/master/installer.sh | sudo -E bas
 完成。
 然后参考[教程](https://github.com/cstrap/monaco-font)安装苹果字体monaco（我是在[这个链接]([https://github.com/todylu/monaco.ttf/blob/master/monaco.ttf?raw=true](https://github.com/todylu/monaco.ttf/blob/master/monaco.ttf?raw=true))下载的monaco.ttf，而且安装ttf后需要Update一下font cache：用`sudo fc-cache -f -v`），然后调整终端背景色号*\#282a36*，安装gnome-tweaks后修改字体即可：
 ![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/%E7%BB%88%E7%AB%AF%E9%85%8D%E7%BD%AE%E8%8B%B9%E6%9E%9C%E5%AD%97%E4%BD%93monaco.png)
+最终效果：
+![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/%E7%BB%88%E7%AB%AF%E6%9C%80%E7%BB%88%E6%95%88%E6%9E%9C.png)
 >自定义配置参考：https://github.com/zthxxx/jovial#customization
 >官方项目地址：https://github.com/zthxxx/jovial
 
