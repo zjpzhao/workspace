@@ -1,0 +1,114 @@
+{
+  "recentFiles": [
+    {
+      "basename": "Ubuntu 22.04探索",
+      "path": "待归档/Ubuntu 22.04探索.md"
+    },
+    {
+      "basename": "常用指令",
+      "path": "util/常用指令.md"
+    },
+    {
+      "basename": "Zotero",
+      "path": "util/Zotero.md"
+    },
+    {
+      "basename": "全系workflow搭建",
+      "path": "Workflow/全系workflow搭建.md"
+    },
+    {
+      "basename": "Obsidian",
+      "path": "util/Obsidian.md"
+    },
+    {
+      "basename": "Markdown",
+      "path": "Learning/Markdown.md"
+    },
+    {
+      "basename": "容错系统",
+      "path": "Lectures/容错系统.md"
+    },
+    {
+      "basename": "文献阅读批注和同步体系",
+      "path": "Workflow/文献阅读批注和同步体系.md"
+    },
+    {
+      "basename": "Git",
+      "path": "Learning/Git.md"
+    },
+    {
+      "basename": "linux配置代理Qv2ray和Clash",
+      "path": "util/linux配置代理Qv2ray和Clash.md"
+    },
+    {
+      "basename": "图床搭建及配置",
+      "path": "Workflow/图床搭建及配置.md"
+    },
+    {
+      "basename": "Python",
+      "path": "Learning/Python.md"
+    },
+    {
+      "basename": "对神经网络模型参数进行多线程单比特位故障注入代码",
+      "path": "Learning/对神经网络模型参数进行多线程单比特位故障注入代码.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "Learning/Docker.md"
+    },
+    {
+      "basename": "插件用法",
+      "path": "Workflow/插件用法.md"
+    },
+    {
+      "basename": "Tricks",
+      "path": "util/Tricks.md"
+    },
+    {
+      "basename": "CAAQA",
+      "path": "Lectures/CAAQA.md"
+    },
+    {
+      "basename": "CUDA",
+      "path": "Learning/CUDA.md"
+    },
+    {
+      "basename": "CSAPP",
+      "path": "Lectures/CSAPP.md"
+    },
+    {
+      "basename": "云计算课程论文研读报告",
+      "path": "Lectures/云计算课程论文研读报告.md"
+    },
+    {
+      "basename": "常用缩写",
+      "path": "util/常用缩写.md"
+    },
+    {
+      "basename": "Network",
+      "path": "Learning/Network.md"
+    },
+    {
+      "basename": "换源",
+      "path": "util/换源.md"
+    },
+    {
+      "basename": "并行计算",
+      "path": "Lectures/并行计算.md"
+    },
+    {
+      "basename": "@FaultToleranceDistributed1994jalote",
+      "path": "papers/@FaultToleranceDistributed1994jalote.md"
+    },
+    {
+      "basename": "@ReliabilityComputerSystems2003shooman",
+      "path": "papers/@ReliabilityComputerSystems2003shooman.md"
+    },
+    {
+      "basename": "论文撰写",
+      "path": "papers/论文撰写.md"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": null
+}
