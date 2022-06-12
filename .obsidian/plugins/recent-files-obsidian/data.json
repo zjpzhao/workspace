@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Network",
+      "path": "Learning/Network.md"
+    },
+    {
       "basename": "Ubuntu 22.04探索",
       "path": "待归档/Ubuntu 22.04探索.md"
     },
@@ -83,10 +87,6 @@
     {
       "basename": "云计算课程论文研读报告",
       "path": "Lectures/云计算课程论文研读报告.md"
-    },
-    {
-      "basename": "Network",
-      "path": "Learning/Network.md"
     },
     {
       "basename": "换源",
