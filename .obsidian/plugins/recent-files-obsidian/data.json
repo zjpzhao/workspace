@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "常用指令",
+      "path": "util/常用指令.md"
+    },
+    {
       "basename": "Network",
       "path": "Learning/Network.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "常用缩写",
       "path": "util/常用缩写.md"
-    },
-    {
-      "basename": "常用指令",
-      "path": "util/常用指令.md"
     },
     {
       "basename": "Zotero",
