@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "util/常用指令.md",
+            "file": "Learning/Network.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "util/常用指令.md"
+                "file": "Learning/Network.md"
               }
             }
           },
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "util/常用指令.md",
+                "file": "Learning/Network.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "util/常用指令.md",
+                "file": "Learning/Network.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,8 +174,8 @@
   },
   "active": "98a3a239ea03b963",
   "lastOpenFiles": [
-    "util/常用指令.md",
     "Learning/Network.md",
+    "util/常用指令.md",
     "待归档/Ubuntu 22.04探索.md",
     "util/linux配置代理Qv2ray和Clash.md",
     "util/常用缩写.md",

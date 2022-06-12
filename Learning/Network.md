@@ -48,3 +48,19 @@
 3、**正向代理中，服务器不知道真正的客户端到底是谁**，以为访问自己的就是真实的客户端。而在**反向代理中，客户端不知道真正的服务器是谁**，以为自己访问的就是真实的服务器。
 
 4、正向代理和反向代理的作用和目的不同。**正向代理主要是用来解决访问限制问题。而反向代理则是提供负载均衡、安全防护等作用。二者均能提高访问速度。**
+
+# 内网穿透
+## FRP
+租用腾讯云服务器，正好赶上618才45一年，很赚：
+![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/%E6%88%91%E7%9A%84%E8%85%BE%E8%AE%AF%E4%BA%91.png)
+>参考视频教程：https://www.bilibili.com/video/BV1dr4y147aq?spm_id_from=333.337.search-card.all.click
+>相应的文字教程：https://gitee.com/spoto/natserver
+### 利用任务计划程序
+参考下列网站，注意创建任务时配置一栏选择“windows10”，最终的配置如下：
+![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/%E5%88%A9%E7%94%A8%E4%BB%BB%E5%8A%A1%E8%AE%A1%E5%88%92%E7%A8%8B%E5%BA%8F%E5%AE%9E%E7%8E%B0startfrp%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8.png)
+
+>参考:https://tufei.site/archives/45/
+
+### 更改RDP端口
+微软RDP的默认端口是3389，极易被攻击，我将端口3389改成了19980。
+>参考教程：https://blog.csdn.net/zifengzwz/article/details/107132318
