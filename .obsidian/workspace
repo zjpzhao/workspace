@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Learning/Network.md",
+            "file": "util/常用指令.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/Network.md"
+                "file": "util/常用指令.md"
               }
             }
           },
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/Network.md",
+                "file": "util/常用指令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/Network.md",
+                "file": "util/常用指令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,11 +174,11 @@
   },
   "active": "98a3a239ea03b963",
   "lastOpenFiles": [
+    "util/常用指令.md",
     "Learning/Network.md",
     "待归档/Ubuntu 22.04探索.md",
     "util/linux配置代理Qv2ray和Clash.md",
     "util/常用缩写.md",
-    "util/常用指令.md",
     "util/Zotero.md",
     "Workflow/文献阅读批注和同步体系.md",
     "Workflow/全系workflow搭建.md",
