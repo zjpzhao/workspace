@@ -9,20 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "待归档/内网穿透.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "b9384b04b7071f1d",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Learning/Network.md",
+            "file": "Learning/内网穿透.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -97,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 458,
-    "collapsed": true
+    "width": 458
   },
   "right": {
     "id": "15dd14e7068b76d4",
@@ -114,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "待归档/内网穿透.md"
+                "file": "Learning/内网穿透.md"
               }
             }
           },
@@ -124,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "待归档/内网穿透.md",
+                "file": "Learning/内网穿透.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "待归档/内网穿透.md",
+                "file": "Learning/内网穿透.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,8 +149,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "55926376afea7878",
@@ -185,12 +170,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "98a3a239ea03b963",
   "lastOpenFiles": [
-    "待归档/内网穿透.md",
+    "Learning/内网穿透.md",
     "Learning/Network.md",
     "util/常用指令.md",
     "待归档/Ubuntu 22.04探索.md",

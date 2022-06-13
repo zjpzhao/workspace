@@ -49,66 +49,11 @@
 
 4、正向代理和反向代理的作用和目的不同。**正向代理主要是用来解决访问限制问题。而反向代理则是提供负载均衡、安全防护等作用。二者均能提高访问速度。**
 
-# 内网穿透
-## FRP
-租用腾讯云服务器，正好赶上618才45一年，很赚：
-![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/%E6%88%91%E7%9A%84%E8%85%BE%E8%AE%AF%E4%BA%91.png)
->参考视频教程：https://www.bilibili.com/video/BV1dr4y147aq?spm_id_from=333.337.search-card.all.click
->相应的文字教程：https://gitee.com/spoto/natserver
-
-配置文件如下：
-```ini
-# 文件frps.ini：在服务器端配置
-[common]
-bind_port = 7000
-dashboard_port = 7500
-dashboard_user = admin
-dashboard_pwd = b216B216
-token=f6324dab910e494abe939c31ba9305f9
-bind_udp_port=7001
+---
+# Win10中连接网络数字一直增大的问题
+打开注册表（win +r 然后输入regedit回车即可），清理下面两个注册表里的信息，会发现很多之前连接过的网络，清除之后数字变小极度舒适！！！
 ```
-控制台：http://101.42.156.117:7500/
-```ini
-# 文件frpc.ini：在客户端（被控端）配置
-[common]
-server_addr = 101.42.156.117
-server_port = 7000
-token=f6324dab910e494abe939c31ba9305f9
-
-[RDP_TCP] # RDP 的配置信息
-type = tcp
-local_ip = 127.0.0.1
-local_port = 3389
-remote_port = 19980
-
-[RDP_UDP] # 启动 UDP 获得更好的远程桌面体验
-type = udp
-local_ip = 127.0.0.1
-local_port = 3389
-remote_port = 19980
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkList\Signatures\Unmanaged
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkList\Profiles
 ```
-
-注意：frp同时转发远程桌面的 TCP 和 UDP 端口（启动 UDP 以获得更好的远程桌面体验）
->参考：https://yunchaozheng.github.io/2022/02/20/rdp-with-frp/
->https://zhuanlan.zhihu.com/p/265171894
-
-### windows frpc服务自启动
-利用任务计划程序，参考下列网站，注意创建任务时配置一栏选择“windows10”，最终的配置如下：
-![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/%E5%88%A9%E7%94%A8%E4%BB%BB%E5%8A%A1%E8%AE%A1%E5%88%92%E7%A8%8B%E5%BA%8F%E5%AE%9E%E7%8E%B0startfrp%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8.png)
-
->参考:https://tufei.site/archives/45/
-
-### 更改RDP端口
-微软RDP的默认端口是3389，极易被攻击，可以将TCP端口3389改成19980等其他端口。然而下面教程里只介绍了RDP的TCP协议端口怎么改，导致我在配置RDP时给UDP也写成了19980，所以RDP连接的时候只采用了TCP所以就很慢，综上所述，要么TCP和UDP一起都改成19980，要么就不改，我比较懒就没改。~~但是很奇怪就算这样RDP连接的时候好像也还只是TCP，以后有机会再说吧先不管了。~~
-之前UDP没好使的原因是我糊涂了没有开启云服务器的19980的UDP端口，只开了TCP，怪不得UDP穿不过去。最终实现了RDP的TCP和UDP同时转发，yeah!
-![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/RDP%E7%9A%84TCP%E5%92%8CUDP%E5%90%8C%E6%97%B6%E9%80%9A%E8%BF%87FRP%E8%BD%AC%E5%8F%91.png)
-
->参考教程：https://blog.csdn.net/zifengzwz/article/details/107132318
-
-教程里提到的注册表路径如下（为了方便复制）：
-```
-计算机\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\Wds\rdpwd\Tds\tcp
-计算机\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp
-计算机\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Defaults\FirewallPolicy\FirewallRules
-计算机\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\FirewallRules
-```
+>参考：https://blog.csdn.net/qq_36786467/article/details/111409088
