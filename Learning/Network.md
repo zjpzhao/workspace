@@ -99,7 +99,10 @@ remote_port = 19980
 >参考:https://tufei.site/archives/45/
 
 ### 更改RDP端口
-微软RDP的默认端口是3389，极易被攻击，可以将TCP端口3389改成19980等其他端口。然而下面教程里只介绍了RDP的TCP协议端口怎么改，导致我在配置RDP时给UDP也写成了19980，所以RDP连接的时候只采用了TCP所以就很慢，综上所述，要么TCP和UDP一起都改成19980，要么就不改，我比较懒就没改，但是很奇怪就算这样RDP连接的时候好像也还只是TCP（以后有机会再说吧先不管了）
+微软RDP的默认端口是3389，极易被攻击，可以将TCP端口3389改成19980等其他端口。然而下面教程里只介绍了RDP的TCP协议端口怎么改，导致我在配置RDP时给UDP也写成了19980，所以RDP连接的时候只采用了TCP所以就很慢，综上所述，要么TCP和UDP一起都改成19980，要么就不改，我比较懒就没改。~~但是很奇怪就算这样RDP连接的时候好像也还只是TCP，以后有机会再说吧先不管了。~~
+之前UDP没好使的原因是我糊涂了没有开启云服务器的19980的UDP端口，只开了TCP，怪不得UDP穿不过去。最终实现了RDP的TCP和UDP同时转发，yeah!
+![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/RDP%E7%9A%84TCP%E5%92%8CUDP%E5%90%8C%E6%97%B6%E9%80%9A%E8%BF%87FRP%E8%BD%AC%E5%8F%91.png)
+
 >参考教程：https://blog.csdn.net/zifengzwz/article/details/107132318
 
 教程里提到的注册表路径如下（为了方便复制）：
