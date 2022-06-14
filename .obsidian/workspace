@@ -84,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 458
+    "width": 458,
+    "collapsed": true
   },
   "right": {
     "id": "15dd14e7068b76d4",
@@ -175,14 +176,14 @@
   "active": "98a3a239ea03b963",
   "lastOpenFiles": [
     "util/Obsidian.md",
-    "待归档/Ubuntu 22.04探索.md",
+    "Learning/Git.md",
+    "util/Ubuntu 22.04探索.md",
     "Learning/内网穿透.md",
     "Learning/Network.md",
     "util/常用指令.md",
     "util/linux配置代理Qv2ray和Clash.md",
     "util/常用缩写.md",
     "util/Zotero.md",
-    "Workflow/文献阅读批注和同步体系.md",
-    "Workflow/全系workflow搭建.md"
+    "Workflow/文献阅读批注和同步体系.md"
   ]
 }

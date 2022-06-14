@@ -4,7 +4,8 @@ id: e8dac33a-edb1-4561-b721-ff2f0ff136fb
 #doc #tool/notes
 # 插件
 ### Obsidian Git
-因为我的Obsidian笔记项目workspace放在了Onedrive的本地文件夹下，通过Onedrive进行同步，另外通过git进行版本控制和同步。需要注意的一点是：修改完笔记文件之后一定在**Onedrive完成同步状态后**，再进行commit和pull操作，否则会在.git生成一个FETCH开头的文件并提示副本冲突。
+因为我的Obsidian笔记项目workspace放在了Onedrive的本地文件夹下，通过Onedrive进行同步，另外通过git进行版本控制和同步。需要注意的一点是：修改完笔记文件或者执行pull，commit和push之后都会激发Onedrive的同步状态（右下角onedrive转圈），我们一定要在**Onedrive完成同步状态**后再进行commit或者push操作，否则会在.git生成一个FETCH开头的文件并提示副本冲突，而且之后会不定期总是弹出来。(如果实在不好使就把笔记推上去，删除本地项目文件夹然后重新clone下来，这样做的原因是本地项目文件夹下的.git不会同步到gitee上，因为被gitignore给忽略了，所以冲突就不在了)
+所以**强烈建议**将Onedrive图标拽出来到右下角，先关注右下角Onedrive的同步状态，每次都确保是在**Onedrive同步完成的状态**下进行pull或commit或push。
 
 ---
 

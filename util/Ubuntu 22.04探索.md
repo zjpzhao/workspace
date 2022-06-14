@@ -1,3 +1,4 @@
+#linux 
 ## 关于安装Ubuntu和分区方案
 首选要注意我的固态从MBR转成了GPT格式，因为GPT比较快，所以我安装系统都要采取uefi方式引导。
 同理安装windows系统是烧制镜像也是选gpt格式，不建议用ultraISO，它只能刻录MBR格式的，建议都用rufus最方便，只需要记得在用rufus的时候选GPT即可，另外注意电脑的BIOS里最好把传统的Lagacy的boot方式禁用（其实就是MBR，淘汰了最好不用）
@@ -6,17 +7,6 @@
 8192Mb(8G) 主分区 Swap
 30720Mb(30G) 逻辑分区 /   （实际体验稍微有点少，相当于Ubuntu的C盘，软件都安装在这里所以建议给50G）
 剩下的大部分空间 逻辑分区 /Home
-
----
-# Ubuntu无法用snap-store卸载系统初始自带软件
-这是Ubuntu22.04自己带的Bug：snap-store卸载或者更新软件会报错，替代的解决方法：
-安装好ubuntu22.04之后，发现系统自带的snap-store无法删除系统自带的麻将、扫雷等游戏，所以用apt去卸载。
-先找到gnome-游戏名 开头，且后面带有jammy和automatic的真正的包名：
-```shell
-apt list | grep 游戏名
-```
-然后`sudo apt-get remove 该游戏包名`即可
-（此Ubuntu22.04自带Bug在之后几次更新后被解决了）
 
 ---
 
@@ -34,6 +24,17 @@ sudo ntpdate time.windows.com
 sudo hwclock --localtime --systohc
 ```
 >参考视频：https://www.bilibili.com/video/BV1554y1n7zv?p=9
+
+---
+## Ubuntu无法用snap-store卸载系统初始自带软件
+这是Ubuntu22.04自己带的Bug：snap-store卸载或者更新软件会报错，替代的解决方法：
+安装好ubuntu22.04之后，发现系统自带的snap-store无法删除系统自带的麻将、扫雷等游戏，所以用apt去卸载。
+先找到gnome-游戏名 开头，且后面带有jammy和automatic的真正的包名：
+```shell
+apt list | grep 游戏名
+```
+然后`sudo apt-get remove 该游戏包名`即可
+（此Ubuntu22.04自带Bug在之后几次更新后被解决了）
 
 ---
 

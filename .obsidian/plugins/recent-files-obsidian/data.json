@@ -5,8 +5,12 @@
       "path": "util/Obsidian.md"
     },
     {
+      "basename": "Git",
+      "path": "Learning/Git.md"
+    },
+    {
       "basename": "Ubuntu 22.04探索",
-      "path": "待归档/Ubuntu 22.04探索.md"
+      "path": "util/Ubuntu 22.04探索.md"
     },
     {
       "basename": "内网穿透",
@@ -47,10 +51,6 @@
     {
       "basename": "容错系统",
       "path": "Lectures/容错系统.md"
-    },
-    {
-      "basename": "Git",
-      "path": "Learning/Git.md"
     },
     {
       "basename": "图床搭建及配置",
