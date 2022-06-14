@@ -4,13 +4,36 @@
 用rufus烧制镜像的时候要注意选GPT选项而不是MBR。另外在安装Ubuntu的时候，选择这样的分区方案：
 1024Mb(1G) 逻辑分区 EFI
 8192Mb(8G) 主分区 Swap
-30720Mb(30G) 逻辑分区 /
+30720Mb(30G) 逻辑分区 /   （实际体验稍微有点少，相当于Ubuntu的C盘，软件都安装在这里所以建议给50G）
 剩下的大部分空间 逻辑分区 /Home
 
-安装好ubuntu22.04之后，发现系统自带的snap-store无法删除系统自带的麻将、扫雷等游戏，所以用apt去卸载
-先利用apt list | grep 游戏名
-找到gnome-游戏名 开头，且后面带有jammy和automatic的真正的包名
-然后sudo apt-get remove 该游戏包名即可
+---
+# Ubuntu无法用snap-store卸载系统初始自带软件
+这是Ubuntu22.04自己带的Bug：snap-store卸载或者更新软件会报错，替代的解决方法：
+安装好ubuntu22.04之后，发现系统自带的snap-store无法删除系统自带的麻将、扫雷等游戏，所以用apt去卸载。
+先找到gnome-游戏名 开头，且后面带有jammy和automatic的真正的包名：
+```shell
+apt list | grep 游戏名
+```
+然后`sudo apt-get remove 该游戏包名`即可
+（此Ubuntu22.04自带Bug在之后几次更新后被解决了）
+
+---
+
+## 双系统硬件时间同步
+- Windows的时间同步方式是LocalTime机制，即将BIOS的时间作为本地时间，而BIOS的时间是存储在主板里的时间，断电仍保存。
+- Ubuntu采用时间同步方式是UTC机制，会把BIOS时间认为是GMT也就是格林尼治时间，本地时间会在格林尼治时间基础上加上所处时区数。比如中国是东八区，则Ubuntu显示的时间就是BIOS时间加上8个小时，导致Ubuntu时间比BIOS里的时间快8个小时，也就会比Windows时间快8个小时。
+- 这两个系统的时间都会通过互联网NTP服务器进行时间同步，在同步自己的时间之外还会修改BIOS时间。也就是说Ubuntu同步时间成正确的时间后，会把BIOS时间改慢8个小时，那么切换到Windows的时候自动读取BIOS时间作为系统时间，所以Windows时间这时会比正常时间慢8个小时；反之，如果Windows跟互联网同步成了正确的时间，切到Ubuntu的时候会读取本来正确的BIOS时间然后加上8个小时，这就导致了**双系统时间不一致**的情况，所以需要**硬件时间同步**。
+- 问题就出现在Ubuntu烦人的UTC（BIOS+8小时）机制，解决方法就是在Ubuntu里改成和Windows一样的LocalTime机制即可：
+```shell
+# 安装互联网时间同步工具ntpdate
+sudo apt install ntpdate
+# 利用ntpdate通过互联网同步正确时间
+sudo ntpdate time.windows.com
+# 将时间机制从UTC改成localtime并同步BIOS的硬件时间（hardware clock）
+sudo hwclock --localtime --systohc
+```
+>参考视频：https://www.bilibili.com/video/BV1554y1n7zv?p=9
 
 ---
 
@@ -152,7 +175,7 @@ curl -sSL https://github.com/zthxxx/jovial/raw/master/installer.sh | sudo -E bas
 完成。
 然后参考[教程](https://github.com/cstrap/monaco-font)安装苹果字体monaco（我是在[这个链接]([https://github.com/todylu/monaco.ttf/blob/master/monaco.ttf?raw=true](https://github.com/todylu/monaco.ttf/blob/master/monaco.ttf?raw=true))下载的monaco.ttf，而且安装ttf后需要Update一下font cache：用`sudo fc-cache -f -v`），然后调整终端背景色号*\#282a36*，安装gnome-tweaks后修改字体即可：
 ![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/%E7%BB%88%E7%AB%AF%E9%85%8D%E7%BD%AE%E8%8B%B9%E6%9E%9C%E5%AD%97%E4%BD%93monaco.png)
-最终效果：
+最终效果（左边的小表情代表当前git repo的状态）：
 ![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/%E7%BB%88%E7%AB%AF%E6%9C%80%E7%BB%88%E6%95%88%E6%9E%9C.png)
 >自定义配置参考：https://github.com/zthxxx/jovial#customization
 >官方项目地址：https://github.com/zthxxx/jovial
@@ -163,7 +186,7 @@ zeta比较简洁，该显示的信息基本都有
 https://github.com/skylerlee/zeta-zsh-theme
 
 
-小技巧：
-在任何界面按alt + space可以调出截图、移动、缩放等功能目录
+## 小技巧
+- 在任何界面按alt + space可以调出截图、移动、缩放等功能目录
 ![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/alt%E5%92%8C%E7%A9%BA%E6%A0%BC%E8%B0%83%E5%87%BA%E6%88%AA%E5%9B%BE%E7%A7%BB%E5%8A%A8%E7%BC%A9%E6%94%BE%E7%AD%89%E5%8A%9F%E8%83%BD%E7%9B%AE%E5%BD%95.png)
-鼠标放在浏览器标签栏滚动滚轮可以切换标签页
+- 鼠标放在浏览器标签栏滚动滚轮可以切换标签页

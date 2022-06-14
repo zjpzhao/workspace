@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Obsidian",
+      "path": "util/Obsidian.md"
+    },
+    {
+      "basename": "Ubuntu 22.04探索",
+      "path": "待归档/Ubuntu 22.04探索.md"
+    },
+    {
       "basename": "内网穿透",
       "path": "Learning/内网穿透.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "常用指令",
       "path": "util/常用指令.md"
-    },
-    {
-      "basename": "Ubuntu 22.04探索",
-      "path": "待归档/Ubuntu 22.04探索.md"
     },
     {
       "basename": "linux配置代理Qv2ray和Clash",
@@ -35,10 +39,6 @@
     {
       "basename": "全系workflow搭建",
       "path": "Workflow/全系workflow搭建.md"
-    },
-    {
-      "basename": "Obsidian",
-      "path": "util/Obsidian.md"
     },
     {
       "basename": "Markdown",

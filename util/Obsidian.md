@@ -3,6 +3,8 @@ id: e8dac33a-edb1-4561-b721-ff2f0ff136fb
 ---
 #doc #tool/notes
 # 插件
+### Obsidian Git
+因为我的Obsidian笔记项目workspace放在了Onedrive的本地文件夹下，通过Onedrive进行同步，另外通过git进行版本控制和同步。需要注意的一点是：修改完笔记文件之后一定在**Onedrive完成同步状态后**，再进行commit和pull操作，否则会在.git生成一个FETCH开头的文件并提示副本冲突。
 
 ---
 
