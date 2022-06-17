@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "papers/@FaultToleranceDistributed1994jalote.md",
+            "file": "Learning/对神经网络模型参数进行多线程单比特位故障注入代码.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/@FaultToleranceDistributed1994jalote.md"
+                "file": "Learning/对神经网络模型参数进行多线程单比特位故障注入代码.md"
               }
             }
           },
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/@FaultToleranceDistributed1994jalote.md",
+                "file": "Learning/对神经网络模型参数进行多线程单比特位故障注入代码.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/@FaultToleranceDistributed1994jalote.md",
+                "file": "Learning/对神经网络模型参数进行多线程单比特位故障注入代码.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,6 +174,7 @@
   },
   "active": "98a3a239ea03b963",
   "lastOpenFiles": [
+    "Learning/对神经网络模型参数进行多线程单比特位故障注入代码.md",
     "papers/@FaultToleranceDistributed1994jalote.md",
     "Learning/内网穿透.md",
     "util/Obsidian.md",
@@ -182,7 +183,6 @@
     "Learning/Network.md",
     "util/常用指令.md",
     "util/linux配置代理Qv2ray和Clash.md",
-    "util/常用缩写.md",
-    "util/Zotero.md"
+    "util/常用缩写.md"
   ]
 }
