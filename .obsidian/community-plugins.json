@@ -2,7 +2,6 @@
   "obsidian-git",
   "obsidian-plugin-toc",
   "obsidian-excalidraw-plugin",
-  "obsidian-image-auto-upload-plugin",
   "nldates-obsidian",
   "remember-cursor-position",
   "obsidian-advanced-uri",
@@ -20,5 +19,6 @@
   "sliding-panes-obsidian",
   "obsidian-rollover-daily-todos",
   "calendar",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "obsidian-image-auto-upload-plugin"
 ]

@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "@FaultToleranceDistributed1994jalote",
+      "path": "papers/@FaultToleranceDistributed1994jalote.md"
+    },
+    {
+      "basename": "内网穿透",
+      "path": "Learning/内网穿透.md"
+    },
+    {
       "basename": "Obsidian",
       "path": "util/Obsidian.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "Ubuntu 22.04探索",
       "path": "util/Ubuntu 22.04探索.md"
-    },
-    {
-      "basename": "内网穿透",
-      "path": "Learning/内网穿透.md"
     },
     {
       "basename": "Network",
@@ -99,10 +103,6 @@
     {
       "basename": "并行计算",
       "path": "Lectures/并行计算.md"
-    },
-    {
-      "basename": "@FaultToleranceDistributed1994jalote",
-      "path": "papers/@FaultToleranceDistributed1994jalote.md"
     },
     {
       "basename": "@ReliabilityComputerSystems2003shooman",

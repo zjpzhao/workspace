@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "util/Obsidian.md",
+            "file": "papers/@FaultToleranceDistributed1994jalote.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -84,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 458,
-    "collapsed": true
+    "width": 458
   },
   "right": {
     "id": "15dd14e7068b76d4",
@@ -101,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "util/Obsidian.md"
+                "file": "papers/@FaultToleranceDistributed1994jalote.md"
               }
             }
           },
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "util/Obsidian.md",
+                "file": "papers/@FaultToleranceDistributed1994jalote.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "util/Obsidian.md",
+                "file": "papers/@FaultToleranceDistributed1994jalote.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,15 +174,15 @@
   },
   "active": "98a3a239ea03b963",
   "lastOpenFiles": [
+    "papers/@FaultToleranceDistributed1994jalote.md",
+    "Learning/内网穿透.md",
     "util/Obsidian.md",
     "Learning/Git.md",
     "util/Ubuntu 22.04探索.md",
-    "Learning/内网穿透.md",
     "Learning/Network.md",
     "util/常用指令.md",
     "util/linux配置代理Qv2ray和Clash.md",
     "util/常用缩写.md",
-    "util/Zotero.md",
-    "Workflow/文献阅读批注和同步体系.md"
+    "util/Zotero.md"
   ]
 }
