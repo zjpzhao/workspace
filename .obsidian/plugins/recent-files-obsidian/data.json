@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "CUDA",
+      "path": "Learning/CUDA.md"
+    },
+    {
       "basename": "内网穿透",
       "path": "Learning/内网穿透.md"
     },
@@ -83,10 +87,6 @@
     {
       "basename": "CAAQA",
       "path": "Lectures/CAAQA.md"
-    },
-    {
-      "basename": "CUDA",
-      "path": "Learning/CUDA.md"
     },
     {
       "basename": "CSAPP",

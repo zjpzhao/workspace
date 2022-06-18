@@ -55,3 +55,7 @@ nvprof 分析工具使您能够从命令行收集和查看分析数据。请注�
 
 
 [^1]: 参考https://www.cnblogs.com/1024incn/p/4537177.html
+
+# NVCC编译
+CUDA Compilation Trajectory
+![](https://docs.nvidia.com/cuda/cuda-compiler-driver-nvcc/graphics/cuda-compilation-from-cu-to-executable.png)
