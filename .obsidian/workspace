@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Learning/对神经网络模型参数进行多线程单比特位故障注入代码.md",
+            "file": "Learning/内网穿透.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/对神经网络模型参数进行多线程单比特位故障注入代码.md"
+                "file": "Learning/内网穿透.md"
               }
             }
           },
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/对神经网络模型参数进行多线程单比特位故障注入代码.md",
+                "file": "Learning/内网穿透.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/对神经网络模型参数进行多线程单比特位故障注入代码.md",
+                "file": "Learning/内网穿透.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,9 +174,9 @@
   },
   "active": "98a3a239ea03b963",
   "lastOpenFiles": [
+    "Learning/内网穿透.md",
     "Learning/对神经网络模型参数进行多线程单比特位故障注入代码.md",
     "papers/@FaultToleranceDistributed1994jalote.md",
-    "Learning/内网穿透.md",
     "util/Obsidian.md",
     "Learning/Git.md",
     "util/Ubuntu 22.04探索.md",

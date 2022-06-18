@@ -469,7 +469,7 @@
       "citekey": "ParallelThreadExecution",
       "creators": [],
       "dateAdded": "2022-05-16T14:16:24Z",
-      "dateModified": "2022-06-02T08:43:42Z",
+      "dateModified": "2022-06-18T10:03:07Z",
       "itemID": 7903,
       "itemKey": "2WPUCD43",
       "itemType": "book",
@@ -479,15 +479,10 @@
       "notes": [],
       "relations": [],
       "select": "zotero://select/library/items/2WPUCD43",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
+      "tags": [],
       "title": "Parallel Thread Execution ISA",
       "uri": "http://zotero.org/users/7659667/items/2WPUCD43",
-      "version": 2741
+      "version": 2973
     },
     {
       "DOI": "10.1145/3447818.3460364",
