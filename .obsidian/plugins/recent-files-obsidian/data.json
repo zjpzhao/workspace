@@ -5,12 +5,20 @@
       "path": "papers/My DATE2023.md"
     },
     {
+      "basename": "CUDA",
+      "path": "Learning/CUDA.md"
+    },
+    {
+      "basename": "GPU",
+      "path": "Learning/GPU.md"
+    },
+    {
       "basename": "GNN",
       "path": "Learning/GNN.md"
     },
     {
-      "basename": "CUDA",
-      "path": "Learning/CUDA.md"
+      "basename": "常用指令",
+      "path": "util/常用指令.md"
     },
     {
       "basename": "内网穿透",
@@ -39,10 +47,6 @@
     {
       "basename": "Network",
       "path": "Learning/Network.md"
-    },
-    {
-      "basename": "常用指令",
-      "path": "util/常用指令.md"
     },
     {
       "basename": "linux配置代理Qv2ray和Clash",
