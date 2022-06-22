@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "My DATE2023",
-      "path": "papers/My DATE2023.md"
-    },
-    {
       "basename": "CUDA",
       "path": "Learning/CUDA.md"
+    },
+    {
+      "basename": "My DATE2023",
+      "path": "papers/My DATE2023.md"
     },
     {
       "basename": "GPU",

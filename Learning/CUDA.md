@@ -38,6 +38,25 @@ __global__ void helloFromGPU (void){
 }
 ```
 
+## 线程和存储层次
+>参考：[《CUDA C Programming Guide》(《CUDA C 编程指南》)导读 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/53773183)
+
+thread→block (shared mem)→Grid (global mem among blocks)
+SM是用来调度Block的流处理器簇，当线程块执行完之后会推出SM释放SM的资源（共享内存和计算资源等）以供其他Block的调度。32个相邻的线程会组成一个线程束(Thread Warp)，而一个线程束中的线程会运行同样的指令。因此一般线程块中线程的数量被安排为32的倍数。
+-   寄存器和本地内存绑定到了每个线程，其他线程无法访问。
+-   同一个线程块内的线程，可以访问同一块共享内存。注意，即使两个线程块被调度到了同一个SM上，他们的共享内存也是隔离开的，不能互相访问。
+-   Grid中的所有线程都可以自由读写全局内存。
+-   常量内存和纹理内存只能被CPU端修改，GPU内的线程只能读取数据。
+
+
+## NVCC编译
+#learning/cuda/nvcc  
+CUDA Compilation Trajectory
+![](https://docs.nvidia.com/cuda/cuda-compiler-driver-nvcc/graphics/cuda-compilation-from-cu-to-executable.png)
+nvcc编译cuda代码的时候，Host和Device是分开进行的，nvcc --keep选项可以保存编译.cu的过程文件（如.ptx, .cubin等），PTX是每一个线程都需要执行的，我猜测需要执行该PTX的线程号是通过链接.cubin文件而分配的。具体需要参考和探索CUDA binary
+- [ ] 离线编译和在线编译参考[《CUDA C Programming Guide》(《CUDA C 编程指南》)导读 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/53773183)
+
+
 # 环境搭建
 ![[插件用法#^bd19ab]]
 
@@ -56,8 +75,3 @@ nvprof 分析工具使您能够从命令行收集和查看分析数据。请注�
 
 [^1]: 参考https://www.cnblogs.com/1024incn/p/4537177.html
 
-# NVCC编译
-#learning/cuda/nvcc  
-CUDA Compilation Trajectory
-![](https://docs.nvidia.com/cuda/cuda-compiler-driver-nvcc/graphics/cuda-compilation-from-cu-to-executable.png)
-nvcc编译cuda代码的时候，Host和Device是分开进行的，nvcc --keep选项可以保存编译.cu的过程文件（如.ptx, .cubin等），PTX是每一个线程都需要执行的，我猜测需要执行该PTX的线程号是通过链接.cubin文件而分配的。具体需要参考和探索CUDA binary

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "papers/My DATE2023.md",
+            "file": "Learning/CUDA.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/My DATE2023.md"
+                "file": "Learning/CUDA.md"
               }
             }
           }
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/My DATE2023.md",
+                "file": "Learning/CUDA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/My DATE2023.md",
+                "file": "Learning/CUDA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,8 +178,8 @@
   },
   "active": "98a3a239ea03b963",
   "lastOpenFiles": [
-    "papers/My DATE2023.md",
     "Learning/CUDA.md",
+    "papers/My DATE2023.md",
     "Learning/GPU.md",
     "Learning/GNN.md",
     "util/常用指令.md",
