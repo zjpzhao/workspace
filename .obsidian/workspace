@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Learning/CUDA.md",
+            "file": "层次结构.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "e9d25589cbee286f",
@@ -87,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/CUDA.md"
+                "file": "层次结构.md"
               }
             }
           }
@@ -113,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/CUDA.md",
+                "file": "层次结构.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/CUDA.md",
+                "file": "层次结构.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,15 +177,15 @@
   },
   "active": "98a3a239ea03b963",
   "lastOpenFiles": [
-    "Learning/CUDA.md",
+    "层次结构.md",
+    "Learning/GPU/GPU.md",
+    "Learning/GPU/CUDA.md",
     "papers/My DATE2023.md",
-    "Learning/GPU.md",
     "Learning/GNN.md",
     "util/常用指令.md",
     "Learning/内网穿透.md",
     "Learning/对神经网络模型参数进行多线程单比特位故障注入代码.md",
     "papers/@FaultToleranceDistributed1994jalote.md",
-    "util/Obsidian.md",
-    "Learning/Git.md"
+    "util/Obsidian.md"
   ]
 }

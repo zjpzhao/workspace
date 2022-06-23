@@ -38,21 +38,6 @@ __global__ void helloFromGPU (void){
 }
 ```
 
-## 线程和存储层次
->参考：[《CUDA C Programming Guide》(《CUDA C 编程指南》)导读 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/53773183)
->和：[CUDA入门（深度学习向） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/495850310)
-
-线程层次：thread→block (shared mem)→Grid (global mem among blocks)
-### SM
-SM是用来调度Block的流处理器簇，当线程块执行完之后会退出SM，并释放SM的资源（共享内存和计算资源等）以供其他Block的调度。多个线程块可以被分配到同一个SM上。在SM上同一个块内的多个线程进行线程级别并行。而同一线程内，指令利用指令级并行将单个线程处理成流水线。
-32个**相邻的线程**会组成一个线程束(*Thread Warp*)，而一个线程束中的线程会运行同样的指令。因此一般线程块中线程的数量被安排为32的倍数。
-
-### 不同level线程的访存权限
--   寄存器和本地内存绑定到了每个线程，其他线程无法访问。
--   同一个线程块内的线程，可以访问同一块共享内存。注意，即使两个线程块被调度到了同一个SM上，他们的共享内存也是隔离开的，不能互相访问。
--   Grid中的所有线程都可以自由读写全局内存。
--   常量内存和纹理内存只能被CPU端修改，GPU内的线程只能读取数据。
-
 
 ## NVCC编译
 #learning/cuda/nvcc  
