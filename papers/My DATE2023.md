@@ -15,7 +15,7 @@ CTA：协调线程数组（）
 block-数据局部性
 Warp level整合/聚类
 
-# SDC的精度（近似trade off）
+# SDC 近似trade off
 
 
 # 故障注入工具NVBITFI

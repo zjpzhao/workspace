@@ -4,17 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "98a3a239ea03b963",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "层次结构.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
+        "id": "a80471aa883589f2",
+        "type": "split",
+        "children": [
+          {
+            "id": "98a3a239ea03b963",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "层次结构.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a6a1686af07e22c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "papers/My DATE2023.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -86,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "层次结构.md"
+                "file": "papers/My DATE2023.md"
               }
             }
           }
@@ -112,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "层次结构.md",
+                "file": "papers/My DATE2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "层次结构.md",
+                "file": "papers/My DATE2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,12 +195,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "98a3a239ea03b963",
+  "active": "a6a1686af07e22c9",
   "lastOpenFiles": [
+    "papers/My DATE2023.md",
     "层次结构.md",
     "Learning/GPU/GPU.md",
     "Learning/GPU/CUDA.md",
-    "papers/My DATE2023.md",
     "Learning/GNN.md",
     "util/常用指令.md",
     "Learning/内网穿透.md",
