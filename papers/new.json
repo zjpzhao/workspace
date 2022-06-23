@@ -3,7 +3,8 @@
     "35L73CYH": {
       "collections": [],
       "items": [
-        8165
+        8165,
+        8443
       ],
       "key": "35L73CYH",
       "name": "My Notes",
@@ -71,10 +72,11 @@
       "items": [
         247,
         7790,
-        7826,
-        7828,
         7903,
-        7907
+        7907,
+        8418,
+        8421,
+        8422
       ],
       "key": "HMQVTZ7W",
       "name": "CUDA",
@@ -88,6 +90,18 @@
       "key": "IMDBXX2S",
       "name": "System",
       "parent": "YXK8S2C9"
+    },
+    "JNY8VHWT": {
+      "collections": [],
+      "items": [
+        8234,
+        8236,
+        8259,
+        8443
+      ],
+      "key": "JNY8VHWT",
+      "name": "GNN",
+      "parent": ""
     },
     "JYHUVDJF": {
       "collections": [],
@@ -382,6 +396,43 @@
       "version": 730
     },
     {
+      "attachments": [
+        {
+          "dateAdded": "2022-06-21T02:59:08Z",
+          "dateModified": "2022-06-21T02:59:14Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\X3FQGPM2\\CUDA C++ Best Practices Guide.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "CUDA C++ Best Practices Guide.pdf",
+          "uri": "http://zotero.org/users/7659667/items/X3FQGPM2"
+        }
+      ],
+      "citationKey": "CUDABestPracticesa",
+      "citekey": "CUDABestPracticesa",
+      "creators": [],
+      "dateAdded": "2022-06-21T02:59:13Z",
+      "dateModified": "2022-06-21T02:59:27Z",
+      "itemID": 8422,
+      "itemKey": "2JSWGFWX",
+      "itemType": "document",
+      "key": "2JSWGFWX",
+      "libraryCatalog": "Zotero",
+      "libraryID": 1,
+      "notes": [],
+      "relations": [],
+      "select": "zotero://select/library/items/2JSWGFWX",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "CUDA C++ Best Practices Guide",
+      "uri": "http://zotero.org/users/7659667/items/2JSWGFWX",
+      "version": 3028
+    },
+    {
       "DOI": "10.1145/2656106.2656127",
       "ISBN": "978-1-4503-3050-3",
       "abstractNote": "Silent Data Corruption (SDC) is a serious reliability issue in many domains, including embedded systems. However, current protection techniques are brittle, and do not allow programmers to trade off performance for SDC coverage. Further, many of them require tens of thousands of fault injection experiments, which are highly time-intensive. In this paper, we propose an empirical model to predict the SDC proneness of a program’s data called SDCTune. SDCTune is based on static and dynamic features of the program alone, and does not require fault injections to be performed. We then develop an algorithm using SDCTune to selectively protect the most SDC-prone data in the program subject to a given performance overhead bound. Our results show that our technique is highly accurate at predicting the relative SDC rate of an application, and outperforms full duplication by a factor of 0.83 to 1.87x in efﬁciency of detection (i.e., ratio of SDC coverage provided to performance overhead).",
@@ -469,10 +520,10 @@
       "citekey": "ParallelThreadExecution",
       "creators": [],
       "dateAdded": "2022-05-16T14:16:24Z",
-      "dateModified": "2022-06-18T10:03:07Z",
+      "dateModified": "2022-06-21T02:59:39Z",
       "itemID": 7903,
       "itemKey": "2WPUCD43",
-      "itemType": "book",
+      "itemType": "document",
       "key": "2WPUCD43",
       "libraryCatalog": "Zotero",
       "libraryID": 1,
@@ -482,7 +533,7 @@
       "tags": [],
       "title": "Parallel Thread Execution ISA",
       "uri": "http://zotero.org/users/7659667/items/2WPUCD43",
-      "version": 2973
+      "version": 3031
     },
     {
       "DOI": "10.1145/3447818.3460364",
@@ -573,6 +624,105 @@
       "title": "FT-BLAS: a high performance BLAS implementation with online fault tolerance",
       "uri": "http://zotero.org/users/7659667/items/39D2PFAH",
       "version": 2458
+    },
+    {
+      "DOI": "10.1109/ICDM51629.2021.00021",
+      "ISBN": "978-1-66542-398-4",
+      "abstractNote": "Graph Neural Networks (GNNs) have been widely studied in various graph data mining tasks. Most existing GNNs embed graph data into Euclidean space and thus are less effective to capture the ubiquitous hierarchical structures in real-world networks. Hyperbolic Graph Neural Networks (HGNNs) extend GNNs to hyperbolic space and thus are more effective to capture the hierarchical structures of graphs in node representation learning. In hyperbolic geometry, the graph hierarchical structure can be reﬂected by the curvatures of the hyperbolic space, and different curvatures can model different hierarchical structures of a graph. However, most existing HGNNs manually set the curvature to a ﬁxed value for simplicity, which achieves a suboptimal performance of graph learning due to the complex and diverse hierarchical structures of the graphs. To resolve this problem, we propose an Adaptive Curvature Exploration Hyperbolic Graph Neural Network named ACE-HGNN to adaptively learn the optimal curvature according to the input graph and downstream tasks. Speciﬁcally, ACE-HGNN exploits a multi-agent reinforcement learning framework and contains two agents, ACE-Agent and HGNN-Agent for learning the curvature and node representations, respectively. The two agents are updated by a Nash Q-leaning algorithm collaboratively, seeking the optimal hyperbolic space indexed by the curvature. Extensive experiments on multiple real-world graph datasets demonstrate a signiﬁcant and consistent performance improvement in model quality with competitive performance and good generalization ability.",
+      "accessDate": "2022-06-21T02:37:58Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-06-21T02:37:53Z",
+          "dateModified": "2022-06-21T02:37:59Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\7K3VDHSA\\Fu et al. - 2021 - ACE-HGNN Adaptive Curvature Exploration Hyperboli.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Fu et al. - 2021 - ACE-HGNN Adaptive Curvature Exploration Hyperboli.pdf",
+          "uri": "http://zotero.org/users/7659667/items/7K3VDHSA"
+        }
+      ],
+      "citationKey": "ACEHGNNAdaptiveCurvature2021fu",
+      "citekey": "ACEHGNNAdaptiveCurvature2021fu",
+      "conferenceName": "2021 IEEE International Conference on Data Mining (ICDM)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Xingcheng",
+          "lastName": "Fu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jianxin",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jia",
+          "lastName": "Wu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Qingyun",
+          "lastName": "Sun"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Cheng",
+          "lastName": "Ji"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Senzhang",
+          "lastName": "Wang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jiajun",
+          "lastName": "Tan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Hao",
+          "lastName": "Peng"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Philip S.",
+          "lastName": "Yu"
+        }
+      ],
+      "date": "12/2021",
+      "dateAdded": "2022-06-21T02:37:58Z",
+      "dateModified": "2022-06-21T02:41:19Z",
+      "itemID": 8259,
+      "itemKey": "3DR7AIPE",
+      "itemType": "conferencePaper",
+      "key": "3DR7AIPE",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "111-120",
+      "place": "Auckland, New Zealand",
+      "publicationTitle": "2021 IEEE International Conference on Data Mining (ICDM)",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/3DR7AIPE",
+      "shortTitle": "ACE-HGNN",
+      "tags": [
+        {
+          "tag": "GNN"
+        },
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "ACE-HGNN: Adaptive Curvature Exploration Hyperbolic Graph Neural Network",
+      "uri": "http://zotero.org/users/7659667/items/3DR7AIPE",
+      "url": "https://ieeexplore.ieee.org/document/9679192/",
+      "version": 3018
     },
     {
       "DOI": "10.1109/DSN48987.2021.00041",
@@ -901,7 +1051,7 @@
       ],
       "date": "2021-1-1",
       "dateAdded": "2022-05-10T08:49:56Z",
-      "dateModified": "2022-05-10T08:49:58Z",
+      "dateModified": "2022-06-21T07:20:50Z",
       "issue": "1",
       "itemID": 7879,
       "itemKey": "66MG5YLJ",
@@ -916,16 +1066,11 @@
       "publicationTitle": "IEEE Transactions on Computers",
       "relations": [],
       "select": "zotero://select/library/items/66MG5YLJ",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
+      "tags": [],
       "title": "Practical Resilience Analysis of GPGPU Applications in the Presence of Single- and Multi-Bit Faults",
       "uri": "http://zotero.org/users/7659667/items/66MG5YLJ",
       "url": "https://ieeexplore.ieee.org/document/9035460/",
-      "version": 2354,
+      "version": 3076,
       "volume": "70"
     },
     {
@@ -988,7 +1133,7 @@
       ],
       "date": "2022",
       "dateAdded": "2022-04-30T13:06:50Z",
-      "dateModified": "2022-05-10T09:01:54Z",
+      "dateModified": "2022-06-22T01:53:22Z",
       "itemID": 7791,
       "itemKey": "6CKDY9TW",
       "itemType": "conferencePaper",
@@ -1012,7 +1157,7 @@
       ],
       "title": "Hardening selective protection across multiple program inputs for HPC applications",
       "uri": "http://zotero.org/users/7659667/items/6CKDY9TW",
-      "version": 2602
+      "version": 3127
     },
     {
       "DOI": "10.1109/SC.2014.62",
@@ -1194,8 +1339,8 @@
           "uri": "http://zotero.org/users/7659667/items/Q3G3TLMC"
         }
       ],
-      "citationKey": "PredictingSoftError2022topcua",
-      "citekey": "PredictingSoftError2022topcua",
+      "citationKey": "PredictingSoftError2022topcu",
+      "citekey": "PredictingSoftError2022topcu",
       "conferenceName": "2022 30th Euromicro International Conference on Parallel, Distributed and Network-Based Processing (PDP)",
       "creators": [
         {
@@ -1211,7 +1356,7 @@
       ],
       "date": "3/2022",
       "dateAdded": "2022-05-09T15:23:14Z",
-      "dateModified": "2022-05-09T15:23:14Z",
+      "dateModified": "2022-06-21T06:13:57Z",
       "itemID": 7870,
       "itemKey": "7P3LUHQG",
       "itemType": "conferencePaper",
@@ -1226,16 +1371,11 @@
       "publisher": "IEEE",
       "relations": [],
       "select": "zotero://select/library/items/7P3LUHQG",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
+      "tags": [],
       "title": "Predicting the Soft Error Vulnerability of GPGPU Applications",
       "uri": "http://zotero.org/users/7659667/items/7P3LUHQG",
       "url": "https://ieeexplore.ieee.org/document/9756720/",
-      "version": 2279
+      "version": 3056
     },
     {
       "DOI": "10.1016/j.future.2004.11.016",
@@ -1500,42 +1640,89 @@
       "version": 2219
     },
     {
+      "DOI": "10.1145/3442381.3449822",
+      "ISBN": "978-1-4503-8312-7",
+      "abstractNote": "Graph representation learning has attracted increasing research attention. However, most existing studies fuse all structural features and node attributes to provide an overarching view of graphs, neglecting finer substructures’ semantics, and suffering from interpretation enigmas. This paper presents a novel hierarchical subgraphlevel selection and embedding-based graph neural network for graph classification, namely SUGAR, to learn more discriminative subgraph representations and respond in an explanatory way. SUGAR reconstructs a sketched graph by extracting striking subgraphs as the representative part of the original graph to reveal subgraph-level patterns. To adaptively select striking subgraphs without prior knowledge, we develop a reinforcement pooling mechanism, which improves the generalization ability of the model. To differentiate subgraph representations among graphs, we present a self-supervised mutual information mechanism to encourage subgraph embedding to be mindful of the global graph structural properties by maximizing their mutual information. Extensive experiments on six typical bioinformatics datasets demonstrate a significant and consistent improvement in model quality with competitive performance and interpretability.",
+      "accessDate": "2022-06-21T02:21:41Z",
       "attachments": [
         {
-          "dateAdded": "2022-05-08T12:53:09Z",
-          "dateModified": "2022-05-08T12:53:13Z",
+          "dateAdded": "2022-06-21T02:21:32Z",
+          "dateModified": "2022-06-21T02:21:42Z",
           "itemType": "attachment",
-          "path": "D:\\Zotero\\storage\\WMSDZ7RU\\CUDA C++ Programming Guide.pdf",
+          "path": "D:\\Zotero\\storage\\TPN4VQA9\\Sun et al. - 2021 - SUGAR Subgraph Neural Network with Reinforcement .pdf",
           "relations": [],
           "tags": [],
-          "title": "CUDA C++ Programming Guide.pdf",
-          "uri": "http://zotero.org/users/7659667/items/WMSDZ7RU"
+          "title": "Sun et al. - 2021 - SUGAR Subgraph Neural Network with Reinforcement .pdf",
+          "uri": "http://zotero.org/users/7659667/items/TPN4VQA9"
         }
       ],
-      "citationKey": "CUDAProgrammingGuidea",
-      "citekey": "CUDAProgrammingGuidea",
-      "creators": [],
-      "dateAdded": "2022-05-08T12:53:12Z",
-      "dateModified": "2022-05-08T12:53:45Z",
-      "itemID": 7828,
-      "itemKey": "BARL735E",
-      "itemType": "book",
-      "key": "BARL735E",
+      "citationKey": "SUGARSubgraphNeural2021sun",
+      "citekey": "SUGARSubgraphNeural2021sun",
+      "conferenceName": "WWW '21: The Web Conference 2021",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Qingyun",
+          "lastName": "Sun"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jianxin",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Hao",
+          "lastName": "Peng"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jia",
+          "lastName": "Wu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yuanxing",
+          "lastName": "Ning"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Philip S.",
+          "lastName": "Yu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lifang",
+          "lastName": "He"
+        }
+      ],
+      "date": "2021-04-19",
+      "dateAdded": "2022-06-21T02:21:41Z",
+      "dateModified": "2022-06-21T02:41:52Z",
+      "itemID": 8234,
+      "itemKey": "BHT5P3FW",
+      "itemType": "conferencePaper",
+      "key": "BHT5P3FW",
       "language": "en",
-      "libraryCatalog": "Zotero",
+      "libraryCatalog": "DOI.org (Crossref)",
       "libraryID": 1,
       "notes": [],
+      "pages": "2081-2091",
+      "place": "Ljubljana Slovenia",
+      "publicationTitle": "Proceedings of the Web Conference 2021",
+      "publisher": "ACM",
       "relations": [],
-      "select": "zotero://select/library/items/BARL735E",
+      "select": "zotero://select/library/items/BHT5P3FW",
+      "shortTitle": "SUGAR",
       "tags": [
         {
-          "tag": "/unread",
-          "type": 1
+          "tag": "GNN"
         }
       ],
-      "title": "CUDA C++ Programming Guide",
-      "uri": "http://zotero.org/users/7659667/items/BARL735E",
-      "version": 2119
+      "title": "SUGAR: Subgraph Neural Network with Reinforcement Pooling and Self-Supervised Mutual Information Mechanism",
+      "uri": "http://zotero.org/users/7659667/items/BHT5P3FW",
+      "url": "https://dl.acm.org/doi/10.1145/3442381.3449822",
+      "version": 3019
     },
     {
       "ISBN": "978-1-939133-23-6",
@@ -2121,6 +2308,123 @@
       "version": 2063
     },
     {
+      "abstractNote": "Graph Neural Networks (GNNs) have shown promising results on a broad spectrum of applications. Most empirical studies of GNNs directly take the observed graph as input, assuming the observed structure perfectly depicts the accurate and complete relations between nodes. However, graphs in the real-world are inevitably noisy or incomplete, which could even exacerbate the quality of graph representations. In this work, we propose a novel Variational Information Bottleneck guided Graph Structure Learning framework, namely VIB-GSL, in the perspective of information theory. VIB-GSL is the first attempt to advance the Information Bottleneck (IB) principle for graph structure learning, providing a more elegant and universal framework for mining underlying task-relevant relations. VIB-GSL learns an informative and compressive graph structure to distill the actionable information for specific downstream tasks. VIB-GSL deduces a variational approximation for irregular graph data to form a tractable IB objective function, which facilitates training stability. Extensive experimental results demonstrate that the superior effectiveness and robustness of VIB-GSL.",
+      "attachments": [
+        {
+          "dateAdded": "2022-06-21T02:32:20Z",
+          "dateModified": "2022-06-21T02:32:24Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\WIZQNRVB\\Sun et al. - Graph Structure Learning with Variational Informat.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Sun et al. - Graph Structure Learning with Variational Informat.pdf",
+          "uri": "http://zotero.org/users/7659667/items/WIZQNRVB"
+        }
+      ],
+      "citationKey": "GraphStructureLearningsun",
+      "citekey": "GraphStructureLearningsun",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Qingyun",
+          "lastName": "Sun"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jianxin",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Hao",
+          "lastName": "Peng"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jia",
+          "lastName": "Wu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Xingcheng",
+          "lastName": "Fu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Cheng",
+          "lastName": "Ji"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Philip S",
+          "lastName": "Yu"
+        }
+      ],
+      "dateAdded": "2022-06-21T02:32:23Z",
+      "dateModified": "2022-06-21T02:37:46Z",
+      "itemID": 8236,
+      "itemKey": "GKXHCVIA",
+      "itemType": "journalArticle",
+      "key": "GKXHCVIA",
+      "language": "en",
+      "libraryCatalog": "Zotero",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "10",
+      "relations": [],
+      "select": "zotero://select/library/items/GKXHCVIA",
+      "tags": [
+        {
+          "tag": "GNN"
+        },
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Graph Structure Learning with Variational Information Bottleneck",
+      "uri": "http://zotero.org/users/7659667/items/GKXHCVIA",
+      "version": 3014
+    },
+    {
+      "attachments": [
+        {
+          "dateAdded": "2022-06-21T02:59:06Z",
+          "dateModified": "2022-06-21T02:59:12Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\S4V86GRN\\CUDA C++ Programming Guide.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "CUDA C++ Programming Guide.pdf",
+          "uri": "http://zotero.org/users/7659667/items/S4V86GRN"
+        }
+      ],
+      "citationKey": "CUDAProgrammingGuidea",
+      "citekey": "CUDAProgrammingGuidea",
+      "creators": [],
+      "dateAdded": "2022-06-21T02:59:11Z",
+      "dateModified": "2022-06-21T02:59:34Z",
+      "itemID": 8421,
+      "itemKey": "GNT349ZK",
+      "itemType": "document",
+      "key": "GNT349ZK",
+      "language": "en",
+      "libraryCatalog": "Zotero",
+      "libraryID": 1,
+      "notes": [],
+      "relations": [],
+      "select": "zotero://select/library/items/GNT349ZK",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "CUDA C++ Programming Guide",
+      "uri": "http://zotero.org/users/7659667/items/GNT349ZK",
+      "version": 3030
+    },
+    {
       "DOI": "10.1109/SC41405.2020.00092",
       "ISBN": "978-1-72819-998-6",
       "abstractNote": "Fault injection (FI) techniques are typically used to determine the reliability proﬁles of programs under soft errors. However, these techniques are highly resource- and time-intensive. Prior research developed a model, TRIDENT to analytically predict Silent Data Corruption (SDC, i.e., incorrect output without any indication) probabilities of single-threaded CPU applications without requiring FIs. Unfortunately, TRIDENT is incompatible with GPU programs, due to their high degree of parallelism and different memory architectures than CPU programs. The main challenge is that modeling error propagation across thousands of threads in a GPU kernel requires enormous amounts of data to be proﬁled and analyzed, posing a major scalability bottleneck for HPC applications.",
@@ -2270,43 +2574,6 @@
       "uri": "http://zotero.org/users/7659667/items/H39WTC66",
       "url": "https://dl.acm.org/doi/10.1145/3352460.3358307",
       "version": 728
-    },
-    {
-      "attachments": [
-        {
-          "dateAdded": "2022-05-08T12:53:05Z",
-          "dateModified": "2022-05-08T12:53:10Z",
-          "itemType": "attachment",
-          "path": "D:\\Zotero\\storage\\Z3QVCXAV\\CUDA C++ Best Practices Guide.pdf",
-          "relations": [],
-          "tags": [],
-          "title": "CUDA C++ Best Practices Guide.pdf",
-          "uri": "http://zotero.org/users/7659667/items/Z3QVCXAV"
-        }
-      ],
-      "citationKey": "CUDABestPractices",
-      "citekey": "CUDABestPractices",
-      "creators": [],
-      "dateAdded": "2022-05-08T12:53:09Z",
-      "dateModified": "2022-05-10T07:00:48Z",
-      "itemID": 7826,
-      "itemKey": "HEHJV8IC",
-      "itemType": "book",
-      "key": "HEHJV8IC",
-      "libraryCatalog": "Zotero",
-      "libraryID": 1,
-      "notes": [],
-      "relations": [],
-      "select": "zotero://select/library/items/HEHJV8IC",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
-      "title": "CUDA C++ Best Practices Guide",
-      "uri": "http://zotero.org/users/7659667/items/HEHJV8IC",
-      "version": 2337
     },
     {
       "DOI": "10.1109/SC.2018.00048",
@@ -2489,7 +2756,7 @@
       ],
       "date": "2021-02-18",
       "dateAdded": "2022-05-09T14:49:17Z",
-      "dateModified": "2022-06-09T05:07:49Z",
+      "dateModified": "2022-06-21T07:45:04Z",
       "issue": "1",
       "itemID": 7855,
       "itemKey": "J67PSCWK",
@@ -2507,20 +2774,19 @@
       "shortTitle": "SUGAR",
       "tags": [
         {
-          "tag": "/unread",
-          "type": 1
-        },
-        {
           "tag": "⭐"
         },
         {
           "tag": "Input Sizing"
+        },
+        {
+          "tag": "CTA(coordinated thread arrays)"
         }
       ],
       "title": "SUGAR: Speeding Up GPGPU Application Resilience Estimation with Input Sizing",
       "uri": "http://zotero.org/users/7659667/items/J67PSCWK",
       "url": "https://dl.acm.org/doi/10.1145/3447375",
-      "version": 2768,
+      "version": 3102,
       "volume": "5"
     },
     {
@@ -3292,6 +3558,39 @@
       "version": 2601
     },
     {
+      "attachments": [
+        {
+          "dateAdded": "2022-06-21T02:54:14Z",
+          "dateModified": "2022-06-21T02:54:17Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\D8QYZPWM\\CUDA Binary Utilities.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "CUDA Binary Utilities.pdf",
+          "uri": "http://zotero.org/users/7659667/items/D8QYZPWM"
+        }
+      ],
+      "citationKey": "CUDABinaryUtilities",
+      "citekey": "CUDABinaryUtilities",
+      "creators": [],
+      "dateAdded": "2022-06-21T02:54:16Z",
+      "dateModified": "2022-06-21T06:26:42Z",
+      "itemID": 8418,
+      "itemKey": "PR8KDQ9L",
+      "itemType": "document",
+      "key": "PR8KDQ9L",
+      "language": "en",
+      "libraryCatalog": "Zotero",
+      "libraryID": 1,
+      "notes": [],
+      "relations": [],
+      "select": "zotero://select/library/items/PR8KDQ9L",
+      "tags": [],
+      "title": "CUDA Binary Utilities",
+      "uri": "http://zotero.org/users/7659667/items/PR8KDQ9L",
+      "version": 3068
+    },
+    {
       "ISBN": "978-1-292-10176-7",
       "attachments": [
         {
@@ -3830,6 +4129,21 @@
       "uri": "http://zotero.org/users/7659667/items/UQKHPFBR",
       "url": "https://dl.acm.org/doi/10.1145/2901318.2901319",
       "version": 2360
+    },
+    {
+      "dateAdded": "2022-06-21T07:21:27Z",
+      "dateModified": "2022-06-21T07:58:56Z",
+      "itemID": 8443,
+      "itemKey": "V69E44G8",
+      "itemType": "note",
+      "key": "V69E44G8",
+      "libraryID": 1,
+      "note": "<div data-citation-items=\"%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FJ67PSCWK%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FJ67PSCWK%22%2C%22type%22%3A%22article-journal%22%2C%22abstract%22%3A%22As%20Graphics%20Processing%20Units%20(GPUs)%20are%20becoming%20a%20de%20facto%20solution%20for%20accelerating%20a%20wide%20range%20of%20applications%2C%20their%20reliable%20operation%20is%20becoming%20increasingly%20important.%20One%20of%20the%20major%20challenges%20in%20the%20domain%20of%20GPU%20reliability%20is%20to%20accurately%20measure%20GPGPU%20application%20error%20resilience.%20This%20challenge%20stems%20from%20the%20fact%20that%20a%20typical%20GPGPU%20application%20spawns%20a%20huge%20number%20of%20threads%20and%20then%20utilizes%20a%20large%20amount%20of%20potentially%20unreliable%20compute%20and%20memory%20resources%20available%20on%20the%20GPUs.%20As%20the%20number%20of%20possible%20fault%20locations%20can%20be%20in%20the%20billions%2C%20evaluating%20every%20fault%20and%20examining%20its%20effect%20on%20theapplication%20error%20resilience%20is%20impractical.%20Application%20resilience%20is%20evaluated%20via%20extensive%20fault%20injection%20campaigns%20based%20on%20sampling%20of%20an%20extensive%20fault%20site%20space.%20Typically%2C%20the%20larger%20the%20input%20of%20the%20GPGPU%20application%2C%20the%20longer%20the%20experimental%20campaign.%20In%20this%20work%2C%20we%20devise%20a%20methodology%2C%20SUGAR%20(Speeding%20Up%20GPGPU%20Application%20Resilience%20Estimation%20with%20input%20sizing)%2C%20that%20dramatically%20speeds%20up%20the%20evaluation%20of%20GPGPU%20application%20error%20resilience%20by%20judicious%20input%20sizing.%20We%20show%20how%20analyzing%20a%20small%20fraction%20of%20the%20input%20is%20sufficient%20to%20estimate%20the%20application%20resilience%20with%20high%20accuracy%20and%20dramatically%20reduce%20the%20duration%20of%20experimentation.%20Key%20of%20our%20estimation%20methodology%20is%20the%20discovery%20of%20repeating%20patterns%20as%20a%20function%20of%20the%20input%20size.%20Using%20the%20well-established%20fact%20that%20error%20resilience%20in%20GPGPU%20applications%20is%20mostly%20determined%20by%20the%20dynamic%20instruction%20count%20at%20the%20thread%20level%2C%20we%20identify%20the%20patterns%20that%20allow%20us%20to%20accurately%20predict%20application%20error%20resilience%20for%20arbitrarily%20large%20inputs.%20For%20the%20cases%20that%20we%20examine%20in%20this%20paper%2C%20this%20new%20resilience%20estimation%20mechanism%20provides%20significant%20speedups%20(up%20to%201336%20times)%20and%2097.0%20on%20the%20average%2C%20while%20keeping%20estimation%20errors%20to%20less%20than%201%25.%22%2C%22container-title%22%3A%22Proceedings%20of%20the%20ACM%20on%20Measurement%20and%20Analysis%20of%20Computing%20Systems%22%2C%22DOI%22%3A%2210.1145%2F3447375%22%2C%22ISSN%22%3A%222476-1249%22%2C%22issue%22%3A%221%22%2C%22journalAbbreviation%22%3A%22Proc.%20ACM%20Meas.%20Anal.%20Comput.%20Syst.%22%2C%22language%22%3A%22en%22%2C%22page%22%3A%221-29%22%2C%22source%22%3A%22DOI.org%20(Crossref)%22%2C%22title%22%3A%22SUGAR%3A%20Speeding%20Up%20GPGPU%20Application%20Resilience%20Estimation%20with%20Input%20Sizing%22%2C%22title-short%22%3A%22SUGAR%22%2C%22URL%22%3A%22https%3A%2F%2Fdl.acm.org%2Fdoi%2F10.1145%2F3447375%22%2C%22volume%22%3A%225%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Yang%22%2C%22given%22%3A%22Lishan%22%7D%2C%7B%22family%22%3A%22Nie%22%2C%22given%22%3A%22Bin%22%7D%2C%7B%22family%22%3A%22Jog%22%2C%22given%22%3A%22Adwait%22%7D%2C%7B%22family%22%3A%22Smirni%22%2C%22given%22%3A%22Evgenia%22%7D%5D%2C%22accessed%22%3A%7B%22date-parts%22%3A%5B%5B%222022%22%2C5%2C9%5D%5D%7D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%222021%22%2C2%2C18%5D%5D%7D%7D%7D%5D\" data-schema-version=\"8\"><h1>Input related</h1>\n<h2>CTA（coordinated thread arrays）</h2>\n<p>协调线程数组：<span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FMJ3SA9GD%22%2C%22pageLabel%22%3A%222%22%2C%22position%22%3A%7B%22pageIndex%22%3A1%2C%22rects%22%3A%5B%5B55.791%2C297.246%2C440.171%2C306.561%5D%2C%5B45.46%2C285.3%2C440.173%2C294.605%5D%2C%5B45.828%2C273.345%2C440.169%2C282.65%5D%2C%5B45.828%2C261.39%2C440.175%2C270.695%5D%2C%5B45.828%2C249.435%2C440.361%2C258.74%5D%2C%5B45.828%2C237.48%2C167.481%2C246.785%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FJ67PSCWK%22%5D%2C%22locator%22%3A%222%22%7D%7D\">“We introduce the concept of asymptotic application resilience: we show that resilience patterns within the coordinated thread arrays (CTAs), the building blocks of GPGPU parallelism, can project application resilience for larger inputs of arbitrary size. For asymptotically larger inputs of the same type, the number of CTAs naturally increases but follows distinct patterns as dictated by the parallelization logic. CTA pattern identification is key to calculate application resilience of larger inputs of the same input type.”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FJ67PSCWK%22%5D%2C%22locator%22%3A%222%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Yang et al., 2021, p. 2</span>)</span></p>\n<h2>影响错误弹性的因素</h2>\n<ol>\n<li>\n线程动态指令数：GPGPU application error resilience is determined by the <strong>thread dynamic instructions</strong> (DI) <strong>count</strong>.” <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FJ67PSCWK%22%5D%2C%22locator%22%3A%222%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Yang et al., 2021, p. 2</span>)</span>——线程的动态指令数决定了GPGPU应用的错误弹性\n</li>\n<li>\n应用输入：<span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FMJ3SA9GD%22%2C%22pageLabel%22%3A%223%22%2C%22position%22%3A%7B%22pageIndex%22%3A2%2C%22rects%22%3A%5B%5B173.358%2C599.114%2C424.949%2C608.429%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FJ67PSCWK%22%5D%2C%22locator%22%3A%223%22%7D%7D\">“application resilience depends heavily on the application input.”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FJ67PSCWK%22%5D%2C%22locator%22%3A%223%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Yang et al., 2021, p. 3</span>)</span>——应用的输入严重影响其弹性\n</li>\n</ol>\n<h3>关于应用输入的探讨</h3>\n<p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FMJ3SA9GD%22%2C%22pageLabel%22%3A%224%22%2C%22position%22%3A%7B%22pageIndex%22%3A3%2C%22rects%22%3A%5B%5B68.483%2C88.875%2C175.85%2C98.11%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FJ67PSCWK%22%5D%2C%22locator%22%3A%224%22%7D%7D\">“Benchmarks and Inputs”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FJ67PSCWK%22%5D%2C%22locator%22%3A%224%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Yang et al., 2021, p. 4</span>)</span>：这篇文章概述了基准的输入选择，输入值的范围通常由基准本身给出。</p>\n<p></p>\n</div>",
+      "relations": [],
+      "select": "zotero://select/library/items/V69E44G8",
+      "tags": [],
+      "uri": "http://zotero.org/users/7659667/items/V69E44G8",
+      "version": 3109
     },
     {
       "DOI": "10.1007/BF01784024",

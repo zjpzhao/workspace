@@ -4035,7 +4035,7 @@ var SettingTab = class extends import_obsidian5.PluginSettingTab {
       yield plugin.saveSettings();
       this.display();
     })));
-    new import_obsidian5.Setting(importImages).setName("Zotero Local Folder").setDesc(`Add the path on your computer where Zotero's data is stored (e.g. "/Users/yourusername/Zotero/storage"). This field is required only when this is different from the folder where the PDF files are stored. To retrieve this information, open Zotero --> Preferences --> Advanced --> Files and Folder, and copy the "data directory location"`).addText((text) => text.setValue(settings.zoteroStoragePathManual).onChange((value) => __async(this, null, function* () {
+    new import_obsidian5.Setting(importImages).setName("Zotero Local Folder").setDesc(`Add the path on your computer where Zotero's data is stored (e.g. "/Users/yourusername/Zotero/storage"). This field is required only when this is different from the folder where the PDF files are stored. To retrieve this information, open Zotero --> Preferences --> Advanced --> Files and Folder, and copy the "data directory location", followed by the subdirectory "/storage"`).addText((text) => text.setValue(settings.zoteroStoragePathManual).onChange((value) => __async(this, null, function* () {
       settings.zoteroStoragePathManual = value;
       yield plugin.saveSettings();
     })));
@@ -4328,7 +4328,6 @@ var MyPlugin = class extends import_obsidian6.Plugin {
       let selectedLine = String(selectedLineOriginal.replace(/<\/?[^>]+(>|$)/g, ""));
       selectedLine = replaceTemplate(selectedLine, "`", "'");
       selectedLine = replaceTemplate(selectedLine, "&amp;", "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&");
-      console.log(selectedLine);
       const lineElements = {
         highlightText: "",
         highlightColour: "",
@@ -4365,7 +4364,6 @@ var MyPlugin = class extends import_obsidian6.Plugin {
       let selectedLine = String(selectedLineOriginal.replace(/<\/?[^>]+(>|$)/g, ""));
       selectedLine = replaceTemplate(selectedLine, "`", "'");
       selectedLine = replaceTemplate(selectedLine, "&amp;", "&");
-      console.log(selectedLine);
       const lineElements = {
         highlightText: "",
         highlightColour: "",
@@ -4660,7 +4658,7 @@ var MyPlugin = class extends import_obsidian6.Plugin {
         let pathImageNew = "";
         if (this.settings.imagesImport) {
           pathImageOld = import_path2.default.format({
-            dir: this.pathZoteroStorage + lineElements.imagePath,
+            dir: this.settings.zoteroStoragePathManual + lineElements.imagePath,
             base: "image.png"
           });
           pathImageNew = import_path2.default.normalize(import_path2.default.format({
