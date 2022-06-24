@@ -4,37 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "a80471aa883589f2",
-        "type": "split",
-        "children": [
-          {
-            "id": "98a3a239ea03b963",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "层次结构.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a6a1686af07e22c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "papers/My DATE2023.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
+        "id": "f52794fa79dff549",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Learning/GPU/层次结构.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
           }
-        ],
-        "direction": "horizontal"
+        }
+      },
+      {
+        "id": "3cb156321030ad74",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "papers/My DATEorDAC2023.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -106,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/My DATE2023.md"
+                "file": "papers/My DATEorDAC2023.md"
               }
             }
           }
@@ -132,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/My DATE2023.md",
+                "file": "papers/My DATEorDAC2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/My DATE2023.md",
+                "file": "papers/My DATEorDAC2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,17 +188,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a6a1686af07e22c9",
+  "active": "3cb156321030ad74",
   "lastOpenFiles": [
-    "papers/My DATE2023.md",
-    "层次结构.md",
+    "papers/My DATEorDAC2023.md",
+    "Learning/GPU/层次结构.md",
     "Learning/GPU/GPU.md",
+    "Untitled.md",
     "Learning/GPU/CUDA.md",
     "Learning/GNN.md",
     "util/常用指令.md",
     "Learning/内网穿透.md",
     "Learning/对神经网络模型参数进行多线程单比特位故障注入代码.md",
-    "papers/@FaultToleranceDistributed1994jalote.md",
-    "util/Obsidian.md"
+    "papers/@FaultToleranceDistributed1994jalote.md"
   ]
 }
