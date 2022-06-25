@@ -11,10 +11,6 @@ CTA：协调线程数组（Block的术语）
 # 图结构优化角度
 下游任务冗余信息——如何设计GNN的聚合函数（参考YEF2022北航工作：Graph Structure Learning with Variational Information Bottleneck）
 
-# GPGPU特性
-block-数据局部性
-Warp level整合/聚类
-
 # 故障注入工具NVBITFI
 nvcc编译cuda代码的时候，Host和Device是分开进行的，nvcc --keep选项可以保存编译.cu的过程文件（如.ptx, .cubin等），PTX是每一个线程都需要执行的，我猜测需要执行该PTX的线程号是通过链接.cubin文件而分配的。具体需要参考和探索CUDA Binary Utilities。
 

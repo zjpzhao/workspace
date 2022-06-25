@@ -1913,7 +1913,21 @@ var updateLibrary = class extends import_obsidian2.Modal {
       if (selectedEntry.hasOwnProperty("citationKey") == false)
         continue;
       bibtexArrayItem.citationKey = selectedEntry.citationKey;
-      const datemodified = new Date(selectedEntry.dateModified);
+      const noteDateModifiedArray = [];
+      noteDateModifiedArray.push(selectedEntry.dateModified);
+      for (let index2 = 0; index2 < selectedEntry.notes.length; index2++) {
+        noteDateModifiedArray.push(selectedEntry.notes[index2].dateModified);
+        noteDateModifiedArray.sort((firstElement, secondElement) => {
+          if (firstElement > secondElement) {
+            return -1;
+          }
+          if (firstElement < secondElement) {
+            return 1;
+          }
+          return 0;
+        });
+      }
+      const datemodified = new Date(noteDateModifiedArray[0]);
       if (datemodified < lastUpdate)
         continue;
       if (this.plugin.settings.updateLibrary === "Only update existing notes" && !fs.existsSync(createNoteTitle(selectedEntry, this.plugin.settings.exportTitle, this.plugin.settings.exportPath)))
@@ -4320,7 +4334,7 @@ var MyPlugin = class extends import_obsidian6.Plugin {
     const turndownService = new TurndownService();
     note = turndownService.turndown(note);
     note = note.replace(/`/g, "'").replace(/, p. p. /g, ", p. ").trim();
-    const lines = note.split(/<\/h1>|<\/p>/gm);
+    const lines = note.split(/<\/h1>|\n\n|<\/p>/gm);
     const noteElements = [];
     const lengthLines = Object.keys(lines).length;
     for (let indexLines = 0; indexLines < lengthLines; indexLines++) {
@@ -4658,17 +4672,24 @@ var MyPlugin = class extends import_obsidian6.Plugin {
         let pathImageNew = "";
         if (this.settings.imagesImport) {
           pathImageOld = import_path2.default.format({
-            dir: this.settings.zoteroStoragePathManual + lineElements.imagePath,
+            dir: this.pathZoteroStorage + lineElements.imagePath,
             base: "image.png"
           });
+          if (this.settings.zoteroStoragePathManual.length > 0) {
+            pathImageOld = import_path2.default.format({
+              dir: this.settings.zoteroStoragePathManual + lineElements.imagePath,
+              base: "image.png"
+            });
+          }
+          ;
           pathImageNew = import_path2.default.normalize(import_path2.default.format({
             dir: (0, import_obsidian6.normalizePath)(this.app.vault.adapter.getBasePath() + "\\" + this.settings.imagesPath),
             base: citeKey + "_" + lineElements.imagePath + ".png"
           }));
-          if (this.zoteroBuildWindows != true) {
+          if (this.zoteroBuildWindows == false) {
             pathImageNew = "/" + pathImageNew;
           }
-          if (fs2.existsSync(pathImageOld) || fs2.existsSync(pathImageNew)) {
+          if (fs2.existsSync(pathImageOld)) {
             if (this.settings.imagesCopy === false) {
               lineElements.rowEdited = "![](file://" + encodeURI(pathImageOld) + ")" + lineElements.zoteroBackLink;
             } else {
@@ -5114,7 +5135,7 @@ ${hashes} ` + lineElements.highlightText + lineElements.commentText + lineElemen
     for (let indexNoteElements = newNoteInsertText.length - 1; indexNoteElements >= 0; indexNoteElements--) {
       const insertText = newNoteInsertText[indexNoteElements];
       const insertPosition = newNoteInsertPosition[indexNoteElements];
-      existingNote = existingNote.slice(0, insertPosition) + doubleSpaceAdd + insertText + existingNote.slice(insertPosition);
+      existingNote = existingNote.slice(0, insertPosition) + doubleSpaceAdd + "\n" + insertText + existingNote.slice(insertPosition);
     }
     if (this.settings.saveManualEdits == "Save Entire Note") {
       return existingNote;
@@ -5134,7 +5155,7 @@ ${hashes} ` + lineElements.highlightText + lineElements.commentText + lineElemen
         endSaveOld = existingNote.indexOf(endSave) - 1;
       }
       if (endSaveOld < 0) {
-        endSaveOld = existingNote.length - 1;
+        endSaveOld = existingNote.length;
       }
       const existingNotePreserved = existingNote.substring(startSaveOld, endSaveOld);
       let startSaveNew = 0;
