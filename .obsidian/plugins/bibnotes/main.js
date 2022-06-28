@@ -4331,16 +4331,19 @@ var MyPlugin = class extends import_obsidian6.Plugin {
     return noteElements;
   }
   parseAnnotationLinesintoElementsUserNote(note) {
+    console.log(note);
     const turndownService = new TurndownService();
     note = turndownService.turndown(note);
     note = note.replace(/`/g, "'").replace(/, p. p. /g, ", p. ").trim();
+    console.log(note);
     const lines = note.split(/<\/h1>|\n\n|<\/p>/gm);
+    console.log(lines);
     const noteElements = [];
     const lengthLines = Object.keys(lines).length;
     for (let indexLines = 0; indexLines < lengthLines; indexLines++) {
       const selectedLineOriginal = unescape(lines[indexLines]);
-      let selectedLine = String(selectedLineOriginal.replace(/<\/?[^>]+(>|$)/g, ""));
-      selectedLine = replaceTemplate(selectedLine, "`", "'");
+      console.log(selectedLineOriginal);
+      let selectedLine = replaceTemplate(selectedLineOriginal, "`", "'");
       selectedLine = replaceTemplate(selectedLine, "&amp;", "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&");
       const lineElements = {
         highlightText: "",
@@ -5150,7 +5153,7 @@ ${hashes} ` + lineElements.highlightText + lineElements.commentText + lineElemen
       if (startSaveOld < 0) {
         startSaveOld = 0;
       }
-      let endSaveOld = existingNote.length - 1;
+      let endSaveOld = existingNote.length;
       if (endSave !== "") {
         endSaveOld = existingNote.indexOf(endSave) - 1;
       }
