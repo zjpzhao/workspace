@@ -106,9 +106,6 @@ with xlsb('1.xlsb').get_sheet(1) as data:
         for ro in row:
             # 得到 list 的数据
             print(ro.v)
-————————————————
-版权声明：本文为CSDN博主「大小瓶」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/qq_43655307/article/details/106747586
 ```
 
 ---
