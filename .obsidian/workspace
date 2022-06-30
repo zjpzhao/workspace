@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "papers/My DATEorDAC2023.md",
+            "file": "Learning/GNN.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#learning/GPU",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +79,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "e9d25589cbee286f",
@@ -99,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/GPU/层次结构.md"
+                "file": "Learning/GNN.md"
               }
             }
           }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/GPU/层次结构.md",
+                "file": "Learning/GNN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/GPU/层次结构.md",
+                "file": "Learning/GNN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,14 +189,14 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f52794fa79dff549",
+  "active": "3cb156321030ad74",
   "lastOpenFiles": [
-    "Learning/GPU/层次结构.md",
+    "Learning/GNN.md",
     "papers/My DATEorDAC2023.md",
+    "Learning/GPU/层次结构.md",
     "Learning/GPU/GPU.md",
     "Untitled.md",
     "Learning/GPU/CUDA.md",
-    "Learning/GNN.md",
     "util/常用指令.md",
     "Learning/内网穿透.md",
     "Learning/对神经网络模型参数进行多线程单比特位故障注入代码.md",
