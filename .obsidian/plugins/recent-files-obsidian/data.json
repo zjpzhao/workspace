@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "My DATE or DAC 2023",
-      "path": "papers/My DATE or DAC 2023.md"
+      "basename": "Python",
+      "path": "Learning/Python.md"
     },
     {
       "basename": "GNN",
       "path": "Learning/GNN.md"
+    },
+    {
+      "basename": "常用指令",
+      "path": "util/常用指令.md"
+    },
+    {
+      "basename": "My DATE or DAC 2023",
+      "path": "papers/My DATE or DAC 2023.md"
     },
     {
       "basename": "层次结构",
@@ -19,10 +27,6 @@
     {
       "basename": "CUDA",
       "path": "Learning/GPU/CUDA.md"
-    },
-    {
-      "basename": "常用指令",
-      "path": "util/常用指令.md"
     },
     {
       "basename": "内网穿透",
@@ -83,10 +87,6 @@
     {
       "basename": "图床搭建及配置",
       "path": "Workflow/图床搭建及配置.md"
-    },
-    {
-      "basename": "Python",
-      "path": "Learning/Python.md"
     },
     {
       "basename": "Docker",

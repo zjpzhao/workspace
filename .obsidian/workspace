@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Learning/GNN.md",
+            "file": "Learning/Python.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "papers/My DATE or DAC 2023.md",
+            "file": "util/常用指令.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#learning/GPU",
+                "query": "conda",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/My DATE or DAC 2023.md"
+                "file": "Learning/Python.md"
               }
             }
           }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/My DATE or DAC 2023.md",
+                "file": "Learning/Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/My DATE or DAC 2023.md",
+                "file": "Learning/Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,17 +189,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f52794fa79dff549",
+  "active": "3cb156321030ad74",
   "lastOpenFiles": [
-    "papers/My DATE or DAC 2023.md",
+    "Learning/Python.md",
     "Learning/GNN.md",
+    "util/常用指令.md",
+    "papers/My DATE or DAC 2023.md",
     "Learning/GPU/层次结构.md",
     "Learning/GPU/GPU.md",
     "Untitled.md",
     "Learning/GPU/CUDA.md",
-    "util/常用指令.md",
     "Learning/内网穿透.md",
-    "Learning/对神经网络模型参数进行多线程单比特位故障注入代码.md",
-    "papers/@FaultToleranceDistributed1994jalote.md"
+    "Learning/对神经网络模型参数进行多线程单比特位故障注入代码.md"
   ]
 }

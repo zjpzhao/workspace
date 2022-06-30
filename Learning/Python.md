@@ -88,8 +88,30 @@ df=pd.DataFrame(np.array([x,y].T, columns=['x','y'])
 ```
 这里的.T是转置的意思，上述代码效果如：
 
-
 ___
+
+## 3. 读取.xlsb文件
+```python
+# 需要安装pyxlsb（pip install pyxlsb）
+df = pd.read_excel(XLSB_Path, engine='pyxlsb')
+```
+或者不用Pandas
+```python
+from pyxlsb import open_workbook as xlsb
+# 获取xslb 的第一张表
+with xlsb('1.xlsb').get_sheet(1) as data:
+    # 按行获取数据
+    for row in data.rows():
+        # 读取每行单元格内位置 和 数据
+        for ro in row:
+            # 得到 list 的数据
+            print(ro.v)
+————————————————
+版权声明：本文为CSDN博主「大小瓶」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/qq_43655307/article/details/106747586
+```
+
+---
 # 文件操作
 ## 1. 列举当前文件夹下所有以.pdf结尾的文件名
 ```python
