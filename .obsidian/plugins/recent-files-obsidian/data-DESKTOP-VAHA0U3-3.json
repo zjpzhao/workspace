@@ -1,16 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "My DATE or DAC 2023",
-      "path": "papers/My DATE or DAC 2023.md"
-    },
-    {
-      "basename": "GNN",
-      "path": "Learning/GNN.md"
-    },
-    {
       "basename": "层次结构",
       "path": "Learning/GPU/层次结构.md"
+    },
+    {
+      "basename": "My DATEorDAC2023",
+      "path": "papers/My DATEorDAC2023.md"
     },
     {
       "basename": "GPU",
@@ -19,6 +15,10 @@
     {
       "basename": "CUDA",
       "path": "Learning/GPU/CUDA.md"
+    },
+    {
+      "basename": "GNN",
+      "path": "Learning/GNN.md"
     },
     {
       "basename": "常用指令",
