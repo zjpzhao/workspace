@@ -858,7 +858,7 @@
       ],
       "date": "2021-10-1",
       "dateAdded": "2022-05-09T14:48:07Z",
-      "dateModified": "2022-05-09T14:48:09Z",
+      "dateModified": "2022-07-08T07:47:06Z",
       "issue": "10",
       "itemID": 7853,
       "itemKey": "3YEZUP2W",
@@ -874,16 +874,11 @@
       "relations": [],
       "select": "zotero://select/library/items/3YEZUP2W",
       "shortTitle": "SpotSDC",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
+      "tags": [],
       "title": "SpotSDC: Revealing the Silent Data Corruption Propagation in High-Performance Computing Systems",
       "uri": "http://zotero.org/users/7659667/items/3YEZUP2W",
       "url": "https://ieeexplore.ieee.org/document/9094379/",
-      "version": 2243,
+      "version": 3468,
       "volume": "27"
     },
     {
@@ -1979,7 +1974,7 @@
       ],
       "date": "2021",
       "dateAdded": "2022-05-08T02:36:58Z",
-      "dateModified": "2022-05-10T09:02:29Z",
+      "dateModified": "2022-07-08T07:38:56Z",
       "itemID": 7793,
       "itemKey": "CCN9DIVW",
       "itemType": "conferencePaper",
@@ -1995,16 +1990,12 @@
       "shortTitle": "PEPPA-X",
       "tags": [
         {
-          "tag": "/unread",
-          "type": 1
-        },
-        {
           "tag": "Multiple Inputs"
         }
       ],
       "title": "PEPPA-X: finding program test inputs to bound silent data corruption vulnerability in HPC applications",
       "uri": "http://zotero.org/users/7659667/items/CCN9DIVW",
-      "version": 2603
+      "version": 3459
     },
     {
       "abstractNote": "The graph convolutional networks (GCN) recently proposed by Kipf and Welling are an effective graph model for semi-supervised learning. This model, however, was originally designed to be learned with the presence of both training and test data. Moreover, the recursive neighborhood expansion across layers poses time and memory challenges for training with large, dense graphs. To relax the requirement of simultaneous availability of test data, we interpret graph convolutions as integral transforms of embedding functions under probability measures. Such an interpretation allows for the use of Monte Carlo approaches to consistently estimate the integrals, which in turn leads to a batched training scheme as we propose in this work—FastGCN. Enhanced with importance sampling, FastGCN not only is efﬁcient for training but also generalizes well for inference. We show a comprehensive set of experiments to demonstrate its effectiveness compared with GCN and related models. In particular, training is orders of magnitude more efﬁcient while predictions remain comparably accurate.",
