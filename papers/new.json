@@ -1426,7 +1426,7 @@
       ],
       "date": "3/2022",
       "dateAdded": "2022-05-09T15:23:14Z",
-      "dateModified": "2022-06-21T06:13:57Z",
+      "dateModified": "2022-07-08T08:23:04Z",
       "itemID": 7870,
       "itemKey": "7P3LUHQG",
       "itemType": "conferencePaper",
@@ -1441,7 +1441,11 @@
       "publisher": "IEEE",
       "relations": [],
       "select": "zotero://select/library/items/7P3LUHQG",
-      "tags": [],
+      "tags": [
+        {
+          "tag": "⭐"
+        }
+      ],
       "title": "Predicting the Soft Error Vulnerability of GPGPU Applications",
       "uri": "http://zotero.org/users/7659667/items/7P3LUHQG",
       "url": "https://ieeexplore.ieee.org/document/9756720/",
@@ -4425,7 +4429,7 @@
       ],
       "date": "2021",
       "dateAdded": "2022-05-08T14:29:02Z",
-      "dateModified": "2022-05-10T09:02:34Z",
+      "dateModified": "2022-07-08T08:23:12Z",
       "itemID": 7831,
       "itemKey": "VDFASSWC",
       "itemType": "conferencePaper",
@@ -4440,10 +4444,13 @@
       "select": "zotero://select/library/items/VDFASSWC",
       "tags": [
         {
-          "tag": "GPU"
+          "tag": "⭐"
         },
         {
           "tag": "Error Resilience"
+        },
+        {
+          "tag": "GPU"
         },
         {
           "tag": "Reliability"
@@ -4454,7 +4461,7 @@
       ],
       "title": "Enabling Software Resilience in GPGPU Applications via Partial Thread Protection",
       "uri": "http://zotero.org/users/7659667/items/VDFASSWC",
-      "version": 2603
+      "version": 3473
     },
     {
       "abstractNote": "Question Answering (QA) has been a long-standing research topic in AI and NLP ﬁelds, and a wealth of studies have been conducted to attempt to equip QA systems with human-level reasoning capability. To approximate the complicated human reasoning process, state-of-the-art QA systems commonly use pre-trained language models (LMs) to access knowledge encoded in LMs together with elaborately designed modules based on Graph Neural Networks (GNNs) to perform reasoning over knowledge graphs (KGs). However, many problems remain open regarding the reasoning functionality of these GNN-based modules. Can these GNN-based modules really perform a complex reasoning process? Are they under- or overcomplicated for QA? To open the black box of GNN and investigate these problems, we dissect state-of-the-art GNN modules for QA and analyze their reasoning capability. We discover that even a very simple graph neural counter can outperform all the existing GNN modules on CommonsenseQA and OpenBookQA, two popular QA benchmark datasets which heavily rely on knowledge-aware reasoning. Our work reveals that existing knowledge-aware GNN modules may only carry out some simple reasoning such as counting. It remains a challenging open problem to build comprehensive reasoning modules for knowledge-powered QA.",
