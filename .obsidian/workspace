@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Learning/GPU/CUDA.md",
+            "file": "papers/常用词汇.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -79,8 +79,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "e9d25589cbee286f",
@@ -100,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/GPU/CUDA.md"
+                "file": "papers/常用词汇.md"
               }
             }
           }
@@ -109,8 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 458,
-    "collapsed": true
+    "width": 458
   },
   "right": {
     "id": "15dd14e7068b76d4",
@@ -126,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/GPU/CUDA.md",
+                "file": "papers/常用词汇.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/GPU/CUDA.md",
+                "file": "papers/常用词汇.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,6 +190,7 @@
   },
   "active": "f52794fa79dff549",
   "lastOpenFiles": [
+    "papers/常用词汇.md",
     "Learning/GPU/CUDA.md",
     "papers/My DATE or DAC 2023.md",
     "Learning/Python/Numpy.md",
@@ -200,7 +199,6 @@
     "Learning/内网穿透.md",
     "util/常用指令.md",
     "Learning/Python/Python.md",
-    "Learning/GNN.md",
-    "Learning/GPU/层次结构.md"
+    "Learning/GNN.md"
   ]
 }

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "常用词汇",
+      "path": "papers/常用词汇.md"
+    },
+    {
       "basename": "CUDA",
       "path": "Learning/GPU/CUDA.md"
     },
@@ -70,7 +74,7 @@
     },
     {
       "basename": "常用缩写",
-      "path": "util/常用缩写.md"
+      "path": "papers/常用缩写.md"
     },
     {
       "basename": "Zotero",
