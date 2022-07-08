@@ -300,6 +300,7 @@
       "keyConflictPolicy": "keep",
       "keyScope": "library",
       "kuroshiro": false,
+      "language": "langid",
       "mapMath": "",
       "mapText": "",
       "mapUnicode": "conservative",
@@ -1303,7 +1304,7 @@
       "title": "DyGNN: Algorithm and Architecture Support of Dynamic Pruning for Graph Neural Networks",
       "uri": "http://zotero.org/users/7659667/items/79C382EV",
       "url": "https://ieeexplore.ieee.org/document/9586298/",
-      "version": 3395
+      "version": 3396
     },
     {
       "DOI": "10.1145/3466752.3480063",
@@ -2055,7 +2056,7 @@
       "tags": [],
       "title": "FASTGCN: FAST LEARNING WITH GRAPH CONVOLU- TIONAL NETWORKS VIA IMPORTANCE SAMPLING",
       "uri": "http://zotero.org/users/7659667/items/DHJTV3WE",
-      "version": 3395
+      "version": 3396
     },
     {
       "DOI": "10.1145/3437801.3441589",
@@ -4538,7 +4539,7 @@
       "title": "GNN is a Counter? Revisiting GNN for Question Answering",
       "uri": "http://zotero.org/users/7659667/items/VH4NRVH2",
       "url": "http://arxiv.org/abs/2110.03192",
-      "version": 3395
+      "version": 3396
     },
     {
       "DOI": "10.1109/SC.2016.20",
@@ -5107,7 +5108,7 @@
     }
   ],
   "version": {
-    "bbt": "6.7.13",
+    "bbt": "6.7.15",
     "zotero": "6.0.9"
   }
 }
