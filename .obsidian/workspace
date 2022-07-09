@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "papers/常用词汇.md",
+            "file": "papers/常用缩写.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/常用词汇.md"
+                "file": "papers/常用缩写.md"
               }
             }
           }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/常用词汇.md",
+                "file": "papers/常用缩写.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/常用词汇.md",
+                "file": "papers/常用缩写.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,6 +190,7 @@
   },
   "active": "f52794fa79dff549",
   "lastOpenFiles": [
+    "papers/常用缩写.md",
     "papers/常用词汇.md",
     "Learning/GPU/CUDA.md",
     "papers/My DATE or DAC 2023.md",
@@ -198,7 +199,6 @@
     "Learning/Python/Code_对神经网络模型参数进行多线程单比特位故障注入.md",
     "Learning/内网穿透.md",
     "util/常用指令.md",
-    "Learning/Python/Python.md",
-    "Learning/GNN.md"
+    "Learning/Python/Python.md"
   ]
 }

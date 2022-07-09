@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "常用缩写",
+      "path": "papers/常用缩写.md"
+    },
+    {
       "basename": "常用词汇",
       "path": "papers/常用词汇.md"
     },
@@ -71,10 +75,6 @@
     {
       "basename": "linux配置代理Qv2ray和Clash",
       "path": "util/linux配置代理Qv2ray和Clash.md"
-    },
-    {
-      "basename": "常用缩写",
-      "path": "papers/常用缩写.md"
     },
     {
       "basename": "Zotero",
