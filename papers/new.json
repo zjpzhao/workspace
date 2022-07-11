@@ -2838,6 +2838,91 @@
       "version": 2602
     },
     {
+      "DOI": "10.1145/3126908.3126964",
+      "ISBN": "978-1-4503-5114-0",
+      "abstractNote": "Deep learning neural networks (DNNs) have been successful in solving a wide range of machine learning problems. Specialized hardware accelerators have been proposed to accelerate the execution of DNN algorithms for high-performance and energy efficiency. Recently, they have been deployed in datacenters (potentially for business-critical or industrial applications) and safety-critical systems such as self-driving cars. Soft errors caused by high-energy particles have been increasing in hardware systems, and these can lead to catastrophic failures in DNN systems. Traditional methods for building resilient systems, e.g., Triple Modular Redundancy (TMR), are agnostic of the DNN algorithm and the DNN accelerator’s architecture. Hence, these traditional resilience approaches incur high overheads, which makes them challenging to deploy. In this paper, we experimentally evaluate the resilience characteristics of DNN systems (i.e., DNN software running on specialized accelerators). We find that the error resilience of a DNN system depends on the data types, values, data reuses, and types of layers in the design. Based on our observations, we propose two efficient protection techniques for DNN systems.",
+      "accessDate": "2022-07-09T08:07:48Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-07-09T08:07:40Z",
+          "dateModified": "2022-07-09T08:07:49Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\9HHIZX73\\Li et al. - 2017 - Understanding error propagation in deep learning n.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Li et al. - 2017 - Understanding error propagation in deep learning n.pdf",
+          "uri": "http://zotero.org/users/7659667/items/9HHIZX73"
+        }
+      ],
+      "citationKey": "UnderstandingErrorPropagation2017li",
+      "citekey": "UnderstandingErrorPropagation2017li",
+      "conferenceName": "SC '17: The International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Guanpeng",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Siva Kumar Sastry",
+          "lastName": "Hari"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michael",
+          "lastName": "Sullivan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Timothy",
+          "lastName": "Tsai"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Karthik",
+          "lastName": "Pattabiraman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Joel",
+          "lastName": "Emer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Stephen W.",
+          "lastName": "Keckler"
+        }
+      ],
+      "date": "2017-11-12",
+      "dateAdded": "2022-07-09T08:07:48Z",
+      "dateModified": "2022-07-10T08:00:34Z",
+      "itemID": 8527,
+      "itemKey": "IT8IRRH9",
+      "itemType": "conferencePaper",
+      "key": "IT8IRRH9",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1-12",
+      "place": "Denver Colorado",
+      "publicationTitle": "Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "publisher": "ACM",
+      "relations": [],
+      "select": "zotero://select/library/items/IT8IRRH9",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Understanding error propagation in deep learning neural network (DNN) accelerators and applications",
+      "uri": "http://zotero.org/users/7659667/items/IT8IRRH9",
+      "url": "https://dl.acm.org/doi/10.1145/3126908.3126964",
+      "version": 3662
+    },
+    {
       "DOI": "10.1109/SC.2018.00011",
       "ISBN": "978-1-5386-8384-2",
       "abstractNote": "As high-performance computing systems scale in size and computational power, the danger of silent errors, i.e., errors that can bypass hardware detection mechanisms and impact application state, grows dramatically. Consequently, applications running on HPC systems need to exhibit resilience to such errors. Previous work has found that, for certain codes, this resilience can come for free, i.e., some applications are naturally resilient, but few studies have shown the code patterns—combinations or sequences of computations—that make an application naturally resilient. In this paper, we present FlipTracker, a framework designed to extract these patterns using ﬁne-grained tracking of error propagation and resilience properties, and we use it to present a set of computation patterns that are responsible for making representative HPC applications naturally resilient to errors. This not only enables a deeper understanding of resilience properties of these codes, but also can guide future application designs towards patterns with natural resilience.",
@@ -3343,6 +3428,72 @@
       "uri": "http://zotero.org/users/7659667/items/M3KD8MK6",
       "url": "http://ieeexplore.ieee.org/document/7877163/",
       "version": 731
+    },
+    {
+      "abstractNote": "As GPUs become more pervasive in both scalable high-performance computing systems and safety-critical embedded systems, evaluating and analyzing their resilience will grow increasingly important. As soft errors, such as those caused by high-energy particle strikes, form an important fraction of in-ﬁeld hardware errors, GPU designers must develop tools and techniques to understand the effect of these soft errors on applications. This paper presents an error injection-based methodology to study the soft-error resilience of massively parallel applications running on state-of-the-art NVIDIA GPUs. Our approach uses a low-level assembly-language instrumentation tool called SASSI to proﬁle and inject errors. SASSI provides efﬁciency by allowing instrumentation code to execute entirely on the GPU and provides the ability to inject into condition code and predicate registers, in addition to general-purpose registers and GPU memory. This paper describes our error injection tool and presents some experiments to illustrate some possible lines of analysis. We injected errors into Rodinia benchmark applications and provide results from those experiments showing average detected and silent error probabilities for applications, static kernels, and dynamic kernel invocations. For applications with multiple invocations of the same static kernel, we also show how our tool can be used to study error propagation as a function of the injection time. We also study the effect of errors on condition code and predicate registers.",
+      "attachments": [
+        {
+          "dateAdded": "2022-07-09T08:25:42Z",
+          "dateModified": "2022-07-09T08:25:47Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\4HQKBAG9\\Hari et al. - SASSIFI Evaluating Resilience of GPU Applications.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Hari et al. - SASSIFI Evaluating Resilience of GPU Applications.pdf",
+          "uri": "http://zotero.org/users/7659667/items/4HQKBAG9"
+        }
+      ],
+      "citationKey": "SASSIFIEvaluatingResiliencehari",
+      "citekey": "SASSIFIEvaluatingResiliencehari",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Siva Kumar Sastry",
+          "lastName": "Hari"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Timothy",
+          "lastName": "Tsai"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mark",
+          "lastName": "Stephenson"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Stephen W",
+          "lastName": "Keckler"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Joel",
+          "lastName": "Emer"
+        }
+      ],
+      "dateAdded": "2022-07-09T08:25:46Z",
+      "dateModified": "2022-07-10T08:00:34Z",
+      "itemID": 8526,
+      "itemKey": "MR6XJDR5",
+      "itemType": "journalArticle",
+      "key": "MR6XJDR5",
+      "language": "en",
+      "libraryCatalog": "Zotero",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "6",
+      "relations": [],
+      "select": "zotero://select/library/items/MR6XJDR5",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "SASSIFI: Evaluating Resilience of GPU Applications",
+      "uri": "http://zotero.org/users/7659667/items/MR6XJDR5",
+      "version": 3662
     },
     {
       "DOI": "10.1109/CCGrid49817.2020.00-82",
@@ -4455,13 +4606,13 @@
       "select": "zotero://select/library/items/VDFASSWC",
       "tags": [
         {
+          "tag": "GPU"
+        },
+        {
           "tag": "⭐"
         },
         {
           "tag": "Error Resilience"
-        },
-        {
-          "tag": "GPU"
         },
         {
           "tag": "Reliability"
