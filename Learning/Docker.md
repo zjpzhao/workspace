@@ -19,7 +19,7 @@ docker images
 
 ## 退出容器
 ```shell
-exit
+
 ```
 
 ---

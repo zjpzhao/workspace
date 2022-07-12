@@ -8,6 +8,8 @@ git rm -rf --cached [内层git仓库的项目名]
 ```
 然后正常push三联即可
 
+---
+
 ## 撤销或修改Commit
 执行完commit后想撤回commit，执行：
 ```shell
@@ -67,15 +69,15 @@ springboot vue stars:>1000 pushed:>2022-05-02 language:Java
 
 
 ## Gitee repo init
-#### A simple command-line tutorial:
-
-Git global settings:
-
+### A simple command-line tutorial:
+#### Git global settings
+```bash
 git config --global user.name "zjpzhao"
 git config --global user.email "1284610325@qq.com"
+```
 
-Create git repository:
-
+#### Create git repository
+```bash
 mkdir my-book-notes
 cd my-book-notes
 git init 
@@ -84,9 +86,11 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://gitee.com/simonhouhou/my-book-notes.git
 git push -u origin "master"
+```
 
-Existing repository?
-
+#### Existing repository?
+```bash
 cd existing_git_repo
 git remote add origin https://gitee.com/simonhouhou/my-book-notes.git
 git push -u origin "master"
+```

@@ -4,25 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f52794fa79dff549",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "papers/常用缩写.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
         "id": "b11406fd7ab6dce1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "papers/My DATE or DAC 2023.md",
+            "file": "Learning/Git.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -99,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/常用缩写.md"
+                "file": "Learning/Git.md"
               }
             }
           }
@@ -124,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/常用缩写.md",
+                "file": "Learning/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/常用缩写.md",
+                "file": "Learning/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,20 +172,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "f52794fa79dff549",
+  "active": "b11406fd7ab6dce1",
   "lastOpenFiles": [
-    "papers/常用缩写.md",
-    "papers/常用词汇.md",
-    "Learning/GPU/CUDA.md",
-    "papers/My DATE or DAC 2023.md",
-    "Learning/Python/Numpy.md",
-    "Learning/Python/Code_位翻转.md",
-    "Learning/Python/Code_对神经网络模型参数进行多线程单比特位故障注入.md",
+    "Learning/Git.md",
     "Learning/内网穿透.md",
-    "util/常用指令.md",
-    "Learning/Python/Python.md"
+    "Learning/Docker.md",
+    "util/Obsidian.md",
+    "papers/My DATE or DAC 2023.md",
+    "Learning/Python/Code_位翻转.md",
+    "Learning/Python/Python.md",
+    "Learning/GNN.md",
+    "papers/常用缩写.md",
+    "papers/常用词汇.md"
   ]
 }
