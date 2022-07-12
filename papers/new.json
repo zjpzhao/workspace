@@ -38,7 +38,8 @@
         170,
         7853,
         7884,
-        7887
+        7887,
+        8527
       ],
       "key": "89K6PZVW",
       "name": "Error Propagation",
@@ -99,7 +100,9 @@
         8443,
         8496,
         8497,
-        8498
+        8498,
+        8543,
+        8545
       ],
       "key": "JNY8VHWT",
       "name": "GNN",
@@ -219,7 +222,8 @@
         7879,
         7887,
         7891,
-        8453
+        8453,
+        8526
       ],
       "key": "W43MLK4H",
       "name": "Resilience",
@@ -482,7 +486,7 @@
       ],
       "date": "2014-10-12",
       "dateAdded": "2022-05-10T15:32:56Z",
-      "dateModified": "2022-05-10T15:32:57Z",
+      "dateModified": "2022-07-12T08:37:12Z",
       "itemID": 7889,
       "itemKey": "2Q2KRCHG",
       "itemType": "conferencePaper",
@@ -498,12 +502,7 @@
       "relations": [],
       "select": "zotero://select/library/items/2Q2KRCHG",
       "shortTitle": "SDCTune",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
+      "tags": [],
       "title": "SDCTune: a model for predicting the SDC proneness of an application for configurable protection",
       "uri": "http://zotero.org/users/7659667/items/2Q2KRCHG",
       "url": "https://dl.acm.org/doi/10.1145/2656106.2656127",
@@ -880,6 +879,72 @@
       "url": "https://ieeexplore.ieee.org/document/9094379/",
       "version": 3468,
       "volume": "27"
+    },
+    {
+      "DOI": "10.1109/DAC18072.2020.9218643",
+      "ISBN": "978-1-72811-085-1",
+      "abstractNote": "This paper introduces GRANNITE, a GPUaccelerated novel graph neural network (GNN) model for fast, accurate, and transferable vector-based average power estimation. During training, GRANNITE learns how to propagate average toggle rates through combinational logic: a netlist is represented as a graph, register states and unit inputs from RTL simulation are used as features, and combinational gate toggle rates are used as labels. A trained GNN model can then infer average toggle rates on a new workload of interest or new netlists from RTL simulation results in a few seconds. Compared to traditional power analysis using gate-level simulations, GRANNITE achieves >18.7X speedup with an error of only <5.5% across a diverse set of benchmark circuits. Compared to a GPU-accelerated conventional probabilistic switching activity estimation approach, GRANNITE achieves much better accuracy (on average 25.9% lower error) at similar runtimes.",
+      "accessDate": "2022-07-12T08:47:02Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-07-12T08:46:57Z",
+          "dateModified": "2022-07-12T08:47:04Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\2RZQI3FJ\\Zhang et al. - 2020 - GRANNITE Graph Neural Network Inference for Trans.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Zhang et al. - 2020 - GRANNITE Graph Neural Network Inference for Trans.pdf",
+          "uri": "http://zotero.org/users/7659667/items/2RZQI3FJ"
+        }
+      ],
+      "citationKey": "GRANNITEGraphNeural2020zhang",
+      "citekey": "GRANNITEGraphNeural2020zhang",
+      "conferenceName": "2020 57th ACM/IEEE Design Automation Conference (DAC)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Yanqing",
+          "lastName": "Zhang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Haoxing",
+          "lastName": "Ren"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Brucek",
+          "lastName": "Khailany"
+        }
+      ],
+      "date": "7/2020",
+      "dateAdded": "2022-07-12T08:47:02Z",
+      "dateModified": "2022-07-12T08:47:03Z",
+      "itemID": 8545,
+      "itemKey": "4WW3RDJK",
+      "itemType": "conferencePaper",
+      "key": "4WW3RDJK",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1-6",
+      "place": "San Francisco, CA, USA",
+      "publicationTitle": "2020 57th ACM/IEEE Design Automation Conference (DAC)",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/4WW3RDJK",
+      "shortTitle": "GRANNITE",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "GRANNITE: Graph Neural Network Inference for Transferable Power Estimation",
+      "uri": "http://zotero.org/users/7659667/items/4WW3RDJK",
+      "url": "https://ieeexplore.ieee.org/document/9218643/",
+      "version": 3764
     },
     {
       "DOI": "10.1145/3339363.3339382",
@@ -3068,6 +3133,101 @@
       "url": "https://dl.acm.org/doi/10.1145/3447375",
       "version": 3102,
       "volume": "5"
+    },
+    {
+      "DOI": "10.1016/j.aiopen.2021.01.001",
+      "ISSN": "26666510",
+      "abstractNote": "Lots of learning tasks require dealing with graph data which contains rich relation information among elements. Modeling physics systems, learning molecular ﬁngerprints, predicting protein interface, and classifying diseases demand a model to learn from graph inputs. In other domains such as learning from non-structural data like texts and images, reasoning on extracted structures (like the dependency trees of sentences and the scene graphs of images) is an important research topic which also needs graph reasoning models. Graph neural networks (GNNs) are neural models that capture the dependence of graphs via message passing between the nodes of graphs. In recent years, variants of GNNs such as graph convolutional network (GCN), graph attention network (GAT), graph recurrent network (GRN) have demonstrated ground-breaking performances on many deep learning tasks. In this survey, we propose a general design pipeline for GNN models and discuss the variants of each component, systematically categorize the applications, and propose four open problems for future research.",
+      "accessDate": "2022-07-12T08:46:55Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-07-12T08:46:45Z",
+          "dateModified": "2022-07-12T08:46:56Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\TC4AJ7D8\\Zhou et al. - 2020 - Graph neural networks A review of methods and app.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Zhou et al. - 2020 - Graph neural networks A review of methods and app.pdf",
+          "uri": "http://zotero.org/users/7659667/items/TC4AJ7D8"
+        }
+      ],
+      "citationKey": "GraphNeuralNetworks2020zhou",
+      "citekey": "GraphNeuralNetworks2020zhou",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jie",
+          "lastName": "Zhou"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ganqu",
+          "lastName": "Cui"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Shengding",
+          "lastName": "Hu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Zhengyan",
+          "lastName": "Zhang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Cheng",
+          "lastName": "Yang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Zhiyuan",
+          "lastName": "Liu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lifeng",
+          "lastName": "Wang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Changcheng",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Maosong",
+          "lastName": "Sun"
+        }
+      ],
+      "date": "2020",
+      "dateAdded": "2022-07-12T08:46:55Z",
+      "dateModified": "2022-07-12T08:46:55Z",
+      "itemID": 8543,
+      "itemKey": "JBQAE8QQ",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "AI Open",
+      "key": "JBQAE8QQ",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "57-81",
+      "publicationTitle": "AI Open",
+      "relations": [],
+      "select": "zotero://select/library/items/JBQAE8QQ",
+      "shortTitle": "Graph neural networks",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Graph neural networks: A review of methods and applications",
+      "uri": "http://zotero.org/users/7659667/items/JBQAE8QQ",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666651021000012",
+      "version": 3763,
+      "volume": "1"
     },
     {
       "DOI": "10.24963/ijcai.2020/454",
