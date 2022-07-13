@@ -3202,7 +3202,7 @@
       ],
       "date": "2020",
       "dateAdded": "2022-07-12T08:46:55Z",
-      "dateModified": "2022-07-12T08:46:55Z",
+      "dateModified": "2022-07-13T08:49:03Z",
       "itemID": 8543,
       "itemKey": "JBQAE8QQ",
       "itemType": "journalArticle",
@@ -3217,16 +3217,11 @@
       "relations": [],
       "select": "zotero://select/library/items/JBQAE8QQ",
       "shortTitle": "Graph neural networks",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
+      "tags": [],
       "title": "Graph neural networks: A review of methods and applications",
       "uri": "http://zotero.org/users/7659667/items/JBQAE8QQ",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666651021000012",
-      "version": 3763,
+      "version": 3775,
       "volume": "1"
     },
     {
