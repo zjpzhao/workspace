@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "CUDA",
+      "path": "Learning/GPU/CUDA.md"
+    },
+    {
+      "basename": "GPU",
+      "path": "Learning/GPU/GPU.md"
+    },
+    {
       "basename": "常用词汇",
       "path": "papers/常用词汇.md"
     },
@@ -41,10 +49,6 @@
       "path": "papers/常用缩写.md"
     },
     {
-      "basename": "CUDA",
-      "path": "Learning/GPU/CUDA.md"
-    },
-    {
       "basename": "Numpy",
       "path": "Learning/Python/Numpy.md"
     },
@@ -59,10 +63,6 @@
     {
       "basename": "层次结构",
       "path": "Learning/GPU/层次结构.md"
-    },
-    {
-      "basename": "GPU",
-      "path": "Learning/GPU/GPU.md"
     },
     {
       "basename": "@FaultToleranceDistributed1994jalote",

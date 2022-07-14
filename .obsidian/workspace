@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "papers/常用词汇.md",
+            "file": "Learning/GPU/CUDA.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#learning/pytho",
+                "query": "编译",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "e9d25589cbee286f",
@@ -86,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/常用词汇.md"
+                "file": "Learning/GPU/CUDA.md"
               }
             }
           }
@@ -111,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/常用词汇.md",
+                "file": "Learning/GPU/CUDA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/常用词汇.md",
+                "file": "Learning/GPU/CUDA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,6 +177,8 @@
   },
   "active": "b11406fd7ab6dce1",
   "lastOpenFiles": [
+    "Learning/GPU/GPU.md",
+    "Learning/GPU/CUDA.md",
     "papers/常用词汇.md",
     "Learning/Git.md",
     "Learning/内网穿透.md",
@@ -183,8 +186,6 @@
     "util/Obsidian.md",
     "papers/My DATE or DAC 2023.md",
     "Learning/Python/Code_位翻转.md",
-    "Learning/Python/Python.md",
-    "Learning/GNN.md",
-    "papers/常用缩写.md"
+    "Learning/Python/Python.md"
   ]
 }

@@ -1469,6 +1469,10 @@ var DEFAULT_SETTINGS = {
   keyCommentPrepend: "%",
   commentPrependDefault: false,
   commentPrependDivider: ": ",
+  commentAppendDivider: "-> ",
+  TagBeginningConfig: "Tag: ",
+  TagEndConfig: "",
+  TagDividerConfig: "; ",
   keyH1: "#",
   keyH2: "##",
   keyH3: "###",
@@ -1483,17 +1487,27 @@ var DEFAULT_SETTINGS = {
   isHighlightBullet: true,
   isHighlightBlockquote: false,
   isHighlightQuote: true,
+  highlightCustomTextBefore: "",
+  highlightCustomTextAfter: "",
   isCommentItalic: false,
   isCommentBold: true,
   isCommentHighlighted: false,
   isCommentBullet: false,
   isCommentBlockquote: true,
   isCommentQuote: false,
-  isDoubleSpaced: true,
-  highlightCustomTextBefore: "",
-  highlightCustomTextAfter: "",
   commentCustomTextBefore: "",
   commentCustomTextAfter: "",
+  isTagItalic: false,
+  isTagBold: false,
+  isTagHighlighted: false,
+  isTagBullet: false,
+  isTagBlockquote: false,
+  isTagQuote: false,
+  tagCustomTextBefore: "#",
+  tagCustomTextAfter: "",
+  tagCustomTextBeforeFirst: "",
+  tagCustomTextAfterLast: "",
+  isDoubleSpaced: true,
   colourYellowText: "{{highlight}}",
   colourPurpleText: "{{highlight}}",
   colourRedText: "{{highlight}}",
@@ -3889,6 +3903,65 @@ var SettingTab = class extends import_obsidian5.PluginSettingTab {
       settings.commentCustomTextAfter = value;
       yield plugin.saveSettings();
     })));
+    new import_obsidian5.Setting(settingsComments).setName("Text dividing the highlight and the related comment").setDesc("e.g. <br> to place the comment on a different line").addText((text) => text.setValue(settings.commentAppendDivider).onChange((value) => __async(this, null, function* () {
+      settings.commentAppendDivider = value;
+      yield plugin.saveSettings();
+    })));
+    new import_obsidian5.Setting(settingsComments).setName("Text dividing the highlight and the related comment when the comment is moved before the highlight").addText((text) => text.setValue(settings.commentPrependDivider).onChange((value) => __async(this, null, function* () {
+      settings.commentPrependDivider = value;
+      yield plugin.saveSettings();
+    })));
+    containerEl.createEl("h3", { text: "Zotero Tags" });
+    const settingsTags = containerEl.createEl("details");
+    settingsTags.setAttribute("open", "");
+    settingsTags.createEl("summary", { text: "" });
+    new import_obsidian5.Setting(settingsTags).setDesc(" In order to extract tags added from the Zotero PDF reader, open Zotero -> Preferences -> Advanced -> Config Editor -> extensions.zotero.annotations.noteTemplates.highlight <br> Replace default value with: <p>{{highlight quotes='true'}} {{citation}} {{comment}} {{if tags}} Tag: {{tags join='; '}}{{endif}}</p>");
+    new import_obsidian5.Setting(settingsTags).setName("Quotation Marks").addToggle((text) => text.setValue(settings.isTagQuote).onChange((value) => __async(this, null, function* () {
+      settings.isTagQuote = value;
+      yield plugin.saveSettings();
+      this.display();
+    })));
+    new import_obsidian5.Setting(settingsTags).setName("Bold").addToggle((text) => text.setValue(settings.isTagBold).onChange((value) => __async(this, null, function* () {
+      settings.isTagBold = value;
+      yield plugin.saveSettings();
+      this.display();
+    })));
+    new import_obsidian5.Setting(settingsTags).setName("Italic").addToggle((text) => text.setValue(settings.isTagItalic).onChange((value) => __async(this, null, function* () {
+      settings.isTagItalic = value;
+      yield plugin.saveSettings();
+      this.display();
+    })));
+    new import_obsidian5.Setting(settingsTags).setName("Highlighted").addToggle((text) => text.setValue(settings.isTagHighlighted).onChange((value) => __async(this, null, function* () {
+      settings.isTagHighlighted = value;
+      yield plugin.saveSettings();
+      this.display();
+    })));
+    new import_obsidian5.Setting(settingsTags).setName("Bullet Points").addToggle((text) => text.setValue(settings.isTagBullet).onChange((value) => __async(this, null, function* () {
+      settings.isTagBullet = value;
+      yield plugin.saveSettings();
+      this.display();
+    })));
+    new import_obsidian5.Setting(settingsTags).setName("Blockquote").addToggle((text) => text.setValue(settings.isTagBlockquote).onChange((value) => __async(this, null, function* () {
+      settings.isTagBlockquote = value;
+      yield plugin.saveSettings();
+      this.display();
+    })));
+    new import_obsidian5.Setting(settingsTags).setName("Custom text before each individual tag").addTextArea((text) => text.setValue(settings.tagCustomTextBefore).onChange((value) => __async(this, null, function* () {
+      settings.tagCustomTextBefore = value;
+      yield plugin.saveSettings();
+    })));
+    new import_obsidian5.Setting(settingsTags).setName("Custom text after each individual tag").addTextArea((text) => text.setValue(settings.tagCustomTextAfter).onChange((value) => __async(this, null, function* () {
+      settings.tagCustomTextAfter = value;
+      yield plugin.saveSettings();
+    })));
+    new import_obsidian5.Setting(settingsTags).setName("Custom text before first tag").addTextArea((text) => text.setValue(settings.tagCustomTextBeforeFirst).onChange((value) => __async(this, null, function* () {
+      settings.tagCustomTextBeforeFirst = value;
+      yield plugin.saveSettings();
+    })));
+    new import_obsidian5.Setting(settingsTags).setName("Custom text after last tag").addTextArea((text) => text.setValue(settings.tagCustomTextAfterLast).onChange((value) => __async(this, null, function* () {
+      settings.tagCustomTextAfterLast = value;
+      yield plugin.saveSettings();
+    })));
     containerEl.createEl("h3", { text: "Additional Transformations" });
     const settingsAdvanced = containerEl.createEl("details");
     settingsAdvanced.setAttribute("open", "");
@@ -3965,10 +4038,6 @@ var SettingTab = class extends import_obsidian5.PluginSettingTab {
         settings.keyCommentPrepend = value;
         yield plugin.saveSettings();
       }
-    })));
-    new import_obsidian5.Setting(settingsAdvanced).setDesc("Text placed between the comment and the related highlight").addText((text) => text.setValue(settings.commentPrependDivider).onChange((value) => __async(this, null, function* () {
-      settings.commentPrependDivider = value;
-      yield plugin.saveSettings();
     })));
     new import_obsidian5.Setting(settingsAdvanced).setDesc("Always place the comment made to an highlight before the text of the highlight").addToggle((text) => text.setValue(settings.commentPrependDefault).onChange((value) => __async(this, null, function* () {
       settings.commentPrependDefault = value;
@@ -4142,7 +4211,15 @@ var MyPlugin = class extends import_obsidian6.Plugin {
       isHighlightHighlighted,
       isHighlightBullet,
       isHighlightBlockquote,
-      isHighlightQuote
+      isHighlightQuote,
+      tagCustomTextAfter,
+      tagCustomTextBefore,
+      isTagItalic,
+      isTagBold,
+      isTagHighlighted,
+      isTagBullet,
+      isTagBlockquote,
+      isTagQuote
     } = this.settings;
     const [
       highlightItalic,
@@ -4162,7 +4239,7 @@ var MyPlugin = class extends import_obsidian6.Plugin {
       isHighlightQuote ? "\u201D" : ""
     ];
     const highlightFormatBefore = highlightHighlighted + highlightBold + highlightItalic + highlightQuoteOpen;
-    const highlightFormatAfter = highlightQuoteClose + highlightItalic + highlightBold + highlightHighlighted + " " + highlightCustomTextAfter;
+    const highlightFormatAfter = highlightQuoteClose + highlightItalic + highlightBold + highlightHighlighted + highlightCustomTextAfter;
     const highlightPrepend = highlightBullet + highlightBlockquote + highlightCustomTextBefore;
     const commentItalic = isCommentItalic ? "*" : "";
     const commentBold = isCommentBold ? "**" : "";
@@ -4173,14 +4250,43 @@ var MyPlugin = class extends import_obsidian6.Plugin {
     const commentQuoteClose = isCommentQuote ? "\u201D" : "";
     const commentFormatBefore = commentHighlighted + commentBold + commentItalic + commentQuoteOpen;
     const commentFormatAfter = commentQuoteClose + commentItalic + commentBold + commentHighlighted + commentCustomTextAfter;
-    const commentPrepend = commentBullet + commentBlockquote + " " + commentCustomTextBefore;
+    const commentPrepend = commentBullet + commentBlockquote + commentCustomTextBefore;
+    const [
+      tagItalic,
+      tagBold,
+      tagHighlighted,
+      tagBullet,
+      tagBlockquote,
+      tagQuoteOpen,
+      tagQuoteClose
+    ] = [
+      isTagItalic ? "*" : "",
+      isTagBold ? "**" : "",
+      isTagHighlighted ? "==" : "",
+      isTagBullet ? "- " : "",
+      isTagBlockquote ? "> " : "",
+      isTagQuote ? "\u201C" : "",
+      isTagQuote ? "\u201D" : ""
+    ];
+    const tagFormatBefore = tagHighlighted + tagBold + tagItalic + tagQuoteOpen;
+    const tagFormatAfter = tagQuoteClose + tagItalic + tagBold + tagHighlighted + tagCustomTextAfter;
+    let tagPrepend = "";
+    if (tagBullet != "" || tagBlockquote != "") {
+      tagPrepend = "\n" + tagBullet + tagBlockquote + tagCustomTextBefore;
+    } else {
+      tagPrepend = tagBullet + tagBlockquote + tagCustomTextBefore;
+    }
+    console.log(tagPrepend);
     return {
       highlightFormatBefore,
       highlightFormatAfter,
       highlightPrepend,
       commentFormatBefore,
       commentFormatAfter,
-      commentPrepend
+      commentPrepend,
+      tagFormatBefore,
+      tagFormatAfter,
+      tagPrepend
     };
   }
   parseMetadata(selectedEntry, templateOriginal) {
@@ -4331,18 +4437,14 @@ var MyPlugin = class extends import_obsidian6.Plugin {
     return noteElements;
   }
   parseAnnotationLinesintoElementsUserNote(note) {
-    console.log(note);
     const turndownService = new TurndownService();
     note = turndownService.turndown(note);
     note = note.replace(/`/g, "'").replace(/, p. p. /g, ", p. ").trim();
-    console.log(note);
     const lines = note.split(/<\/h1>|\n\n|<\/p>/gm);
-    console.log(lines);
     const noteElements = [];
     const lengthLines = Object.keys(lines).length;
     for (let indexLines = 0; indexLines < lengthLines; indexLines++) {
       const selectedLineOriginal = unescape(lines[indexLines]);
-      console.log(selectedLineOriginal);
       let selectedLine = replaceTemplate(selectedLineOriginal, "`", "'");
       selectedLine = replaceTemplate(selectedLine, "&amp;", "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&");
       const lineElements = {
@@ -4387,6 +4489,8 @@ var MyPlugin = class extends import_obsidian6.Plugin {
         annotationType: "",
         citeKey: "",
         commentText: "",
+        inlineTagsText: "",
+        inlineTagsArray: [],
         rowOriginal: selectedLine,
         rowEdited: selectedLine,
         indexNote: void 0,
@@ -4490,6 +4594,31 @@ var MyPlugin = class extends import_obsidian6.Plugin {
           firstBlank = annotationCommentAll.length;
         }
         lineElements.commentText = lineElements.annotationType === "noKey" || lineElements.annotationType === "typeImage" ? annotationCommentAll : annotationCommentAll.substring(firstBlank, annotationCommentAll.length).trim();
+        if (lineElements.commentText.includes(this.settings.TagBeginningConfig)) {
+          if (this.settings.TagEndConfig.length == 0) {
+            lineElements.inlineTagsText = lineElements.commentText.slice(lineElements.commentText.indexOf(this.settings.TagBeginningConfig), lineElements.commentText.length);
+          } else {
+            lineElements.inlineTagsText = lineElements.commentText.slice(lineElements.commentText.indexOf(this.settings.TagBeginningConfig), lineElements.commentText.lastIndexOf(this.settings.TagEndConfig));
+          }
+          lineElements.commentText = lineElements.commentText.replace(lineElements.inlineTagsText, "").trim();
+        }
+        if (typeof lineElements.inlineTagsText !== `undefined`) {
+          lineElements.inlineTagsText = lineElements.inlineTagsText.replace(this.settings.TagBeginningConfig, "");
+          if (this.settings.TagEndConfig.length != 0) {
+            lineElements.inlineTagsText = lineElements.inlineTagsText.replace(this.settings.TagEndConfig, "");
+          }
+          lineElements.inlineTagsArray = lineElements.inlineTagsText.split(this.settings.TagDividerConfig);
+          if (lineElements.annotationType !== "typeImage") {
+            for (let indexTag = 0; indexTag < lineElements.inlineTagsArray.length; indexTag++) {
+              const tempAnnotationType = this.getAnnotationType(lineElements.inlineTagsArray[indexTag], annotationCommentAll);
+              if (tempAnnotationType != "noKey") {
+                lineElements.annotationType = tempAnnotationType;
+                lineElements.inlineTagsArray.splice(indexTag, 1);
+                break;
+              }
+            }
+          }
+        }
       } else {
         lineElements.rowEdited = selectedLine;
       }
@@ -4610,7 +4739,10 @@ var MyPlugin = class extends import_obsidian6.Plugin {
       commentPrepend,
       highlightFormatAfter,
       highlightFormatBefore,
-      highlightPrepend
+      highlightPrepend,
+      tagFormatBefore,
+      tagFormatAfter,
+      tagPrepend
     } = this.createFormatting();
     const indexRowsToBeRemoved = [];
     const noteElementsArray = [];
@@ -4631,7 +4763,11 @@ var MyPlugin = class extends import_obsidian6.Plugin {
     const imagesArray = [];
     noteElements = noteElements.filter((x) => x !== void 0);
     for (let i = 0; i < noteElements.length; i++) {
+      let allAreEmpty = function(arr) {
+        return arr.every((element) => element == "");
+      };
       let lineElements = noteElements[i];
+      console.log(lineElements);
       lineElements = this.formatColourHighlight(lineElements);
       if (lineElements.extractionSource === "zotero" || lineElements.extractionSource === "zotfile") {
         if (this.settings.highlightCitationsFormat === "Only page number" && lineElements.pageLabel !== void 0) {
@@ -4669,6 +4805,33 @@ var MyPlugin = class extends import_obsidian6.Plugin {
       if (lineElements.annotationType === "typeExtractedHeading") {
         lineElements.rowEdited = "**" + lineElements.rowOriginal.toUpperCase() + "**";
       }
+      if (lineElements.highlightText != "") {
+        lineElements.highlightFormatted = highlightPrepend + colourTextBefore + highlightFormatBefore + lineElements.highlightText + highlightFormatAfter + colourTextAfter + " ";
+      } else {
+        lineElements.highlightFormatted = "";
+      }
+      if (lineElements.commentText != "") {
+        lineElements.commentFormatted = commentPrepend + commentFormatBefore + lineElements.commentText + commentFormatAfter + " ";
+      } else {
+        lineElements.commentFormatted = "";
+      }
+      const TempTag = lineElements.inlineTagsArray.map((i2) => tagPrepend + tagFormatBefore + i2 + tagFormatAfter);
+      console.log(TempTag);
+      console.log(allAreEmpty(lineElements.inlineTagsArray));
+      if (allAreEmpty(lineElements.inlineTagsArray) == false) {
+        lineElements.inlineTagsFormatted = TempTag.join(" ");
+        lineElements.inlineTagsFormatted = this.settings.tagCustomTextBeforeFirst + lineElements.inlineTagsFormatted + this.settings.tagCustomTextAfterLast;
+      } else {
+        lineElements.inlineTagsFormatted = "";
+      }
+      console.log(lineElements.inlineTagsFormatted);
+      if (lineElements.annotationType === "noKey") {
+        if (lineElements.highlightText !== "") {
+          lineElements.rowEdited = lineElements.highlightFormatted + lineElements.citeKey + " " + lineElements.commentFormatted + lineElements.inlineTagsFormatted;
+        } else {
+          lineElements.rowEdited = lineElements.highlightFormatted + lineElements.commentFormatted + lineElements.zoteroBackLink + " " + lineElements.inlineTagsFormatted;
+        }
+      }
       if (lineElements.annotationType === "typeImage") {
         lineElements.rowEdited = "";
         let pathImageOld = "";
@@ -4684,7 +4847,6 @@ var MyPlugin = class extends import_obsidian6.Plugin {
               base: "image.png"
             });
           }
-          ;
           pathImageNew = import_path2.default.normalize(import_path2.default.format({
             dir: (0, import_obsidian6.normalizePath)(this.app.vault.adapter.getBasePath() + "\\" + this.settings.imagesPath),
             base: citeKey + "_" + lineElements.imagePath + ".png"
@@ -4710,52 +4872,44 @@ var MyPlugin = class extends import_obsidian6.Plugin {
         }
         if (lineElements.commentText.length > 0) {
           if (this.settings.imagesCommentPosition == "Below the image") {
-            lineElements.rowEdited = lineElements.rowEdited + "\n\n" + commentPrepend + commentFormatBefore + lineElements.commentText + commentFormatAfter;
+            lineElements.rowEdited = lineElements.rowEdited + "\n\n" + lineElements.commentFormatted + lineElements.inlineTagsFormatted;
           } else {
-            lineElements.rowEdited = commentPrepend + commentFormatBefore + lineElements.commentText + commentFormatAfter + "\n\n" + lineElements.rowEdited;
+            lineElements.rowEdited = lineElements.commentFormatted + lineElements.inlineTagsFormatted + "\n\n" + lineElements.rowEdited;
           }
         }
       }
       if (lineElements.annotationType === "typeMergeAbove") {
-        noteElements[i].rowEdited = (noteElements[i - 1].rowEdited.replace(/\[.*\)/, "") + this.settings.highlightCustomTextBefore + colourTextBefore + highlightFormatBefore + lineElements.highlightText + highlightFormatAfter + lineElements.zoteroBackLink + colourTextAfter).replace(/((?<=\p{Unified_Ideograph})\s*(?=\p{Unified_Ideograph}))/ug, "");
+        noteElements[i].rowEdited = (noteElements[i - 1].rowEdited.replace(/\[.*\)/, "") + lineElements.highlightFormatted + lineElements.zoteroBackLink).replace(/((?<=\p{Unified_Ideograph})\s*(?=\p{Unified_Ideograph}))/ug, "") + " " + this.settings.commentAppendDivider + lineElements.commentFormatted + lineElements.inlineTagsFormatted;
         indexRowsToBeRemoved.push(i - 1);
       }
       if (this.settings.commentPrependDefault === true && lineElements.highlightText !== "" && lineElements.commentText !== "") {
         lineElements.annotationType = "typeCommentPrepend";
       }
       if (lineElements.annotationType === "typeCommentPrepend") {
-        lineElements.rowEdited = highlightPrepend + commentFormatBefore + lineElements.commentText + commentFormatAfter + this.settings.commentPrependDivider + colourTextBefore + highlightFormatBefore + lineElements.highlightText + highlightFormatAfter + lineElements.citeKey + colourTextAfter;
+        lineElements.rowEdited = highlightPrepend + commentFormatBefore + lineElements.commentText + commentFormatAfter + this.settings.commentPrependDivider + colourTextBefore + highlightFormatBefore + lineElements.highlightText + highlightFormatAfter + lineElements.citeKey + colourTextAfter + lineElements.inlineTagsFormatted;
       }
       if (/typeH\d/.test(lineElements.annotationType)) {
         const lastChar = lineElements.annotationType[lineElements.annotationType.length - 1];
         const level = parseInt(lastChar);
         const hashes = "#".repeat(level);
         lineElements.rowEdited = `
-${hashes} ` + lineElements.highlightText + lineElements.commentText + lineElements.zoteroBackLink;
+${hashes} ` + lineElements.highlightText + lineElements.commentText + lineElements.zoteroBackLink + lineElements.inlineTagsFormatted;
       }
       if (lineElements.annotationType == "typeTask") {
         if (lineElements.commentText !== "" && lineElements.highlightText !== "") {
-          lineElements.rowEdited = `- [ ] ` + commentFormatBefore + lineElements.commentText + commentFormatAfter + " - " + colourTextBefore + highlightFormatBefore + lineElements.highlightText + highlightFormatAfter + lineElements.zoteroBackLink + colourTextAfter;
-        } else if (lineElements.commentText == "" && lineElements.highlightColour !== "") {
-          lineElements.rowEdited = `- [ ] ` + colourTextBefore + highlightFormatBefore + lineElements.highlightText + highlightFormatAfter + lineElements.zoteroBackLink + colourTextAfter;
-        } else if (lineElements.commentText !== "" && lineElements.highlightColour === "") {
-          lineElements.rowEdited = `- [ ] ` + commentFormatBefore + lineElements.commentText + commentFormatAfter + lineElements.zoteroBackLink;
+          lineElements.rowEdited = `- [ ] ` + commentFormatBefore + lineElements.commentText + commentFormatAfter + " - " + colourTextBefore + highlightFormatBefore + lineElements.highlightText + highlightFormatAfter + lineElements.zoteroBackLink + colourTextAfter + lineElements.inlineTagsFormatted;
+        } else if (lineElements.commentText == "" && lineElements.highlightText !== "") {
+          lineElements.rowEdited = `- [ ] ` + colourTextBefore + highlightFormatBefore + lineElements.highlightText + highlightFormatAfter + lineElements.zoteroBackLink + colourTextAfter + lineElements.inlineTagsFormatted;
+          ;
+        } else if (lineElements.commentText !== "" && lineElements.highlightText === "") {
+          lineElements.rowEdited = `- [ ] ` + commentFormatBefore + lineElements.commentText + commentFormatAfter + lineElements.zoteroBackLink + lineElements.inlineTagsFormatted;
+          ;
         }
       }
       if (lineElements.annotationType === "typeKeyword") {
         keywordArray.push(lineElements.highlightText);
         lineElements.rowEdited = "";
         indexRowsToBeRemoved.push(i);
-      }
-      if (lineElements.annotationType === "noKey") {
-        if (lineElements.highlightText !== "") {
-          lineElements.rowEdited = highlightPrepend + colourTextBefore + highlightFormatBefore + lineElements.highlightText + highlightFormatAfter + lineElements.citeKey + colourTextAfter;
-          if (lineElements.commentText !== "") {
-            lineElements.rowEdited = lineElements.rowEdited + commentPrepend + commentFormatBefore + lineElements.commentText + commentFormatAfter;
-          }
-        } else if (lineElements.highlightText === "" && lineElements.commentText !== "") {
-          lineElements.rowEdited = commentPrepend + commentFormatBefore + lineElements.commentText + commentFormatAfter + lineElements.zoteroBackLink;
-        }
       }
       noteElementsArray.push(lineElements);
     }
@@ -5155,7 +5309,7 @@ ${hashes} ` + lineElements.highlightText + lineElements.commentText + lineElemen
       }
       let endSaveOld = existingNote.length;
       if (endSave !== "") {
-        endSaveOld = existingNote.indexOf(endSave) - 1;
+        endSaveOld = existingNote.indexOf(endSave) + endSave.length;
       }
       if (endSaveOld < 0) {
         endSaveOld = existingNote.length;
@@ -5168,15 +5322,15 @@ ${hashes} ` + lineElements.highlightText + lineElements.commentText + lineElemen
       if (startSaveNew < 0) {
         startSaveNew = 0;
       }
-      let endSaveNew = newNote.length - 1;
+      let endSaveNew = newNote.length;
       if (endSave !== "") {
-        endSaveNew = newNote.indexOf(endSave) - 1;
+        endSaveNew = newNote.indexOf(endSave) + endSave.length;
       }
       if (endSaveNew < 0) {
-        endSaveNew = newNote.length - 1;
+        endSaveNew = newNote.length;
       }
       const newNotePreservedBefore = newNote.substring(0, startSaveNew);
-      const newNotePreservedAfter = newNote.substring(endSaveNew, newNote.length - 1);
+      const newNotePreservedAfter = newNote.substring(endSaveNew, newNote.length);
       const newNoteCombined = newNotePreservedBefore + existingNotePreserved + newNotePreservedAfter;
       return newNoteCombined;
     }

@@ -45,7 +45,7 @@ CUDA Compilation Trajectory
 ![](https://docs.nvidia.com/cuda/cuda-compiler-driver-nvcc/graphics/cuda-compilation-from-cu-to-executable.png)
 nvcc编译cuda代码的时候，Host和Device是分开进行的，nvcc --keep选项可以保存编译.cu的过程文件（如.ptx, .cubin等），PTX是每一个线程都需要执行的，我猜测需要执行该PTX的线程号是通过链接.cubin文件而分配的。具体需要参考和探索CUDA binary
 - [ ] 离线编译和在线编译参考[《CUDA C Programming Guide》(《CUDA C 编程指南》)导读 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/53773183)
-
+https://www.findhao.net/easycoding/2039.html
 
 # 环境搭建
 ![[插件用法#^bd19ab]]
@@ -64,4 +64,37 @@ nvprof 分析工具使您能够从命令行收集和查看分析数据。请注�
 
 
 [^1]: 参考https://www.cnblogs.com/1024incn/p/4537177.html
+
+
+
+# NVTX标签
+在nsys中显示的部分函数与原分析代码怎么对应起来呢？就可以采用打NVTX标签的方法：
+```C
+#include "nvToolsExt.h"
+...
+void myfunc(int n, double * x*)
+{
+	nvtxRangePushA("init_host_data");//你想标注的名字
+	//init x on host
+	init_host_data(n,x,x_d,y_d);
+	nvtxRangePop();
+}
+...
+```
+![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/NVTX%20instrumentation%20example.png)
+
+# NCU
+ ![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/nsight%20compute.png)
+可视化工具：nv-nsight-cu，命令行工具：nv-nsight-cu-cli
+用API stream做交互式分析
+![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/nvprof%20and%20ncu%20events.png)
+
+![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/nvprof%20and%20ncu%20metrics.png)
+
+### Speed of Light reports
+![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/sol%20sec%20compute%20bound.png)
+![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/SOL%20memory%20bound.png)
+![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/SOL%20latency%20bound.png)
+![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/SOL%20sections.png)
+![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/SOL%20Section%20Unit%20details.png)
 

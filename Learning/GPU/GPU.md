@@ -32,3 +32,10 @@ GPU具有更高的延迟和更多的线程，也就是说GPU相当于是**吞吐
 ![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/gpu%20cache.png)
 这里寄存器也作为Cache的一种，这是一个非常重要的GPU细节，寄存器需要更靠近内存并且需要足够大的内存空间来完成FLOPs请求，能做的内存操作与寄存器数量直接相关。A100 GPU原则上可以维持27兆的高速数据（如上图），这是A100中总寄存器的数量，可以存330万个双精度数据——我们可以看出GPU使用寄存器缓存数据来解决高延迟问题，以及通过靠近数据来减少延迟
 
+
+
+---
+
+强烈**不推荐**使用gpgpusim做实验。
+如果是改SASS，建议[maxas](https://github.com/NervanaSystems/maxas)或者asfermi（尽管他们可能会有这样那样的问题，而且使用起来难度不小）。使用模拟器，是被reviewer攻击的常用点，除非你有足够强有力的解释，否则这会成为你论文的掣肘。
+>https://www.findhao.net/easycoding/2471.html

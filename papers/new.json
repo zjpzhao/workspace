@@ -76,7 +76,10 @@
         7907,
         8418,
         8421,
-        8422
+        8422,
+        8593,
+        8595,
+        8596
       ],
       "key": "HMQVTZ7W",
       "name": "CUDA",
@@ -792,6 +795,45 @@
       "uri": "http://zotero.org/users/7659667/items/3PBS8V9V",
       "url": "https://ieeexplore.ieee.org/document/9505068/",
       "version": 2601
+    },
+    {
+      "attachments": [
+        {
+          "dateAdded": "2022-07-14T13:17:23Z",
+          "dateModified": "2022-07-14T13:17:30Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\2CGY7HIQ\\Nsight Compute Command Line Interface.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Nsight Compute Command Line Interface.pdf",
+          "uri": "http://zotero.org/users/7659667/items/2CGY7HIQ"
+        }
+      ],
+      "citationKey": "NsightComputeCommand",
+      "citekey": "NsightComputeCommand",
+      "creators": [],
+      "dateAdded": "2022-07-14T13:17:29Z",
+      "dateModified": "2022-07-14T13:17:29Z",
+      "itemID": 8595,
+      "itemKey": "3VLLCQ5H",
+      "itemType": "journalArticle",
+      "key": "3VLLCQ5H",
+      "language": "en",
+      "libraryCatalog": "Zotero",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "41",
+      "relations": [],
+      "select": "zotero://select/library/items/3VLLCQ5H",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Nsight Compute Command Line Interface",
+      "uri": "http://zotero.org/users/7659667/items/3VLLCQ5H",
+      "version": 3834
     },
     {
       "DOI": "10.1109/TVCG.2020.2994954",
@@ -1588,6 +1630,27 @@
       "uri": "http://zotero.org/users/7659667/items/7P3LUHQG",
       "url": "https://ieeexplore.ieee.org/document/9756720/",
       "version": 3056
+    },
+    {
+      "charset": "",
+      "contentType": "application/pdf",
+      "dateAdded": "2022-07-14T13:17:24Z",
+      "dateModified": "2022-07-14T13:17:24Z",
+      "defaultPath": "files/8593/NsightCompute.pdf",
+      "filename": "NsightCompute.pdf",
+      "itemID": 8593,
+      "itemKey": "7PEKCRXX",
+      "itemType": "attachment",
+      "key": "7PEKCRXX",
+      "libraryID": 1,
+      "linkMode": "imported_file",
+      "localPath": "D:\\Zotero\\storage\\7PEKCRXX\\NsightCompute.pdf",
+      "relations": [],
+      "select": "zotero://select/library/items/7PEKCRXX",
+      "tags": [],
+      "title": "NsightCompute.pdf",
+      "uri": "http://zotero.org/users/7659667/items/7PEKCRXX",
+      "version": 3835
     },
     {
       "DOI": "10.1016/j.future.2004.11.016",
@@ -3054,7 +3117,7 @@
       "title": "Understanding error propagation in deep learning neural network (DNN) accelerators and applications",
       "uri": "http://zotero.org/users/7659667/items/IT8IRRH9",
       "url": "https://dl.acm.org/doi/10.1145/3126908.3126964",
-      "version": 3662
+      "version": 3768
     },
     {
       "DOI": "10.1109/SC.2018.00011",
@@ -3202,6 +3265,45 @@
       "url": "https://dl.acm.org/doi/10.1145/3447375",
       "version": 3102,
       "volume": "5"
+    },
+    {
+      "attachments": [
+        {
+          "dateAdded": "2022-07-14T13:17:26Z",
+          "dateModified": "2022-07-14T13:17:32Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\RXVD6PWN\\Kernel Profiling Guide.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Kernel Profiling Guide.pdf",
+          "uri": "http://zotero.org/users/7659667/items/RXVD6PWN"
+        }
+      ],
+      "citationKey": "KernelProfilingGuide",
+      "citekey": "KernelProfilingGuide",
+      "creators": [],
+      "dateAdded": "2022-07-14T13:17:31Z",
+      "dateModified": "2022-07-14T13:17:32Z",
+      "itemID": 8596,
+      "itemKey": "J6THKMBD",
+      "itemType": "journalArticle",
+      "key": "J6THKMBD",
+      "language": "en",
+      "libraryCatalog": "Zotero",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "71",
+      "relations": [],
+      "select": "zotero://select/library/items/J6THKMBD",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Kernel Profiling Guide",
+      "uri": "http://zotero.org/users/7659667/items/J6THKMBD",
+      "version": 3834
     },
     {
       "DOI": "10.1016/j.aiopen.2021.01.001",
@@ -3717,7 +3819,7 @@
       ],
       "title": "SASSIFI: Evaluating Resilience of GPU Applications",
       "uri": "http://zotero.org/users/7659667/items/MR6XJDR5",
-      "version": 3662
+      "version": 3767
     },
     {
       "DOI": "10.1109/CCGrid49817.2020.00-82",
@@ -5482,7 +5584,7 @@
     }
   ],
   "version": {
-    "bbt": "6.7.15",
+    "bbt": "6.7.16",
     "zotero": "6.0.9"
   }
 }
