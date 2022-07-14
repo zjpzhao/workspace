@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "常用词汇",
+      "path": "papers/常用词汇.md"
+    },
+    {
       "basename": "Git",
       "path": "Learning/Git.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "常用缩写",
       "path": "papers/常用缩写.md"
-    },
-    {
-      "basename": "常用词汇",
-      "path": "papers/常用词汇.md"
     },
     {
       "basename": "CUDA",

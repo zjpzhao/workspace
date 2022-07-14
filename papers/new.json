@@ -1462,6 +1462,75 @@
       "version": 2571
     },
     {
+      "DOI": "10.1109/SC.2018.00070",
+      "ISBN": "978-1-5386-8384-2",
+      "accessDate": "2022-07-14T08:27:22Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-07-14T08:27:16Z",
+          "dateModified": "2022-07-14T08:27:23Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\UZ5SAULU\\Mahmoud et al. - 2018 - Optimizing Software-Directed Instruction Replicati.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Mahmoud et al. - 2018 - Optimizing Software-Directed Instruction Replicati.pdf",
+          "uri": "http://zotero.org/users/7659667/items/UZ5SAULU"
+        }
+      ],
+      "citationKey": "OptimizingSoftwareDirectedInstruction2018mahmoud",
+      "citekey": "OptimizingSoftwareDirectedInstruction2018mahmoud",
+      "conferenceName": "SC18: International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Abdulrahman",
+          "lastName": "Mahmoud"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Siva Kumar Sastry",
+          "lastName": "Hari"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michael B.",
+          "lastName": "Sullivan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Timothy",
+          "lastName": "Tsai"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Stephen W.",
+          "lastName": "Keckler"
+        }
+      ],
+      "date": "11/2018",
+      "dateAdded": "2022-07-14T08:27:22Z",
+      "dateModified": "2022-07-14T08:28:07Z",
+      "itemID": 8591,
+      "itemKey": "7EVJJVKA",
+      "itemType": "conferencePaper",
+      "key": "7EVJJVKA",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "842-854",
+      "place": "Dallas, TX, USA",
+      "publicationTitle": "SC18: International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/7EVJJVKA",
+      "tags": [],
+      "title": "Optimizing Software-Directed Instruction Replication for GPU Error Detection",
+      "uri": "http://zotero.org/users/7659667/items/7EVJJVKA",
+      "url": "https://ieeexplore.ieee.org/document/8665772/",
+      "version": 3830
+    },
+    {
       "DOI": "10.1109/PDP55904.2022.00025",
       "ISBN": "978-1-66546-958-6",
       "abstractNote": "As Graphics Processing Units (GPUs) have evolved to deliver performance increases for general-purpose computations as well as graphics and multimedia applications, soft error reliability becomes an important concern. The soft error vulnerability of the applications is evaluated via fault injection experiments. Since performing fault injection takes impractical times to cover the fault locations in complex GPU hardware structures, prediction-based techniques have been proposed to evaluate the soft error vulnerability of General-Purpose GPU (GPGPU) programs based on the hardware performance characteristics.",
@@ -4696,16 +4765,6 @@
     {
       "DOI": "10.1109/ICSE43902.2021.00114",
       "attachments": [
-        {
-          "dateAdded": "2022-05-08T14:30:29Z",
-          "dateModified": "2022-05-08T14:30:29Z",
-          "itemType": "attachment",
-          "path": "D:\\Zotero\\storage\\2RQIMHSJ\\Yang et al. - 2021 - Enabling Software Resilience in GPGPU Applications.pdf",
-          "relations": [],
-          "tags": [],
-          "title": "Submitted Version",
-          "uri": "http://zotero.org/users/7659667/items/2RQIMHSJ"
-        },
         {
           "dateAdded": "2022-05-08T14:30:03Z",
           "dateModified": "2022-05-08T14:30:04Z",
