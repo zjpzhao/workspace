@@ -219,7 +219,6 @@
       "items": [
         209,
         236,
-        249,
         7788,
         7791,
         7831,
@@ -227,7 +226,8 @@
         7887,
         7891,
         8453,
-        8526
+        8602,
+        8603
       ],
       "key": "W43MLK4H",
       "name": "Resilience",
@@ -623,6 +623,82 @@
       "title": "Parallel Thread Execution ISA",
       "uri": "http://zotero.org/users/7659667/items/2WPUCD43",
       "version": 3031
+    },
+    {
+      "DOI": "10.1109/ISPASS.2017.7975296",
+      "ISBN": "978-1-5386-3890-3",
+      "abstractNote": "As GPUs become more pervasive in both scalable high-performance computing systems and safety-critical embedded systems, evaluating and analyzing their resilience to soft errors caused by high-energy particle strikes will grow increasingly important. GPU designers must develop tools and techniques to understand the effect of these soft errors on applications. This paper presents an error injection-based methodology and tool called SASSIFI to study the soft error resilience of massively parallel applications running on stateof-the-art NVIDIA GPUs. Our approach uses a low-level assembly-language instrumentation tool called SASSI to proﬁle and inject errors. SASSI provides efﬁciency by allowing instrumentation code to execute entirely on the GPU and provides the ability to inject into different architecture-visible state. For example, SASSIFI can inject errors in general-purpose registers, GPU memory, condition code registers, and predicate registers. SASSIFI can also inject errors into addresses and register indices. In this paper, we describe the SASSIFI tool, its capabilities, and present experiments to illustrate some of the analyses SASSIFI can be used to perform.",
+      "accessDate": "2022-07-15T09:00:30Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-07-15T09:00:25Z",
+          "dateModified": "2022-07-15T09:00:32Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\J6W6YS5K\\Hari et al. - 2017 - SASSIFI An architecture-level fault injection too.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Hari et al. - 2017 - SASSIFI An architecture-level fault injection too.pdf",
+          "uri": "http://zotero.org/users/7659667/items/J6W6YS5K"
+        }
+      ],
+      "citationKey": "SASSIFIArchitecturelevelFault2017hari",
+      "citekey": "SASSIFIArchitecturelevelFault2017hari",
+      "conferenceName": "2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Siva Kumar Sastry",
+          "lastName": "Hari"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Timothy",
+          "lastName": "Tsai"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mark",
+          "lastName": "Stephenson"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Stephen W.",
+          "lastName": "Keckler"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Joel",
+          "lastName": "Emer"
+        }
+      ],
+      "date": "4/2017",
+      "dateAdded": "2022-07-15T09:00:30Z",
+      "dateModified": "2022-07-15T09:00:31Z",
+      "itemID": 8602,
+      "itemKey": "38I2X4ZP",
+      "itemType": "conferencePaper",
+      "key": "38I2X4ZP",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "249-258",
+      "place": "Santa Rosa, CA, USA",
+      "publicationTitle": "2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/38I2X4ZP",
+      "shortTitle": "SASSIFI",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "SASSIFI: An architecture-level fault injection tool for GPU application resilience evaluation",
+      "uri": "http://zotero.org/users/7659667/items/38I2X4ZP",
+      "url": "http://ieeexplore.ieee.org/document/7975296/",
+      "version": 3881
     },
     {
       "DOI": "10.1145/3447818.3460364",
@@ -2284,6 +2360,49 @@
       "version": 3459
     },
     {
+      "attachments": [
+        {
+          "dateAdded": "2022-03-29T02:19:00Z",
+          "dateModified": "2022-07-15T09:02:32Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\EWSZML69\\面向 GPGPU 体系结构的软错误弹性分析与容错策略研究.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "面向 GPGPU 体系结构的软错误弹性分析与容错策略研究.pdf",
+          "uri": "http://zotero.org/users/7659667/items/EWSZML69"
+        }
+      ],
+      "citationKey": "MianXiangGPGPUTiXiJieGouDeRuanCuoWuDanXingFenXiYuRongCuoCeLueYanJiu2022yue",
+      "citekey": "MianXiangGPGPUTiXiJieGouDeRuanCuoWuDanXingFenXiYuRongCuoCeLueYanJiu2022yue",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Hengshan",
+          "lastName": "Yue"
+        }
+      ],
+      "date": "2022",
+      "dateAdded": "2022-07-15T09:01:27Z",
+      "dateModified": "2022-07-15T09:02:24Z",
+      "itemID": 8603,
+      "itemKey": "CFFI8KM2",
+      "itemType": "document",
+      "key": "CFFI8KM2",
+      "libraryID": 1,
+      "notes": [],
+      "relations": [],
+      "select": "zotero://select/library/items/CFFI8KM2",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "面向 GPGPU 体系结构的软错误弹性分析与容错策略研究",
+      "uri": "http://zotero.org/users/7659667/items/CFFI8KM2",
+      "version": 3891
+    },
+    {
       "abstractNote": "The graph convolutional networks (GCN) recently proposed by Kipf and Welling are an effective graph model for semi-supervised learning. This model, however, was originally designed to be learned with the presence of both training and test data. Moreover, the recursive neighborhood expansion across layers poses time and memory challenges for training with large, dense graphs. To relax the requirement of simultaneous availability of test data, we interpret graph convolutions as integral transforms of embedding functions under probability measures. Such an interpretation allows for the use of Monte Carlo approaches to consistently estimate the integrals, which in turn leads to a batched training scheme as we propose in this work—FastGCN. Enhanced with importance sampling, FastGCN not only is efﬁcient for training but also generalizes well for inference. We show a comprehensive set of experiments to demonstrate its effectiveness compared with GCN and related models. In particular, training is orders of magnitude more efﬁcient while predictions remain comparably accurate.",
       "attachments": [
         {
@@ -2389,7 +2508,7 @@
       ],
       "date": "2021-02-17",
       "dateAdded": "2022-04-30T12:53:50Z",
-      "dateModified": "2022-07-15T08:40:15Z",
+      "dateModified": "2022-07-15T08:52:40Z",
       "itemID": 7887,
       "itemKey": "DHK2BJGG",
       "itemType": "conferencePaper",
@@ -2406,13 +2525,16 @@
       "select": "zotero://select/library/items/DHK2BJGG",
       "tags": [
         {
+          "tag": "⭐"
+        },
+        {
           "tag": "Monotonic"
         }
       ],
       "title": "Understanding a program's resiliency through error propagation",
       "uri": "http://zotero.org/users/7659667/items/DHK2BJGG",
       "url": "https://dl.acm.org/doi/10.1145/3437801.3441589",
-      "version": 3874
+      "version": 3879
     },
     {
       "DOI": "10.1109/MICRO.2018.00066",
@@ -2640,27 +2762,6 @@
       "uri": "http://zotero.org/users/7659667/items/EJ3XLIZG",
       "url": "http://dl.acm.org/citation.cfm?id=3291748",
       "version": 2602
-    },
-    {
-      "charset": "",
-      "contentType": "application/pdf",
-      "dateAdded": "2022-03-29T02:19:00Z",
-      "dateModified": "2022-04-17T10:16:19Z",
-      "defaultPath": "files/249/面向 GPGPU 体系结构的软错误弹性分析与容错策略研究.pdf",
-      "filename": "面向 GPGPU 体系结构的软错误弹性分析与容错策略研究.pdf",
-      "itemID": 249,
-      "itemKey": "EWSZML69",
-      "itemType": "attachment",
-      "key": "EWSZML69",
-      "libraryID": 1,
-      "linkMode": "imported_file",
-      "localPath": "D:\\Zotero\\storage\\EWSZML69\\面向 GPGPU 体系结构的软错误弹性分析与容错策略研究.pdf",
-      "relations": [],
-      "select": "zotero://select/library/items/EWSZML69",
-      "tags": [],
-      "title": "面向 GPGPU 体系结构的软错误弹性分析与容错策略研究.pdf",
-      "uri": "http://zotero.org/users/7659667/items/EWSZML69",
-      "version": 730
     },
     {
       "ISBN": "978-1-4673-0805-2 978-1-4673-0806-9",
@@ -3826,72 +3927,6 @@
       "uri": "http://zotero.org/users/7659667/items/M3KD8MK6",
       "url": "http://ieeexplore.ieee.org/document/7877163/",
       "version": 731
-    },
-    {
-      "abstractNote": "As GPUs become more pervasive in both scalable high-performance computing systems and safety-critical embedded systems, evaluating and analyzing their resilience will grow increasingly important. As soft errors, such as those caused by high-energy particle strikes, form an important fraction of in-ﬁeld hardware errors, GPU designers must develop tools and techniques to understand the effect of these soft errors on applications. This paper presents an error injection-based methodology to study the soft-error resilience of massively parallel applications running on state-of-the-art NVIDIA GPUs. Our approach uses a low-level assembly-language instrumentation tool called SASSI to proﬁle and inject errors. SASSI provides efﬁciency by allowing instrumentation code to execute entirely on the GPU and provides the ability to inject into condition code and predicate registers, in addition to general-purpose registers and GPU memory. This paper describes our error injection tool and presents some experiments to illustrate some possible lines of analysis. We injected errors into Rodinia benchmark applications and provide results from those experiments showing average detected and silent error probabilities for applications, static kernels, and dynamic kernel invocations. For applications with multiple invocations of the same static kernel, we also show how our tool can be used to study error propagation as a function of the injection time. We also study the effect of errors on condition code and predicate registers.",
-      "attachments": [
-        {
-          "dateAdded": "2022-07-09T08:25:42Z",
-          "dateModified": "2022-07-09T08:25:47Z",
-          "itemType": "attachment",
-          "path": "D:\\Zotero\\storage\\4HQKBAG9\\Hari et al. - SASSIFI Evaluating Resilience of GPU Applications.pdf",
-          "relations": [],
-          "tags": [],
-          "title": "Hari et al. - SASSIFI Evaluating Resilience of GPU Applications.pdf",
-          "uri": "http://zotero.org/users/7659667/items/4HQKBAG9"
-        }
-      ],
-      "citationKey": "SASSIFIEvaluatingResiliencehari",
-      "citekey": "SASSIFIEvaluatingResiliencehari",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Siva Kumar Sastry",
-          "lastName": "Hari"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Timothy",
-          "lastName": "Tsai"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Mark",
-          "lastName": "Stephenson"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Stephen W",
-          "lastName": "Keckler"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Joel",
-          "lastName": "Emer"
-        }
-      ],
-      "dateAdded": "2022-07-09T08:25:46Z",
-      "dateModified": "2022-07-10T08:00:34Z",
-      "itemID": 8526,
-      "itemKey": "MR6XJDR5",
-      "itemType": "journalArticle",
-      "key": "MR6XJDR5",
-      "language": "en",
-      "libraryCatalog": "Zotero",
-      "libraryID": 1,
-      "notes": [],
-      "pages": "6",
-      "relations": [],
-      "select": "zotero://select/library/items/MR6XJDR5",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
-      "title": "SASSIFI: Evaluating Resilience of GPU Applications",
-      "uri": "http://zotero.org/users/7659667/items/MR6XJDR5",
-      "version": 3767
     },
     {
       "DOI": "10.1109/CCGrid49817.2020.00-82",

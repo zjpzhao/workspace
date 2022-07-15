@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Learning/Python/Python.md",
+            "file": "papers/常用词汇.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/Python/Python.md"
+                "file": "papers/常用词汇.md"
               }
             }
           }
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/Python/Python.md",
+                "file": "papers/常用词汇.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/Python/Python.md",
+                "file": "papers/常用词汇.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,8 +177,8 @@
   },
   "active": "b11406fd7ab6dce1",
   "lastOpenFiles": [
-    "util/常用指令.md",
     "Learning/Python/Python.md",
+    "util/常用指令.md",
     "Learning/GPU/CUDA.md",
     "Learning/GPU/GPU.md",
     "papers/常用词汇.md",
