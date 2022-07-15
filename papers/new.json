@@ -39,7 +39,8 @@
         7853,
         7884,
         7887,
-        8527
+        8527,
+        8600
       ],
       "key": "89K6PZVW",
       "name": "Error Propagation",
@@ -407,6 +408,86 @@
       "uri": "http://zotero.org/users/7659667/items/2AUJKQMF",
       "url": "https://ieeexplore.ieee.org/document/9138922/",
       "version": 730
+    },
+    {
+      "DOI": "10.1145/3385412.3386033",
+      "ISBN": "978-1-4503-7613-6",
+      "abstractNote": "This paper presents Penny, a compiler-directed resilience scheme for protecting GPU register files (RF) against soft errors. Penny replaces the conventional error correction code (ECC) based RF protection by using less expensive error detection code (EDC) along with idempotence based recovery. Compared to the ECC protection, Penny can achieve either the same level of RF resilience yet with significantly lower hardware costs or stronger resilience using the same ECC due to its ability to detect multi-bit errors when it is used solely for detection. In particular, to address the lack of store buffers in GPUs, which causes both checkpoint storage overwriting and the high cost of checkpointing stores, Penny provides several compiler optimizations such as storage coloring and checkpoint pruning. Across 25 benchmark applications, Penny causes only ≈3% run-time overhead on average.",
+      "accessDate": "2022-07-15T08:26:36Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-07-15T08:26:28Z",
+          "dateModified": "2022-07-15T08:26:38Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\U3FC25UY\\Kim et al. - 2020 - Compiler-directed soft error resilience for lightw.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Kim et al. - 2020 - Compiler-directed soft error resilience for lightw.pdf",
+          "uri": "http://zotero.org/users/7659667/items/U3FC25UY"
+        }
+      ],
+      "citationKey": "CompilerdirectedSoftError2020kim",
+      "citekey": "CompilerdirectedSoftError2020kim",
+      "conferenceName": "PLDI '20: 41st ACM SIGPLAN International Conference on Programming Language Design and Implementation",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Hongjune",
+          "lastName": "Kim"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jianping",
+          "lastName": "Zeng"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Qingrui",
+          "lastName": "Liu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mohammad",
+          "lastName": "Abdel-Majeed"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jaejin",
+          "lastName": "Lee"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Changhee",
+          "lastName": "Jung"
+        }
+      ],
+      "date": "2020-06-11",
+      "dateAdded": "2022-07-15T08:26:36Z",
+      "dateModified": "2022-07-15T08:26:37Z",
+      "itemID": 8600,
+      "itemKey": "2DSYY8HI",
+      "itemType": "conferencePaper",
+      "key": "2DSYY8HI",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "989-1004",
+      "place": "London UK",
+      "publicationTitle": "Proceedings of the 41st ACM SIGPLAN Conference on Programming Language Design and Implementation",
+      "publisher": "ACM",
+      "relations": [],
+      "select": "zotero://select/library/items/2DSYY8HI",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Compiler-directed soft error resilience for lightweight GPU register file protection",
+      "uri": "http://zotero.org/users/7659667/items/2DSYY8HI",
+      "url": "https://dl.acm.org/doi/10.1145/3385412.3386033",
+      "version": 3856
     },
     {
       "attachments": [
@@ -2308,7 +2389,7 @@
       ],
       "date": "2021-02-17",
       "dateAdded": "2022-04-30T12:53:50Z",
-      "dateModified": "2022-05-11T06:38:18Z",
+      "dateModified": "2022-07-15T08:40:15Z",
       "itemID": 7887,
       "itemKey": "DHK2BJGG",
       "itemType": "conferencePaper",
@@ -2325,17 +2406,13 @@
       "select": "zotero://select/library/items/DHK2BJGG",
       "tags": [
         {
-          "tag": "/unread",
-          "type": 1
-        },
-        {
           "tag": "Monotonic"
         }
       ],
       "title": "Understanding a program's resiliency through error propagation",
       "uri": "http://zotero.org/users/7659667/items/DHK2BJGG",
       "url": "https://dl.acm.org/doi/10.1145/3437801.3441589",
-      "version": 2491
+      "version": 3874
     },
     {
       "DOI": "10.1109/MICRO.2018.00066",
@@ -3093,7 +3170,7 @@
       ],
       "date": "2017-11-12",
       "dateAdded": "2022-07-09T08:07:48Z",
-      "dateModified": "2022-07-10T08:00:34Z",
+      "dateModified": "2022-07-15T08:33:57Z",
       "itemID": 8527,
       "itemKey": "IT8IRRH9",
       "itemType": "conferencePaper",
@@ -3108,12 +3185,7 @@
       "publisher": "ACM",
       "relations": [],
       "select": "zotero://select/library/items/IT8IRRH9",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
+      "tags": [],
       "title": "Understanding error propagation in deep learning neural network (DNN) accelerators and applications",
       "uri": "http://zotero.org/users/7659667/items/IT8IRRH9",
       "url": "https://dl.acm.org/doi/10.1145/3126908.3126964",
@@ -4905,7 +4977,7 @@
       ],
       "date": "2021",
       "dateAdded": "2022-05-08T14:29:02Z",
-      "dateModified": "2022-07-08T08:23:12Z",
+      "dateModified": "2022-07-15T08:39:50Z",
       "itemID": 7831,
       "itemKey": "VDFASSWC",
       "itemType": "conferencePaper",
@@ -4922,16 +4994,19 @@
       "select": "zotero://select/library/items/VDFASSWC",
       "tags": [
         {
-          "tag": "GPU"
-        },
-        {
           "tag": "⭐"
         },
         {
           "tag": "Error Resilience"
         },
         {
+          "tag": "GPU"
+        },
+        {
           "tag": "Reliability"
+        },
+        {
+          "tag": "Thread Remapping"
         },
         {
           "tag": "Warp Protection"
@@ -4939,7 +5014,7 @@
       ],
       "title": "Enabling Software Resilience in GPGPU Applications via Partial Thread Protection",
       "uri": "http://zotero.org/users/7659667/items/VDFASSWC",
-      "version": 3487
+      "version": 3873
     },
     {
       "abstractNote": "Question Answering (QA) has been a long-standing research topic in AI and NLP ﬁelds, and a wealth of studies have been conducted to attempt to equip QA systems with human-level reasoning capability. To approximate the complicated human reasoning process, state-of-the-art QA systems commonly use pre-trained language models (LMs) to access knowledge encoded in LMs together with elaborately designed modules based on Graph Neural Networks (GNNs) to perform reasoning over knowledge graphs (KGs). However, many problems remain open regarding the reasoning functionality of these GNN-based modules. Can these GNN-based modules really perform a complex reasoning process? Are they under- or overcomplicated for QA? To open the black box of GNN and investigate these problems, we dissect state-of-the-art GNN modules for QA and analyze their reasoning capability. We discover that even a very simple graph neural counter can outperform all the existing GNN modules on CommonsenseQA and OpenBookQA, two popular QA benchmark datasets which heavily rely on knowledge-aware reasoning. Our work reveals that existing knowledge-aware GNN modules may only carry out some simple reasoning such as counting. It remains a challenging open problem to build comprehensive reasoning modules for knowledge-powered QA.",
