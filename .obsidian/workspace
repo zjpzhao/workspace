@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Learning/GPU/CUDA.md",
+            "file": "Learning/Python/Python.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -67,7 +67,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "e9d25589cbee286f",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/GPU/CUDA.md"
+                "file": "Learning/Python/Python.md"
               }
             }
           }
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/GPU/CUDA.md",
+                "file": "Learning/Python/Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/GPU/CUDA.md",
+                "file": "Learning/Python/Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,15 +177,15 @@
   },
   "active": "b11406fd7ab6dce1",
   "lastOpenFiles": [
-    "Learning/GPU/GPU.md",
+    "util/常用指令.md",
+    "Learning/Python/Python.md",
     "Learning/GPU/CUDA.md",
+    "Learning/GPU/GPU.md",
     "papers/常用词汇.md",
     "Learning/Git.md",
     "Learning/内网穿透.md",
     "Learning/Docker.md",
     "util/Obsidian.md",
-    "papers/My DATE or DAC 2023.md",
-    "Learning/Python/Code_位翻转.md",
-    "Learning/Python/Python.md"
+    "papers/My DATE or DAC 2023.md"
   ]
 }

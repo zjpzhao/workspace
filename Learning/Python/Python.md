@@ -127,6 +127,7 @@ pdflist=glob.glob("*\\*.pdf", root_dir=".\\Zotero\\storage\\", recursive=True)
 ## 2.列举当前文件夹下所有文件（夹）名
 采用os.walk()函数
 ```python
+path="."
 # 文件
 _, _, filenames = next(os.walk(path), (None, None, []))
 
@@ -142,7 +143,31 @@ list = glob.glob('.\**', recursive=True)
 ```
 参考[link](https://www.geeksforgeeks.org/how-to-use-glob-function-to-find-files-recursively-in-python/)
 
-## 3. excel读操作
+---
+
+## 3. 将当前文件夹下所有pdf文件放到对应的子文件夹中
+文件结构形如：
+![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/tree%E8%BE%93%E5%87%BA%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84.png)
+```python
+import os
+import glob
+import shutil
+# 采用glob.glob()函数
+# pdflist=glob.glob(".\\**\\*.pdf",recursive=True)
+_, dirnames, _ = next(os.walk("."), (None, [], None))
+# print(dirnames)
+for subfolder in dirnames:
+    # print(subfolder)
+    pdflist=glob.glob(".\\"+subfolder+"\\**\\*.pdf",recursive=True)
+    # print(pdflist)
+    for item in pdflist:
+        name=item.split("\\")[-1]
+        shutil.move(item,".\\"+subfolder+"\\"+name)```
+
+
+---
+
+## 4. excel读操作
 ```python
 import xlrd
 checked_students=set()
