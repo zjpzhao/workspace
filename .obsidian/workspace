@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "编译",
+                "query": "tag:#回到上次所在目录，这个技巧我原来还真是不知道，感觉还是比较有用，省略了很多输入",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -67,7 +67,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "e9d25589cbee286f",
@@ -175,7 +175,7 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "b11406fd7ab6dce1",
+  "active": "0222d5c231615f0d",
   "lastOpenFiles": [
     "papers/常用词汇.md",
     "Learning/Python/Python.md",
