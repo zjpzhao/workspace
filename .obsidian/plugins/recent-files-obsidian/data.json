@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "常用指令",
+      "path": "util/常用指令.md"
+    },
+    {
       "basename": "常用词汇",
       "path": "papers/常用词汇.md"
     },
     {
       "basename": "Python",
       "path": "Learning/Python/Python.md"
-    },
-    {
-      "basename": "常用指令",
-      "path": "util/常用指令.md"
     },
     {
       "basename": "CUDA",
