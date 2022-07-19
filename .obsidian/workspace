@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "util/常用指令.md",
+            "file": "Learning/Git.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#回到上次所在目录，这个技巧我原来还真是不知道，感觉还是比较有用，省略了很多输入",
+                "query": "权",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -67,7 +67,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "e9d25589cbee286f",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "util/常用指令.md"
+                "file": "Learning/Git.md"
               }
             }
           }
@@ -96,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 458
+    "width": 458,
+    "collapsed": true
   },
   "right": {
     "id": "15dd14e7068b76d4",
@@ -112,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "util/常用指令.md",
+                "file": "Learning/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "util/常用指令.md",
+                "file": "Learning/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,17 +174,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "0222d5c231615f0d",
+  "active": "b11406fd7ab6dce1",
   "lastOpenFiles": [
-    "papers/常用词汇.md",
-    "Learning/Python/Python.md",
     "util/常用指令.md",
+    "papers/常用词汇.md",
+    "Learning/内网穿透.md",
+    "Learning/Python/Python.md",
     "Learning/GPU/CUDA.md",
     "Learning/GPU/GPU.md",
     "Learning/Git.md",
-    "Learning/内网穿透.md",
     "Learning/Docker.md",
     "util/Obsidian.md",
     "papers/My DATE or DAC 2023.md"

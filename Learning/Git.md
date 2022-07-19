@@ -61,12 +61,18 @@ springboot vue stars:>1000 pushed:>2022-05-02 language:Java
 ---
 
 # Gitee
+
+---
+
 ## 强制同步Github仓库到Gitee同名仓库
 ![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/%E5%BC%BA%E5%88%B6%E5%90%8C%E6%AD%A5Github%E4%BB%93%E5%BA%93%E5%88%B0Gitee%E5%90%8C%E5%90%8D%E4%BB%93%E5%BA%93.png)
+
+---
 
 ## Gitee与Github仓库双向同步
 参考<https://gitee.com/help/articles/4336>和<https://blog.csdn.net/yi_rui_jie/article/details/111357163>
 
+---
 
 ## Gitee repo init
 ### A simple command-line tutorial:
@@ -88,9 +94,13 @@ git remote add origin https://gitee.com/simonhouhou/my-book-notes.git
 git push -u origin "master"
 ```
 
-#### Existing repository?
+#### Existing local folder
+现在gitee上新建一个repo
 ```bash
 cd existing_git_repo
+git init
+git add .
+git commit -m "first commit"
 git remote add origin https://gitee.com/simonhouhou/my-book-notes.git
 git push -u origin "master"
 ```

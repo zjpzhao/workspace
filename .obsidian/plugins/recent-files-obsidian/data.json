@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Git",
+      "path": "Learning/Git.md"
+    },
+    {
       "basename": "常用指令",
       "path": "util/常用指令.md"
     },
     {
       "basename": "常用词汇",
       "path": "papers/常用词汇.md"
+    },
+    {
+      "basename": "内网穿透",
+      "path": "Learning/内网穿透.md"
     },
     {
       "basename": "Python",
@@ -19,14 +27,6 @@
     {
       "basename": "GPU",
       "path": "Learning/GPU/GPU.md"
-    },
-    {
-      "basename": "Git",
-      "path": "Learning/Git.md"
-    },
-    {
-      "basename": "内网穿透",
-      "path": "Learning/内网穿透.md"
     },
     {
       "basename": "Docker",
