@@ -29,6 +29,13 @@ git commit --amend
 
 ---
 
+## 使用git总是要输入账号密码的解决方案
+```bash
+git config --global credential.helper store
+```
+
+---
+
 # Github
 
 ## Github高级搜索

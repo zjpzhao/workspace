@@ -1735,8 +1735,7 @@ function createLocalFileLink(reference2) {
     if (reference2.attachments[attachmentindex].path == void 0) {
       reference2.attachments[attachmentindex].path = "";
     }
-    const attachmentPathCorrected = reference2.attachments[attachmentindex].path.replaceAll(" ", "%20");
-    const selectedfile = "[" + reference2.attachments[attachmentindex].title + "](file://" + encodeURI(attachmentPathCorrected) + ")";
+    const selectedfile = "[" + reference2.attachments[attachmentindex].title + "](file://" + encodeURI(reference2.attachments[attachmentindex].path) + ")";
     filesList.push(selectedfile);
   }
   const filesListString = filesList.join("; ");
@@ -1829,6 +1828,7 @@ var fuzzySelectEntryFromJson = class extends import_obsidian2.FuzzySuggestModal 
       if (import_obsidian2.Platform.isDesktopApp) {
         this.focusInput();
       }
+      this.plugin.checkSQLite();
       const rawdata = fs.readFileSync(this.app.vault.adapter.getBasePath() + "/" + this.plugin.settings.bibPath);
       const data = JSON.parse(rawdata.toString());
       const bibtexArray = [];
@@ -4302,7 +4302,9 @@ var MyPlugin = class extends import_obsidian6.Plugin {
     }
     if (selectedEntry.hasOwnProperty("select")) {
       selectedEntry.localLibrary = "[Zotero](" + selectedEntry.select + ")";
-      selectedEntry.localLibraryLink = "(" + selectedEntry.select + ")";
+      selectedEntry.localLibraryLink = selectedEntry.select;
+      console.log(selectedEntry.localLibrary);
+      console.log(selectedEntry.localLibraryLink);
     }
     selectedEntry.file = createLocalFileLink(selectedEntry);
     const entriesArray = Object.keys(selectedEntry);
@@ -4481,7 +4483,6 @@ var MyPlugin = class extends import_obsidian6.Plugin {
     const noteElements = [];
     const lengthLines = Object.keys(lines).length;
     for (let indexLines = 1; indexLines < lengthLines; indexLines++) {
-      console.log("indexLines: " + indexLines);
       const selectedLineOriginal = unescape(lines[indexLines]);
       let selectedLine = String(selectedLineOriginal.replace(/<\/?[^>]+(>|$)/g, ""));
       selectedLine = replaceTemplate(selectedLine, "`", "'");
@@ -4541,7 +4542,6 @@ var MyPlugin = class extends import_obsidian6.Plugin {
           lineElements.pageLabel = Number(pageLabel);
         }
       }
-      console.log(selectedLineOriginal);
       if (/attachmentURI":"http:\/\/zotero\.org\/users\/\d+\/items\/\w+/gm.test(selectedLineOriginal)) {
         let attachmentURI = String(selectedLineOriginal.match(/attachmentURI":"http:\/\/zotero\.org\/users\/\d+\/items\/\w+/gm));
         if (attachmentURI === null) {
@@ -4855,7 +4855,6 @@ var MyPlugin = class extends import_obsidian6.Plugin {
       for (let index = 0; index < TempTag.length; index++) {
         TempTag[index] = TempTag[index].replace("##", "#");
       }
-      console.log(TempTag);
       const TempTagNoPrepend = lineElements.inlineTagsArray.map((i2) => tagFormatBefore + i2 + tagFormatAfter);
       for (let index = 0; index < TempTagNoPrepend.length; index++) {
         TempTagNoPrepend[index] = TempTagNoPrepend[index].replace("##", "#");
@@ -5424,6 +5423,8 @@ var MyPlugin = class extends import_obsidian6.Plugin {
         console.log(err);
     });
     new import_obsidian6.Notice(`Imported ${selectedEntry.citationKey}!`);
+  }
+  checkSQLite() {
   }
 };
 /*!
