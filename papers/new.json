@@ -10,15 +10,6 @@
       "name": "My Notes",
       "parent": ""
     },
-    "54V62H83": {
-      "collections": [],
-      "items": [
-        7911
-      ],
-      "key": "54V62H83",
-      "name": "Marx",
-      "parent": "YXK8S2C9"
-    },
     "89K6PZVW": {
       "collections": [],
       "items": [
@@ -40,6 +31,7 @@
         7884,
         7887,
         8527,
+        8591,
         8600
       ],
       "key": "89K6PZVW",
@@ -106,7 +98,8 @@
         8497,
         8498,
         8543,
-        8545
+        8545,
+        8657
       ],
       "key": "JNY8VHWT",
       "name": "GNN",
@@ -156,9 +149,9 @@
       "items": [
         107,
         116,
-        7791,
         7793,
-        7855
+        7855,
+        8605
       ],
       "key": "Q7FV3VXB",
       "name": "Inputs Related",
@@ -207,7 +200,6 @@
         7844,
         7851,
         7870,
-        7872,
         7894
       ],
       "key": "VK6XIGJC",
@@ -220,8 +212,8 @@
         209,
         236,
         7788,
-        7791,
         7831,
+        7872,
         7879,
         7887,
         7891,
@@ -230,7 +222,16 @@
         8603
       ],
       "key": "W43MLK4H",
-      "name": "Resilience",
+      "name": "Resilience Analyzing",
+      "parent": ""
+    },
+    "W6B62HNX": {
+      "collections": [],
+      "items": [
+        8606
+      ],
+      "key": "W6B62HNX",
+      "name": "Approximate Computing",
       "parent": ""
     },
     "YXK8S2C9": {
@@ -239,7 +240,6 @@
         "HMQVTZ7W",
         "NTN23YJ8",
         "TSDC4869",
-        "54V62H83",
         "IMDBXX2S"
       ],
       "items": [],
@@ -590,7 +590,7 @@
       "title": "SDCTune: a model for predicting the SDC proneness of an application for configurable protection",
       "uri": "http://zotero.org/users/7659667/items/2Q2KRCHG",
       "url": "https://dl.acm.org/doi/10.1145/2656106.2656127",
-      "version": 2431
+      "version": 3751
     },
     {
       "attachments": [
@@ -883,7 +883,7 @@
       "title": "ACE-HGNN: Adaptive Curvature Exploration Hyperbolic Graph Neural Network",
       "uri": "http://zotero.org/users/7659667/items/3DR7AIPE",
       "url": "https://ieeexplore.ieee.org/document/9679192/",
-      "version": 3018
+      "version": 3396
     },
     {
       "DOI": "10.1109/DSN48987.2021.00041",
@@ -1118,7 +1118,7 @@
       ],
       "date": "7/2020",
       "dateAdded": "2022-07-12T08:47:02Z",
-      "dateModified": "2022-07-12T08:47:03Z",
+      "dateModified": "2022-07-14T08:44:17Z",
       "itemID": 8545,
       "itemKey": "4WW3RDJK",
       "itemType": "conferencePaper",
@@ -1134,16 +1134,11 @@
       "relations": [],
       "select": "zotero://select/library/items/4WW3RDJK",
       "shortTitle": "GRANNITE",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
+      "tags": [],
       "title": "GRANNITE: Graph Neural Network Inference for Transferable Power Estimation",
       "uri": "http://zotero.org/users/7659667/items/4WW3RDJK",
       "url": "https://ieeexplore.ieee.org/document/9218643/",
-      "version": 3764
+      "version": 3833
     },
     {
       "DOI": "10.1145/3339363.3339382",
@@ -1335,94 +1330,8 @@
       "title": "Practical Resilience Analysis of GPGPU Applications in the Presence of Single- and Multi-Bit Faults",
       "uri": "http://zotero.org/users/7659667/items/66MG5YLJ",
       "url": "https://ieeexplore.ieee.org/document/9035460/",
-      "version": 3076,
+      "version": 3499,
       "volume": "70"
-    },
-    {
-      "DOI": "10.1145/3503221.3508414",
-      "attachments": [
-        {
-          "dateAdded": "2022-05-08T02:33:03Z",
-          "dateModified": "2022-05-08T02:33:44Z",
-          "itemType": "attachment",
-          "path": "D:\\Zotero\\storage\\4MN3LIKW\\Huang et al_2022_Hardening selective protection across multiple program inputs for HPC.pdf",
-          "relations": [],
-          "tags": [],
-          "title": "Huang et al_2022_Hardening selective protection across multiple program inputs for HPC.pdf",
-          "uri": "http://zotero.org/users/7659667/items/4MN3LIKW"
-        }
-      ],
-      "citationKey": "HardeningSelectiveProtection2022huang",
-      "citekey": "HardeningSelectiveProtection2022huang",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Yafan",
-          "lastName": "Huang"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Shengjian",
-          "lastName": "Guo"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Sheng",
-          "lastName": "Di"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Guanpeng",
-          "lastName": "Li"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Franck",
-          "lastName": "Cappello"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Jaejin",
-          "lastName": "Lee"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Kunal",
-          "lastName": "Agrawal"
-        },
-        {
-          "creatorType": "editor",
-          "firstName": "Michael F.",
-          "lastName": "Spear"
-        }
-      ],
-      "date": "2022",
-      "dateAdded": "2022-04-30T13:06:50Z",
-      "dateModified": "2022-06-22T01:53:22Z",
-      "itemID": 7791,
-      "itemKey": "6CKDY9TW",
-      "itemType": "conferencePaper",
-      "key": "6CKDY9TW",
-      "libraryCatalog": "DBLP Computer Science Bibliography",
-      "libraryID": 1,
-      "notes": [],
-      "pages": "437–438",
-      "publicationTitle": "PPoPP '22: 27th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming, Seoul, Republic of Korea, April 2 - 6, 2022",
-      "publisher": "ACM",
-      "relations": [],
-      "select": "zotero://select/library/items/6CKDY9TW",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        },
-        {
-          "tag": "Program Input"
-        }
-      ],
-      "title": "Hardening selective protection across multiple program inputs for HPC applications",
-      "uri": "http://zotero.org/users/7659667/items/6CKDY9TW",
-      "version": 3127
     },
     {
       "DOI": "10.1109/SC.2014.62",
@@ -1727,7 +1636,7 @@
       "title": "Optimizing Software-Directed Instruction Replication for GPU Error Detection",
       "uri": "http://zotero.org/users/7659667/items/7EVJJVKA",
       "url": "https://ieeexplore.ieee.org/document/8665772/",
-      "version": 3830
+      "version": 3896
     },
     {
       "DOI": "10.1109/PDP55904.2022.00025",
@@ -1786,7 +1695,7 @@
       "title": "Predicting the Soft Error Vulnerability of GPGPU Applications",
       "uri": "http://zotero.org/users/7659667/items/7P3LUHQG",
       "url": "https://ieeexplore.ieee.org/document/9756720/",
-      "version": 3056
+      "version": 3472
     },
     {
       "charset": "",
@@ -2143,6 +2052,77 @@
       "version": 2219
     },
     {
+      "abstractNote": "We present graph attention networks (GATs), novel neural network architectures that operate on graph-structured data, leveraging masked self-attentional layers to address the shortcomings of prior methods based on graph convolutions or their approximations. By stacking layers in which nodes are able to attend over their neighborhoods’ features, we enable (implicitly) specifying different weights to different nodes in a neighborhood, without requiring any kind of costly matrix operation (such as inversion) or depending on knowing the graph structure upfront. In this way, we address several key challenges of spectral-based graph neural networks simultaneously, and make our model readily applicable to inductive as well as transductive problems. Our GAT models have achieved or matched state-of-theart results across four established transductive and inductive graph benchmarks: the Cora, Citeseer and Pubmed citation network datasets, as well as a proteinprotein interaction dataset (wherein test graphs remain unseen during training).",
+      "accessDate": "2022-07-20T08:06:12Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-07-20T08:06:06Z",
+          "dateModified": "2022-07-20T08:06:14Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\Q9EDUCZI\\Veličković et al. - 2018 - Graph Attention Networks.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Veličković et al. - 2018 - Graph Attention Networks.pdf",
+          "uri": "http://zotero.org/users/7659667/items/Q9EDUCZI"
+        }
+      ],
+      "citationKey": "GraphAttentionNetworks2018velickovic",
+      "citekey": "GraphAttentionNetworks2018velickovic",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Petar",
+          "lastName": "Veličković"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Guillem",
+          "lastName": "Cucurull"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Arantxa",
+          "lastName": "Casanova"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Adriana",
+          "lastName": "Romero"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Pietro",
+          "lastName": "Liò"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yoshua",
+          "lastName": "Bengio"
+        }
+      ],
+      "date": "2018-02-04",
+      "dateAdded": "2022-07-20T08:06:12Z",
+      "dateModified": "2022-07-20T08:07:44Z",
+      "extra": "arXiv:1710.10903 [cs, stat]",
+      "itemID": 8657,
+      "itemKey": "BGGCVKHQ",
+      "itemType": "preprint",
+      "key": "BGGCVKHQ",
+      "language": "en",
+      "libraryCatalog": "arXiv.org",
+      "libraryID": 1,
+      "notes": [],
+      "number": "arXiv:1710.10903",
+      "publisher": "arXiv",
+      "relations": [],
+      "select": "zotero://select/library/items/BGGCVKHQ",
+      "tags": [],
+      "title": "Graph Attention Networks",
+      "uri": "http://zotero.org/users/7659667/items/BGGCVKHQ",
+      "url": "http://arxiv.org/abs/1710.10903",
+      "version": 3996
+    },
+    {
       "DOI": "10.1145/3442381.3449822",
       "ISBN": "978-1-4503-8312-7",
       "abstractNote": "Graph representation learning has attracted increasing research attention. However, most existing studies fuse all structural features and node attributes to provide an overarching view of graphs, neglecting finer substructures’ semantics, and suffering from interpretation enigmas. This paper presents a novel hierarchical subgraphlevel selection and embedding-based graph neural network for graph classification, namely SUGAR, to learn more discriminative subgraph representations and respond in an explanatory way. SUGAR reconstructs a sketched graph by extracting striking subgraphs as the representative part of the original graph to reveal subgraph-level patterns. To adaptively select striking subgraphs without prior knowledge, we develop a reinforcement pooling mechanism, which improves the generalization ability of the model. To differentiate subgraph representations among graphs, we present a self-supervised mutual information mechanism to encourage subgraph embedding to be mindful of the global graph structural properties by maximizing their mutual information. Extensive experiments on six typical bioinformatics datasets demonstrate a significant and consistent improvement in model quality with competitive performance and interpretability.",
@@ -2383,7 +2363,7 @@
       ],
       "date": "2022",
       "dateAdded": "2022-07-15T09:01:27Z",
-      "dateModified": "2022-07-15T09:02:24Z",
+      "dateModified": "2022-07-15T09:03:30Z",
       "itemID": 8603,
       "itemKey": "CFFI8KM2",
       "itemType": "document",
@@ -2392,15 +2372,10 @@
       "notes": [],
       "relations": [],
       "select": "zotero://select/library/items/CFFI8KM2",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
+      "tags": [],
       "title": "面向 GPGPU 体系结构的软错误弹性分析与容错策略研究",
       "uri": "http://zotero.org/users/7659667/items/CFFI8KM2",
-      "version": 3891
+      "version": 3893
     },
     {
       "abstractNote": "The graph convolutional networks (GCN) recently proposed by Kipf and Welling are an effective graph model for semi-supervised learning. This model, however, was originally designed to be learned with the presence of both training and test data. Moreover, the recursive neighborhood expansion across layers poses time and memory challenges for training with large, dense graphs. To relax the requirement of simultaneous availability of test data, we interpret graph convolutions as integral transforms of embedding functions under probability measures. Such an interpretation allows for the use of Monte Carlo approaches to consistently estimate the integrals, which in turn leads to a batched training scheme as we propose in this work—FastGCN. Enhanced with importance sampling, FastGCN not only is efﬁcient for training but also generalizes well for inference. We show a comprehensive set of experiments to demonstrate its effectiveness compared with GCN and related models. In particular, training is orders of magnitude more efﬁcient while predictions remain comparably accurate.",
@@ -2783,7 +2758,7 @@
       "creators": [],
       "date": "11/2012",
       "dateAdded": "2022-05-15T04:04:19Z",
-      "dateModified": "2022-06-02T08:43:42Z",
+      "dateModified": "2022-07-20T11:46:57Z",
       "itemID": 7901,
       "itemKey": "FPJZE89P",
       "itemType": "conferencePaper",
@@ -2797,12 +2772,7 @@
       "publisher": "IEEE",
       "relations": [],
       "select": "zotero://select/library/items/FPJZE89P",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
+      "tags": [],
       "title": "TH-CPL",
       "uri": "http://zotero.org/users/7659667/items/FPJZE89P",
       "version": 2741
@@ -2954,7 +2924,7 @@
       ],
       "title": "Graph Structure Learning with Variational Information Bottleneck",
       "uri": "http://zotero.org/users/7659667/items/GKXHCVIA",
-      "version": 3014
+      "version": 3396
     },
     {
       "attachments": [
@@ -3146,6 +3116,76 @@
       "version": 728
     },
     {
+      "DOI": "10.1145/3503221.3508414",
+      "ISBN": "978-1-4503-9204-4",
+      "abstractNote": "With the ever-shrinking size of transistors and increasing scale of applications, silent data corruptions (SDCs) have become a common yet serious issue in HPC applications. Selective instruction duplication (SID) is a popular faulttolerance technique that can obtain a high SDC coverage with low-performance overhead, as it selects the most vulnerable parts of a program for protection with priority. However, existing studies of SID are confined to single program input in the evaluation, assuming that the error resilience of the program remains similar across inputs, leading to a drastic loss of SDC coverage from SID when the protected program runs different inputs. Hence, we proposed Sentinel, an automated compiler-based framework to mitigate the loss of SDC coverage. Evaluation results show that Sentinel can effectively mitigate the loss of SDC coverage (up to 97.00%) across multiple inputs, which significantly hardens existing SID techniques.",
+      "accessDate": "2022-07-15T09:05:34Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-07-15T09:05:29Z",
+          "dateModified": "2022-07-15T09:05:35Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\CL7ZEIGC\\Huang et al. - 2022 - Hardening selective protection across multiple pro.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Huang et al. - 2022 - Hardening selective protection across multiple pro.pdf",
+          "uri": "http://zotero.org/users/7659667/items/CL7ZEIGC"
+        }
+      ],
+      "citationKey": "HardeningSelectiveProtection2022huang",
+      "citekey": "HardeningSelectiveProtection2022huang",
+      "conferenceName": "PPoPP '22: 27th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Yafan",
+          "lastName": "Huang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Shengjian",
+          "lastName": "Guo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sheng",
+          "lastName": "Di"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Guanpeng",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Franck",
+          "lastName": "Cappello"
+        }
+      ],
+      "date": "2022-04-02",
+      "dateAdded": "2022-07-15T09:05:34Z",
+      "dateModified": "2022-07-20T08:20:02Z",
+      "itemID": 8605,
+      "itemKey": "HDGJJBMK",
+      "itemType": "conferencePaper",
+      "key": "HDGJJBMK",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "437-438",
+      "place": "Seoul Republic of Korea",
+      "publicationTitle": "Proceedings of the 27th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming",
+      "publisher": "ACM",
+      "relations": [],
+      "select": "zotero://select/library/items/HDGJJBMK",
+      "tags": [],
+      "title": "Hardening selective protection across multiple program inputs for HPC applications",
+      "uri": "http://zotero.org/users/7659667/items/HDGJJBMK",
+      "url": "https://dl.acm.org/doi/10.1145/3503221.3508414",
+      "version": 3897
+    },
+    {
       "DOI": "10.1109/SC.2018.00048",
       "ISBN": "978-1-5386-8384-2",
       "accessDate": "2021-12-03T03:57:45Z",
@@ -3290,7 +3330,7 @@
       "title": "Understanding error propagation in deep learning neural network (DNN) accelerators and applications",
       "uri": "http://zotero.org/users/7659667/items/IT8IRRH9",
       "url": "https://dl.acm.org/doi/10.1145/3126908.3126964",
-      "version": 3768
+      "version": 3867
     },
     {
       "DOI": "10.1109/SC.2018.00011",
@@ -3406,7 +3446,7 @@
       ],
       "date": "2021-02-18",
       "dateAdded": "2022-05-09T14:49:17Z",
-      "dateModified": "2022-06-21T07:45:04Z",
+      "dateModified": "2022-07-20T11:43:49Z",
       "issue": "1",
       "itemID": 7855,
       "itemKey": "J67PSCWK",
@@ -3427,16 +3467,16 @@
           "tag": "⭐"
         },
         {
-          "tag": "Input Sizing"
+          "tag": "dynamic instructions"
         },
         {
-          "tag": "CTA(coordinated thread arrays)"
+          "tag": "Input Sizing"
         }
       ],
       "title": "SUGAR: Speeding Up GPGPU Application Resilience Estimation with Input Sizing",
       "uri": "http://zotero.org/users/7659667/items/J67PSCWK",
       "url": "https://dl.acm.org/doi/10.1145/3447375",
-      "version": 3102,
+      "version": 4011,
       "volume": "5"
     },
     {
@@ -3567,6 +3607,77 @@
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666651021000012",
       "version": 3775,
       "volume": "1"
+    },
+    {
+      "DOI": "10.1109/MDAT.2016.2630270",
+      "ISSN": "2168-2356, 2168-2364",
+      "accessDate": "2022-07-18T09:06:36Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-07-18T09:06:30Z",
+          "dateModified": "2022-07-18T09:06:38Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\VYQR7722\\Yazdanbakhsh et al. - 2017 - AxBench A Multiplatform Benchmark Suite for Appro.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Yazdanbakhsh et al. - 2017 - AxBench A Multiplatform Benchmark Suite for Appro.pdf",
+          "uri": "http://zotero.org/users/7659667/items/VYQR7722"
+        }
+      ],
+      "callNumber": "2.223",
+      "citationKey": "AxBenchMultiplatformBenchmark2017yazdanbakhsh",
+      "citekey": "AxBenchMultiplatformBenchmark2017yazdanbakhsh",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Amir",
+          "lastName": "Yazdanbakhsh"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Divya",
+          "lastName": "Mahajan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Hadi",
+          "lastName": "Esmaeilzadeh"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Pejman",
+          "lastName": "Lotfi-Kamran"
+        }
+      ],
+      "date": "4/2017",
+      "dateAdded": "2022-07-18T09:06:36Z",
+      "dateModified": "2022-07-18T09:06:37Z",
+      "issue": "2",
+      "itemID": 8606,
+      "itemKey": "JBT484DD",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "IEEE Des. Test",
+      "key": "JBT484DD",
+      "language": "en",
+      "libraryCatalog": "3",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "60-68",
+      "publicationTitle": "IEEE Design & Test",
+      "relations": [],
+      "select": "zotero://select/library/items/JBT484DD",
+      "shortTitle": "AxBench",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "AxBench: A Multiplatform Benchmark Suite for Approximate Computing",
+      "uri": "http://zotero.org/users/7659667/items/JBT484DD",
+      "url": "http://ieeexplore.ieee.org/document/7755728/",
+      "version": 3936,
+      "volume": "34"
     },
     {
       "DOI": "10.24963/ijcai.2020/454",
@@ -4213,15 +4324,15 @@
       "select": "zotero://select/library/items/PAGCBY7S",
       "tags": [
         {
-          "tag": "GNN"
+          "tag": "⭐"
         },
         {
-          "tag": "⭐"
+          "tag": "GNN"
         }
       ],
       "title": "Regional soft error vulnerability and error propagation analysis for GPGPU applications",
       "uri": "http://zotero.org/users/7659667/items/PAGCBY7S",
-      "version": 2812,
+      "version": 4002,
       "volume": "78"
     },
     {
@@ -4328,10 +4439,10 @@
       "select": "zotero://select/library/items/PNVNPJJG",
       "tags": [
         {
-          "tag": "Input related"
+          "tag": "Pattabiraman"
         },
         {
-          "tag": "Pattabiraman"
+          "tag": "Input related"
         }
       ],
       "title": "Modeling Input-Dependent Error Propagation in Programs",
@@ -4747,27 +4858,6 @@
       "version": 2741
     },
     {
-      "charset": "",
-      "contentType": "application/pdf",
-      "dateAdded": "2022-05-21T14:28:16Z",
-      "dateModified": "2022-05-21T14:28:16Z",
-      "defaultPath": "files/7911/国家与革命_列宁.pdf",
-      "filename": "国家与革命_列宁.pdf",
-      "itemID": 7911,
-      "itemKey": "TGWYNK5F",
-      "itemType": "attachment",
-      "key": "TGWYNK5F",
-      "libraryID": 1,
-      "linkMode": "imported_file",
-      "localPath": "D:\\Zotero\\storage\\TGWYNK5F\\国家与革命_列宁.pdf",
-      "relations": [],
-      "select": "zotero://select/library/items/TGWYNK5F",
-      "tags": [],
-      "title": "国家与革命_列宁.pdf",
-      "uri": "http://zotero.org/users/7659667/items/TGWYNK5F",
-      "version": 2656
-    },
-    {
       "DOI": "10.1145/3458817.3476170",
       "ISBN": "978-1-4503-8442-1",
       "accessDate": "2021-12-02T08:47:48Z",
@@ -4914,18 +5004,18 @@
     },
     {
       "dateAdded": "2022-06-21T07:21:27Z",
-      "dateModified": "2022-06-24T14:28:59Z",
+      "dateModified": "2022-07-18T09:04:44Z",
       "itemID": 8443,
       "itemKey": "V69E44G8",
       "itemType": "note",
       "key": "V69E44G8",
       "libraryID": 1,
-      "note": "<div data-citation-items=\"%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FJ67PSCWK%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FJ67PSCWK%22%2C%22type%22%3A%22article-journal%22%2C%22abstract%22%3A%22As%20Graphics%20Processing%20Units%20(GPUs)%20are%20becoming%20a%20de%20facto%20solution%20for%20accelerating%20a%20wide%20range%20of%20applications%2C%20their%20reliable%20operation%20is%20becoming%20increasingly%20important.%20One%20of%20the%20major%20challenges%20in%20the%20domain%20of%20GPU%20reliability%20is%20to%20accurately%20measure%20GPGPU%20application%20error%20resilience.%20This%20challenge%20stems%20from%20the%20fact%20that%20a%20typical%20GPGPU%20application%20spawns%20a%20huge%20number%20of%20threads%20and%20then%20utilizes%20a%20large%20amount%20of%20potentially%20unreliable%20compute%20and%20memory%20resources%20available%20on%20the%20GPUs.%20As%20the%20number%20of%20possible%20fault%20locations%20can%20be%20in%20the%20billions%2C%20evaluating%20every%20fault%20and%20examining%20its%20effect%20on%20theapplication%20error%20resilience%20is%20impractical.%20Application%20resilience%20is%20evaluated%20via%20extensive%20fault%20injection%20campaigns%20based%20on%20sampling%20of%20an%20extensive%20fault%20site%20space.%20Typically%2C%20the%20larger%20the%20input%20of%20the%20GPGPU%20application%2C%20the%20longer%20the%20experimental%20campaign.%20In%20this%20work%2C%20we%20devise%20a%20methodology%2C%20SUGAR%20(Speeding%20Up%20GPGPU%20Application%20Resilience%20Estimation%20with%20input%20sizing)%2C%20that%20dramatically%20speeds%20up%20the%20evaluation%20of%20GPGPU%20application%20error%20resilience%20by%20judicious%20input%20sizing.%20We%20show%20how%20analyzing%20a%20small%20fraction%20of%20the%20input%20is%20sufficient%20to%20estimate%20the%20application%20resilience%20with%20high%20accuracy%20and%20dramatically%20reduce%20the%20duration%20of%20experimentation.%20Key%20of%20our%20estimation%20methodology%20is%20the%20discovery%20of%20repeating%20patterns%20as%20a%20function%20of%20the%20input%20size.%20Using%20the%20well-established%20fact%20that%20error%20resilience%20in%20GPGPU%20applications%20is%20mostly%20determined%20by%20the%20dynamic%20instruction%20count%20at%20the%20thread%20level%2C%20we%20identify%20the%20patterns%20that%20allow%20us%20to%20accurately%20predict%20application%20error%20resilience%20for%20arbitrarily%20large%20inputs.%20For%20the%20cases%20that%20we%20examine%20in%20this%20paper%2C%20this%20new%20resilience%20estimation%20mechanism%20provides%20significant%20speedups%20(up%20to%201336%20times)%20and%2097.0%20on%20the%20average%2C%20while%20keeping%20estimation%20errors%20to%20less%20than%201%25.%22%2C%22container-title%22%3A%22Proceedings%20of%20the%20ACM%20on%20Measurement%20and%20Analysis%20of%20Computing%20Systems%22%2C%22DOI%22%3A%2210.1145%2F3447375%22%2C%22ISSN%22%3A%222476-1249%22%2C%22issue%22%3A%221%22%2C%22journalAbbreviation%22%3A%22Proc.%20ACM%20Meas.%20Anal.%20Comput.%20Syst.%22%2C%22language%22%3A%22en%22%2C%22page%22%3A%221-29%22%2C%22source%22%3A%22DOI.org%20(Crossref)%22%2C%22title%22%3A%22SUGAR%3A%20Speeding%20Up%20GPGPU%20Application%20Resilience%20Estimation%20with%20Input%20Sizing%22%2C%22title-short%22%3A%22SUGAR%22%2C%22URL%22%3A%22https%3A%2F%2Fdl.acm.org%2Fdoi%2F10.1145%2F3447375%22%2C%22volume%22%3A%225%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Yang%22%2C%22given%22%3A%22Lishan%22%7D%2C%7B%22family%22%3A%22Nie%22%2C%22given%22%3A%22Bin%22%7D%2C%7B%22family%22%3A%22Jog%22%2C%22given%22%3A%22Adwait%22%7D%2C%7B%22family%22%3A%22Smirni%22%2C%22given%22%3A%22Evgenia%22%7D%5D%2C%22accessed%22%3A%7B%22date-parts%22%3A%5B%5B%222022%22%2C5%2C9%5D%5D%7D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%222021%22%2C2%2C18%5D%5D%7D%7D%7D%2C%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F2WPUCD43%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F2WPUCD43%22%2C%22type%22%3A%22document%22%2C%22source%22%3A%22Zotero%22%2C%22title%22%3A%22Parallel%20Thread%20Execution%20ISA%22%7D%7D%2C%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDI2QUIAU%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDI2QUIAU%22%2C%22type%22%3A%22paper-conference%22%2C%22container-title%22%3A%222018%2051st%20Annual%20IEEE%2FACM%20International%20Symposium%20on%20Microarchitecture%20(MICRO)%22%2C%22DOI%22%3A%2210.1109%2FMICRO.2018.00066%22%2C%22event%22%3A%222018%2051st%20Annual%20IEEE%2FACM%20International%20Symposium%20on%20Microarchitecture%20(MICRO)%22%2C%22event-place%22%3A%22Fukuoka%22%2C%22ISBN%22%3A%22978-1-5386-6240-3%22%2C%22page%22%3A%22749-761%22%2C%22publisher%22%3A%22IEEE%22%2C%22publisher-place%22%3A%22Fukuoka%22%2C%22title%22%3A%22Fault%20Site%20Pruning%20for%20Practical%20Reliability%20Analysis%20of%20GPGPU%20Applications%22%2C%22URL%22%3A%22https%3A%2F%2Fieeexplore.ieee.org%2Fdocument%2F8574583%2F%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Nie%22%2C%22given%22%3A%22Bin%22%7D%2C%7B%22family%22%3A%22Yang%22%2C%22given%22%3A%22Lishan%22%7D%2C%7B%22family%22%3A%22Jog%22%2C%22given%22%3A%22Adwait%22%7D%2C%7B%22family%22%3A%22Smirni%22%2C%22given%22%3A%22Evgenia%22%7D%5D%2C%22accessed%22%3A%7B%22date-parts%22%3A%5B%5B%222021%22%2C12%2C3%5D%5D%7D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%222018%22%2C10%5D%5D%7D%7D%7D%5D\" data-schema-version=\"8\"><h1>Input related</h1>\n<h2>CTA（coordinated thread arrays）</h2>\n<p>协调线程数组：<span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FMJ3SA9GD%22%2C%22pageLabel%22%3A%222%22%2C%22position%22%3A%7B%22pageIndex%22%3A1%2C%22rects%22%3A%5B%5B55.791%2C297.246%2C440.171%2C306.561%5D%2C%5B45.46%2C285.3%2C440.173%2C294.605%5D%2C%5B45.828%2C273.345%2C440.169%2C282.65%5D%2C%5B45.828%2C261.39%2C440.175%2C270.695%5D%2C%5B45.828%2C249.435%2C440.361%2C258.74%5D%2C%5B45.828%2C237.48%2C167.481%2C246.785%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FJ67PSCWK%22%5D%2C%22locator%22%3A%222%22%7D%7D\">“We introduce the concept of asymptotic application resilience: we show that resilience patterns within the coordinated thread arrays (CTAs), the building blocks of GPGPU parallelism, can project application resilience for larger inputs of arbitrary size. For asymptotically larger inputs of the same type, the number of CTAs naturally increases but follows distinct patterns as dictated by the parallelization logic. CTA pattern identification is key to calculate application resilience of larger inputs of the same input type.”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FJ67PSCWK%22%5D%2C%22locator%22%3A%222%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Yang et al., 2021, p. 2</span>)</span></p>\n<h2>影响错误弹性的因素</h2>\n<ol>\n<li>\n线程动态指令数：GPGPU application error resilience is determined by the <strong>thread dynamic instructions</strong> (DI) <strong>count</strong>.” <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FJ67PSCWK%22%5D%2C%22locator%22%3A%222%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Yang et al., 2021, p. 2</span>)</span>——线程的动态指令数决定了GPGPU应用的错误弹性\n</li>\n<li>\n应用输入：<span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FMJ3SA9GD%22%2C%22pageLabel%22%3A%223%22%2C%22position%22%3A%7B%22pageIndex%22%3A2%2C%22rects%22%3A%5B%5B173.358%2C599.114%2C424.949%2C608.429%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FJ67PSCWK%22%5D%2C%22locator%22%3A%223%22%7D%7D\">“application resilience depends heavily on the application input.”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FJ67PSCWK%22%5D%2C%22locator%22%3A%223%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Yang et al., 2021, p. 3</span>)</span>——应用的输入严重影响其弹性\n</li>\n</ol>\n<h3>关于应用输入的探讨</h3>\n<p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FMJ3SA9GD%22%2C%22pageLabel%22%3A%224%22%2C%22position%22%3A%7B%22pageIndex%22%3A3%2C%22rects%22%3A%5B%5B68.483%2C88.875%2C175.85%2C98.11%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FJ67PSCWK%22%5D%2C%22locator%22%3A%224%22%7D%7D\">“Benchmarks and Inputs”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FJ67PSCWK%22%5D%2C%22locator%22%3A%224%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Yang et al., 2021, p. 4</span>)</span>：这篇文章概述了基准的输入选择，输入值的范围通常由基准本身给出。</p>\n<p></p>\n<h1>CTA</h1>\n<p>“The batch of threads that executes a kernel is organized as a grid of cooperative thread arrays as described in this section and illustrated in <span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FHAMZCXMT%22%2C%22pageLabel%22%3A%226%22%2C%22position%22%3A%7B%22pageIndex%22%3A19%2C%22rects%22%3A%5B%5B82.8%2C705.687%2C133.89%2C718.518%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F2WPUCD43%22%5D%2C%22locator%22%3A%226%22%7D%7D\">“Figure&nbsp;1.”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F2WPUCD43%22%5D%2C%22locator%22%3A%226%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">“Parallel Thread Execution ISA”, p. 6</span>)</span>. Cooperative thread arrays (CTAs) implement CUDA thread blocks.” <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F2WPUCD43%22%5D%2C%22locator%22%3A%224%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">“Parallel Thread Execution ISA”, p. 4</span>)</span></p>\n<p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FT6FKW76N%22%2C%22pageLabel%22%3A%22751%22%2C%22position%22%3A%7B%22pageIndex%22%3A2%2C%22rects%22%3A%5B%5B289.157%2C653.551%2C295.991%2C662.646%5D%2C%5B57.476%2C642.193%2C295.991%2C651.109%5D%2C%5B57.476%2C630.835%2C188.441%2C639.751%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDI2QUIAU%22%5D%2C%22locator%22%3A%22751%22%7D%7D\">“A CTA encapsulates all synchronization and barrier primitives among a group of threads [1], [21]”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDI2QUIAU%22%5D%2C%22locator%22%3A%22751%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Nie et al., 2018, p. 751</span>)</span></p>\n<h2>CTA的三种模式：</h2>\n<p>Pattern-1：对于同一个CTA里的线程：相同的线程在不同规模（S/M/L）输入下的动态指令数相同</p>\n<p></p>\n<p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FHAMZCXMT%22%2C%22pageLabel%22%3A%224%22%2C%22position%22%3A%7B%22pageIndex%22%3A17%2C%22rects%22%3A%5B%5B82.8%2C287.731%2C379.627%2C306.484%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F2WPUCD43%22%5D%2C%22locator%22%3A%224%22%7D%7D\">“2.2.1.&nbsp; Cooperative Thread Arrays”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F2WPUCD43%22%5D%2C%22locator%22%3A%224%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">“Parallel Thread Execution ISA”, p. 4</span>)</span></p>\n<p></p>\n<h1>指标</h1>\n<p><img alt=\"\" data-attachment-key=\"43DUYPBI\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FT6FKW76N%22%2C%22annotationKey%22%3A%22URAYUANR%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%22751%22%2C%22position%22%3A%7B%22pageIndex%22%3A2%2C%22rects%22%3A%5B%5B357.656%2C648.094%2C555.469%2C682.781%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDI2QUIAU%22%5D%2C%22locator%22%3A%22751%22%7D%7D\" width=\"330\" height=\"58\"><br><span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDI2QUIAU%22%5D%2C%22locator%22%3A%22751%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Nie et al., 2018, p. 751</span>)</span></p>\n<p></p>\n<p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FT6FKW76N%22%2C%22annotationKey%22%3A%22KGL4FKNQ%22%2C%22color%22%3A%22%232ea8e5%22%2C%22pageLabel%22%3A%22751%22%2C%22position%22%3A%7B%22pageIndex%22%3A2%2C%22rects%22%3A%5B%5B369.523%2C532.583%2C552.99%2C541.499%5D%2C%5B314.476%2C521.226%2C553%2C530.141%5D%2C%5B314.476%2C509.868%2C552.99%2C518.784%5D%2C%5B314.476%2C498.51%2C552.99%2C507.426%5D%2C%5B314.476%2C487.152%2C523.734%2C496.068%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDI2QUIAU%22%5D%2C%22locator%22%3A%22751%22%7D%7D\">“Taking GEMM from Polybench as an example and assuming that it takes a (nominal) one minute to execute one fault injection experiment, then 7.73E+08 minutes (or about 1331 years) are needed to complete experiments for the entire fault site space (see the first row in Table II).”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDI2QUIAU%22%5D%2C%22locator%22%3A%22751%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Nie et al., 2018, p. 751</span>)</span></p>\n<p>SUGAR 这篇文章的策略就是：</p>\n<p></p>\n<p><img alt=\"\" data-attachment-key=\"TGAIZPQ6\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FMJ3SA9GD%22%2C%22annotationKey%22%3A%22PXV46FSN%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%2217%22%2C%22position%22%3A%7B%22pageIndex%22%3A16%2C%22rects%22%3A%5B%5B39.809%2C478.382%2C445.085%2C644.805%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FJ67PSCWK%22%5D%2C%22locator%22%3A%2217%22%7D%7D\" width=\"675\" height=\"277\"><br><span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FJ67PSCWK%22%5D%2C%22locator%22%3A%2217%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Yang et al., 2021, p. 17</span>)</span></p>\n</div>",
+      "note": "<div data-citation-items=\"%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FJ67PSCWK%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FJ67PSCWK%22%2C%22type%22%3A%22article-journal%22%2C%22abstract%22%3A%22As%20Graphics%20Processing%20Units%20(GPUs)%20are%20becoming%20a%20de%20facto%20solution%20for%20accelerating%20a%20wide%20range%20of%20applications%2C%20their%20reliable%20operation%20is%20becoming%20increasingly%20important.%20One%20of%20the%20major%20challenges%20in%20the%20domain%20of%20GPU%20reliability%20is%20to%20accurately%20measure%20GPGPU%20application%20error%20resilience.%20This%20challenge%20stems%20from%20the%20fact%20that%20a%20typical%20GPGPU%20application%20spawns%20a%20huge%20number%20of%20threads%20and%20then%20utilizes%20a%20large%20amount%20of%20potentially%20unreliable%20compute%20and%20memory%20resources%20available%20on%20the%20GPUs.%20As%20the%20number%20of%20possible%20fault%20locations%20can%20be%20in%20the%20billions%2C%20evaluating%20every%20fault%20and%20examining%20its%20effect%20on%20theapplication%20error%20resilience%20is%20impractical.%20Application%20resilience%20is%20evaluated%20via%20extensive%20fault%20injection%20campaigns%20based%20on%20sampling%20of%20an%20extensive%20fault%20site%20space.%20Typically%2C%20the%20larger%20the%20input%20of%20the%20GPGPU%20application%2C%20the%20longer%20the%20experimental%20campaign.%20In%20this%20work%2C%20we%20devise%20a%20methodology%2C%20SUGAR%20(Speeding%20Up%20GPGPU%20Application%20Resilience%20Estimation%20with%20input%20sizing)%2C%20that%20dramatically%20speeds%20up%20the%20evaluation%20of%20GPGPU%20application%20error%20resilience%20by%20judicious%20input%20sizing.%20We%20show%20how%20analyzing%20a%20small%20fraction%20of%20the%20input%20is%20sufficient%20to%20estimate%20the%20application%20resilience%20with%20high%20accuracy%20and%20dramatically%20reduce%20the%20duration%20of%20experimentation.%20Key%20of%20our%20estimation%20methodology%20is%20the%20discovery%20of%20repeating%20patterns%20as%20a%20function%20of%20the%20input%20size.%20Using%20the%20well-established%20fact%20that%20error%20resilience%20in%20GPGPU%20applications%20is%20mostly%20determined%20by%20the%20dynamic%20instruction%20count%20at%20the%20thread%20level%2C%20we%20identify%20the%20patterns%20that%20allow%20us%20to%20accurately%20predict%20application%20error%20resilience%20for%20arbitrarily%20large%20inputs.%20For%20the%20cases%20that%20we%20examine%20in%20this%20paper%2C%20this%20new%20resilience%20estimation%20mechanism%20provides%20significant%20speedups%20(up%20to%201336%20times)%20and%2097.0%20on%20the%20average%2C%20while%20keeping%20estimation%20errors%20to%20less%20than%201%25.%22%2C%22container-title%22%3A%22Proceedings%20of%20the%20ACM%20on%20Measurement%20and%20Analysis%20of%20Computing%20Systems%22%2C%22DOI%22%3A%2210.1145%2F3447375%22%2C%22ISSN%22%3A%222476-1249%22%2C%22issue%22%3A%221%22%2C%22journalAbbreviation%22%3A%22Proc.%20ACM%20Meas.%20Anal.%20Comput.%20Syst.%22%2C%22language%22%3A%22en%22%2C%22page%22%3A%221-29%22%2C%22source%22%3A%22DOI.org%20(Crossref)%22%2C%22title%22%3A%22SUGAR%3A%20Speeding%20Up%20GPGPU%20Application%20Resilience%20Estimation%20with%20Input%20Sizing%22%2C%22title-short%22%3A%22SUGAR%22%2C%22URL%22%3A%22https%3A%2F%2Fdl.acm.org%2Fdoi%2F10.1145%2F3447375%22%2C%22volume%22%3A%225%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Yang%22%2C%22given%22%3A%22Lishan%22%7D%2C%7B%22family%22%3A%22Nie%22%2C%22given%22%3A%22Bin%22%7D%2C%7B%22family%22%3A%22Jog%22%2C%22given%22%3A%22Adwait%22%7D%2C%7B%22family%22%3A%22Smirni%22%2C%22given%22%3A%22Evgenia%22%7D%5D%2C%22accessed%22%3A%7B%22date-parts%22%3A%5B%5B%222022%22%2C5%2C9%5D%5D%7D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%222021%22%2C2%2C18%5D%5D%7D%7D%7D%2C%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F2WPUCD43%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F2WPUCD43%22%2C%22type%22%3A%22document%22%2C%22source%22%3A%22Zotero%22%2C%22title%22%3A%22Parallel%20Thread%20Execution%20ISA%22%7D%7D%2C%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDI2QUIAU%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDI2QUIAU%22%2C%22type%22%3A%22paper-conference%22%2C%22container-title%22%3A%222018%2051st%20Annual%20IEEE%2FACM%20International%20Symposium%20on%20Microarchitecture%20(MICRO)%22%2C%22DOI%22%3A%2210.1109%2FMICRO.2018.00066%22%2C%22event%22%3A%222018%2051st%20Annual%20IEEE%2FACM%20International%20Symposium%20on%20Microarchitecture%20(MICRO)%22%2C%22event-place%22%3A%22Fukuoka%22%2C%22ISBN%22%3A%22978-1-5386-6240-3%22%2C%22page%22%3A%22749-761%22%2C%22publisher%22%3A%22IEEE%22%2C%22publisher-place%22%3A%22Fukuoka%22%2C%22title%22%3A%22Fault%20Site%20Pruning%20for%20Practical%20Reliability%20Analysis%20of%20GPGPU%20Applications%22%2C%22URL%22%3A%22https%3A%2F%2Fieeexplore.ieee.org%2Fdocument%2F8574583%2F%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Nie%22%2C%22given%22%3A%22Bin%22%7D%2C%7B%22family%22%3A%22Yang%22%2C%22given%22%3A%22Lishan%22%7D%2C%7B%22family%22%3A%22Jog%22%2C%22given%22%3A%22Adwait%22%7D%2C%7B%22family%22%3A%22Smirni%22%2C%22given%22%3A%22Evgenia%22%7D%5D%2C%22accessed%22%3A%7B%22date-parts%22%3A%5B%5B%222021%22%2C12%2C3%5D%5D%7D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%222018%22%2C10%5D%5D%7D%7D%7D%5D\" data-schema-version=\"8\">\n<h1>Input related</h1>\n<h2>CTA（coordinated thread arrays）</h2>\n<p>协调线程数组：<span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FMJ3SA9GD%22%2C%22pageLabel%22%3A%222%22%2C%22position%22%3A%7B%22pageIndex%22%3A1%2C%22rects%22%3A%5B%5B55.791%2C297.246%2C440.171%2C306.561%5D%2C%5B45.46%2C285.3%2C440.173%2C294.605%5D%2C%5B45.828%2C273.345%2C440.169%2C282.65%5D%2C%5B45.828%2C261.39%2C440.175%2C270.695%5D%2C%5B45.828%2C249.435%2C440.361%2C258.74%5D%2C%5B45.828%2C237.48%2C167.481%2C246.785%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FJ67PSCWK%22%5D%2C%22locator%22%3A%222%22%7D%7D\">“We introduce the concept of asymptotic application resilience: we show that resilience patterns within the coordinated thread arrays (CTAs), the building blocks of GPGPU parallelism, can project application resilience for larger inputs of arbitrary size. For asymptotically larger inputs of the same type, the number of CTAs naturally increases but follows distinct patterns as dictated by the parallelization logic. CTA pattern identification is key to calculate application resilience of larger inputs of the same input type.”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FJ67PSCWK%22%5D%2C%22locator%22%3A%222%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Yang et al., 2021, p. 2</span>)</span></p>\n<h2>影响错误弹性的因素</h2>\n<ol>\n<li>线程动态指令数：GPGPU application error resilience is determined by the <strong>thread dynamic instructions</strong> (DI) <strong>count</strong>.” <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FJ67PSCWK%22%5D%2C%22locator%22%3A%222%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Yang et al., 2021, p. 2</span>)</span>——线程的动态指令数决定了GPGPU应用的错误弹性</li>\n<li>应用输入：<span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FMJ3SA9GD%22%2C%22pageLabel%22%3A%223%22%2C%22position%22%3A%7B%22pageIndex%22%3A2%2C%22rects%22%3A%5B%5B173.358%2C599.114%2C424.949%2C608.429%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FJ67PSCWK%22%5D%2C%22locator%22%3A%223%22%7D%7D\">“application resilience depends heavily on the application input.”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FJ67PSCWK%22%5D%2C%22locator%22%3A%223%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Yang et al., 2021, p. 3</span>)</span>——应用的输入严重影响其弹性</li>\n</ol>\n<h3>关于应用输入的探讨</h3>\n<p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FMJ3SA9GD%22%2C%22pageLabel%22%3A%224%22%2C%22position%22%3A%7B%22pageIndex%22%3A3%2C%22rects%22%3A%5B%5B68.483%2C88.875%2C175.85%2C98.11%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FJ67PSCWK%22%5D%2C%22locator%22%3A%224%22%7D%7D\">“Benchmarks and Inputs”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FJ67PSCWK%22%5D%2C%22locator%22%3A%224%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Yang et al., 2021, p. 4</span>)</span>：这篇文章概述了基准的输入选择，输入值的范围通常由基准本身给出。</p>\n<p> </p>\n<h1>CTA</h1>\n<p>“The batch of threads that executes a kernel is organized as a grid of cooperative thread arrays as described in this section and illustrated in <span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FHAMZCXMT%22%2C%22pageLabel%22%3A%226%22%2C%22position%22%3A%7B%22pageIndex%22%3A19%2C%22rects%22%3A%5B%5B82.8%2C705.687%2C133.89%2C718.518%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F2WPUCD43%22%5D%2C%22locator%22%3A%226%22%7D%7D\">“Figure 1.”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F2WPUCD43%22%5D%2C%22locator%22%3A%226%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">“Parallel Thread Execution ISA”, p. 6</span>)</span>. Cooperative thread arrays (CTAs) implement CUDA thread blocks.” <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F2WPUCD43%22%5D%2C%22locator%22%3A%224%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">“Parallel Thread Execution ISA”, p. 4</span>)</span></p>\n<p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FT6FKW76N%22%2C%22pageLabel%22%3A%22751%22%2C%22position%22%3A%7B%22pageIndex%22%3A2%2C%22rects%22%3A%5B%5B289.157%2C653.551%2C295.991%2C662.646%5D%2C%5B57.476%2C642.193%2C295.991%2C651.109%5D%2C%5B57.476%2C630.835%2C188.441%2C639.751%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDI2QUIAU%22%5D%2C%22locator%22%3A%22751%22%7D%7D\">“A CTA encapsulates all synchronization and barrier primitives among a group of threads [1], [21]”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDI2QUIAU%22%5D%2C%22locator%22%3A%22751%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Nie et al., 2018, p. 751</span>)</span></p>\n<h2>CTA的三种模式：</h2>\n<p>Pattern-1：对于同一个CTA里的线程：相同的线程在不同规模（S/M/L）输入下的动态指令数相同</p>\n<p> </p>\n<p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FHAMZCXMT%22%2C%22pageLabel%22%3A%224%22%2C%22position%22%3A%7B%22pageIndex%22%3A17%2C%22rects%22%3A%5B%5B82.8%2C287.731%2C379.627%2C306.484%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F2WPUCD43%22%5D%2C%22locator%22%3A%224%22%7D%7D\">“2.2.1.  Cooperative Thread Arrays”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F2WPUCD43%22%5D%2C%22locator%22%3A%224%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">“Parallel Thread Execution ISA”, p. 4</span>)</span></p>\n<p> </p>\n<h1>指标</h1>\n<p><img alt=\"\" width=\"330\" height=\"58\" data-attachment-key=\"43DUYPBI\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FT6FKW76N%22%2C%22annotationKey%22%3A%22URAYUANR%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%22751%22%2C%22position%22%3A%7B%22pageIndex%22%3A2%2C%22rects%22%3A%5B%5B357.656%2C648.094%2C555.469%2C682.781%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDI2QUIAU%22%5D%2C%22locator%22%3A%22751%22%7D%7D\" /><br /><span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDI2QUIAU%22%5D%2C%22locator%22%3A%22751%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Nie et al., 2018, p. 751</span>)</span></p>\n<p> </p>\n<p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FT6FKW76N%22%2C%22annotationKey%22%3A%22KGL4FKNQ%22%2C%22color%22%3A%22%232ea8e5%22%2C%22pageLabel%22%3A%22751%22%2C%22position%22%3A%7B%22pageIndex%22%3A2%2C%22rects%22%3A%5B%5B369.523%2C532.583%2C552.99%2C541.499%5D%2C%5B314.476%2C521.226%2C553%2C530.141%5D%2C%5B314.476%2C509.868%2C552.99%2C518.784%5D%2C%5B314.476%2C498.51%2C552.99%2C507.426%5D%2C%5B314.476%2C487.152%2C523.734%2C496.068%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDI2QUIAU%22%5D%2C%22locator%22%3A%22751%22%7D%7D\">“Taking GEMM from Polybench as an example and assuming that it takes a (nominal) one minute to execute one fault injection experiment, then 7.73E+08 minutes (or about 1331 years) are needed to complete experiments for the entire fault site space (see the first row in Table II).”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FDI2QUIAU%22%5D%2C%22locator%22%3A%22751%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Nie et al., 2018, p. 751</span>)</span></p>\n<p>SUGAR 这篇文章的策略就是：</p>\n<p> </p>\n<p><img alt=\"\" width=\"675\" height=\"277\" data-attachment-key=\"TGAIZPQ6\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FMJ3SA9GD%22%2C%22annotationKey%22%3A%22PXV46FSN%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%2217%22%2C%22position%22%3A%7B%22pageIndex%22%3A16%2C%22rects%22%3A%5B%5B39.809%2C478.382%2C445.085%2C644.805%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FJ67PSCWK%22%5D%2C%22locator%22%3A%2217%22%7D%7D\" /><br /><span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FJ67PSCWK%22%5D%2C%22locator%22%3A%2217%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Yang et al., 2021, p. 17</span>)</span></p>\n</div>",
       "relations": [],
       "select": "zotero://select/library/items/V69E44G8",
       "tags": [],
       "uri": "http://zotero.org/users/7659667/items/V69E44G8",
-      "version": 3328
+      "version": 3925
     },
     {
       "DOI": "10.1007/BF01784024",
@@ -5029,22 +5119,22 @@
       "select": "zotero://select/library/items/VDFASSWC",
       "tags": [
         {
+          "tag": "GPU"
+        },
+        {
           "tag": "⭐"
         },
         {
           "tag": "Error Resilience"
         },
         {
-          "tag": "GPU"
-        },
-        {
           "tag": "Reliability"
         },
         {
-          "tag": "Thread Remapping"
+          "tag": "Warp Protection"
         },
         {
-          "tag": "Warp Protection"
+          "tag": "Thread Remapping"
         }
       ],
       "title": "Enabling Software Resilience in GPGPU Applications via Partial Thread Protection",
@@ -5695,6 +5785,6 @@
   ],
   "version": {
     "bbt": "6.7.16",
-    "zotero": "6.0.9"
+    "zotero": "6.0.10"
   }
 }
