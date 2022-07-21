@@ -1735,7 +1735,7 @@ function createLocalFileLink(reference2) {
     if (reference2.attachments[attachmentindex].path == void 0) {
       reference2.attachments[attachmentindex].path = "";
     }
-    const selectedfile = "[" + reference2.attachments[attachmentindex].title + "](file://" + encodeURI(reference2.attachments[attachmentindex].path) + ")";
+    const selectedfile = "[" + reference2.attachments[attachmentindex].title + "](file:///" + encodeURI(reference2.attachments[attachmentindex].path.replaceAll(" ", " ")) + ")";
     filesList.push(selectedfile);
   }
   const filesListString = filesList.join("; ");
@@ -1831,6 +1831,8 @@ var fuzzySelectEntryFromJson = class extends import_obsidian2.FuzzySuggestModal 
       this.plugin.checkSQLite();
       const rawdata = fs.readFileSync(this.app.vault.adapter.getBasePath() + "/" + this.plugin.settings.bibPath);
       const data = JSON.parse(rawdata.toString());
+      console.log(data);
+      console.log(data.items);
       const bibtexArray = [];
       for (let index = 0; index < data.items.length; index++) {
         const selectedEntry = data.items[index];
@@ -4303,8 +4305,6 @@ var MyPlugin = class extends import_obsidian6.Plugin {
     if (selectedEntry.hasOwnProperty("select")) {
       selectedEntry.localLibrary = "[Zotero](" + selectedEntry.select + ")";
       selectedEntry.localLibraryLink = selectedEntry.select;
-      console.log(selectedEntry.localLibrary);
-      console.log(selectedEntry.localLibraryLink);
     }
     selectedEntry.file = createLocalFileLink(selectedEntry);
     const entriesArray = Object.keys(selectedEntry);
@@ -4865,6 +4865,12 @@ var MyPlugin = class extends import_obsidian6.Plugin {
       } else {
         lineElements.inlineTagsFormatted = "";
         lineElements.inlineTagsFormattedNoPrepend = "";
+      }
+      if (typeof lineElements.colourTemplate == "undefined") {
+        lineElements.colourTemplate = this.settings.highlightExportTemplate;
+      }
+      if (lineElements.colourTemplate.length == 0) {
+        lineElements.colourTemplate = "";
       }
       lineElements.colourTemplateFormatted = lineElements.colourTemplate.replace("{{highlight}}", lineElements.highlightFormatted);
       lineElements.colourTemplateFormatted = lineElements.colourTemplateFormatted.replace("{{comment}}", lineElements.commentFormatted);
