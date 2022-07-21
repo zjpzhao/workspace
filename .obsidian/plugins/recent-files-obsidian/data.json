@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Markdown",
+      "path": "Learning/Markdown.md"
+    },
+    {
       "basename": "Benchmark探索",
       "path": "Learning/GPU/Benchmark探索.md"
     },
@@ -95,10 +99,6 @@
     {
       "basename": "全系workflow搭建",
       "path": "Workflow/全系workflow搭建.md"
-    },
-    {
-      "basename": "Markdown",
-      "path": "Learning/Markdown.md"
     },
     {
       "basename": "容错系统",
