@@ -2775,7 +2775,7 @@
       "tags": [],
       "title": "TH-CPL",
       "uri": "http://zotero.org/users/7659667/items/FPJZE89P",
-      "version": 2741
+      "version": 4016
     },
     {
       "dateAdded": "2022-06-09T09:38:43Z",
@@ -3183,7 +3183,7 @@
       "title": "Hardening selective protection across multiple program inputs for HPC applications",
       "uri": "http://zotero.org/users/7659667/items/HDGJJBMK",
       "url": "https://dl.acm.org/doi/10.1145/3503221.3508414",
-      "version": 3897
+      "version": 4004
     },
     {
       "DOI": "10.1109/SC.2018.00048",
@@ -3467,10 +3467,10 @@
           "tag": "⭐"
         },
         {
-          "tag": "dynamic instructions"
+          "tag": "Input Sizing"
         },
         {
-          "tag": "Input Sizing"
+          "tag": "dynamic instructions"
         }
       ],
       "title": "SUGAR: Speeding Up GPGPU Application Resilience Estimation with Input Sizing",
@@ -5784,7 +5784,7 @@
     }
   ],
   "version": {
-    "bbt": "6.7.16",
+    "bbt": "6.7.17",
     "zotero": "6.0.10"
   }
 }
