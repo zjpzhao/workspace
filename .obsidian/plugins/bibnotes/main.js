@@ -1831,8 +1831,6 @@ var fuzzySelectEntryFromJson = class extends import_obsidian2.FuzzySuggestModal 
       this.plugin.checkSQLite();
       const rawdata = fs.readFileSync(this.app.vault.adapter.getBasePath() + "/" + this.plugin.settings.bibPath);
       const data = JSON.parse(rawdata.toString());
-      console.log(data);
-      console.log(data.items);
       const bibtexArray = [];
       for (let index = 0; index < data.items.length; index++) {
         const selectedEntry = data.items[index];
@@ -4348,6 +4346,10 @@ var MyPlugin = class extends import_obsidian6.Plugin {
         annotationKey: ""
       };
       lineElements.citeKey = String(selectedLine.match(/\(([^)]+)\)+$/g));
+      if (lineElements.citeKey == `null`) {
+        lineElements.citeKey = String(selectedLine.match(/\(([^D+]+) \d+\S+\)/g));
+      }
+      ;
       const posCiteKeyBegins = selectedLine.indexOf(lineElements.citeKey);
       let extractedText = "";
       if (posCiteKeyBegins !== -1) {
@@ -4845,6 +4847,9 @@ var MyPlugin = class extends import_obsidian6.Plugin {
       } else {
         lineElements.commentFormatted = "";
         lineElements.commentFormattedNoPrepend = "";
+      }
+      if (typeof lineElements.inlineTagsArray == "undefined") {
+        lineElements.inlineTagsArray = [];
       }
       if (this.settings.isTagHash == true) {
         for (let index = 0; index < lineElements.inlineTagsArray.length; index++) {
