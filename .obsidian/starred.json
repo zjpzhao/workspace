@@ -4,6 +4,11 @@
       "type": "file",
       "title": "My DATE or DAC 2023",
       "path": "papers/My DATE or DAC 2023.md"
+    },
+    {
+      "type": "file",
+      "title": "常用词汇",
+      "path": "papers/常用词汇.md"
     }
   ]
 }
