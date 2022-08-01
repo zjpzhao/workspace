@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Learning/GPU/层次结构.md",
+            "file": "papers/My DATE or DAC 2023.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "e9d25589cbee286f",
@@ -86,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/GPU/层次结构.md"
+                "file": "papers/My DATE or DAC 2023.md"
               }
             }
           }
@@ -95,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 458
+    "width": 458,
+    "collapsed": true
   },
   "right": {
     "id": "15dd14e7068b76d4",
@@ -111,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/GPU/层次结构.md",
+                "file": "papers/My DATE or DAC 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/GPU/层次结构.md",
+                "file": "papers/My DATE or DAC 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,8 +177,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b11406fd7ab6dce1",
+  "active": "2080e6ea662845b6",
   "lastOpenFiles": [
+    "papers/常用词汇.md",
+    "Learning/GPU/层次结构.md",
     "papers/My DATE or DAC 2023.md",
     "Learning/GPU/SASS和PTX的区别.md",
     "Learning/GPU/CUDA.md",
@@ -184,8 +188,6 @@
     "Learning/Markdown.md",
     "Learning/GPU/Benchmark探索.md",
     "Learning/Git.md",
-    "papers/常用词汇.md",
-    "Learning/GPU/层次结构.md",
     "util/常用指令.md"
   ]
 }

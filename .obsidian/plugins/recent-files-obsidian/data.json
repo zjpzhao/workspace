@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "层次结构",
-      "path": "Learning/GPU/层次结构.md"
-    },
-    {
       "basename": "My DATE or DAC 2023",
       "path": "papers/My DATE or DAC 2023.md"
+    },
+    {
+      "basename": "常用词汇",
+      "path": "papers/常用词汇.md"
+    },
+    {
+      "basename": "层次结构",
+      "path": "Learning/GPU/层次结构.md"
     },
     {
       "basename": "SASS和PTX的区别",
@@ -31,10 +35,6 @@
     {
       "basename": "Git",
       "path": "Learning/Git.md"
-    },
-    {
-      "basename": "常用词汇",
-      "path": "papers/常用词汇.md"
     },
     {
       "basename": "常用指令",

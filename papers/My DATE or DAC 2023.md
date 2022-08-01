@@ -12,7 +12,9 @@ CTA：协调线程数组（Block的术语）
 下游任务冗余信息——如何设计GNN的聚合函数（参考YEF2022北航工作：Graph Structure Learning with Variational Information Bottleneck）
 
 # 故障注入工具NVBITFI
-nvcc编译cuda代码的时候，Host和Device是分开进行的，nvcc --keep选项可以保存编译.cu的过程文件（如.ptx, .cubin等），PTX是每一个线程都需要执行的，我猜测需要执行该PTX的线程号是通过链接.cubin文件而分配的。具体需要参考和探索CUDA Binary Utilities。
+
+## NVCC--keep选项
+nvcc编译cuda代码的时候，Host和Device是分开进行的，nvcc --keep选项可以保存编译.cu的过程文件（如.ptx, .cubin等），PTX是每一个线程都需要执行的，~~我猜测需要执行该PTX的线程号是通过链接.cubin文件而分配的~~，tid blockid都可以在ptx中找到。具体需要参考和探索CUDA Binary Utilities。
 
 
 原来的想法是对每一个线程做一层图，主要是**太大了**只能到指令级别（也可以做出来用作baseline，然后和裁剪优化后的进行对比讲故事），现在可以在不同level裁剪之后得到具有代表性的点进行建图，提特征和学习，然后学出来的model跨模型应用到别的应用上进行测试。
