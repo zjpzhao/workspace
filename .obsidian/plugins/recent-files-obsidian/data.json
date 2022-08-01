@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Ubuntu 22.04探索",
+      "path": "util/Ubuntu 22.04探索.md"
+    },
+    {
       "basename": "常用指令",
       "path": "util/常用指令.md"
     },
@@ -95,10 +99,6 @@
     {
       "basename": "@FaultToleranceDistributed1994jalote",
       "path": "papers/@FaultToleranceDistributed1994jalote.md"
-    },
-    {
-      "basename": "Ubuntu 22.04探索",
-      "path": "util/Ubuntu 22.04探索.md"
     },
     {
       "basename": "Network",
