@@ -1,0 +1,3 @@
+**官方支持**：PTX是NVIDIA官方支持的最底层，有相关的文档（见[Parallel Thread Execution ISA](https://link.zhihu.com/?target=https%3A//docs.nvidia.com/cuda/parallel-thread-execution/index.html)）和完善的工具链（NVCC，cuobjdump，PTXAS等等），也可以在driver api中load，甚至支持cuda C中[inline PTX assembly](https://link.zhihu.com/?target=https%3A//docs.nvidia.com/cuda/inline-ptx-assembly/index.html)。而SASS这层只有非常简略的介绍[SASS Instruction Set Reference](https://link.zhihu.com/?target=https%3A//docs.nvidia.com/cuda/cuda-binary-utilities/index.html%23instruction-set-ref)，虽然其中也提供了一些工具如nvdisasm和cuobjdump做一些分析，但也非常局限。Debug上两者倒是差别不大，NSight功能比较完善了，现在应该是可以支持cuda C/PTX/SASS三个层级的debug。
+
+> 参考：[CUDA微架构与指令集（2）-SASS指令集概述 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/161624982)

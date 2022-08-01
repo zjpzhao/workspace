@@ -73,9 +73,11 @@ challenge——GPU弹性和错误传播（GPU-Trident团队、Nie Bin）
 
 next：错误传播——图
 图的层次
-线程德相似性体现在选点还是建图上
+线程的相似性体现在选点还是建图上->建图的剪枝上
 
-本工作结束以后：GNN+FI+CNN→单调性binfi结合剪枝
+后续工作：GNN+FI+CNN→单调性binfi结合剪枝
+
+
 
 
 
