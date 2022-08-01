@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "常用指令",
+      "path": "util/常用指令.md"
+    },
+    {
+      "basename": "文献阅读批注和同步体系",
+      "path": "Workflow/文献阅读批注和同步体系.md"
+    },
+    {
+      "basename": "全系workflow搭建",
+      "path": "Workflow/全系workflow搭建.md"
+    },
+    {
+      "basename": "图床搭建及配置",
+      "path": "Workflow/图床搭建及配置.md"
+    },
+    {
+      "basename": "内网穿透",
+      "path": "Learning/内网穿透.md"
+    },
+    {
       "basename": "My DATE or DAC 2023",
       "path": "papers/My DATE or DAC 2023.md"
     },
@@ -35,14 +55,6 @@
     {
       "basename": "Git",
       "path": "Learning/Git.md"
-    },
-    {
-      "basename": "常用指令",
-      "path": "util/常用指令.md"
-    },
-    {
-      "basename": "内网穿透",
-      "path": "Learning/内网穿透.md"
     },
     {
       "basename": "Python",
@@ -101,20 +113,8 @@
       "path": "util/Zotero.md"
     },
     {
-      "basename": "文献阅读批注和同步体系",
-      "path": "Workflow/文献阅读批注和同步体系.md"
-    },
-    {
-      "basename": "全系workflow搭建",
-      "path": "Workflow/全系workflow搭建.md"
-    },
-    {
       "basename": "容错系统",
       "path": "Lectures/容错系统.md"
-    },
-    {
-      "basename": "图床搭建及配置",
-      "path": "Workflow/图床搭建及配置.md"
     },
     {
       "basename": "插件用法",

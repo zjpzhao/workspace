@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "papers/My DATE or DAC 2023.md",
+            "file": "util/常用指令.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "zerotier",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/My DATE or DAC 2023.md"
+                "file": "util/常用指令.md"
               }
             }
           }
@@ -95,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 458
+    "width": 458,
+    "collapsed": true
   },
   "right": {
     "id": "15dd14e7068b76d4",
@@ -111,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/My DATE or DAC 2023.md",
+                "file": "util/常用指令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/My DATE or DAC 2023.md",
+                "file": "util/常用指令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,17 +176,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2558a011cf756e09",
+  "active": "b11406fd7ab6dce1",
   "lastOpenFiles": [
-    "papers/常用词汇.md",
+    "Workflow/文献阅读批注和同步体系.md",
+    "Workflow/全系workflow搭建.md",
+    "Workflow/图床搭建及配置.md",
+    "Learning/内网穿透.md",
     "papers/My DATE or DAC 2023.md",
+    "papers/常用词汇.md",
     "Learning/GPU/层次结构.md",
     "Learning/GPU/SASS和PTX的区别.md",
     "Learning/GPU/CUDA.md",
-    "Learning/R语言.md",
-    "Learning/Markdown.md",
-    "Learning/GPU/Benchmark探索.md",
-    "Learning/Git.md",
-    "util/常用指令.md"
+    "Learning/R语言.md"
   ]
 }
