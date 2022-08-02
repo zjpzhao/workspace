@@ -99,7 +99,8 @@
         8498,
         8543,
         8545,
-        8657
+        8657,
+        8903
       ],
       "key": "JNY8VHWT",
       "name": "GNN",
@@ -5464,6 +5465,91 @@
       "url": "https://dl.acm.org/doi/10.1145/361147.361115",
       "version": 2602,
       "volume": "17"
+    },
+    {
+      "DOI": "10.1145/3400302.3415610",
+      "ISBN": "978-1-4503-8026-3",
+      "abstractNote": "Graph convolutional neural networks (GNN) have achieved state-ofthe-art performance on tasks like node classification. It has become a new workload family member in data-centers. GNN works on irregular graph-structured data with three distinct phases: Combination, Graph Processing, and Aggregation. While Combination phase has been well supported by sgemm kernels in cuBLAS, the other two phases are still inefficient on GPGPU due to the lack of optimized CUDA kernels. In particular, Aggregation phase introduces large volume of DRAM storage footprint and data movement, and both Aggregation and Graph Processing phases suffer from high kernel launching time. These inefficiencies not only decrease training throughput but also limit users from training GNNs on larger graphs on GPGPU. Although these problems have been partially alleviated by recent studies, their optimizations are still not sufficient. In this paper, we propose fuseGNN, an extension of PyTorch that provides highly optimized APIs and CUDA kernels for GNN. First, two different programming abstractions for Aggregation phase are utilized to handle graphs with different average degrees. Second, dedicated GPGPU kernels are developed for Aggregation and Graph Processing in both forward and backward passes, in which kernel-fusion along with other optimization strategies are applied to reduce kernel launching time and latency as well as exploit data reuse opportunities. Evaluation on multiple benchmarks shows that fuseGNN achieves up to 5.3× end-to-end speedup over stateof-the-art frameworks, and the DRAM storage footprint is reduced by several orders of magnitude on large datasets.",
+      "accessDate": "2022-08-02T03:08:16Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-08-02T03:08:04Z",
+          "dateModified": "2022-08-02T03:08:17Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\6CZYFH5K\\Chen et al. - 2020 - fuseGNN accelerating graph convolutional neural n.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Chen et al. - 2020 - fuseGNN accelerating graph convolutional neural n.pdf",
+          "uri": "http://zotero.org/users/7659667/items/6CZYFH5K"
+        }
+      ],
+      "citationKey": "FuseGNNAcceleratingGraph2020chen",
+      "citekey": "FuseGNNAcceleratingGraph2020chen",
+      "conferenceName": "ICCAD '20: IEEE/ACM International Conference on Computer-Aided Design",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Zhaodong",
+          "lastName": "Chen"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mingyu",
+          "lastName": "Yan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Maohua",
+          "lastName": "Zhu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lei",
+          "lastName": "Deng"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Guoqi",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Shuangchen",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yuan",
+          "lastName": "Xie"
+        }
+      ],
+      "date": "2020-11-02",
+      "dateAdded": "2022-08-02T03:08:16Z",
+      "dateModified": "2022-08-02T03:08:40Z",
+      "itemID": 8903,
+      "itemKey": "XWJJSD99",
+      "itemType": "conferencePaper",
+      "key": "XWJJSD99",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1-9",
+      "place": "Virtual Event USA",
+      "publicationTitle": "Proceedings of the 39th International Conference on Computer-Aided Design",
+      "publisher": "ACM",
+      "relations": [],
+      "select": "zotero://select/library/items/XWJJSD99",
+      "shortTitle": "fuseGNN",
+      "tags": [
+        {
+          "tag": "GAT"
+        }
+      ],
+      "title": "fuseGNN: accelerating graph convolutional neural network training on GPGPU",
+      "uri": "http://zotero.org/users/7659667/items/XWJJSD99",
+      "url": "https://dl.acm.org/doi/10.1145/3400302.3415610",
+      "version": 4123
     },
     {
       "DOI": "10.1145/800222.806738",

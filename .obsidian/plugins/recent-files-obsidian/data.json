@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "GNN",
+      "path": "Learning/GNN.md"
+    },
+    {
+      "basename": "My DATE or DAC 2023",
+      "path": "papers/My DATE or DAC 2023.md"
+    },
+    {
       "basename": "Ubuntu 22.04探索",
       "path": "util/Ubuntu 22.04探索.md"
     },
@@ -23,10 +31,6 @@
     {
       "basename": "内网穿透",
       "path": "Learning/内网穿透.md"
-    },
-    {
-      "basename": "My DATE or DAC 2023",
-      "path": "papers/My DATE or DAC 2023.md"
     },
     {
       "basename": "常用词汇",
@@ -79,10 +83,6 @@
     {
       "basename": "Code_位翻转",
       "path": "Learning/Python/Code_位翻转.md"
-    },
-    {
-      "basename": "GNN",
-      "path": "Learning/GNN.md"
     },
     {
       "basename": "常用缩写",

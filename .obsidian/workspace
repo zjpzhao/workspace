@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "8fc244eace572c99",
+        "id": "b1bf35a1def1dace",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "util/Ubuntu 22.04探索.md",
+            "file": "Learning/GNN.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "e9d25589cbee286f",
@@ -87,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "util/Ubuntu 22.04探索.md"
+                "file": "Learning/GNN.md"
               }
             }
           }
@@ -113,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "util/Ubuntu 22.04探索.md",
+                "file": "Learning/GNN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "util/Ubuntu 22.04探索.md",
+                "file": "Learning/GNN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,17 +176,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8fc244eace572c99",
+  "active": "b1bf35a1def1dace",
   "lastOpenFiles": [
+    "Learning/GNN.md",
+    "papers/My DATE or DAC 2023.md",
+    "util/Ubuntu 22.04探索.md",
     "util/常用指令.md",
     "Workflow/文献阅读批注和同步体系.md",
     "Workflow/全系workflow搭建.md",
     "Workflow/图床搭建及配置.md",
     "Learning/内网穿透.md",
-    "papers/My DATE or DAC 2023.md",
     "papers/常用词汇.md",
-    "Learning/GPU/层次结构.md",
-    "Learning/GPU/SASS和PTX的区别.md",
-    "Learning/GPU/CUDA.md"
+    "Learning/GPU/层次结构.md"
   ]
 }
