@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "常用指令",
+      "path": "util/常用指令.md"
+    },
+    {
       "basename": "GNN",
       "path": "Learning/GNN.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "Ubuntu 22.04探索",
       "path": "util/Ubuntu 22.04探索.md"
-    },
-    {
-      "basename": "常用指令",
-      "path": "util/常用指令.md"
     },
     {
       "basename": "文献阅读批注和同步体系",

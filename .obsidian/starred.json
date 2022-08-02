@@ -9,6 +9,11 @@
       "type": "file",
       "title": "常用词汇",
       "path": "papers/常用词汇.md"
+    },
+    {
+      "type": "file",
+      "title": "常用指令",
+      "path": "util/常用指令.md"
     }
   ]
 }
