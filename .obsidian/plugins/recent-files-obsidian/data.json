@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Git",
+      "path": "Learning/Git.md"
+    },
+    {
       "basename": "常用指令",
       "path": "util/常用指令.md"
     },
@@ -59,10 +63,6 @@
     {
       "basename": "Benchmark探索",
       "path": "Learning/GPU/Benchmark探索.md"
-    },
-    {
-      "basename": "Git",
-      "path": "Learning/Git.md"
     },
     {
       "basename": "Python",

@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "util/常用指令.md",
+            "file": "Learning/Git.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "util/常用指令.md"
+                "file": "Learning/Git.md"
               }
             }
           }
@@ -108,8 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 458,
-    "collapsed": true
+    "width": 458
   },
   "right": {
     "id": "15dd14e7068b76d4",
@@ -125,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "util/常用指令.md",
+                "file": "Learning/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "util/常用指令.md",
+                "file": "Learning/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,12 +188,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2558a011cf756e09",
+  "active": "cc2825af52cc1706",
   "lastOpenFiles": [
+    "util/常用指令.md",
     "Learning/GNN.md",
     "papers/My DATE or DAC 2023.md",
     "util/Ubuntu 22.04探索.md",
-    "util/常用指令.md",
     "Workflow/文献阅读批注和同步体系.md",
     "Workflow/全系workflow搭建.md",
     "Workflow/图床搭建及配置.md",
