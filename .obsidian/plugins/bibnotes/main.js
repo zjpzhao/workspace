@@ -4304,6 +4304,22 @@ var MyPlugin = class extends import_obsidian6.Plugin {
       selectedEntry.localLibrary = "[Zotero](" + selectedEntry.select + ")";
       selectedEntry.localLibraryLink = selectedEntry.select;
     }
+    if (selectedEntry.itemType == "journalArticle") {
+      selectedEntry.itemType = "Journal Article";
+    }
+    if (selectedEntry.itemType == "report") {
+      selectedEntry.itemType = "Report";
+    }
+    if (selectedEntry.itemType == "bookSection") {
+      selectedEntry.itemType = "Book Section";
+    }
+    if (selectedEntry.itemType == "newspaperArticle") {
+      selectedEntry.itemType = "Newspaper Article";
+    }
+    if (selectedEntry.itemType == "book") {
+      selectedEntry.itemType = "Book";
+    }
+    selectedEntry.itemType = selectedEntry.itemType.charAt(0).toUpperCase() + selectedEntry.itemType.slice(1);
     selectedEntry.file = createLocalFileLink(selectedEntry);
     const entriesArray = Object.keys(selectedEntry);
     note = replaceAllTemplates(entriesArray, note, selectedEntry);
