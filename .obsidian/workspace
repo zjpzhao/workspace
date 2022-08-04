@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Learning/GNN.md",
+            "file": "util/常用指令.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -79,7 +79,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "e9d25589cbee286f",
@@ -99,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/GNN.md"
+                "file": "util/常用指令.md"
               }
             }
           }
@@ -124,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/GNN.md",
+                "file": "util/常用指令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/GNN.md",
+                "file": "util/常用指令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,10 +191,10 @@
   },
   "active": "b1bf35a1def1dace",
   "lastOpenFiles": [
+    "Learning/GNN.md",
     "papers/@FaultToleranceDistributed1994jalote.md",
     "Learning/Git.md",
     "util/常用指令.md",
-    "Learning/GNN.md",
     "papers/My DATE or DAC 2023.md",
     "util/Ubuntu 22.04探索.md",
     "Workflow/文献阅读批注和同步体系.md",

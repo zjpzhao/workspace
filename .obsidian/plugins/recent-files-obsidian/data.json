@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "常用指令",
+      "path": "util/常用指令.md"
+    },
+    {
       "basename": "GNN",
       "path": "Learning/GNN.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "Git",
       "path": "Learning/Git.md"
-    },
-    {
-      "basename": "常用指令",
-      "path": "util/常用指令.md"
     },
     {
       "basename": "My DATE or DAC 2023",
