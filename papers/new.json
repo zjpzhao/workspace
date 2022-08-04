@@ -185,6 +185,15 @@
       "name": "Modeling Tools",
       "parent": ""
     },
+    "TQUX3GGM": {
+      "collections": [],
+      "items": [
+        8908
+      ],
+      "key": "TQUX3GGM",
+      "name": "Methodology",
+      "parent": ""
+    },
     "TSDC4869": {
       "collections": [],
       "items": [
@@ -4734,6 +4743,56 @@
       "url": "https://dl.acm.org/doi/10.1145/2717311",
       "version": 730,
       "volume": "12"
+    },
+    {
+      "abstractNote": "Understanding why a model makes a certain prediction can be as crucial as the prediction’s accuracy in many applications. However, the highest accuracy for large modern datasets is often achieved by complex models that even experts struggle to interpret, such as ensemble or deep learning models, creating a tension between accuracy and interpretability. In response, various methods have recently been proposed to help users interpret the predictions of complex models, but it is often unclear how these methods are related and when one method is preferable over another. To address this problem, we present a uniﬁed framework for interpreting predictions, SHAP (SHapley Additive exPlanations). SHAP assigns each feature an importance value for a particular prediction. Its novel components include: (1) the identiﬁcation of a new class of additive feature importance measures, and (2) theoretical results showing there is a unique solution in this class with a set of desirable properties. The new class uniﬁes six existing methods, notable because several recent methods in the class lack the proposed desirable properties. Based on insights from this uniﬁcation, we present new methods that show improved computational performance and/or better consistency with human intuition than previous approaches.",
+      "attachments": [
+        {
+          "dateAdded": "2022-08-04T09:30:05Z",
+          "dateModified": "2022-08-04T09:30:10Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\8FDP7N52\\Lundberg and Lee - A Unified Approach to Interpreting Model Predictio.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Lundberg and Lee - A Unified Approach to Interpreting Model Predictio.pdf",
+          "uri": "http://zotero.org/users/7659667/items/8FDP7N52"
+        }
+      ],
+      "citationKey": "UnifiedApproachInterpretinglundberg",
+      "citekey": "UnifiedApproachInterpretinglundberg",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Scott M",
+          "lastName": "Lundberg"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Su-In",
+          "lastName": "Lee"
+        }
+      ],
+      "dateAdded": "2022-08-04T09:30:08Z",
+      "dateModified": "2022-08-04T09:31:06Z",
+      "itemID": 8908,
+      "itemKey": "R3W52CVE",
+      "itemType": "journalArticle",
+      "key": "R3W52CVE",
+      "language": "en",
+      "libraryCatalog": "Zotero",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "10",
+      "relations": [],
+      "select": "zotero://select/library/items/R3W52CVE",
+      "tags": [
+        {
+          "tag": "Interpret Predictions"
+        }
+      ],
+      "title": "A Unified Approach to Interpreting Model Predictions",
+      "uri": "http://zotero.org/users/7659667/items/R3W52CVE",
+      "version": 4151
     },
     {
       "DOI": "10.1109/HPCA.2009.4798243",
