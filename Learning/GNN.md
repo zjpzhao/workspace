@@ -53,4 +53,10 @@ gcn 增加深度会降低模型效果主要是因为过度平滑的问题。现�
 # GAT
 ## 注意力机制
 在归纳节点分类问题中，GaAN可以优于GAT以及其他具有不同聚合器的GNN模型。原论文：GaAN: Gated Attention Networks for Learning on Large and Spatiotemporal Graphs
+在文章*fuseGNN*[^2]的图10中得知：
+GCN和GAT都可以用作Inductive和Transductive
+![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/GCN%E5%92%8CGAT%E9%83%BD%E5%8F%AF%E4%BB%A5%E7%94%A8%E4%BD%9CInductive%E5%92%8CTransductive.png)
+
+[^2]:fuseGNN: Accelerating Graph Convolutional Neural Network Training on GPGPU
+
 

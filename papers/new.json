@@ -220,7 +220,8 @@
         7891,
         8453,
         8602,
-        8603
+        8603,
+        8906
       ],
       "key": "W43MLK4H",
       "name": "Resilience Analyzing",
@@ -253,7 +254,10 @@
     "id": "36a3b0b5-bad0-4a04-b79b-441c7cef77db",
     "label": "BetterBibTeX JSON",
     "options": {
-      "exportNotes": true
+      "exportFileData": false,
+      "exportNotes": true,
+      "keepUpdated": false,
+      "worker": true
     },
     "preferences": {
       "DOIandURL": "both",
@@ -340,8 +344,7 @@
       "testing": false,
       "verbatimFields": "url,doi,file,ids,eprint,/^verb[a-z]$/,groups,/^citeulike-linkout-[0-9]+$/, /^bdsk-url-[0-9]+$/",
       "warnBulkModify": 10,
-      "warnTitleCased": false,
-      "worker": true
+      "warnTitleCased": false
     }
   },
   "items": [
@@ -3405,6 +3408,70 @@
       "version": 2438
     },
     {
+      "DOI": "10.1109/IPDPS.2019.00096",
+      "ISBN": "978-1-72811-246-6",
+      "abstractNote": "Understanding application resilience (or error tolerance) in the presence of hardware transient faults on data objects is critical to ensure computing integrity and enable efﬁcient application-level fault tolerance mechanisms. However, we lack a method and a tool to quantify application resilience to transient faults on data objects. The traditional method, random fault injection, cannot help, because of losing data semantics and insufﬁcient information on how and where errors are tolerated. In this paper, we introduce a method and a tool (called “MOARD”) to model and quantify application resilience to transient faults on data objects. Our method is based on systematically quantifying error masking events caused by application-inherent semantics and program constructs. We use MOARD to study how and why errors in data objects can be tolerated by the application. We demonstrate tangible beneﬁts of using MOARD to direct a fault tolerance mechanism to protect data objects.",
+      "accessDate": "2022-08-04T08:43:07Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-08-04T08:42:58Z",
+          "dateModified": "2022-08-04T08:43:09Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\X624XH6J\\Guo and Li - 2019 - MOARD Modeling Application Resilience to Transien.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Guo and Li - 2019 - MOARD Modeling Application Resilience to Transien.pdf",
+          "uri": "http://zotero.org/users/7659667/items/X624XH6J"
+        }
+      ],
+      "citationKey": "MOARDModelingApplication2019guo",
+      "citekey": "MOARDModelingApplication2019guo",
+      "conferenceName": "2019 IEEE International Parallel and Distributed Processing Symposium (IPDPS)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Luanzheng",
+          "lastName": "Guo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dong",
+          "lastName": "Li"
+        }
+      ],
+      "date": "5/2019",
+      "dateAdded": "2022-08-04T08:43:07Z",
+      "dateModified": "2022-08-04T08:43:27Z",
+      "itemID": 8906,
+      "itemKey": "IWZAMUH5",
+      "itemType": "conferencePaper",
+      "key": "IWZAMUH5",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "878-889",
+      "place": "Rio de Janeiro, Brazil",
+      "publicationTitle": "2019 IEEE International Parallel and Distributed Processing Symposium (IPDPS)",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/IWZAMUH5",
+      "shortTitle": "MOARD",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        },
+        {
+          "tag": "IPDPS"
+        }
+      ],
+      "title": "MOARD: Modeling Application Resilience to Transient Faults on Data Objects",
+      "uri": "http://zotero.org/users/7659667/items/IWZAMUH5",
+      "url": "https://ieeexplore.ieee.org/document/8821039/",
+      "version": 4137
+    },
+    {
       "DOI": "10.1145/3447375",
       "ISSN": "2476-1249",
       "abstractNote": "As Graphics Processing Units (GPUs) are becoming a de facto solution for accelerating a wide range of applications, their reliable operation is becoming increasingly important. One of the major challenges in the domain of GPU reliability is to accurately measure GPGPU application error resilience. This challenge stems from the fact that a typical GPGPU application spawns a huge number of threads and then utilizes a large amount of potentially unreliable compute and memory resources available on the GPUs. As the number of possible fault locations can be in the billions, evaluating every fault and examining its effect on theapplication error resilience is impractical. Application resilience is evaluated via extensive fault injection campaigns based on sampling of an extensive fault site space. Typically, the larger the input of the GPGPU application, the longer the experimental campaign. In this work, we devise a methodology, SUGAR (Speeding Up GPGPU Application Resilience Estimation with input sizing), that dramatically speeds up the evaluation of GPGPU application error resilience by judicious input sizing. We show how analyzing a small fraction of the input is sufficient to estimate the application resilience with high accuracy and dramatically reduce the duration of experimentation. Key of our estimation methodology is the discovery of repeating patterns as a function of the input size. Using the well-established fact that error resilience in GPGPU applications is mostly determined by the dynamic instruction count at the thread level, we identify the patterns that allow us to accurately predict application error resilience for arbitrarily large inputs. For the cases that we examine in this paper, this new resilience estimation mechanism provides significant speedups (up to 1336 times) and 97.0 on the average, while keeping estimation errors to less than 1%.",
@@ -5870,7 +5937,7 @@
     }
   ],
   "version": {
-    "bbt": "6.7.17",
+    "bbt": "6.7.19",
     "zotero": "6.0.10"
   }
 }

@@ -4,25 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "b1bf35a1def1dace",
+        "id": "1f3a12f53fdc37c9",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "util/常用指令.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "cc2825af52cc1706",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "papers/@FaultToleranceDistributed1994jalote.md",
+            "file": "papers/My DATE or DAC 2023.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -100,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "util/常用指令.md"
+                "file": "papers/My DATE or DAC 2023.md"
               }
             }
           }
@@ -125,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "util/常用指令.md",
+                "file": "papers/My DATE or DAC 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "util/常用指令.md",
+                "file": "papers/My DATE or DAC 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,17 +176,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b1bf35a1def1dace",
+  "active": "1f3a12f53fdc37c9",
   "lastOpenFiles": [
     "Learning/GNN.md",
+    "Learning/GPU/SASS和PTX的区别.md",
+    "papers/常用词汇.md",
     "papers/@FaultToleranceDistributed1994jalote.md",
-    "Learning/Git.md",
+    "Learning/Python/python典型写法示例.md",
     "util/常用指令.md",
+    "Learning/Git.md",
     "papers/My DATE or DAC 2023.md",
     "util/Ubuntu 22.04探索.md",
-    "Workflow/文献阅读批注和同步体系.md",
-    "Workflow/全系workflow搭建.md",
-    "Workflow/图床搭建及配置.md",
-    "Learning/内网穿透.md"
+    "Workflow/文献阅读批注和同步体系.md"
   ]
 }

@@ -83,3 +83,10 @@ next：错误传播——图
 
 
 
+
+# 需要思考和解决的问题
+- [ ] GAT能做inductive吗
+- [ ] 能否将注意力融入GraphSage *or* 直接采用GAT
+- [ ] 选用哪种图框架：DGL *or* PyG (参考https://github.com/cornell-zhang/GLAIVE)
+- [ ] GNN Train前需要构建自定义数据集，DGL *or* PyG 方便些？
+- [ ] 注错层次在*PTX*/*PTX plus*/*SASS* ？
