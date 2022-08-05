@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "papers/My DATE or DAC 2023.md",
+            "file": "papers/常用词汇.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/My DATE or DAC 2023.md"
+                "file": "papers/常用词汇.md"
               }
             }
           }
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/My DATE or DAC 2023.md",
+                "file": "papers/常用词汇.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/My DATE or DAC 2023.md",
+                "file": "papers/常用词汇.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,6 +178,7 @@
   },
   "active": "1f3a12f53fdc37c9",
   "lastOpenFiles": [
+    "papers/My DATE or DAC 2023.md",
     "Learning/GNN.md",
     "Learning/GPU/SASS和PTX的区别.md",
     "papers/常用词汇.md",
@@ -185,7 +186,6 @@
     "Learning/Python/python典型写法示例.md",
     "util/常用指令.md",
     "Learning/Git.md",
-    "papers/My DATE or DAC 2023.md",
     "util/Ubuntu 22.04探索.md",
     "Workflow/文献阅读批注和同步体系.md"
   ]
