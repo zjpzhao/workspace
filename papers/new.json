@@ -5482,7 +5482,7 @@
       ],
       "date": "2020",
       "dateAdded": "2022-08-06T05:34:02Z",
-      "dateModified": "2022-08-06T05:34:03Z",
+      "dateModified": "2022-08-08T12:19:38Z",
       "itemID": 8934,
       "itemKey": "W5UTDX7Z",
       "itemType": "journalArticle",
@@ -5496,16 +5496,11 @@
       "publicationTitle": "IEEE Transactions on Computers",
       "relations": [],
       "select": "zotero://select/library/items/W5UTDX7Z",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
+      "tags": [],
       "title": "Enabling Efficient Fast Convolution Algorithms on GPUs via MegaKernels",
       "uri": "http://zotero.org/users/7659667/items/W5UTDX7Z",
       "url": "https://ieeexplore.ieee.org/document/9006949/",
-      "version": 4216
+      "version": 4373
     },
     {
       "DOI": "10.1145/3295500.3356177",
