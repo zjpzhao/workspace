@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Workflow/插件用法.md",
+            "file": "papers/My DATE or DAC 2023.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -67,7 +67,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "e9d25589cbee286f",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Workflow/插件用法.md"
+                "file": "papers/My DATE or DAC 2023.md"
               }
             }
           }
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Workflow/插件用法.md",
+                "file": "papers/My DATE or DAC 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Workflow/插件用法.md",
+                "file": "papers/My DATE or DAC 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,14 +179,14 @@
   "active": "1f3a12f53fdc37c9",
   "lastOpenFiles": [
     "papers/常用词汇.md",
-    "papers/My DATE or DAC 2023.md",
-    "Learning/GNN.md",
-    "Learning/GPU/SASS和PTX的区别.md",
-    "papers/@FaultToleranceDistributed1994jalote.md",
+    "Workflow/文献阅读批注和同步体系.md",
+    "util/Tricks.md",
+    "Lectures/云计算课程论文研读报告.md",
     "Learning/Python/python典型写法示例.md",
-    "util/常用指令.md",
-    "Learning/Git.md",
-    "util/Ubuntu 22.04探索.md",
-    "Workflow/文献阅读批注和同步体系.md"
+    "Learning/GPU/SASS和PTX的区别.md",
+    "Learning/GPU/Benchmark探索.md",
+    "Learning/GPU/层次结构.md",
+    "Workflow/插件用法.md",
+    "papers/My DATE or DAC 2023.md"
   ]
 }
