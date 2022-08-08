@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "插件用法",
+      "path": "Workflow/插件用法.md"
+    },
+    {
       "basename": "常用词汇",
       "path": "papers/常用词汇.md"
     },
@@ -119,10 +123,6 @@
     {
       "basename": "容错系统",
       "path": "Lectures/容错系统.md"
-    },
-    {
-      "basename": "插件用法",
-      "path": "Workflow/插件用法.md"
     },
     {
       "basename": "Tricks",

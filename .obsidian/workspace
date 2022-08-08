@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "papers/常用词汇.md",
+            "file": "Workflow/插件用法.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "主题",
+                "query": "youtube",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -67,7 +67,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "e9d25589cbee286f",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/常用词汇.md"
+                "file": "Workflow/插件用法.md"
               }
             }
           }
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/常用词汇.md",
+                "file": "Workflow/插件用法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/常用词汇.md",
+                "file": "Workflow/插件用法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,10 +178,10 @@
   },
   "active": "1f3a12f53fdc37c9",
   "lastOpenFiles": [
+    "papers/常用词汇.md",
     "papers/My DATE or DAC 2023.md",
     "Learning/GNN.md",
     "Learning/GPU/SASS和PTX的区别.md",
-    "papers/常用词汇.md",
     "papers/@FaultToleranceDistributed1994jalote.md",
     "Learning/Python/python典型写法示例.md",
     "util/常用指令.md",
