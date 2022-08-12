@@ -100,7 +100,8 @@
         8543,
         8545,
         8657,
-        8903
+        8903,
+        8957
       ],
       "key": "JNY8VHWT",
       "name": "GNN",
@@ -120,13 +121,7 @@
     "KCJQMBL7": {
       "collections": [],
       "items": [
-        108,
-        114,
-        115,
-        144,
-        168,
-        169,
-        170
+        8957
       ],
       "key": "KCJQMBL7",
       "name": "Reading",
@@ -144,6 +139,18 @@
       "key": "NTN23YJ8",
       "name": "Fault Tolerance",
       "parent": "YXK8S2C9"
+    },
+    "PRPTPRWT": {
+      "collections": [],
+      "items": [
+        8954,
+        8955,
+        8956,
+        7899
+      ],
+      "key": "PRPTPRWT",
+      "name": "Power & Other",
+      "parent": ""
     },
     "Q7FV3VXB": {
       "collections": [],
@@ -376,8 +383,8 @@
           "uri": "http://zotero.org/users/7659667/items/6GEXUR2Y"
         }
       ],
-      "citationKey": "khairyAccelSimExtensibleSimulation2020",
-      "citekey": "khairyAccelSimExtensibleSimulation2020",
+      "citationKey": "AccelSimExtensibleSimulation2020khairy",
+      "citekey": "AccelSimExtensibleSimulation2020khairy",
       "conferenceName": "2020 ACM/IEEE 47th Annual International Symposium on Computer Architecture (ISCA)",
       "creators": [
         {
@@ -422,7 +429,7 @@
       "title": "Accel-Sim: An Extensible Simulation Framework for Validated GPU Modeling",
       "uri": "http://zotero.org/users/7659667/items/2AUJKQMF",
       "url": "https://ieeexplore.ieee.org/document/9138922/",
-      "version": 730
+      "version": 4403
     },
     {
       "DOI": "10.1145/3385412.3386033",
@@ -1215,7 +1222,7 @@
       "title": "Modeling the Propagation of Soft Errors in Programs",
       "uri": "http://zotero.org/users/7659667/items/55ZXU92X",
       "url": "http://dl.acm.org/citation.cfm?doid=3339363.3339382",
-      "version": 2601
+      "version": 4403
     },
     {
       "ISBN": "978-0-471-46406-8 978-0-471-29342-2 978-0-471-22460-0 978-1-280-36749-6",
@@ -1582,7 +1589,7 @@
       "title": "AccelWattch: A Power Modeling Framework for Modern GPUs",
       "uri": "http://zotero.org/users/7659667/items/79U9YNU8",
       "url": "https://dl.acm.org/doi/10.1145/3466752.3480063",
-      "version": 2571
+      "version": 4402
     },
     {
       "DOI": "10.1109/SC.2018.00070",
@@ -2274,7 +2281,7 @@
       "title": "CrystalPerf: Learning to Characterize the Performance of Dataflow Computation through Code Analysis",
       "uri": "http://zotero.org/users/7659667/items/BWNTSNZZ",
       "url": "https://www.usenix.org/conference/atc21/presentation/tian",
-      "version": 2602
+      "version": 4403
     },
     {
       "DOI": "10.1145/3458817.3476147",
@@ -3920,7 +3927,7 @@
       "title": "Hybrid, scalable, trace-driven performance modeling of GPGPUs",
       "uri": "http://zotero.org/users/7659667/items/KDD3TSZG",
       "url": "https://dl.acm.org/doi/10.1145/3458817.3476221",
-      "version": 2602
+      "version": 4403
     },
     {
       "DOI": "10.1109/DSN.2016.24",
@@ -4117,6 +4124,87 @@
       "uri": "http://zotero.org/users/7659667/items/M3KD8MK6",
       "url": "http://ieeexplore.ieee.org/document/7877163/",
       "version": 731
+    },
+    {
+      "DOI": "10.1145/3400302.3415657",
+      "ISBN": "978-1-4503-8026-3",
+      "abstractNote": "Modern heterogeneous FPGA architectures incorporate a variety of hardened blocks for boosting the performance of arithmeticintensive designs, such as DSP blocks and carry blocks. Since hardened blocks can be configured in different ways, a variety of datapath patterns can be mapped into these blocks. We observe that existing high-level synthesis (HLS) tools often fail to capture some of the operation mapping patterns, leading to limited estimation accuracy in terms of resource usage and delay. To address this deficiency, we propose to exploit graph neural networks (GNN) to automatically learn operation mapping patterns. We apply GNN models that are trained on microbenchmarks directly to realistic designs through inductive learning. Experimental results show that our approach can effectively infer various valid mapping patterns on both microbenchmarks and realistic designs. Furthermore, the proposed framework is exploited to improve the accuracy of delay estimation in HLS.",
+      "accessDate": "2022-08-12T04:10:14Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-08-12T04:10:06Z",
+          "dateModified": "2022-08-12T04:10:15Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\AUFVYQDU\\Ustun et al. - 2020 - Accurate operation delay prediction for FPGA HLS u.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Ustun et al. - 2020 - Accurate operation delay prediction for FPGA HLS u.pdf",
+          "uri": "http://zotero.org/users/7659667/items/AUFVYQDU"
+        }
+      ],
+      "citationKey": "AccurateOperationDelay2020ustun",
+      "citekey": "AccurateOperationDelay2020ustun",
+      "conferenceName": "ICCAD '20: IEEE/ACM International Conference on Computer-Aided Design",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Ecenur",
+          "lastName": "Ustun"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Chenhui",
+          "lastName": "Deng"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Debjit",
+          "lastName": "Pal"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Zhijing",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Zhiru",
+          "lastName": "Zhang"
+        }
+      ],
+      "date": "2020-11-02",
+      "dateAdded": "2022-08-12T04:10:14Z",
+      "dateModified": "2022-08-12T05:27:27Z",
+      "itemID": 8954,
+      "itemKey": "MQI8UX95",
+      "itemType": "conferencePaper",
+      "key": "MQI8UX95",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1-9",
+      "place": "Virtual Event USA",
+      "publicationTitle": "Proceedings of the 39th International Conference on Computer-Aided Design",
+      "publisher": "ACM",
+      "relations": [],
+      "select": "zotero://select/library/items/MQI8UX95",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        },
+        {
+          "tag": "GNN"
+        },
+        {
+          "tag": "HLS"
+        }
+      ],
+      "title": "Accurate operation delay prediction for FPGA HLS using graph neural networks",
+      "uri": "http://zotero.org/users/7659667/items/MQI8UX95",
+      "url": "https://dl.acm.org/doi/10.1145/3400302.3415657",
+      "version": 4421
     },
     {
       "DOI": "10.1109/CCGrid49817.2020.00-82",
@@ -4322,6 +4410,93 @@
       "uri": "http://zotero.org/users/7659667/items/N8QC8W93",
       "url": "https://ieeexplore.ieee.org/document/9080079/",
       "version": 2601
+    },
+    {
+      "DOI": "10.23919/DATE54114.2022.9774682",
+      "ISBN": "978-3-9819263-6-1",
+      "abstractNote": "Power estimation is the basis of many hardware optimization strategies. However, it is still challenging to offer accurate power estimation at an early stage such as highlevel synthesis (HLS). In this paper, we propose PowerGear, a graph-learning-assisted power estimation approach for FPGA HLS, which features high accuracy, efﬁciency and transferability. PowerGear comprises two main components: a graph construction ﬂow and a customized graph neural network (GNN) model. Speciﬁcally, in the graph construction ﬂow, we introduce buffer insertion, datapath merging, graph trimming and feature annotation techniques to transform HLS designs into graph-structured data, which encode both intra-operation micro-architectures and inter-operation interconnects annotated with switching activities. Furthermore, we propose a novel power-aware heterogeneous edge-centric GNN model which effectively learns heterogeneous edge semantics and structural properties of the constructed graphs via edge-centric neighborhood aggregation, and ﬁts the formulation of dynamic power. Compared with on-board measurement, PowerGear estimates total and dynamic power for new HLS designs with errors of 3.60% and 8.81%, respectively, which outperforms the prior arts in research and the commercial product Vivado. In addition, PowerGear demonstrates a speedup of 4× over Vivado power estimator. Finally, we present a case study in which PowerGear is exploited to facilitate design space exploration for FPGA HLS, leading to a performance gain of up to 11.2%, compared with methods using state-of-the-art predictive models.",
+      "accessDate": "2022-08-12T04:00:24Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-08-12T04:00:16Z",
+          "dateModified": "2022-08-12T04:00:25Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\RS6Q2GBG\\Lin et al. - 2022 - PowerGear Early-Stage Power Estimation in FPGA HL.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Lin et al. - 2022 - PowerGear Early-Stage Power Estimation in FPGA HL.pdf",
+          "uri": "http://zotero.org/users/7659667/items/RS6Q2GBG"
+        }
+      ],
+      "citationKey": "PowerGearEarlyStagePower2022lin",
+      "citekey": "PowerGearEarlyStagePower2022lin",
+      "conferenceName": "2022 Design, Automation & Test in Europe Conference & Exhibition (DATE)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Zhe",
+          "lastName": "Lin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Zike",
+          "lastName": "Yuan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jieru",
+          "lastName": "Zhao"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Wei",
+          "lastName": "Zhang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Hui",
+          "lastName": "Wang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yonghong",
+          "lastName": "Tian"
+        }
+      ],
+      "date": "2022-3-14",
+      "dateAdded": "2022-08-12T04:00:24Z",
+      "dateModified": "2022-08-12T05:27:29Z",
+      "itemID": 8956,
+      "itemKey": "NBN2HSTR",
+      "itemType": "conferencePaper",
+      "key": "NBN2HSTR",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1341-1346",
+      "place": "Antwerp, Belgium",
+      "publicationTitle": "2022 Design, Automation & Test in Europe Conference & Exhibition (DATE)",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/NBN2HSTR",
+      "shortTitle": "PowerGear",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        },
+        {
+          "tag": "GNN"
+        },
+        {
+          "tag": "Power"
+        }
+      ],
+      "title": "PowerGear: Early-Stage Power Estimation in FPGA HLS via Heterogeneous Edge-Centric GNNs",
+      "uri": "http://zotero.org/users/7659667/items/NBN2HSTR",
+      "url": "https://ieeexplore.ieee.org/document/9774682/",
+      "version": 4421
     },
     {
       "charset": "",
@@ -5008,6 +5183,62 @@
       "version": 2741
     },
     {
+      "abstractNote": "Low-dimensional embeddings of nodes in large graphs have proved extremely useful in a variety of prediction tasks, from content recommendation to identifying protein functions. However, most existing approaches require that all nodes in the graph are present during training of the embeddings; these previous approaches are inherently transductive and do not naturally generalize to unseen nodes. Here we present GraphSAGE, a general inductive framework that leverages node feature information (e.g., text attributes) to efﬁciently generate node embeddings for previously unseen data. Instead of training individual embeddings for each node, we learn a function that generates embeddings by sampling and aggregating features from a node’s local neighborhood. Our algorithm outperforms strong baselines on three inductive node-classiﬁcation benchmarks: we classify the category of unseen nodes in evolving information graphs based on citation and Reddit post data, and we show that our algorithm generalizes to completely unseen graphs using a multi-graph dataset of protein-protein interactions.",
+      "attachments": [
+        {
+          "dateAdded": "2022-08-12T03:58:48Z",
+          "dateModified": "2022-08-12T03:58:57Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\Q7EQGQ6P\\Hamilton et al. - Inductive Representation Learning on Large Graphs.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Hamilton et al. - Inductive Representation Learning on Large Graphs.pdf",
+          "uri": "http://zotero.org/users/7659667/items/Q7EQGQ6P"
+        }
+      ],
+      "citationKey": "InductiveRepresentationLearninghamilton",
+      "citekey": "InductiveRepresentationLearninghamilton",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Will",
+          "lastName": "Hamilton"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Zhitao",
+          "lastName": "Ying"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jure",
+          "lastName": "Leskovec"
+        }
+      ],
+      "dateAdded": "2022-08-12T03:58:56Z",
+      "dateModified": "2022-08-12T05:27:30Z",
+      "itemID": 8957,
+      "itemKey": "TEG6DPNQ",
+      "itemType": "journalArticle",
+      "key": "TEG6DPNQ",
+      "language": "en",
+      "libraryCatalog": "Zotero",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "11",
+      "relations": [],
+      "select": "zotero://select/library/items/TEG6DPNQ",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Inductive Representation Learning on Large Graphs",
+      "uri": "http://zotero.org/users/7659667/items/TEG6DPNQ",
+      "version": 4421
+    },
+    {
       "DOI": "10.1145/3458817.3476170",
       "ISBN": "978-1-4503-8442-1",
       "accessDate": "2021-12-02T08:47:48Z",
@@ -5431,7 +5662,7 @@
       "title": "Understanding Error Propagation in GPGPU Applications",
       "uri": "http://zotero.org/users/7659667/items/VI7SEKR4",
       "url": "http://ieeexplore.ieee.org/document/7877099/",
-      "version": 2601
+      "version": 4403
     },
     {
       "DOI": "10.1109/TC.2020.2973144",
@@ -5632,6 +5863,81 @@
       "uri": "http://zotero.org/users/7659667/items/X7BVKF78",
       "url": "https://ieeexplore.ieee.org/document/8988703/",
       "version": 1908
+    },
+    {
+      "DOI": "10.1109/DAC18072.2020.9218643",
+      "ISBN": "978-1-72811-085-1",
+      "abstractNote": "This paper introduces GRANNITE, a GPUaccelerated novel graph neural network (GNN) model for fast, accurate, and transferable vector-based average power estimation. During training, GRANNITE learns how to propagate average toggle rates through combinational logic: a netlist is represented as a graph, register states and unit inputs from RTL simulation are used as features, and combinational gate toggle rates are used as labels. A trained GNN model can then infer average toggle rates on a new workload of interest or new netlists from RTL simulation results in a few seconds. Compared to traditional power analysis using gate-level simulations, GRANNITE achieves >18.7X speedup with an error of only <5.5% across a diverse set of benchmark circuits. Compared to a GPU-accelerated conventional probabilistic switching activity estimation approach, GRANNITE achieves much better accuracy (on average 25.9% lower error) at similar runtimes.",
+      "accessDate": "2022-08-12T04:04:10Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-08-12T04:04:05Z",
+          "dateModified": "2022-08-12T04:04:12Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\4LRIX6G8\\Zhang et al. - 2020 - GRANNITE Graph Neural Network Inference for Trans.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Zhang et al. - 2020 - GRANNITE Graph Neural Network Inference for Trans.pdf",
+          "uri": "http://zotero.org/users/7659667/items/4LRIX6G8"
+        }
+      ],
+      "citationKey": "GRANNITEGraphNeural2020zhanga",
+      "citekey": "GRANNITEGraphNeural2020zhanga",
+      "conferenceName": "2020 57th ACM/IEEE Design Automation Conference (DAC)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Yanqing",
+          "lastName": "Zhang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Haoxing",
+          "lastName": "Ren"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Brucek",
+          "lastName": "Khailany"
+        }
+      ],
+      "date": "7/2020",
+      "dateAdded": "2022-08-12T04:04:10Z",
+      "dateModified": "2022-08-12T05:27:28Z",
+      "itemID": 8955,
+      "itemKey": "XQKHJ7RW",
+      "itemType": "conferencePaper",
+      "key": "XQKHJ7RW",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1-6",
+      "place": "San Francisco, CA, USA",
+      "publicationTitle": "2020 57th ACM/IEEE Design Automation Conference (DAC)",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/XQKHJ7RW",
+      "shortTitle": "GRANNITE",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        },
+        {
+          "tag": "GNN"
+        },
+        {
+          "tag": "Power"
+        },
+        {
+          "tag": "Transferable"
+        }
+      ],
+      "title": "GRANNITE: Graph Neural Network Inference for Transferable Power Estimation",
+      "uri": "http://zotero.org/users/7659667/items/XQKHJ7RW",
+      "url": "https://ieeexplore.ieee.org/document/9218643/",
+      "version": 4421
     },
     {
       "DOI": "10.1145/361147.361115",
@@ -5925,19 +6231,19 @@
           "tag": "Error Propagation"
         },
         {
-          "tag": "Soft Error"
+          "tag": "Error Resilience"
         },
         {
           "tag": "SDC"
         },
         {
-          "tag": "Error Resilience"
+          "tag": "Soft Error"
         }
       ],
       "title": "Modeling Soft-Error Propagation in Programs",
       "uri": "http://zotero.org/users/7659667/items/YEHZWJ4Z",
       "url": "https://ieeexplore.ieee.org/document/8416468/",
-      "version": 2601
+      "version": 4403
     },
     {
       "DOI": "10.1109/SC41405.2020.00032",
@@ -6019,7 +6325,7 @@
       "title": "SCALANA: Automating Scaling Loss Detection with Graph Analysis",
       "uri": "http://zotero.org/users/7659667/items/YMNVQNGA",
       "url": "https://ieeexplore.ieee.org/document/9355294/",
-      "version": 2602
+      "version": 4403
     },
     {
       "DOI": "10.23919/DATE51398.2021.9474098",
