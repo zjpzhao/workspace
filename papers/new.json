@@ -143,10 +143,10 @@
     "PRPTPRWT": {
       "collections": [],
       "items": [
+        7899,
         8954,
         8955,
-        8956,
-        7899
+        8956
       ],
       "key": "PRPTPRWT",
       "name": "Power & Other",
@@ -4191,11 +4191,11 @@
       "select": "zotero://select/library/items/MQI8UX95",
       "tags": [
         {
-          "tag": "/unread",
-          "type": 1
+          "tag": "GNN"
         },
         {
-          "tag": "GNN"
+          "tag": "/unread",
+          "type": 1
         },
         {
           "tag": "HLS"
@@ -4483,11 +4483,11 @@
       "shortTitle": "PowerGear",
       "tags": [
         {
-          "tag": "/unread",
-          "type": 1
+          "tag": "GNN"
         },
         {
-          "tag": "GNN"
+          "tag": "/unread",
+          "type": 1
         },
         {
           "tag": "Power"
@@ -5903,7 +5903,7 @@
       ],
       "date": "7/2020",
       "dateAdded": "2022-08-12T04:04:10Z",
-      "dateModified": "2022-08-12T05:27:28Z",
+      "dateModified": "2022-08-12T06:46:34Z",
       "itemID": 8955,
       "itemKey": "XQKHJ7RW",
       "itemType": "conferencePaper",
@@ -5921,10 +5921,6 @@
       "shortTitle": "GRANNITE",
       "tags": [
         {
-          "tag": "/unread",
-          "type": 1
-        },
-        {
           "tag": "GNN"
         },
         {
@@ -5937,7 +5933,7 @@
       "title": "GRANNITE: Graph Neural Network Inference for Transferable Power Estimation",
       "uri": "http://zotero.org/users/7659667/items/XQKHJ7RW",
       "url": "https://ieeexplore.ieee.org/document/9218643/",
-      "version": 4421
+      "version": 4422
     },
     {
       "DOI": "10.1145/361147.361115",
