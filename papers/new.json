@@ -3371,8 +3371,8 @@
           "uri": "http://zotero.org/users/7659667/items/NN5Q3DJU"
         }
       ],
-      "citationKey": "FlipTrackerUnderstandingNatural2018guoa",
-      "citekey": "FlipTrackerUnderstandingNatural2018guoa",
+      "citationKey": "FlipTrackerUnderstandingNatural2018guo",
+      "citekey": "FlipTrackerUnderstandingNatural2018guo",
       "conferenceName": "SC18: International Conference for High Performance Computing, Networking, Storage and Analysis",
       "creators": [
         {
@@ -3398,7 +3398,7 @@
       ],
       "date": "11/2018",
       "dateAdded": "2022-05-10T15:37:16Z",
-      "dateModified": "2022-05-10T15:37:17Z",
+      "dateModified": "2022-08-12T07:42:22Z",
       "itemID": 7891,
       "itemKey": "IVP59RG9",
       "itemType": "conferencePaper",
@@ -3416,14 +3416,13 @@
       "shortTitle": "FlipTracker",
       "tags": [
         {
-          "tag": "/unread",
-          "type": 1
+          "tag": "Resilience computation patterns"
         }
       ],
       "title": "FlipTracker: Understanding Natural Error Resilience in HPC Applications",
       "uri": "http://zotero.org/users/7659667/items/IVP59RG9",
       "url": "https://ieeexplore.ieee.org/document/8665769/",
-      "version": 2438
+      "version": 4423
     },
     {
       "DOI": "10.1109/IPDPS.2019.00096",

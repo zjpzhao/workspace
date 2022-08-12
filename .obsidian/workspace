@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "papers/My DATE or DAC 2023.md",
+            "file": "papers/常用词汇.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/My DATE or DAC 2023.md"
+                "file": "papers/常用词汇.md"
               }
             }
           }
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/My DATE or DAC 2023.md",
+                "file": "papers/常用词汇.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/My DATE or DAC 2023.md",
+                "file": "papers/常用词汇.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,8 +178,8 @@
   },
   "active": "1f3a12f53fdc37c9",
   "lastOpenFiles": [
-    "papers/常用词汇.md",
     "papers/My DATE or DAC 2023.md",
+    "papers/常用词汇.md",
     "Workflow/文献阅读批注和同步体系.md",
     "util/Tricks.md",
     "Lectures/云计算课程论文研读报告.md",
