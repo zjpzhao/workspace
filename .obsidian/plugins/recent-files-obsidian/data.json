@@ -1,8 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "常用词汇",
-      "path": "papers/常用词汇.md"
+      "basename": "英语词汇积累",
+      "path": "papers/英语词汇积累.md"
+    },
+    {
+      "basename": "Python Base",
+      "path": "Learning/Python/Python Base.md"
+    },
+    {
+      "basename": "Networking",
+      "path": "Learning/计算机网络/Networking.md"
+    },
+    {
+      "basename": "内网穿透",
+      "path": "Learning/计算机网络/内网穿透.md"
+    },
+    {
+      "basename": "GNN",
+      "path": "Learning/GNN.md"
+    },
+    {
+      "basename": "R语言",
+      "path": "Learning/R语言.md"
+    },
+    {
+      "basename": "Markdown",
+      "path": "Learning/Markdown.md"
+    },
+    {
+      "basename": "论文撰写",
+      "path": "papers/论文撰写.md"
     },
     {
       "basename": "My DATE or DAC 2023",
@@ -41,10 +69,6 @@
       "path": "Workflow/插件用法.md"
     },
     {
-      "basename": "GNN",
-      "path": "Learning/GNN.md"
-    },
-    {
       "basename": "@FaultToleranceDistributed1994jalote",
       "path": "papers/@FaultToleranceDistributed1994jalote.md"
     },
@@ -69,24 +93,8 @@
       "path": "Workflow/图床搭建及配置.md"
     },
     {
-      "basename": "内网穿透",
-      "path": "Learning/内网穿透.md"
-    },
-    {
       "basename": "CUDA",
       "path": "Learning/GPU/CUDA.md"
-    },
-    {
-      "basename": "R语言",
-      "path": "Learning/R语言.md"
-    },
-    {
-      "basename": "Markdown",
-      "path": "Learning/Markdown.md"
-    },
-    {
-      "basename": "Python",
-      "path": "Learning/Python/Python.md"
     },
     {
       "basename": "GPU",
@@ -115,10 +123,6 @@
     {
       "basename": "Code_对神经网络模型参数进行多线程单比特位故障注入",
       "path": "Learning/Python/Code_对神经网络模型参数进行多线程单比特位故障注入.md"
-    },
-    {
-      "basename": "Network",
-      "path": "Learning/Network.md"
     },
     {
       "basename": "linux配置代理Qv2ray和Clash",
@@ -151,10 +155,6 @@
     {
       "basename": "@ReliabilityComputerSystems2003shooman",
       "path": "papers/@ReliabilityComputerSystems2003shooman.md"
-    },
-    {
-      "basename": "论文撰写",
-      "path": "papers/论文撰写.md"
     }
   ],
   "omittedPaths": [],
