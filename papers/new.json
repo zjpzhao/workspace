@@ -147,7 +147,8 @@
         7899,
         8954,
         8955,
-        8956
+        8956,
+        9000
       ],
       "key": "PRPTPRWT",
       "name": "Power & Other",
@@ -4573,6 +4574,80 @@
       "uri": "http://zotero.org/users/7659667/items/NBN2HSTR",
       "url": "https://ieeexplore.ieee.org/document/9774682/",
       "version": 4421
+    },
+    {
+      "DOI": "10.23919/DATE54114.2022.9774579",
+      "ISBN": "978-3-9819263-6-1",
+      "abstractNote": "Lithography hotspot detection is of great importance in chip manufacturing. It aims to ﬁnd patterns that may incur defects in the early design stage. Inspired by the success of deep learning in computer vision, many works convert layouts into images, turn the hotspot detection problem into an image classiﬁcation task. Traditional graph-based methods consume fewer computer resources and less detection time compared to imagebased methods, but they have too many false alarms. In this paper, a hotspot detection approach via the graph neural network (GNN) is proposed. We also propose a novel representation model to map a layout to one graph, in which we introduce multi-dimensional features to encode components of the layout. Then we use a modiﬁed GNN to further process the extracted layout features and get an embedding of the local geometric relationship. Experimental results on the ICCAD2012 Contest benchmarks show our proposed approach can achieve over 10× speedup and fewer false alarms without loss of accuracy. On the ICCAD2020 benchmark, our model can achieve 2.10% higher accuracy compared with the previous approach.",
+      "accessDate": "2022-08-15T09:24:06Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-08-15T09:24:00Z",
+          "dateModified": "2022-08-15T09:24:07Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\GWUT8DRY\\Sun et al. - 2022 - Efficient Hotspot Detection via Graph Neural Netwo.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Sun et al. - 2022 - Efficient Hotspot Detection via Graph Neural Netwo.pdf",
+          "uri": "http://zotero.org/users/7659667/items/GWUT8DRY"
+        }
+      ],
+      "citationKey": "EfficientHotspotDetection2022sun",
+      "citekey": "EfficientHotspotDetection2022sun",
+      "conferenceName": "2022 Design, Automation & Test in Europe Conference & Exhibition (DATE)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Shuyuan",
+          "lastName": "Sun"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yiyang",
+          "lastName": "Jiang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Fan",
+          "lastName": "Yang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bei",
+          "lastName": "Yu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Xuan",
+          "lastName": "Zeng"
+        }
+      ],
+      "date": "2022-3-14",
+      "dateAdded": "2022-08-15T09:24:06Z",
+      "dateModified": "2022-08-15T09:24:26Z",
+      "itemID": 9000,
+      "itemKey": "NCNMXGC2",
+      "itemType": "conferencePaper",
+      "key": "NCNMXGC2",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1233-1238",
+      "place": "Antwerp, Belgium",
+      "publicationTitle": "2022 Design, Automation & Test in Europe Conference & Exhibition (DATE)",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/NCNMXGC2",
+      "tags": [
+        {
+          "tag": "GNN"
+        }
+      ],
+      "title": "Efficient Hotspot Detection via Graph Neural Network",
+      "uri": "http://zotero.org/users/7659667/items/NCNMXGC2",
+      "url": "https://ieeexplore.ieee.org/document/9774579/",
+      "version": 4470
     },
     {
       "charset": "",
