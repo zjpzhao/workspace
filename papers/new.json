@@ -198,7 +198,8 @@
       "items": [
         8908,
         8910,
-        8934
+        8934,
+        8998
       ],
       "key": "TQUX3GGM",
       "name": "Intelligent application",
@@ -1989,6 +1990,81 @@
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0743731521000368",
       "version": 2640,
       "volume": "152"
+    },
+    {
+      "DOI": "10.23919/DATE54114.2022.9774569",
+      "ISBN": "978-3-9819263-6-1",
+      "abstractNote": "The reliability of deep neural networks (DNNs) against hardware errors is essential as DNNs are increasingly employed in safety-critical applications such as automatic driving. Transient errors in memory, such as radiation-induced soft error, may propagate through the inference computation, resulting in unexpected output, which can adversely trigger catastrophic system failures. As a ﬁrst step to tackle this problem, this paper proposes constructing a vulnerability model (VM) with a small number of fault injections to identify vulnerable model parameters in DNN. We reduce the number of bit locations for fault injection signiﬁcantly and develop a ﬂow to incrementally collect the training data, i.e., the fault injection results, for VM accuracy improvement. Experimental results show that VM can estimate vulnerabilities of all DNN model parameters only with 1/3490 computations compared with traditional fault injectionbased vulnerability estimation.",
+      "accessDate": "2022-08-15T08:17:21Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-08-15T08:17:17Z",
+          "dateModified": "2022-08-15T08:17:23Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\QPKSVUSL\\Zhang et al. - 2022 - Estimating Vulnerability of All Model Parameters i.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Zhang et al. - 2022 - Estimating Vulnerability of All Model Parameters i.pdf",
+          "uri": "http://zotero.org/users/7659667/items/QPKSVUSL"
+        }
+      ],
+      "citationKey": "EstimatingVulnerabilityAll2022zhanga",
+      "citekey": "EstimatingVulnerabilityAll2022zhanga",
+      "conferenceName": "2022 Design, Automation & Test in Europe Conference & Exhibition (DATE)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Yangchao",
+          "lastName": "Zhang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Hiroaki",
+          "lastName": "Itsuji"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Takumi",
+          "lastName": "Uezono"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Tadanobu",
+          "lastName": "Toba"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Masanori",
+          "lastName": "Hashimoto"
+        }
+      ],
+      "date": "2022-3-14",
+      "dateAdded": "2022-08-15T08:17:21Z",
+      "dateModified": "2022-08-15T08:17:22Z",
+      "itemID": 8998,
+      "itemKey": "9RM9XH89",
+      "itemType": "conferencePaper",
+      "key": "9RM9XH89",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "60-63",
+      "place": "Antwerp, Belgium",
+      "publicationTitle": "2022 Design, Automation & Test in Europe Conference & Exhibition (DATE)",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/9RM9XH89",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Estimating Vulnerability of All Model Parameters in DNN with a Small Number of Fault Injections",
+      "uri": "http://zotero.org/users/7659667/items/9RM9XH89",
+      "url": "https://ieeexplore.ieee.org/document/9774569/",
+      "version": 4459
     },
     {
       "DOI": "10.1145/3297858.3304050",
