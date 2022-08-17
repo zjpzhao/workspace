@@ -6,7 +6,16 @@ GNN可以在两种环境中进行训练：直推式学习（transductive learnin
 - transductive learning：在固定图上训练网络，不需要泛化到看不见的数据。
 - inductive learning：为了推广到看不见的节点和图，网络在每次迭代中都在不同的图上进行训练。
 
+
 [^1]:Will Hamilton, Zhitao Ying, and Jure Leskovec. 2017. Inductive representation learning on large graphs. In Advances in neural information processing systems. 1024–1034.
+
+“Inductive learning”意为归纳学习，“Transductive learning”意为直推学习。两者的区别就体现在你所说的对于unseen node的处理。
+unseen node指测试集出现了训练集未学习过的节点，即图结构（拉普拉斯矩阵）发生了变化。
+GCN由于本质是频域卷积，一次卷积更新所有节点，计算过程涉及表征图结构的拉普拉斯矩阵，所以一旦出现了没有见过的图结构，拉普拉斯矩阵随之变化，以前训练好的基于原图结构的模型也就失效了。
+GAT是图卷积在空域的表现形式，这使得其能够逐节点运算实现“卷积”，虽然也用到拉普拉斯矩阵信息，计算过程却已经脱离了拉普拉斯矩阵的束缚，其训练目标是中心节点与邻居节点的“聚和”关系，所以就算出现了unseen node，图结构改变了，训练好的“聚和”关系仍然能够适用，所以是一种Inductive learning方法。
+某种意义上来说，GCN是一种考虑了整体图结构的方法；而GAT一定程度上放弃了整体结构，这使得其能够完成Inductive任务[^2]。 
+
+[^2]: https://www.zhihu.com/question/409415383/answer/1361505060  
 
 # 关键子图检测
 原始图→采样编码→子图→强化筛选→关键子图→重构→骨架图
@@ -53,10 +62,10 @@ gcn 增加深度会降低模型效果主要是因为过度平滑的问题。现�
 # GAT
 ## 注意力机制
 在归纳节点分类问题中，GaAN可以优于GAT以及其他具有不同聚合器的GNN模型。原论文：GaAN: Gated Attention Networks for Learning on Large and Spatiotemporal Graphs
-在文章*fuseGNN*[^2]的图10中得知：
+在文章*fuseGNN*[^3]的图10中得知：
 GCN和GAT都可以用作Inductive和Transductive
 ![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/GCN%E5%92%8CGAT%E9%83%BD%E5%8F%AF%E4%BB%A5%E7%94%A8%E4%BD%9CInductive%E5%92%8CTransductive.png)
 
-[^2]:fuseGNN: Accelerating Graph Convolutional Neural Network Training on GPGPU
+[^3]:fuseGNN: Accelerating Graph Convolutional Neural Network Training on GPGPU
 
 

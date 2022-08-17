@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "papers/英语词汇积累.md",
+            "file": "Learning/AI/ML/正则化.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "e9d25589cbee286f",
@@ -87,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/英语词汇积累.md"
+                "file": "Learning/AI/ML/正则化.md"
               }
             }
           }
@@ -96,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 458,
-    "collapsed": true
+    "width": 458
   },
   "right": {
     "id": "15dd14e7068b76d4",
@@ -113,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/英语词汇积累.md",
+                "file": "Learning/AI/ML/正则化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/英语词汇积累.md",
+                "file": "Learning/AI/ML/正则化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,11 +176,11 @@
   },
   "active": "da5ad9fe7e34172f",
   "lastOpenFiles": [
+    "Learning/GNN.md",
     "papers/英语词汇积累.md",
     "Learning/Python/Python Base.md",
     "Learning/计算机网络/Networking.md",
     "Learning/计算机网络/内网穿透.md",
-    "Learning/GNN.md",
     "Learning/R语言.md",
     "Learning/Markdown.md",
     "papers/论文撰写.md",

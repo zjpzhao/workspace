@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "正则化",
+      "path": "Learning/AI/ML/正则化.md"
+    },
+    {
+      "basename": "GNN",
+      "path": "Learning/GNN.md"
+    },
+    {
       "basename": "英语词汇积累",
       "path": "papers/英语词汇积累.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "内网穿透",
       "path": "Learning/计算机网络/内网穿透.md"
-    },
-    {
-      "basename": "GNN",
-      "path": "Learning/GNN.md"
     },
     {
       "basename": "R语言",
