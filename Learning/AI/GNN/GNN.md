@@ -74,3 +74,19 @@ GCN和GAT都可以用作Inductive和Transductive
 The GNNs can be trained in two settings: transductive learning and inductive learning [6]. The former one trains the network on a fixed graph and generalizing to unseen data is not required. In inductive learning, in order to generalize to unseen nodes and graphs, the network is trained on a different graph in each iteration.
 
 Although the trained ML models can infer average power for a new workload on the same design, a new ML model must be trained for each new design encountered.
+
+The goal of such graph-based semi-supervised learning problems is to classify the nodes in a graph using a small subset of labeled nodes and all the node features.（from 'Attention-based Graph Neural Network for Semi-supervised Learning'）
+
+---
+
+GAT模型的特点
+计算高效：self-attention层的操作可以在所有的边上并行，输出特征的计算可以在所有顶点上并行。没有耗时的特征值分解。单个的GAT计算F ′ F'F 
+′
+ 个特征的时间复杂度可以压缩至$O(|V|FF'+|E|F')$，F是输入的特征数，|V|和|E|是图中顶点数和边数。复杂度与Kipf & Welling, 2017的GCN差不多。
+尽管 multi-head 注意力将存储和参数个数变为了K倍，但是单个head的计算完全独立且可以并行化。
+鲁棒性更强：和GCN不同，本文的模型可以对同一个 neighborhood的node分配不同的重要性，使得模型的capacity大增。
+注意力机制以一种共享的策略应用在图的所有的边上，因此它并不需要在之前就需要得到整个图结构或是所有的顶点的特征（很多之前的方法的缺陷）。因此GAT 也是一种局部模型。也就是说，在使用 GAT 时，无需访问整个图，而只需要访问所关注节点的邻节点即可，解决了之前提出的基于谱的方法的问题。因此这个方法有几个影响：
+图不需要是无向的，可以处理有向图（若$j\to i$不存在，仅需忽略$\alpha_{ij}$即可）
+可以直接应用到 inductive learning：包括在训练过程中在完全未见过的图上评估模型的任务上。
+
+原文链接：https://blog.csdn.net/yyl424525/article/details/100920134

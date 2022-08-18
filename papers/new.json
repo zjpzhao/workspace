@@ -110,7 +110,8 @@
         8545,
         8657,
         8903,
-        8957
+        8957,
+        9014
       ],
       "key": "JNY8VHWT",
       "name": "GNN",
@@ -4428,6 +4429,75 @@
       "uri": "http://zotero.org/users/7659667/items/MU4K8QA7",
       "url": "https://ieeexplore.ieee.org/document/9139732/",
       "version": 2601
+    },
+    {
+      "abstractNote": "Recently popularized graph neural networks achieve the state-of-the-art accuracy on a number of standard benchmark datasets for graph-based semi-supervised learning, improving signiﬁcantly over existing approaches. These architectures alternate between a propagation layer that aggregates the hidden states of the local neighborhood and a fully-connected layer. Perhaps surprisingly, we show that a linear model, that removes all the intermediate fullyconnected layers, is still able to achieve a performance comparable to the state-of-the-art models. This signiﬁcantly reduces the number of parameters, which is critical for semi-supervised learning where number of labeled examples are small. This in turn allows a room for designing more innovative propagation layers. Based on this insight, we propose a novel graph neural network that removes all the intermediate fully-connected layers, and replaces the propagation layers with attention mechanisms that respect the structure of the graph. The attention mechanism allows us to learn a dynamic and adaptive local summary of the neighborhood to achieve more accurate predictions. In a number of experiments on benchmark citation networks datasets, we demonstrate that our approach outperforms competing methods. By examining the attention weights among neighbors, we show that our model provides some interesting insights on how neighbors inﬂuence each other.",
+      "accessDate": "2022-08-18T06:50:57Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-08-18T06:50:51Z",
+          "dateModified": "2022-08-18T06:51:00Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\R92ASFYB\\Thekumparampil et al. - 2018 - Attention-based Graph Neural Network for Semi-supe.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Thekumparampil et al. - 2018 - Attention-based Graph Neural Network for Semi-supe.pdf",
+          "uri": "http://zotero.org/users/7659667/items/R92ASFYB"
+        }
+      ],
+      "citationKey": "AttentionbasedGraphNeural2018thekumparampil",
+      "citekey": "AttentionbasedGraphNeural2018thekumparampil",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Kiran K.",
+          "lastName": "Thekumparampil"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Chong",
+          "lastName": "Wang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sewoong",
+          "lastName": "Oh"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Li-Jia",
+          "lastName": "Li"
+        }
+      ],
+      "date": "2018-03-09",
+      "dateAdded": "2022-08-18T06:50:57Z",
+      "dateModified": "2022-08-18T06:53:16Z",
+      "extra": "arXiv:1803.03735 [cs, stat]",
+      "itemID": 9014,
+      "itemKey": "N37DC874",
+      "itemType": "preprint",
+      "key": "N37DC874",
+      "language": "en",
+      "libraryCatalog": "arXiv.org",
+      "libraryID": 1,
+      "notes": [],
+      "number": "arXiv:1803.03735",
+      "publisher": "arXiv",
+      "relations": [],
+      "select": "zotero://select/library/items/N37DC874",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        },
+        {
+          "tag": "⭐"
+        }
+      ],
+      "title": "Attention-based Graph Neural Network for Semi-supervised Learning",
+      "uri": "http://zotero.org/users/7659667/items/N37DC874",
+      "url": "http://arxiv.org/abs/1803.03735",
+      "version": 4587
     },
     {
       "DOI": "10.1145/2854038.2854059",

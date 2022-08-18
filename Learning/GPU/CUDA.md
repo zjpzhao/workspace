@@ -98,3 +98,7 @@ void myfunc(int n, double * x*)
 ![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/SOL%20sections.png)
 ![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/SOL%20Section%20Unit%20details.png)
 
+
+
+待看教程
+- [ ] https://zhuanlan.zhihu.com/p/34587739

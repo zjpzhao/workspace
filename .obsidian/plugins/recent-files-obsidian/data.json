@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "英语词汇积累",
-      "path": "papers/英语词汇积累.md"
-    },
-    {
       "basename": "GNN",
       "path": "Learning/AI/GNN/GNN.md"
+    },
+    {
+      "basename": "CUDA",
+      "path": "Learning/GPU/CUDA.md"
+    },
+    {
+      "basename": "常用指令",
+      "path": "util/常用指令.md"
+    },
+    {
+      "basename": "内网穿透",
+      "path": "Learning/计算机网络/内网穿透.md"
+    },
+    {
+      "basename": "英语词汇积累",
+      "path": "papers/英语词汇积累.md"
     },
     {
       "basename": "wandb",
@@ -23,10 +35,6 @@
     {
       "basename": "Networking",
       "path": "Learning/计算机网络/Networking.md"
-    },
-    {
-      "basename": "内网穿透",
-      "path": "Learning/计算机网络/内网穿透.md"
     },
     {
       "basename": "R语言",
@@ -81,10 +89,6 @@
       "path": "papers/@FaultToleranceDistributed1994jalote.md"
     },
     {
-      "basename": "常用指令",
-      "path": "util/常用指令.md"
-    },
-    {
       "basename": "Git",
       "path": "Learning/Tools/Git.md"
     },
@@ -99,10 +103,6 @@
     {
       "basename": "图床搭建及配置",
       "path": "Workflow/图床搭建及配置.md"
-    },
-    {
-      "basename": "CUDA",
-      "path": "Learning/GPU/CUDA.md"
     },
     {
       "basename": "GPU",
