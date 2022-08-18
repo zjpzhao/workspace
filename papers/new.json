@@ -16,7 +16,6 @@
         97,
         108,
         109,
-        111,
         112,
         113,
         114,
@@ -44,7 +43,8 @@
         57,
         58,
         7786,
-        7901
+        7901,
+        8603
       ],
       "key": "9ML3SXBU",
       "name": "To be Classified",
@@ -59,6 +59,15 @@
       "key": "FS5ZRIWZ",
       "name": "Architecture",
       "parent": "YXK8S2C9"
+    },
+    "GRA3RRQX": {
+      "collections": [],
+      "items": [
+        9006
+      ],
+      "key": "GRA3RRQX",
+      "name": "DL",
+      "parent": "SR4PU68B"
     },
     "HMQVTZ7W": {
       "collections": [],
@@ -105,7 +114,7 @@
       ],
       "key": "JNY8VHWT",
       "name": "GNN",
-      "parent": ""
+      "parent": "SR4PU68B"
     },
     "JYHUVDJF": {
       "collections": [],
@@ -194,6 +203,16 @@
       "name": "Modeling Tools",
       "parent": ""
     },
+    "SR4PU68B": {
+      "collections": [
+        "GRA3RRQX",
+        "JNY8VHWT"
+      ],
+      "items": [],
+      "key": "SR4PU68B",
+      "name": "AI",
+      "parent": ""
+    },
     "TQUX3GGM": {
       "collections": [],
       "items": [
@@ -231,6 +250,7 @@
     "W43MLK4H": {
       "collections": [],
       "items": [
+        111,
         209,
         236,
         7788,
@@ -241,7 +261,6 @@
         7891,
         8453,
         8602,
-        8603,
         8906
       ],
       "key": "W43MLK4H",
@@ -2475,7 +2494,7 @@
       "tags": [],
       "title": "面向 GPGPU 体系结构的软错误弹性分析与容错策略研究",
       "uri": "http://zotero.org/users/7659667/items/CFFI8KM2",
-      "version": 3893
+      "version": 4543
     },
     {
       "abstractNote": "The graph convolutional networks (GCN) recently proposed by Kipf and Welling are an effective graph model for semi-supervised learning. This model, however, was originally designed to be learned with the presence of both training and test data. Moreover, the recursive neighborhood expansion across layers poses time and memory challenges for training with large, dense graphs. To relax the requirement of simultaneous availability of test data, we interpret graph convolutions as integral transforms of embedding functions under probability measures. Such an interpretation allows for the use of Monte Carlo approaches to consistently estimate the integrals, which in turn leads to a batched training scheme as we propose in this work—FastGCN. Enhanced with importance sampling, FastGCN not only is efﬁcient for training but also generalizes well for inference. We show a comprehensive set of experiments to demonstrate its effectiveness compared with GCN and related models. In particular, training is orders of magnitude more efﬁcient while predictions remain comparably accurate.",
@@ -2699,6 +2718,76 @@
       "title": "UserGuide.pdf",
       "uri": "http://zotero.org/users/7659667/items/DT7959Q9",
       "version": 2644
+    },
+    {
+      "DOI": "10.1109/ICDM.2019.00025",
+      "ISBN": "978-1-72814-604-1",
+      "abstractNote": "Recent explainability related studies have shown that state-of-the-art DNNs do not always adopt correct evidences to make decisions. It not only hampers their generalization but also makes them less likely to be trusted by end-users. In pursuit of developing more credible DNNs, in this paper we propose CREX, which encourages DNN models to focus more on evidences that actually matter for the task at hand, and to avoid overﬁtting to data-dependent bias and artifacts. Speciﬁcally, CREX regularizes the training process of DNNs with rationales, i.e., a subset of features highlighted by domain experts as justiﬁcations for predictions, to enforce DNNs to generate local explanations that conform with expert rationales. Even when rationales are not available, CREX still could be useful by requiring the generated explanations to be sparse. Experimental results on two text classiﬁcation datasets demonstrate the increased credibility of DNNs trained with CREX. Comprehensive analysis further shows that while CREX does not always improve prediction accuracy on the hold-out test set, it signiﬁcantly increases DNN accuracy on new and previously unseen data beyond test set, highlighting the advantage of the increased credibility.",
+      "accessDate": "2022-08-17T11:38:05Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-08-17T11:37:59Z",
+          "dateModified": "2022-08-17T11:38:06Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\7NBUM6R8\\Du et al. - 2019 - Learning Credible Deep Neural Networks with Ration.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Du et al. - 2019 - Learning Credible Deep Neural Networks with Ration.pdf",
+          "uri": "http://zotero.org/users/7659667/items/7NBUM6R8"
+        }
+      ],
+      "citationKey": "LearningCredibleDeep2019du",
+      "citekey": "LearningCredibleDeep2019du",
+      "conferenceName": "2019 IEEE International Conference on Data Mining (ICDM)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Mengnan",
+          "lastName": "Du"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ninghao",
+          "lastName": "Liu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Fan",
+          "lastName": "Yang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Xia",
+          "lastName": "Hu"
+        }
+      ],
+      "date": "11/2019",
+      "dateAdded": "2022-08-17T11:38:05Z",
+      "dateModified": "2022-08-17T11:38:06Z",
+      "itemID": 9006,
+      "itemKey": "DXGFF2J4",
+      "itemType": "conferencePaper",
+      "key": "DXGFF2J4",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "150-159",
+      "place": "Beijing, China",
+      "publicationTitle": "2019 IEEE International Conference on Data Mining (ICDM)",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/DXGFF2J4",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Learning Credible Deep Neural Networks with Rationale Regularization",
+      "uri": "http://zotero.org/users/7659667/items/DXGFF2J4",
+      "url": "https://ieeexplore.ieee.org/document/8970999/",
+      "version": 0
     },
     {
       "ISBN": "978-0-13-301367-2",

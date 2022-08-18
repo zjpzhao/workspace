@@ -69,3 +69,8 @@ GCN和GAT都可以用作Inductive和Transductive
 [^3]:fuseGNN: Accelerating Graph Convolutional Neural Network Training on GPGPU
 
 
+
+
+The GNNs can be trained in two settings: transductive learning and inductive learning [6]. The former one trains the network on a fixed graph and generalizing to unseen data is not required. In inductive learning, in order to generalize to unseen nodes and graphs, the network is trained on a different graph in each iteration.
+
+Although the trained ML models can infer average power for a new workload on the same design, a new ML model must be trained for each new design encountered.

@@ -9,7 +9,20 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Learning/AI/ML/正则化.md",
+            "file": "Learning/AI/GNN/GNN.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "8567c74b3e0df4f6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "papers/英语词汇积累.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -66,7 +79,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "e9d25589cbee286f",
@@ -86,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/AI/ML/正则化.md"
+                "file": "papers/英语词汇积累.md"
               }
             }
           }
@@ -95,7 +109,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 458
+    "width": 458,
+    "collapsed": true
   },
   "right": {
     "id": "15dd14e7068b76d4",
@@ -111,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/AI/ML/正则化.md",
+                "file": "papers/英语词汇积累.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/AI/ML/正则化.md",
+                "file": "papers/英语词汇积累.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,19 +187,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "da5ad9fe7e34172f",
+  "active": "8567c74b3e0df4f6",
   "lastOpenFiles": [
-    "Learning/GNN.md",
+    "Learning/AI/GNN/GNN.md",
+    "Learning/AI/AI tools/wandb.md",
+    "Learning/AI/ML/正则化.md",
     "papers/英语词汇积累.md",
     "Learning/Python/Python Base.md",
     "Learning/计算机网络/Networking.md",
     "Learning/计算机网络/内网穿透.md",
-    "Learning/R语言.md",
-    "Learning/Markdown.md",
-    "papers/论文撰写.md",
-    "papers/My DATE or DAC 2023.md",
-    "Workflow/文献阅读批注和同步体系.md"
+    "Learning/Programming Language & Framework/R语言.md",
+    "Learning/Programming Language & Framework/Markdown.md",
+    "papers/论文撰写.md"
   ]
 }

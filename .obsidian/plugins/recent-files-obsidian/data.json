@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "正则化",
-      "path": "Learning/AI/ML/正则化.md"
+      "basename": "英语词汇积累",
+      "path": "papers/英语词汇积累.md"
     },
     {
       "basename": "GNN",
-      "path": "Learning/GNN.md"
+      "path": "Learning/AI/GNN/GNN.md"
     },
     {
-      "basename": "英语词汇积累",
-      "path": "papers/英语词汇积累.md"
+      "basename": "wandb",
+      "path": "Learning/AI/AI tools/wandb.md"
+    },
+    {
+      "basename": "正则化",
+      "path": "Learning/AI/ML/正则化.md"
     },
     {
       "basename": "Python Base",
@@ -26,11 +30,11 @@
     },
     {
       "basename": "R语言",
-      "path": "Learning/R语言.md"
+      "path": "Learning/Programming Language & Framework/R语言.md"
     },
     {
       "basename": "Markdown",
-      "path": "Learning/Markdown.md"
+      "path": "Learning/Programming Language & Framework/Markdown.md"
     },
     {
       "basename": "论文撰写",
@@ -82,7 +86,7 @@
     },
     {
       "basename": "Git",
-      "path": "Learning/Git.md"
+      "path": "Learning/Tools/Git.md"
     },
     {
       "basename": "Ubuntu 22.04探索",
@@ -106,7 +110,7 @@
     },
     {
       "basename": "Docker",
-      "path": "Learning/Docker.md"
+      "path": "Learning/Tools/Docker.md"
     },
     {
       "basename": "Obsidian",
