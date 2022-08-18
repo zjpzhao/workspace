@@ -158,7 +158,8 @@
         8954,
         8955,
         8956,
-        9000
+        9000,
+        9016
       ],
       "key": "PRPTPRWT",
       "name": "Power & Other",
@@ -2029,8 +2030,8 @@
           "uri": "http://zotero.org/users/7659667/items/QPKSVUSL"
         }
       ],
-      "citationKey": "EstimatingVulnerabilityAll2022zhanga",
-      "citekey": "EstimatingVulnerabilityAll2022zhanga",
+      "citationKey": "EstimatingVulnerabilityAll2022zhang",
+      "citekey": "EstimatingVulnerabilityAll2022zhang",
       "conferenceName": "2022 Design, Automation & Test in Europe Conference & Exhibition (DATE)",
       "creators": [
         {
@@ -2061,7 +2062,7 @@
       ],
       "date": "2022-3-14",
       "dateAdded": "2022-08-15T08:17:21Z",
-      "dateModified": "2022-08-15T08:17:22Z",
+      "dateModified": "2022-08-18T08:05:02Z",
       "itemID": 8998,
       "itemKey": "9RM9XH89",
       "itemType": "conferencePaper",
@@ -2076,12 +2077,7 @@
       "publisher": "IEEE",
       "relations": [],
       "select": "zotero://select/library/items/9RM9XH89",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
+      "tags": [],
       "title": "Estimating Vulnerability of All Model Parameters in DNN with a Small Number of Fault Injections",
       "uri": "http://zotero.org/users/7659667/items/9RM9XH89",
       "url": "https://ieeexplore.ieee.org/document/9774569/",
@@ -5097,6 +5093,72 @@
       "title": "Computer systems: a programmer's perspective",
       "uri": "http://zotero.org/users/7659667/items/Q44WELPL",
       "version": 2874
+    },
+    {
+      "DOI": "10.23919/DATE48585.2020.9116503",
+      "ISBN": "978-3-9819263-4-7",
+      "abstractNote": "Graphics Processing Units (GPUs) are widely used in general-purpose high-performance computing applications (i.e., GPGPUs), which require reliable execution in the presence of soft errors. To support massive thread level parallelism, a sizeable register ﬁle is adopted in GPUs, which is highly vulnerable to soft errors. Although modern commercial GPUs provide singleerror-correction double-error-detection (SEC-DED) ECC for the register ﬁle, it consumes a considerable amount of energy due to frequent register accesses and leakage power of ECC storage.",
+      "accessDate": "2022-08-18T08:06:29Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-08-18T08:06:23Z",
+          "dateModified": "2022-08-18T08:06:30Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\WLWPM3C3\\Wei et al. - 2020 - LAD-ECC Energy-Efficient ECC Mechanism for GPGPUs.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Wei et al. - 2020 - LAD-ECC Energy-Efficient ECC Mechanism for GPGPUs.pdf",
+          "uri": "http://zotero.org/users/7659667/items/WLWPM3C3"
+        }
+      ],
+      "citationKey": "LADECCEnergyEfficientECC2020wei",
+      "citekey": "LADECCEnergyEfficientECC2020wei",
+      "conferenceName": "2020 Design, Automation & Test in Europe Conference & Exhibition (DATE)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Xiaohui",
+          "lastName": "Wei"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Hengshan",
+          "lastName": "Yue"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jingweijia",
+          "lastName": "Tan"
+        }
+      ],
+      "date": "3/2020",
+      "dateAdded": "2022-08-18T08:06:29Z",
+      "dateModified": "2022-08-18T08:06:29Z",
+      "itemID": 9016,
+      "itemKey": "Q4FVRAY9",
+      "itemType": "conferencePaper",
+      "key": "Q4FVRAY9",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1127-1132",
+      "place": "Grenoble, France",
+      "publicationTitle": "2020 Design, Automation & Test in Europe Conference & Exhibition (DATE)",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/Q4FVRAY9",
+      "shortTitle": "LAD-ECC",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "LAD-ECC: Energy-Efficient ECC Mechanism for GPGPUs Register File",
+      "uri": "http://zotero.org/users/7659667/items/Q4FVRAY9",
+      "url": "https://ieeexplore.ieee.org/document/9116503/",
+      "version": 4614
     },
     {
       "DOI": "10.1109/DSN.2018.00022",
