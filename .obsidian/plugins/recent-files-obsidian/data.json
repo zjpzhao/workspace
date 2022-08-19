@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "常用指令",
+      "path": "util/常用指令.md"
+    },
+    {
+      "basename": "pytorch基本操作",
+      "path": "Learning/Programming Language & Framework/Pytorch/pytorch基本操作.md"
+    },
+    {
       "basename": "GNN",
       "path": "Learning/AI/GNN/GNN.md"
     },
     {
       "basename": "CUDA",
       "path": "Learning/GPU/CUDA.md"
-    },
-    {
-      "basename": "常用指令",
-      "path": "util/常用指令.md"
     },
     {
       "basename": "内网穿透",
@@ -30,7 +34,7 @@
     },
     {
       "basename": "Python Base",
-      "path": "Learning/Python/Python Base.md"
+      "path": "Learning/Programming Language & Framework/Python/Python Base.md"
     },
     {
       "basename": "Networking",
@@ -66,7 +70,7 @@
     },
     {
       "basename": "python典型写法示例",
-      "path": "Learning/Python/python典型写法示例.md"
+      "path": "Learning/Programming Language & Framework/Python/python典型写法示例.md"
     },
     {
       "basename": "SASS和PTX的区别",
@@ -118,7 +122,7 @@
     },
     {
       "basename": "Code_位翻转",
-      "path": "Learning/Python/Code_位翻转.md"
+      "path": "Learning/Programming Language & Framework/Python/Code_位翻转.md"
     },
     {
       "basename": "常用缩写",
@@ -126,11 +130,11 @@
     },
     {
       "basename": "Numpy",
-      "path": "Learning/Python/Numpy.md"
+      "path": "Learning/Programming Language & Framework/Python/Numpy.md"
     },
     {
       "basename": "Code_对神经网络模型参数进行多线程单比特位故障注入",
-      "path": "Learning/Python/Code_对神经网络模型参数进行多线程单比特位故障注入.md"
+      "path": "Learning/Programming Language & Framework/Python/Code_对神经网络模型参数进行多线程单比特位故障注入.md"
     },
     {
       "basename": "linux配置代理Qv2ray和Clash",
