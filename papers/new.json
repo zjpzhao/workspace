@@ -63,7 +63,8 @@
     "GRA3RRQX": {
       "collections": [],
       "items": [
-        9006
+        9006,
+        9019
       ],
       "key": "GRA3RRQX",
       "name": "DL",
@@ -2322,6 +2323,87 @@
       "uri": "http://zotero.org/users/7659667/items/BHT5P3FW",
       "url": "https://dl.acm.org/doi/10.1145/3442381.3449822",
       "version": 3019
+    },
+    {
+      "abstractNote": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring signiﬁcantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 Englishto-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.0 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature.",
+      "attachments": [
+        {
+          "dateAdded": "2022-08-18T12:13:47Z",
+          "dateModified": "2022-08-18T12:13:51Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\9TD3L66D\\Vaswani et al. - Attention is All you Need.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Vaswani et al. - Attention is All you Need.pdf",
+          "uri": "http://zotero.org/users/7659667/items/9TD3L66D"
+        }
+      ],
+      "citationKey": "AttentionAllYouvaswani",
+      "citekey": "AttentionAllYouvaswani",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Ashish",
+          "lastName": "Vaswani"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Noam",
+          "lastName": "Shazeer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Niki",
+          "lastName": "Parmar"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jakob",
+          "lastName": "Uszkoreit"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Llion",
+          "lastName": "Jones"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Aidan N",
+          "lastName": "Gomez"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Łukasz",
+          "lastName": "Kaiser"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Illia",
+          "lastName": "Polosukhin"
+        }
+      ],
+      "dateAdded": "2022-08-18T12:13:50Z",
+      "dateModified": "2022-08-18T12:13:51Z",
+      "itemID": 9019,
+      "itemKey": "BVNT9WKL",
+      "itemType": "journalArticle",
+      "key": "BVNT9WKL",
+      "language": "en",
+      "libraryCatalog": "Zotero",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "11",
+      "relations": [],
+      "select": "zotero://select/library/items/BVNT9WKL",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Attention is All you Need",
+      "uri": "http://zotero.org/users/7659667/items/BVNT9WKL",
+      "version": 0
     },
     {
       "ISBN": "978-1-939133-23-6",
