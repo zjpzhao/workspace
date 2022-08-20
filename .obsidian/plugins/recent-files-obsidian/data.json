@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "英语词汇积累",
+      "path": "papers/英语词汇积累.md"
+    },
+    {
       "basename": "My DATE or DAC 2023",
       "path": "papers/My DATE or DAC 2023.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "内网穿透",
       "path": "Learning/计算机网络/内网穿透.md"
-    },
-    {
-      "basename": "英语词汇积累",
-      "path": "papers/英语词汇积累.md"
     },
     {
       "basename": "wandb",

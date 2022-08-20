@@ -95,3 +95,7 @@ next：错误传播——图
 后者主要聚焦于图的局部
 
 from the ... perspective
+学习的W矩阵是共享的
+
+The learned W matrix is commonly shared and updated by all nodes, indicating a weight sharing philosophy similar to convolutional neural networks in DL.
+这里体现的是类似于深度学习中卷积神经网络的权值共享的哲学

@@ -28,6 +28,19 @@
             "source": false
           }
         }
+      },
+      {
+        "id": "f3c03ac849f6da74",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "papers/英语词汇积累.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -80,7 +93,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "e9d25589cbee286f",
@@ -100,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/My DATE or DAC 2023.md"
+                "file": "papers/英语词汇积累.md"
               }
             }
           }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/My DATE or DAC 2023.md",
+                "file": "papers/英语词汇积累.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/My DATE or DAC 2023.md",
+                "file": "papers/英语词汇积累.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,10 +203,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8567c74b3e0df4f6",
+  "active": "f3c03ac849f6da74",
   "lastOpenFiles": [
-    "Learning/AI/GNN/GNN.md",
     "papers/My DATE or DAC 2023.md",
+    "Learning/AI/GNN/GNN.md",
     "util/常用指令.md",
     "Learning/Programming Language & Framework/Pytorch/pytorch基本操作.md",
     "Learning/GPU/CUDA.md",
