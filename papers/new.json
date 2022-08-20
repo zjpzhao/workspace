@@ -112,7 +112,8 @@
         8657,
         8903,
         8957,
-        9014
+        9014,
+        9066
       ],
       "key": "JNY8VHWT",
       "name": "GNN",
@@ -2403,7 +2404,7 @@
       ],
       "title": "Attention is All you Need",
       "uri": "http://zotero.org/users/7659667/items/BVNT9WKL",
-      "version": 0
+      "version": 4627
     },
     {
       "ISBN": "978-1-939133-23-6",
@@ -6317,6 +6318,66 @@
       "uri": "http://zotero.org/users/7659667/items/X7BVKF78",
       "url": "https://ieeexplore.ieee.org/document/8988703/",
       "version": 1908
+    },
+    {
+      "attachments": [
+        {
+          "dateAdded": "2022-08-20T03:01:03Z",
+          "dateModified": "2022-08-20T03:01:22Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\CTMJB43X\\Lu et al. - Learning to Pre-train Graph Neural Networks.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Lu et al. - Learning to Pre-train Graph Neural Networks.pdf",
+          "uri": "http://zotero.org/users/7659667/items/CTMJB43X"
+        }
+      ],
+      "citationKey": "LearningPretrainGraphlu",
+      "citekey": "LearningPretrainGraphlu",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Yuanfu",
+          "lastName": "Lu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Xunqiang",
+          "lastName": "Jiang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yuan",
+          "lastName": "Fang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Chuan",
+          "lastName": "Shi"
+        }
+      ],
+      "dateAdded": "2022-08-20T03:01:21Z",
+      "dateModified": "2022-08-20T04:01:00Z",
+      "itemID": 9066,
+      "itemKey": "XGA4Z2AK",
+      "itemType": "journalArticle",
+      "key": "XGA4Z2AK",
+      "language": "en",
+      "libraryCatalog": "Zotero",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "9",
+      "relations": [],
+      "select": "zotero://select/library/items/XGA4Z2AK",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Learning to Pre-train Graph Neural Networks",
+      "uri": "http://zotero.org/users/7659667/items/XGA4Z2AK",
+      "version": 4648
     },
     {
       "DOI": "10.1109/DAC18072.2020.9218643",
