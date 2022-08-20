@@ -94,3 +94,4 @@ GAT模型的特点
 可以直接应用到 inductive learning：包括在训练过程中在完全未见过的图上评估模型的任务上。
 
 原文链接：https://blog.csdn.net/yyl424525/article/details/100920134
+

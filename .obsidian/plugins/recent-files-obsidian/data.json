@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "My DATE or DAC 2023",
+      "path": "papers/My DATE or DAC 2023.md"
+    },
+    {
+      "basename": "GNN",
+      "path": "Learning/AI/GNN/GNN.md"
+    },
+    {
       "basename": "常用指令",
       "path": "util/常用指令.md"
     },
     {
       "basename": "pytorch基本操作",
       "path": "Learning/Programming Language & Framework/Pytorch/pytorch基本操作.md"
-    },
-    {
-      "basename": "GNN",
-      "path": "Learning/AI/GNN/GNN.md"
     },
     {
       "basename": "CUDA",
@@ -51,10 +55,6 @@
     {
       "basename": "论文撰写",
       "path": "papers/论文撰写.md"
-    },
-    {
-      "basename": "My DATE or DAC 2023",
-      "path": "papers/My DATE or DAC 2023.md"
     },
     {
       "basename": "文献阅读批注和同步体系",
