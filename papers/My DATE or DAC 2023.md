@@ -99,6 +99,6 @@ from the ... perspective
 
 The learned W matrix is commonly shared and updated by all nodes, indicating a weight sharing philosophy similar to convolutional neural networks in DL.
 这里体现的是类似于深度学习中卷积神经网络的权值共享的哲学
-
+redundant 冗余的
 
 
