@@ -100,3 +100,13 @@ GAT是一种空域的GNN。什么是空域，什么又是频域？简单地说�
 
 原文链接：https://blog.csdn.net/leviopku/article/details/104622560
 
+## 关于GAT 的dropout选项
+在使用 GAT 层之前进行 Dropout，以避免在 Cora 等小型数据集中过度拟合。
+
+### GATConv[¶](https://docs.dgl.ai/generated/dgl.nn.tensorflow.conv.GATConv.html?highlight=gatconv#gatconv "Permalink to this headline")
+*class* dgl.nn.tensorflow.conv.GATConv(_in_feats_, _out_feats_, _num_heads_, _feat_drop=0.0_, _attn_drop=0.0_, _negative_slope=0.2_, _residual=False_, _activation=None_, _allow_zero_in_degree=False_)[source](https://docs.dgl.ai/_modules/dgl/nn/tensorflow/conv/gatconv.html#GATConv)[¶](https://docs.dgl.ai/generated/dgl.nn.tensorflow.conv.GATConv.html?highlight=gatconv#dgl.nn.tensorflow.conv.GATConv "Permalink to this definition")
+-   **feat_drop** ([_float_](https://docs.python.org/3/library/functions.html#float "(in Python v3.10)")_,_ _optional_) – Dropout rate on feature. Defaults: `0`.
+-   **attn_drop** ([_float_](https://docs.python.org/3/library/functions.html#float "(in Python v3.10)")_,_ _optional_) – Dropout rate on attention weight. Defaults: `0`.
+
+**GAT 这篇论文创新之处是加入 attention 机制，给节点之间的边给予重要性，帮助模型学习结构信息。相对的缺点就是训练方式不是很好，其实这个模型可以进一步改，用 attention 做排序来选取采样节点，这样效果和效率方面应该会有提升。**
+- [ ] 后续可以从这扩，用attention排序选取采样节点

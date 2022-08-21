@@ -205,15 +205,15 @@
   },
   "active": "da5ad9fe7e34172f",
   "lastOpenFiles": [
-    "papers/英语词汇积累.md",
-    "papers/My DATE or DAC 2023.md",
+    "source.md",
     "Learning/AI/GNN/GNN.md",
+    "papers/My DATE or DAC 2023.md",
+    "papers/英语词汇积累.md",
     "util/常用指令.md",
     "Learning/Programming Language & Framework/Pytorch/pytorch基本操作.md",
     "Learning/GPU/CUDA.md",
     "Learning/计算机网络/内网穿透.md",
     "Learning/AI/AI tools/wandb.md",
-    "Learning/AI/ML/正则化.md",
-    "Learning/Programming Language & Framework/Python/Python Base.md"
+    "Learning/AI/ML/正则化.md"
   ]
 }
