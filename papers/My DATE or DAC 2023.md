@@ -90,15 +90,31 @@ next：错误传播——图
 - [x] 选用哪种图框架：DGL *or* PyG (参考https://github.com/cornell-zhang/GLAIVE)——DGL
 - [x] GNN Train前需要构建自定义数据集，DGL *or* PyG 方便些？——用networkx或者csv文件构建图然后DGL直接导入即可
 - [ ] 注错层次在*PTX*/*PTX plus*/*SASS* ？
+- [ ] 在哪一章的那一块介绍三种软错误（在Fault model行么）
+- [ ] 要修改GAT本身么（以适应我们的背景）：添加注意力阈值，小于这个数的就不参与message passing了
+
 
 # 文章细节翻译
-后者主要聚焦于图的局部
-
 from the ... perspective
-学习的W矩阵是共享的
-
 The learned W matrix is commonly shared and updated by all nodes, indicating a weight sharing philosophy similar to convolutional neural networks in DL.
 这里体现的是类似于深度学习中卷积神经网络的权值共享的哲学
-redundant 冗余的
 
+启发式的
+我们考虑了线程、指令、比特级别的弹性相似性，遵循这篇文章提出的方法对程序进行建图
+
+三种软错误：
+GPGPU Application Resilience Profile. For each fault injection experiment, there are three possible outcomes:
+- masked output: the application output is identical to that of fault-free execution.
+- silent data corruption (SDC) output: the fault injection run exits successfully without any error, but the output is incorrect. 
+- other: the fault injection run results in a crash or hang.
+
+
+We assume that register files and other components such as caches and memory are protected by ECC (which is the case in almost all GPUs). We simulate commonly occurring computation-related errors due to transient faults (known as soft errors) in ALUs/LSUs. These faults can lead to wrong ALU output which would then be stored in destination registers, or corrupted variables loaded by an LSU. This erroneous computing operation is what we emulate by injecting faults directly to destination register values. This is a standard experimental methodology for GPGPU reliability studies [18], [24], [33]–[35]. 
+
+The fault injection methodology used here closely follows the one used in [24], [36]: we flip a bit at a destination register identified by the thread id, the instruction id, and a bit position. We perform our reliability evaluations on GPGPU-Sim [37] with PTXPlus mode. GPGPU-Sim is a widely-used cyclelevel GPU architectural simulator, and its PTXPlus mode provides a one-to-one mapping of instructions to actual ISA for GPUs [36], [37]. Any fault injection tool or technique. (e.g., SASSIFI [18] or NVBitFI [38]) can be used for evaluating the application reliability, i.e., the technique presented in this paper does not depend on GPGPU-Sim.
+	引用自：*Enabling Software Resilience in GPGPU Applications via Partial Thread Protection*
+
+The proposed methodology can be readily extended to multi-bit fault models [39]
+
+我们提出的方法可以很容易地扩展到多比特的错误模式上
 
