@@ -202,7 +202,8 @@
         176,
         207,
         7889,
-        7899
+        7899,
+        9074
       ],
       "key": "RLZKFTSE",
       "name": "Modeling Tools",
@@ -2988,6 +2989,82 @@
       "title": "Fault tolerance in distributed systems",
       "uri": "http://zotero.org/users/7659667/items/DY8FYKM8",
       "version": 2324
+    },
+    {
+      "DOI": "10.1109/ISPASS.2017.7975296",
+      "ISBN": "978-1-5386-3890-3",
+      "abstractNote": "As GPUs become more pervasive in both scalable high-performance computing systems and safety-critical embedded systems, evaluating and analyzing their resilience to soft errors caused by high-energy particle strikes will grow increasingly important. GPU designers must develop tools and techniques to understand the effect of these soft errors on applications. This paper presents an error injection-based methodology and tool called SASSIFI to study the soft error resilience of massively parallel applications running on stateof-the-art NVIDIA GPUs. Our approach uses a low-level assembly-language instrumentation tool called SASSI to proﬁle and inject errors. SASSI provides efﬁciency by allowing instrumentation code to execute entirely on the GPU and provides the ability to inject into different architecture-visible state. For example, SASSIFI can inject errors in general-purpose registers, GPU memory, condition code registers, and predicate registers. SASSIFI can also inject errors into addresses and register indices. In this paper, we describe the SASSIFI tool, its capabilities, and present experiments to illustrate some of the analyses SASSIFI can be used to perform.",
+      "accessDate": "2022-08-22T11:33:59Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-08-22T11:33:53Z",
+          "dateModified": "2022-08-22T11:34:01Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\3V8VYMNE\\Hari et al. - 2017 - SASSIFI An architecture-level fault injection too.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Hari et al. - 2017 - SASSIFI An architecture-level fault injection too.pdf",
+          "uri": "http://zotero.org/users/7659667/items/3V8VYMNE"
+        }
+      ],
+      "citationKey": "SASSIFIArchitecturelevelFault2017haria",
+      "citekey": "SASSIFIArchitecturelevelFault2017haria",
+      "conferenceName": "2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Siva Kumar Sastry",
+          "lastName": "Hari"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Timothy",
+          "lastName": "Tsai"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mark",
+          "lastName": "Stephenson"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Stephen W.",
+          "lastName": "Keckler"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Joel",
+          "lastName": "Emer"
+        }
+      ],
+      "date": "4/2017",
+      "dateAdded": "2022-08-22T11:33:59Z",
+      "dateModified": "2022-08-22T11:34:00Z",
+      "itemID": 9074,
+      "itemKey": "EESXHT2M",
+      "itemType": "conferencePaper",
+      "key": "EESXHT2M",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "249-258",
+      "place": "Santa Rosa, CA, USA",
+      "publicationTitle": "2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/EESXHT2M",
+      "shortTitle": "SASSIFI",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "SASSIFI: An architecture-level fault injection tool for GPU application resilience evaluation",
+      "uri": "http://zotero.org/users/7659667/items/EESXHT2M",
+      "url": "http://ieeexplore.ieee.org/document/7975296/",
+      "version": 4749
     },
     {
       "accessDate": "2022-05-07T16:28:09Z",
