@@ -113,7 +113,8 @@
         8903,
         8957,
         9014,
-        9066
+        9066,
+        9070
       ],
       "key": "JNY8VHWT",
       "name": "GNN",
@@ -1685,6 +1686,62 @@
       "uri": "http://zotero.org/users/7659667/items/7EVJJVKA",
       "url": "https://ieeexplore.ieee.org/document/8665772/",
       "version": 3896
+    },
+    {
+      "attachments": [
+        {
+          "dateAdded": "2022-08-22T02:28:28Z",
+          "dateModified": "2022-08-22T02:28:37Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\MTR2PXIC\\Brody et al. - 2022 - HOW ATTENTIVE ARE GRAPH ATTENTION NETWORKS.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Brody et al. - 2022 - HOW ATTENTIVE ARE GRAPH ATTENTION NETWORKS.pdf",
+          "uri": "http://zotero.org/users/7659667/items/MTR2PXIC"
+        }
+      ],
+      "citationKey": "HOWATTENTIVEARE2022brody",
+      "citekey": "HOWATTENTIVEARE2022brody",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Shaked",
+          "lastName": "Brody"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eran",
+          "lastName": "Yahav"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Uri",
+          "lastName": "Alon"
+        }
+      ],
+      "date": "2022",
+      "dateAdded": "2022-08-22T02:28:33Z",
+      "dateModified": "2022-08-22T02:28:36Z",
+      "itemID": 9070,
+      "itemKey": "7I46R4UK",
+      "itemType": "journalArticle",
+      "key": "7I46R4UK",
+      "language": "en",
+      "libraryCatalog": "Zotero",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "26",
+      "relations": [],
+      "select": "zotero://select/library/items/7I46R4UK",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "HOW ATTENTIVE ARE GRAPH ATTENTION NETWORKS?",
+      "uri": "http://zotero.org/users/7659667/items/7I46R4UK",
+      "version": 4697
     },
     {
       "DOI": "10.1109/PDP55904.2022.00025",
