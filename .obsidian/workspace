@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/My DATE or DAC 2023.md"
+                "file": "papers/英语词汇积累.md"
               }
             }
           }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/My DATE or DAC 2023.md",
+                "file": "papers/英语词汇积累.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/My DATE or DAC 2023.md",
+                "file": "papers/英语词汇积累.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,10 +203,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8567c74b3e0df4f6",
+  "active": "f3c03ac849f6da74",
   "lastOpenFiles": [
-    "papers/英语词汇积累.md",
     "papers/My DATE or DAC 2023.md",
+    "papers/英语词汇积累.md",
     "Learning/AI/GNN/GNN.md",
     "source.md",
     "util/常用指令.md",

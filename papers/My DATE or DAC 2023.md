@@ -118,3 +118,5 @@ The proposed methodology can be readily extended to multi-bit fault models [39]
 
 我们提出的方法可以很容易地扩展到多比特的错误模式上
 
+we construct the feature vector corresponding to a fault site, denoted as 𝑣, formulated in Equation 5: 𝑣 = ⟨𝐹instruction-type, 𝐹bit-position, 𝐹bit-flip-direction, 𝐹slice, 𝐹shared, 𝐹commonality ⟩
+

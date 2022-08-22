@@ -1721,7 +1721,7 @@
       ],
       "date": "2022",
       "dateAdded": "2022-08-22T02:28:33Z",
-      "dateModified": "2022-08-22T02:28:36Z",
+      "dateModified": "2022-08-22T08:05:29Z",
       "itemID": 9070,
       "itemKey": "7I46R4UK",
       "itemType": "journalArticle",
@@ -1733,12 +1733,7 @@
       "pages": "26",
       "relations": [],
       "select": "zotero://select/library/items/7I46R4UK",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
+      "tags": [],
       "title": "HOW ATTENTIVE ARE GRAPH ATTENTION NETWORKS?",
       "uri": "http://zotero.org/users/7659667/items/7I46R4UK",
       "version": 4697
@@ -4607,7 +4602,7 @@
       ],
       "date": "2018-03-09",
       "dateAdded": "2022-08-18T06:50:57Z",
-      "dateModified": "2022-08-18T06:53:16Z",
+      "dateModified": "2022-08-22T08:05:31Z",
       "extra": "arXiv:1803.03735 [cs, stat]",
       "itemID": 9014,
       "itemKey": "N37DC874",
@@ -4622,10 +4617,6 @@
       "relations": [],
       "select": "zotero://select/library/items/N37DC874",
       "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        },
         {
           "tag": "⭐"
         }
