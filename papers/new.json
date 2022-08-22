@@ -2083,7 +2083,7 @@
       "title": "Estimating Vulnerability of All Model Parameters in DNN with a Small Number of Fault Injections",
       "uri": "http://zotero.org/users/7659667/items/9RM9XH89",
       "url": "https://ieeexplore.ieee.org/document/9774569/",
-      "version": 4459
+      "version": 4613
     },
     {
       "DOI": "10.1145/3297858.3304050",
@@ -2776,7 +2776,7 @@
       "title": "Fault Site Pruning for Practical Reliability Analysis of GPGPU Applications",
       "uri": "http://zotero.org/users/7659667/items/DI2QUIAU",
       "url": "https://ieeexplore.ieee.org/document/8574583/",
-      "version": 3487
+      "version": 4542
     },
     {
       "charset": "",
@@ -2867,7 +2867,7 @@
       "title": "Learning Credible Deep Neural Networks with Rationale Regularization",
       "uri": "http://zotero.org/users/7659667/items/DXGFF2J4",
       "url": "https://ieeexplore.ieee.org/document/8970999/",
-      "version": 0
+      "version": 4560
     },
     {
       "ISBN": "978-0-13-301367-2",
@@ -5216,7 +5216,7 @@
       ],
       "date": "3/2020",
       "dateAdded": "2022-08-18T08:06:29Z",
-      "dateModified": "2022-08-18T08:06:29Z",
+      "dateModified": "2022-08-22T01:29:01Z",
       "itemID": 9016,
       "itemKey": "Q4FVRAY9",
       "itemType": "conferencePaper",
@@ -5232,16 +5232,11 @@
       "relations": [],
       "select": "zotero://select/library/items/Q4FVRAY9",
       "shortTitle": "LAD-ECC",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
+      "tags": [],
       "title": "LAD-ECC: Energy-Efficient ECC Mechanism for GPGPUs Register File",
       "uri": "http://zotero.org/users/7659667/items/Q4FVRAY9",
       "url": "https://ieeexplore.ieee.org/document/9116503/",
-      "version": 4614
+      "version": 4694
     },
     {
       "DOI": "10.1109/DSN.2018.00022",
@@ -6905,7 +6900,7 @@
     }
   ],
   "version": {
-    "bbt": "6.7.21",
-    "zotero": "6.0.12"
+    "bbt": "6.7.22",
+    "zotero": "6.0.13"
   }
 }
