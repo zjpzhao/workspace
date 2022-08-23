@@ -114,7 +114,8 @@
         8957,
         9014,
         9066,
-        9070
+        9070,
+        9302
       ],
       "key": "JNY8VHWT",
       "name": "GNN",
@@ -2830,6 +2831,78 @@
       "uri": "http://zotero.org/users/7659667/items/DI2QUIAU",
       "url": "https://ieeexplore.ieee.org/document/8574583/",
       "version": 4542
+    },
+    {
+      "attachments": [
+        {
+          "dateAdded": "2022-08-23T07:10:11Z",
+          "dateModified": "2022-08-23T07:10:12Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\8M2C6Y8K\\Velickovic et al_2018_Graph attention networks.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Velickovic et al_2018_Graph attention networks.pdf",
+          "uri": "http://zotero.org/users/7659667/items/8M2C6Y8K"
+        }
+      ],
+      "citationKey": "DBLP:conf/iclr/VelickovicCCRLB18",
+      "citekey": "DBLP:conf/iclr/VelickovicCCRLB18",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Petar",
+          "lastName": "Velickovic"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Guillem",
+          "lastName": "Cucurull"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Arantxa",
+          "lastName": "Casanova"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Adriana",
+          "lastName": "Romero"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Pietro",
+          "lastName": "Liò"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yoshua",
+          "lastName": "Bengio"
+        }
+      ],
+      "date": "2018",
+      "dateAdded": "2022-08-23T07:09:20Z",
+      "dateModified": "2022-08-23T07:09:21Z",
+      "extra": "Citation Key: DBLP:conf/iclr/VelickovicCCRLB18\ntex.bibsource: dblp computer science bibliography, https://dblp.org\ntex.biburl: https://dblp.org/rec/conf/iclr/VelickovicCCRLB18.bib\ntex.timestamp: Thu, 25 Jul 2019 14:25:41 +0200",
+      "itemID": 9302,
+      "itemKey": "DN2KVZE3",
+      "itemType": "conferencePaper",
+      "key": "DN2KVZE3",
+      "libraryID": 1,
+      "notes": [],
+      "publicationTitle": "6th international conference on learning representations, ICLR 2018, vancouver, BC, canada, april 30 - may 3, 2018, conference track proceedings",
+      "publisher": "OpenReview.net",
+      "relations": [],
+      "select": "zotero://select/library/items/DN2KVZE3",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Graph attention networks",
+      "uri": "http://zotero.org/users/7659667/items/DN2KVZE3",
+      "url": "https://openreview.net/forum?id=rJXMpikCZ",
+      "version": 4766
     },
     {
       "charset": "",
