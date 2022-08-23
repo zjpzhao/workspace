@@ -268,7 +268,8 @@
         7891,
         8453,
         8602,
-        8906
+        8906,
+        9305
       ],
       "key": "W43MLK4H",
       "name": "Resilience Analyzing",
@@ -2459,6 +2460,72 @@
       "title": "Attention is All you Need",
       "uri": "http://zotero.org/users/7659667/items/BVNT9WKL",
       "version": 4627
+    },
+    {
+      "DOI": "10.1109/DSN.2017.30",
+      "ISBN": "978-1-5386-0542-4",
+      "abstractNote": "Recent studies have shown that technology and voltage scaling are expected to increase the likelihood that particle-induced soft errors manifest as multiple-bit errors. This raises concerns about the validity of using single bit-ﬂips for assessing the impact of soft errors in fault injection experiments. The goal of this paper is to investigate whether multiple-bit errors could cause a higher percentage of silent data corruptions (SDCs) compared to single-bit errors. Based on 2700 fault injection campaigns with 15 benchmark programs, featuring a total of 27 million experiments, our results show that single-bit errors in most cases yields a higher percentage of SDCs compared to multiple-bit errors. However, in 8% of the campaigns we observed a higher percentage of SDCs for multiple-bit errors. For most of these campaigns, the highest percentage of SDCs was obtained by ﬂipping at most 3 bits. Moreover, we propose three ways of pruning the error space based on the results.",
+      "accessDate": "2022-08-23T11:59:29Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-08-23T11:59:22Z",
+          "dateModified": "2022-08-23T11:59:31Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\VV5IDYGT\\Sangchoolie et al. - 2017 - One Bit is (Not) Enough An Empirical Study of the.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Sangchoolie et al. - 2017 - One Bit is (Not) Enough An Empirical Study of the.pdf",
+          "uri": "http://zotero.org/users/7659667/items/VV5IDYGT"
+        }
+      ],
+      "citationKey": "OneBitNot2017sangchoolie",
+      "citekey": "OneBitNot2017sangchoolie",
+      "conferenceName": "2017 47th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Behrooz",
+          "lastName": "Sangchoolie"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Karthik",
+          "lastName": "Pattabiraman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Johan",
+          "lastName": "Karlsson"
+        }
+      ],
+      "date": "6/2017",
+      "dateAdded": "2022-08-23T11:59:29Z",
+      "dateModified": "2022-08-23T11:59:30Z",
+      "itemID": 9305,
+      "itemKey": "BWAJ6F87",
+      "itemType": "conferencePaper",
+      "key": "BWAJ6F87",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "97-108",
+      "place": "Denver, CO, USA",
+      "publicationTitle": "2017 47th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/BWAJ6F87",
+      "shortTitle": "One Bit is (Not) Enough",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "One Bit is (Not) Enough: An Empirical Study of the Impact of Single and Multiple Bit-Flip Errors",
+      "uri": "http://zotero.org/users/7659667/items/BWAJ6F87",
+      "url": "http://ieeexplore.ieee.org/document/8023114/",
+      "version": 4774
     },
     {
       "ISBN": "978-1-939133-23-6",
