@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "PTX",
+      "path": "Learning/GPU/PTX.md"
+    },
+    {
+      "basename": "CUDA",
+      "path": "Learning/GPU/CUDA.md"
+    },
+    {
       "basename": "英语词汇积累",
       "path": "papers/英语词汇积累.md"
     },
@@ -27,10 +35,6 @@
     {
       "basename": "pytorch基本操作",
       "path": "Learning/Programming Language & Framework/Pytorch/pytorch基本操作.md"
-    },
-    {
-      "basename": "CUDA",
-      "path": "Learning/GPU/CUDA.md"
     },
     {
       "basename": "内网穿透",

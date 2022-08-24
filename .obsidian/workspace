@@ -35,7 +35,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "papers/英语词汇积累.md",
+            "file": "Learning/GPU/PTX.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/英语词汇积累.md"
+                "file": "Learning/GPU/PTX.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/英语词汇积累.md",
+                "file": "Learning/GPU/PTX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/英语词汇积累.md",
+                "file": "Learning/GPU/PTX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,14 +204,14 @@
   },
   "active": "f3c03ac849f6da74",
   "lastOpenFiles": [
-    "papers/My DATE or DAC 2023.md",
+    "Learning/GPU/CUDA.md",
     "papers/英语词汇积累.md",
+    "papers/My DATE or DAC 2023.md",
     "Learning/GPU/层次结构.md",
     "Learning/AI/GNN/GNN.md",
     "source.md",
     "util/常用指令.md",
     "Learning/Programming Language & Framework/Pytorch/pytorch基本操作.md",
-    "Learning/GPU/CUDA.md",
     "Learning/计算机网络/内网穿透.md",
     "Learning/AI/AI tools/wandb.md"
   ]
