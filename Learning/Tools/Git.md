@@ -111,3 +111,7 @@ git commit -m "first commit"
 git remote add origin https://gitee.com/simonhouhou/my-book-notes.git
 git push -u origin "master"
 ```
+
+
+cloc
+https://www.v2ex.com/t/215828
