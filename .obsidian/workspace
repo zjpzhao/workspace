@@ -92,8 +92,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "e9d25589cbee286f",
@@ -207,13 +206,13 @@
   "lastOpenFiles": [
     "papers/My DATE or DAC 2023.md",
     "papers/英语词汇积累.md",
+    "Learning/GPU/层次结构.md",
     "Learning/AI/GNN/GNN.md",
     "source.md",
     "util/常用指令.md",
     "Learning/Programming Language & Framework/Pytorch/pytorch基本操作.md",
     "Learning/GPU/CUDA.md",
     "Learning/计算机网络/内网穿透.md",
-    "Learning/AI/AI tools/wandb.md",
-    "Learning/AI/ML/正则化.md"
+    "Learning/AI/AI tools/wandb.md"
   ]
 }

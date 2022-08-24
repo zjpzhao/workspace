@@ -9,6 +9,10 @@
       "path": "papers/My DATE or DAC 2023.md"
     },
     {
+      "basename": "层次结构",
+      "path": "Learning/GPU/层次结构.md"
+    },
+    {
       "basename": "GNN",
       "path": "Learning/AI/GNN/GNN.md"
     },
@@ -83,10 +87,6 @@
     {
       "basename": "Benchmark探索",
       "path": "Learning/GPU/Benchmark探索.md"
-    },
-    {
-      "basename": "层次结构",
-      "path": "Learning/GPU/层次结构.md"
     },
     {
       "basename": "插件用法",

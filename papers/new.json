@@ -223,6 +223,7 @@
     "TQUX3GGM": {
       "collections": [],
       "items": [
+        209,
         8908,
         8910,
         8934,
@@ -258,7 +259,6 @@
       "collections": [],
       "items": [
         111,
-        209,
         236,
         7788,
         7831,
@@ -269,7 +269,8 @@
         8453,
         8602,
         8906,
-        9305
+        9305,
+        9308
       ],
       "key": "W43MLK4H",
       "name": "Resilience Analyzing",
@@ -577,6 +578,77 @@
       "title": "CUDA C++ Best Practices Guide",
       "uri": "http://zotero.org/users/7659667/items/2JSWGFWX",
       "version": 3028
+    },
+    {
+      "DOI": "10.23919/DATE.2019.8714781",
+      "ISBN": "978-3-9819263-2-3",
+      "abstractNote": "Reliability has become a ﬁrst-class design objective for GPU devices due to increasing soft-error rate. To assess the reliability of GPU programs, researchers rely on software faultinjection methods. Unfortunately, software fault-injection process is prohibitively expensive, requiring multiple days to complete a statistically sound fault-injection campaign.",
+      "accessDate": "2022-08-24T02:22:45Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-08-24T02:22:36Z",
+          "dateModified": "2022-08-24T02:22:48Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\2YEUJMW9\\Previlon et al. - 2019 - PCFI Program Counter Guided Fault Injection for A.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Previlon et al. - 2019 - PCFI Program Counter Guided Fault Injection for A.pdf",
+          "uri": "http://zotero.org/users/7659667/items/2YEUJMW9"
+        }
+      ],
+      "citationKey": "PCFIProgramCounter2019previlon",
+      "citekey": "PCFIProgramCounter2019previlon",
+      "conferenceName": "2019 Design, Automation & Test in Europe Conference & Exhibition (DATE)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Fritz G.",
+          "lastName": "Previlon"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Charu",
+          "lastName": "Kalra"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Devesh",
+          "lastName": "Tiwari"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David R.",
+          "lastName": "Kaeli"
+        }
+      ],
+      "date": "3/2019",
+      "dateAdded": "2022-08-24T02:22:45Z",
+      "dateModified": "2022-08-24T02:22:47Z",
+      "itemID": 9308,
+      "itemKey": "2MYGCY34",
+      "itemType": "conferencePaper",
+      "key": "2MYGCY34",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "308-311",
+      "place": "Florence, Italy",
+      "publicationTitle": "2019 Design, Automation & Test in Europe Conference & Exhibition (DATE)",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/2MYGCY34",
+      "shortTitle": "PCFI",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "PCFI: Program Counter Guided Fault Injection for Accelerating GPU Reliability Assessment",
+      "uri": "http://zotero.org/users/7659667/items/2MYGCY34",
+      "url": "https://ieeexplore.ieee.org/document/8714781/",
+      "version": 4789
     },
     {
       "DOI": "10.1145/2656106.2656127",
@@ -2525,7 +2597,7 @@
       "title": "One Bit is (Not) Enough: An Empirical Study of the Impact of Single and Multiple Bit-Flip Errors",
       "uri": "http://zotero.org/users/7659667/items/BWAJ6F87",
       "url": "http://ieeexplore.ieee.org/document/8023114/",
-      "version": 4774
+      "version": 4775
     },
     {
       "ISBN": "978-1-939133-23-6",
@@ -5786,8 +5858,8 @@
         }
       ],
       "callNumber": "1.589",
-      "citationKey": "weiAnalyzingImpactSoft2020",
-      "citekey": "weiAnalyzingImpactSoft2020",
+      "citationKey": "AnalyzingImpactSoft2020wei",
+      "citekey": "AnalyzingImpactSoft2020wei",
       "creators": [
         {
           "creatorType": "author",
