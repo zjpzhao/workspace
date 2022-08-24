@@ -31,7 +31,8 @@
         7887,
         8527,
         8591,
-        8600
+        8600,
+        9310
       ],
       "key": "89K6PZVW",
       "name": "Error Propagation",
@@ -1892,6 +1893,80 @@
       "title": "NsightCompute.pdf",
       "uri": "http://zotero.org/users/7659667/items/7PEKCRXX",
       "version": 3835
+    },
+    {
+      "DOI": "10.1109/SC.2018.00070",
+      "ISBN": "978-1-5386-8384-2",
+      "accessDate": "2022-08-24T11:45:39Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-08-24T11:45:32Z",
+          "dateModified": "2022-08-24T11:45:42Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\49UTEBYK\\Mahmoud et al. - 2018 - Optimizing Software-Directed Instruction Replicati.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Mahmoud et al. - 2018 - Optimizing Software-Directed Instruction Replicati.pdf",
+          "uri": "http://zotero.org/users/7659667/items/49UTEBYK"
+        }
+      ],
+      "citationKey": "OptimizingSoftwareDirectedInstruction2018mahmouda",
+      "citekey": "OptimizingSoftwareDirectedInstruction2018mahmouda",
+      "conferenceName": "SC18: International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Abdulrahman",
+          "lastName": "Mahmoud"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Siva Kumar Sastry",
+          "lastName": "Hari"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michael B.",
+          "lastName": "Sullivan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Timothy",
+          "lastName": "Tsai"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Stephen W.",
+          "lastName": "Keckler"
+        }
+      ],
+      "date": "11/2018",
+      "dateAdded": "2022-08-24T11:45:40Z",
+      "dateModified": "2022-08-24T11:45:41Z",
+      "itemID": 9310,
+      "itemKey": "7T6PTIIB",
+      "itemType": "conferencePaper",
+      "key": "7T6PTIIB",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "842-854",
+      "place": "Dallas, TX, USA",
+      "publicationTitle": "SC18: International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/7T6PTIIB",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Optimizing Software-Directed Instruction Replication for GPU Error Detection",
+      "uri": "http://zotero.org/users/7659667/items/7T6PTIIB",
+      "url": "https://ieeexplore.ieee.org/document/8665772/",
+      "version": 4806
     },
     {
       "DOI": "10.1016/j.future.2004.11.016",
