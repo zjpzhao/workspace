@@ -127,3 +127,7 @@ we construct the feature vector corresponding to a fault site, denoted as 𝑣, 
 We also formulate various guidelines for the design of faulttolerance mechanisms in GPU applications based on our results.
 
 The GPU Devotes More Transistors to Data Processing
+
+eliminate the resilience-oriented instructions
+
+PTX代码与GPU硬件架构有弱耦合关系

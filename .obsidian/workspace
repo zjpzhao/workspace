@@ -4,19 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "da5ad9fe7e34172f",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Learning/AI/GNN/GNN.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
         "id": "c70b3c5461f27b63",
         "type": "leaf",
         "state": {
@@ -113,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/英语词汇积累.md"
+                "file": "papers/My DATE or DAC 2023.md"
               }
             }
           }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/英语词汇积累.md",
+                "file": "papers/My DATE or DAC 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/英语词汇积累.md",
+                "file": "papers/My DATE or DAC 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,13 +190,13 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c70b3c5461f27b63",
+  "active": "8567c74b3e0df4f6",
   "lastOpenFiles": [
+    "papers/英语词汇积累.md",
     "Learning/AI/GNN/GNN.md",
     "Learning/Tools/Git.md",
     "Learning/GPU/PTX.md",
     "Learning/GPU/CUDA.md",
-    "papers/英语词汇积累.md",
     "papers/My DATE or DAC 2023.md",
     "Learning/GPU/层次结构.md",
     "source.md",
