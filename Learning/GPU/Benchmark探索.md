@@ -102,6 +102,7 @@ jmeint好使了
 
 # Polybench
 
+2MM MVT SYRK GEMM的kernel通过MICRO18（Nie Bin）的线程级剪枝后都只剩下一个有代表性的线程
 
 ---
 

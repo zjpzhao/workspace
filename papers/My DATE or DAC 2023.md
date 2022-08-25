@@ -131,3 +131,5 @@ The GPU Devotes More Transistors to Data Processing
 eliminate the resilience-oriented instructions
 
 PTX代码与GPU硬件架构有弱耦合关系
+
+sccuessive 连续的
