@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/GPU/Benchmark探索.md"
+                "file": "papers/英语词汇积累.md"
               }
             }
           }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/GPU/Benchmark探索.md",
+                "file": "papers/英语词汇积累.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/GPU/Benchmark探索.md",
+                "file": "papers/英语词汇积累.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,8 +188,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8567c74b3e0df4f6",
+  "active": "c70b3c5461f27b63",
   "lastOpenFiles": [
+    "Learning/GPU/Benchmark探索.md",
     "papers/My DATE or DAC 2023.md",
     "papers/英语词汇积累.md",
     "Learning/AI/GNN/GNN.md",
@@ -198,7 +199,6 @@
     "Learning/GPU/CUDA.md",
     "Learning/GPU/层次结构.md",
     "source.md",
-    "util/常用指令.md",
-    "Learning/Programming Language & Framework/Pytorch/pytorch基本操作.md"
+    "util/常用指令.md"
   ]
 }
