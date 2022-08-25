@@ -1,3 +1,16 @@
+# 需要思考和解决的问题
+- [x] GAT能做inductive吗——能
+- [x] 能否将注意力融入GraphSage *or* 直接采用GAT——GAT
+- [x] 选用哪种图框架：DGL *or* PyG (参考https://github.com/cornell-zhang/GLAIVE)——DGL
+- [x] GNN Train前需要构建自定义数据集，DGL *or* PyG 方便些？——用networkx或者csv文件构建图然后DGL直接导入即可
+- [x] 注错层次在*PTX*/*PTX plus*/*SASS* ？——PTX
+- [x] 在哪一章的那一块介绍三种软错误（在Fault model行么）——background fault model
+- [ ] 要修改GAT本身么（以适应我们的背景）：添加注意力阈值，小于这个数的就不参与message passing了（先考虑建图，不考虑GAT）
+- [ ] 需要考虑的是：load/store指令怎么做位级扩展
+eg: st.global.f32 	\[%rd11\], %f25;
+- [ ] 建图过程要写成伪代码吗
+
+
 
 # 输入相关
 - **CUDA**: NVIDIA. 2011. CUDA C/C++ SDK Code Samples. http://developer.nvidia.com/cuda-cc-sdk-code-samples
@@ -80,20 +93,6 @@ next：错误传播——图
 后续工作：GNN+FI+CNN→单调性binfi结合剪枝
 
 
-
-
-
-
-# 需要思考和解决的问题
-- [x] GAT能做inductive吗——能
-- [x] 能否将注意力融入GraphSage *or* 直接采用GAT——GAT
-- [x] 选用哪种图框架：DGL *or* PyG (参考https://github.com/cornell-zhang/GLAIVE)——DGL
-- [x] GNN Train前需要构建自定义数据集，DGL *or* PyG 方便些？——用networkx或者csv文件构建图然后DGL直接导入即可
-- [ ] 注错层次在*PTX*/*PTX plus*/*SASS* ？
-- [ ] 在哪一章的那一块介绍三种软错误（在Fault model行么）
-- [ ] 要修改GAT本身么（以适应我们的背景）：添加注意力阈值，小于这个数的就不参与message passing了
-
-
 # 文章细节翻译
 from the ... perspective
 The learned W matrix is commonly shared and updated by all nodes, indicating a weight sharing philosophy similar to convolutional neural networks in DL.
@@ -132,4 +131,3 @@ eliminate the resilience-oriented instructions
 
 PTX代码与GPU硬件架构有弱耦合关系
 
-sccuessive 连续的
