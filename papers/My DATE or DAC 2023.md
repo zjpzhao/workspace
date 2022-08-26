@@ -7,7 +7,7 @@
 - [x] 在哪一章的那一块介绍三种软错误（在Fault model行么）——background fault model
 - [ ] 要修改GAT本身么（以适应我们的背景）：添加注意力阈值，小于这个数的就不参与message passing了（先考虑建图，不考虑GAT）
 - [ ] 需要考虑的是：load/store指令怎么做位级扩展
-eg: st.global.f32 	\[%rd11\], %f25;
+eg: st.global.f32 	\[%rd11\], %f25;（作为中间传递指令，传递到下一个用到该地址的指令）
 - [ ] 建图过程要写成伪代码吗
 
 
