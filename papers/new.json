@@ -1942,7 +1942,7 @@
       ],
       "date": "11/2018",
       "dateAdded": "2022-08-24T11:45:40Z",
-      "dateModified": "2022-08-24T11:45:41Z",
+      "dateModified": "2022-08-26T02:17:26Z",
       "itemID": 9310,
       "itemKey": "7T6PTIIB",
       "itemType": "conferencePaper",
@@ -1957,12 +1957,7 @@
       "publisher": "IEEE",
       "relations": [],
       "select": "zotero://select/library/items/7T6PTIIB",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
+      "tags": [],
       "title": "Optimizing Software-Directed Instruction Replication for GPU Error Detection",
       "uri": "http://zotero.org/users/7659667/items/7T6PTIIB",
       "url": "https://ieeexplore.ieee.org/document/8665772/",
