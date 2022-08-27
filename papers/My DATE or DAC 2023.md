@@ -131,3 +131,5 @@ eliminate the resilience-oriented instructions
 
 PTX代码与GPU硬件架构有弱耦合关系
 
+
+Other possible outcome categories are *Detected and Unrecoverable Errors (DUEs)* or *Silent Data Corruptions (SDCs)*. DUEs occur when a system is able to detect an error and was unable to recover from it.
