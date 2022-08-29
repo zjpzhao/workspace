@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "collect metrics",
+      "path": "Learning/GPU/collect metrics.md"
+    },
+    {
+      "basename": "层次结构",
+      "path": "Learning/GPU/层次结构.md"
+    },
+    {
+      "basename": "GPU",
+      "path": "Learning/GPU/GPU.md"
+    },
+    {
+      "basename": "常用指令",
+      "path": "util/常用指令.md"
+    },
+    {
+      "basename": "Benchmark探索",
+      "path": "Learning/GPU/Benchmark探索.md"
+    },
+    {
       "basename": "英语词汇积累",
       "path": "papers/英语词汇积累.md"
     },
@@ -11,14 +31,6 @@
     {
       "basename": "My DATE or DAC 2023",
       "path": "papers/My DATE or DAC 2023.md"
-    },
-    {
-      "basename": "collect",
-      "path": "Learning/GPU/collect.md"
-    },
-    {
-      "basename": "Benchmark探索",
-      "path": "Learning/GPU/Benchmark探索.md"
     },
     {
       "basename": "GNN",
@@ -37,16 +49,8 @@
       "path": "Learning/GPU/CUDA.md"
     },
     {
-      "basename": "层次结构",
-      "path": "Learning/GPU/层次结构.md"
-    },
-    {
       "basename": "source",
       "path": "source.md"
-    },
-    {
-      "basename": "常用指令",
-      "path": "util/常用指令.md"
     },
     {
       "basename": "pytorch基本操作",
@@ -119,10 +123,6 @@
     {
       "basename": "图床搭建及配置",
       "path": "Workflow/图床搭建及配置.md"
-    },
-    {
-      "basename": "GPU",
-      "path": "Learning/GPU/GPU.md"
     },
     {
       "basename": "Docker",

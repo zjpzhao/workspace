@@ -45,3 +45,14 @@ Nsight VSE 3.0 supports a new Instruction Count experiment that can collect per 
 a. inst_executed b. thread_inst_executed (or active mask) c. not_predicated_off_thread_inst_executed (active predicate mask) d. histogram of active_mask e. histogram of predicate_mask
 
 Visual Profiler 5.0 can accurately collect the aforementioned SM counters. nvprof can collect and show the per SM details. Visual Profiler 5.x does not support collection of per instruction statistics available in Nsight VSE 3.0. Older versions of the Visual Profiler and CUDA command line profiler can collect many of the aforementioned counters but the results may not be as accurate as the 5.0 and above version of the tools.
+
+
+参考手册（找了很久）：https://docs.nvidia.com/nsight-compute/ProfilingGuide/index.html
+看线程执行指令数：
+sudo /usr/local/cuda-11.1/bin/ncu --metrics thread_inst_executed ./vectoradd
+
+看启动了多少CTA：
+sudo /usr/local/cuda-11.1/bin/ncu --metrics sm__ctas_launched ./gemm
+
+其他非常多的metrix可以参考手册或者直接看
+sudo ncu --query-metrics --csv > query-metrics.csv输出的csv文件![[query-metrics.csv]]

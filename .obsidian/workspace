@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Learning/GPU/collect.md",
+            "file": "Learning/GPU/collect metrics.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -49,6 +49,32 @@
           "type": "markdown",
           "state": {
             "file": "papers/英语词汇积累.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "fce195f8a47fe3d0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Learning/GPU/collect metrics.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "bca7d6543a75aec6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Learning/GPU/层次结构.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -105,8 +131,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "e9d25589cbee286f",
@@ -126,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/英语词汇积累.md"
+                "file": "Learning/GPU/collect metrics.md"
               }
             }
           }
@@ -152,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/英语词汇积累.md",
+                "file": "Learning/GPU/collect metrics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/英语词汇积累.md",
+                "file": "Learning/GPU/collect metrics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,17 +241,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d49ee7fe4d1ca95f",
+  "active": "fce195f8a47fe3d0",
   "lastOpenFiles": [
+    "Learning/GPU/层次结构.md",
+    "Learning/GPU/GPU.md",
+    "util/常用指令.md",
+    "Learning/GPU/collect metrics.md",
+    "Learning/GPU/Benchmark探索.md",
+    "papers/英语词汇积累.md",
     "Learning/GPU/SASS和PTX的区别.md",
     "papers/My DATE or DAC 2023.md",
-    "Learning/GPU/collect.md",
-    "papers/英语词汇积累.md",
-    "Learning/GPU/Benchmark探索.md",
     "Learning/AI/GNN/GNN.md",
-    "Learning/Tools/Git.md",
-    "Learning/GPU/PTX.md",
-    "Learning/GPU/CUDA.md",
-    "Learning/GPU/层次结构.md"
+    "Learning/Tools/Git.md"
   ]
 }
