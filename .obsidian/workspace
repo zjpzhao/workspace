@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "papers/英语词汇积累.md",
+            "file": "Learning/GPU/collect.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -36,6 +36,19 @@
           "type": "markdown",
           "state": {
             "file": "Learning/GPU/SASS和PTX的区别.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "d49ee7fe4d1ca95f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "papers/英语词汇积累.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -92,7 +105,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "e9d25589cbee286f",
@@ -202,17 +216,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c70b3c5461f27b63",
+  "active": "d49ee7fe4d1ca95f",
   "lastOpenFiles": [
-    "papers/My DATE or DAC 2023.md",
     "Learning/GPU/SASS和PTX的区别.md",
+    "papers/My DATE or DAC 2023.md",
+    "Learning/GPU/collect.md",
     "papers/英语词汇积累.md",
     "Learning/GPU/Benchmark探索.md",
     "Learning/AI/GNN/GNN.md",
     "Learning/Tools/Git.md",
     "Learning/GPU/PTX.md",
     "Learning/GPU/CUDA.md",
-    "Learning/GPU/层次结构.md",
-    "source.md"
+    "Learning/GPU/层次结构.md"
   ]
 }
