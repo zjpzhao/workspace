@@ -164,7 +164,8 @@
         8955,
         8956,
         9000,
-        9016
+        9016,
+        9333
       ],
       "key": "PRPTPRWT",
       "name": "Power & Other",
@@ -2365,6 +2366,83 @@
       "uri": "http://zotero.org/users/7659667/items/ALANDUY6",
       "url": "https://doi.org/10.1145/3297858.3304050",
       "version": 2219
+    },
+    {
+      "DOI": "10.1109/TCAD.2021.3104529",
+      "ISSN": "0278-0070, 1937-4151",
+      "abstractNote": "Graphics processing units (GPUs) are widely used in general-purpose high-performance computing applications (i.e., GPGPUs), which require reliable execution in the presence of soft errors. To support massive thread-level parallelism, a sizeable register ﬁle is adopted in GPUs, which is highly vulnerable to soft errors. Although modern commercial GPUs provide single-errorcorrection double-error-detection (SEC-DED) error correction code (ECC) for the register ﬁle, it consumes a considerable amount of energy due to frequent register accesses and leakage power of ECC storage. In this article, we propose to leverage the error sensitivity of instructions, the duplicate characteristics of the same-named registers, and the error sensitivity of data bits to build a uniﬁed energy-efﬁcient ECC mechanism for a GPGPUs register ﬁle (Eff-ECC), which consists of instructionaware ECC (IA-ECC), duplication-aware ECC (DA-ECC), and bit-aware ECC (BA-ECC). Considering the error sensitivity of instructions, IA-ECC merely implements ECCs for the write registers of critical instructions. Observing the same-named registers across threads usually keeps the same data, DA-ECC avoids unnecessary ECC generation and veriﬁcation for duplicate register values. Leveraging the inherent error-tolerance features of the program, BA-ECC merely protects signiﬁcant bits of registers to combat the crucial error. Experimental results demonstrate that Eff-ECC tremendously reduces 86.46% energy consumption of traditional SEC-DED ECC.",
+      "accessDate": "2022-08-30T07:15:00Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-08-30T07:14:51Z",
+          "dateModified": "2022-08-30T07:15:03Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\RZSFWIGS\\Yue et al. - 2022 - Eff-ECC Protecting GPGPUs Register File With a Un.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Yue et al. - 2022 - Eff-ECC Protecting GPGPUs Register File With a Un.pdf",
+          "uri": "http://zotero.org/users/7659667/items/RZSFWIGS"
+        }
+      ],
+      "callNumber": "2",
+      "citationKey": "EffECCProtectingGPGPUs2022yue",
+      "citekey": "EffECCProtectingGPGPUs2022yue",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Hengshan",
+          "lastName": "Yue"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Xiaohui",
+          "lastName": "Wei"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jingweijia",
+          "lastName": "Tan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nan",
+          "lastName": "Jiang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Meikang",
+          "lastName": "Qiu"
+        }
+      ],
+      "date": "7/2022",
+      "dateAdded": "2022-08-30T07:15:00Z",
+      "dateModified": "2022-08-30T07:15:02Z",
+      "issue": "7",
+      "itemID": 9333,
+      "itemKey": "ATKKQ94U",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "IEEE Trans. Comput.-Aided Des. Integr. Circuits Syst.",
+      "key": "ATKKQ94U",
+      "language": "en",
+      "libraryCatalog": "2.565",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "2080-2093",
+      "publicationTitle": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+      "relations": [],
+      "select": "zotero://select/library/items/ATKKQ94U",
+      "shortTitle": "Eff-ECC",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Eff-ECC: Protecting GPGPUs Register File With a Unified Energy-Efficient ECC Mechanism",
+      "uri": "http://zotero.org/users/7659667/items/ATKKQ94U",
+      "url": "https://ieeexplore.ieee.org/document/9515382/",
+      "version": 4822,
+      "volume": "41"
     },
     {
       "abstractNote": "We present graph attention networks (GATs), novel neural network architectures that operate on graph-structured data, leveraging masked self-attentional layers to address the shortcomings of prior methods based on graph convolutions or their approximations. By stacking layers in which nodes are able to attend over their neighborhoods’ features, we enable (implicitly) specifying different weights to different nodes in a neighborhood, without requiring any kind of costly matrix operation (such as inversion) or depending on knowing the graph structure upfront. In this way, we address several key challenges of spectral-based graph neural networks simultaneously, and make our model readily applicable to inductive as well as transductive problems. Our GAT models have achieved or matched state-of-theart results across four established transductive and inductive graph benchmarks: the Cora, Citeseer and Pubmed citation network datasets, as well as a proteinprotein interaction dataset (wherein test graphs remain unseen during training).",
