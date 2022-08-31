@@ -5,6 +5,22 @@
       "path": "papers/英语词汇积累.md"
     },
     {
+      "basename": "Compiling",
+      "path": "Learning/GPU/Compiling.md"
+    },
+    {
+      "basename": "Shell",
+      "path": "Learning/Programming Language & Framework/Shell.md"
+    },
+    {
+      "basename": "常用指令",
+      "path": "util/常用指令.md"
+    },
+    {
+      "basename": "My DATE or DAC 2023",
+      "path": "papers/My DATE or DAC 2023.md"
+    },
+    {
       "basename": "collect metrics",
       "path": "Learning/GPU/collect metrics.md"
     },
@@ -17,20 +33,12 @@
       "path": "Learning/GPU/GPU.md"
     },
     {
-      "basename": "常用指令",
-      "path": "util/常用指令.md"
-    },
-    {
       "basename": "Benchmark探索",
       "path": "Learning/GPU/Benchmark探索.md"
     },
     {
       "basename": "SASS和PTX的区别",
       "path": "Learning/GPU/SASS和PTX的区别.md"
-    },
-    {
-      "basename": "My DATE or DAC 2023",
-      "path": "papers/My DATE or DAC 2023.md"
     },
     {
       "basename": "GNN",
