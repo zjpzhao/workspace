@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/英语词汇积累.md"
+                "file": "Learning/GPU/Compiling.md"
               }
             }
           }
@@ -190,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/英语词汇积累.md",
+                "file": "Learning/GPU/Compiling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/英语词汇积累.md",
+                "file": "Learning/GPU/Compiling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -254,15 +254,15 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f637bcb84dca6ac9",
+  "active": "d49ee7fe4d1ca95f",
   "lastOpenFiles": [
+    "Learning/GPU/层次结构.md",
+    "papers/英语词汇积累.md",
+    "Learning/GPU/collect metrics.md",
     "Learning/GPU/Compiling.md",
     "Learning/Programming Language & Framework/Shell.md",
     "util/常用指令.md",
     "papers/My DATE or DAC 2023.md",
-    "papers/英语词汇积累.md",
-    "Learning/GPU/collect metrics.md",
-    "Learning/GPU/层次结构.md",
     "Learning/GPU/GPU.md",
     "Learning/GPU/Benchmark探索.md",
     "Learning/GPU/SASS和PTX的区别.md"

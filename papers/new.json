@@ -48,7 +48,7 @@
         8603
       ],
       "key": "9ML3SXBU",
-      "name": "To be Classified",
+      "name": "util",
       "parent": ""
     },
     "FS5ZRIWZ": {
@@ -3471,7 +3471,7 @@
       ],
       "date": "2018",
       "dateAdded": "2022-05-07T16:28:09Z",
-      "dateModified": "2022-05-10T09:02:23Z",
+      "dateModified": "2022-08-31T05:53:44Z",
       "itemID": 7788,
       "itemKey": "EJ3XLIZG",
       "itemType": "conferencePaper",
@@ -3485,16 +3485,11 @@
       "relations": [],
       "select": "zotero://select/library/items/EJ3XLIZG",
       "shortTitle": "PRISM",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
+      "tags": [],
       "title": "PRISM: predicting resilience of GPU applications using statistical methods",
       "uri": "http://zotero.org/users/7659667/items/EJ3XLIZG",
       "url": "http://dl.acm.org/citation.cfm?id=3291748",
-      "version": 2602
+      "version": 4852
     },
     {
       "ISBN": "978-1-4673-0805-2 978-1-4673-0806-9",
