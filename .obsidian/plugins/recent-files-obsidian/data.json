@@ -5,6 +5,10 @@
       "path": "papers/英语词汇积累.md"
     },
     {
+      "basename": "Shell",
+      "path": "Learning/Programming Language & Framework/Shell.md"
+    },
+    {
       "basename": "Compiling",
       "path": "Learning/GPU/Compiling.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "collect metrics",
       "path": "Learning/GPU/collect metrics.md"
-    },
-    {
-      "basename": "Shell",
-      "path": "Learning/Programming Language & Framework/Shell.md"
     },
     {
       "basename": "常用指令",
