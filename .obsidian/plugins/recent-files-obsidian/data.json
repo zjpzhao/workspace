@@ -57,10 +57,6 @@
       "path": "Learning/GPU/CUDA.md"
     },
     {
-      "basename": "source",
-      "path": "source.md"
-    },
-    {
       "basename": "pytorch基本操作",
       "path": "Learning/Programming Language & Framework/Pytorch/pytorch基本操作.md"
     },
