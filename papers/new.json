@@ -16,7 +16,6 @@
         97,
         108,
         109,
-        112,
         113,
         114,
         115,
@@ -31,11 +30,10 @@
         7887,
         8527,
         8591,
-        8600,
-        9310
+        8600
       ],
       "key": "89K6PZVW",
-      "name": "Error Propagation",
+      "name": "Error Propagation Modeling",
       "parent": ""
     },
     "9ML3SXBU": {
@@ -109,8 +107,6 @@
         8497,
         8498,
         8543,
-        8545,
-        8657,
         8903,
         8957,
         9014,
@@ -197,16 +193,14 @@
       "collections": [],
       "items": [
         62,
-        64,
         99,
-        102,
         107,
         144,
         176,
         207,
         7889,
         7899,
-        9074
+        9419
       ],
       "key": "RLZKFTSE",
       "name": "Modeling Tools",
@@ -229,7 +223,9 @@
         8908,
         8910,
         8934,
-        8998
+        8998,
+        9409,
+        9411
       ],
       "key": "TQUX3GGM",
       "name": "Intelligent application",
@@ -260,6 +256,8 @@
     "W43MLK4H": {
       "collections": [],
       "items": [
+        64,
+        102,
         111,
         236,
         7788,
@@ -462,7 +460,7 @@
       "title": "Accel-Sim: An Extensible Simulation Framework for Validated GPU Modeling",
       "uri": "http://zotero.org/users/7659667/items/2AUJKQMF",
       "url": "https://ieeexplore.ieee.org/document/9138922/",
-      "version": 4403
+      "version": 4950
     },
     {
       "DOI": "10.1145/3385412.3386033",
@@ -1206,67 +1204,6 @@
       "volume": "27"
     },
     {
-      "DOI": "10.1109/DAC18072.2020.9218643",
-      "ISBN": "978-1-72811-085-1",
-      "abstractNote": "This paper introduces GRANNITE, a GPUaccelerated novel graph neural network (GNN) model for fast, accurate, and transferable vector-based average power estimation. During training, GRANNITE learns how to propagate average toggle rates through combinational logic: a netlist is represented as a graph, register states and unit inputs from RTL simulation are used as features, and combinational gate toggle rates are used as labels. A trained GNN model can then infer average toggle rates on a new workload of interest or new netlists from RTL simulation results in a few seconds. Compared to traditional power analysis using gate-level simulations, GRANNITE achieves >18.7X speedup with an error of only <5.5% across a diverse set of benchmark circuits. Compared to a GPU-accelerated conventional probabilistic switching activity estimation approach, GRANNITE achieves much better accuracy (on average 25.9% lower error) at similar runtimes.",
-      "accessDate": "2022-07-12T08:47:02Z",
-      "attachments": [
-        {
-          "dateAdded": "2022-07-12T08:46:57Z",
-          "dateModified": "2022-07-12T08:47:04Z",
-          "itemType": "attachment",
-          "path": "D:\\Zotero\\storage\\2RZQI3FJ\\Zhang et al. - 2020 - GRANNITE Graph Neural Network Inference for Trans.pdf",
-          "relations": [],
-          "tags": [],
-          "title": "Zhang et al. - 2020 - GRANNITE Graph Neural Network Inference for Trans.pdf",
-          "uri": "http://zotero.org/users/7659667/items/2RZQI3FJ"
-        }
-      ],
-      "citationKey": "GRANNITEGraphNeural2020zhang",
-      "citekey": "GRANNITEGraphNeural2020zhang",
-      "conferenceName": "2020 57th ACM/IEEE Design Automation Conference (DAC)",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Yanqing",
-          "lastName": "Zhang"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Haoxing",
-          "lastName": "Ren"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Brucek",
-          "lastName": "Khailany"
-        }
-      ],
-      "date": "7/2020",
-      "dateAdded": "2022-07-12T08:47:02Z",
-      "dateModified": "2022-07-14T08:44:17Z",
-      "itemID": 8545,
-      "itemKey": "4WW3RDJK",
-      "itemType": "conferencePaper",
-      "key": "4WW3RDJK",
-      "language": "en",
-      "libraryCatalog": "DOI.org (Crossref)",
-      "libraryID": 1,
-      "notes": [],
-      "pages": "1-6",
-      "place": "San Francisco, CA, USA",
-      "publicationTitle": "2020 57th ACM/IEEE Design Automation Conference (DAC)",
-      "publisher": "IEEE",
-      "relations": [],
-      "select": "zotero://select/library/items/4WW3RDJK",
-      "shortTitle": "GRANNITE",
-      "tags": [],
-      "title": "GRANNITE: Graph Neural Network Inference for Transferable Power Estimation",
-      "uri": "http://zotero.org/users/7659667/items/4WW3RDJK",
-      "url": "https://ieeexplore.ieee.org/document/9218643/",
-      "version": 3833
-    },
-    {
       "DOI": "10.1145/3339363.3339382",
       "ISBN": "978-1-4503-7172-8",
       "accessDate": "2021-12-03T03:27:53Z",
@@ -1743,7 +1680,7 @@
       ],
       "date": "11/2018",
       "dateAdded": "2022-07-14T08:27:22Z",
-      "dateModified": "2022-07-14T08:28:07Z",
+      "dateModified": "2022-09-06T11:59:17Z",
       "itemID": 8591,
       "itemKey": "7EVJJVKA",
       "itemType": "conferencePaper",
@@ -1758,11 +1695,15 @@
       "publisher": "IEEE",
       "relations": [],
       "select": "zotero://select/library/items/7EVJJVKA",
-      "tags": [],
+      "tags": [
+        {
+          "tag": "⭐"
+        }
+      ],
       "title": "Optimizing Software-Directed Instruction Replication for GPU Error Detection",
       "uri": "http://zotero.org/users/7659667/items/7EVJJVKA",
       "url": "https://ieeexplore.ieee.org/document/8665772/",
-      "version": 3896
+      "version": 4916
     },
     {
       "attachments": [
@@ -1894,75 +1835,6 @@
       "title": "NsightCompute.pdf",
       "uri": "http://zotero.org/users/7659667/items/7PEKCRXX",
       "version": 3835
-    },
-    {
-      "DOI": "10.1109/SC.2018.00070",
-      "ISBN": "978-1-5386-8384-2",
-      "accessDate": "2022-08-24T11:45:39Z",
-      "attachments": [
-        {
-          "dateAdded": "2022-08-24T11:45:32Z",
-          "dateModified": "2022-08-24T11:45:42Z",
-          "itemType": "attachment",
-          "path": "D:\\Zotero\\storage\\49UTEBYK\\Mahmoud et al. - 2018 - Optimizing Software-Directed Instruction Replicati.pdf",
-          "relations": [],
-          "tags": [],
-          "title": "Mahmoud et al. - 2018 - Optimizing Software-Directed Instruction Replicati.pdf",
-          "uri": "http://zotero.org/users/7659667/items/49UTEBYK"
-        }
-      ],
-      "citationKey": "OptimizingSoftwareDirectedInstruction2018mahmouda",
-      "citekey": "OptimizingSoftwareDirectedInstruction2018mahmouda",
-      "conferenceName": "SC18: International Conference for High Performance Computing, Networking, Storage and Analysis",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Abdulrahman",
-          "lastName": "Mahmoud"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Siva Kumar Sastry",
-          "lastName": "Hari"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Michael B.",
-          "lastName": "Sullivan"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Timothy",
-          "lastName": "Tsai"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Stephen W.",
-          "lastName": "Keckler"
-        }
-      ],
-      "date": "11/2018",
-      "dateAdded": "2022-08-24T11:45:40Z",
-      "dateModified": "2022-08-26T02:17:26Z",
-      "itemID": 9310,
-      "itemKey": "7T6PTIIB",
-      "itemType": "conferencePaper",
-      "key": "7T6PTIIB",
-      "language": "en",
-      "libraryCatalog": "DOI.org (Crossref)",
-      "libraryID": 1,
-      "notes": [],
-      "pages": "842-854",
-      "place": "Dallas, TX, USA",
-      "publicationTitle": "SC18: International Conference for High Performance Computing, Networking, Storage and Analysis",
-      "publisher": "IEEE",
-      "relations": [],
-      "select": "zotero://select/library/items/7T6PTIIB",
-      "tags": [],
-      "title": "Optimizing Software-Directed Instruction Replication for GPU Error Detection",
-      "uri": "http://zotero.org/users/7659667/items/7T6PTIIB",
-      "url": "https://ieeexplore.ieee.org/document/8665772/",
-      "version": 4806
     },
     {
       "DOI": "10.1016/j.future.2004.11.016",
@@ -2214,6 +2086,82 @@
       "volume": "152"
     },
     {
+      "DOI": "10.1109/TC.2020.2965518",
+      "ISSN": "0018-9340, 1557-9956, 2326-3814",
+      "abstractNote": "Traditional reliability approaches introduce relevant costs to achieve unconditional correctness during data processing. However, many application environments are inherently tolerant to a certain degree of inexactness or inaccuracy. In this article, we focus on the practical scenario of image processing in space, a domain where faults are a threat, while the applications are inherently tolerant to a certain degree of errors. We ﬁrst introduce the concept of usability of the processed image to relax the traditional requirement of unconditional correctness, and to limit the computational overheads related to reliability. We then introduce our new ﬂexible and lightweight fault management methodology for inaccurate application environments. A key novelty of our scheme is the utilization of neural networks to reduce the costs associated with the occurrence and the detection of faults. Experiments on two aerospace image processing case studies show overall time savings of 14.89 and 34.72 percent for the two applications, respectively, as compared with the baseline classical Duplication with Comparison scheme.",
+      "accessDate": "2022-09-06T11:57:15Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-09-06T11:57:04Z",
+          "dateModified": "2022-09-06T11:57:17Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\9J52TIGU\\Biasielli et al. - 2020 - A Neural Network Based Fault Management Scheme for.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Biasielli et al. - 2020 - A Neural Network Based Fault Management Scheme for.pdf",
+          "uri": "http://zotero.org/users/7659667/items/9J52TIGU"
+        }
+      ],
+      "callNumber": "2",
+      "citationKey": "NeuralNetworkBased2020biasielli",
+      "citekey": "NeuralNetworkBased2020biasielli",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Matteo",
+          "lastName": "Biasielli"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Cristiana",
+          "lastName": "Bolchini"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Luca",
+          "lastName": "Cassano"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Erdem",
+          "lastName": "Koyuncu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Antonio",
+          "lastName": "Miele"
+        }
+      ],
+      "date": "2020-5-1",
+      "dateAdded": "2022-09-06T11:57:15Z",
+      "dateModified": "2022-09-06T11:57:17Z",
+      "issue": "5",
+      "itemID": 9409,
+      "itemKey": "9MK7SG82",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "IEEE Trans. Comput.",
+      "key": "9MK7SG82",
+      "language": "en",
+      "libraryCatalog": "3.183",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "764-776",
+      "publicationTitle": "IEEE Transactions on Computers",
+      "relations": [],
+      "select": "zotero://select/library/items/9MK7SG82",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "A Neural Network Based Fault Management Scheme for Reliable Image Processing",
+      "uri": "http://zotero.org/users/7659667/items/9MK7SG82",
+      "url": "https://ieeexplore.ieee.org/document/8955912/",
+      "version": 4905,
+      "volume": "69"
+    },
+    {
       "DOI": "10.23919/DATE54114.2022.9774569",
       "ISBN": "978-3-9819263-6-1",
       "abstractNote": "The reliability of deep neural networks (DNNs) against hardware errors is essential as DNNs are increasingly employed in safety-critical applications such as automatic driving. Transient errors in memory, such as radiation-induced soft error, may propagate through the inference computation, resulting in unexpected output, which can adversely trigger catastrophic system failures. As a ﬁrst step to tackle this problem, this paper proposes constructing a vulnerability model (VM) with a small number of fault injections to identify vulnerable model parameters in DNN. We reduce the number of bit locations for fault injection signiﬁcantly and develop a ﬂow to incrementally collect the training data, i.e., the fault injection results, for VM accuracy improvement. Experimental results show that VM can estimate vulnerabilities of all DNN model parameters only with 1/3490 computations compared with traditional fault injectionbased vulnerability estimation.",
@@ -2443,77 +2391,6 @@
       "url": "https://ieeexplore.ieee.org/document/9515382/",
       "version": 4822,
       "volume": "41"
-    },
-    {
-      "abstractNote": "We present graph attention networks (GATs), novel neural network architectures that operate on graph-structured data, leveraging masked self-attentional layers to address the shortcomings of prior methods based on graph convolutions or their approximations. By stacking layers in which nodes are able to attend over their neighborhoods’ features, we enable (implicitly) specifying different weights to different nodes in a neighborhood, without requiring any kind of costly matrix operation (such as inversion) or depending on knowing the graph structure upfront. In this way, we address several key challenges of spectral-based graph neural networks simultaneously, and make our model readily applicable to inductive as well as transductive problems. Our GAT models have achieved or matched state-of-theart results across four established transductive and inductive graph benchmarks: the Cora, Citeseer and Pubmed citation network datasets, as well as a proteinprotein interaction dataset (wherein test graphs remain unseen during training).",
-      "accessDate": "2022-07-20T08:06:12Z",
-      "attachments": [
-        {
-          "dateAdded": "2022-07-20T08:06:06Z",
-          "dateModified": "2022-07-20T08:06:14Z",
-          "itemType": "attachment",
-          "path": "D:\\Zotero\\storage\\Q9EDUCZI\\Veličković et al. - 2018 - Graph Attention Networks.pdf",
-          "relations": [],
-          "tags": [],
-          "title": "Veličković et al. - 2018 - Graph Attention Networks.pdf",
-          "uri": "http://zotero.org/users/7659667/items/Q9EDUCZI"
-        }
-      ],
-      "citationKey": "GraphAttentionNetworks2018velickovic",
-      "citekey": "GraphAttentionNetworks2018velickovic",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Petar",
-          "lastName": "Veličković"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Guillem",
-          "lastName": "Cucurull"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Arantxa",
-          "lastName": "Casanova"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Adriana",
-          "lastName": "Romero"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Pietro",
-          "lastName": "Liò"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Yoshua",
-          "lastName": "Bengio"
-        }
-      ],
-      "date": "2018-02-04",
-      "dateAdded": "2022-07-20T08:06:12Z",
-      "dateModified": "2022-07-20T08:07:44Z",
-      "extra": "arXiv:1710.10903 [cs, stat]",
-      "itemID": 8657,
-      "itemKey": "BGGCVKHQ",
-      "itemType": "preprint",
-      "key": "BGGCVKHQ",
-      "language": "en",
-      "libraryCatalog": "arXiv.org",
-      "libraryID": 1,
-      "notes": [],
-      "number": "arXiv:1710.10903",
-      "publisher": "arXiv",
-      "relations": [],
-      "select": "zotero://select/library/items/BGGCVKHQ",
-      "tags": [],
-      "title": "Graph Attention Networks",
-      "uri": "http://zotero.org/users/7659667/items/BGGCVKHQ",
-      "url": "http://arxiv.org/abs/1710.10903",
-      "version": 3996
     },
     {
       "DOI": "10.1145/3442381.3449822",
@@ -3168,7 +3045,7 @@
       ],
       "date": "2018",
       "dateAdded": "2022-08-23T07:09:20Z",
-      "dateModified": "2022-08-23T07:09:21Z",
+      "dateModified": "2022-09-06T12:17:18Z",
       "extra": "Citation Key: DBLP:conf/iclr/VelickovicCCRLB18\ntex.bibsource: dblp computer science bibliography, https://dblp.org\ntex.biburl: https://dblp.org/rec/conf/iclr/VelickovicCCRLB18.bib\ntex.timestamp: Thu, 25 Jul 2019 14:25:41 +0200",
       "itemID": 9302,
       "itemKey": "DN2KVZE3",
@@ -3180,12 +3057,7 @@
       "publisher": "OpenReview.net",
       "relations": [],
       "select": "zotero://select/library/items/DN2KVZE3",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
+      "tags": [],
       "title": "Graph attention networks",
       "uri": "http://zotero.org/users/7659667/items/DN2KVZE3",
       "url": "https://openreview.net/forum?id=rJXMpikCZ",
@@ -3351,82 +3223,6 @@
       "version": 2324
     },
     {
-      "DOI": "10.1109/ISPASS.2017.7975296",
-      "ISBN": "978-1-5386-3890-3",
-      "abstractNote": "As GPUs become more pervasive in both scalable high-performance computing systems and safety-critical embedded systems, evaluating and analyzing their resilience to soft errors caused by high-energy particle strikes will grow increasingly important. GPU designers must develop tools and techniques to understand the effect of these soft errors on applications. This paper presents an error injection-based methodology and tool called SASSIFI to study the soft error resilience of massively parallel applications running on stateof-the-art NVIDIA GPUs. Our approach uses a low-level assembly-language instrumentation tool called SASSI to proﬁle and inject errors. SASSI provides efﬁciency by allowing instrumentation code to execute entirely on the GPU and provides the ability to inject into different architecture-visible state. For example, SASSIFI can inject errors in general-purpose registers, GPU memory, condition code registers, and predicate registers. SASSIFI can also inject errors into addresses and register indices. In this paper, we describe the SASSIFI tool, its capabilities, and present experiments to illustrate some of the analyses SASSIFI can be used to perform.",
-      "accessDate": "2022-08-22T11:33:59Z",
-      "attachments": [
-        {
-          "dateAdded": "2022-08-22T11:33:53Z",
-          "dateModified": "2022-08-22T11:34:01Z",
-          "itemType": "attachment",
-          "path": "D:\\Zotero\\storage\\3V8VYMNE\\Hari et al. - 2017 - SASSIFI An architecture-level fault injection too.pdf",
-          "relations": [],
-          "tags": [],
-          "title": "Hari et al. - 2017 - SASSIFI An architecture-level fault injection too.pdf",
-          "uri": "http://zotero.org/users/7659667/items/3V8VYMNE"
-        }
-      ],
-      "citationKey": "SASSIFIArchitecturelevelFault2017haria",
-      "citekey": "SASSIFIArchitecturelevelFault2017haria",
-      "conferenceName": "2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Siva Kumar Sastry",
-          "lastName": "Hari"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Timothy",
-          "lastName": "Tsai"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Mark",
-          "lastName": "Stephenson"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Stephen W.",
-          "lastName": "Keckler"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Joel",
-          "lastName": "Emer"
-        }
-      ],
-      "date": "4/2017",
-      "dateAdded": "2022-08-22T11:33:59Z",
-      "dateModified": "2022-08-22T11:34:00Z",
-      "itemID": 9074,
-      "itemKey": "EESXHT2M",
-      "itemType": "conferencePaper",
-      "key": "EESXHT2M",
-      "language": "en",
-      "libraryCatalog": "DOI.org (Crossref)",
-      "libraryID": 1,
-      "notes": [],
-      "pages": "249-258",
-      "place": "Santa Rosa, CA, USA",
-      "publicationTitle": "2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)",
-      "publisher": "IEEE",
-      "relations": [],
-      "select": "zotero://select/library/items/EESXHT2M",
-      "shortTitle": "SASSIFI",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
-      "title": "SASSIFI: An architecture-level fault injection tool for GPU application resilience evaluation",
-      "uri": "http://zotero.org/users/7659667/items/EESXHT2M",
-      "url": "http://ieeexplore.ieee.org/document/7975296/",
-      "version": 4749
-    },
-    {
       "accessDate": "2022-05-07T16:28:09Z",
       "attachments": [
         {
@@ -3544,6 +3340,91 @@
       "tags": [],
       "uri": "http://zotero.org/users/7659667/items/FPV6GSGT",
       "version": 2783
+    },
+    {
+      "DOI": "10.1109/DSN.2018.00022",
+      "ISBN": "978-1-5386-5596-2",
+      "abstractNote": "GPUs are widely deployed on large-scale HPC systems to provide powerful computational capability for scientiﬁc applications from various domains. As those applications are normally long-running, investigating the characteristics of GPU errors becomes imperative for reliability. In this paper, we ﬁrst study the system conditions that trigger GPU errors using sixmonth trace data collected from a large-scale, operational HPC system. Then, we use machine learning to predict the occurrence of GPU errors, by taking advantage of temporal and spatial dependencies of the trace data. The resulting machine learning prediction framework is robust and accurate under different workloads.",
+      "accessDate": "2022-09-06T12:24:51Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-09-06T12:24:46Z",
+          "dateModified": "2022-09-06T12:24:53Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\JT6G95YB\\Nie et al. - 2018 - Machine Learning Models for GPU Error Prediction i.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Nie et al. - 2018 - Machine Learning Models for GPU Error Prediction i.pdf",
+          "uri": "http://zotero.org/users/7659667/items/JT6G95YB"
+        }
+      ],
+      "citationKey": "MachineLearningModels2018nie",
+      "citekey": "MachineLearningModels2018nie",
+      "conferenceName": "2018 48th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Bin",
+          "lastName": "Nie"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ji",
+          "lastName": "Xue"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Saurabh",
+          "lastName": "Gupta"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Tirthak",
+          "lastName": "Patel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christian",
+          "lastName": "Engelmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Evgenia",
+          "lastName": "Smirni"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Devesh",
+          "lastName": "Tiwari"
+        }
+      ],
+      "date": "6/2018",
+      "dateAdded": "2022-09-06T12:24:51Z",
+      "dateModified": "2022-09-06T12:24:52Z",
+      "itemID": 9419,
+      "itemKey": "FQSG7X3S",
+      "itemType": "conferencePaper",
+      "key": "FQSG7X3S",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "95-106",
+      "place": "Luxembourg City",
+      "publicationTitle": "2018 48th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/FQSG7X3S",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Machine Learning Models for GPU Error Prediction in a Large Scale HPC System",
+      "uri": "http://zotero.org/users/7659667/items/FQSG7X3S",
+      "url": "https://ieeexplore.ieee.org/document/8416474/",
+      "version": 4946
     },
     {
       "ISBN": "978-0-13-138768-3",
@@ -3820,8 +3701,8 @@
           "uri": "http://zotero.org/users/7659667/items/S2WCUPK5"
         }
       ],
-      "citationKey": "villaNVBitDynamicBinary2019",
-      "citekey": "villaNVBitDynamicBinary2019",
+      "citationKey": "NVBitDynamicBinary2019villa",
+      "citekey": "NVBitDynamicBinary2019villa",
       "conferenceName": "MICRO '52: The 52nd Annual IEEE/ACM International Symposium on Microarchitecture",
       "creators": [
         {
@@ -3937,6 +3818,76 @@
       "uri": "http://zotero.org/users/7659667/items/HDGJJBMK",
       "url": "https://dl.acm.org/doi/10.1145/3503221.3508414",
       "version": 4004
+    },
+    {
+      "DOI": "10.23919/DATE.2019.8714945",
+      "ISBN": "978-3-9819263-2-3",
+      "abstractNote": "Traditional fault detection/tolerance techniques exploit multiple instances of the nominal processing and then perform a bit-wise comparison of the outputs to detect the occurrence of faults. In speciﬁc application scenarios, e.g., image/signal processing, the elaboration has an inherent degree of fault tolerance because it is possible to use the output even in the presence of slight alterations. In these contexts, the classical bit-wise comparison may be inefﬁcient. Indeed, it may lead to conservatively discard outputs that have been only slightly altered by the fault and that could still be usefully exploited. In this paper, we propose a smart checking scheme based on Convolutional Neural Networks that rather than distinguishing between faulty and not faulty images, discriminates between usable and not usable images according to the ability of the end user to correctly process the output. The experimental evaluation shows that this solution enables an execution time saving of about 6.35% with a 99.42% accuracy, on average.",
+      "accessDate": "2022-09-06T11:57:44Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-09-06T11:57:40Z",
+          "dateModified": "2022-09-06T11:57:45Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\3K8FB4EY\\Biasielli et al. - 2019 - A Smart Fault Detection Scheme for Reliable Image .pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Biasielli et al. - 2019 - A Smart Fault Detection Scheme for Reliable Image .pdf",
+          "uri": "http://zotero.org/users/7659667/items/3K8FB4EY"
+        }
+      ],
+      "citationKey": "SmartFaultDetection2019biasielli",
+      "citekey": "SmartFaultDetection2019biasielli",
+      "conferenceName": "2019 Design, Automation & Test in Europe Conference & Exhibition (DATE)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Matteo",
+          "lastName": "Biasielli"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Cristiana",
+          "lastName": "Bolchini"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Luca",
+          "lastName": "Cassano"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Antonio",
+          "lastName": "Miele"
+        }
+      ],
+      "date": "3/2019",
+      "dateAdded": "2022-09-06T11:57:44Z",
+      "dateModified": "2022-09-06T11:57:45Z",
+      "itemID": 9411,
+      "itemKey": "HNRH8XQE",
+      "itemType": "conferencePaper",
+      "key": "HNRH8XQE",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "704-709",
+      "place": "Florence, Italy",
+      "publicationTitle": "2019 Design, Automation & Test in Europe Conference & Exhibition (DATE)",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/HNRH8XQE",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "A Smart Fault Detection Scheme for Reliable Image Processing Applications",
+      "uri": "http://zotero.org/users/7659667/items/HNRH8XQE",
+      "url": "https://ieeexplore.ieee.org/document/8714945/",
+      "version": 4907
     },
     {
       "DOI": "10.1109/SC.2018.00048",
@@ -5717,83 +5668,6 @@
       "uri": "http://zotero.org/users/7659667/items/Q4FVRAY9",
       "url": "https://ieeexplore.ieee.org/document/9116503/",
       "version": 4694
-    },
-    {
-      "DOI": "10.1109/DSN.2018.00022",
-      "ISBN": "978-1-5386-5596-2",
-      "accessDate": "2021-12-03T03:36:55Z",
-      "attachments": [
-        {
-          "dateAdded": "2021-12-03T03:55:18Z",
-          "dateModified": "2021-12-03T03:55:19Z",
-          "itemType": "attachment",
-          "path": "D:\\Zotero\\storage\\TGMLVGYP\\Nie et al_2018_Machine Learning Models for GPU Error Prediction in a Large Scale HPC System.pdf",
-          "relations": [],
-          "tags": [],
-          "title": "Nie et al_2018_Machine Learning Models for GPU Error Prediction in a Large Scale HPC System.pdf",
-          "uri": "http://zotero.org/users/7659667/items/TGMLVGYP"
-        }
-      ],
-      "citationKey": "MachineLearningModels2018nie",
-      "citekey": "MachineLearningModels2018nie",
-      "conferenceName": "2018 48th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Bin",
-          "lastName": "Nie"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Ji",
-          "lastName": "Xue"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Saurabh",
-          "lastName": "Gupta"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Tirthak",
-          "lastName": "Patel"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Christian",
-          "lastName": "Engelmann"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Evgenia",
-          "lastName": "Smirni"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Devesh",
-          "lastName": "Tiwari"
-        }
-      ],
-      "date": "6/2018",
-      "dateAdded": "2021-12-03T03:36:55Z",
-      "dateModified": "2022-05-10T09:00:40Z",
-      "itemID": 112,
-      "itemKey": "Q66WU2QT",
-      "itemType": "conferencePaper",
-      "key": "Q66WU2QT",
-      "libraryID": 1,
-      "notes": [],
-      "pages": "95-106",
-      "place": "Luxembourg City",
-      "publicationTitle": "2018 48th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)",
-      "publisher": "IEEE",
-      "relations": [],
-      "select": "zotero://select/library/items/Q66WU2QT",
-      "tags": [],
-      "title": "Machine Learning Models for GPU Error Prediction in a Large Scale HPC System",
-      "uri": "http://zotero.org/users/7659667/items/Q66WU2QT",
-      "url": "https://ieeexplore.ieee.org/document/8416474/",
-      "version": 2601
     },
     {
       "DOI": "10.1145/2717311",
