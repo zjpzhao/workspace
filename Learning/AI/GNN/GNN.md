@@ -17,6 +17,12 @@ GAT是图卷积在空域的表现形式，这使得其能够逐节点运算实�
 
 [^2]: https://www.zhihu.com/question/409415383/answer/1361505060  
 
+Inductive Learning的本质：
+The essence is to cast the set of graph vertices as iid samples of a probability distribution, so that the learning algorithm may use the gradient of a consistent estimator of the loss to perform parameter update. Then, for inference, the embedding of a new vertex may be either computed by using the full GCN architecture (1), or approximated through sampling as is done in parameter learning. Generally, using the full architecture is more straightforward and easier to implement.
+> **ICLR 2018**
+> FASTGCN: FAST LEARNING WITH GRAPH CONVOLUTIONAL NETWORKS VIA IMPORTANCE SAMPLING
+
+
 # 关键子图检测
 原始图→采样编码→子图→强化筛选→关键子图→重构→骨架图
 
@@ -110,3 +116,6 @@ GAT是一种空域的GNN。什么是空域，什么又是频域？简单地说�
 
 **GAT 这篇论文创新之处是加入 attention 机制，给节点之间的边给予重要性，帮助模型学习结构信息。相对的缺点就是训练方式不是很好，其实这个模型可以进一步改，用 attention 做排序来选取采样节点，这样效果和效率方面应该会有提升。**
 - [ ] 后续可以从这扩，用attention排序选取采样节点
+
+## Dataset
+![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/GNN%20Dataset%20statistics.png)

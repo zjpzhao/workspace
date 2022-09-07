@@ -82,6 +82,19 @@
         }
       },
       {
+        "id": "2256bea8e2d9765b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Learning/AI/GNN/GNN.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
         "id": "bca7d6543a75aec6",
         "type": "leaf",
         "state": {
@@ -144,8 +157,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "e9d25589cbee286f",
@@ -257,15 +269,15 @@
   },
   "active": "752e82db976bf1cd",
   "lastOpenFiles": [
+    "Learning/AI/GNN/GNN.md",
+    "papers/英语词汇积累.md",
     "Learning/GPU/collect metrics.md",
     "source.md",
-    "papers/英语词汇积累.md",
     "Learning/Programming Language & Framework/Shell.md",
     "Learning/GPU/Compiling.md",
     "Learning/GPU/层次结构.md",
     "util/常用指令.md",
     "papers/My DATE or DAC 2023.md",
-    "Learning/GPU/GPU.md",
-    "Learning/GPU/Benchmark探索.md"
+    "Learning/GPU/GPU.md"
   ]
 }

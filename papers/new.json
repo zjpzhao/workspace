@@ -113,7 +113,7 @@
         9066,
         9070,
         9302,
-        9423
+        9424
       ],
       "key": "JNY8VHWT",
       "name": "GNN",
@@ -1204,6 +1204,101 @@
       "volume": "27"
     },
     {
+      "attachments": [
+        {
+          "dateAdded": "2022-09-07T07:53:55Z",
+          "dateModified": "2022-09-07T07:53:56Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\F3UPADUM\\Hamilton et al. - 2017 - Inductive representation learning on large graphs.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Hamilton et al_2017_Inductive representation learning on large graphs.pdf",
+          "uri": "http://zotero.org/users/7659667/items/F3UPADUM"
+        }
+      ],
+      "citationKey": "NIPS2017_5dd9db5e",
+      "citekey": "NIPS2017_5dd9db5e",
+      "conferenceName": "NIPS17",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Will",
+          "lastName": "Hamilton"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Zhitao",
+          "lastName": "Ying"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jure",
+          "lastName": "Leskovec"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "I.",
+          "lastName": "Guyon"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "U. Von",
+          "lastName": "Luxburg"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "S.",
+          "lastName": "Bengio"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "H.",
+          "lastName": "Wallach"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "R.",
+          "lastName": "Fergus"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "S.",
+          "lastName": "Vishwanathan"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "R.",
+          "lastName": "Garnett"
+        }
+      ],
+      "date": "2017",
+      "dateAdded": "2022-09-07T07:52:18Z",
+      "dateModified": "2022-09-07T07:54:24Z",
+      "extra": "Citation Key: NIPS2017_5dd9db5e",
+      "itemID": 9424,
+      "itemKey": "4T7UIZLT",
+      "itemType": "conferencePaper",
+      "key": "4T7UIZLT",
+      "libraryID": 1,
+      "notes": [],
+      "publicationTitle": "Advances in neural information processing systems",
+      "publisher": "Curran Associates, Inc.",
+      "relations": [],
+      "select": "zotero://select/library/items/4T7UIZLT",
+      "shortTitle": "GraphSAGE",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Inductive representation learning on large graphs",
+      "uri": "http://zotero.org/users/7659667/items/4T7UIZLT",
+      "url": "https://proceedings.neurips.cc/paper/2017/file/5dd9db5e033da9c6fb5ba83c7a7ebea9-Paper.pdf",
+      "version": 4987,
+      "volume": "30"
+    },
+    {
       "DOI": "10.1145/3339363.3339382",
       "ISBN": "978-1-4503-7172-8",
       "accessDate": "2021-12-03T03:27:53Z",
@@ -1720,6 +1815,7 @@
       ],
       "citationKey": "HOWATTENTIVEARE2022brody",
       "citekey": "HOWATTENTIVEARE2022brody",
+      "conferenceName": "ICLR22",
       "creators": [
         {
           "creatorType": "author",
@@ -1739,10 +1835,10 @@
       ],
       "date": "2022",
       "dateAdded": "2022-08-22T02:28:33Z",
-      "dateModified": "2022-08-22T08:05:29Z",
+      "dateModified": "2022-09-07T07:57:03Z",
       "itemID": 9070,
       "itemKey": "7I46R4UK",
-      "itemType": "journalArticle",
+      "itemType": "conferencePaper",
       "key": "7I46R4UK",
       "language": "en",
       "libraryCatalog": "Zotero",
@@ -1751,10 +1847,11 @@
       "pages": "26",
       "relations": [],
       "select": "zotero://select/library/items/7I46R4UK",
+      "shortTitle": "GATv2",
       "tags": [],
       "title": "HOW ATTENTIVE ARE GRAPH ATTENTION NETWORKS?",
       "uri": "http://zotero.org/users/7659667/items/7I46R4UK",
-      "version": 4697
+      "version": 4992
     },
     {
       "DOI": "10.1109/PDP55904.2022.00025",
@@ -2810,6 +2907,7 @@
       ],
       "citationKey": "FASTGCNFASTLEARNING2018chen",
       "citekey": "FASTGCNFASTLEARNING2018chen",
+      "conferenceName": "ICLR18",
       "creators": [
         {
           "creatorType": "author",
@@ -2829,10 +2927,10 @@
       ],
       "date": "2018",
       "dateAdded": "2022-06-30T02:10:21Z",
-      "dateModified": "2022-06-30T04:57:29Z",
+      "dateModified": "2022-09-07T08:28:42Z",
       "itemID": 8496,
       "itemKey": "DHJTV3WE",
-      "itemType": "journalArticle",
+      "itemType": "conferencePaper",
       "key": "DHJTV3WE",
       "language": "en",
       "libraryCatalog": "Zotero",
@@ -2841,10 +2939,15 @@
       "pages": "15",
       "relations": [],
       "select": "zotero://select/library/items/DHJTV3WE",
-      "tags": [],
+      "shortTitle": "FastGCN",
+      "tags": [
+        {
+          "tag": "⭐"
+        }
+      ],
       "title": "FASTGCN: FAST LEARNING WITH GRAPH CONVOLU- TIONAL NETWORKS VIA IMPORTANCE SAMPLING",
       "uri": "http://zotero.org/users/7659667/items/DHJTV3WE",
-      "version": 3396
+      "version": 5017
     },
     {
       "DOI": "10.1145/3437801.3441589",
@@ -5726,64 +5829,6 @@
       "url": "https://dl.acm.org/doi/10.1145/2717311",
       "version": 730,
       "volume": "12"
-    },
-    {
-      "abstractNote": "Low-dimensional embeddings of nodes in large graphs have proved extremely useful in a variety of prediction tasks, from content recommendation to identifying protein functions. However, most existing approaches require that all nodes in the graph are present during training of the embeddings; these previous approaches are inherently transductive and do not naturally generalize to unseen nodes. Here we present GraphSAGE, a general inductive framework that leverages node feature information (e.g., text attributes) to efﬁciently generate node embeddings for previously unseen data. Instead of training individual embeddings for each node, we learn a function that generates embeddings by sampling and aggregating features from a node’s local neighborhood. Our algorithm outperforms strong baselines on three inductive node-classiﬁcation benchmarks: we classify the category of unseen nodes in evolving information graphs based on citation and Reddit post data, and we show that our algorithm generalizes to completely unseen graphs using a multi-graph dataset of protein-protein interactions.",
-      "attachments": [
-        {
-          "dateAdded": "2022-09-06T13:18:03Z",
-          "dateModified": "2022-09-06T13:18:10Z",
-          "itemType": "attachment",
-          "path": "D:\\Zotero\\storage\\VRGISTFY\\Hamilton et al. - Inductive Representation Learning on Large Graphs.pdf",
-          "relations": [],
-          "tags": [],
-          "title": "Hamilton et al. - Inductive Representation Learning on Large Graphs.pdf",
-          "uri": "http://zotero.org/users/7659667/items/VRGISTFY"
-        }
-      ],
-      "citationKey": "InductiveRepresentationLearninghamiltona",
-      "citekey": "InductiveRepresentationLearninghamiltona",
-      "conferenceName": "NIPS17",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Will",
-          "lastName": "Hamilton"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Zhitao",
-          "lastName": "Ying"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Jure",
-          "lastName": "Leskovec"
-        }
-      ],
-      "dateAdded": "2022-09-06T13:18:09Z",
-      "dateModified": "2022-09-06T13:20:21Z",
-      "itemID": 9423,
-      "itemKey": "QQWY5LZN",
-      "itemType": "conferencePaper",
-      "key": "QQWY5LZN",
-      "language": "en",
-      "libraryCatalog": "Zotero",
-      "libraryID": 1,
-      "notes": [],
-      "pages": "11",
-      "relations": [],
-      "select": "zotero://select/library/items/QQWY5LZN",
-      "shortTitle": "GraphSAGE",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
-      "title": "Inductive Representation Learning on Large Graphs",
-      "uri": "http://zotero.org/users/7659667/items/QQWY5LZN",
-      "version": 4962
     },
     {
       "abstractNote": "Understanding why a model makes a certain prediction can be as crucial as the prediction’s accuracy in many applications. However, the highest accuracy for large modern datasets is often achieved by complex models that even experts struggle to interpret, such as ensemble or deep learning models, creating a tension between accuracy and interpretability. In response, various methods have recently been proposed to help users interpret the predictions of complex models, but it is often unclear how these methods are related and when one method is preferable over another. To address this problem, we present a uniﬁed framework for interpreting predictions, SHAP (SHapley Additive exPlanations). SHAP assigns each feature an importance value for a particular prediction. Its novel components include: (1) the identiﬁcation of a new class of additive feature importance measures, and (2) theoretical results showing there is a unique solution in this class with a set of desirable properties. The new class uniﬁes six existing methods, notable because several recent methods in the class lack the proposed desirable properties. Based on insights from this uniﬁcation, we present new methods that show improved computational performance and/or better consistency with human intuition than previous approaches.",
