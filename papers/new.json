@@ -114,7 +114,8 @@
         9070,
         9302,
         9424,
-        9457
+        9457,
+        9462
       ],
       "key": "JNY8VHWT",
       "name": "GNN",
@@ -1396,7 +1397,7 @@
         }
       ],
       "dateAdded": "2022-09-08T03:05:50Z",
-      "dateModified": "2022-09-08T03:06:35Z",
+      "dateModified": "2022-09-08T03:18:43Z",
       "itemID": 9457,
       "itemKey": "57D4LCQ9",
       "itemType": "conferencePaper",
@@ -1408,12 +1409,7 @@
       "pages": "11",
       "relations": [],
       "select": "zotero://select/library/items/57D4LCQ9",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
+      "tags": [],
       "title": "Understanding Attention and Generalization in Graph Neural Networks",
       "uri": "http://zotero.org/users/7659667/items/57D4LCQ9",
       "version": 5108
@@ -6267,6 +6263,67 @@
       "uri": "http://zotero.org/users/7659667/items/TUW8PKTJ",
       "url": "https://dl.acm.org/doi/10.1145/3458817.3476170",
       "version": 2601
+    },
+    {
+      "abstractNote": "This paper focuses on spectral graph convolutional neural networks (ConvNets), where ﬁlters are deﬁned as elementwise multiplication in the frequency domain of a graph. In machine learning settings where the data set consists of signals deﬁned on many diﬀerent graphs, the trained ConvNet should generalize to signals on graphs unseen in the training set. It is thus important to transfer ConvNets between graphs. Transferability, which is a certain type of generalization capability, can be loosely deﬁned as follows: if two graphs describe the same phenomenon, then a single ﬁlter or ConvNet should have similar repercussions on both graphs. This paper aims at debunking the common misconception that spectral ﬁlters are not transferable. We show that if two graphs discretize the same “continuous” space, then a spectral ﬁlter or ConvNet has approximately the same repercussion on both graphs. Our analysis is more permissive than the standard analysis. Transferability is typically described as the robustness of the ﬁlter to small graph perturbations and re-indexing of the vertices. Our analysis accounts also for large graph perturbations. We prove transferability between graphs that can have completely diﬀerent dimensions and topologies, only requiring that both graphs discretize the same underlying space in some generic sense.",
+      "attachments": [
+        {
+          "dateAdded": "2022-09-08T03:17:31Z",
+          "dateModified": "2022-09-08T03:17:37Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\DC2STF2E\\Levie et al. - Transferability of Spectral Graph Convolutional Ne.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Levie et al. - Transferability of Spectral Graph Convolutional Ne.pdf",
+          "uri": "http://zotero.org/users/7659667/items/DC2STF2E"
+        }
+      ],
+      "citationKey": "TransferabilitySpectralGraphlevie",
+      "citekey": "TransferabilitySpectralGraphlevie",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Ron",
+          "lastName": "Levie"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Wei",
+          "lastName": "Huang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lorenzo",
+          "lastName": "Bucci"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michael",
+          "lastName": "Bronstein"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Gitta",
+          "lastName": "Kutyniok"
+        }
+      ],
+      "dateAdded": "2022-09-08T03:17:36Z",
+      "dateModified": "2022-09-08T03:18:50Z",
+      "itemID": 9462,
+      "itemKey": "UKEDDXDA",
+      "itemType": "journalArticle",
+      "key": "UKEDDXDA",
+      "language": "en",
+      "libraryCatalog": "Zotero",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "59",
+      "relations": [],
+      "select": "zotero://select/library/items/UKEDDXDA",
+      "tags": [],
+      "title": "Transferability of Spectral Graph Convolutional Neural Networks",
+      "uri": "http://zotero.org/users/7659667/items/UKEDDXDA",
+      "version": 5127
     },
     {
       "DOI": "10.1145/2901318.2901319",
