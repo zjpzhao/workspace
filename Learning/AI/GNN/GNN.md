@@ -125,3 +125,11 @@ GAT是一种空域的GNN。什么是空域，什么又是频域？简单地说�
 解决方法：
 The general idea of active learning is to dynamically query the labels of the most informative instances selected from the unlabeled data.
 主动学习的总体思路是动态地查询从无标签数据中选出的信息量最大的实例的标签
+
+
+一些之后的idea：
+- [ ] 可以从标签样本出发，在全注入图上采取Active learning，然后统计和分析产生的标签集合，作为一个observation
+- [ ] 选择性注入代替随机注入，分析有效注入（利于模型学习）的分布特征
+- [ ] 我的方法prototype只能是静态图，可以考虑建立动态图（考虑执行流，如loop等等），结合强力高效的标签选择和剪枝策略，应用场景需要强调是非常复杂的GPU程序。（对于loop，我需要关心这条指令是在具体哪一次循环中发生错误么）
+- [ ] 从多输入、单调性角度的图研究
+- [ ] 有的依赖链的长度过长，中间有很多平凡的寄存器计算的过程，这些中间的重复类型的短链可以进行剪枝（或者叫pooling），according to 这些短链或者节点之间的相似性（指标：embedding距离）
