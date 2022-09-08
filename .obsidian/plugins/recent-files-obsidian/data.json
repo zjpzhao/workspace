@@ -5,20 +5,20 @@
       "path": "papers/英语词汇积累.md"
     },
     {
-      "basename": "Shell",
-      "path": "Learning/Programming Language & Framework/Shell.md"
+      "basename": "GNN",
+      "path": "Learning/AI/GNN/GNN.md"
     },
     {
       "basename": "collect metrics",
       "path": "Learning/GPU/collect metrics.md"
     },
     {
-      "basename": "My DATE or DAC 2023",
-      "path": "papers/My DATE or DAC 2023.md"
+      "basename": "Shell",
+      "path": "Learning/Programming Language & Framework/Shell.md"
     },
     {
-      "basename": "GNN",
-      "path": "Learning/AI/GNN/GNN.md"
+      "basename": "My DATE or DAC 2023",
+      "path": "papers/My DATE or DAC 2023.md"
     },
     {
       "basename": "Compiling",

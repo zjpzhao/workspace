@@ -119,3 +119,9 @@ GAT是一种空域的GNN。什么是空域，什么又是频域？简单地说�
 
 ## Dataset
 ![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/GNN%20Dataset%20statistics.png)
+
+## 标签样本
+问题：GNNs typically require a large number of labeled data for training, which entails high annotation cost in some domains.
+解决方法：
+The general idea of active learning is to dynamically query the labels of the most informative instances selected from the unlabeled data.
+主动学习的总体思路是动态地查询从无标签数据中选出的信息量最大的实例的标签

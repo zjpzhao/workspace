@@ -115,7 +115,9 @@
         9302,
         9424,
         9457,
-        9462
+        9462,
+        9470,
+        9473
       ],
       "key": "JNY8VHWT",
       "name": "GNN",
@@ -2381,6 +2383,111 @@
       "uri": "http://zotero.org/users/7659667/items/9RM9XH89",
       "url": "https://ieeexplore.ieee.org/document/9774569/",
       "version": 4613
+    },
+    {
+      "attachments": [
+        {
+          "dateAdded": "2022-09-08T07:02:31Z",
+          "dateModified": "2022-09-08T07:02:33Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\RTVKYFU4\\Hu et al_2020_Graph policy network for transferable active learning on graphs.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Hu et al_2020_Graph policy network for transferable active learning on graphs.pdf",
+          "uri": "http://zotero.org/users/7659667/items/RTVKYFU4"
+        }
+      ],
+      "citationKey": "NEURIPS2020_73740ea8",
+      "citekey": "NEURIPS2020_73740ea8",
+      "conferenceName": "NIPS20",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Shengding",
+          "lastName": "Hu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Zheng",
+          "lastName": "Xiong"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Meng",
+          "lastName": "Qu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Xingdi",
+          "lastName": "Yuan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Marc-Alexandre",
+          "lastName": "Côté"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Zhiyuan",
+          "lastName": "Liu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jian",
+          "lastName": "Tang"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "H.",
+          "lastName": "Larochelle"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "M.",
+          "lastName": "Ranzato"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "R.",
+          "lastName": "Hadsell"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "M.F.",
+          "lastName": "Balcan"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "H.",
+          "lastName": "Lin"
+        }
+      ],
+      "date": "2020",
+      "dateAdded": "2022-09-08T07:02:19Z",
+      "dateModified": "2022-09-08T07:02:47Z",
+      "extra": "Citation Key: NEURIPS2020_73740ea8",
+      "itemID": 9473,
+      "itemKey": "AKZY48GT",
+      "itemType": "conferencePaper",
+      "key": "AKZY48GT",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "10174–10185",
+      "publicationTitle": "Advances in neural information processing systems",
+      "publisher": "Curran Associates, Inc.",
+      "relations": [],
+      "select": "zotero://select/library/items/AKZY48GT",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Graph policy network for transferable active learning on graphs",
+      "uri": "http://zotero.org/users/7659667/items/AKZY48GT",
+      "url": "https://proceedings.neurips.cc/paper/2020/file/73740ea85c4ec25f00f9acbd859f861d-Paper.pdf",
+      "version": 5163,
+      "volume": "33"
     },
     {
       "DOI": "10.1145/3297858.3304050",
@@ -5829,6 +5936,27 @@
       "version": 4694
     },
     {
+      "charset": "",
+      "contentType": "application/x-bibtex",
+      "dateAdded": "2022-09-08T06:53:23Z",
+      "dateModified": "2022-09-08T06:53:23Z",
+      "defaultPath": "files/9469/bibtex-296.bib",
+      "filename": "bibtex-296.bib",
+      "itemID": 9469,
+      "itemKey": "Q4ZECMJH",
+      "itemType": "attachment",
+      "key": "Q4ZECMJH",
+      "libraryID": 1,
+      "linkMode": "imported_file",
+      "localPath": "D:\\Zotero\\storage\\Q4ZECMJH\\bibtex-296.bib",
+      "relations": [],
+      "select": "zotero://select/library/items/Q4ZECMJH",
+      "tags": [],
+      "title": "bibtex-296.bib",
+      "uri": "http://zotero.org/users/7659667/items/Q4ZECMJH",
+      "version": 5147
+    },
+    {
       "DOI": "10.1145/2717311",
       "ISSN": "1544-3566, 1544-3973",
       "abstractNote": "The purpose of this research is to find a neural-network-based solution to the well-known problem of branch divergence in Single Instruction Multiple Data (SIMD) architectures. Our approach differs from existing techniques that handle branch (or control-flow) divergence, which use costly hardware modifications, low-utilization masking techniques, or static prediction methods. As we examine divergent applications, we characterize the degree of data-dependent control flow seen in each and isolate the code regions (or “kernels”) that cause the most performance degradation due to branch divergence. We then train neural networks (NNs) offline to approximate these kernels and inject the NN computations directly into the applications as substitutes for the kernels they approximate. This essentially translates control flow into nondivergent computation, trading off precision for performance. As our methodology manipulates application source code directly, it is inherently platform agnostic and can be adopted as a general means for accelerating divergent applications on data-parallel architectures. In this article, we present the Neuralizer, an automated software flow for kernel identification, NN training, and NN integration, as well as supplementary user-controlled optimization techniques. Evaluating our approach on a variety of divergent applications run on a Graphics Processing Unit (GPU), we on average achieve performance gains of 13.6 × and energy savings of 14.8 × with 96% accuracy.",
@@ -6819,6 +6947,81 @@
       "uri": "http://zotero.org/users/7659667/items/WSJICZX4",
       "url": "https://doi.org/10.1145/3295500.3356177",
       "version": 2133
+    },
+    {
+      "DOI": "10.24963/ijcai.2018/296",
+      "attachments": [
+        {
+          "dateAdded": "2022-09-08T06:54:45Z",
+          "dateModified": "2022-09-08T06:54:46Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\VET9A42D\\Gao et al_2018_Active discriminative network representation learning.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Gao et al_2018_Active discriminative network representation learning.pdf",
+          "uri": "http://zotero.org/users/7659667/items/VET9A42D"
+        }
+      ],
+      "citationKey": "ijcai2018p296",
+      "citekey": "ijcai2018p296",
+      "conferenceName": "IJCAI18",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Li",
+          "lastName": "Gao"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Hong",
+          "lastName": "Yang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Chuan",
+          "lastName": "Zhou"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jia",
+          "lastName": "Wu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Shirui",
+          "lastName": "Pan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yue",
+          "lastName": "Hu"
+        }
+      ],
+      "date": "2018-7",
+      "dateAdded": "2022-09-08T06:53:57Z",
+      "dateModified": "2022-09-08T06:54:19Z",
+      "extra": "Citation Key: ijcai2018p296",
+      "itemID": 9470,
+      "itemKey": "X72Y6AXK",
+      "itemType": "conferencePaper",
+      "key": "X72Y6AXK",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "2142–2148",
+      "publicationTitle": "Proceedings of the twenty-seventh international joint conference on artificial intelligence, IJCAI-18",
+      "publisher": "International Joint Conferences on Artificial Intelligence Organization",
+      "relations": [],
+      "select": "zotero://select/library/items/X72Y6AXK",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Active discriminative network representation learning",
+      "uri": "http://zotero.org/users/7659667/items/X72Y6AXK",
+      "url": "https://doi.org/10.24963/ijcai.2018/296",
+      "version": 5149
     },
     {
       "DOI": "10.1109/ICCD46524.2019.00072",
