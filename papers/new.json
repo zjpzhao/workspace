@@ -113,7 +113,8 @@
         9066,
         9070,
         9302,
-        9424
+        9424,
+        9457
       ],
       "key": "JNY8VHWT",
       "name": "GNN",
@@ -1359,6 +1360,63 @@
       "uri": "http://zotero.org/users/7659667/items/55ZXU92X",
       "url": "http://dl.acm.org/citation.cfm?doid=3339363.3339382",
       "version": 4403
+    },
+    {
+      "abstractNote": "We aim to better understand attention over nodes in graph neural networks (GNNs) and identify factors inﬂuencing its effectiveness. We particularly focus on the ability of attention GNNs to generalize to larger, more complex or noisy graphs. Motivated by insights from the work on Graph Isomorphism Networks, we design simple graph reasoning tasks that allow us to study attention in a controlled environment. We ﬁnd that under typical conditions the effect of attention is negligible or even harmful, but under certain conditions it provides an exceptional gain in performance of more than 60% in some of our classiﬁcation tasks. Satisfying these conditions in practice is challenging and often requires optimal initialization or supervised training of attention. We propose an alternative recipe and train attention in a weakly-supervised fashion that approaches the performance of supervised models, and, compared to unsupervised models, improves results on several synthetic as well as real datasets. Source code and datasets are available at https://github. com/bknyaz/graph_attention_pool.",
+      "attachments": [
+        {
+          "dateAdded": "2022-09-08T03:05:45Z",
+          "dateModified": "2022-09-08T03:05:53Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\ZRDPTP88\\Knyazev et al. - Understanding Attention and Generalization in Grap.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Knyazev et al. - Understanding Attention and Generalization in Grap.pdf",
+          "uri": "http://zotero.org/users/7659667/items/ZRDPTP88"
+        }
+      ],
+      "citationKey": "UnderstandingAttentionGeneralizationknyazev",
+      "citekey": "UnderstandingAttentionGeneralizationknyazev",
+      "conferenceName": "NIPS19",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Boris",
+          "lastName": "Knyazev"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Graham W",
+          "lastName": "Taylor"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mohamed",
+          "lastName": "Amer"
+        }
+      ],
+      "dateAdded": "2022-09-08T03:05:50Z",
+      "dateModified": "2022-09-08T03:06:35Z",
+      "itemID": 9457,
+      "itemKey": "57D4LCQ9",
+      "itemType": "conferencePaper",
+      "key": "57D4LCQ9",
+      "language": "en",
+      "libraryCatalog": "Zotero",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "11",
+      "relations": [],
+      "select": "zotero://select/library/items/57D4LCQ9",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Understanding Attention and Generalization in Graph Neural Networks",
+      "uri": "http://zotero.org/users/7659667/items/57D4LCQ9",
+      "version": 5108
     },
     {
       "ISBN": "978-0-471-46406-8 978-0-471-29342-2 978-0-471-22460-0 978-1-280-36749-6",
