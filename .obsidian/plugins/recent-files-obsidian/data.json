@@ -5,16 +5,20 @@
       "path": "papers/英语词汇积累.md"
     },
     {
-      "basename": "GNN",
-      "path": "Learning/AI/GNN/GNN.md"
+      "basename": "Shell",
+      "path": "Learning/Programming Language & Framework/Shell.md"
     },
     {
       "basename": "collect metrics",
       "path": "Learning/GPU/collect metrics.md"
     },
     {
-      "basename": "Shell",
-      "path": "Learning/Programming Language & Framework/Shell.md"
+      "basename": "My DATE or DAC 2023",
+      "path": "papers/My DATE or DAC 2023.md"
+    },
+    {
+      "basename": "GNN",
+      "path": "Learning/AI/GNN/GNN.md"
     },
     {
       "basename": "Compiling",
@@ -27,10 +31,6 @@
     {
       "basename": "常用指令",
       "path": "util/常用指令.md"
-    },
-    {
-      "basename": "My DATE or DAC 2023",
-      "path": "papers/My DATE or DAC 2023.md"
     },
     {
       "basename": "GPU",

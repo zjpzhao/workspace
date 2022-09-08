@@ -6308,10 +6308,11 @@
         }
       ],
       "dateAdded": "2022-09-08T03:17:36Z",
-      "dateModified": "2022-09-08T03:18:50Z",
+      "dateModified": "2022-09-08T03:27:43Z",
       "itemID": 9462,
       "itemKey": "UKEDDXDA",
       "itemType": "journalArticle",
+      "journalAbbreviation": "JMLR",
       "key": "UKEDDXDA",
       "language": "en",
       "libraryCatalog": "Zotero",
@@ -6323,7 +6324,7 @@
       "tags": [],
       "title": "Transferability of Spectral Graph Convolutional Neural Networks",
       "uri": "http://zotero.org/users/7659667/items/UKEDDXDA",
-      "version": 5127
+      "version": 5133
     },
     {
       "DOI": "10.1145/2901318.2901319",
