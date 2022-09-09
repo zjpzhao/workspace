@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/AI/GNN/GNN.md"
+                "file": "papers/英语词汇积累.md"
               }
             }
           }
@@ -190,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/AI/GNN/GNN.md",
+                "file": "papers/英语词汇积累.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/AI/GNN/GNN.md",
+                "file": "papers/英语词汇积累.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -254,10 +254,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2256bea8e2d9765b",
+  "active": "752e82db976bf1cd",
   "lastOpenFiles": [
-    "papers/My DATE or DAC 2023.md",
     "Learning/AI/GNN/GNN.md",
+    "papers/My DATE or DAC 2023.md",
     "papers/英语词汇积累.md",
     "Learning/GPU/collect metrics.md",
     "Learning/Programming Language & Framework/Shell.md",
