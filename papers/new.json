@@ -698,7 +698,7 @@
       ],
       "date": "2014-10-12",
       "dateAdded": "2022-05-10T15:32:56Z",
-      "dateModified": "2022-07-12T08:37:12Z",
+      "dateModified": "2022-09-08T13:38:26Z",
       "itemID": 7889,
       "itemKey": "2Q2KRCHG",
       "itemType": "conferencePaper",
@@ -714,11 +714,15 @@
       "relations": [],
       "select": "zotero://select/library/items/2Q2KRCHG",
       "shortTitle": "SDCTune",
-      "tags": [],
+      "tags": [
+        {
+          "tag": "⭐"
+        }
+      ],
       "title": "SDCTune: a model for predicting the SDC proneness of an application for configurable protection",
       "uri": "http://zotero.org/users/7659667/items/2Q2KRCHG",
       "url": "https://dl.acm.org/doi/10.1145/2656106.2656127",
-      "version": 3751
+      "version": 5202
     },
     {
       "attachments": [
@@ -2464,7 +2468,7 @@
       ],
       "date": "2020",
       "dateAdded": "2022-09-08T07:02:19Z",
-      "dateModified": "2022-09-08T07:02:47Z",
+      "dateModified": "2022-09-09T07:25:34Z",
       "extra": "Citation Key: NEURIPS2020_73740ea8",
       "itemID": 9473,
       "itemKey": "AKZY48GT",
@@ -2477,16 +2481,11 @@
       "publisher": "Curran Associates, Inc.",
       "relations": [],
       "select": "zotero://select/library/items/AKZY48GT",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
+      "tags": [],
       "title": "Graph policy network for transferable active learning on graphs",
       "uri": "http://zotero.org/users/7659667/items/AKZY48GT",
       "url": "https://proceedings.neurips.cc/paper/2020/file/73740ea85c4ec25f00f9acbd859f861d-Paper.pdf",
-      "version": 5163,
+      "version": 5205,
       "volume": "33"
     },
     {
@@ -6999,7 +6998,7 @@
       ],
       "date": "2018-7",
       "dateAdded": "2022-09-08T06:53:57Z",
-      "dateModified": "2022-09-08T06:54:19Z",
+      "dateModified": "2022-09-09T07:00:34Z",
       "extra": "Citation Key: ijcai2018p296",
       "itemID": 9470,
       "itemKey": "X72Y6AXK",
@@ -7012,12 +7011,7 @@
       "publisher": "International Joint Conferences on Artificial Intelligence Organization",
       "relations": [],
       "select": "zotero://select/library/items/X72Y6AXK",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
+      "tags": [],
       "title": "Active discriminative network representation learning",
       "uri": "http://zotero.org/users/7659667/items/X72Y6AXK",
       "url": "https://doi.org/10.24963/ijcai.2018/296",
