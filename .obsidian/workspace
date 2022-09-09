@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/My DATE or DAC 2023.md"
+                "file": "Learning/AI/GNN/GNN.md"
               }
             }
           }
@@ -190,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/My DATE or DAC 2023.md",
+                "file": "Learning/AI/GNN/GNN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/My DATE or DAC 2023.md",
+                "file": "Learning/AI/GNN/GNN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -254,8 +254,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "794d253a53c845ff",
+  "active": "2256bea8e2d9765b",
   "lastOpenFiles": [
+    "papers/My DATE or DAC 2023.md",
     "Learning/AI/GNN/GNN.md",
     "papers/英语词汇积累.md",
     "Learning/GPU/collect metrics.md",
@@ -264,7 +265,6 @@
     "Learning/GPU/Compiling.md",
     "Learning/GPU/层次结构.md",
     "util/常用指令.md",
-    "papers/My DATE or DAC 2023.md",
     "Learning/GPU/GPU.md"
   ]
 }
