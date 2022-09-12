@@ -55,6 +55,30 @@ if __name__ == '__main__':
     #返回[10, 20, 30, 40]
 ```
 我自己写的一个更复杂的例子是[[Code_对神经网络模型参数进行多线程单比特位故障注入]]
+详细用法参考https://zhuanlan.zhihu.com/p/47124891
+这里有另外一个partial的运用实例：https://github.com/ShengdingHu/GraphPolicyNetworkActiveLearning/blob/main/src/baselines/active-learning/sampling_methods/constants.py
+这里是声明了一个叫AL_MAPPING的字典，用来存一些经过参数打包后的偏函数：
+```python
+from sampling_methods.uniform_sampling import UniformSampling
+AL_MAPPING['uniform'] = UniformSampling
+```
+其中UniformSampling方法：
+```python
+class UniformSampling(SamplingMethod):
+  def __init__(self, X, y, seed):
+    self.X = X
+    self.y = y
+    self.name = 'uniform'
+    np.random.seed(seed)
+  def select_batch_(self, already_selected, N, **kwargs):
+    sample = [i for i in range(self.X.shape[0]) if i not in already_selected]
+    return sample[0:N]
+```
+调用就直接用：
+```python
+uniform_sampler = AL_MAPPING["uniform"](X_train, y_train, seed)
+batch_PL = uniform_sampler.select_batch(**kwargs)
+```
 
 ### 方法二：外套列表
 多个参数的列表可以通过pool.map传递给子任务函数 （该函数需要接受列表作为单个参数）

@@ -61,7 +61,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "papers/英语词汇积累.md",
+            "file": "Learning/Programming Language & Framework/Python/Python Base.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/英语词汇积累.md"
+                "file": "Learning/Programming Language & Framework/Python/Python Base.md"
               }
             }
           }
@@ -173,8 +173,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 458,
-    "collapsed": true
+    "width": 458
   },
   "right": {
     "id": "15dd14e7068b76d4",
@@ -190,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/英语词汇积累.md",
+                "file": "Learning/Programming Language & Framework/Python/Python Base.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/英语词汇积累.md",
+                "file": "Learning/Programming Language & Framework/Python/Python Base.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -256,15 +255,15 @@
   },
   "active": "752e82db976bf1cd",
   "lastOpenFiles": [
+    "papers/英语词汇积累.md",
+    "Learning/Programming Language & Framework/Python/Code_对神经网络模型参数进行多线程单比特位故障注入.md",
     "Learning/AI/GNN/GNN.md",
     "papers/My DATE or DAC 2023.md",
-    "papers/英语词汇积累.md",
     "Learning/GPU/collect metrics.md",
     "Learning/Programming Language & Framework/Shell.md",
     "source.md",
     "Learning/GPU/Compiling.md",
     "Learning/GPU/层次结构.md",
-    "util/常用指令.md",
-    "Learning/GPU/GPU.md"
+    "util/常用指令.md"
   ]
 }
