@@ -87,7 +87,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "papers/论文写作积累.md",
+            "file": "Learning/AI/GNN/DGL.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -157,8 +157,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "e9d25589cbee286f",
@@ -178,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/论文写作积累.md"
+                "file": "Learning/AI/GNN/DGL.md"
               }
             }
           }
@@ -203,7 +202,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/论文写作积累.md",
+                "file": "Learning/AI/GNN/DGL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/论文写作积累.md",
+                "file": "Learning/AI/GNN/DGL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -269,9 +268,9 @@
   },
   "active": "267702ff7ae8b8cd",
   "lastOpenFiles": [
-    "Learning/Programming Language & Framework/Python/Code_对神经网络模型参数进行多线程单比特位故障注入.md",
-    "papers/论文写作积累.md",
     "Learning/AI/GNN/GNN.md",
+    "papers/论文写作积累.md",
+    "Learning/Programming Language & Framework/Python/Code_对神经网络模型参数进行多线程单比特位故障注入.md",
     "Learning/Programming Language & Framework/Python/Python Base.md",
     "papers/My DATE or DAC 2023.md",
     "Learning/GPU/collect metrics.md",

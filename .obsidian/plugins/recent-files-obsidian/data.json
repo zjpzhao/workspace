@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "DGL",
+      "path": "Learning/AI/GNN/DGL.md"
+    },
+    {
+      "basename": "GNN",
+      "path": "Learning/AI/GNN/GNN.md"
+    },
+    {
       "basename": "论文写作积累",
       "path": "papers/论文写作积累.md"
     },
     {
       "basename": "Code_对神经网络模型参数进行多线程单比特位故障注入",
       "path": "Learning/Programming Language & Framework/Python/Code_对神经网络模型参数进行多线程单比特位故障注入.md"
-    },
-    {
-      "basename": "GNN",
-      "path": "Learning/AI/GNN/GNN.md"
     },
     {
       "basename": "Python Base",
