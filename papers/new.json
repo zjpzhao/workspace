@@ -5465,7 +5465,7 @@
       ],
       "date": "2020",
       "dateAdded": "2021-12-03T03:49:33Z",
-      "dateModified": "2022-05-10T09:00:48Z",
+      "dateModified": "2022-09-28T06:08:26Z",
       "itemID": 109,
       "itemKey": "N8QC8W93",
       "itemType": "journalArticle",
@@ -5478,6 +5478,7 @@
       "publicationTitle": "IEEE Transactions on Dependable and Secure Computing",
       "relations": [],
       "select": "zotero://select/library/items/N8QC8W93",
+      "shortTitle": "TDSC",
       "tags": [],
       "title": "Characterizing and Exploiting Soft Error Vulnerability Phase Behavior in GPU Applications",
       "uri": "http://zotero.org/users/7659667/items/N8QC8W93",
@@ -6549,7 +6550,7 @@
         }
       ],
       "dateAdded": "2022-09-27T08:52:56Z",
-      "dateModified": "2022-09-27T08:56:06Z",
+      "dateModified": "2022-09-28T06:08:51Z",
       "itemID": 9746,
       "itemKey": "UMMJ78E9",
       "itemType": "conferencePaper",
@@ -6561,15 +6562,10 @@
       "pages": "15",
       "relations": [],
       "select": "zotero://select/library/items/UMMJ78E9",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
+      "tags": [],
       "title": "Decoupling the Depth and Scope of Graph Neural Networks",
       "uri": "http://zotero.org/users/7659667/items/UMMJ78E9",
-      "version": 5436
+      "version": 5437
     },
     {
       "DOI": "10.1145/2901318.2901319",

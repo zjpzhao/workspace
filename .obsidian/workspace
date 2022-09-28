@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "papers/My DATE or DAC 2023.md",
+            "file": "papers/My DAC 2023.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -191,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/论文写作积累.md"
+                "file": "papers/My DAC 2023.md"
               }
             }
           }
@@ -200,7 +200,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 458
+    "width": 458,
+    "collapsed": true
   },
   "right": {
     "id": "15dd14e7068b76d4",
@@ -216,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/论文写作积累.md",
+                "file": "papers/My DAC 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,7 +229,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/论文写作积累.md",
+                "file": "papers/My DAC 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -280,14 +281,14 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "382133fc48c45650",
+  "active": "794d253a53c845ff",
   "lastOpenFiles": [
-    "Learning/AI/GNN/DGL.md",
     "Learning/AI/GNN/GNN.md",
     "papers/论文写作积累.md",
+    "Learning/AI/GNN/DGL.md",
     "Learning/Programming Language & Framework/Python/Code_对神经网络模型参数进行多线程单比特位故障注入.md",
     "Learning/Programming Language & Framework/Python/Python Base.md",
-    "papers/My DATE or DAC 2023.md",
+    "papers/My DAC 2023.md",
     "Learning/GPU/collect metrics.md",
     "Learning/Programming Language & Framework/Shell.md",
     "source.md",
