@@ -95,6 +95,19 @@
         }
       },
       {
+        "id": "382133fc48c45650",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "papers/论文写作积累.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
         "id": "bca7d6543a75aec6",
         "type": "leaf",
         "state": {
@@ -157,7 +170,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "e9d25589cbee286f",
@@ -177,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/AI/GNN/DGL.md"
+                "file": "papers/论文写作积累.md"
               }
             }
           }
@@ -202,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/AI/GNN/DGL.md",
+                "file": "papers/论文写作积累.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,7 +228,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/AI/GNN/DGL.md",
+                "file": "papers/论文写作积累.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -266,8 +280,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "267702ff7ae8b8cd",
+  "active": "382133fc48c45650",
   "lastOpenFiles": [
+    "Learning/AI/GNN/DGL.md",
     "Learning/AI/GNN/GNN.md",
     "papers/论文写作积累.md",
     "Learning/Programming Language & Framework/Python/Code_对神经网络模型参数进行多线程单比特位故障注入.md",
@@ -276,7 +291,6 @@
     "Learning/GPU/collect metrics.md",
     "Learning/Programming Language & Framework/Shell.md",
     "source.md",
-    "Learning/GPU/Compiling.md",
-    "Learning/GPU/层次结构.md"
+    "Learning/GPU/Compiling.md"
   ]
 }

@@ -117,7 +117,8 @@
         9457,
         9462,
         9470,
-        9473
+        9473,
+        9746
       ],
       "key": "JNY8VHWT",
       "name": "GNN",
@@ -6492,6 +6493,83 @@
       "title": "Transferability of Spectral Graph Convolutional Neural Networks",
       "uri": "http://zotero.org/users/7659667/items/UKEDDXDA",
       "version": 5134
+    },
+    {
+      "abstractNote": "State-of-the-art Graph Neural Networks (GNNs) have limited scalability with respect to the graph and model sizes. On large graphs, increasing the model depth often means exponential expansion of the scope (i.e., receptive ﬁeld). Beyond just a few layers, two fundamental challenges emerge: 1. degraded expressivity due to oversmoothing, and 2. expensive computation due to neighborhood explosion. We propose a design principle to decouple the depth and scope of GNNs – to generate representation of a target entity (i.e., a node or an edge), we ﬁrst extract a localized subgraph as the bounded-size scope, and then apply a GNN of arbitrary depth on top of the subgraph. A properly extracted subgraph consists of a small number of critical neighbors, while excluding irrelevant ones. The GNN, no matter how deep it is, smooths the local neighborhood into informative representation rather than oversmoothing the global graph into “white noise”. Theoretically, decoupling improves the GNN expressive power from the perspectives of graph signal processing (GCN), function approximation (GraphSAGE) and topological learning (GIN). Empirically, on seven graphs (with up to 110M nodes) and six backbone GNN architectures, our design achieves signiﬁcant accuracy improvement with orders of magnitude reduction in computation and hardware cost.",
+      "attachments": [
+        {
+          "dateAdded": "2022-09-27T08:52:51Z",
+          "dateModified": "2022-09-27T08:52:58Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\H5RM77YV\\Zeng et al. - Decoupling the Depth and Scope of Graph Neural Net.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Zeng et al. - Decoupling the Depth and Scope of Graph Neural Net.pdf",
+          "uri": "http://zotero.org/users/7659667/items/H5RM77YV"
+        }
+      ],
+      "citationKey": "DecouplingDepthScopezeng",
+      "citekey": "DecouplingDepthScopezeng",
+      "conferenceName": "NeurIPS 2021",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Hanqing",
+          "lastName": "Zeng"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Muhan",
+          "lastName": "Zhang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yinglong",
+          "lastName": "Xia"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ajitesh",
+          "lastName": "Srivastava"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Andrey",
+          "lastName": "Malevich"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Rajgopal",
+          "lastName": "Kannan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Viktor",
+          "lastName": "Prasanna"
+        }
+      ],
+      "dateAdded": "2022-09-27T08:52:56Z",
+      "dateModified": "2022-09-27T08:56:06Z",
+      "itemID": 9746,
+      "itemKey": "UMMJ78E9",
+      "itemType": "conferencePaper",
+      "key": "UMMJ78E9",
+      "language": "en",
+      "libraryCatalog": "Zotero",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "15",
+      "relations": [],
+      "select": "zotero://select/library/items/UMMJ78E9",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Decoupling the Depth and Scope of Graph Neural Networks",
+      "uri": "http://zotero.org/users/7659667/items/UMMJ78E9",
+      "version": 5436
     },
     {
       "DOI": "10.1145/2901318.2901319",
