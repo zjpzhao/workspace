@@ -191,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/AI/GNN/DGL.md"
+                "file": "Learning/AI/GNN/GNN.md"
               }
             }
           }
@@ -217,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/AI/GNN/DGL.md",
+                "file": "Learning/AI/GNN/GNN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,7 +229,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/AI/GNN/DGL.md",
+                "file": "Learning/AI/GNN/GNN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,13 +281,13 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "267702ff7ae8b8cd",
+  "active": "2256bea8e2d9765b",
   "lastOpenFiles": [
+    "Learning/AI/GNN/DGL.md",
     "papers/论文写作积累.md",
     "Learning/GPU/SASS和PTX的区别.md",
     "papers/My DAC 2023.md",
     "Learning/AI/GNN/GNN.md",
-    "Learning/AI/GNN/DGL.md",
     "Learning/Programming Language & Framework/Python/Code_对神经网络模型参数进行多线程单比特位故障注入.md",
     "Learning/Programming Language & Framework/Python/Python Base.md",
     "Learning/GPU/collect metrics.md",

@@ -133,3 +133,11 @@ The general idea of active learning is to dynamically query the labels of the mo
 - [ ] 我的方法prototype只能是静态图，可以考虑建立动态图（考虑执行流，如loop等等），结合强力高效的标签选择和剪枝策略，应用场景需要强调是非常复杂的GPU程序。（对于loop我们关心这条指令在循环的哪个阶段中可能发生错误）
 - [ ] 从多输入、单调性角度的图研究
 - [ ] 有的依赖链的长度过长，中间有很多平凡的寄存器计算的过程，这些中间的重复类型的短链可以进行剪枝（或者叫pooling），according to 这些短链或者节点之间的相似性（指标：embedding距离）
+
+
+## 实现
+GAT pytorch:
+https://github.com/Diego999/pyGAT.git
+
+GATv2:
+https://github.com/tech-srl/how_attentive_are_gats.git
