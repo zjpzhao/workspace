@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "GNN",
-      "path": "Learning/AI/GNN/GNN.md"
-    },
-    {
       "basename": "DGL",
       "path": "Learning/AI/GNN/DGL.md"
     },
     {
       "basename": "论文写作积累",
       "path": "papers/论文写作积累.md"
+    },
+    {
+      "basename": "GNN",
+      "path": "Learning/AI/GNN/GNN.md"
     },
     {
       "basename": "SASS和PTX的区别",

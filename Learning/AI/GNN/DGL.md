@@ -37,5 +37,7 @@ pos2 = nx.kamada_kawai_layout(nx_g2)
 nx.draw(nx_g2, pos2, with_labels=True, node_color=[[.7, .7, .7]])
 f.savefig("graph.png")
 ```
+生成训练轮次可视化视频：
+https://github.com/dglai/WWW20-Hands-on-Tutorial/blob/master/basic_tasks/2_gnn.ipynb
 
 其他DGL常用方法详见：https://zhuanlan.zhihu.com/p/536737592
