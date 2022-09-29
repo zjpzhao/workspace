@@ -5465,7 +5465,7 @@
       ],
       "date": "2020",
       "dateAdded": "2021-12-03T03:49:33Z",
-      "dateModified": "2022-09-29T06:44:29Z",
+      "dateModified": "2022-09-29T08:36:18Z",
       "itemID": 109,
       "itemKey": "N8QC8W93",
       "itemType": "journalArticle",
@@ -5479,11 +5479,15 @@
       "relations": [],
       "select": "zotero://select/library/items/N8QC8W93",
       "shortTitle": "Spoti-FI",
-      "tags": [],
+      "tags": [
+        {
+          "tag": "⭐"
+        }
+      ],
       "title": "Characterizing and Exploiting Soft Error Vulnerability Phase Behavior in GPU Applications",
       "uri": "http://zotero.org/users/7659667/items/N8QC8W93",
       "url": "https://ieeexplore.ieee.org/document/9080079/",
-      "version": 5475
+      "version": 5478
     },
     {
       "DOI": "10.23919/DATE54114.2022.9774682",
