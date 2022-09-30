@@ -1085,7 +1085,7 @@
       "title": "NVBitFI: Dynamic Fault Injection for GPUs",
       "uri": "http://zotero.org/users/7659667/items/3PBS8V9V",
       "url": "https://ieeexplore.ieee.org/document/9505068/",
-      "version": 2601
+      "version": 4949
     },
     {
       "attachments": [
@@ -1420,7 +1420,7 @@
       "tags": [],
       "title": "Understanding Attention and Generalization in Graph Neural Networks",
       "uri": "http://zotero.org/users/7659667/items/57D4LCQ9",
-      "version": 5108
+      "version": 5126
     },
     {
       "ISBN": "978-0-471-46406-8 978-0-471-29342-2 978-0-471-22460-0 978-1-280-36749-6",
@@ -3751,7 +3751,7 @@
       "title": "Machine Learning Models for GPU Error Prediction in a Large Scale HPC System",
       "uri": "http://zotero.org/users/7659667/items/FQSG7X3S",
       "url": "https://ieeexplore.ieee.org/document/8416474/",
-      "version": 4946
+      "version": 4947
     },
     {
       "ISBN": "978-0-13-138768-3",
@@ -4074,7 +4074,7 @@
       "title": "NVBit: A Dynamic Binary Instrumentation Framework for NVIDIA GPUs",
       "uri": "http://zotero.org/users/7659667/items/H39WTC66",
       "url": "https://dl.acm.org/doi/10.1145/3352460.3358307",
-      "version": 728
+      "version": 4947
     },
     {
       "DOI": "10.1145/3503221.3508414",
@@ -5334,7 +5334,7 @@
       "title": "Attention-based Graph Neural Network for Semi-supervised Learning",
       "uri": "http://zotero.org/users/7659667/items/N37DC874",
       "url": "http://arxiv.org/abs/1803.03735",
-      "version": 4587
+      "version": 4726
     },
     {
       "DOI": "10.1145/2854038.2854059",
@@ -6271,7 +6271,7 @@
       "title": "Analyzing the impact of soft errors in VGG networks implemented on GPUs",
       "uri": "http://zotero.org/users/7659667/items/S498KHCR",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S002627141930914X",
-      "version": 730,
+      "version": 4791,
       "volume": "110"
     },
     {
@@ -6569,7 +6569,7 @@
       "tags": [],
       "title": "Decoupling the Depth and Scope of Graph Neural Networks",
       "uri": "http://zotero.org/users/7659667/items/UMMJ78E9",
-      "version": 5437
+      "version": 5465
     },
     {
       "DOI": "10.1145/2901318.2901319",
@@ -7133,7 +7133,7 @@
       "title": "Active discriminative network representation learning",
       "uri": "http://zotero.org/users/7659667/items/X72Y6AXK",
       "url": "https://doi.org/10.24963/ijcai.2018/296",
-      "version": 5149
+      "version": 5203
     },
     {
       "DOI": "10.1109/ICCD46524.2019.00072",
@@ -7780,6 +7780,6 @@
   ],
   "version": {
     "bbt": "6.7.23",
-    "zotero": "6.0.13"
+    "zotero": "6.0.14"
   }
 }
