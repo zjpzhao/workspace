@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "局域网服务器通过走本地代理联网",
+      "path": "Learning/计算机网络/局域网服务器通过走本地代理联网.md"
+    },
+    {
+      "basename": "层次结构",
+      "path": "Learning/GPU/层次结构.md"
+    },
+    {
       "basename": "常用指令",
       "path": "util/常用指令.md"
     },
@@ -51,10 +59,6 @@
     {
       "basename": "Compiling",
       "path": "Learning/GPU/Compiling.md"
-    },
-    {
-      "basename": "层次结构",
-      "path": "Learning/GPU/层次结构.md"
     },
     {
       "basename": "GPU",
