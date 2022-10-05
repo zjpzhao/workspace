@@ -16,7 +16,7 @@ Device: GPU and GPU memory (Device memory)
 
 ## kernel()
 - kernel函数是CUDA编程的关键，主要对拷贝到GPU的数据进行操作，在GPU中执行，函数用标识符`__global__`修饰。
-- CUDA程序由一个或者多个kernel组成，这些kernel可能在程序执行中以不同的顺序被多次调用，而且即使是对于同一个kernel的每次调用可能执行的是不同数量的动态指令。
+- CUDA程序由一个或者多个kernel组成，这些kernel可能在程序执行中以不同的顺序被多次调用，而且即使是对于同一个kernel的每次调用可能执行的是不同数量的动态指令。不同的kernel之间可能具有相似的弹性，也可能具有不同的弹性。
 
 ## 异步性
 CUDA编程的异步性体现在：CPU和GPU都属于计算机的计算部件，各有存储空间。GPU执行程序时启动kernel()后控制权返还给CPU，串行代码C由Host执行，并行代码CUDA C由Device执行。
