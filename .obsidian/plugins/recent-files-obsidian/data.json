@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "CUDA",
+      "path": "Learning/GPU/CUDA.md"
+    },
+    {
       "basename": "局域网服务器通过本地代理联网",
       "path": "Learning/计算机网络/局域网服务器通过本地代理联网.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "PTX",
       "path": "Learning/GPU/PTX.md"
-    },
-    {
-      "basename": "CUDA",
-      "path": "Learning/GPU/CUDA.md"
     },
     {
       "basename": "pytorch基本操作",

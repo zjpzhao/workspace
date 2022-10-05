@@ -100,7 +100,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Learning/计算机网络/局域网服务器通过本地代理联网.md",
+            "file": "Learning/GPU/CUDA.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -190,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/计算机网络/局域网服务器通过本地代理联网.md"
+                "file": "Learning/GPU/CUDA.md"
               }
             }
           }
@@ -215,7 +215,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/计算机网络/局域网服务器通过本地代理联网.md",
+                "file": "Learning/GPU/CUDA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,7 +227,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/计算机网络/局域网服务器通过本地代理联网.md",
+                "file": "Learning/GPU/CUDA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,8 +281,8 @@
   },
   "active": "382133fc48c45650",
   "lastOpenFiles": [
-    "Learning/GPU/层次结构.md",
     "Learning/计算机网络/局域网服务器通过本地代理联网.md",
+    "Learning/GPU/层次结构.md",
     "util/常用指令.md",
     "util/linux配置代理Qv2ray和Clash.md",
     "Workflow/全系workflow搭建.md",
