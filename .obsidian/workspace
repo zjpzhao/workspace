@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Learning/GPU/SASS和PTX的区别.md",
+            "file": "Learning/GPU/SASS和PTX.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -100,7 +100,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Learning/GPU/CUDA.md",
+            "file": "papers/论文写作积累.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -170,7 +170,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "e9d25589cbee286f",
@@ -190,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/GPU/CUDA.md"
+                "file": "Learning/GPU/SASS和PTX.md"
               }
             }
           }
@@ -199,7 +200,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 458
+    "width": 458,
+    "collapsed": true
   },
   "right": {
     "id": "15dd14e7068b76d4",
@@ -215,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/GPU/CUDA.md",
+                "file": "Learning/GPU/SASS和PTX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,7 +229,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/GPU/CUDA.md",
+                "file": "Learning/GPU/SASS和PTX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -279,17 +281,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "382133fc48c45650",
+  "active": "061bf2cfcc9a2dc7",
   "lastOpenFiles": [
+    "papers/论文写作积累.md",
+    "Learning/GPU/CUDA.md",
     "Learning/计算机网络/局域网服务器通过本地代理联网.md",
     "Learning/GPU/层次结构.md",
     "util/常用指令.md",
     "util/linux配置代理Qv2ray和Clash.md",
     "Workflow/全系workflow搭建.md",
-    "papers/论文写作积累.md",
     "Learning/AI/GNN/DGL.md",
     "Learning/AI/GNN/GNN.md",
-    "Learning/GPU/SASS和PTX的区别.md",
-    "papers/My DAC 2023.md"
+    "Learning/GPU/SASS和PTX.md"
   ]
 }

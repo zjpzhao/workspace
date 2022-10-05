@@ -32,3 +32,8 @@ nvcc x.cu
 
 另外，版本相关编译指令有缩写的情况，具体看手册。
 > 参考：https://www.cvmart.net/community/detail/6486
+
+此外，cuDNN 和 cuBlas 等闭源库没有 PTX ISA 表示，使得基于 PTX 的模型在全面性上受到限制。
+
+PTX是generation-*in*dependent（不依赖于代）的；而SASS是generation-dependent的，但是，一些GPU generation（不同代的架构）具有非常接近的ISA，例如 Maxwell 和 Pascal 架构。
+

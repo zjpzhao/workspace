@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "SASS和PTX",
+      "path": "Learning/GPU/SASS和PTX.md"
+    },
+    {
+      "basename": "论文写作积累",
+      "path": "papers/论文写作积累.md"
+    },
+    {
       "basename": "CUDA",
       "path": "Learning/GPU/CUDA.md"
     },
@@ -25,20 +33,12 @@
       "path": "Workflow/全系workflow搭建.md"
     },
     {
-      "basename": "论文写作积累",
-      "path": "papers/论文写作积累.md"
-    },
-    {
       "basename": "DGL",
       "path": "Learning/AI/GNN/DGL.md"
     },
     {
       "basename": "GNN",
       "path": "Learning/AI/GNN/GNN.md"
-    },
-    {
-      "basename": "SASS和PTX的区别",
-      "path": "Learning/GPU/SASS和PTX的区别.md"
     },
     {
       "basename": "My DAC 2023",
