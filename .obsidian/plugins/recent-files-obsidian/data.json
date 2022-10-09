@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "内网穿透",
+      "path": "Learning/计算机网络/内网穿透.md"
+    },
+    {
+      "basename": "常用指令",
+      "path": "util/常用指令.md"
+    },
+    {
       "basename": "SASS和PTX",
       "path": "Learning/GPU/SASS和PTX.md"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "层次结构",
       "path": "Learning/GPU/层次结构.md"
-    },
-    {
-      "basename": "常用指令",
-      "path": "util/常用指令.md"
     },
     {
       "basename": "linux配置代理Qv2ray和Clash",
@@ -83,10 +87,6 @@
     {
       "basename": "pytorch基本操作",
       "path": "Learning/Programming Language & Framework/Pytorch/pytorch基本操作.md"
-    },
-    {
-      "basename": "内网穿透",
-      "path": "Learning/计算机网络/内网穿透.md"
     },
     {
       "basename": "wandb",

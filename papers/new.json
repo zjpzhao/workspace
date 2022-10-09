@@ -246,6 +246,15 @@
       "name": "Linux",
       "parent": "YXK8S2C9"
     },
+    "UT3SWZS2": {
+      "collections": [],
+      "items": [
+        9834
+      ],
+      "key": "UT3SWZS2",
+      "name": "Acceleration",
+      "parent": ""
+    },
     "VK6XIGJC": {
       "collections": [],
       "items": [
@@ -4145,6 +4154,88 @@
       "uri": "http://zotero.org/users/7659667/items/HDGJJBMK",
       "url": "https://dl.acm.org/doi/10.1145/3503221.3508414",
       "version": 4004
+    },
+    {
+      "DOI": "10.1145/3123939.3123976",
+      "ISBN": "978-1-4503-4952-9",
+      "abstractNote": "GPUs lack fundamental support for data-dependent parallelism and synchronization. While CUDA Dynamic Parallelism signals progress in this direction, many limitations and challenges still remain. This paper introduces Wireframe, a hardware-software solution that enables generalized support for data-dependent parallelism and synchronization. Wireframe enables applications to naturally express execution dependencies across different thread blocks through a dependency graph abstraction at run-time, which is sent to the GPU hardware at kernel launch. At run-time, the hardware enforces the dependencies speciﬁed in the dependency graph through a dependencyaware thread block scheduler. Overall, Wireframe is able to improve total execution time up to 65.20% with an average of 45.07%.",
+      "accessDate": "2022-10-09T08:45:12Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-10-09T08:45:00Z",
+          "dateModified": "2022-10-09T08:45:13Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\HFVVA536\\Abdolrashidi et al. - 2017 - Wireframe supporting data-dependent parallelism t.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Abdolrashidi et al. - 2017 - Wireframe supporting data-dependent parallelism t.pdf",
+          "uri": "http://zotero.org/users/7659667/items/HFVVA536"
+        }
+      ],
+      "citationKey": "WireframeSupportingDatadependent2017abdolrashidi",
+      "citekey": "WireframeSupportingDatadependent2017abdolrashidi",
+      "conferenceName": "MICRO-50: The 50th Annual IEEE/ACM International Symposium on Microarchitecture",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "AmirAli",
+          "lastName": "Abdolrashidi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Devashree",
+          "lastName": "Tripathy"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mehmet Esat",
+          "lastName": "Belviranli"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Laxmi Narayan",
+          "lastName": "Bhuyan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Daniel",
+          "lastName": "Wong"
+        }
+      ],
+      "date": "2017-10-14",
+      "dateAdded": "2022-10-09T08:45:12Z",
+      "dateModified": "2022-10-09T08:45:41Z",
+      "itemID": 9834,
+      "itemKey": "HGJ3KG7A",
+      "itemType": "conferencePaper",
+      "key": "HGJ3KG7A",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "600-611",
+      "place": "Cambridge Massachusetts",
+      "publicationTitle": "Proceedings of the 50th Annual IEEE/ACM International Symposium on Microarchitecture",
+      "publisher": "ACM",
+      "relations": [],
+      "select": "zotero://select/library/items/HGJ3KG7A",
+      "shortTitle": "Wireframe",
+      "tags": [
+        {
+          "tag": "GPU"
+        },
+        {
+          "tag": "/unread",
+          "type": 1
+        },
+        {
+          "tag": "Accelerating"
+        }
+      ],
+      "title": "Wireframe: supporting data-dependent parallelism through dependency graph execution in GPUs",
+      "uri": "http://zotero.org/users/7659667/items/HGJ3KG7A",
+      "url": "https://dl.acm.org/doi/10.1145/3123939.3123976",
+      "version": 5664
     },
     {
       "DOI": "10.23919/DATE.2019.8714945",

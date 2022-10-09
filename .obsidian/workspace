@@ -22,7 +22,20 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Learning/GPU/SASS和PTX.md",
+            "file": "Learning/计算机网络/内网穿透.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "eaf6eeb19c0a6097",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "util/常用指令.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -170,8 +183,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "e9d25589cbee286f",
@@ -191,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/GPU/SASS和PTX.md"
+                "file": "Learning/计算机网络/内网穿透.md"
               }
             }
           }
@@ -200,8 +212,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 458,
-    "collapsed": true
+    "width": 458
   },
   "right": {
     "id": "15dd14e7068b76d4",
@@ -217,7 +228,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/GPU/SASS和PTX.md",
+                "file": "Learning/计算机网络/内网穿透.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,7 +240,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/GPU/SASS和PTX.md",
+                "file": "Learning/计算机网络/内网穿透.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,15 +294,15 @@
   },
   "active": "061bf2cfcc9a2dc7",
   "lastOpenFiles": [
+    "util/常用指令.md",
+    "Learning/计算机网络/内网穿透.md",
+    "Learning/GPU/SASS和PTX.md",
     "papers/论文写作积累.md",
     "Learning/GPU/CUDA.md",
     "Learning/计算机网络/局域网服务器通过本地代理联网.md",
     "Learning/GPU/层次结构.md",
-    "util/常用指令.md",
     "util/linux配置代理Qv2ray和Clash.md",
     "Workflow/全系workflow搭建.md",
-    "Learning/AI/GNN/DGL.md",
-    "Learning/AI/GNN/GNN.md",
-    "Learning/GPU/SASS和PTX.md"
+    "Learning/AI/GNN/DGL.md"
   ]
 }
