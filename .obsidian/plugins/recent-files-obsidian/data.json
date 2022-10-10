@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "CUDA Binary Utilities",
+      "path": "Learning/GPU/CUDA Binary Utilities.md"
+    },
+    {
       "basename": "Nsight Compute工具",
       "path": "Learning/GPU/Nsight Compute工具.md"
+    },
+    {
+      "basename": "SASS和PTX",
+      "path": "Learning/GPU/SASS和PTX.md"
     },
     {
       "basename": "内网穿透",
@@ -23,10 +31,6 @@
     {
       "basename": "常用指令",
       "path": "util/常用指令.md"
-    },
-    {
-      "basename": "SASS和PTX",
-      "path": "Learning/GPU/SASS和PTX.md"
     },
     {
       "basename": "论文写作积累",
@@ -195,10 +199,6 @@
     {
       "basename": "并行计算",
       "path": "Lectures/并行计算.md"
-    },
-    {
-      "basename": "@ReliabilityComputerSystems2003shooman",
-      "path": "papers/@ReliabilityComputerSystems2003shooman.md"
     }
   ],
   "omittedPaths": [],
