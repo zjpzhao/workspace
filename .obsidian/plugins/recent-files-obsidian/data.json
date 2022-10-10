@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Nsight Compute工具",
+      "path": "Learning/GPU/Nsight Compute工具.md"
+    },
+    {
       "basename": "内网穿透",
       "path": "Learning/计算机网络/内网穿透.md"
+    },
+    {
+      "basename": "2022-07-12",
+      "path": "2022-07-12.md"
+    },
+    {
+      "basename": "Obsidian",
+      "path": "util/Obsidian.md"
+    },
+    {
+      "basename": "My DAC 2023",
+      "path": "papers/My DAC 2023.md"
     },
     {
       "basename": "常用指令",
@@ -43,10 +59,6 @@
     {
       "basename": "GNN",
       "path": "Learning/AI/GNN/GNN.md"
-    },
-    {
-      "basename": "My DAC 2023",
-      "path": "papers/My DAC 2023.md"
     },
     {
       "basename": "Code_对神经网络模型参数进行多线程单比特位故障注入",
@@ -147,10 +159,6 @@
     {
       "basename": "Docker",
       "path": "Learning/Tools/Docker.md"
-    },
-    {
-      "basename": "Obsidian",
-      "path": "util/Obsidian.md"
     },
     {
       "basename": "Code_位翻转",

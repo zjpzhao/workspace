@@ -64,6 +64,6 @@ e.g. [[Obsidian用法|块引用]]
 ## 快速添加日期
 采用obsidian插件Natural Language Dates
 用法：@日期
-e.g. @today回车得到[[2022-07-12]]
+e.g. @today回车得到2022-07-12
 
 ---
