@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "794d253a53c845ff",
+        "id": "eaf6eeb19c0a6097",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -17,12 +17,12 @@
         }
       },
       {
-        "id": "eaf6eeb19c0a6097",
+        "id": "9bdf591546e01ff7",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "util/常用指令.md",
+            "file": "papers/论文写作积累.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -198,8 +198,17 @@
                 "file": "Learning/GPU/CUDA Binary Utilities.md"
               }
             }
+          },
+          {
+            "id": "794d253a53c845ff",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -283,17 +292,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "794d253a53c845ff",
+  "active": "eaf6eeb19c0a6097",
   "lastOpenFiles": [
-    "Learning/GPU/Nsight Compute工具.md",
+    "papers/论文写作积累.md",
     "Learning/GPU/CUDA Binary Utilities.md",
+    "Learning/GPU/Nsight Compute工具.md",
+    "Learning/GPU/Collect Metrics.md",
+    "util/常用指令.md",
     "Learning/GPU/SASS和PTX.md",
     "Learning/计算机网络/内网穿透.md",
     "2022-07-12.md",
     "util/Obsidian.md",
-    "papers/My DAC 2023.md",
-    "util/常用指令.md",
-    "papers/论文写作积累.md",
-    "Learning/GPU/CUDA.md"
+    "papers/My DAC 2023.md"
   ]
 }

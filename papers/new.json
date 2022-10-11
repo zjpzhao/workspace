@@ -205,7 +205,8 @@
         207,
         7889,
         7899,
-        9419
+        9419,
+        9854
       ],
       "key": "RLZKFTSE",
       "name": "Modeling Tools",
@@ -7820,6 +7821,77 @@
       "uri": "http://zotero.org/users/7659667/items/YMNVQNGA",
       "url": "https://ieeexplore.ieee.org/document/9355294/",
       "version": 4403
+    },
+    {
+      "DOI": "10.1109/TDSC.2020.2980273",
+      "ISSN": "1545-5971, 1941-0018, 2160-9209",
+      "abstractNote": "Fault injection (FI) is a commonly used experimental technique to evaluate the resilience of software techniques for tolerating hardware faults. Software-implemented FI can be performed at different levels of abstraction in the system stack; FI performed at the compiler’s intermediate representation (IR) level has the advantage that it is closer to the program being evaluated and is hence easier to derive insights from for the design of software fault-tolerance mechanisms. Unfortunately, it is not clear how accurate IR-level FI is vis-a-vis FI performed at the assembly code level, and prior work has presented contradictory ﬁndings. In this article, we perform a comprehensive evaluation of the accuracy of IR-level FI across a range of benchmark programs and compiler optimization levels. Our results show that IR-level FI is as accurate as assembly-level FI for silent data corruption (SDC) probability estimation across different benchmarks and optimization levels. Further, we present a machine-learning-based technique for improving the accuracy of crash probability measurements made by IR-level FI, which takes advantage of an observed correlation between program crash probabilities and instructions that operate on memory address values. We ﬁnd that the machine learning technique provides comparable accuracy for IR-level FI as assembly code level FI for program crashes.",
+      "accessDate": "2022-10-11T08:21:03Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-10-11T08:20:54Z",
+          "dateModified": "2022-10-11T08:21:07Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\J2XLKJBJ\\Palazzi et al. - 2022 - Improving the Accuracy of IR-Level Fault Injection.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Palazzi et al. - 2022 - Improving the Accuracy of IR-Level Fault Injection.pdf",
+          "uri": "http://zotero.org/users/7659667/items/J2XLKJBJ"
+        }
+      ],
+      "callNumber": "2",
+      "citationKey": "ImprovingAccuracyIRLevel2022palazzi",
+      "citekey": "ImprovingAccuracyIRLevel2022palazzi",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Lucas",
+          "lastName": "Palazzi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Guanpeng",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bo",
+          "lastName": "Fang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Karthik",
+          "lastName": "Pattabiraman"
+        }
+      ],
+      "date": "2022-1-1",
+      "dateAdded": "2022-10-11T08:21:03Z",
+      "dateModified": "2022-10-11T08:21:05Z",
+      "issue": "1",
+      "itemID": 9854,
+      "itemKey": "YS7BZ2U5",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "IEEE Trans. Dependable and Secure Comput.",
+      "key": "YS7BZ2U5",
+      "language": "en",
+      "libraryCatalog": "6.791",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "243-258",
+      "publicationTitle": "IEEE Transactions on Dependable and Secure Computing",
+      "relations": [],
+      "select": "zotero://select/library/items/YS7BZ2U5",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Improving the Accuracy of IR-Level Fault Injection",
+      "uri": "http://zotero.org/users/7659667/items/YS7BZ2U5",
+      "url": "https://ieeexplore.ieee.org/document/9035448/",
+      "version": 0,
+      "volume": "19"
     },
     {
       "DOI": "10.23919/DATE51398.2021.9474098",

@@ -5,8 +5,20 @@
       "path": "Learning/GPU/CUDA Binary Utilities.md"
     },
     {
+      "basename": "论文写作积累",
+      "path": "papers/论文写作积累.md"
+    },
+    {
       "basename": "Nsight Compute工具",
       "path": "Learning/GPU/Nsight Compute工具.md"
+    },
+    {
+      "basename": "Collect Metrics",
+      "path": "Learning/GPU/Collect Metrics.md"
+    },
+    {
+      "basename": "常用指令",
+      "path": "util/常用指令.md"
     },
     {
       "basename": "SASS和PTX",
@@ -27,14 +39,6 @@
     {
       "basename": "My DAC 2023",
       "path": "papers/My DAC 2023.md"
-    },
-    {
-      "basename": "常用指令",
-      "path": "util/常用指令.md"
-    },
-    {
-      "basename": "论文写作积累",
-      "path": "papers/论文写作积累.md"
     },
     {
       "basename": "CUDA",
@@ -71,10 +75,6 @@
     {
       "basename": "Python Base",
       "path": "Learning/Programming Language & Framework/Python/Python Base.md"
-    },
-    {
-      "basename": "collect metrics",
-      "path": "Learning/GPU/collect metrics.md"
     },
     {
       "basename": "Shell",
