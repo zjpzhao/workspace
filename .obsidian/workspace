@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Learning/GPU/CUDA Binary Utilities.md",
+            "file": "Learning/GPU/Nsight Compute工具.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -195,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/GPU/CUDA Binary Utilities.md"
+                "file": "Learning/GPU/Nsight Compute工具.md"
               }
             }
           },
@@ -228,7 +228,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/GPU/CUDA Binary Utilities.md",
+                "file": "Learning/GPU/Nsight Compute工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,7 +240,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/GPU/CUDA Binary Utilities.md",
+                "file": "Learning/GPU/Nsight Compute工具.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -294,15 +294,15 @@
   },
   "active": "eaf6eeb19c0a6097",
   "lastOpenFiles": [
-    "papers/论文写作积累.md",
+    "Workflow/全系workflow搭建.md",
     "Learning/GPU/CUDA Binary Utilities.md",
+    "papers/论文写作积累.md",
     "Learning/GPU/Nsight Compute工具.md",
     "Learning/GPU/Collect Metrics.md",
     "util/常用指令.md",
     "Learning/GPU/SASS和PTX.md",
     "Learning/计算机网络/内网穿透.md",
     "2022-07-12.md",
-    "util/Obsidian.md",
-    "papers/My DAC 2023.md"
+    "util/Obsidian.md"
   ]
 }

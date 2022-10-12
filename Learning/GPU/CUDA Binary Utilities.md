@@ -3,7 +3,7 @@
 [3.1.1. Control flow graph information](https://docs.nvidia.com/cuda/cuda-binary-utilities/index.html#nvdisasm-usage-cfg)
 
 # Register liveness information
-关于寄存器依赖的提取：参考[3.1.2. Register liveness information](https://docs.nvidia.com/cuda/cuda-binary-utilities/index.html#nvdisasm-usage-liveness)，Nsight Compute的[[Nsight Compute工具|Register Dependencies]]功能就是通过本功能实现的
+关于SASS指令寄存器依赖的静态提取：参考[3.1.2. Register liveness information](https://docs.nvidia.com/cuda/cuda-binary-utilities/index.html#nvdisasm-usage-liveness)，Nsight Compute的[[Nsight Compute工具|Register Dependencies]]功能就是通过本功能实现的
 
 主要是通过nvdisasm工具的`-plr (--print-life-ranges)`和`-lrm (--life-range-mode)`两个参数，来分析.cubin文件得到该信息（另外，可以用参数`-b (--binary <SMxy>)`来控制architecture。)
 
