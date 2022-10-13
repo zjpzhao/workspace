@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "CUDA",
+      "path": "Learning/GPU/CUDA.md"
+    },
+    {
+      "basename": "CUDA Binary Utilities",
+      "path": "Learning/GPU/CUDA Binary Utilities.md"
+    },
+    {
       "basename": "Nsight Compute工具",
       "path": "Learning/GPU/Nsight Compute工具.md"
     },
     {
       "basename": "全系workflow搭建",
       "path": "Workflow/全系workflow搭建.md"
-    },
-    {
-      "basename": "CUDA Binary Utilities",
-      "path": "Learning/GPU/CUDA Binary Utilities.md"
     },
     {
       "basename": "论文写作积累",
@@ -43,10 +47,6 @@
     {
       "basename": "My DAC 2023",
       "path": "papers/My DAC 2023.md"
-    },
-    {
-      "basename": "CUDA",
-      "path": "Learning/GPU/CUDA.md"
     },
     {
       "basename": "局域网服务器通过本地代理联网",

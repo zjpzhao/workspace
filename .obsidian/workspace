@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Learning/GPU/Nsight Compute工具.md",
+            "file": "Learning/GPU/CUDA.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -145,7 +145,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "timeout",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -195,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/GPU/Nsight Compute工具.md"
+                "file": "Learning/GPU/CUDA.md"
               }
             }
           },
@@ -228,7 +228,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/GPU/Nsight Compute工具.md",
+                "file": "Learning/GPU/CUDA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,7 +240,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/GPU/Nsight Compute工具.md",
+                "file": "Learning/GPU/CUDA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -294,10 +294,10 @@
   },
   "active": "eaf6eeb19c0a6097",
   "lastOpenFiles": [
-    "Workflow/全系workflow搭建.md",
     "Learning/GPU/CUDA Binary Utilities.md",
-    "papers/论文写作积累.md",
     "Learning/GPU/Nsight Compute工具.md",
+    "Workflow/全系workflow搭建.md",
+    "papers/论文写作积累.md",
     "Learning/GPU/Collect Metrics.md",
     "util/常用指令.md",
     "Learning/GPU/SASS和PTX.md",
