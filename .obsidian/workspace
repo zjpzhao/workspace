@@ -4,19 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "eaf6eeb19c0a6097",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Learning/GPU/CUDA.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
         "id": "9bdf591546e01ff7",
         "type": "leaf",
         "state": {
@@ -35,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Learning/GPU/Compiling.md",
+            "file": "Learning/GPU/NVCC.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -170,7 +157,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "e9d25589cbee286f",
@@ -195,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/GPU/CUDA.md"
+                "file": "papers/论文写作积累.md"
               }
             }
           },
@@ -208,7 +196,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -228,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/GPU/CUDA.md",
+                "file": "papers/论文写作积累.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,7 +228,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/GPU/CUDA.md",
+                "file": "papers/论文写作积累.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -292,17 +280,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "eaf6eeb19c0a6097",
+  "active": "9bdf591546e01ff7",
   "lastOpenFiles": [
-    "Learning/GPU/CUDA Binary Utilities.md",
-    "Learning/GPU/Nsight Compute工具.md",
-    "Workflow/全系workflow搭建.md",
-    "papers/论文写作积累.md",
-    "Learning/GPU/Collect Metrics.md",
-    "util/常用指令.md",
     "Learning/GPU/SASS和PTX.md",
-    "Learning/计算机网络/内网穿透.md",
-    "2022-07-12.md",
-    "util/Obsidian.md"
+    "papers/论文写作积累.md",
+    "Math/Sensitivity-DESKTOP-VAHA0U3.md",
+    "Learning/Math/Sensitivity.md",
+    "Learning/Compiling/LLVM.md",
+    "Learning/GPU/NVCC.md",
+    "Learning/AI/GNN/GNN.md",
+    "Learning/AI/ML/正则化.md",
+    "Learning/GPU/PTX.md",
+    "Learning/GPU/CUDA.md"
   ]
 }

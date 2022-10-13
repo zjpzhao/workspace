@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "论文写作积累",
+      "path": "papers/论文写作积累.md"
+    },
+    {
+      "basename": "SASS和PTX",
+      "path": "Learning/GPU/SASS和PTX.md"
+    },
+    {
+      "basename": "Sensitivity",
+      "path": "Learning/Math/Sensitivity.md"
+    },
+    {
+      "basename": "LLVM",
+      "path": "Learning/Compiling/LLVM.md"
+    },
+    {
+      "basename": "NVCC",
+      "path": "Learning/GPU/NVCC.md"
+    },
+    {
+      "basename": "GNN",
+      "path": "Learning/AI/GNN/GNN.md"
+    },
+    {
+      "basename": "正则化",
+      "path": "Learning/AI/ML/正则化.md"
+    },
+    {
+      "basename": "PTX",
+      "path": "Learning/GPU/PTX.md"
+    },
+    {
       "basename": "CUDA",
       "path": "Learning/GPU/CUDA.md"
     },
@@ -17,20 +49,12 @@
       "path": "Workflow/全系workflow搭建.md"
     },
     {
-      "basename": "论文写作积累",
-      "path": "papers/论文写作积累.md"
-    },
-    {
       "basename": "Collect Metrics",
       "path": "Learning/GPU/Collect Metrics.md"
     },
     {
       "basename": "常用指令",
       "path": "util/常用指令.md"
-    },
-    {
-      "basename": "SASS和PTX",
-      "path": "Learning/GPU/SASS和PTX.md"
     },
     {
       "basename": "内网穿透",
@@ -65,10 +89,6 @@
       "path": "Learning/AI/GNN/DGL.md"
     },
     {
-      "basename": "GNN",
-      "path": "Learning/AI/GNN/GNN.md"
-    },
-    {
       "basename": "Code_对神经网络模型参数进行多线程单比特位故障注入",
       "path": "Learning/Programming Language & Framework/Python/Code_对神经网络模型参数进行多线程单比特位故障注入.md"
     },
@@ -79,10 +99,6 @@
     {
       "basename": "Shell",
       "path": "Learning/Programming Language & Framework/Shell.md"
-    },
-    {
-      "basename": "Compiling",
-      "path": "Learning/GPU/Compiling.md"
     },
     {
       "basename": "GPU",
@@ -97,20 +113,12 @@
       "path": "Learning/Tools/Git.md"
     },
     {
-      "basename": "PTX",
-      "path": "Learning/GPU/PTX.md"
-    },
-    {
       "basename": "pytorch基本操作",
       "path": "Learning/Programming Language & Framework/Pytorch/pytorch基本操作.md"
     },
     {
       "basename": "wandb",
       "path": "Learning/AI/AI tools/wandb.md"
-    },
-    {
-      "basename": "正则化",
-      "path": "Learning/AI/ML/正则化.md"
     },
     {
       "basename": "Networking",
@@ -187,18 +195,6 @@
     {
       "basename": "CAAQA",
       "path": "Lectures/CAAQA.md"
-    },
-    {
-      "basename": "CSAPP",
-      "path": "Lectures/CSAPP.md"
-    },
-    {
-      "basename": "换源",
-      "path": "util/换源.md"
-    },
-    {
-      "basename": "并行计算",
-      "path": "Lectures/并行计算.md"
     }
   ],
   "omittedPaths": [],

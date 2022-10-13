@@ -37,3 +37,11 @@ nvcc x.cu
 
 PTX是generation-*in*dependent（不依赖于代）的；而SASS是generation-dependent的，但是，一些GPU generation（不同代的架构）具有非常接近的ISA，例如 Maxwell 和 Pascal 架构。
 
+与汇编级的FI相比，IR（intermediate representation）级FI使后续分析变得更加容易。但是，主要关注的是准确性，因为对代码执行了各种后端优化，而这些优化对 IR 不可用。例如，由于IR是独立于平台的，并且假设可用的寄存器数量是无限的，所以直到后端编译阶段才会进行寄存器分配，因此IR和汇编代码中的内存操作数量可能不匹配。
+在CPU端，使用LLFI[^1]来实现IR级FI，使用PINFI[^2]实现汇编级的FI。
+IR级FI预测的Crash准确度明显低于汇编级FI，不准确的原因是汇编级动态二进制指令和后端编译器的优化，而这些在IR级是不存在的[^3]（但是预测SDC的准确度基本相同）
+
+[^1]: LLFI: An intermediate code-level fault injection tool for hardware faults
+[^2]: Quantifying the accuracy of high-level fault injection techniques for hardware faults
+[^3]: Improving the Accuracy of IR-Level Fault Injection
+[^4]: Refine: Realistic fault injection via compiler-based instrumentation for accuracy, portability and speed
