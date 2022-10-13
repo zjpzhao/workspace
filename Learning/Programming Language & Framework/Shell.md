@@ -39,7 +39,7 @@ s.length = 10
 3
 ```
 
-更多用法参考[https://blog.csdn.net/jake_tian/article/details/97274630>
+更多用法参考<https://blog.csdn.net/jake_tian/article/details/97274630>
 
 
 ## timeout命令的用法
