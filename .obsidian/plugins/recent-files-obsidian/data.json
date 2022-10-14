@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "论文写作积累",
+      "path": "papers/论文写作积累.md"
+    },
+    {
+      "basename": "NVCC",
+      "path": "Learning/GPU/NVCC.md"
+    },
+    {
       "basename": "My DAC 2023",
       "path": "papers/My DAC 2023.md"
     },
@@ -9,20 +17,12 @@
       "path": "Learning/Math/Sensitivity.md"
     },
     {
-      "basename": "论文写作积累",
-      "path": "papers/论文写作积累.md"
-    },
-    {
       "basename": "SASS和PTX",
       "path": "Learning/GPU/SASS和PTX.md"
     },
     {
       "basename": "LLVM",
       "path": "Learning/Compiling/LLVM.md"
-    },
-    {
-      "basename": "NVCC",
-      "path": "Learning/GPU/NVCC.md"
     },
     {
       "basename": "GNN",
