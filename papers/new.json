@@ -286,7 +286,8 @@
         8602,
         8906,
         9305,
-        9308
+        9308,
+        9893
       ],
       "key": "W43MLK4H",
       "name": "Resilience Analyzing",
@@ -767,6 +768,66 @@
       "title": "Parallel Thread Execution ISA",
       "uri": "http://zotero.org/users/7659667/items/2WPUCD43",
       "version": 3031
+    },
+    {
+      "DOI": "10.1109/PDP55904.2022.00025",
+      "ISBN": "978-1-66546-958-6",
+      "abstractNote": "As Graphics Processing Units (GPUs) have evolved to deliver performance increases for general-purpose computations as well as graphics and multimedia applications, soft error reliability becomes an important concern. The soft error vulnerability of the applications is evaluated via fault injection experiments. Since performing fault injection takes impractical times to cover the fault locations in complex GPU hardware structures, prediction-based techniques have been proposed to evaluate the soft error vulnerability of General-Purpose GPU (GPGPU) programs based on the hardware performance characteristics.",
+      "accessDate": "2022-10-13T11:51:56Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-10-13T11:51:46Z",
+          "dateModified": "2022-10-13T11:51:59Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\49IEXV4Q\\Topcu and Oz - 2022 - Predicting the Soft Error Vulnerability of GPGPU A.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Topcu and Oz - 2022 - Predicting the Soft Error Vulnerability of GPGPU A.pdf",
+          "uri": "http://zotero.org/users/7659667/items/49IEXV4Q"
+        }
+      ],
+      "citationKey": "PredictingSoftError2022topcua",
+      "citekey": "PredictingSoftError2022topcua",
+      "conferenceName": "2022 30th Euromicro International Conference on Parallel, Distributed and Network-Based Processing (PDP)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Burak",
+          "lastName": "Topcu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Isil",
+          "lastName": "Oz"
+        }
+      ],
+      "date": "3/2022",
+      "dateAdded": "2022-10-13T11:51:56Z",
+      "dateModified": "2022-10-13T11:51:57Z",
+      "itemID": 9893,
+      "itemKey": "35IHZXAY",
+      "itemType": "conferencePaper",
+      "key": "35IHZXAY",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "108-115",
+      "place": "Valladolid, Spain",
+      "publicationTitle": "2022 30th Euromicro International Conference on Parallel, Distributed and Network-based Processing (PDP)",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/35IHZXAY",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Predicting the Soft Error Vulnerability of GPGPU Applications",
+      "uri": "http://zotero.org/users/7659667/items/35IHZXAY",
+      "url": "https://ieeexplore.ieee.org/document/9756720/",
+      "version": 5822
     },
     {
       "DOI": "10.1109/ISPASS.2017.7975296",
@@ -7866,7 +7927,7 @@
       ],
       "date": "2022-1-1",
       "dateAdded": "2022-10-11T08:21:03Z",
-      "dateModified": "2022-10-11T08:21:05Z",
+      "dateModified": "2022-10-13T11:49:56Z",
       "issue": "1",
       "itemID": 9854,
       "itemKey": "YS7BZ2U5",
@@ -7881,12 +7942,7 @@
       "publicationTitle": "IEEE Transactions on Dependable and Secure Computing",
       "relations": [],
       "select": "zotero://select/library/items/YS7BZ2U5",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
+      "tags": [],
       "title": "Improving the Accuracy of IR-Level Fault Injection",
       "uri": "http://zotero.org/users/7659667/items/YS7BZ2U5",
       "url": "https://ieeexplore.ieee.org/document/9035448/",

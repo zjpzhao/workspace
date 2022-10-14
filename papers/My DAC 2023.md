@@ -135,3 +135,15 @@ PTX代码与GPU硬件架构有弱耦合关系
 
 
 Other possible outcome categories are *Detected and Unrecoverable Errors (DUEs)* or *Silent Data Corruptions (SDCs)*. DUEs occur when a system is able to detect an error and was unable to recover from it.
+
+# 选点
+data sensitive 和 control sensitive 具有不同的错误分布，所以采样的时候要考虑不同的数据均衡，来使从这两种benchmark中学习的模型更准。先给出所有 benchmark 的错误 ground truth 分布，然后分为两类：data / control sensitive benchmarks。
+对于 data sensitive 可能SDC比较多。
+对于 control sensitive 可能crash相对多一些。
+为了提升学习效率，可以均衡样本，比如说我这种 benchmark 的DUE比较少，模型学习得可能不够充分，所以我要增加DUE的样本。
+
+首先我需要计算一些符合我“规定的具有特定特征组合”的注入点（比如右移位指令类型且低位）的占比 分别和三种错误（SDC, masked, DUE）分布占比 的spearman指数三元组(a,b,c)，找贴近(1,0,0)，(0,1,0)，(0,0,1)的组合，尽可能多。
+然后先生成比较多的（比如1000）个注入点，如果当前benchmark类型的 SDC 最多（60%），DUE最少（10%），masked居中（30%），我的目标是三种错误选取的样本量尽量都占33%，那我就削减60%-33%=27%的SDC注入点，增加23%的DUE，和增加%3的masked。但是由于我只能做减法，所以我需要先生成特别多的注入点，保证剪枝后的数目是1000个，我实验可以和随机生成1000个注入点的模型准确率进行对比。比如生成3330个注入点，那DUE可能就是333个了不用动，我只需要剪SDC和Masked就行了，其中SDC剪：3330×60%-333=1665个注入点，Masked剪：3330×30%-333=666个注入点。剪的时候在每一类错误中也是随机减，对于不同的组合就平均。（比如(0,0,1)的特征组合有两类，那我就各自剪掉333个，这333就随机剪掉就行）
+我可以找到那些我要用的benchmark的全注入结果分布（ground truth），如下图，然后按照那个分布去做如上剪枝调整，就不用分什么 data / control sensitive benchmarks了，反正最终目标就是让这三类错误的数据均衡，模型对每一类错误的学习都充分。
+![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/Many%20kernels'%20FI%20ground%20truth%20distribution.png)
+图源：Fault Site Pruning for Practical Reliability Analysis of GPGPU Applications

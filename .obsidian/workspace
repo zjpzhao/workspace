@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "papers/论文写作积累.md",
+            "file": "papers/My DAC 2023.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -158,7 +158,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "e9d25589cbee286f",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/论文写作积累.md"
+                "file": "papers/My DAC 2023.md"
               }
             }
           },
@@ -200,7 +200,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 458
+    "width": 458,
+    "collapsed": true
   },
   "right": {
     "id": "15dd14e7068b76d4",
@@ -216,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/论文写作积累.md",
+                "file": "papers/My DAC 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,7 +229,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/论文写作积累.md",
+                "file": "papers/My DAC 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -282,10 +283,10 @@
   },
   "active": "9bdf591546e01ff7",
   "lastOpenFiles": [
-    "Learning/GPU/SASS和PTX.md",
-    "papers/论文写作积累.md",
-    "Math/Sensitivity-DESKTOP-VAHA0U3.md",
     "Learning/Math/Sensitivity.md",
+    "papers/论文写作积累.md",
+    "Learning/GPU/SASS和PTX.md",
+    "Math/Sensitivity-DESKTOP-VAHA0U3.md",
     "Learning/Compiling/LLVM.md",
     "Learning/GPU/NVCC.md",
     "Learning/AI/GNN/GNN.md",
