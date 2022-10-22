@@ -140,13 +140,8 @@
             "id": "b7fa187fdcc26453",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2022-07-12.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -155,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/AI/GNN/GNN.md"
+                "file": "papers/论文写作积累.md"
               }
             }
           },
@@ -188,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/AI/GNN/GNN.md",
+                "file": "papers/论文写作积累.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/AI/GNN/GNN.md",
+                "file": "papers/论文写作积累.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,8 +250,9 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "2256bea8e2d9765b",
+  "active": "382133fc48c45650",
   "lastOpenFiles": [
+    "Learning/AI/GNN/GNN.md",
     "papers/论文写作积累.md",
     "papers/My DAC 2023.md",
     "Learning/GPU/CUDA.md",
@@ -265,7 +261,6 @@
     "Workflow/全系workflow搭建.md",
     "Learning/GPU/Collect Metrics.md",
     "util/常用指令.md",
-    "Learning/GPU/SASS和PTX.md",
-    "Learning/计算机网络/内网穿透.md"
+    "Learning/GPU/SASS和PTX.md"
   ]
 }
