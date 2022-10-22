@@ -2,5 +2,6 @@
   "baseFontSize": 24,
   "cssTheme": "Blue Topaz",
   "translucency": false,
-  "theme": "system"
+  "theme": "system",
+  "accentColor": ""
 }

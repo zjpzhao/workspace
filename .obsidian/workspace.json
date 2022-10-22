@@ -1,0 +1,359 @@
+{
+  "main": {
+    "id": "2dfd807ae7816ced",
+    "type": "split",
+    "children": [
+      {
+        "id": "120abed3b703c197",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eaf6eeb19c0a6097",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learning/GPU/CUDA.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a06af35eb0f55d5b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.0"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "37bbc17ca00c487f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9bdf591546e01ff7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "papers/论文写作积累.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "e0c7429b846f3d2d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a0cf1842d3d31aef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learning/Programming Language & Framework/Shell.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "b18412d659260476",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "752e82db976bf1cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learning/Programming Language & Framework/Python/Python Base.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "60289d069d2fd45e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2256bea8e2d9765b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learning/AI/GNN/GNN.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "08113b728b91ead6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "267702ff7ae8b8cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learning/AI/GNN/DGL.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "047e99075829a256",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "382133fc48c45650",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "papers/论文写作积累.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "ec6700c44f53dfea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bca7d6543a75aec6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learning/GPU/层次结构.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d515228fc4fee2c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "90b4d438b39d74a4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2558a011cf756e09",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0222d5c231615f0d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "timeout",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f20fbb262ea231a5",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "2080e6ea662845b6",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "e9d25589cbee286f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b7fa187fdcc26453",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2022-07-12.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6278bdfc5111baec",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Learning/GPU/CUDA.md"
+              }
+            }
+          },
+          {
+            "id": "794d253a53c845ff",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 458
+  },
+  "right": {
+    "id": "15dd14e7068b76d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "d778f0e99239ea63",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c18d085f403f0a80",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Learning/GPU/CUDA.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c1786f4c5d4f8e7f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Learning/GPU/CUDA.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b2f77919d5b213fd",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "fe91266b255c5ce0",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "55926376afea7878",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "02e91bbb0f9df946",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "a06af35eb0f55d5b",
+  "lastOpenFiles": [
+    "Learning/GPU/CUDA Binary Utilities.md",
+    "Learning/GPU/Nsight Compute工具.md",
+    "Workflow/全系workflow搭建.md",
+    "papers/论文写作积累.md",
+    "Learning/GPU/Collect Metrics.md",
+    "util/常用指令.md",
+    "Learning/GPU/SASS和PTX.md",
+    "Learning/计算机网络/内网穿透.md",
+    "2022-07-12.md",
+    "util/Obsidian.md"
+  ]
+}
