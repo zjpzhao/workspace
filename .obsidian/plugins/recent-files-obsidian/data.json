@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "GNN",
+      "path": "Learning/AI/GNN/GNN.md"
+    },
+    {
+      "basename": "论文写作积累",
+      "path": "papers/论文写作积累.md"
+    },
+    {
+      "basename": "My DAC 2023",
+      "path": "papers/My DAC 2023.md"
+    },
+    {
       "basename": "CUDA",
       "path": "Learning/GPU/CUDA.md"
     },
@@ -15,10 +27,6 @@
     {
       "basename": "全系workflow搭建",
       "path": "Workflow/全系workflow搭建.md"
-    },
-    {
-      "basename": "论文写作积累",
-      "path": "papers/论文写作积累.md"
     },
     {
       "basename": "Collect Metrics",
@@ -45,10 +53,6 @@
       "path": "util/Obsidian.md"
     },
     {
-      "basename": "My DAC 2023",
-      "path": "papers/My DAC 2023.md"
-    },
-    {
       "basename": "局域网服务器通过本地代理联网",
       "path": "Learning/计算机网络/局域网服务器通过本地代理联网.md"
     },
@@ -63,10 +67,6 @@
     {
       "basename": "DGL",
       "path": "Learning/AI/GNN/DGL.md"
-    },
-    {
-      "basename": "GNN",
-      "path": "Learning/AI/GNN/GNN.md"
     },
     {
       "basename": "Code_对神经网络模型参数进行多线程单比特位故障注入",
