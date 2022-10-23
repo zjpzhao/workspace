@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/论文写作积累.md"
+                "file": "Learning/AI/GNN/GNN.md"
               }
             }
           },
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/论文写作积累.md",
+                "file": "Learning/AI/GNN/GNN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/论文写作积累.md",
+                "file": "Learning/AI/GNN/GNN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -250,10 +250,10 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "382133fc48c45650",
+  "active": "2256bea8e2d9765b",
   "lastOpenFiles": [
-    "Learning/AI/GNN/GNN.md",
     "papers/论文写作积累.md",
+    "Learning/AI/GNN/GNN.md",
     "papers/My DAC 2023.md",
     "Learning/GPU/CUDA.md",
     "Learning/GPU/CUDA Binary Utilities.md",
