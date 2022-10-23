@@ -2788,6 +2788,7 @@
       "publicationTitle": "2018 51st Annual IEEE/ACM International Symposium on Microarchitecture (MICRO)",
       "publisher": "IEEE",
       "relations": [
+        "http://zotero.org/users/7659667/items/66MG5YLJ",
         "http://zotero.org/users/7659667/items/VDFASSWC"
       ],
       "select": "zotero://select/library/items/DI2QUIAU",
@@ -2799,7 +2800,7 @@
       "title": "Fault Site Pruning for Practical Reliability Analysis of GPGPU Applications",
       "uri": "http://zotero.org/users/7659667/items/DI2QUIAU",
       "url": "https://ieeexplore.ieee.org/document/8574583/",
-      "version": 5850
+      "version": 6029
     },
     {
       "ISBN": "978-0-13-301367-2",
@@ -3455,7 +3456,7 @@
       "title": "GPU-Qin: A methodology for evaluating the error resilience of GPGPU applications",
       "uri": "http://zotero.org/users/7659667/items/8ZCMTR3S",
       "url": "http://ieeexplore.ieee.org/document/6844486/",
-      "version": 5856
+      "version": 5870
     },
     {
       "DOI": "10.1109/SC41405.2020.00092",
@@ -6339,7 +6340,9 @@
       "notes": [],
       "pages": "30-44",
       "publicationTitle": "IEEE Transactions on Computers",
-      "relations": [],
+      "relations": [
+        "http://zotero.org/users/7659667/items/DI2QUIAU"
+      ],
       "select": "zotero://select/library/items/66MG5YLJ",
       "tags": [
         {
@@ -6349,7 +6352,7 @@
       "title": "Practical Resilience Analysis of GPGPU Applications in the Presence of Single- and Multi-Bit Faults",
       "uri": "http://zotero.org/users/7659667/items/66MG5YLJ",
       "url": "https://ieeexplore.ieee.org/document/9035460/",
-      "version": 5858,
+      "version": 6029,
       "volume": "70"
     },
     {
