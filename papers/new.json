@@ -240,7 +240,8 @@
         7889,
         7899,
         9419,
-        9854
+        9854,
+        10226
       ],
       "key": "RLZKFTSE",
       "name": "Modeling Tools",
@@ -5160,7 +5161,7 @@
       ],
       "date": "2020-5-1",
       "dateAdded": "2022-09-06T11:57:15Z",
-      "dateModified": "2022-09-11T09:59:30Z",
+      "dateModified": "2022-10-24T13:43:32Z",
       "issue": "5",
       "itemID": 9409,
       "itemKey": "9MK7SG82",
@@ -5175,11 +5176,15 @@
       "publicationTitle": "IEEE Transactions on Computers",
       "relations": [],
       "select": "zotero://select/library/items/9MK7SG82",
-      "tags": [],
+      "tags": [
+        {
+          "tag": "⭐"
+        }
+      ],
       "title": "A Neural Network Based Fault Management Scheme for Reliable Image Processing",
       "uri": "http://zotero.org/users/7659667/items/9MK7SG82",
       "url": "https://ieeexplore.ieee.org/document/8955912/",
-      "version": 5210,
+      "version": 6115,
       "volume": "69"
     },
     {
@@ -6351,6 +6356,71 @@
       "volume": "70"
     },
     {
+      "DOI": "10.1007/s10766-021-00707-0",
+      "ISSN": "0885-7458, 1573-7640",
+      "abstractNote": "With the widespread use of the multicore systems having smaller transistor sizes, soft errors become an important issue for parallel program execution. Fault injection is a prevalent method to quantify the soft error rates of the applications. However, it is very time consuming to perform detailed fault injection experiments. Therefore, prediction-based techniques have been proposed to evaluate the soft error vulnerability in a faster way. In this work, we present a soft error vulnerability prediction approach for parallel applications using machine learning algorithms. We deﬁne a set of features including thread communication, data sharing, parallel programming, and performance characteristics; and train our models based on three ML algorithms. This study uses the parallel programming features, as well as the combination of all features for the ﬁrst time in vulnerability prediction of parallel programs. We propose two models for the soft error vulnerability prediction: (1) A regression model with rigorous feature selection analysis that estimates correct execution rates, (2) A novel classiﬁcation model that predicts the vulnerability level of the target programs. We get maximum prediction accuracy rate of 73.2% for the regression-based model, and achieve 89% F-score for our classiﬁcation model.",
+      "accessDate": "2022-10-24T13:40:11Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-10-24T13:40:05Z",
+          "dateModified": "2022-10-24T13:40:13Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\GIMH3ZQ6\\Öz and Arslan - 2021 - Predicting the Soft Error Vulnerability of Paralle.pdf",
+          "relations": [],
+          "select": "zotero://select/library/items/GIMH3ZQ6",
+          "tags": [],
+          "title": "Öz and Arslan - 2021 - Predicting the Soft Error Vulnerability of Paralle.pdf",
+          "uri": "http://zotero.org/users/7659667/items/GIMH3ZQ6"
+        }
+      ],
+      "callNumber": "4",
+      "citationKey": "PredictingSoftError2021oz",
+      "citekey": "PredictingSoftError2021oz",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Işıl",
+          "lastName": "Öz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sanem",
+          "lastName": "Arslan"
+        }
+      ],
+      "date": "06/2021",
+      "dateAdded": "2022-10-24T13:40:11Z",
+      "dateModified": "2022-10-24T13:41:34Z",
+      "issue": "3",
+      "itemID": 10226,
+      "itemKey": "JF22JM4L",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Int J Parallel Prog",
+      "key": "JF22JM4L",
+      "language": "en",
+      "libraryCatalog": "1.447",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "410-439",
+      "publicationTitle": "International Journal of Parallel Programming",
+      "relations": [],
+      "select": "zotero://select/library/items/JF22JM4L",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        },
+        {
+          "tag": "⭐"
+        }
+      ],
+      "title": "Predicting the Soft Error Vulnerability of Parallel Applications Using Machine Learning",
+      "uri": "http://zotero.org/users/7659667/items/JF22JM4L",
+      "url": "https://link.springer.com/10.1007/s10766-021-00707-0",
+      "version": 6111,
+      "volume": "49"
+    },
+    {
       "DOI": "10.1109/PDP55904.2022.00025",
       "ISBN": "978-1-66546-958-6",
       "abstractNote": "As Graphics Processing Units (GPUs) have evolved to deliver performance increases for general-purpose computations as well as graphics and multimedia applications, soft error reliability becomes an important concern. The soft error vulnerability of the applications is evaluated via fault injection experiments. Since performing fault injection takes impractical times to cover the fault locations in complex GPU hardware structures, prediction-based techniques have been proposed to evaluate the soft error vulnerability of General-Purpose GPU (GPGPU) programs based on the hardware performance characteristics.",
@@ -7243,7 +7313,7 @@
       ],
       "date": "3/2019",
       "dateAdded": "2022-09-06T11:57:44Z",
-      "dateModified": "2022-09-06T11:57:45Z",
+      "dateModified": "2022-10-24T13:43:48Z",
       "itemID": 9411,
       "itemKey": "HNRH8XQE",
       "itemType": "conferencePaper",
@@ -7262,6 +7332,9 @@
         {
           "tag": "/unread",
           "type": 1
+        },
+        {
+          "tag": "⭐"
         }
       ],
       "title": "A Smart Fault Detection Scheme for Reliable Image Processing Applications",
