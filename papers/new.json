@@ -36,6 +36,15 @@
       "name": "Error Propagation Modeling",
       "parent": ""
     },
+    "9AAKJDNS": {
+      "collections": [],
+      "items": [
+        10229
+      ],
+      "key": "9AAKJDNS",
+      "name": "GPU Scheduling",
+      "parent": ""
+    },
     "9ML3SXBU": {
       "collections": [],
       "items": [
@@ -47,6 +56,15 @@
       ],
       "key": "9ML3SXBU",
       "name": "util",
+      "parent": ""
+    },
+    "DDQSDBPP": {
+      "collections": [],
+      "items": [
+        10232
+      ],
+      "key": "DDQSDBPP",
+      "name": "GPU Acceleration",
       "parent": ""
     },
     "FS5ZRIWZ": {
@@ -5884,6 +5902,88 @@
       "version": 4916
     },
     {
+      "abstractNote": "Emerging GPGPU architectures, along with programming models like CUDA and OpenCL, offer a cost-effective platform for many applications by providing high thread level parallelism at lower energy budgets. Unfortunately, for many general-purpose applications, available hardware resources of a GPGPU are not efﬁciently utilized, leading to lost opportunity in improving performance. A major cause of this is the inefﬁciency of current warp scheduling policies in tolerating long memory latencies.",
+      "attachments": [
+        {
+          "dateAdded": "2022-10-25T23:48:23Z",
+          "dateModified": "2022-10-25T23:48:34Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\CW5Q3G3D\\Jog et al. - OWL Cooperative Thread Array Aware Scheduling Tec.pdf",
+          "relations": [],
+          "select": "zotero://select/library/items/CW5Q3G3D",
+          "tags": [],
+          "title": "Jog et al. - OWL Cooperative Thread Array Aware Scheduling Tec.pdf",
+          "uri": "http://zotero.org/users/7659667/items/CW5Q3G3D"
+        }
+      ],
+      "citationKey": "OWLCooperativeThreadjog",
+      "citekey": "OWLCooperativeThreadjog",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Adwait",
+          "lastName": "Jog"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Onur",
+          "lastName": "Kayiran"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nachiappan Chidambaram",
+          "lastName": "Nachiappan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Asit K",
+          "lastName": "Mishra"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mahmut T",
+          "lastName": "Kandemir"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Onur",
+          "lastName": "Mutlu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ravishankar",
+          "lastName": "Iyer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Chita R",
+          "lastName": "Das"
+        }
+      ],
+      "dateAdded": "2022-10-25T23:48:33Z",
+      "dateModified": "2022-10-25T23:48:47Z",
+      "itemID": 10229,
+      "itemKey": "6TZ6MXUR",
+      "itemType": "journalArticle",
+      "key": "6TZ6MXUR",
+      "language": "en",
+      "libraryCatalog": "Zotero",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "12",
+      "relations": [],
+      "select": "zotero://select/library/items/6TZ6MXUR",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "OWL: Cooperative Thread Array Aware Scheduling Techniques for Improving GPGPU Performance",
+      "uri": "http://zotero.org/users/7659667/items/6TZ6MXUR",
+      "version": 6148
+    },
+    {
       "attachments": [
         {
           "dateAdded": "2022-05-16T14:16:20Z",
@@ -8165,6 +8265,83 @@
       "uri": "http://zotero.org/users/7659667/items/HGJ3KG7A",
       "url": "https://dl.acm.org/doi/10.1145/3123939.3123976",
       "version": 5664
+    },
+    {
+      "DOI": "10.1145/3123939.3123976",
+      "ISBN": "978-1-4503-4952-9",
+      "abstractNote": "GPUs lack fundamental support for data-dependent parallelism and synchronization. While CUDA Dynamic Parallelism signals progress in this direction, many limitations and challenges still remain. This paper introduces Wireframe, a hardware-software solution that enables generalized support for data-dependent parallelism and synchronization. Wireframe enables applications to naturally express execution dependencies across different thread blocks through a dependency graph abstraction at run-time, which is sent to the GPU hardware at kernel launch. At run-time, the hardware enforces the dependencies speciﬁed in the dependency graph through a dependencyaware thread block scheduler. Overall, Wireframe is able to improve total execution time up to 65.20% with an average of 45.07%.",
+      "accessDate": "2022-10-25T23:55:30Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-10-25T23:55:23Z",
+          "dateModified": "2022-10-25T23:55:31Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\A8Z45CCJ\\Abdolrashidi et al. - 2017 - Wireframe supporting data-dependent parallelism t.pdf",
+          "relations": [],
+          "select": "zotero://select/library/items/A8Z45CCJ",
+          "tags": [],
+          "title": "Abdolrashidi et al. - 2017 - Wireframe supporting data-dependent parallelism t.pdf",
+          "uri": "http://zotero.org/users/7659667/items/A8Z45CCJ"
+        }
+      ],
+      "citationKey": "WireframeSupportingDatadependent2017abdolrashidia",
+      "citekey": "WireframeSupportingDatadependent2017abdolrashidia",
+      "conferenceName": "MICRO-50: The 50th Annual IEEE/ACM International Symposium on Microarchitecture",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "AmirAli",
+          "lastName": "Abdolrashidi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Devashree",
+          "lastName": "Tripathy"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mehmet Esat",
+          "lastName": "Belviranli"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Laxmi Narayan",
+          "lastName": "Bhuyan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Daniel",
+          "lastName": "Wong"
+        }
+      ],
+      "date": "2017-10-14",
+      "dateAdded": "2022-10-25T23:55:30Z",
+      "dateModified": "2022-10-25T23:55:41Z",
+      "itemID": 10232,
+      "itemKey": "ULZJXEIE",
+      "itemType": "conferencePaper",
+      "key": "ULZJXEIE",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "600-611",
+      "place": "Cambridge Massachusetts",
+      "publicationTitle": "Proceedings of the 50th Annual IEEE/ACM International Symposium on Microarchitecture",
+      "publisher": "ACM",
+      "relations": [],
+      "select": "zotero://select/library/items/ULZJXEIE",
+      "shortTitle": "Wireframe",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Wireframe: supporting data-dependent parallelism through dependency graph execution in GPUs",
+      "uri": "http://zotero.org/users/7659667/items/ULZJXEIE",
+      "url": "https://dl.acm.org/doi/10.1145/3123939.3123976",
+      "version": 6168
     }
   ],
   "version": {
