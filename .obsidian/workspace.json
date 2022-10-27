@@ -75,8 +75,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d51dc182023adedd",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -247,10 +258,7 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "382133fc48c45650",
+  "active": "d51dc182023adedd",
   "lastOpenFiles": [
     "Learning/AI/GNN/GNN.md",
     "papers/论文写作积累.md",

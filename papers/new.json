@@ -259,7 +259,8 @@
         7899,
         9419,
         9854,
-        10226
+        10226,
+        10237
       ],
       "key": "RLZKFTSE",
       "name": "Modeling Tools",
@@ -285,7 +286,8 @@
         8998,
         9409,
         9411,
-        9728
+        9728,
+        10235
       ],
       "key": "TQUX3GGM",
       "name": "Intelligent application",
@@ -2032,6 +2034,72 @@
       "title": "Decoupling the Depth and Scope of Graph Neural Networks",
       "uri": "http://zotero.org/users/7659667/items/UMMJ78E9",
       "version": 5465
+    },
+    {
+      "DOI": "10.1007/s10836-022-06005-y",
+      "ISSN": "0923-8174, 1573-0727",
+      "abstractNote": "Soft errors are increasing in computer systems due to shrinking feature sizes. Soft errors can induce incorrect outputs, also called silent data corruption (SDC), which raises no warnings in the system and hence is difficult to detect. To prevent SDC effectively, protection techniques require a fine-grained profiling of SDC-prone instructions, which is often obtained by applying machine learning models. However, these models rely on handcrafted features, and lack the ability to reason about SDC propagation, which leads to an inferior SDC prediction performance. We propose a novel Graph Attention neTwork to Predict SDC-prone instructions (GATPS). The GATPS representation is a heterogeneous graph with different types of edges to represent various instruction relations. By stacking layers in which nodes are able to attend over their neighborhoods’ features, GATPS automatically captures the structural features that contribute to SDC propagation. The attention mechanism is applied to compute the importance values to the neighboring nodes, which quantifies the fault effect on the neighboring nodes. Moreover, the inductive model of GATPS can be applied to unseen programs without retraining, and it requires no fault injection information of the target program. Experiments revealed GATPS achieved a 34% higher F1 score compared to the baseline method and a 40-fold speedup compared to the fault injection approach.",
+      "accessDate": "2022-10-27T07:45:36Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-10-27T07:45:31Z",
+          "dateModified": "2022-10-27T07:45:39Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\9RNN949R\\Ma et al. - 2022 - Deep Soft Error Propagation Modeling Using Graph A.pdf",
+          "relations": [],
+          "select": "zotero://select/library/items/9RNN949R",
+          "tags": [],
+          "title": "Ma et al. - 2022 - Deep Soft Error Propagation Modeling Using Graph A.pdf",
+          "uri": "http://zotero.org/users/7659667/items/9RNN949R"
+        }
+      ],
+      "citationKey": "DeepSoftError2022ma",
+      "citekey": "DeepSoftError2022ma",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Junchi",
+          "lastName": "Ma"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Zongtao",
+          "lastName": "Duan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lei",
+          "lastName": "Tang"
+        }
+      ],
+      "date": "06/2022",
+      "dateAdded": "2022-10-27T07:45:37Z",
+      "dateModified": "2022-10-27T07:45:38Z",
+      "issue": "3",
+      "itemID": 10237,
+      "itemKey": "DTQ3NA64",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "J Electron Test",
+      "key": "DTQ3NA64",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "303-319",
+      "publicationTitle": "Journal of Electronic Testing",
+      "relations": [],
+      "select": "zotero://select/library/items/DTQ3NA64",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Deep Soft Error Propagation Modeling Using Graph Attention Network",
+      "uri": "http://zotero.org/users/7659667/items/DTQ3NA64",
+      "url": "https://link.springer.com/10.1007/s10836-022-06005-y",
+      "version": 6181,
+      "volume": "38"
     },
     {
       "DOI": "10.1109/DAC18074.2021.9586298",
@@ -3929,6 +3997,93 @@
       "uri": "http://zotero.org/users/7659667/items/TUW8PKTJ",
       "url": "https://dl.acm.org/doi/10.1145/3458817.3476170",
       "version": 2601
+    },
+    {
+      "DOI": "10.1145/3489517.3530584",
+      "ISBN": "978-1-4503-9142-9",
+      "abstractNote": "It is an open problem to compile DNN models on GPU and improve the performance. A novel framework, GTuner, is proposed to jointly learn from the structures of computational graphs and the statistical features of codes to find the optimal code implementations. A Graph ATtention network (GAT) is designed as the performance estimator in GTuner. In GAT, graph neural layers are used to propagate the information in the graph and a multi-head self-attention module is designed to learn the complicated relationships between the features. Under the guidance of GAT, the GPU codes are generated through auto-tuning. Experimental results demonstrate that our method outperforms the previous arts remarkably.",
+      "accessDate": "2022-10-27T07:34:51Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-10-27T07:34:42Z",
+          "dateModified": "2022-10-27T07:34:53Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\M2RPDVY7\\Sun et al. - 2022 - GTuner tuning DNN computations on GPU via graph a.pdf",
+          "relations": [],
+          "select": "zotero://select/library/items/M2RPDVY7",
+          "tags": [],
+          "title": "Sun et al. - 2022 - GTuner tuning DNN computations on GPU via graph a.pdf",
+          "uri": "http://zotero.org/users/7659667/items/M2RPDVY7"
+        }
+      ],
+      "citationKey": "GTunerTuningDNN2022sun",
+      "citekey": "GTunerTuningDNN2022sun",
+      "conferenceName": "DAC '22: 59th ACM/IEEE Design Automation Conference",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Qi",
+          "lastName": "Sun"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Xinyun",
+          "lastName": "Zhang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Hao",
+          "lastName": "Geng"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yuxuan",
+          "lastName": "Zhao"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yang",
+          "lastName": "Bai"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Haisheng",
+          "lastName": "Zheng"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bei",
+          "lastName": "Yu"
+        }
+      ],
+      "date": "2022-07-10",
+      "dateAdded": "2022-10-27T07:34:51Z",
+      "dateModified": "2022-10-27T07:34:52Z",
+      "itemID": 10235,
+      "itemKey": "KXNZYS9M",
+      "itemType": "conferencePaper",
+      "key": "KXNZYS9M",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1045-1050",
+      "place": "San Francisco California",
+      "publicationTitle": "Proceedings of the 59th ACM/IEEE Design Automation Conference",
+      "publisher": "ACM",
+      "relations": [],
+      "select": "zotero://select/library/items/KXNZYS9M",
+      "shortTitle": "GTuner",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "GTuner: tuning DNN computations on GPU via graph attention network",
+      "uri": "http://zotero.org/users/7659667/items/KXNZYS9M",
+      "url": "https://dl.acm.org/doi/10.1145/3489517.3530584",
+      "version": 6178
     },
     {
       "DOI": "10.1145/3503221.3508414",
