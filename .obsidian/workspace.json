@@ -86,8 +86,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -258,7 +257,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d51dc182023adedd",
+  "active": "382133fc48c45650",
   "lastOpenFiles": [
     "Learning/AI/GNN/GNN.md",
     "papers/论文写作积累.md",
