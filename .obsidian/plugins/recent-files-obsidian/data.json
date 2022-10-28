@@ -1,6 +1,58 @@
 {
   "recentFiles": [
     {
+      "basename": "CUDA",
+      "path": "Learning/GPU/CUDA.md"
+    },
+    {
+      "basename": "层次结构",
+      "path": "Learning/GPU/层次结构.md"
+    },
+    {
+      "basename": "理解和区分conda cudatoolkit、Nvidia cudatoolkit、nvidia-smi回显cuda版本",
+      "path": "Learning/GPU/理解和区分conda cudatoolkit、Nvidia cudatoolkit、nvidia-smi回显cuda版本.md"
+    },
+    {
+      "basename": "Benchmark探索",
+      "path": "Learning/GPU/Benchmark探索.md"
+    },
+    {
+      "basename": "Collect Metrics",
+      "path": "Learning/GPU/Collect Metrics.md"
+    },
+    {
+      "basename": "CUDA Binary Utilities",
+      "path": "Learning/GPU/CUDA Binary Utilities.md"
+    },
+    {
+      "basename": "GPU",
+      "path": "Learning/GPU/GPU.md"
+    },
+    {
+      "basename": "Nsight Compute工具",
+      "path": "Learning/GPU/Nsight Compute工具.md"
+    },
+    {
+      "basename": "NVCC",
+      "path": "Learning/GPU/NVCC.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "Learning/Tools/Docker.md"
+    },
+    {
+      "basename": "Tricks",
+      "path": "util/Tricks.md"
+    },
+    {
+      "basename": "文献阅读批注和同步体系",
+      "path": "Workflow/文献阅读批注和同步体系.md"
+    },
+    {
+      "basename": "My DAC 2023",
+      "path": "papers/My DAC 2023.md"
+    },
+    {
       "basename": "T-SNE",
       "path": "Learning/AI/AI tools/T-SNE.md"
     },
@@ -13,28 +65,8 @@
       "path": "Learning/AI/GNN/GNN.md"
     },
     {
-      "basename": "My DAC 2023",
-      "path": "papers/My DAC 2023.md"
-    },
-    {
-      "basename": "CUDA",
-      "path": "Learning/GPU/CUDA.md"
-    },
-    {
-      "basename": "CUDA Binary Utilities",
-      "path": "Learning/GPU/CUDA Binary Utilities.md"
-    },
-    {
-      "basename": "Nsight Compute工具",
-      "path": "Learning/GPU/Nsight Compute工具.md"
-    },
-    {
       "basename": "全系workflow搭建",
       "path": "Workflow/全系workflow搭建.md"
-    },
-    {
-      "basename": "Collect Metrics",
-      "path": "Learning/GPU/Collect Metrics.md"
     },
     {
       "basename": "常用指令",
@@ -61,10 +93,6 @@
       "path": "Learning/计算机网络/局域网服务器通过本地代理联网.md"
     },
     {
-      "basename": "层次结构",
-      "path": "Learning/GPU/层次结构.md"
-    },
-    {
       "basename": "linux配置代理Qv2ray和Clash",
       "path": "util/linux配置代理Qv2ray和Clash.md"
     },
@@ -83,14 +111,6 @@
     {
       "basename": "Shell",
       "path": "Learning/Programming Language & Framework/Shell.md"
-    },
-    {
-      "basename": "GPU",
-      "path": "Learning/GPU/GPU.md"
-    },
-    {
-      "basename": "Benchmark探索",
-      "path": "Learning/GPU/Benchmark探索.md"
     },
     {
       "basename": "Git",
@@ -129,14 +149,6 @@
       "path": "papers/论文撰写.md"
     },
     {
-      "basename": "文献阅读批注和同步体系",
-      "path": "Workflow/文献阅读批注和同步体系.md"
-    },
-    {
-      "basename": "Tricks",
-      "path": "util/Tricks.md"
-    },
-    {
       "basename": "云计算课程论文研读报告",
       "path": "Lectures/云计算课程论文研读报告.md"
     },
@@ -159,10 +171,6 @@
     {
       "basename": "图床搭建及配置",
       "path": "Workflow/图床搭建及配置.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "Learning/Tools/Docker.md"
     },
     {
       "basename": "Code_位翻转",
@@ -191,14 +199,6 @@
     {
       "basename": "CSAPP",
       "path": "Lectures/CSAPP.md"
-    },
-    {
-      "basename": "换源",
-      "path": "util/换源.md"
-    },
-    {
-      "basename": "并行计算",
-      "path": "Lectures/并行计算.md"
     }
   ],
   "omittedPaths": [],
