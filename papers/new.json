@@ -34,7 +34,7 @@
       ],
       "key": "89K6PZVW",
       "name": "Error Propagation Modeling",
-      "parent": ""
+      "parent": "KBPQ2ZH3"
     },
     "9AAKJDNS": {
       "collections": [],
@@ -56,15 +56,6 @@
       ],
       "key": "9ML3SXBU",
       "name": "util",
-      "parent": ""
-    },
-    "DDQSDBPP": {
-      "collections": [],
-      "items": [
-        10232
-      ],
-      "key": "DDQSDBPP",
-      "name": "GPU Acceleration",
       "parent": ""
     },
     "FS5ZRIWZ": {
@@ -136,7 +127,8 @@
         9462,
         9470,
         9473,
-        9746
+        9746,
+        10244
       ],
       "key": "JNY8VHWT",
       "name": "GNN",
@@ -151,6 +143,20 @@
       ],
       "key": "JYHUVDJF",
       "name": "Cloud Computing",
+      "parent": ""
+    },
+    "KBPQ2ZH3": {
+      "collections": [
+        "89K6PZVW",
+        "Q7FV3VXB",
+        "TQUX3GGM",
+        "RLZKFTSE",
+        "W43MLK4H",
+        "VK6XIGJC"
+      ],
+      "items": [],
+      "key": "KBPQ2ZH3",
+      "name": "Soft Error",
       "parent": ""
     },
     "KCJQMBL7": {
@@ -196,6 +202,15 @@
       "name": "Reading",
       "parent": ""
     },
+    "LP7Q7M4A": {
+      "collections": [],
+      "items": [
+        10241
+      ],
+      "key": "LP7Q7M4A",
+      "name": "Methodology & Tools",
+      "parent": "SR4PU68B"
+    },
     "NTN23YJ8": {
       "collections": [],
       "items": [
@@ -235,7 +250,7 @@
       ],
       "key": "Q7FV3VXB",
       "name": "Inputs Related",
-      "parent": ""
+      "parent": "KBPQ2ZH3"
     },
     "QVWNZEJA": {
       "collections": [],
@@ -264,12 +279,13 @@
       ],
       "key": "RLZKFTSE",
       "name": "Modeling Tools",
-      "parent": ""
+      "parent": "KBPQ2ZH3"
     },
     "SR4PU68B": {
       "collections": [
         "GRA3RRQX",
-        "JNY8VHWT"
+        "JNY8VHWT",
+        "LP7Q7M4A"
       ],
       "items": [],
       "key": "SR4PU68B",
@@ -291,7 +307,7 @@
       ],
       "key": "TQUX3GGM",
       "name": "Intelligent application",
-      "parent": ""
+      "parent": "KBPQ2ZH3"
     },
     "TSDC4869": {
       "collections": [],
@@ -321,7 +337,7 @@
       ],
       "key": "VK6XIGJC",
       "name": "Vulnerability",
-      "parent": ""
+      "parent": "KBPQ2ZH3"
     },
     "W43MLK4H": {
       "collections": [],
@@ -345,7 +361,7 @@
       ],
       "key": "W43MLK4H",
       "name": "Resilience Analyzing",
-      "parent": ""
+      "parent": "KBPQ2ZH3"
     },
     "W6B62HNX": {
       "collections": [],
@@ -797,6 +813,161 @@
       "version": 3396
     },
     {
+      "abstractNote": "Most of current network representation models are learned in unsupervised fashions, which usually lack the capability of discrimination when applied to network analysis tasks, such as node classiﬁcation. It is worth noting that label information is valuable for learning the discriminative network representations. However, labels of all training nodes are always difﬁcult or expensive to obtain and manually labeling all nodes for training is inapplicable. Different sets of labeled nodes for model learning lead to different network representation results. In this paper, we propose a novel method, termed as ANRMAB, to learn the active discriminative network representations with a multi-armed bandit mechanism in active learning setting. Speciﬁcally, based on the networking data and the learned network representations, we design three active learning query strategies. By deriving an effective reward scheme that is closely related to the estimated performance measure of interest, ANRMAB uses a multi-armed bandit mechanism for adaptive decision making to select the most informative nodes for labeling. The updated labeled nodes are then used for further discriminative network representation learning. Experiments are conducted on three public data sets to verify the effectiveness of ANRMAB.",
+      "attachments": [
+        {
+          "dateAdded": "2022-10-27T13:12:01Z",
+          "dateModified": "2022-10-27T13:13:09Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\R5AX36J2\\Gao et al. - Active Discriminative Network Representation Learn.pdf",
+          "relations": [],
+          "select": "zotero://select/library/items/R5AX36J2",
+          "tags": [],
+          "title": "Gao et al. - Active Discriminative Network Representation Learn.pdf",
+          "uri": "http://zotero.org/users/7659667/items/R5AX36J2"
+        }
+      ],
+      "citationKey": "ActiveDiscriminativeNetworkgao",
+      "citekey": "ActiveDiscriminativeNetworkgao",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Li",
+          "lastName": "Gao"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Hong",
+          "lastName": "Yang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Chuan",
+          "lastName": "Zhou"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jia",
+          "lastName": "Wu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Shirui",
+          "lastName": "Pan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yue",
+          "lastName": "Hu"
+        }
+      ],
+      "dateAdded": "2022-10-27T13:13:08Z",
+      "dateModified": "2022-10-27T14:22:23Z",
+      "itemID": 10243,
+      "itemKey": "MDXGLJ47",
+      "itemType": "journalArticle",
+      "key": "MDXGLJ47",
+      "language": "en",
+      "libraryCatalog": "Zotero",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "7",
+      "relations": [],
+      "select": "zotero://select/library/items/MDXGLJ47",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Active Discriminative Network Representation Learning",
+      "uri": "http://zotero.org/users/7659667/items/MDXGLJ47",
+      "version": 6237
+    },
+    {
+      "abstractNote": "Graph embedding provides an e cient solution for graph analysis by converting the graph into a low-dimensional space which preserves the structure information. In contrast to the graph structure data, the i.i.d. node embeddings can be processed e ciently in terms of both time and space. Current semi-supervised graph embedding algorithms assume the labelled nodes are given, which may not be always true in the real world. While manually label all training data is inapplicable, how to select the subset of training data to label so as to maximize the graph analysis task performance is of great importance. is motivates our proposed active graph embedding (AGE) framework, in which we design a general active learning query strategy for any semi-supervised graph embedding algorithm. AGE selects the most informative nodes as the training labelled nodes based on the graphical information (i.e., node centrality) as well as the learnt node embedding (i.e., node classi cation uncertainty and node embedding representativeness). Di erent query criteria are combined with the time-sensitive parameters which shi the focus from graph based query criteria to embedding based criteria as the learning progresses. Experiments have been conducted on three public datasets and the results veri ed the effectiveness of each component of our query strategy and the power of combining them using time-sensitive parameters. Our code is available online1.",
+      "accessDate": "2022-10-27T13:11:54Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-10-27T13:11:47Z",
+          "dateModified": "2022-10-27T13:11:56Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\8T6W9CZB\\Cai et al. - 2017 - Active Learning for Graph Embedding.pdf",
+          "relations": [],
+          "select": "zotero://select/library/items/8T6W9CZB",
+          "tags": [],
+          "title": "Cai et al. - 2017 - Active Learning for Graph Embedding.pdf",
+          "uri": "http://zotero.org/users/7659667/items/8T6W9CZB"
+        }
+      ],
+      "citationKey": "ActiveLearningGraph2017cai",
+      "citekey": "ActiveLearningGraph2017cai",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Hongyun",
+          "lastName": "Cai"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Vincent W.",
+          "lastName": "Zheng"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Kevin Chen-Chuan",
+          "lastName": "Chang"
+        }
+      ],
+      "date": "2017-05-15",
+      "dateAdded": "2022-10-27T13:11:54Z",
+      "dateModified": "2022-10-27T14:22:24Z",
+      "extra": "arXiv:1705.05085 [cs, stat]",
+      "itemID": 10244,
+      "itemKey": "IVCV3XSX",
+      "itemType": "preprint",
+      "key": "IVCV3XSX",
+      "language": "en",
+      "libraryCatalog": "arXiv.org",
+      "libraryID": 1,
+      "notes": [
+        {
+          "dateAdded": "2022-10-27T13:11:54Z",
+          "dateModified": "2022-10-27T13:11:54Z",
+          "itemType": "note",
+          "key": "WH52D926",
+          "note": "Comment: Technical Report",
+          "parentItem": "IVCV3XSX",
+          "relations": {},
+          "tags": [],
+          "uri": "http://zotero.org/users/7659667/items/WH52D926",
+          "version": 6231
+        }
+      ],
+      "number": "arXiv:1705.05085",
+      "publisher": "arXiv",
+      "relations": [],
+      "select": "zotero://select/library/items/IVCV3XSX",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        },
+        {
+          "tag": "Computer Science - Machine Learning",
+          "type": 1
+        },
+        {
+          "tag": "Statistics - Machine Learning",
+          "type": 1
+        }
+      ],
+      "title": "Active Learning for Graph Embedding",
+      "uri": "http://zotero.org/users/7659667/items/IVCV3XSX",
+      "url": "http://arxiv.org/abs/1705.05085",
+      "version": 6231
+    },
+    {
       "DOI": "10.1016/j.microrel.2020.113648",
       "ISSN": "00262714",
       "abstractNote": "Convolutional Neural Networks (CNNs) models are widely implemented on Graphic Processing Units (GPUs) due to their computational powers, particularly, in object classiﬁcation and detection. In safety-critical environments, reliability issues of these models induced by soft errors are a major concern. In this paper, we analyze the reliability of VGG model, a well-known CNN architecture, through two metrics: (1) the so-called Kernels Vulnerability Factor (KVF) used to identify vulnerable kernels and (2) the Layer Vulnerability Factor (LVF) used to determine track fault propagation through layers. As our model runs on an NVIDIA's GPU, our main evaluation tool in this study is the fault injector called SASSIFI. Our results show that Im2col presents the highest vulnerability among all kernels and hardening this kernel signiﬁcantly reduces silent data corruption rate by 85.67% with 35.63% time penalty. The average of errors causing misclassiﬁcation may reach up to 19.7% in some injection modes and this may be extremely high and unacceptable. Fault injection mode aﬀects both KVF and LVF because RF mode is performed at architecture level, while IOV and IOA modes are at a diﬀerent level (i.e., program level). Also, a thorough comparison among VGG, AlexNet, and ResNet indicates that LVF and KVF are determined by CNN network architecture. This is because layers of these networks, particularly convolutional layers, are implemented with the Im2col kernel, the most vulnerable and invoked in these CNN networks.",
@@ -1025,6 +1196,30 @@
       "title": "Winograd ConvolutionNPC_2022_paper_3315.pdf",
       "uri": "http://zotero.org/users/7659667/items/RWNAIYXL",
       "version": 4154
+    },
+    {
+      "charset": "",
+      "collections": [
+        "LP7Q7M4A"
+      ],
+      "contentType": "application/pdf",
+      "dateAdded": "2022-10-27T09:24:14Z",
+      "dateModified": "2022-10-27T09:24:14Z",
+      "defaultPath": "files/10241/JMLR_Final.pdf",
+      "filename": "JMLR_Final.pdf",
+      "itemID": 10241,
+      "itemKey": "P8MC63RK",
+      "itemType": "attachment",
+      "key": "P8MC63RK",
+      "libraryID": 1,
+      "linkMode": "imported_file",
+      "localPath": "D:\\Zotero\\storage\\P8MC63RK\\JMLR_Final.pdf",
+      "relations": {},
+      "select": "zotero://select/library/items/P8MC63RK",
+      "tags": [],
+      "title": "JMLR_Final.pdf",
+      "uri": "http://zotero.org/users/7659667/items/P8MC63RK",
+      "version": 6211
     },
     {
       "abstractNote": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring signiﬁcantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 Englishto-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.0 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature.",
