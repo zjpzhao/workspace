@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "eaf6eeb19c0a6097",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learning/Tools/Docker.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "df859b349b6d4132",
             "type": "leaf",
             "state": {
@@ -81,7 +68,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/论文写作积累.md",
+                "file": "Learning/GPU/CUDA.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bfc8be422c335877",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learning/GPU/CUDA Toolkit.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -111,7 +111,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/Tools/Docker.md"
+                "file": "Learning/GPU/CUDA Toolkit.md"
               }
             }
           },
@@ -218,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/Tools/Docker.md",
+                "file": "Learning/GPU/CUDA Toolkit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +231,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/Tools/Docker.md",
+                "file": "Learning/GPU/CUDA Toolkit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -282,17 +283,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "eaf6eeb19c0a6097",
+  "active": "bfc8be422c335877",
   "lastOpenFiles": [
-    "papers/论文写作积累.md",
-    "Learning/GPU/NVCC.md",
-    "Learning/Tools/Docker.md",
-    "Learning/AI/AI tools/T-SNE.md",
     "Learning/GPU/CUDA.md",
+    "papers/论文写作积累.md",
+    "Learning/计算机网络/局域网服务器通过本地代理联网.md",
+    "Learning/Tools/Docker.md",
+    "Learning/GPU/NVCC.md",
+    "Learning/AI/AI tools/T-SNE.md",
     "Learning/GPU/层次结构.md",
     "Learning/GPU/理解和区分conda cudatoolkit、Nvidia cudatoolkit、nvidia-smi回显cuda版本.md",
     "Learning/GPU/Benchmark探索.md",
-    "Learning/GPU/Collect Metrics.md",
-    "Learning/GPU/CUDA Binary Utilities.md"
+    "Learning/GPU/Collect Metrics.md"
   ]
 }

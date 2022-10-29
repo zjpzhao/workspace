@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Docker",
-      "path": "Learning/Tools/Docker.md"
+      "basename": "CUDA Toolkit",
+      "path": "Learning/GPU/CUDA Toolkit.md"
+    },
+    {
+      "basename": "CUDA",
+      "path": "Learning/GPU/CUDA.md"
     },
     {
       "basename": "论文写作积累",
       "path": "papers/论文写作积累.md"
+    },
+    {
+      "basename": "局域网服务器通过本地代理联网",
+      "path": "Learning/计算机网络/局域网服务器通过本地代理联网.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "Learning/Tools/Docker.md"
     },
     {
       "basename": "NVCC",
@@ -15,10 +27,6 @@
     {
       "basename": "T-SNE",
       "path": "Learning/AI/AI tools/T-SNE.md"
-    },
-    {
-      "basename": "CUDA",
-      "path": "Learning/GPU/CUDA.md"
     },
     {
       "basename": "层次结构",
@@ -87,10 +95,6 @@
     {
       "basename": "Obsidian",
       "path": "util/Obsidian.md"
-    },
-    {
-      "basename": "局域网服务器通过本地代理联网",
-      "path": "Learning/计算机网络/局域网服务器通过本地代理联网.md"
     },
     {
       "basename": "linux配置代理Qv2ray和Clash",
@@ -195,10 +199,6 @@
     {
       "basename": "CAAQA",
       "path": "Lectures/CAAQA.md"
-    },
-    {
-      "basename": "CSAPP",
-      "path": "Lectures/CSAPP.md"
     }
   ],
   "omittedPaths": [],
