@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "b1a51513407e2282",
+            "id": "df859b349b6d4132",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning/Tools/Docker.md",
+                "file": "Learning/GPU/NVCC.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -69,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "047e99075829a256",
@@ -166,8 +165,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "e9d25589cbee286f",
@@ -187,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/论文写作积累.md"
+                "file": "Learning/Tools/Docker.md"
               }
             }
           },
@@ -220,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/论文写作积累.md",
+                "file": "Learning/Tools/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -232,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/论文写作积累.md",
+                "file": "Learning/Tools/Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -284,17 +282,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "382133fc48c45650",
+  "active": "eaf6eeb19c0a6097",
   "lastOpenFiles": [
+    "papers/论文写作积累.md",
+    "Learning/GPU/NVCC.md",
+    "Learning/Tools/Docker.md",
     "Learning/AI/AI tools/T-SNE.md",
     "Learning/GPU/CUDA.md",
     "Learning/GPU/层次结构.md",
     "Learning/GPU/理解和区分conda cudatoolkit、Nvidia cudatoolkit、nvidia-smi回显cuda版本.md",
     "Learning/GPU/Benchmark探索.md",
     "Learning/GPU/Collect Metrics.md",
-    "Learning/GPU/CUDA Binary Utilities.md",
-    "Learning/GPU/GPU.md",
-    "Learning/GPU/Nsight Compute工具.md",
-    "Learning/GPU/NVCC.md"
+    "Learning/GPU/CUDA Binary Utilities.md"
   ]
 }

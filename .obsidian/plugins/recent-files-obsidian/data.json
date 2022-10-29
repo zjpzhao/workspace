@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Docker",
+      "path": "Learning/Tools/Docker.md"
+    },
+    {
       "basename": "论文写作积累",
       "path": "papers/论文写作积累.md"
+    },
+    {
+      "basename": "NVCC",
+      "path": "Learning/GPU/NVCC.md"
     },
     {
       "basename": "T-SNE",
@@ -39,14 +47,6 @@
     {
       "basename": "Nsight Compute工具",
       "path": "Learning/GPU/Nsight Compute工具.md"
-    },
-    {
-      "basename": "NVCC",
-      "path": "Learning/GPU/NVCC.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "Learning/Tools/Docker.md"
     },
     {
       "basename": "Tricks",
