@@ -882,7 +882,7 @@
       ],
       "title": "Active Discriminative Network Representation Learning",
       "uri": "http://zotero.org/users/7659667/items/MDXGLJ47",
-      "version": 6237
+      "version": 6239
     },
     {
       "abstractNote": "Graph embedding provides an e cient solution for graph analysis by converting the graph into a low-dimensional space which preserves the structure information. In contrast to the graph structure data, the i.i.d. node embeddings can be processed e ciently in terms of both time and space. Current semi-supervised graph embedding algorithms assume the labelled nodes are given, which may not be always true in the real world. While manually label all training data is inapplicable, how to select the subset of training data to label so as to maximize the graph analysis task performance is of great importance. is motivates our proposed active graph embedding (AGE) framework, in which we design a general active learning query strategy for any semi-supervised graph embedding algorithm. AGE selects the most informative nodes as the training labelled nodes based on the graphical information (i.e., node centrality) as well as the learnt node embedding (i.e., node classi cation uncertainty and node embedding representativeness). Di erent query criteria are combined with the time-sensitive parameters which shi the focus from graph based query criteria to embedding based criteria as the learning progresses. Experiments have been conducted on three public datasets and the results veri ed the effectiveness of each component of our query strategy and the power of combining them using time-sensitive parameters. Our code is available online1.",
@@ -921,7 +921,7 @@
       ],
       "date": "2017-05-15",
       "dateAdded": "2022-10-27T13:11:54Z",
-      "dateModified": "2022-10-27T14:22:24Z",
+      "dateModified": "2022-10-29T06:23:28Z",
       "extra": "arXiv:1705.05085 [cs, stat]",
       "itemID": 10244,
       "itemKey": "IVCV3XSX",
@@ -954,18 +954,13 @@
           "type": 1
         },
         {
-          "tag": "Computer Science - Machine Learning",
-          "type": 1
-        },
-        {
-          "tag": "Statistics - Machine Learning",
-          "type": 1
+          "tag": "Active Learning"
         }
       ],
       "title": "Active Learning for Graph Embedding",
       "uri": "http://zotero.org/users/7659667/items/IVCV3XSX",
       "url": "http://arxiv.org/abs/1705.05085",
-      "version": 6231
+      "version": 6279
     },
     {
       "DOI": "10.1016/j.microrel.2020.113648",
@@ -4597,7 +4592,7 @@
       ],
       "date": "2018-7",
       "dateAdded": "2022-09-08T06:53:57Z",
-      "dateModified": "2022-09-09T07:00:34Z",
+      "dateModified": "2022-10-29T06:23:15Z",
       "extra": "Citation Key: ijcai2018p296",
       "itemID": 9470,
       "itemKey": "X72Y6AXK",
@@ -4610,11 +4605,15 @@
       "publisher": "International Joint Conferences on Artificial Intelligence Organization",
       "relations": [],
       "select": "zotero://select/library/items/X72Y6AXK",
-      "tags": [],
+      "tags": [
+        {
+          "tag": "Active Learning"
+        }
+      ],
       "title": "Active discriminative network representation learning",
       "uri": "http://zotero.org/users/7659667/items/X72Y6AXK",
       "url": "https://doi.org/10.24963/ijcai.2018/296",
-      "version": 5203
+      "version": 6278
     },
     {
       "DOI": "10.1109/TDSC.2020.2980273",

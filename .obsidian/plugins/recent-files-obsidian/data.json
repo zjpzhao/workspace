@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "论文写作积累",
+      "path": "papers/论文写作积累.md"
+    },
+    {
+      "basename": "T-SNE",
+      "path": "Learning/AI/AI tools/T-SNE.md"
+    },
+    {
       "basename": "CUDA",
       "path": "Learning/GPU/CUDA.md"
     },
@@ -51,14 +59,6 @@
     {
       "basename": "My DAC 2023",
       "path": "papers/My DAC 2023.md"
-    },
-    {
-      "basename": "T-SNE",
-      "path": "Learning/AI/AI tools/T-SNE.md"
-    },
-    {
-      "basename": "论文写作积累",
-      "path": "papers/论文写作积累.md"
     },
     {
       "basename": "GNN",
