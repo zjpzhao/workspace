@@ -357,7 +357,8 @@
         8906,
         9305,
         9308,
-        9893
+        9893,
+        8603
       ],
       "key": "W43MLK4H",
       "name": "Resilience Analyzing",
@@ -5121,7 +5122,7 @@
       "tags": [],
       "title": "面向 GPGPU 体系结构的软错误弹性分析与容错策略研究",
       "uri": "http://zotero.org/users/7659667/items/CFFI8KM2",
-      "version": 4543
+      "version": 6299
     },
     {
       "DOI": "10.1145/3297858.3304050",
