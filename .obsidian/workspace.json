@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning/GPU/NVCC.md",
+                "file": "Learning/GPU/SASS和PTX.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning/GPU/CUDA.md",
+                "file": "Learning/GPU/SASS和PTX.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -81,7 +81,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning/Programming Language & Framework/Python/Python Base.md",
+                "file": "papers/论文写作积累.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "02969b7f98836494",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learning/Soft Error/Observations on Soft Error.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -111,7 +124,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/GPU/CUDA.md"
+                "file": "papers/论文写作积累.md"
               }
             }
           },
@@ -218,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/GPU/CUDA.md",
+                "file": "papers/论文写作积累.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +244,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/GPU/CUDA.md",
+                "file": "papers/论文写作积累.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -282,17 +296,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "382133fc48c45650",
+  "active": "bfc8be422c335877",
   "lastOpenFiles": [
-    "Learning/Programming Language & Framework/Python/Python Base.md",
-    "Learning/GPU/CUDA Toolkit.md",
-    "Learning/GPU/CUDA.md",
-    "papers/论文写作积累.md",
-    "Learning/计算机网络/局域网服务器通过本地代理联网.md",
-    "Learning/Tools/Docker.md",
+    "Learning/Soft Error/Observations on Soft Error.md",
+    "Learning/GPU/SASS和PTX.md",
+    "Learning/GPU/PTX.md",
     "Learning/GPU/NVCC.md",
-    "Learning/AI/AI tools/T-SNE.md",
-    "Learning/GPU/层次结构.md",
-    "Learning/GPU/理解和区分conda cudatoolkit、Nvidia cudatoolkit、nvidia-smi回显cuda版本.md"
+    "Learning/GPU/Nsight Compute工具.md",
+    "Learning/GPU/CUDA Toolkit.md",
+    "Learning/GPU/CUDA Binary Utilities.md",
+    "papers/论文写作积累.md",
+    "Learning/Programming Language & Framework/Python/Python Base.md",
+    "Learning/GPU/CUDA.md"
   ]
 }

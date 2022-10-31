@@ -1,20 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "CUDA",
-      "path": "Learning/GPU/CUDA.md"
+      "basename": "论文写作积累",
+      "path": "papers/论文写作积累.md"
     },
     {
-      "basename": "Python Base",
-      "path": "Learning/Programming Language & Framework/Python/Python Base.md"
+      "basename": "Observations on Soft Error",
+      "path": "Learning/Soft Error/Observations on Soft Error.md"
+    },
+    {
+      "basename": "SASS和PTX",
+      "path": "Learning/GPU/SASS和PTX.md"
+    },
+    {
+      "basename": "PTX",
+      "path": "Learning/GPU/PTX.md"
+    },
+    {
+      "basename": "NVCC",
+      "path": "Learning/GPU/NVCC.md"
+    },
+    {
+      "basename": "Nsight Compute工具",
+      "path": "Learning/GPU/Nsight Compute工具.md"
     },
     {
       "basename": "CUDA Toolkit",
       "path": "Learning/GPU/CUDA Toolkit.md"
     },
     {
-      "basename": "论文写作积累",
-      "path": "papers/论文写作积累.md"
+      "basename": "CUDA Binary Utilities",
+      "path": "Learning/GPU/CUDA Binary Utilities.md"
+    },
+    {
+      "basename": "Python Base",
+      "path": "Learning/Programming Language & Framework/Python/Python Base.md"
+    },
+    {
+      "basename": "CUDA",
+      "path": "Learning/GPU/CUDA.md"
     },
     {
       "basename": "局域网服务器通过本地代理联网",
@@ -23,10 +47,6 @@
     {
       "basename": "Docker",
       "path": "Learning/Tools/Docker.md"
-    },
-    {
-      "basename": "NVCC",
-      "path": "Learning/GPU/NVCC.md"
     },
     {
       "basename": "T-SNE",
@@ -49,16 +69,8 @@
       "path": "Learning/GPU/Collect Metrics.md"
     },
     {
-      "basename": "CUDA Binary Utilities",
-      "path": "Learning/GPU/CUDA Binary Utilities.md"
-    },
-    {
       "basename": "GPU",
       "path": "Learning/GPU/GPU.md"
-    },
-    {
-      "basename": "Nsight Compute工具",
-      "path": "Learning/GPU/Nsight Compute工具.md"
     },
     {
       "basename": "Tricks",
@@ -83,10 +95,6 @@
     {
       "basename": "常用指令",
       "path": "util/常用指令.md"
-    },
-    {
-      "basename": "SASS和PTX",
-      "path": "Learning/GPU/SASS和PTX.md"
     },
     {
       "basename": "内网穿透",
@@ -119,10 +127,6 @@
     {
       "basename": "Git",
       "path": "Learning/Tools/Git.md"
-    },
-    {
-      "basename": "PTX",
-      "path": "Learning/GPU/PTX.md"
     },
     {
       "basename": "pytorch基本操作",
@@ -195,10 +199,6 @@
     {
       "basename": "容错系统",
       "path": "Lectures/容错系统.md"
-    },
-    {
-      "basename": "CAAQA",
-      "path": "Lectures/CAAQA.md"
     }
   ],
   "omittedPaths": [],

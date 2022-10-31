@@ -14,6 +14,11 @@
       "type": "file",
       "title": "常用指令",
       "path": "util/常用指令.md"
+    },
+    {
+      "type": "file",
+      "title": "Observations on Soft Error",
+      "path": "Learning/Soft Error/Observations on Soft Error.md"
     }
   ]
 }
