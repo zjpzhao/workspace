@@ -81,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning/GPU/CUDA Toolkit.md",
+                "file": "Learning/Programming Language & Framework/Python/Python Base.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -111,8 +111,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -186,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/GPU/CUDA Toolkit.md"
+                "file": "Learning/GPU/CUDA.md"
               }
             }
           },
@@ -219,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/GPU/CUDA Toolkit.md",
+                "file": "Learning/GPU/CUDA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/GPU/CUDA Toolkit.md",
+                "file": "Learning/GPU/CUDA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,8 +282,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "bfc8be422c335877",
+  "active": "382133fc48c45650",
   "lastOpenFiles": [
+    "Learning/Programming Language & Framework/Python/Python Base.md",
+    "Learning/GPU/CUDA Toolkit.md",
     "Learning/GPU/CUDA.md",
     "papers/论文写作积累.md",
     "Learning/计算机网络/局域网服务器通过本地代理联网.md",
@@ -292,8 +293,6 @@
     "Learning/GPU/NVCC.md",
     "Learning/AI/AI tools/T-SNE.md",
     "Learning/GPU/层次结构.md",
-    "Learning/GPU/理解和区分conda cudatoolkit、Nvidia cudatoolkit、nvidia-smi回显cuda版本.md",
-    "Learning/GPU/Benchmark探索.md",
-    "Learning/GPU/Collect Metrics.md"
+    "Learning/GPU/理解和区分conda cudatoolkit、Nvidia cudatoolkit、nvidia-smi回显cuda版本.md"
   ]
 }

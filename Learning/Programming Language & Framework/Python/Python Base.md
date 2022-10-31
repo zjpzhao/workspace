@@ -142,7 +142,7 @@ with xlsb('1.xlsb').get_sheet(1) as data:
 
 ---
 # 文件操作
-## 1. 列举当前文件夹下所有以.pdf结尾的文件名
+## 1.  列举当前文件夹下所有以.pdf结尾的文件名
 ```python
 # 采用glob.glob()函数
 pdflist=glob.glob("*\\*.pdf", root_dir=".\\Zotero\\storage\\", recursive=True)
