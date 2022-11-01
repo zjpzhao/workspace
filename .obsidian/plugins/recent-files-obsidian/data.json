@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "局域网服务器通过本地代理联网",
+      "path": "Learning/计算机网络/局域网服务器通过本地代理联网.md"
+    },
+    {
       "basename": "论文写作积累",
       "path": "papers/论文写作积累.md"
     },
@@ -39,10 +43,6 @@
     {
       "basename": "CUDA",
       "path": "Learning/GPU/CUDA.md"
-    },
-    {
-      "basename": "局域网服务器通过本地代理联网",
-      "path": "Learning/计算机网络/局域网服务器通过本地代理联网.md"
     },
     {
       "basename": "Docker",

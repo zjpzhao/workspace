@@ -550,7 +550,7 @@
       "title": "Accel-Sim: An Extensible Simulation Framework for Validated GPU Modeling",
       "uri": "http://zotero.org/users/7659667/items/2AUJKQMF",
       "url": "https://ieeexplore.ieee.org/document/9138922/",
-      "version": 4951
+      "version": 5851
     },
     {
       "DOI": "10.1145/3466752.3480063",
@@ -637,7 +637,7 @@
       "title": "AccelWattch: A Power Modeling Framework for Modern GPUs",
       "uri": "http://zotero.org/users/7659667/items/79U9YNU8",
       "url": "https://dl.acm.org/doi/10.1145/3466752.3480063",
-      "version": 4402
+      "version": 5968
     },
     {
       "DOI": "10.1145/3400302.3415657",
@@ -1505,7 +1505,7 @@
       "title": "BinFI: An Efficient Fault Injector for Safety-Critical Machine Learning Systems",
       "uri": "http://zotero.org/users/7659667/items/WSJICZX4",
       "url": "https://doi.org/10.1145/3295500.3356177",
-      "version": 2133
+      "version": 5850
     },
     {
       "DOI": "10.1109/CCGrid49817.2020.00-82",
@@ -1635,7 +1635,7 @@
       "title": "Characterizing and Exploiting Soft Error Vulnerability Phase Behavior in GPU Applications",
       "uri": "http://zotero.org/users/7659667/items/N8QC8W93",
       "url": "https://ieeexplore.ieee.org/document/9080079/",
-      "version": 5478
+      "version": 5859
     },
     {
       "DOI": "10.1109/ICCD46524.2019.00072",
@@ -2432,7 +2432,7 @@
       "title": "Eff-ECC: Protecting GPGPUs Register File With a Unified Energy-Efficient ECC Mechanism",
       "uri": "http://zotero.org/users/7659667/items/ATKKQ94U",
       "url": "https://ieeexplore.ieee.org/document/9515382/",
-      "version": 5854,
+      "version": 5869,
       "volume": "41"
     },
     {
@@ -2701,22 +2701,22 @@
       "select": "zotero://select/library/items/VDFASSWC",
       "tags": [
         {
+          "tag": "GPU"
+        },
+        {
           "tag": "⭐"
         },
         {
           "tag": "Error Resilience"
         },
         {
-          "tag": "GPU"
-        },
-        {
           "tag": "Reliability"
         },
         {
-          "tag": "Thread Remapping"
+          "tag": "Warp Protection"
         },
         {
-          "tag": "Warp Protection"
+          "tag": "Thread Remapping"
         },
         {
           "tag": "解释了benchmark中kmeans、lud和bfs的kernel执行细节"
@@ -3576,7 +3576,7 @@
       "title": "GLAIVE: Graph Learning Assisted Instruction Vulnerability Estimation",
       "uri": "http://zotero.org/users/7659667/items/ZED9PC3D",
       "url": "https://ieeexplore.ieee.org/document/9474098/",
-      "version": 730
+      "version": 5851
     },
     {
       "abstractNote": "Question Answering (QA) has been a long-standing research topic in AI and NLP ﬁelds, and a wealth of studies have been conducted to attempt to equip QA systems with human-level reasoning capability. To approximate the complicated human reasoning process, state-of-the-art QA systems commonly use pre-trained language models (LMs) to access knowledge encoded in LMs together with elaborately designed modules based on Graph Neural Networks (GNNs) to perform reasoning over knowledge graphs (KGs). However, many problems remain open regarding the reasoning functionality of these GNN-based modules. Can these GNN-based modules really perform a complex reasoning process? Are they under- or overcomplicated for QA? To open the black box of GNN and investigate these problems, we dissect state-of-the-art GNN modules for QA and analyze their reasoning capability. We discover that even a very simple graph neural counter can outperform all the existing GNN modules on CommonsenseQA and OpenBookQA, two popular QA benchmark datasets which heavily rely on knowledge-aware reasoning. Our work reveals that existing knowledge-aware GNN modules may only carry out some simple reasoning such as counting. It remains a challenging open problem to build comprehensive reasoning modules for knowledge-powered QA.",
@@ -3653,7 +3653,7 @@
       "title": "GNN is a Counter? Revisiting GNN for Question Answering",
       "uri": "http://zotero.org/users/7659667/items/VH4NRVH2",
       "url": "http://arxiv.org/abs/2110.03192",
-      "version": 5853
+      "version": 5867
     },
     {
       "DOI": "10.1109/ISPASS.2014.6844486",
@@ -4178,7 +4178,7 @@
       "title": "G-SEPM: building an accurate and efficient soft error prediction model for GPGPUs",
       "uri": "http://zotero.org/users/7659667/items/TUW8PKTJ",
       "url": "https://dl.acm.org/doi/10.1145/3458817.3476170",
-      "version": 2601
+      "version": 5850
     },
     {
       "DOI": "10.1145/3489517.3530584",
@@ -4530,7 +4530,7 @@
       "title": "Hybrid, scalable, trace-driven performance modeling of GPGPUs",
       "uri": "http://zotero.org/users/7659667/items/KDD3TSZG",
       "url": "https://dl.acm.org/doi/10.1145/3458817.3476221",
-      "version": 4403
+      "version": 5851
     },
     {
       "DOI": "10.24963/ijcai.2018/296",
@@ -4744,16 +4744,16 @@
           "tag": "⭐"
         },
         {
-          "tag": "Compiler Analysis"
-        },
-        {
           "tag": "Error Resilience"
         },
         {
-          "tag": "Instruction Duplication"
+          "tag": "Machine Learning"
         },
         {
-          "tag": "Machine Learning"
+          "tag": "Compiler Analysis"
+        },
+        {
+          "tag": "Instruction Duplication"
         }
       ],
       "title": "IPAS: intelligent protection against silent output corruption in scientific applications",
@@ -5074,7 +5074,7 @@
       "title": "Machine Learning Models for GPU Error Prediction in a Large Scale HPC System",
       "uri": "http://zotero.org/users/7659667/items/FQSG7X3S",
       "url": "https://ieeexplore.ieee.org/document/8416474/",
-      "version": 4947
+      "version": 5950
     },
     {
       "attachments": [
@@ -5386,7 +5386,7 @@
       "title": "Modeling the Propagation of Soft Errors in Programs",
       "uri": "http://zotero.org/users/7659667/items/55ZXU92X",
       "url": "http://dl.acm.org/citation.cfm?doid=3339363.3339382",
-      "version": 4403
+      "version": 5850
     },
     {
       "DOI": "10.1109/DSN.2018.00016",
@@ -6419,7 +6419,7 @@
       "title": "PARIS: Predicting application resilience using machine learning",
       "uri": "http://zotero.org/users/7659667/items/9GEJK34J",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0743731521000368",
-      "version": 2640,
+      "version": 5850,
       "volume": "152"
     },
     {
@@ -6716,7 +6716,7 @@
       "title": "PowerGear: Early-Stage Power Estimation in FPGA HLS via Heterogeneous Edge-Centric GNNs",
       "uri": "http://zotero.org/users/7659667/items/NBN2HSTR",
       "url": "https://ieeexplore.ieee.org/document/9774682/",
-      "version": 4421
+      "version": 5964
     },
     {
       "DOI": "10.1109/TC.2020.2980541",
@@ -6853,7 +6853,7 @@
       "title": "Predicting the Soft Error Vulnerability of Parallel Applications Using Machine Learning",
       "uri": "http://zotero.org/users/7659667/items/JF22JM4L",
       "url": "https://link.springer.com/10.1007/s10766-021-00707-0",
-      "version": 6111,
+      "version": 6114,
       "volume": "49"
     },
     {
@@ -7202,10 +7202,10 @@
       "select": "zotero://select/library/items/PAGCBY7S",
       "tags": [
         {
-          "tag": "⭐"
+          "tag": "GNN"
         },
         {
-          "tag": "GNN"
+          "tag": "⭐"
         }
       ],
       "title": "Regional soft error vulnerability and error propagation analysis for GPGPU applications",
@@ -7559,7 +7559,7 @@
       "title": "SDCTune: a model for predicting the SDC proneness of an application for configurable protection",
       "uri": "http://zotero.org/users/7659667/items/2Q2KRCHG",
       "url": "https://dl.acm.org/doi/10.1145/2656106.2656127",
-      "version": 5852
+      "version": 5870
     },
     {
       "DOI": "10.1109/SC.2016.84",
@@ -7776,7 +7776,7 @@
       "title": "A Smart Fault Detection Scheme for Reliable Image Processing Applications",
       "uri": "http://zotero.org/users/7659667/items/HNRH8XQE",
       "url": "https://ieeexplore.ieee.org/document/8714945/",
-      "version": 4907
+      "version": 6116
     },
     {
       "DOI": "10.1109/TVCG.2020.2994954",
@@ -7931,10 +7931,10 @@
           "tag": "⭐"
         },
         {
-          "tag": "dynamic instructions"
+          "tag": "Input Sizing"
         },
         {
-          "tag": "Input Sizing"
+          "tag": "dynamic instructions"
         }
       ],
       "title": "SUGAR: Speeding Up GPGPU Application Resilience Estimation with Input Sizing",
@@ -8307,7 +8307,7 @@
       "title": "Understanding Error Propagation in GPGPU Applications",
       "uri": "http://zotero.org/users/7659667/items/VI7SEKR4",
       "url": "http://ieeexplore.ieee.org/document/7877099/",
-      "version": 4403
+      "version": 5850
     },
     {
       "DOI": "10.1145/3126908.3126964",
@@ -8682,11 +8682,11 @@
       "title": "Wireframe: supporting data-dependent parallelism through dependency graph execution in GPUs",
       "uri": "http://zotero.org/users/7659667/items/ULZJXEIE",
       "url": "https://dl.acm.org/doi/10.1145/3123939.3123976",
-      "version": 6168
+      "version": 6203
     }
   ],
   "version": {
-    "bbt": "6.7.35",
-    "zotero": "6.0.15"
+    "bbt": "6.7.36",
+    "zotero": "6.0.16"
   }
 }
