@@ -1,20 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "局域网服务器通过本地代理联网",
-      "path": "Learning/计算机网络/局域网服务器通过本地代理联网.md"
-    },
-    {
       "basename": "论文写作积累",
       "path": "papers/论文写作积累.md"
+    },
+    {
+      "basename": "SASS和PTX",
+      "path": "Learning/GPU/SASS和PTX.md"
     },
     {
       "basename": "Observations on Soft Error",
       "path": "Learning/Soft Error/Observations on Soft Error.md"
     },
     {
-      "basename": "SASS和PTX",
-      "path": "Learning/GPU/SASS和PTX.md"
+      "basename": "T-SNE",
+      "path": "Learning/AI/AI tools/T-SNE.md"
+    },
+    {
+      "basename": "论文撰写",
+      "path": "papers/论文撰写.md"
+    },
+    {
+      "basename": "Networking",
+      "path": "Learning/计算机网络/Networking.md"
+    },
+    {
+      "basename": "各Benchmark特点",
+      "path": "Learning/GPU/Benchmarks/各Benchmark特点.md"
+    },
+    {
+      "basename": "Benchmark探索",
+      "path": "Learning/GPU/Benchmarks/Benchmark探索.md"
+    },
+    {
+      "basename": "局域网服务器通过本地正向代理联网",
+      "path": "Learning/计算机网络/局域网服务器通过本地正向代理联网.md"
+    },
+    {
+      "basename": "内网穿透",
+      "path": "Learning/计算机网络/内网穿透.md"
+    },
+    {
+      "basename": "论文写作借鉴写法",
+      "path": "papers/论文写作借鉴写法.md"
     },
     {
       "basename": "PTX",
@@ -49,20 +77,12 @@
       "path": "Learning/Tools/Docker.md"
     },
     {
-      "basename": "T-SNE",
-      "path": "Learning/AI/AI tools/T-SNE.md"
-    },
-    {
       "basename": "层次结构",
       "path": "Learning/GPU/层次结构.md"
     },
     {
       "basename": "理解和区分conda cudatoolkit、Nvidia cudatoolkit、nvidia-smi回显cuda版本",
       "path": "Learning/GPU/理解和区分conda cudatoolkit、Nvidia cudatoolkit、nvidia-smi回显cuda版本.md"
-    },
-    {
-      "basename": "Benchmark探索",
-      "path": "Learning/GPU/Benchmark探索.md"
     },
     {
       "basename": "Collect Metrics",
@@ -95,10 +115,6 @@
     {
       "basename": "常用指令",
       "path": "util/常用指令.md"
-    },
-    {
-      "basename": "内网穿透",
-      "path": "Learning/计算机网络/内网穿透.md"
     },
     {
       "basename": "2022-07-12",
@@ -141,20 +157,12 @@
       "path": "Learning/AI/ML/正则化.md"
     },
     {
-      "basename": "Networking",
-      "path": "Learning/计算机网络/Networking.md"
-    },
-    {
       "basename": "R语言",
       "path": "Learning/Programming Language & Framework/R语言.md"
     },
     {
       "basename": "Markdown",
       "path": "Learning/Programming Language & Framework/Markdown.md"
-    },
-    {
-      "basename": "论文撰写",
-      "path": "papers/论文撰写.md"
     },
     {
       "basename": "云计算课程论文研读报告",
@@ -191,14 +199,6 @@
     {
       "basename": "Numpy",
       "path": "Learning/Programming Language & Framework/Python/Numpy.md"
-    },
-    {
-      "basename": "Zotero",
-      "path": "util/Zotero.md"
-    },
-    {
-      "basename": "容错系统",
-      "path": "Lectures/容错系统.md"
     }
   ],
   "omittedPaths": [],

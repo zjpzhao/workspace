@@ -39,10 +39,11 @@
     "9AAKJDNS": {
       "collections": [],
       "items": [
-        10229
+        10229,
+        10319
       ],
       "key": "9AAKJDNS",
-      "name": "GPU Scheduling",
+      "name": "Scheduling",
       "parent": ""
     },
     "9ML3SXBU": {
@@ -268,14 +269,14 @@
         99,
         107,
         144,
-        176,
         207,
         7889,
         7899,
         9419,
         9854,
         10226,
-        10237
+        10237,
+        10313
       ],
       "key": "RLZKFTSE",
       "name": "Modeling Tools",
@@ -321,6 +322,7 @@
     "UT3SWZS2": {
       "collections": [],
       "items": [
+        176,
         9834
       ],
       "key": "UT3SWZS2",
@@ -486,6 +488,70 @@
     }
   },
   "items": [
+    {
+      "DOI": "10.1145/2717311",
+      "ISSN": "1544-3566, 1544-3973",
+      "abstractNote": "The purpose of this research is to find a neural-network-based solution to the well-known problem of branch divergence in Single Instruction Multiple Data (SIMD) architectures. Our approach differs from existing techniques that handle branch (or control-flow) divergence, which use costly hardware modifications, low-utilization masking techniques, or static prediction methods. As we examine divergent applications, we characterize the degree of data-dependent control flow seen in each and isolate the code regions (or “kernels”) that cause the most performance degradation due to branch divergence. We then train neural networks (NNs) offline to approximate these kernels and inject the NN computations directly into the applications as substitutes for the kernels they approximate. This essentially translates control flow into nondivergent computation, trading off precision for performance. As our methodology manipulates application source code directly, it is inherently platform agnostic and can be adopted as a general means for accelerating divergent applications on data-parallel architectures. In this article, we present the Neuralizer, an automated software flow for kernel identification, NN training, and NN integration, as well as supplementary user-controlled optimization techniques. Evaluating our approach on a variety of divergent applications run on a Graphics Processing Unit (GPU), we on average achieve performance gains of 13.6 × and energy savings of 14.8 × with 96% accuracy.",
+      "accessDate": "2022-02-19T03:45:32Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-02-19T03:45:38Z",
+          "dateModified": "2022-02-19T03:45:39Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\YF4W8PH4\\Grigorian_Reinman_2015_Accelerating Divergent Applications on SIMD Architectures Using Neural Networks.pdf",
+          "relations": [],
+          "select": "zotero://select/library/items/YF4W8PH4",
+          "tags": [],
+          "title": "Grigorian_Reinman_2015_Accelerating Divergent Applications on SIMD Architectures Using Neural Networks.pdf",
+          "uri": "http://zotero.org/users/7659667/items/YF4W8PH4"
+        }
+      ],
+      "callNumber": "0.919",
+      "citationKey": "AcceleratingDivergentApplications2015grigorian",
+      "citekey": "AcceleratingDivergentApplications2015grigorian",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Beayna",
+          "lastName": "Grigorian"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Glenn",
+          "lastName": "Reinman"
+        }
+      ],
+      "date": "2015-04-16",
+      "dateAdded": "2022-02-19T03:45:32Z",
+      "dateModified": "2022-11-01T07:17:54Z",
+      "issue": "1",
+      "itemID": 176,
+      "itemKey": "QGCNYTVU",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Acm T Archit Code Op",
+      "key": "QGCNYTVU",
+      "language": "en",
+      "libraryCatalog": "3",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1-23",
+      "publicationTitle": "ACM Transactions on Architecture and Code Optimization",
+      "relations": [],
+      "select": "zotero://select/library/items/QGCNYTVU",
+      "tags": [
+        {
+          "tag": "Approximate computing"
+        },
+        {
+          "tag": "Neural Networks"
+        }
+      ],
+      "title": "Accelerating Divergent Applications on SIMD Architectures Using Neural Networks",
+      "uri": "http://zotero.org/users/7659667/items/QGCNYTVU",
+      "url": "https://dl.acm.org/doi/10.1145/2717311",
+      "version": 6415,
+      "volume": "12"
+    },
     {
       "DOI": "10.1109/ISCA45697.2020.00047",
       "ISBN": "978-1-72814-661-4",
@@ -689,7 +755,7 @@
       ],
       "date": "2020-11-02",
       "dateAdded": "2022-08-12T04:10:14Z",
-      "dateModified": "2022-10-19T06:02:14Z",
+      "dateModified": "2022-11-01T07:22:26Z",
       "itemID": 8954,
       "itemKey": "MQI8UX95",
       "itemType": "conferencePaper",
@@ -706,16 +772,16 @@
       "select": "zotero://select/library/items/MQI8UX95",
       "tags": [
         {
-          "tag": "GNN"
+          "tag": "HLS"
         },
         {
-          "tag": "HLS"
+          "tag": "GNN Using"
         }
       ],
       "title": "Accurate operation delay prediction for FPGA HLS using graph neural networks",
       "uri": "http://zotero.org/users/7659667/items/MQI8UX95",
       "url": "https://dl.acm.org/doi/10.1145/3400302.3415657",
-      "version": 5864
+      "version": 6424
     },
     {
       "DOI": "10.1109/ICDM51629.2021.00021",
@@ -787,7 +853,7 @@
       ],
       "date": "12/2021",
       "dateAdded": "2022-06-21T02:37:58Z",
-      "dateModified": "2022-06-30T04:57:24Z",
+      "dateModified": "2022-11-01T07:20:12Z",
       "itemID": 8259,
       "itemKey": "3DR7AIPE",
       "itemType": "conferencePaper",
@@ -805,13 +871,13 @@
       "shortTitle": "ACE-HGNN",
       "tags": [
         {
-          "tag": "GNN"
+          "tag": "GNN theory"
         }
       ],
       "title": "ACE-HGNN: Adaptive Curvature Exploration Hyperbolic Graph Neural Network",
       "uri": "http://zotero.org/users/7659667/items/3DR7AIPE",
       "url": "https://ieeexplore.ieee.org/document/9679192/",
-      "version": 3396
+      "version": 6419
     },
     {
       "abstractNote": "Most of current network representation models are learned in unsupervised fashions, which usually lack the capability of discrimination when applied to network analysis tasks, such as node classiﬁcation. It is worth noting that label information is valuable for learning the discriminative network representations. However, labels of all training nodes are always difﬁcult or expensive to obtain and manually labeling all nodes for training is inapplicable. Different sets of labeled nodes for model learning lead to different network representation results. In this paper, we propose a novel method, termed as ANRMAB, to learn the active discriminative network representations with a multi-armed bandit mechanism in active learning setting. Speciﬁcally, based on the networking data and the learned network representations, we design three active learning query strategies. By deriving an effective reward scheme that is closely related to the estimated performance measure of interest, ANRMAB uses a multi-armed bandit mechanism for adaptive decision making to select the most informative nodes for labeling. The updated labeled nodes are then used for further discriminative network representation learning. Experiments are conducted on three public data sets to verify the effectiveness of ANRMAB.",
@@ -1778,6 +1844,81 @@
       "version": 3856
     },
     {
+      "DOI": "10.1109/MECO49872.2020.9134279",
+      "ISBN": "978-1-72816-949-1",
+      "abstractNote": "Rapidly shrinking technology node and voltage scaling increase the susceptibility of Soft Errors in digital circuits. Soft Errors are radiation-induced effects while the radiation particles such as Alpha, Neutrons or Heavy Ions, interact with sensitive regions of microelectronic devices/circuits. The particle hit could be a glancing blow or a penetrating strike. A well apprehended and characterized way of analyzing soft error effects is the fault-injection campaign, but that typically acknowledged as time and resource-consuming simulation strategy. As an alternative to traditional fault injection-based methodologies and to explore the applicability of modern graph based neural network algorithms in the ﬁeld of reliability modeling, this paper proposes a systematic framework that explores gate-level abstractions to extract and exploit relevant feature representations at low-dimensional vector space. The framework allows the extensive prediction analysis of SEU type soft error effects in a given circuit. A scalable and inductive type representation learning algorithm on graphs called GraphSAGE has been utilized for efﬁciently extracting structural features of the gate-level netlist, providing a valuable database to exercise a downstream machine learning or deep learning algorithm aiming at predicting fault propagation metrics. Functional Failure Rate (FFR): the predicted fault propagating metric of SEU type fault within the gate-level circuit abstraction of the 10-Gigabit Ethernet MAC (IEEE 802.3) standard circuit.",
+      "accessDate": "2022-11-01T07:08:14Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-11-01T07:08:10Z",
+          "dateModified": "2022-11-01T07:08:17Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\CHFMVNPK\\Balakrishnan et al. - 2020 - Composing Graph Theory and Deep Neural Networks to.pdf",
+          "relations": [],
+          "select": "zotero://select/library/items/CHFMVNPK",
+          "tags": [],
+          "title": "Balakrishnan et al. - 2020 - Composing Graph Theory and Deep Neural Networks to.pdf",
+          "uri": "http://zotero.org/users/7659667/items/CHFMVNPK"
+        }
+      ],
+      "citationKey": "ComposingGraphTheory2020balakrishnana",
+      "citekey": "ComposingGraphTheory2020balakrishnana",
+      "conferenceName": "2020 9th Mediterranean Conference on Embedded Computing (MECO)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Aneesh",
+          "lastName": "Balakrishnan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Thomas",
+          "lastName": "Lange"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Maximilien",
+          "lastName": "Glorieux"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dan",
+          "lastName": "Alexandrescu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Maksim",
+          "lastName": "Jenihhin"
+        }
+      ],
+      "date": "6/2020",
+      "dateAdded": "2022-11-01T07:08:14Z",
+      "dateModified": "2022-11-01T07:26:58Z",
+      "itemID": 10313,
+      "itemKey": "AT9DKYJW",
+      "itemType": "conferencePaper",
+      "key": "AT9DKYJW",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1-5",
+      "place": "Budva, Montenegro",
+      "publicationTitle": "2020 9th Mediterranean Conference on Embedded Computing (MECO)",
+      "publisher": "IEEE",
+      "relations": [],
+      "select": "zotero://select/library/items/AT9DKYJW",
+      "tags": [
+        {
+          "tag": "GNN Using"
+        }
+      ],
+      "title": "Composing Graph Theory and Deep Neural Networks to Evaluate SEU Type Soft Error Effects",
+      "uri": "http://zotero.org/users/7659667/items/AT9DKYJW",
+      "url": "https://ieeexplore.ieee.org/document/9134279/",
+      "version": 6440
+    },
+    {
       "attachments": [
         {
           "dateAdded": "2022-04-14T05:50:23Z",
@@ -2261,7 +2402,7 @@
       ],
       "date": "06/2022",
       "dateAdded": "2022-10-27T07:45:37Z",
-      "dateModified": "2022-10-30T06:06:08Z",
+      "dateModified": "2022-11-01T07:26:53Z",
       "issue": "3",
       "itemID": 10237,
       "itemKey": "DTQ3NA64",
@@ -2276,11 +2417,15 @@
       "publicationTitle": "Journal of Electronic Testing",
       "relations": [],
       "select": "zotero://select/library/items/DTQ3NA64",
-      "tags": [],
+      "tags": [
+        {
+          "tag": "GNN Using"
+        }
+      ],
       "title": "Deep Soft Error Propagation Modeling Using Graph Attention Network",
       "uri": "http://zotero.org/users/7659667/items/DTQ3NA64",
       "url": "https://link.springer.com/10.1007/s10836-022-06005-y",
-      "version": 6303,
+      "version": 6441,
       "volume": "38"
     },
     {
@@ -2328,7 +2473,7 @@
       ],
       "date": "2021-12-5",
       "dateAdded": "2022-06-30T02:07:26Z",
-      "dateModified": "2022-06-30T04:57:27Z",
+      "dateModified": "2022-11-01T07:21:12Z",
       "itemID": 8497,
       "itemKey": "79C382EV",
       "itemType": "conferencePaper",
@@ -2346,7 +2491,7 @@
       "shortTitle": "DyGNN",
       "tags": [
         {
-          "tag": "GNN"
+          "tag": "GNN pruning"
         },
         {
           "tag": "Pruning"
@@ -2355,7 +2500,7 @@
       "title": "DyGNN: Algorithm and Architecture Support of Dynamic Pruning for Graph Neural Networks",
       "uri": "http://zotero.org/users/7659667/items/79C382EV",
       "url": "https://ieeexplore.ieee.org/document/9586298/",
-      "version": 5853
+      "version": 6422
     },
     {
       "DOI": "10.1109/TCAD.2021.3104529",
@@ -2485,7 +2630,7 @@
       ],
       "date": "2022-3-14",
       "dateAdded": "2022-08-15T09:24:06Z",
-      "dateModified": "2022-08-15T09:24:26Z",
+      "dateModified": "2022-11-01T07:21:30Z",
       "itemID": 9000,
       "itemKey": "NCNMXGC2",
       "itemType": "conferencePaper",
@@ -2502,13 +2647,13 @@
       "select": "zotero://select/library/items/NCNMXGC2",
       "tags": [
         {
-          "tag": "GNN"
+          "tag": "GNN Using"
         }
       ],
       "title": "Efficient Hotspot Detection via Graph Neural Network",
       "uri": "http://zotero.org/users/7659667/items/NCNMXGC2",
       "url": "https://ieeexplore.ieee.org/document/9774579/",
-      "version": 5853
+      "version": 6444
     },
     {
       "DOI": "10.1109/HPCA.2009.4798243",
@@ -3557,7 +3702,7 @@
       ],
       "date": "2021-2-1",
       "dateAdded": "2022-03-04T03:07:24Z",
-      "dateModified": "2022-04-17T10:16:20Z",
+      "dateModified": "2022-11-01T07:27:07Z",
       "itemID": 207,
       "itemKey": "ZED9PC3D",
       "itemType": "conferencePaper",
@@ -3572,11 +3717,15 @@
       "relations": [],
       "select": "zotero://select/library/items/ZED9PC3D",
       "shortTitle": "GLAIVE",
-      "tags": [],
+      "tags": [
+        {
+          "tag": "GNN Using"
+        }
+      ],
       "title": "GLAIVE: Graph Learning Assisted Instruction Vulnerability Estimation",
       "uri": "http://zotero.org/users/7659667/items/ZED9PC3D",
       "url": "https://ieeexplore.ieee.org/document/9474098/",
-      "version": 5851
+      "version": 6443
     },
     {
       "abstractNote": "Question Answering (QA) has been a long-standing research topic in AI and NLP ﬁelds, and a wealth of studies have been conducted to attempt to equip QA systems with human-level reasoning capability. To approximate the complicated human reasoning process, state-of-the-art QA systems commonly use pre-trained language models (LMs) to access knowledge encoded in LMs together with elaborately designed modules based on Graph Neural Networks (GNNs) to perform reasoning over knowledge graphs (KGs). However, many problems remain open regarding the reasoning functionality of these GNN-based modules. Can these GNN-based modules really perform a complex reasoning process? Are they under- or overcomplicated for QA? To open the black box of GNN and investigate these problems, we dissect state-of-the-art GNN modules for QA and analyze their reasoning capability. We discover that even a very simple graph neural counter can outperform all the existing GNN modules on CommonsenseQA and OpenBookQA, two popular QA benchmark datasets which heavily rely on knowledge-aware reasoning. Our work reveals that existing knowledge-aware GNN modules may only carry out some simple reasoning such as counting. It remains a challenging open problem to build comprehensive reasoning modules for knowledge-powered QA.",
@@ -3827,8 +3976,8 @@
           "uri": "http://zotero.org/users/7659667/items/4LRIX6G8"
         }
       ],
-      "citationKey": "GRANNITEGraphNeural2020zhanga",
-      "citekey": "GRANNITEGraphNeural2020zhanga",
+      "citationKey": "GRANNITEGraphNeural2020zhang",
+      "citekey": "GRANNITEGraphNeural2020zhang",
       "conferenceName": "2020 57th ACM/IEEE Design Automation Conference (DAC)",
       "creators": [
         {
@@ -3849,7 +3998,7 @@
       ],
       "date": "7/2020",
       "dateAdded": "2022-08-12T04:04:10Z",
-      "dateModified": "2022-08-12T06:46:34Z",
+      "dateModified": "2022-11-01T07:22:34Z",
       "itemID": 8955,
       "itemKey": "XQKHJ7RW",
       "itemType": "conferencePaper",
@@ -3867,7 +4016,7 @@
       "shortTitle": "GRANNITE",
       "tags": [
         {
-          "tag": "GNN"
+          "tag": "GNN Using"
         },
         {
           "tag": "Power"
@@ -3879,7 +4028,7 @@
       "title": "GRANNITE: Graph Neural Network Inference for Transferable Power Estimation",
       "uri": "http://zotero.org/users/7659667/items/XQKHJ7RW",
       "url": "https://ieeexplore.ieee.org/document/9218643/",
-      "version": 4430
+      "version": 6444
     },
     {
       "DOI": "10.1016/j.aiopen.2021.01.001",
@@ -4027,7 +4176,7 @@
         }
       ],
       "dateAdded": "2022-06-21T02:32:23Z",
-      "dateModified": "2022-06-30T04:57:35Z",
+      "dateModified": "2022-11-01T07:22:54Z",
       "itemID": 8236,
       "itemKey": "GKXHCVIA",
       "itemType": "journalArticle",
@@ -4041,69 +4190,12 @@
       "select": "zotero://select/library/items/GKXHCVIA",
       "tags": [
         {
-          "tag": "GNN"
+          "tag": "GNN theory"
         }
       ],
       "title": "Graph Structure Learning with Variational Information Bottleneck",
       "uri": "http://zotero.org/users/7659667/items/GKXHCVIA",
       "version": 3396
-    },
-    {
-      "DOI": "10.1145/2717311",
-      "ISSN": "1544-3566, 1544-3973",
-      "abstractNote": "The purpose of this research is to find a neural-network-based solution to the well-known problem of branch divergence in Single Instruction Multiple Data (SIMD) architectures. Our approach differs from existing techniques that handle branch (or control-flow) divergence, which use costly hardware modifications, low-utilization masking techniques, or static prediction methods. As we examine divergent applications, we characterize the degree of data-dependent control flow seen in each and isolate the code regions (or “kernels”) that cause the most performance degradation due to branch divergence. We then train neural networks (NNs) offline to approximate these kernels and inject the NN computations directly into the applications as substitutes for the kernels they approximate. This essentially translates control flow into nondivergent computation, trading off precision for performance. As our methodology manipulates application source code directly, it is inherently platform agnostic and can be adopted as a general means for accelerating divergent applications on data-parallel architectures. In this article, we present the Neuralizer, an automated software flow for kernel identification, NN training, and NN integration, as well as supplementary user-controlled optimization techniques. Evaluating our approach on a variety of divergent applications run on a Graphics Processing Unit (GPU), we on average achieve performance gains of 13.6 × and energy savings of 14.8 × with 96% accuracy.",
-      "accessDate": "2022-02-19T03:45:32Z",
-      "attachments": [
-        {
-          "dateAdded": "2022-02-19T03:45:38Z",
-          "dateModified": "2022-02-19T03:45:39Z",
-          "itemType": "attachment",
-          "path": "D:\\Zotero\\storage\\YF4W8PH4\\Grigorian_Reinman_2015_Accelerating Divergent Applications on SIMD Architectures Using Neural Networks.pdf",
-          "relations": [],
-          "select": "zotero://select/library/items/YF4W8PH4",
-          "tags": [],
-          "title": "Grigorian_Reinman_2015_Accelerating Divergent Applications on SIMD Architectures Using Neural Networks.pdf",
-          "uri": "http://zotero.org/users/7659667/items/YF4W8PH4"
-        }
-      ],
-      "callNumber": "0.919",
-      "citationKey": "grigorianAcceleratingDivergentApplications2015",
-      "citekey": "grigorianAcceleratingDivergentApplications2015",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Beayna",
-          "lastName": "Grigorian"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Glenn",
-          "lastName": "Reinman"
-        }
-      ],
-      "date": "2015-04-16",
-      "dateAdded": "2022-02-19T03:45:32Z",
-      "dateModified": "2022-04-17T10:16:28Z",
-      "issue": "1",
-      "itemID": 176,
-      "itemKey": "QGCNYTVU",
-      "itemType": "journalArticle",
-      "journalAbbreviation": "Acm T Archit Code Op",
-      "key": "QGCNYTVU",
-      "language": "en",
-      "libraryCatalog": "3",
-      "libraryID": 1,
-      "notes": [],
-      "pages": "1-23",
-      "publicationTitle": "ACM Transactions on Architecture and Code Optimization",
-      "relations": [],
-      "select": "zotero://select/library/items/QGCNYTVU",
-      "tags": [],
-      "title": "Accelerating Divergent Applications on SIMD Architectures Using Neural Networks",
-      "uri": "http://zotero.org/users/7659667/items/QGCNYTVU",
-      "url": "https://dl.acm.org/doi/10.1145/2717311",
-      "version": 730,
-      "volume": "12"
     },
     {
       "DOI": "10.1145/3458817.3476170",
@@ -6689,7 +6781,7 @@
       ],
       "date": "2022-3-14",
       "dateAdded": "2022-08-12T04:00:24Z",
-      "dateModified": "2022-10-23T07:44:09Z",
+      "dateModified": "2022-11-01T07:23:03Z",
       "itemID": 8956,
       "itemKey": "NBN2HSTR",
       "itemType": "conferencePaper",
@@ -6707,16 +6799,16 @@
       "shortTitle": "PowerGear",
       "tags": [
         {
-          "tag": "GNN"
+          "tag": "Power"
         },
         {
-          "tag": "Power"
+          "tag": "GNN Using"
         }
       ],
       "title": "PowerGear: Early-Stage Power Estimation in FPGA HLS via Heterogeneous Edge-Centric GNNs",
       "uri": "http://zotero.org/users/7659667/items/NBN2HSTR",
       "url": "https://ieeexplore.ieee.org/document/9774682/",
-      "version": 5964
+      "version": 6427
     },
     {
       "DOI": "10.1109/TC.2020.2980541",
@@ -7174,7 +7266,7 @@
       ],
       "date": "2022",
       "dateAdded": "2022-05-09T15:33:45Z",
-      "dateModified": "2022-06-10T08:27:11Z",
+      "dateModified": "2022-11-01T07:23:38Z",
       "issue": "3",
       "itemID": 7872,
       "itemKey": "PAGCBY7S",
@@ -7202,15 +7294,15 @@
       "select": "zotero://select/library/items/PAGCBY7S",
       "tags": [
         {
-          "tag": "GNN"
+          "tag": "⭐"
         },
         {
-          "tag": "⭐"
+          "tag": "Error Propagation"
         }
       ],
       "title": "Regional soft error vulnerability and error propagation analysis for GPGPU applications",
       "uri": "http://zotero.org/users/7659667/items/PAGCBY7S",
-      "version": 5851,
+      "version": 6429,
       "volume": "78"
     },
     {
@@ -7466,7 +7558,7 @@
       ],
       "date": "11/2020",
       "dateAdded": "2022-01-16T03:26:24Z",
-      "dateModified": "2022-05-10T09:00:56Z",
+      "dateModified": "2022-11-01T07:28:36Z",
       "itemID": 170,
       "itemKey": "YMNVQNGA",
       "itemType": "conferencePaper",
@@ -7482,13 +7574,19 @@
       "shortTitle": "SCALANA",
       "tags": [
         {
-          "tag": "GNN"
+          "tag": "⭐"
+        },
+        {
+          "tag": "CPU Multiprocesses"
+        },
+        {
+          "tag": "GNN Using"
         }
       ],
       "title": "SCALANA: Automating Scaling Loss Detection with Graph Analysis",
       "uri": "http://zotero.org/users/7659667/items/YMNVQNGA",
       "url": "https://ieeexplore.ieee.org/document/9355294/",
-      "version": 4403
+      "version": 6447
     },
     {
       "DOI": "10.1145/2656106.2656127",
@@ -7677,7 +7775,7 @@
       ],
       "date": "7/2020",
       "dateAdded": "2021-12-02T08:44:47Z",
-      "dateModified": "2022-05-07T16:10:52Z",
+      "dateModified": "2022-11-01T07:25:30Z",
       "itemID": 97,
       "itemKey": "JC6AQZNP",
       "itemType": "conferencePaper",
@@ -7693,16 +7791,16 @@
       "select": "zotero://select/library/items/JC6AQZNP",
       "tags": [
         {
-          "tag": "GNN"
+          "tag": "Vulnerability"
         },
         {
-          "tag": "Vulnerability"
+          "tag": "GNN Using"
         }
       ],
       "title": "Smart Contract Vulnerability Detection using Graph Neural Network",
       "uri": "http://zotero.org/users/7659667/items/JC6AQZNP",
       "url": "https://www.ijcai.org/proceedings/2020/454",
-      "version": 2359
+      "version": 6435
     },
     {
       "DOI": "10.23919/DATE.2019.8714945",
@@ -8003,7 +8101,7 @@
       ],
       "date": "2021-04-19",
       "dateAdded": "2022-06-21T02:21:41Z",
-      "dateModified": "2022-06-21T02:41:52Z",
+      "dateModified": "2022-11-01T07:26:23Z",
       "itemID": 8234,
       "itemKey": "BHT5P3FW",
       "itemType": "conferencePaper",
@@ -8021,13 +8119,16 @@
       "shortTitle": "SUGAR",
       "tags": [
         {
-          "tag": "GNN"
+          "tag": "GNN theory"
+        },
+        {
+          "tag": "Subgraph"
         }
       ],
       "title": "SUGAR: Subgraph Neural Network with Reinforcement Pooling and Self-Supervised Mutual Information Mechanism",
       "uri": "http://zotero.org/users/7659667/items/BHT5P3FW",
       "url": "https://dl.acm.org/doi/10.1145/3442381.3449822",
-      "version": 3019
+      "version": 6439
     },
     {
       "DOI": "10.1145/3302255",
@@ -8241,6 +8342,82 @@
       "title": "Understanding Attention and Generalization in Graph Neural Networks",
       "uri": "http://zotero.org/users/7659667/items/57D4LCQ9",
       "version": 5866
+    },
+    {
+      "DOI": "10.1109/TPDS.2016.2586074",
+      "ISSN": "1045-9219",
+      "abstractNote": "Architecture designers tend to integrate both CPUs and GPUs on the same chip to deliver energy-efﬁcient designs. It is still an open problem to effectively leverage the advantages of both CPUs and GPUs on integrated architectures. In this work, we port 42 programs in Rodinia, Parboil, and Polybench benchmark suites and analyze the co-running behaviors of these programs on both AMD and Intel integrated architectures. We ﬁnd that co-running performance is not always better than running the program only with CPUs or GPUs. Among these programs, only eight programs can beneﬁt from the co-running, while 24 programs only using GPUs and seven programs only using CPUs achieve the best performance. The remaining three programs show little performance preference for different devices. Through extensive workload characterization analysis, we ﬁnd that architecture differences between CPUs and GPUs and limited shared memory bandwidth are two main factors affecting current co-running performance. Since not all the programs can beneﬁt from integrated architectures, we build an automatic decision-tree-based model to help application developers predict the co-running performance for a given CPU-only or GPU-only program. Results show that our model correctly predicts 14 programs out of 15 for evaluated programs. For a co-run friendly program, we further propose a proﬁling-based method to predict the optimal workload partition ratio between CPUs and GPUs. Results show that our model can achieve 87.7 percent of the optimal performance relative to the best partition. The co-running programs acquired with our method outperform the original CPU-only and GPU-only programs by 34.5 and 20.9 percent respectively.",
+      "accessDate": "2022-11-01T08:03:53Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-11-01T08:03:48Z",
+          "dateModified": "2022-11-01T08:03:56Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\JTFDXRE8\\Zhang et al. - 2017 - Understanding Co-Running Behaviors on Integrated C.pdf",
+          "relations": [],
+          "select": "zotero://select/library/items/JTFDXRE8",
+          "tags": [],
+          "title": "Zhang et al. - 2017 - Understanding Co-Running Behaviors on Integrated C.pdf",
+          "uri": "http://zotero.org/users/7659667/items/JTFDXRE8"
+        }
+      ],
+      "callNumber": "2",
+      "citationKey": "UnderstandingCoRunningBehaviors2017zhang",
+      "citekey": "UnderstandingCoRunningBehaviors2017zhang",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Feng",
+          "lastName": "Zhang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jidong",
+          "lastName": "Zhai"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bingsheng",
+          "lastName": "He"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Shuhao",
+          "lastName": "Zhang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Wenguang",
+          "lastName": "Chen"
+        }
+      ],
+      "date": "2017-3-1",
+      "dateAdded": "2022-11-01T08:03:53Z",
+      "dateModified": "2022-11-01T08:40:47Z",
+      "issue": "3",
+      "itemID": 10319,
+      "itemKey": "UXYY9R2H",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "IEEE Trans. Parallel Distrib. Syst.",
+      "key": "UXYY9R2H",
+      "language": "en",
+      "libraryCatalog": "3.757",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "905-918",
+      "publicationTitle": "IEEE Transactions on Parallel and Distributed Systems",
+      "relations": [],
+      "select": "zotero://select/library/items/UXYY9R2H",
+      "tags": [
+        {
+          "tag": "CPU和GPU交互"
+        }
+      ],
+      "title": "Understanding Co-Running Behaviors on Integrated CPU/GPU Architectures",
+      "uri": "http://zotero.org/users/7659667/items/UXYY9R2H",
+      "url": "http://ieeexplore.ieee.org/document/7501903/",
+      "version": 6512,
+      "volume": "28"
     },
     {
       "DOI": "10.1109/SC.2016.20",

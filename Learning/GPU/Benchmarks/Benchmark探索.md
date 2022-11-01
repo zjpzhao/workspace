@@ -116,5 +116,5 @@ jmeint好使了
 
 ---
 
-# tensorcore-microbenchmarks等
-Accelsim自带的[gpu-app-collection](https://github.com/accel-sim/gpu-app-collection)里面有支持tensorcore的benchmark，下载之后用vscode打开然后在项目里搜索 `wmma::` 就知道哪些是有的了
+# tensorcore相关benchmark
+Accelsim自带的[gpu-app-collection](https://github.com/accel-sim/gpu-app-collection)里面有支持tensorcore的benchmark：*tensorcore-microbenchmarks*，下载之后用vscode打开然后在项目里搜索 `wmma::` 就知道哪些是有的了
