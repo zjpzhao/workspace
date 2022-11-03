@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "LLVM",
+      "path": "Learning/Compiling/LLVM.md"
+    },
+    {
+      "basename": "NVCC",
+      "path": "Learning/GPU/NVCC.md"
+    },
+    {
       "basename": "wandb",
       "path": "Learning/AI/AI tools/wandb.md"
     },
@@ -59,10 +67,6 @@
     {
       "basename": "PTX",
       "path": "Learning/GPU/PTX.md"
-    },
-    {
-      "basename": "NVCC",
-      "path": "Learning/GPU/NVCC.md"
     },
     {
       "basename": "Nsight Compute工具",
@@ -195,10 +199,6 @@
     {
       "basename": "常用缩写",
       "path": "papers/常用缩写.md"
-    },
-    {
-      "basename": "Numpy",
-      "path": "Learning/Programming Language & Framework/Python/Numpy.md"
     }
   ],
   "omittedPaths": [],
