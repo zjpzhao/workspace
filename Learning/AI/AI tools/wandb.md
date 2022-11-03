@@ -1,6 +1,7 @@
 全称：Weights & Biases
 官网：[https://wandb.ai/site]
 文档：[https://docs.wandb.ai/]
+注意使用前需要在官网注册账户然后获取api，然后在当前路径下终端输入`wandb login`进行登录，之后再运行你的python脚本
 
 ```python
 import torch
