@@ -36,7 +36,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/My DAC 2023.md",
+                "file": "Learning/AI/AI tools/wandb.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -56,7 +56,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "047e99075829a256",
@@ -111,7 +112,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/论文写作积累.md"
+                "file": "Learning/AI/AI tools/wandb.md"
               }
             }
           },
@@ -218,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/论文写作积累.md",
+                "file": "Learning/AI/AI tools/wandb.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +232,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/论文写作积累.md",
+                "file": "Learning/AI/AI tools/wandb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -282,17 +284,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "382133fc48c45650",
+  "active": "790ba7cf02adf67f",
   "lastOpenFiles": [
-    "Learning/GPU/SASS和PTX.md",
+    "util/常用指令.md",
+    "papers/My DAC 2023.md",
     "Learning/Soft Error/Observations on Soft Error.md",
+    "Learning/GPU/SASS和PTX.md",
+    "papers/论文写作积累.md",
     "Learning/AI/AI tools/T-SNE.md",
     "papers/论文撰写.md",
     "Learning/计算机网络/Networking.md",
     "Learning/GPU/Benchmarks/各Benchmark特点.md",
-    "Learning/GPU/Benchmarks/Benchmark探索.md",
-    "Learning/计算机网络/局域网服务器通过本地正向代理联网.md",
-    "Learning/计算机网络/内网穿透.md",
-    "papers/论文写作借鉴写法.md"
+    "Learning/GPU/Benchmarks/Benchmark探索.md"
   ]
 }

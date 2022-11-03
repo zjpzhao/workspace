@@ -1301,7 +1301,7 @@
       "title": "arXiv Fulltext PDF",
       "uri": "http://zotero.org/users/7659667/items/ZEPUCZSM",
       "url": "https://arxiv.org/pdf/2202.01758.pdf",
-      "version": 6610
+      "version": 6614
     },
     {
       "abstractNote": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring signiﬁcantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 Englishto-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.0 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature.",
@@ -1642,7 +1642,20 @@
       "itemType": "conferencePaper",
       "key": "MU4K8QA7",
       "libraryID": 1,
-      "notes": [],
+      "notes": [
+        {
+          "dateAdded": "2022-11-03T01:54:20Z",
+          "dateModified": "2022-11-03T01:54:22Z",
+          "itemType": "note",
+          "key": "VTG5YQ7T",
+          "note": "<div data-citation-items=\"%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FMU4K8QA7%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FMU4K8QA7%22%2C%22type%22%3A%22paper-conference%22%2C%22container-title%22%3A%222020%2020th%20IEEE%2FACM%20International%20Symposium%20on%20Cluster%2C%20Cloud%20and%20Internet%20Computing%20(CCGRID)%22%2C%22DOI%22%3A%2210.1109%2FCCGrid49817.2020.00-82%22%2C%22event-place%22%3A%22Melbourne%2C%20Australia%22%2C%22event-title%22%3A%222020%2020th%20IEEE%2FACM%20International%20Symposium%20on%20Cluster%2C%20Cloud%20and%20Internet%20Computing%20(CCGRID)%22%2C%22ISBN%22%3A%22978-1-72816-095-5%22%2C%22page%22%3A%22111-120%22%2C%22publisher%22%3A%22IEEE%22%2C%22publisher-place%22%3A%22Melbourne%2C%20Australia%22%2C%22title%22%3A%22Characterizing%20Accuracy-Aware%20Resilience%20of%20GPGPU%20Applications%22%2C%22URL%22%3A%22https%3A%2F%2Fieeexplore.ieee.org%2Fdocument%2F9139732%2F%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Nie%22%2C%22given%22%3A%22Bin%22%7D%2C%7B%22family%22%3A%22Jog%22%2C%22given%22%3A%22Adwait%22%7D%2C%7B%22family%22%3A%22Smirni%22%2C%22given%22%3A%22Evgenia%22%7D%5D%2C%22accessed%22%3A%7B%22date-parts%22%3A%5B%5B%222021%22%2C12%2C3%5D%5D%7D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%222020%22%2C5%5D%5D%7D%2C%22citation-key%22%3A%22CharacterizingAccuracyAwareResilience2020nie%22%7D%7D%5D\" data-schema-version=\"8\"><p><img alt=\"\" data-attachment-key=\"NCBQN7JQ\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FD9KGUTQA%22%2C%22annotationKey%22%3A%223THRTRR5%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%22115%22%2C%22position%22%3A%7B%22pageIndex%22%3A4%2C%22rects%22%3A%5B%5B308.4%2C113.4%2C568.2%2C405%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FMU4K8QA7%22%5D%2C%22locator%22%3A%22115%22%7D%7D\" width=\"433\" height=\"486\"><br><span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FMU4K8QA7%22%5D%2C%22locator%22%3A%22115%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Nie et al., 2020, p. 115</span>)</span></p>\n<p></p>\n</div>",
+          "parentItem": "MU4K8QA7",
+          "relations": {},
+          "tags": [],
+          "uri": "http://zotero.org/users/7659667/items/VTG5YQ7T",
+          "version": 6632
+        }
+      ],
       "pages": "111-120",
       "place": "Melbourne, Australia",
       "publicationTitle": "2020 20th IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGRID)",
@@ -1711,7 +1724,20 @@
       "key": "N8QC8W93",
       "libraryCatalog": "2",
       "libraryID": 1,
-      "notes": [],
+      "notes": [
+        {
+          "dateAdded": "2022-11-03T01:56:48Z",
+          "dateModified": "2022-11-03T01:56:51Z",
+          "itemType": "note",
+          "key": "7H9HLI3D",
+          "note": "<div data-citation-items=\"%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FN8QC8W93%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FN8QC8W93%22%2C%22type%22%3A%22article-journal%22%2C%22call-number%22%3A%227.329%22%2C%22container-title%22%3A%22IEEE%20Transactions%20on%20Dependable%20and%20Secure%20Computing%22%2C%22DOI%22%3A%2210.1109%2FTDSC.2020.2991136%22%2C%22ISSN%22%3A%221545-5971%2C%201941-0018%2C%202160-9209%22%2C%22journalAbbreviation%22%3A%22IEEE%20T%20Depend%20Secure%22%2C%22page%22%3A%221-1%22%2C%22source%22%3A%222%22%2C%22title%22%3A%22Characterizing%20and%20Exploiting%20Soft%20Error%20Vulnerability%20Phase%20Behavior%20in%20GPU%20Applications%22%2C%22title-short%22%3A%22Spoti-FI%22%2C%22URL%22%3A%22https%3A%2F%2Fieeexplore.ieee.org%2Fdocument%2F9080079%2F%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Previlon%22%2C%22given%22%3A%22Fritz%20Gerald%22%7D%2C%7B%22family%22%3A%22Kalra%22%2C%22given%22%3A%22Charu%22%7D%2C%7B%22family%22%3A%22tiwari%22%2C%22given%22%3A%22devesh%22%7D%2C%7B%22family%22%3A%22Kaeli%22%2C%22given%22%3A%22David%20R.%22%7D%5D%2C%22accessed%22%3A%7B%22date-parts%22%3A%5B%5B%222021%22%2C12%2C3%5D%5D%7D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%222020%22%5D%5D%7D%2C%22citation-key%22%3A%22CharacterizingExploitingSoft2020previlon%22%7D%7D%5D\" data-schema-version=\"8\"><p><img alt=\"\" data-attachment-key=\"AJL5YE6J\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FAEMBEV7F%22%2C%22annotationKey%22%3A%22KLNL6JRL%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%228%22%2C%22position%22%3A%7B%22pageIndex%22%3A7%2C%22rects%22%3A%5B%5B33.081%2C343.805%2C597.594%2C751.449%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FN8QC8W93%22%5D%2C%22locator%22%3A%228%22%7D%7D\" width=\"941\" height=\"680\"><br><span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FN8QC8W93%22%5D%2C%22locator%22%3A%228%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Previlon et al., 2020, p. 8</span>)</span></p>\n<p></p>\n</div>",
+          "parentItem": "N8QC8W93",
+          "relations": {},
+          "tags": [],
+          "uri": "http://zotero.org/users/7659667/items/7H9HLI3D",
+          "version": 0
+        }
+      ],
       "pages": "1-1",
       "publicationTitle": "IEEE Transactions on Dependable and Secure Computing",
       "relations": [],
@@ -4356,7 +4382,7 @@
       ],
       "date": "2022-07-10",
       "dateAdded": "2022-10-27T07:34:51Z",
-      "dateModified": "2022-10-27T07:34:52Z",
+      "dateModified": "2022-11-03T01:48:26Z",
       "itemID": 10235,
       "itemKey": "KXNZYS9M",
       "itemType": "conferencePaper",
@@ -4372,12 +4398,7 @@
       "relations": [],
       "select": "zotero://select/library/items/KXNZYS9M",
       "shortTitle": "GTuner",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
+      "tags": [],
       "title": "GTuner: tuning DNN computations on GPU via graph attention network",
       "uri": "http://zotero.org/users/7659667/items/KXNZYS9M",
       "url": "https://dl.acm.org/doi/10.1145/3489517.3530584",
@@ -6990,8 +7011,8 @@
           "uri": "http://zotero.org/users/7659667/items/49IEXV4Q"
         }
       ],
-      "citationKey": "PredictingSoftError2022topcua",
-      "citekey": "PredictingSoftError2022topcua",
+      "citationKey": "PredictingSoftError2022topcu",
+      "citekey": "PredictingSoftError2022topcu",
       "conferenceName": "2022 30th Euromicro International Conference on Parallel, Distributed and Network-Based Processing (PDP)",
       "creators": [
         {
@@ -7007,7 +7028,7 @@
       ],
       "date": "3/2022",
       "dateAdded": "2022-10-13T11:51:56Z",
-      "dateModified": "2022-10-19T07:43:07Z",
+      "dateModified": "2022-11-03T02:01:37Z",
       "itemID": 9893,
       "itemKey": "35IHZXAY",
       "itemType": "conferencePaper",
@@ -7022,7 +7043,11 @@
       "publisher": "IEEE",
       "relations": [],
       "select": "zotero://select/library/items/35IHZXAY",
-      "tags": [],
+      "tags": [
+        {
+          "tag": "Spearman"
+        }
+      ],
       "title": "Predicting the Soft Error Vulnerability of GPGPU Applications",
       "uri": "http://zotero.org/users/7659667/items/35IHZXAY",
       "url": "https://ieeexplore.ieee.org/document/9756720/",
@@ -8440,7 +8465,7 @@
       "title": "Understanding Co-Running Behaviors on Integrated CPU/GPU Architectures",
       "uri": "http://zotero.org/users/7659667/items/UXYY9R2H",
       "url": "http://ieeexplore.ieee.org/document/7501903/",
-      "version": 6512,
+      "version": 6515,
       "volume": "28"
     },
     {
