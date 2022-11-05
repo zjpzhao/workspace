@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning/GPU/SASS和PTX.md",
+                "file": "util/常用指令.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -56,8 +56,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "047e99075829a256",
@@ -106,14 +105,17 @@
             "id": "d51dc182023adedd",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.0.3"
+                "file": "Learning/计算机网络/内网穿透.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -187,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/Compiling/LLVM.md"
+                "file": "Learning/计算机网络/内网穿透.md"
               }
             }
           },
@@ -220,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/Compiling/LLVM.md",
+                "file": "Learning/计算机网络/内网穿透.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -232,7 +234,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/Compiling/LLVM.md",
+                "file": "Learning/计算机网络/内网穿透.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -284,17 +286,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "790ba7cf02adf67f",
+  "active": "d51dc182023adedd",
   "lastOpenFiles": [
-    "Learning/GPU/NVCC.md",
-    "Learning/Compiling/LLVM.md",
-    "Learning/AI/AI tools/wandb.md",
+    "Learning/计算机网络/局域网服务器通过本地正向代理联网.md",
     "util/常用指令.md",
-    "papers/My DAC 2023.md",
-    "Learning/Soft Error/Observations on Soft Error.md",
+    "Workflow/插件用法.md",
+    "Learning/计算机网络/内网穿透.md",
     "Learning/GPU/SASS和PTX.md",
-    "papers/论文写作积累.md",
     "Learning/AI/AI tools/T-SNE.md",
-    "papers/论文撰写.md"
+    "papers/论文写作积累.md",
+    "Learning/Soft Error/Observations on Soft Error.md",
+    "Learning/Compiling/LLVM.md",
+    "Learning/GPU/NVCC.md"
   ]
 }
