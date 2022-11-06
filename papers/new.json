@@ -40,7 +40,8 @@
       "collections": [],
       "items": [
         10229,
-        10319
+        10319,
+        10570
       ],
       "key": "9AAKJDNS",
       "name": "Scheduling",
@@ -52,8 +53,7 @@
         57,
         58,
         7786,
-        7901,
-        8603
+        7901
       ],
       "key": "9ML3SXBU",
       "name": "util",
@@ -878,78 +878,6 @@
       "uri": "http://zotero.org/users/7659667/items/3DR7AIPE",
       "url": "https://ieeexplore.ieee.org/document/9679192/",
       "version": 6419
-    },
-    {
-      "abstractNote": "Most of current network representation models are learned in unsupervised fashions, which usually lack the capability of discrimination when applied to network analysis tasks, such as node classiﬁcation. It is worth noting that label information is valuable for learning the discriminative network representations. However, labels of all training nodes are always difﬁcult or expensive to obtain and manually labeling all nodes for training is inapplicable. Different sets of labeled nodes for model learning lead to different network representation results. In this paper, we propose a novel method, termed as ANRMAB, to learn the active discriminative network representations with a multi-armed bandit mechanism in active learning setting. Speciﬁcally, based on the networking data and the learned network representations, we design three active learning query strategies. By deriving an effective reward scheme that is closely related to the estimated performance measure of interest, ANRMAB uses a multi-armed bandit mechanism for adaptive decision making to select the most informative nodes for labeling. The updated labeled nodes are then used for further discriminative network representation learning. Experiments are conducted on three public data sets to verify the effectiveness of ANRMAB.",
-      "attachments": [
-        {
-          "dateAdded": "2022-10-27T13:12:01Z",
-          "dateModified": "2022-10-27T13:13:09Z",
-          "itemType": "attachment",
-          "path": "D:\\Zotero\\storage\\R5AX36J2\\Gao et al. - Active Discriminative Network Representation Learn.pdf",
-          "relations": [],
-          "select": "zotero://select/library/items/R5AX36J2",
-          "tags": [],
-          "title": "Gao et al. - Active Discriminative Network Representation Learn.pdf",
-          "uri": "http://zotero.org/users/7659667/items/R5AX36J2"
-        }
-      ],
-      "citationKey": "ActiveDiscriminativeNetworkgao",
-      "citekey": "ActiveDiscriminativeNetworkgao",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Li",
-          "lastName": "Gao"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Hong",
-          "lastName": "Yang"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Chuan",
-          "lastName": "Zhou"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Jia",
-          "lastName": "Wu"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Shirui",
-          "lastName": "Pan"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Yue",
-          "lastName": "Hu"
-        }
-      ],
-      "dateAdded": "2022-10-27T13:13:08Z",
-      "dateModified": "2022-10-27T14:22:23Z",
-      "itemID": 10243,
-      "itemKey": "MDXGLJ47",
-      "itemType": "journalArticle",
-      "key": "MDXGLJ47",
-      "language": "en",
-      "libraryCatalog": "Zotero",
-      "libraryID": 1,
-      "notes": [],
-      "pages": "7",
-      "relations": [],
-      "select": "zotero://select/library/items/MDXGLJ47",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
-      "title": "Active Discriminative Network Representation Learning",
-      "uri": "http://zotero.org/users/7659667/items/MDXGLJ47",
-      "version": 6239
     },
     {
       "abstractNote": "Graph embedding provides an e cient solution for graph analysis by converting the graph into a low-dimensional space which preserves the structure information. In contrast to the graph structure data, the i.i.d. node embeddings can be processed e ciently in terms of both time and space. Current semi-supervised graph embedding algorithms assume the labelled nodes are given, which may not be always true in the real world. While manually label all training data is inapplicable, how to select the subset of training data to label so as to maximize the graph analysis task performance is of great importance. is motivates our proposed active graph embedding (AGE) framework, in which we design a general active learning query strategy for any semi-supervised graph embedding algorithm. AGE selects the most informative nodes as the training labelled nodes based on the graphical information (i.e., node centrality) as well as the learnt node embedding (i.e., node classi cation uncertainty and node embedding representativeness). Di erent query criteria are combined with the time-sensitive parameters which shi the focus from graph based query criteria to embedding based criteria as the learning progresses. Experiments have been conducted on three public datasets and the results veri ed the effectiveness of each component of our query strategy and the power of combining them using time-sensitive parameters. Our code is available online1.",
@@ -5238,7 +5166,7 @@
       ],
       "date": "2022",
       "dateAdded": "2022-07-15T09:01:27Z",
-      "dateModified": "2022-07-15T09:03:30Z",
+      "dateModified": "2022-11-06T05:56:19Z",
       "itemID": 8603,
       "itemKey": "CFFI8KM2",
       "itemType": "document",
@@ -6558,6 +6486,84 @@
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0743731521000368",
       "version": 5850,
       "volume": "152"
+    },
+    {
+      "DOI": "10.1145/3451164",
+      "ISSN": "1544-3566, 1544-3973",
+      "abstractNote": "The massive parallelism present in GPUs comes at the cost of reduced L1 and L2 cache sizes per thread, leading to serious cache contention problems such as thrashing. Hence, the data access locality of an application should be considered during thread scheduling to improve execution time and energy consumption. Recent works have tried to use the locality behavior of regular and structured applications in thread scheduling, but the difficult case of irregular and unstructured parallel applications remains to be explored.\n            \n              We present\n              PAVER\n              , a\n              P\n              riority-\n              A\n              ware\n              V\n              ertex schedul\n              ER\n              , which takes a graph-theoretic approach toward thread scheduling. We analyze the cache locality behavior among\n              thread blocks\n              (\n              TBs\n              ) through a just-in-time compilation, and represent the problem using a graph representing the TBs and the locality among them. This graph is then partitioned to TB groups that display maximum data sharing, which are then assigned to the same streaming multiprocessor by the locality-aware TB scheduler. Through exhaustive simulation in Fermi, Pascal, and Volta architectures using a number of scheduling techniques, we show that PAVER reduces L2 accesses by 43.3%, 48.5%, and 40.21% and increases the average performance benefit by 29%, 49.1%, and 41.2% for the benchmarks with high inter-TB locality.",
+      "accessDate": "2022-11-05T14:00:42Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-11-05T14:00:30Z",
+          "dateModified": "2022-11-05T14:00:59Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\4PRUQ3KT\\Tripathy et al. - 2021 - PAVER Locality Graph-Based Thread Block Schedulin.pdf",
+          "relations": [],
+          "select": "zotero://select/library/items/4PRUQ3KT",
+          "tags": [],
+          "title": "Tripathy et al. - 2021 - PAVER Locality Graph-Based Thread Block Schedulin.pdf",
+          "uri": "http://zotero.org/users/7659667/items/4PRUQ3KT"
+        }
+      ],
+      "callNumber": "3",
+      "citationKey": "PAVERLocalityGraphBased2021tripathy",
+      "citekey": "PAVERLocalityGraphBased2021tripathy",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Devashree",
+          "lastName": "Tripathy"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Amirali",
+          "lastName": "Abdolrashidi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Laxmi Narayan",
+          "lastName": "Bhuyan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Liang",
+          "lastName": "Zhou"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Daniel",
+          "lastName": "Wong"
+        }
+      ],
+      "date": "2021-09-30",
+      "dateAdded": "2022-11-05T14:00:42Z",
+      "dateModified": "2022-11-06T05:54:36Z",
+      "issue": "3",
+      "itemID": 10570,
+      "itemKey": "BLYGXMZC",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "ACM Trans. Archit. Code Optim.",
+      "key": "BLYGXMZC",
+      "language": "en",
+      "libraryCatalog": "1.444",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1-26",
+      "publicationTitle": "ACM Transactions on Architecture and Code Optimization",
+      "relations": [],
+      "select": "zotero://select/library/items/BLYGXMZC",
+      "shortTitle": "PAVER",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "PAVER: Locality Graph-Based Thread Block Scheduling for GPUs",
+      "uri": "http://zotero.org/users/7659667/items/BLYGXMZC",
+      "url": "https://dl.acm.org/doi/10.1145/3451164",
+      "version": 6736,
+      "volume": "18"
     },
     {
       "DOI": "10.23919/DATE.2019.8714781",
@@ -8832,83 +8838,6 @@
       "uri": "http://zotero.org/users/7659667/items/HGJ3KG7A",
       "url": "https://dl.acm.org/doi/10.1145/3123939.3123976",
       "version": 5664
-    },
-    {
-      "DOI": "10.1145/3123939.3123976",
-      "ISBN": "978-1-4503-4952-9",
-      "abstractNote": "GPUs lack fundamental support for data-dependent parallelism and synchronization. While CUDA Dynamic Parallelism signals progress in this direction, many limitations and challenges still remain. This paper introduces Wireframe, a hardware-software solution that enables generalized support for data-dependent parallelism and synchronization. Wireframe enables applications to naturally express execution dependencies across different thread blocks through a dependency graph abstraction at run-time, which is sent to the GPU hardware at kernel launch. At run-time, the hardware enforces the dependencies speciﬁed in the dependency graph through a dependencyaware thread block scheduler. Overall, Wireframe is able to improve total execution time up to 65.20% with an average of 45.07%.",
-      "accessDate": "2022-10-25T23:55:30Z",
-      "attachments": [
-        {
-          "dateAdded": "2022-10-25T23:55:23Z",
-          "dateModified": "2022-10-25T23:55:31Z",
-          "itemType": "attachment",
-          "path": "D:\\Zotero\\storage\\A8Z45CCJ\\Abdolrashidi et al. - 2017 - Wireframe supporting data-dependent parallelism t.pdf",
-          "relations": [],
-          "select": "zotero://select/library/items/A8Z45CCJ",
-          "tags": [],
-          "title": "Abdolrashidi et al. - 2017 - Wireframe supporting data-dependent parallelism t.pdf",
-          "uri": "http://zotero.org/users/7659667/items/A8Z45CCJ"
-        }
-      ],
-      "citationKey": "WireframeSupportingDatadependent2017abdolrashidia",
-      "citekey": "WireframeSupportingDatadependent2017abdolrashidia",
-      "conferenceName": "MICRO-50: The 50th Annual IEEE/ACM International Symposium on Microarchitecture",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "AmirAli",
-          "lastName": "Abdolrashidi"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Devashree",
-          "lastName": "Tripathy"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Mehmet Esat",
-          "lastName": "Belviranli"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Laxmi Narayan",
-          "lastName": "Bhuyan"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Daniel",
-          "lastName": "Wong"
-        }
-      ],
-      "date": "2017-10-14",
-      "dateAdded": "2022-10-25T23:55:30Z",
-      "dateModified": "2022-10-25T23:55:41Z",
-      "itemID": 10232,
-      "itemKey": "ULZJXEIE",
-      "itemType": "conferencePaper",
-      "key": "ULZJXEIE",
-      "language": "en",
-      "libraryCatalog": "DOI.org (Crossref)",
-      "libraryID": 1,
-      "notes": [],
-      "pages": "600-611",
-      "place": "Cambridge Massachusetts",
-      "publicationTitle": "Proceedings of the 50th Annual IEEE/ACM International Symposium on Microarchitecture",
-      "publisher": "ACM",
-      "relations": [],
-      "select": "zotero://select/library/items/ULZJXEIE",
-      "shortTitle": "Wireframe",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
-      "title": "Wireframe: supporting data-dependent parallelism through dependency graph execution in GPUs",
-      "uri": "http://zotero.org/users/7659667/items/ULZJXEIE",
-      "url": "https://dl.acm.org/doi/10.1145/3123939.3123976",
-      "version": 6203
     }
   ],
   "version": {
