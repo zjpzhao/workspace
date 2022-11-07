@@ -1,10 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "Networking",
-      "path": "Learning/计算机网络/Networking.md"
-    },
-    {
       "basename": "内网穿透",
       "path": "Learning/计算机网络/内网穿透.md"
     },
@@ -15,6 +11,10 @@
     {
       "basename": "常用指令",
       "path": "util/常用指令.md"
+    },
+    {
+      "basename": "Networking",
+      "path": "Learning/计算机网络/Networking.md"
     },
     {
       "basename": "插件用法",

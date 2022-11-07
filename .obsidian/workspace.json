@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "util/常用指令.md",
+                "file": "Learning/计算机网络/内网穿透.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -189,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/计算机网络/Networking.md"
+                "file": "Learning/计算机网络/内网穿透.md"
               }
             }
           },
@@ -222,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/计算机网络/Networking.md",
+                "file": "Learning/计算机网络/内网穿透.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +234,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/计算机网络/Networking.md",
+                "file": "Learning/计算机网络/内网穿透.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -286,17 +286,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d51dc182023adedd",
+  "active": "df859b349b6d4132",
   "lastOpenFiles": [
-    "Learning/计算机网络/内网穿透.md",
     "Learning/计算机网络/局域网服务器通过本地正向代理联网.md",
     "util/常用指令.md",
+    "Learning/计算机网络/Networking.md",
+    "Learning/计算机网络/内网穿透.md",
     "Workflow/插件用法.md",
     "Learning/GPU/SASS和PTX.md",
     "Learning/AI/AI tools/T-SNE.md",
     "papers/论文写作积累.md",
     "Learning/Soft Error/Observations on Soft Error.md",
-    "Learning/Compiling/LLVM.md",
-    "Learning/GPU/NVCC.md"
+    "Learning/Compiling/LLVM.md"
   ]
 }
