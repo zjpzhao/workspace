@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning/Compiling/LLVM.md",
+                "file": "Workflow/文献阅读批注和同步体系.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -176,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/Compiling/LLVM.md"
+                "file": "Workflow/文献阅读批注和同步体系.md"
               }
             }
           },
@@ -209,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/Compiling/LLVM.md",
+                "file": "Workflow/文献阅读批注和同步体系.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,7 +221,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/Compiling/LLVM.md",
+                "file": "Workflow/文献阅读批注和同步体系.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -275,15 +275,15 @@
   },
   "active": "790ba7cf02adf67f",
   "lastOpenFiles": [
-    "Learning/AI/GNN/GNN.md",
+    "util/Zotero.md",
     "Learning/Compiling/LLVM.md",
+    "Learning/AI/GNN/GNN.md",
     "papers/论文写作积累.md",
     "util/常用指令.md",
     "Learning/计算机网络/Networking.md",
     "Learning/计算机网络/内网穿透.md",
     "Learning/计算机网络/局域网服务器通过本地正向代理联网.md",
     "Workflow/插件用法.md",
-    "Learning/GPU/SASS和PTX.md",
-    "Learning/AI/AI tools/T-SNE.md"
+    "Learning/GPU/SASS和PTX.md"
   ]
 }

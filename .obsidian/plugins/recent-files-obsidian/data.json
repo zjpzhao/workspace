@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "文献阅读批注和同步体系",
+      "path": "Workflow/文献阅读批注和同步体系.md"
+    },
+    {
+      "basename": "Zotero",
+      "path": "util/Zotero.md"
+    },
+    {
       "basename": "LLVM",
       "path": "Learning/Compiling/LLVM.md"
     },
@@ -121,10 +129,6 @@
       "path": "util/Tricks.md"
     },
     {
-      "basename": "文献阅读批注和同步体系",
-      "path": "Workflow/文献阅读批注和同步体系.md"
-    },
-    {
       "basename": "全系workflow搭建",
       "path": "Workflow/全系workflow搭建.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Code_位翻转",
       "path": "Learning/Programming Language & Framework/Python/Code_位翻转.md"
-    },
-    {
-      "basename": "常用缩写",
-      "path": "papers/常用缩写.md"
     }
   ],
   "omittedPaths": [],
