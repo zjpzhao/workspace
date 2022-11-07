@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "df859b349b6d4132",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learning/计算机网络/内网穿透.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a06af35eb0f55d5b",
             "type": "leaf",
             "state": {
@@ -56,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "047e99075829a256",
@@ -107,15 +95,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning/计算机网络/Networking.md",
+                "file": "util/常用指令.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -189,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/计算机网络/内网穿透.md"
+                "file": "Learning/Compiling/LLVM.md"
               }
             }
           },
@@ -222,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/计算机网络/内网穿透.md",
+                "file": "Learning/Compiling/LLVM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +221,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/计算机网络/内网穿透.md",
+                "file": "Learning/Compiling/LLVM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -286,17 +273,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "df859b349b6d4132",
+  "active": "790ba7cf02adf67f",
   "lastOpenFiles": [
-    "Learning/计算机网络/局域网服务器通过本地正向代理联网.md",
+    "Learning/AI/GNN/GNN.md",
+    "Learning/Compiling/LLVM.md",
+    "papers/论文写作积累.md",
     "util/常用指令.md",
     "Learning/计算机网络/Networking.md",
     "Learning/计算机网络/内网穿透.md",
+    "Learning/计算机网络/局域网服务器通过本地正向代理联网.md",
     "Workflow/插件用法.md",
     "Learning/GPU/SASS和PTX.md",
-    "Learning/AI/AI tools/T-SNE.md",
-    "papers/论文写作积累.md",
-    "Learning/Soft Error/Observations on Soft Error.md",
-    "Learning/Compiling/LLVM.md"
+    "Learning/AI/AI tools/T-SNE.md"
   ]
 }

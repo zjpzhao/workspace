@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "内网穿透",
-      "path": "Learning/计算机网络/内网穿透.md"
+      "basename": "LLVM",
+      "path": "Learning/Compiling/LLVM.md"
     },
     {
-      "basename": "局域网服务器通过本地正向代理联网",
-      "path": "Learning/计算机网络/局域网服务器通过本地正向代理联网.md"
+      "basename": "GNN",
+      "path": "Learning/AI/GNN/GNN.md"
+    },
+    {
+      "basename": "论文写作积累",
+      "path": "papers/论文写作积累.md"
     },
     {
       "basename": "常用指令",
@@ -15,6 +19,14 @@
     {
       "basename": "Networking",
       "path": "Learning/计算机网络/Networking.md"
+    },
+    {
+      "basename": "内网穿透",
+      "path": "Learning/计算机网络/内网穿透.md"
+    },
+    {
+      "basename": "局域网服务器通过本地正向代理联网",
+      "path": "Learning/计算机网络/局域网服务器通过本地正向代理联网.md"
     },
     {
       "basename": "插件用法",
@@ -29,16 +41,8 @@
       "path": "Learning/AI/AI tools/T-SNE.md"
     },
     {
-      "basename": "论文写作积累",
-      "path": "papers/论文写作积累.md"
-    },
-    {
       "basename": "Observations on Soft Error",
       "path": "Learning/Soft Error/Observations on Soft Error.md"
-    },
-    {
-      "basename": "LLVM",
-      "path": "Learning/Compiling/LLVM.md"
     },
     {
       "basename": "NVCC",
@@ -119,10 +123,6 @@
     {
       "basename": "文献阅读批注和同步体系",
       "path": "Workflow/文献阅读批注和同步体系.md"
-    },
-    {
-      "basename": "GNN",
-      "path": "Learning/AI/GNN/GNN.md"
     },
     {
       "basename": "全系workflow搭建",
