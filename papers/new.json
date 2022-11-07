@@ -206,11 +206,12 @@
     "LP7Q7M4A": {
       "collections": [],
       "items": [
-        10241
+        10241,
+        10604
       ],
       "key": "LP7Q7M4A",
       "name": "Methodology & Tools",
-      "parent": "SR4PU68B"
+      "parent": ""
     },
     "NTN23YJ8": {
       "collections": [],
@@ -285,8 +286,7 @@
     "SR4PU68B": {
       "collections": [
         "GRA3RRQX",
-        "JNY8VHWT",
-        "LP7Q7M4A"
+        "JNY8VHWT"
       ],
       "items": [],
       "key": "SR4PU68B",
@@ -2197,6 +2197,89 @@
       "title": "CUDA C++ Programming Guide",
       "uri": "http://zotero.org/users/7659667/items/GNT349ZK",
       "version": 3030
+    },
+    {
+      "DOI": "10.1111/cgf.14303",
+      "ISSN": "0167-7055, 1467-8659",
+      "abstractNote": "Graphics Processing Units (GPUs) have been widely used to accelerate artiﬁcial intelligence, physics simulation, medical imaging, and information visualization applications. To improve GPU performance, GPU hardware designers need to identify performance issues by inspecting a huge amount of simulator-generated traces. Visualizing the execution traces can reduce the cognitive burden of users and facilitate making sense of behaviors of GPU hardware components. In this paper, we ﬁrst formalize the process of GPU performance analysis and characterize the design requirements of visualizing execution traces based on a survey study and interviews with GPU hardware designers. We contribute data and task abstraction for GPU performance analysis. Based on our task analysis, we propose Daisen, a framework that supports data collection from GPU simulators and provides visualization of the simulator-generated GPU execution traces. Daisen features a data abstraction and trace format that can record simulator-generated GPU execution traces. Daisen also includes a web-based visualization tool that helps GPU hardware designers examine GPU execution traces, identify performance bottlenecks, and verify performance improvement. Our qualitative evaluation with GPU hardware designers demonstrates that the design of Daisen reﬂects the typical workﬂow of GPU hardware designers. Using Daisen, participants were able to effectively identify potential performance bottlenecks and opportunities for performance improvement. The open-sourced implementation of Daisen can be found at gitlab.com/akita/vis. Supplemental materials including a demo video, survey questions, evaluation study guide, and post-study evaluation survey are available at osf.io/j5ghq.",
+      "accessDate": "2022-11-07T12:25:51Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-11-07T12:25:44Z",
+          "dateModified": "2022-11-07T12:25:55Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\KYPU97FR\\Sun et al. - 2021 - Daisen A Framework for Visualizing Detailed GPU E.pdf",
+          "relations": [],
+          "select": "zotero://select/library/items/KYPU97FR",
+          "tags": [],
+          "title": "Sun et al. - 2021 - Daisen A Framework for Visualizing Detailed GPU E.pdf",
+          "uri": "http://zotero.org/users/7659667/items/KYPU97FR"
+        }
+      ],
+      "callNumber": "3",
+      "citationKey": "DaisenFrameworkVisualizing2021sun",
+      "citekey": "DaisenFrameworkVisualizing2021sun",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Yifan",
+          "lastName": "Sun"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yixuan",
+          "lastName": "Zhang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ali",
+          "lastName": "Mosallaei"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michael D.",
+          "lastName": "Shah"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Cody",
+          "lastName": "Dunne"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David",
+          "lastName": "Kaeli"
+        }
+      ],
+      "date": "06/2021",
+      "dateAdded": "2022-11-07T12:25:51Z",
+      "dateModified": "2022-11-07T12:25:54Z",
+      "issue": "3",
+      "itemID": 10604,
+      "itemKey": "73JFIKID",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Computer Graphics Forum",
+      "key": "73JFIKID",
+      "language": "en",
+      "libraryCatalog": "2.363",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "239-250",
+      "publicationTitle": "Computer Graphics Forum",
+      "relations": [],
+      "select": "zotero://select/library/items/73JFIKID",
+      "shortTitle": "Daisen",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Daisen: A Framework for Visualizing Detailed GPU Execution",
+      "uri": "http://zotero.org/users/7659667/items/73JFIKID",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/cgf.14303",
+      "version": 6781,
+      "volume": "40"
     },
     {
       "attachments": [

@@ -91,7 +91,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -165,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/计算机网络/局域网服务器通过本地正向代理联网.md"
+                "file": "util/常用指令.md"
               }
             }
           },
@@ -198,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/计算机网络/局域网服务器通过本地正向代理联网.md",
+                "file": "util/常用指令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +211,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/计算机网络/局域网服务器通过本地正向代理联网.md",
+                "file": "util/常用指令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -262,8 +263,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a06af35eb0f55d5b",
+  "active": "d51dc182023adedd",
   "lastOpenFiles": [
+    "Learning/计算机网络/局域网服务器通过本地正向代理联网.md",
     "util/常用指令.md",
     "Workflow/插件用法.md",
     "Excalidraw/Drawing 2022-11-07 16.17.37.excalidraw.md",
@@ -272,7 +274,6 @@
     "util/Zotero.md",
     "Learning/Compiling/LLVM.md",
     "Learning/AI/GNN/GNN.md",
-    "papers/论文写作积累.md",
-    "Learning/计算机网络/Networking.md"
+    "papers/论文写作积累.md"
   ]
 }
