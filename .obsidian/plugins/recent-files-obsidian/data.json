@@ -1,8 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "论文写作积累",
-      "path": "papers/论文写作积累.md"
+      "basename": "我的conda环境",
+      "path": "util/我的conda环境.md"
     },
     {
       "basename": "局域网服务器通过本地正向代理联网",
@@ -11,6 +11,30 @@
     {
       "basename": "常用指令",
       "path": "util/常用指令.md"
+    },
+    {
+      "basename": "论文写作积累",
+      "path": "papers/论文写作积累.md"
+    },
+    {
+      "basename": "GNN",
+      "path": "Learning/AI/GNN/GNN.md"
+    },
+    {
+      "basename": "Observations on Soft Error",
+      "path": "Learning/Soft Error/Observations on Soft Error.md"
+    },
+    {
+      "basename": "Collect Metrics",
+      "path": "Learning/GPU/Collect Metrics.md"
+    },
+    {
+      "basename": "理解和区分conda cudatoolkit、Nvidia cudatoolkit、nvidia-smi回显cuda版本",
+      "path": "Learning/GPU/理解和区分conda cudatoolkit、Nvidia cudatoolkit、nvidia-smi回显cuda版本.md"
+    },
+    {
+      "basename": "wandb",
+      "path": "Learning/AI/AI tools/wandb.md"
     },
     {
       "basename": "插件用法",
@@ -33,10 +57,6 @@
       "path": "Learning/Compiling/LLVM.md"
     },
     {
-      "basename": "GNN",
-      "path": "Learning/AI/GNN/GNN.md"
-    },
-    {
       "basename": "Networking",
       "path": "Learning/计算机网络/Networking.md"
     },
@@ -53,16 +73,8 @@
       "path": "Learning/AI/AI tools/T-SNE.md"
     },
     {
-      "basename": "Observations on Soft Error",
-      "path": "Learning/Soft Error/Observations on Soft Error.md"
-    },
-    {
       "basename": "NVCC",
       "path": "Learning/GPU/NVCC.md"
-    },
-    {
-      "basename": "wandb",
-      "path": "Learning/AI/AI tools/wandb.md"
     },
     {
       "basename": "My DAC 2023",
@@ -115,14 +127,6 @@
     {
       "basename": "层次结构",
       "path": "Learning/GPU/层次结构.md"
-    },
-    {
-      "basename": "理解和区分conda cudatoolkit、Nvidia cudatoolkit、nvidia-smi回显cuda版本",
-      "path": "Learning/GPU/理解和区分conda cudatoolkit、Nvidia cudatoolkit、nvidia-smi回显cuda版本.md"
-    },
-    {
-      "basename": "Collect Metrics",
-      "path": "Learning/GPU/Collect Metrics.md"
     },
     {
       "basename": "GPU",

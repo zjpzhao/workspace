@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning/计算机网络/局域网服务器通过本地正向代理联网.md",
+                "file": "Learning/GPU/Collect Metrics.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -33,7 +33,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "047e99075829a256",
@@ -84,14 +85,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "util/常用指令.md",
+                "file": "Learning/计算机网络/局域网服务器通过本地正向代理联网.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5db779392e74b89e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "util/我的conda环境.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -165,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/论文写作积累.md"
+                "file": "util/我的conda环境.md"
               }
             }
           },
@@ -198,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/论文写作积累.md",
+                "file": "util/我的conda环境.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/论文写作积累.md",
+                "file": "util/我的conda环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -262,17 +277,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "382133fc48c45650",
+  "active": "5db779392e74b89e",
   "lastOpenFiles": [
     "Learning/计算机网络/局域网服务器通过本地正向代理联网.md",
     "util/常用指令.md",
-    "Workflow/插件用法.md",
-    "Excalidraw/Drawing 2022-11-07 16.17.37.excalidraw.md",
-    "util/换源.md",
-    "Workflow/文献阅读批注和同步体系.md",
-    "util/Zotero.md",
-    "Learning/Compiling/LLVM.md",
+    "papers/论文写作积累.md",
     "Learning/AI/GNN/GNN.md",
-    "papers/论文写作积累.md"
+    "Learning/Soft Error/Observations on Soft Error.md",
+    "Learning/GPU/Collect Metrics.md",
+    "Learning/GPU/理解和区分conda cudatoolkit、Nvidia cudatoolkit、nvidia-smi回显cuda版本.md",
+    "Learning/AI/AI tools/wandb.md",
+    "Workflow/插件用法.md",
+    "Excalidraw/Drawing 2022-11-07 16.17.37.excalidraw.md"
   ]
 }
