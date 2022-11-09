@@ -1,0 +1,2 @@
+1. `sudo /mnt/miniconda3/envs/zjp_gnn/bin/jupyter-notebook --port=8889 --allow-root`
+2. select kernel 中选择远程jupyter服务器，粘贴1回显得到的网址（例如http://localhost:8889/?token=ac8034fa05f8d5eacdecf269aaae3d9b51fd08d232766221）

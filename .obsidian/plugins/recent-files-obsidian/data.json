@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "jupyter-notebook + VSCode",
+      "path": "util/jupyter-notebook + VSCode.md"
+    },
+    {
+      "basename": "论文写作积累",
+      "path": "papers/论文写作积累.md"
+    },
+    {
+      "basename": "python性能",
+      "path": "Learning/Programming Language & Framework/Python/python性能.md"
+    },
+    {
       "basename": "我的conda环境",
       "path": "util/我的conda环境.md"
     },
@@ -11,10 +23,6 @@
     {
       "basename": "常用指令",
       "path": "util/常用指令.md"
-    },
-    {
-      "basename": "论文写作积累",
-      "path": "papers/论文写作积累.md"
     },
     {
       "basename": "GNN",
@@ -191,14 +199,6 @@
     {
       "basename": "python典型写法示例",
       "path": "Learning/Programming Language & Framework/Python/python典型写法示例.md"
-    },
-    {
-      "basename": "@FaultToleranceDistributed1994jalote",
-      "path": "papers/@FaultToleranceDistributed1994jalote.md"
-    },
-    {
-      "basename": "Ubuntu 22.04探索",
-      "path": "util/Ubuntu 22.04探索.md"
     }
   ],
   "omittedPaths": [],

@@ -54,6 +54,19 @@
             }
           },
           {
+            "id": "c09f3ab89c52e045",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "util/jupyter-notebook + VSCode.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "02969b7f98836494",
             "type": "leaf",
             "state": {
@@ -104,9 +117,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "856c6c60b51d0dc8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learning/Programming Language & Framework/Python/python性能.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "util/我的conda环境.md"
+                "file": "util/jupyter-notebook + VSCode.md"
               }
             }
           },
@@ -213,7 +239,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "util/我的conda环境.md",
+                "file": "util/jupyter-notebook + VSCode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "util/我的conda环境.md",
+                "file": "util/jupyter-notebook + VSCode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -277,17 +303,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5db779392e74b89e",
+  "active": "c09f3ab89c52e045",
   "lastOpenFiles": [
+    "papers/论文写作积累.md",
+    "Learning/Programming Language & Framework/Python/python性能.md",
+    "util/我的conda环境.md",
     "Learning/计算机网络/局域网服务器通过本地正向代理联网.md",
     "util/常用指令.md",
-    "papers/论文写作积累.md",
     "Learning/AI/GNN/GNN.md",
     "Learning/Soft Error/Observations on Soft Error.md",
     "Learning/GPU/Collect Metrics.md",
     "Learning/GPU/理解和区分conda cudatoolkit、Nvidia cudatoolkit、nvidia-smi回显cuda版本.md",
-    "Learning/AI/AI tools/wandb.md",
-    "Workflow/插件用法.md",
-    "Excalidraw/Drawing 2022-11-07 16.17.37.excalidraw.md"
+    "Learning/AI/AI tools/wandb.md"
   ]
 }
