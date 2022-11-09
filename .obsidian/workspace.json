@@ -59,7 +59,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "util/jupyter-notebook + VSCode.md",
+                "file": "Learning/AI/AI tools/t-SNE.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,32 +73,6 @@
               "type": "markdown",
               "state": {
                 "file": "Learning/Soft Error/Observations on Soft Error.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "851e6218f57a2f9e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learning/AI/AI tools/T-SNE.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d51dc182023adedd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learning/计算机网络/局域网服务器通过本地正向代理联网.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -132,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -206,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "util/jupyter-notebook + VSCode.md"
+                "file": "util/我的conda环境.md"
               }
             }
           },
@@ -239,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "util/jupyter-notebook + VSCode.md",
+                "file": "util/我的conda环境.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -251,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "util/jupyter-notebook + VSCode.md",
+                "file": "util/我的conda环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -303,8 +277,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c09f3ab89c52e045",
+  "active": "5db779392e74b89e",
   "lastOpenFiles": [
+    "Learning/AI/AI tools/t-SNE.md",
+    "util/jupyter-notebook + VSCode.md",
     "papers/论文写作积累.md",
     "Learning/Programming Language & Framework/Python/python性能.md",
     "util/我的conda环境.md",
@@ -312,8 +288,6 @@
     "util/常用指令.md",
     "Learning/AI/GNN/GNN.md",
     "Learning/Soft Error/Observations on Soft Error.md",
-    "Learning/GPU/Collect Metrics.md",
-    "Learning/GPU/理解和区分conda cudatoolkit、Nvidia cudatoolkit、nvidia-smi回显cuda版本.md",
-    "Learning/AI/AI tools/wandb.md"
+    "Learning/GPU/Collect Metrics.md"
   ]
 }

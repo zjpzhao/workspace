@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "我的conda环境",
+      "path": "util/我的conda环境.md"
+    },
+    {
+      "basename": "t-SNE",
+      "path": "Learning/AI/AI tools/t-SNE.md"
+    },
+    {
       "basename": "jupyter-notebook + VSCode",
       "path": "util/jupyter-notebook + VSCode.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "python性能",
       "path": "Learning/Programming Language & Framework/Python/python性能.md"
-    },
-    {
-      "basename": "我的conda环境",
-      "path": "util/我的conda环境.md"
     },
     {
       "basename": "局域网服务器通过本地正向代理联网",
@@ -75,10 +79,6 @@
     {
       "basename": "SASS和PTX",
       "path": "Learning/GPU/SASS和PTX.md"
-    },
-    {
-      "basename": "T-SNE",
-      "path": "Learning/AI/AI tools/T-SNE.md"
     },
     {
       "basename": "NVCC",

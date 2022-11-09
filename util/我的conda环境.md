@@ -3,6 +3,7 @@
 torch=1.12
 python=3.7
 seaborn=0.12
+cudatoolkit=11.3.1
 pandas
 
 ## zjpgnn
