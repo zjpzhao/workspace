@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning/计算机网络/内网穿透.md",
+                "file": "Workflow/文献阅读批注和同步体系.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/论文写作积累.md"
+                "file": "Workflow/文献阅读批注和同步体系.md"
               }
             }
           },
@@ -192,7 +192,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -212,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/论文写作积累.md",
+                "file": "Workflow/文献阅读批注和同步体系.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,7 +224,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/论文写作积累.md",
+                "file": "Workflow/文献阅读批注和同步体系.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -276,17 +276,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "382133fc48c45650",
+  "active": "2256bea8e2d9765b",
   "lastOpenFiles": [
+    "Learning/Math/Sensitivity.md",
     "Learning/计算机网络/内网穿透.md",
+    "papers/论文写作积累.md",
     "Learning/AI/GNN/GNN.md",
     "Learning/Programming Language & Framework/Python/Python Base.md",
     "Learning/AI/AI tools/t-SNE.md",
     "Learning/Programming Language & Framework/Python/python典型写法示例.md",
     "util/jupyter-notebook + VSCode.md",
     "Learning/GPU/Collect Metrics.md",
-    "util/我的conda环境.md",
-    "papers/论文写作积累.md",
-    "Learning/Programming Language & Framework/Python/python性能.md"
+    "util/我的conda环境.md"
   ]
 }

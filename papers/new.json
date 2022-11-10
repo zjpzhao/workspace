@@ -2253,7 +2253,7 @@
       ],
       "date": "06/2021",
       "dateAdded": "2022-11-07T12:25:51Z",
-      "dateModified": "2022-11-07T12:25:54Z",
+      "dateModified": "2022-11-09T14:00:03Z",
       "issue": "3",
       "itemID": 10604,
       "itemKey": "73JFIKID",
@@ -2269,16 +2269,11 @@
       "relations": [],
       "select": "zotero://select/library/items/73JFIKID",
       "shortTitle": "Daisen",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
+      "tags": [],
       "title": "Daisen: A Framework for Visualizing Detailed GPU Execution",
       "uri": "http://zotero.org/users/7659667/items/73JFIKID",
       "url": "https://onlinelibrary.wiley.com/doi/10.1111/cgf.14303",
-      "version": 6781,
+      "version": 6789,
       "volume": "40"
     },
     {

@@ -3,5 +3,6 @@
   "cssTheme": "Blue Topaz",
   "translucency": false,
   "theme": "system",
-  "accentColor": ""
+  "accentColor": "",
+  "nativeMenus": true
 }
