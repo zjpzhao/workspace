@@ -26,14 +26,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning/AI/GNN/GNN.md",
+                "file": "Learning/计算机网络/内网穿透.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "047e99075829a256",
@@ -179,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/Programming Language & Framework/Python/Python Base.md"
+                "file": "Learning/计算机网络/内网穿透.md"
               }
             }
           },
@@ -212,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/Programming Language & Framework/Python/Python Base.md",
+                "file": "Learning/计算机网络/内网穿透.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/Programming Language & Framework/Python/Python Base.md",
+                "file": "Learning/计算机网络/内网穿透.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -276,17 +277,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a06af35eb0f55d5b",
+  "active": "2256bea8e2d9765b",
   "lastOpenFiles": [
-    "Learning/Programming Language & Framework/Python/python典型写法示例.md",
+    "Learning/AI/GNN/GNN.md",
+    "Learning/Programming Language & Framework/Python/Python Base.md",
     "Learning/AI/AI tools/t-SNE.md",
+    "Learning/Programming Language & Framework/Python/python典型写法示例.md",
     "util/jupyter-notebook + VSCode.md",
     "Learning/GPU/Collect Metrics.md",
-    "Learning/AI/GNN/GNN.md",
     "util/我的conda环境.md",
     "papers/论文写作积累.md",
     "Learning/Programming Language & Framework/Python/python性能.md",
-    "Learning/计算机网络/局域网服务器通过本地正向代理联网.md",
-    "util/常用指令.md"
+    "Learning/计算机网络/局域网服务器通过本地正向代理联网.md"
   ]
 }

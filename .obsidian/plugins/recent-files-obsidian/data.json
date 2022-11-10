@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "内网穿透",
+      "path": "Learning/计算机网络/内网穿透.md"
+    },
+    {
+      "basename": "GNN",
+      "path": "Learning/AI/GNN/GNN.md"
+    },
+    {
       "basename": "Python Base",
       "path": "Learning/Programming Language & Framework/Python/Python Base.md"
     },
     {
-      "basename": "python典型写法示例",
-      "path": "Learning/Programming Language & Framework/Python/python典型写法示例.md"
-    },
-    {
       "basename": "t-SNE",
       "path": "Learning/AI/AI tools/t-SNE.md"
+    },
+    {
+      "basename": "python典型写法示例",
+      "path": "Learning/Programming Language & Framework/Python/python典型写法示例.md"
     },
     {
       "basename": "jupyter-notebook + VSCode",
@@ -19,10 +27,6 @@
     {
       "basename": "Collect Metrics",
       "path": "Learning/GPU/Collect Metrics.md"
-    },
-    {
-      "basename": "GNN",
-      "path": "Learning/AI/GNN/GNN.md"
     },
     {
       "basename": "我的conda环境",
@@ -79,10 +83,6 @@
     {
       "basename": "Networking",
       "path": "Learning/计算机网络/Networking.md"
-    },
-    {
-      "basename": "内网穿透",
-      "path": "Learning/计算机网络/内网穿透.md"
     },
     {
       "basename": "SASS和PTX",
