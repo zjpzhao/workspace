@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Benchmark探索",
+      "path": "Learning/GPU/Benchmarks/Benchmark探索.md"
+    },
+    {
+      "basename": "各Benchmark特点",
+      "path": "Learning/GPU/Benchmarks/各Benchmark特点.md"
+    },
+    {
       "basename": "文献阅读批注和同步体系",
       "path": "Workflow/文献阅读批注和同步体系.md"
     },
@@ -103,14 +111,6 @@
     {
       "basename": "论文撰写",
       "path": "papers/论文撰写.md"
-    },
-    {
-      "basename": "各Benchmark特点",
-      "path": "Learning/GPU/Benchmarks/各Benchmark特点.md"
-    },
-    {
-      "basename": "Benchmark探索",
-      "path": "Learning/GPU/Benchmarks/Benchmark探索.md"
     },
     {
       "basename": "论文写作借鉴写法",

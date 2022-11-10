@@ -1423,7 +1423,7 @@
       ],
       "date": "4/2017",
       "dateAdded": "2022-07-18T09:06:36Z",
-      "dateModified": "2022-07-18T09:06:37Z",
+      "dateModified": "2022-11-10T11:32:51Z",
       "issue": "2",
       "itemID": 8606,
       "itemKey": "JBT484DD",
@@ -1439,16 +1439,11 @@
       "relations": [],
       "select": "zotero://select/library/items/JBT484DD",
       "shortTitle": "AxBench",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
+      "tags": [],
       "title": "AxBench: A Multiplatform Benchmark Suite for Approximate Computing",
       "uri": "http://zotero.org/users/7659667/items/JBT484DD",
       "url": "http://ieeexplore.ieee.org/document/7755728/",
-      "version": 5853,
+      "version": 6797,
       "volume": "34"
     },
     {

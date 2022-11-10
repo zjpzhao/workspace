@@ -85,7 +85,7 @@ Install the project...
 ## 使用Axbench
 首先一定要sudo chmod -R 777 .
 conda activate zjp_python2
-(base) s3090@b216:~/zjp/experiments/axbench-gpu$ ./uun.sh make convolution
+(base) s3090@b216:~/zjp/experiments/axbench-gpu$ ./run.sh make convolution
 Start making convolution...
 ./run.sh: line 50: ./log/Make.log: No such file or directory
 grep: ./log/Make.log: No such file or directory
@@ -93,6 +93,61 @@ Yay! ** convolution ** has been successfully compiled.
 ![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/error:%20libfann.so.2.png)
 
 上面这个错误参考[网站](https://leenissen.dk/fann/wp/help/installing-fann/)，执行sudo lodconfig即可解决
+
+
+注意跑的时候一定要用sudo赋权
+```bash
+(zjp_python2) s3090@b216[19:31:19]:~/zjp/experiments/benchmarks/axbench-gpu$ sudo ./run.sh run convolution
+[sudo] password for s3090: 
+#1: Collect the training data...
+*********************************************
+ CUDA Convolution Separable Starting... 
+-------------------------------------------------------
+ Input Image:  train.data/input/baboon.pgm
+-------------------------------------------------------
+*********************************************
+#2: Aggregate the training data...
+mkdir: cannot create directory ‘./train.data/output/kernel.data’: File exists
+--------------------------------------------------------- 
+# Total number of training data (Kernel = convolutionRowsKernel): 262144
+---------------------------------------------------------
+ >>>>>> Start Training for Kernel convolutionRowsKernel <<<<<<
+ Do you want to perform training for this kernel?[y/N] y
+#3: Read compile parameter from json file...
+------------------ Compiler Parameters ------------------
+Learning rate [0.1-1.0]: 0.1
+Epoch number [1-10000]: 1
+Sampling rate [0.1-1.0]: 0.1
+Test data fraction [0.1-1.0]: 0.1
+Maximum number of layers [3|4]: 3
+Maximum number of neurons per layer [2-64]: 2
+---------------------------------------------------------
+#4: Explore different NN topologies for each kernel...
+# Learning Rate:                0.100000 
+# Epochs:                       1.000000 
+# Sampling Rate:                0.100000 
+--------------------------------------------------------- 
+# Training Size: 23592
+---------------------------------------------------------
+#5: Find the best NN topology...
+---------------------------------------------------------
+# Best Topology: 17_2_1
+# Best MSE:      24.0608000000
+---------------------------------------------------------
+#6: Replace the code with NN...
+#7: Compile the code with NN...
+---------------------------------------------------------
+ The transformed code for ** convolution ** was successfully compiled 
+---------------------------------------------------------
+#8: Run the code on the test data...
+---------------------------------------------------------
+ CUDA Convolution Separable Starting... 
+-------------------------------------------------------
+ Input Image:  test.data/input/lena.pgm
+-------------------------------------------------------
+test.data/input/lena.pgm        *** Error: 95.20%
+---------------------------------------------------------
+```
 
 blackscholes调好了好使了
 convolution好使了
