@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "论文写作积累",
+      "path": "papers/论文写作积累.md"
+    },
+    {
       "basename": "内网穿透",
       "path": "Learning/计算机网络/内网穿透.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "我的conda环境",
       "path": "util/我的conda环境.md"
-    },
-    {
-      "basename": "论文写作积累",
-      "path": "papers/论文写作积累.md"
     },
     {
       "basename": "python性能",

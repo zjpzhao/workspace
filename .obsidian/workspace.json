@@ -105,8 +105,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/计算机网络/内网穿透.md"
+                "file": "papers/论文写作积累.md"
               }
             }
           },
@@ -213,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/计算机网络/内网穿透.md",
+                "file": "papers/论文写作积累.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,7 +224,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/计算机网络/内网穿透.md",
+                "file": "papers/论文写作积累.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -277,8 +276,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2256bea8e2d9765b",
+  "active": "382133fc48c45650",
   "lastOpenFiles": [
+    "Learning/计算机网络/内网穿透.md",
     "Learning/AI/GNN/GNN.md",
     "Learning/Programming Language & Framework/Python/Python Base.md",
     "Learning/AI/AI tools/t-SNE.md",
@@ -287,7 +287,6 @@
     "Learning/GPU/Collect Metrics.md",
     "util/我的conda环境.md",
     "papers/论文写作积累.md",
-    "Learning/Programming Language & Framework/Python/python性能.md",
-    "Learning/计算机网络/局域网服务器通过本地正向代理联网.md"
+    "Learning/Programming Language & Framework/Python/python性能.md"
   ]
 }
