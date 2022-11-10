@@ -106,6 +106,13 @@ if __name__ == '__main__':
 [q, r] = divmod(a, b)
 ```
 
+---
+## 在python脚本中修改环境变量
+```python
+import os
+os.environ['LD_LIBRARY_PATH']='/mnt/miniconda3/envs/zjp_gnn/lib'
+```
+
 
 # Pandas
 ## 1. 转excel

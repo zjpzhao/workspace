@@ -19,6 +19,11 @@ GNN模型学习到的节点嵌入向量可以用t-SNE工具进行可视化，可
   publisher={Elsevier}
 }
 ```
+## 测试安装是否成功
+```python
+import tsnecuda
+tsnecuda.test()
+```
 
 关于用法
 https://medium.com/analytics-vidhya/using-t-sne-for-data-visualisation-8a83f46fbad3

@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "我的conda环境",
-      "path": "util/我的conda环境.md"
+      "basename": "Python Base",
+      "path": "Learning/Programming Language & Framework/Python/Python Base.md"
+    },
+    {
+      "basename": "python典型写法示例",
+      "path": "Learning/Programming Language & Framework/Python/python典型写法示例.md"
     },
     {
       "basename": "t-SNE",
@@ -11,6 +15,18 @@
     {
       "basename": "jupyter-notebook + VSCode",
       "path": "util/jupyter-notebook + VSCode.md"
+    },
+    {
+      "basename": "Collect Metrics",
+      "path": "Learning/GPU/Collect Metrics.md"
+    },
+    {
+      "basename": "GNN",
+      "path": "Learning/AI/GNN/GNN.md"
+    },
+    {
+      "basename": "我的conda环境",
+      "path": "util/我的conda环境.md"
     },
     {
       "basename": "论文写作积累",
@@ -29,16 +45,8 @@
       "path": "util/常用指令.md"
     },
     {
-      "basename": "GNN",
-      "path": "Learning/AI/GNN/GNN.md"
-    },
-    {
       "basename": "Observations on Soft Error",
       "path": "Learning/Soft Error/Observations on Soft Error.md"
-    },
-    {
-      "basename": "Collect Metrics",
-      "path": "Learning/GPU/Collect Metrics.md"
     },
     {
       "basename": "理解和区分conda cudatoolkit、Nvidia cudatoolkit、nvidia-smi回显cuda版本",
@@ -121,10 +129,6 @@
       "path": "Learning/GPU/CUDA Binary Utilities.md"
     },
     {
-      "basename": "Python Base",
-      "path": "Learning/Programming Language & Framework/Python/Python Base.md"
-    },
-    {
       "basename": "CUDA",
       "path": "Learning/GPU/CUDA.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "云计算课程论文研读报告",
       "path": "Lectures/云计算课程论文研读报告.md"
-    },
-    {
-      "basename": "python典型写法示例",
-      "path": "Learning/Programming Language & Framework/Python/python典型写法示例.md"
     }
   ],
   "omittedPaths": [],
