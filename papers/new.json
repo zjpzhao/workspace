@@ -111,7 +111,6 @@
       "collections": [],
       "items": [
         8234,
-        8236,
         8259,
         8443,
         8496,
@@ -120,7 +119,6 @@
         8543,
         8903,
         9014,
-        9066,
         9070,
         9302,
         9424,
@@ -129,7 +127,11 @@
         9470,
         9473,
         9746,
-        10244
+        10244,
+        10641,
+        10642,
+        10643,
+        10644
       ],
       "key": "JNY8VHWT",
       "name": "GNN",
@@ -781,7 +783,7 @@
       "title": "Accurate operation delay prediction for FPGA HLS using graph neural networks",
       "uri": "http://zotero.org/users/7659667/items/MQI8UX95",
       "url": "https://dl.acm.org/doi/10.1145/3400302.3415657",
-      "version": 6424
+      "version": 6444
     },
     {
       "DOI": "10.1109/ICDM51629.2021.00021",
@@ -1889,7 +1891,7 @@
       "title": "Composing Graph Theory and Deep Neural Networks to Evaluate SEU Type Soft Error Effects",
       "uri": "http://zotero.org/users/7659667/items/AT9DKYJW",
       "url": "https://ieeexplore.ieee.org/document/9134279/",
-      "version": 6440
+      "version": 6442
     },
     {
       "attachments": [
@@ -2542,10 +2544,10 @@
       "shortTitle": "DyGNN",
       "tags": [
         {
-          "tag": "GNN pruning"
+          "tag": "Pruning"
         },
         {
-          "tag": "Pruning"
+          "tag": "GNN pruning"
         }
       ],
       "title": "DyGNN: Algorithm and Architecture Support of Dynamic Pruning for Graph Neural Networks",
@@ -4067,13 +4069,13 @@
       "shortTitle": "GRANNITE",
       "tags": [
         {
-          "tag": "GNN Using"
-        },
-        {
           "tag": "Power"
         },
         {
           "tag": "Transferable"
+        },
+        {
+          "tag": "GNN Using"
         }
       ],
       "title": "GRANNITE: Graph Neural Network Inference for Transferable Power Estimation",
@@ -4173,22 +4175,92 @@
       "volume": "1"
     },
     {
-      "abstractNote": "Graph Neural Networks (GNNs) have shown promising results on a broad spectrum of applications. Most empirical studies of GNNs directly take the observed graph as input, assuming the observed structure perfectly depicts the accurate and complete relations between nodes. However, graphs in the real-world are inevitably noisy or incomplete, which could even exacerbate the quality of graph representations. In this work, we propose a novel Variational Information Bottleneck guided Graph Structure Learning framework, namely VIB-GSL, in the perspective of information theory. VIB-GSL is the first attempt to advance the Information Bottleneck (IB) principle for graph structure learning, providing a more elegant and universal framework for mining underlying task-relevant relations. VIB-GSL learns an informative and compressive graph structure to distill the actionable information for specific downstream tasks. VIB-GSL deduces a variational approximation for irregular graph data to form a tractable IB objective function, which facilitates training stability. Extensive experimental results demonstrate that the superior effectiveness and robustness of VIB-GSL.",
+      "ISBN": "9789811660535 9789811660542",
+      "accessDate": "2022-11-11T02:48:28Z",
       "attachments": [
         {
-          "dateAdded": "2022-06-21T02:32:20Z",
-          "dateModified": "2022-06-21T02:32:24Z",
+          "dateAdded": "2022-11-11T02:48:12Z",
+          "dateModified": "2022-11-11T02:51:24Z",
           "itemType": "attachment",
-          "path": "D:\\Zotero\\storage\\WIZQNRVB\\Sun et al. - Graph Structure Learning with Variational Informat.pdf",
+          "path": "D:\\Zotero\\storage\\K8NAXA5P\\Wu et al. - 2022 - Graph Neural Networks Foundations, Frontiers, and.pdf",
           "relations": [],
-          "select": "zotero://select/library/items/WIZQNRVB",
+          "select": "zotero://select/library/items/K8NAXA5P",
           "tags": [],
-          "title": "Sun et al. - Graph Structure Learning with Variational Informat.pdf",
-          "uri": "http://zotero.org/users/7659667/items/WIZQNRVB"
+          "title": "Wu et al. - 2022 - Graph Neural Networks Foundations, Frontiers, and.pdf",
+          "uri": "http://zotero.org/users/7659667/items/K8NAXA5P"
         }
       ],
-      "citationKey": "GraphStructureLearningsun",
-      "citekey": "GraphStructureLearningsun",
+      "citationKey": "GraphNeuralNetworks2022wu",
+      "citekey": "GraphNeuralNetworks2022wu",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "firstName": "Lingfei",
+          "lastName": "Wu"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Peng",
+          "lastName": "Cui"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Jian",
+          "lastName": "Pei"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Liang",
+          "lastName": "Zhao"
+        }
+      ],
+      "date": "2022",
+      "dateAdded": "2022-11-11T02:48:28Z",
+      "dateModified": "2022-11-12T06:05:58Z",
+      "extra": "DOI: 10.1007/978-981-16-6054-2",
+      "itemID": 10644,
+      "itemKey": "A9DTVQ6M",
+      "itemType": "book",
+      "key": "A9DTVQ6M",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "place": "Singapore",
+      "publisher": "Springer Nature Singapore",
+      "relations": [],
+      "select": "zotero://select/library/items/A9DTVQ6M",
+      "shortTitle": "Graph Neural Networks",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Graph Neural Networks: Foundations, Frontiers, and Applications",
+      "uri": "http://zotero.org/users/7659667/items/A9DTVQ6M",
+      "url": "https://link.springer.com/10.1007/978-981-16-6054-2",
+      "version": 6848
+    },
+    {
+      "DOI": "10.1609/aaai.v36i4.20335",
+      "abstractNote": "Graph Neural Networks (GNNs) have shown promising results on a broad spectrum of applications. Most empirical studies of GNNs directly take the observed graph as input, assuming the observed structure perfectly depicts the accurate and complete relations between nodes. However, graphs in the real-world are inevitably noisy or incomplete, which could even exacerbate the quality of graph representations. In this work, we propose a novel Variational Information Bottleneck guided Graph Structure Learning framework, namely VIB-GSL, in the perspective of information theory. VIB-GSL is the first attempt to advance the Information Bottleneck (IB) principle for graph structure learning, providing a more elegant and universal framework for mining underlying task-relevant relations. VIB-GSL learns an informative and compressive graph structure to distill the actionable information for specific downstream tasks. VIB-GSL deduces a variational approximation for irregular graph data to form a tractable IB objective function, which facilitates training stability. Extensive experimental results demonstrate that the superior effectiveness and robustness of VIB-GSL.",
+      "accessDate": "2022-11-11T03:05:20Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-11-11T03:05:15Z",
+          "dateModified": "2022-11-11T03:05:21Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\A68YHIFV\\Sun et al. - 2022 - Graph Structure Learning with Variational Informat.pdf",
+          "relations": [],
+          "select": "zotero://select/library/items/A68YHIFV",
+          "tags": [],
+          "title": "Sun et al. - 2022 - Graph Structure Learning with Variational Informat.pdf",
+          "uri": "http://zotero.org/users/7659667/items/A68YHIFV"
+        }
+      ],
+      "citationKey": "GraphStructureLearning2022sun",
+      "citekey": "GraphStructureLearning2022sun",
       "creators": [
         {
           "creatorType": "author",
@@ -4222,31 +4294,36 @@
         },
         {
           "creatorType": "author",
-          "firstName": "Philip S",
+          "firstName": "Philip  S",
           "lastName": "Yu"
         }
       ],
-      "dateAdded": "2022-06-21T02:32:23Z",
-      "dateModified": "2022-11-01T07:22:54Z",
-      "itemID": 8236,
-      "itemKey": "GKXHCVIA",
-      "itemType": "journalArticle",
-      "key": "GKXHCVIA",
+      "date": "2022-06-28",
+      "dateAdded": "2022-11-11T03:05:20Z",
+      "dateModified": "2022-11-12T06:05:54Z",
+      "itemID": 10641,
+      "itemKey": "SVHF8A9Y",
+      "itemType": "conferencePaper",
+      "key": "SVHF8A9Y",
       "language": "en",
-      "libraryCatalog": "Zotero",
+      "libraryCatalog": "DOI.org (Crossref)",
       "libraryID": 1,
       "notes": [],
-      "pages": "10",
+      "pages": "4165-4174",
+      "publicationTitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
       "relations": [],
-      "select": "zotero://select/library/items/GKXHCVIA",
+      "select": "zotero://select/library/items/SVHF8A9Y",
       "tags": [
         {
-          "tag": "GNN theory"
+          "tag": "/unread",
+          "type": 1
         }
       ],
       "title": "Graph Structure Learning with Variational Information Bottleneck",
-      "uri": "http://zotero.org/users/7659667/items/GKXHCVIA",
-      "version": 6426
+      "uri": "http://zotero.org/users/7659667/items/SVHF8A9Y",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/20335",
+      "version": 6848,
+      "volume": "36"
     },
     {
       "DOI": "10.1145/3458817.3476170",
@@ -4403,7 +4480,7 @@
       "title": "GTuner: tuning DNN computations on GPU via graph attention network",
       "uri": "http://zotero.org/users/7659667/items/KXNZYS9M",
       "url": "https://dl.acm.org/doi/10.1145/3489517.3530584",
-      "version": 6178
+      "version": 6627
     },
     {
       "DOI": "10.1145/3503221.3508414",
@@ -5073,21 +5150,24 @@
       "version": 4560
     },
     {
+      "DOI": "10.1609/aaai.v35i5.16552",
+      "abstractNote": "Graph neural networks (GNNs) have become the defacto standard for representation learning on graphs, which derive effective node representations by recursively aggregating information from graph neighborhoods. \nWhile GNNs can be trained from scratch, pre-training GNNs to learn transferable knowledge for downstream tasks has recently been demonstrated to improve the state of the art. \nHowever, conventional GNN pre-training methods follow a two-step paradigm: 1) pre-training on abundant unlabeled data and 2) fine-tuning on downstream labeled data, between which there exists a significant gap due to the divergence of optimization objectives in the two steps. \nIn this paper, we conduct an analysis to show the divergence between pre-training and fine-tuning, and to alleviate such divergence, we propose L2P-GNN, a self-supervised pre-training strategy for GNNs. \nThe key insight is that L2P-GNN attempts to learn how to fine-tune during the pre-training process in the form of transferable prior knowledge. To encode both local and global information into the prior, L2P-GNN is further designed with a dual adaptation mechanism at both node and graph levels. \nFinally, we conduct a systematic empirical study on the pre-training of various GNN models, using both a public collection of protein graphs and a new compilation of bibliographic graphs for pre-training. Experimental results show that L2P-GNN is capable of learning effective and transferable prior knowledge that yields powerful representations for downstream tasks. \n(Code and datasets are available at https://github.com/rootlu/L2P-GNN.)",
+      "accessDate": "2022-11-11T03:04:08Z",
       "attachments": [
         {
-          "dateAdded": "2022-08-20T03:01:03Z",
-          "dateModified": "2022-08-20T03:01:22Z",
+          "dateAdded": "2022-11-11T03:04:01Z",
+          "dateModified": "2022-11-11T03:04:10Z",
           "itemType": "attachment",
-          "path": "D:\\Zotero\\storage\\CTMJB43X\\Lu et al. - Learning to Pre-train Graph Neural Networks.pdf",
+          "path": "D:\\Zotero\\storage\\AMGREQA6\\Lu et al. - 2021 - Learning to Pre-train Graph Neural Networks.pdf",
           "relations": [],
-          "select": "zotero://select/library/items/CTMJB43X",
+          "select": "zotero://select/library/items/AMGREQA6",
           "tags": [],
-          "title": "Lu et al. - Learning to Pre-train Graph Neural Networks.pdf",
-          "uri": "http://zotero.org/users/7659667/items/CTMJB43X"
+          "title": "Lu et al. - 2021 - Learning to Pre-train Graph Neural Networks.pdf",
+          "uri": "http://zotero.org/users/7659667/items/AMGREQA6"
         }
       ],
-      "citationKey": "LearningPretrainGraphlu",
-      "citekey": "LearningPretrainGraphlu",
+      "citationKey": "LearningPretrainGraph2021lu",
+      "citekey": "LearningPretrainGraph2021lu",
       "creators": [
         {
           "creatorType": "author",
@@ -5110,19 +5190,21 @@
           "lastName": "Shi"
         }
       ],
-      "dateAdded": "2022-08-20T03:01:21Z",
-      "dateModified": "2022-08-20T04:01:00Z",
-      "itemID": 9066,
-      "itemKey": "XGA4Z2AK",
-      "itemType": "journalArticle",
-      "key": "XGA4Z2AK",
+      "date": "2021-05-18",
+      "dateAdded": "2022-11-11T03:04:08Z",
+      "dateModified": "2022-11-12T06:05:56Z",
+      "itemID": 10643,
+      "itemKey": "G2KJVVSZ",
+      "itemType": "conferencePaper",
+      "key": "G2KJVVSZ",
       "language": "en",
-      "libraryCatalog": "Zotero",
+      "libraryCatalog": "DOI.org (Crossref)",
       "libraryID": 1,
       "notes": [],
-      "pages": "9",
+      "pages": "4276-4284",
+      "publicationTitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
       "relations": [],
-      "select": "zotero://select/library/items/XGA4Z2AK",
+      "select": "zotero://select/library/items/G2KJVVSZ",
       "tags": [
         {
           "tag": "/unread",
@@ -5130,8 +5212,69 @@
         }
       ],
       "title": "Learning to Pre-train Graph Neural Networks",
-      "uri": "http://zotero.org/users/7659667/items/XGA4Z2AK",
-      "version": 4648
+      "uri": "http://zotero.org/users/7659667/items/G2KJVVSZ",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/16552",
+      "version": 6848,
+      "volume": "35"
+    },
+    {
+      "abstractNote": "Learning tasks on source code (i.e., formal languages) have been considered recently, but most work has tried to transfer natural language methods and does not capitalize on the unique opportunities offered by code’s known sematics. For example, long-range dependencies induced by using the same variable or function in distant locations are often not considered. We propose to use graphs to represent both the syntactic and semantic structure of code and use graph-based deep learning methods to learn to reason over program structures.",
+      "attachments": [
+        {
+          "dateAdded": "2022-11-11T02:59:00Z",
+          "dateModified": "2022-11-11T02:59:06Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\JCV8BPWJ\\Allamanis 等 - 2018 - LEARNING TO REPRESENT PROGRAMS WITH GRAPHS.pdf",
+          "relations": [],
+          "select": "zotero://select/library/items/JCV8BPWJ",
+          "tags": [],
+          "title": "Allamanis 等 - 2018 - LEARNING TO REPRESENT PROGRAMS WITH GRAPHS.pdf",
+          "uri": "http://zotero.org/users/7659667/items/JCV8BPWJ"
+        }
+      ],
+      "citationKey": "LEARNINGREPRESENTPROGRAMS2018allamanis",
+      "citekey": "LEARNINGREPRESENTPROGRAMS2018allamanis",
+      "conferenceName": "ICLR",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Miltiadis",
+          "lastName": "Allamanis"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mahmoud",
+          "lastName": "Khademi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Marc",
+          "lastName": "Brockschmidt"
+        }
+      ],
+      "date": "2018",
+      "dateAdded": "2022-11-11T02:59:05Z",
+      "dateModified": "2022-11-12T06:05:55Z",
+      "itemID": 10642,
+      "itemKey": "M5Y9KCGI",
+      "itemType": "conferencePaper",
+      "key": "M5Y9KCGI",
+      "language": "en",
+      "libraryCatalog": "Zotero",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "17",
+      "relations": [],
+      "select": "zotero://select/library/items/M5Y9KCGI",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "LEARNING TO REPRESENT PROGRAMS WITH GRAPHS",
+      "uri": "http://zotero.org/users/7659667/items/M5Y9KCGI",
+      "version": 6848
     },
     {
       "DOI": "10.1109/DSN.2018.00022",
@@ -5251,7 +5394,7 @@
       "tags": [],
       "title": "面向 GPGPU 体系结构的软错误弹性分析与容错策略研究",
       "uri": "http://zotero.org/users/7659667/items/CFFI8KM2",
-      "version": 6299
+      "version": 6742
     },
     {
       "DOI": "10.1145/3297858.3304050",
@@ -6935,7 +7078,7 @@
       "title": "PowerGear: Early-Stage Power Estimation in FPGA HLS via Heterogeneous Edge-Centric GNNs",
       "uri": "http://zotero.org/users/7659667/items/NBN2HSTR",
       "url": "https://ieeexplore.ieee.org/document/9774682/",
-      "version": 6427
+      "version": 6444
     },
     {
       "DOI": "10.1109/TC.2020.2980541",
@@ -7133,7 +7276,7 @@
       "title": "Predicting the Soft Error Vulnerability of GPGPU Applications",
       "uri": "http://zotero.org/users/7659667/items/35IHZXAY",
       "url": "https://ieeexplore.ieee.org/document/9756720/",
-      "version": 5871
+      "version": 6639
     },
     {
       "accessDate": "2022-05-07T16:28:09Z",
@@ -7425,10 +7568,10 @@
       "select": "zotero://select/library/items/PAGCBY7S",
       "tags": [
         {
-          "tag": "⭐"
+          "tag": "Error Propagation"
         },
         {
-          "tag": "Error Propagation"
+          "tag": "⭐"
         }
       ],
       "title": "Regional soft error vulnerability and error propagation analysis for GPGPU applications",
@@ -7708,10 +7851,10 @@
           "tag": "⭐"
         },
         {
-          "tag": "CPU Multiprocesses"
+          "tag": "GNN Using"
         },
         {
-          "tag": "GNN Using"
+          "tag": "CPU Multiprocesses"
         }
       ],
       "title": "SCALANA: Automating Scaling Loss Detection with Graph Analysis",
@@ -7931,7 +8074,7 @@
       "title": "Smart Contract Vulnerability Detection using Graph Neural Network",
       "uri": "http://zotero.org/users/7659667/items/JC6AQZNP",
       "url": "https://www.ijcai.org/proceedings/2020/454",
-      "version": 6435
+      "version": 6444
     },
     {
       "DOI": "10.23919/DATE.2019.8714945",
@@ -8918,6 +9061,6 @@
   ],
   "version": {
     "bbt": "6.7.36",
-    "zotero": "6.0.16"
+    "zotero": "6.0.18"
   }
 }
