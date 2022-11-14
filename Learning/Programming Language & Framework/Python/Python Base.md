@@ -113,6 +113,37 @@ import os
 os.environ['LD_LIBRARY_PATH']='/mnt/miniconda3/envs/zjp_gnn/lib'
 ```
 
+---
+
+## 传递参数
+```python
+import argparse
+parser = argparse.ArgumentParser()
+# dataset config
+parser.add_argument('--data', choices=['CiteSeer', 'Cora', 'PubMed', 'Reddit'], default='target_to_source', help='dataset name')
+parser.add_argument('--model', choices=['GCN', 'GAT'], help='GCN model')
+parser.add_argument('--data_path', type=str, default='/raid/datasets/GNN/', help='the path to datasets')
+args = parser.parse_args()
+```
+
+使用传递进来的参数
+```python
+path = args.data_path + args.data
+```
+
+
+---
+
+## 记录时间
+
+---
+
+## 随机
+```python
+random.choice()
+```
+
+---
 
 # Pandas
 ## 1. 转excel
@@ -245,3 +276,11 @@ else:
 参考<https://pypi.org/project/celluloid/>
 
 ---
+
+## 测试CUDA和启用GPU
+```python
+# configure CUDA
+os.system('export CUDA_VISIBLE_DEVICES=' + args.gpus)
+assert torch.cuda.is_available(), 'CUDA is not available'
+device = torch.device('cuda')
+```
