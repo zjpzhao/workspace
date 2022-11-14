@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning/GPU/Benchmarks/Benchmark探索.md",
+                "file": "Learning/Programming Language & Framework/Shell.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -134,7 +134,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "换源",
+                "query": "timeout",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/GPU/Benchmarks/Benchmark探索.md"
+                "file": "Learning/Programming Language & Framework/Python/Python Base.md"
               }
             }
           },
@@ -212,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/GPU/Benchmarks/Benchmark探索.md",
+                "file": "Learning/Programming Language & Framework/Python/Python Base.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,7 +224,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/GPU/Benchmarks/Benchmark探索.md",
+                "file": "Learning/Programming Language & Framework/Python/Python Base.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -276,8 +276,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2256bea8e2d9765b",
+  "active": "2558a011cf756e09",
   "lastOpenFiles": [
+    "Learning/GPU/Benchmarks/Benchmark探索.md",
     "Learning/GPU/Benchmarks/各Benchmark特点.md",
     "Workflow/文献阅读批注和同步体系.md",
     "Learning/Math/Sensitivity.md",
@@ -286,7 +287,6 @@
     "Learning/AI/GNN/GNN.md",
     "Learning/Programming Language & Framework/Python/Python Base.md",
     "Learning/AI/AI tools/t-SNE.md",
-    "Learning/Programming Language & Framework/Python/python典型写法示例.md",
-    "util/jupyter-notebook + VSCode.md"
+    "Learning/Programming Language & Framework/Python/python典型写法示例.md"
   ]
 }

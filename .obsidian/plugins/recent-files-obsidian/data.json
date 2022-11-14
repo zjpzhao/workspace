@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Python Base",
+      "path": "Learning/Programming Language & Framework/Python/Python Base.md"
+    },
+    {
+      "basename": "Shell",
+      "path": "Learning/Programming Language & Framework/Shell.md"
+    },
+    {
       "basename": "Benchmark探索",
       "path": "Learning/GPU/Benchmarks/Benchmark探索.md"
     },
@@ -27,10 +35,6 @@
     {
       "basename": "GNN",
       "path": "Learning/AI/GNN/GNN.md"
-    },
-    {
-      "basename": "Python Base",
-      "path": "Learning/Programming Language & Framework/Python/Python Base.md"
     },
     {
       "basename": "t-SNE",
@@ -175,10 +179,6 @@
     {
       "basename": "Code_对神经网络模型参数进行多线程单比特位故障注入",
       "path": "Learning/Programming Language & Framework/Python/Code_对神经网络模型参数进行多线程单比特位故障注入.md"
-    },
-    {
-      "basename": "Shell",
-      "path": "Learning/Programming Language & Framework/Shell.md"
     },
     {
       "basename": "Git",
