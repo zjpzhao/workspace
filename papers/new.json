@@ -279,7 +279,8 @@
         9854,
         10226,
         10237,
-        10313
+        10313,
+        10672
       ],
       "key": "RLZKFTSE",
       "name": "Modeling Tools",
@@ -4324,6 +4325,82 @@
       "url": "https://ojs.aaai.org/index.php/AAAI/article/view/20335",
       "version": 6848,
       "volume": "36"
+    },
+    {
+      "DOI": "10.1016/j.future.2020.03.040",
+      "ISSN": "0167739X",
+      "abstractNote": "As General-Purpose Graphics Processing Units (GPGPUs) become pervasive for the High-Performance Computing (HPC), ensuring that programs can be protected from soft errors has become increasingly important. Soft errors may cause Silent Data Corruptions (SDCs), which produces erroneous execution results silently. Due to the massive parallelism of GPGPUs, fully protecting them against soft errors introduces nontrivial overhead. Fortunately, imprecise execution outcomes are inherently tolerable for some HPC programs due to the nature of these applications. Leveraging the feature, selective soft error protection can be applied to reduce energy consumptions.",
+      "accessDate": "2022-11-15T09:10:23Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-11-15T09:10:15Z",
+          "dateModified": "2022-11-15T09:10:25Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\4KN728V5\\Wei et al. - 2020 - G-SEAP Analyzing and characterizing soft-error aw.pdf",
+          "relations": [],
+          "select": "zotero://select/library/items/4KN728V5",
+          "tags": [],
+          "title": "Wei et al. - 2020 - G-SEAP Analyzing and characterizing soft-error aw.pdf",
+          "uri": "http://zotero.org/users/7659667/items/4KN728V5"
+        }
+      ],
+      "citationKey": "GSEAPAnalyzingCharacterizing2020wei",
+      "citekey": "GSEAPAnalyzingCharacterizing2020wei",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Xiaohui",
+          "lastName": "Wei"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Hengshan",
+          "lastName": "Yue"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Shang",
+          "lastName": "Gao"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lina",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ruyu",
+          "lastName": "Zhang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jingweijia",
+          "lastName": "Tan"
+        }
+      ],
+      "date": "08/2020",
+      "dateAdded": "2022-11-15T09:10:23Z",
+      "dateModified": "2022-11-15T09:31:43Z",
+      "itemID": 10672,
+      "itemKey": "NXILM2II",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Future Generation Computer Systems",
+      "key": "NXILM2II",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "262-274",
+      "publicationTitle": "Future Generation Computer Systems",
+      "relations": [],
+      "select": "zotero://select/library/items/NXILM2II",
+      "shortTitle": "G-SEAP",
+      "tags": [],
+      "title": "G-SEAP: Analyzing and characterizing soft-error aware approximation in GPGPUs",
+      "uri": "http://zotero.org/users/7659667/items/NXILM2II",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0167739X19313214",
+      "version": 6867,
+      "volume": "109"
     },
     {
       "DOI": "10.1145/3458817.3476170",
