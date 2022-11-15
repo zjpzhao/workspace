@@ -5,20 +5,20 @@
       "path": "Learning/计算机网络/局域网服务器通过本地正向代理联网.md"
     },
     {
-      "basename": "内网穿透",
-      "path": "Learning/计算机网络/内网穿透.md"
-    },
-    {
-      "basename": "我的conda环境",
-      "path": "util/我的conda环境.md"
+      "basename": "Python Base",
+      "path": "Learning/Programming Language & Framework/Python/Python Base.md"
     },
     {
       "basename": "常用指令",
       "path": "util/常用指令.md"
     },
     {
-      "basename": "Python Base",
-      "path": "Learning/Programming Language & Framework/Python/Python Base.md"
+      "basename": "内网穿透",
+      "path": "Learning/计算机网络/内网穿透.md"
+    },
+    {
+      "basename": "我的conda环境",
+      "path": "util/我的conda环境.md"
     },
     {
       "basename": "python典型写法示例",
