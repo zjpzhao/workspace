@@ -250,7 +250,8 @@
         116,
         7793,
         7855,
-        8605
+        8605,
+        10673
       ],
       "key": "Q7FV3VXB",
       "name": "Inputs Related",
@@ -5557,6 +5558,73 @@
       "uri": "http://zotero.org/users/7659667/items/ALANDUY6",
       "url": "https://doi.org/10.1145/3297858.3304050",
       "version": 2219
+    },
+    {
+      "abstractNote": "With the ever-shrinking size of transistors, silent data corruptions (SDCs) are becoming a common yet serious issue in HPC. Selective instruction duplication (SID) is a widely used fault-tolerance technique that can obtain high SDC coverage with low performance overhead. However, existing SID methods are confined to single program input in its assessment, assuming that error resilience of a program remains similar across inputs. Nevertheless, we observe that the assumption cannot always hold, leading to a drastic loss in SDC coverage across different inputs, compromising HPC reliability. We notice that the SDC coverage loss correlates with a small set of instructions - we call them incubative instructions, which reveal elusive error propagation characteristics across multiple inputs. We propose MINPSID, an automated SID framework that automatically identifies and re-prioritizes incubative instructions in a given program to enhance SDC coverage. Evaluation shows MINPSID can effectively mitigate the loss of SDC coverage across multiple inputs.",
+      "attachments": [
+        {
+          "dateAdded": "2022-11-16T07:21:47Z",
+          "dateModified": "2022-11-16T07:21:52Z",
+          "itemType": "attachment",
+          "path": "D:\\Zotero\\storage\\8A2LQSPW\\Huang et al. - Mitigating Silent Data Corruptions in HPC Applicat.pdf",
+          "relations": [],
+          "select": "zotero://select/library/items/8A2LQSPW",
+          "tags": [],
+          "title": "Huang et al. - Mitigating Silent Data Corruptions in HPC Applicat.pdf",
+          "uri": "http://zotero.org/users/7659667/items/8A2LQSPW"
+        }
+      ],
+      "citationKey": "MitigatingSilentDatahuang",
+      "citekey": "MitigatingSilentDatahuang",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Yafan",
+          "lastName": "Huang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Shengjian",
+          "lastName": "Guo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sheng",
+          "lastName": "Di"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Guanpeng",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Franck",
+          "lastName": "Cappello"
+        }
+      ],
+      "dateAdded": "2022-11-16T07:21:51Z",
+      "dateModified": "2022-11-16T07:22:05Z",
+      "itemID": 10673,
+      "itemKey": "K2P29V6L",
+      "itemType": "journalArticle",
+      "key": "K2P29V6L",
+      "language": "en",
+      "libraryCatalog": "Zotero",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "14",
+      "relations": [],
+      "select": "zotero://select/library/items/K2P29V6L",
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "title": "Mitigating Silent Data Corruptions in HPC Applications across Multiple Program Inputs",
+      "uri": "http://zotero.org/users/7659667/items/K2P29V6L",
+      "version": 6918
     },
     {
       "DOI": "10.1109/IPDPS.2019.00096",
