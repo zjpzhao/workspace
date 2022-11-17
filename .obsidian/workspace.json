@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning/计算机网络/局域网服务器通过本地正向代理联网.md",
+                "file": "util/Ubuntu 22.04探索.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/计算机网络/局域网服务器通过本地正向代理联网.md"
+                "file": "util/Ubuntu 22.04探索.md"
               }
             }
           },
@@ -225,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/计算机网络/局域网服务器通过本地正向代理联网.md",
+                "file": "util/Ubuntu 22.04探索.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -237,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/计算机网络/局域网服务器通过本地正向代理联网.md",
+                "file": "util/Ubuntu 22.04探索.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -291,8 +291,8 @@
   },
   "active": "5db779392e74b89e",
   "lastOpenFiles": [
-    "Learning/Programming Language & Framework/Python/Python Base.md",
     "Learning/计算机网络/局域网服务器通过本地正向代理联网.md",
+    "Learning/Programming Language & Framework/Python/Python Base.md",
     "Learning/计算机网络/内网穿透.md",
     "util/我的conda环境.md",
     "util/常用指令.md",

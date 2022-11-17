@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Ubuntu 22.04探索",
+      "path": "util/Ubuntu 22.04探索.md"
+    },
+    {
       "basename": "局域网服务器通过本地正向代理联网",
       "path": "Learning/计算机网络/局域网服务器通过本地正向代理联网.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "R语言",
       "path": "Learning/Programming Language & Framework/R语言.md"
-    },
-    {
-      "basename": "Markdown",
-      "path": "Learning/Programming Language & Framework/Markdown.md"
     }
   ],
   "omittedPaths": [],
