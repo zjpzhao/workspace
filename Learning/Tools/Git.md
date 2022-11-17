@@ -36,6 +36,12 @@ git config --global credential.helper store
 
 ---
 
+## 查看代码量
+cloc
+https://www.v2ex.com/t/215828
+
+---
+
 # Github
 
 ## Github高级搜索
@@ -113,5 +119,6 @@ git push -u origin "master"
 ```
 
 
-cloc
-https://www.v2ex.com/t/215828
+
+## Git工具
+### TortoiseGit

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Git",
+      "path": "Learning/Tools/Git.md"
+    },
+    {
       "basename": "Ubuntu 22.04探索",
       "path": "util/Ubuntu 22.04探索.md"
     },
@@ -183,10 +187,6 @@
     {
       "basename": "Code_对神经网络模型参数进行多线程单比特位故障注入",
       "path": "Learning/Programming Language & Framework/Python/Code_对神经网络模型参数进行多线程单比特位故障注入.md"
-    },
-    {
-      "basename": "Git",
-      "path": "Learning/Tools/Git.md"
     },
     {
       "basename": "pytorch基本操作",

@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "util/Ubuntu 22.04探索.md",
+                "file": "Learning/Tools/Git.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "util/Ubuntu 22.04探索.md"
+                "file": "Learning/Tools/Git.md"
               }
             }
           },
@@ -225,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "util/Ubuntu 22.04探索.md",
+                "file": "Learning/Tools/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -237,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "util/Ubuntu 22.04探索.md",
+                "file": "Learning/Tools/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -291,6 +291,7 @@
   },
   "active": "5db779392e74b89e",
   "lastOpenFiles": [
+    "util/Ubuntu 22.04探索.md",
     "Learning/计算机网络/局域网服务器通过本地正向代理联网.md",
     "Learning/Programming Language & Framework/Python/Python Base.md",
     "Learning/计算机网络/内网穿透.md",
@@ -299,7 +300,6 @@
     "Learning/Programming Language & Framework/Python/python典型写法示例.md",
     "Learning/Programming Language & Framework/Shell.md",
     "Learning/GPU/Benchmarks/Benchmark探索.md",
-    "Learning/GPU/Benchmarks/各Benchmark特点.md",
-    "Workflow/文献阅读批注和同步体系.md"
+    "Learning/GPU/Benchmarks/各Benchmark特点.md"
   ]
 }
