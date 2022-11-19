@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Excel",
+      "path": "Learning/Tools/Excel.md"
+    },
+    {
       "basename": "生成统计图表工具",
       "path": "Learning/Tools/生成统计图表工具.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "pytorch基本操作",
       "path": "Learning/Programming Language & Framework/Pytorch/pytorch基本操作.md"
-    },
-    {
-      "basename": "正则化",
-      "path": "Learning/AI/ML/正则化.md"
     }
   ],
   "omittedPaths": [],
