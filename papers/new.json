@@ -2607,7 +2607,7 @@
       ],
       "date": "7/2022",
       "dateAdded": "2022-08-30T07:15:00Z",
-      "dateModified": "2022-08-30T07:15:02Z",
+      "dateModified": "2022-11-19T11:18:17Z",
       "issue": "7",
       "itemID": 9333,
       "itemKey": "ATKKQ94U",
@@ -2623,12 +2623,7 @@
       "relations": [],
       "select": "zotero://select/library/items/ATKKQ94U",
       "shortTitle": "Eff-ECC",
-      "tags": [
-        {
-          "tag": "/unread",
-          "type": 1
-        }
-      ],
+      "tags": [],
       "title": "Eff-ECC: Protecting GPGPUs Register File With a Unified Energy-Efficient ECC Mechanism",
       "uri": "http://zotero.org/users/7659667/items/ATKKQ94U",
       "url": "https://ieeexplore.ieee.org/document/9515382/",
