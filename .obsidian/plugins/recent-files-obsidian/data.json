@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Latex",
+      "path": "Learning/Programming Language & Framework/Latex.md"
+    },
+    {
+      "basename": "Markdown",
+      "path": "Learning/Programming Language & Framework/Markdown.md"
+    },
+    {
       "basename": "Excel",
       "path": "Learning/Tools/Excel.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "linux配置代理Qv2ray和Clash",
       "path": "util/linux配置代理Qv2ray和Clash.md"
-    },
-    {
-      "basename": "DGL",
-      "path": "Learning/AI/GNN/DGL.md"
-    },
-    {
-      "basename": "pytorch基本操作",
-      "path": "Learning/Programming Language & Framework/Pytorch/pytorch基本操作.md"
     }
   ],
   "omittedPaths": [],
