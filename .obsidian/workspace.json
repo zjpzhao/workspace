@@ -136,7 +136,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning/Programming Language & Framework/Latex.md",
+                "file": "Learning/Programming Language & Framework/Pytorch/pytorch基本操作.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -231,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/Programming Language & Framework/Latex.md"
+                "file": "Learning/Programming Language & Framework/Pytorch/pytorch基本操作.md"
               }
             }
           },
@@ -264,7 +264,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/Programming Language & Framework/Latex.md",
+                "file": "Learning/Programming Language & Framework/Pytorch/pytorch基本操作.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -276,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/Programming Language & Framework/Latex.md",
+                "file": "Learning/Programming Language & Framework/Pytorch/pytorch基本操作.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -330,6 +330,7 @@
   },
   "active": "c80b6a42c5a9a13d",
   "lastOpenFiles": [
+    "Learning/Programming Language & Framework/Latex.md",
     "Learning/Programming Language & Framework/Markdown.md",
     "Learning/Tools/Excel.md",
     "Learning/Tools/生成统计图表工具.md",
@@ -338,7 +339,6 @@
     "Learning/Tools/Git.md",
     "util/Ubuntu 22.04探索.md",
     "Learning/计算机网络/局域网服务器通过本地正向代理联网.md",
-    "Learning/计算机网络/内网穿透.md",
-    "util/我的conda环境.md"
+    "Learning/计算机网络/内网穿透.md"
   ]
 }

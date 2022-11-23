@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "pytorch基本操作",
+      "path": "Learning/Programming Language & Framework/Pytorch/pytorch基本操作.md"
+    },
+    {
       "basename": "Latex",
       "path": "Learning/Programming Language & Framework/Latex.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Obsidian",
       "path": "util/Obsidian.md"
-    },
-    {
-      "basename": "linux配置代理Qv2ray和Clash",
-      "path": "util/linux配置代理Qv2ray和Clash.md"
     }
   ],
   "omittedPaths": [],
