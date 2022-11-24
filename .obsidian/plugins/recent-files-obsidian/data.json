@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Divergency",
+      "path": "Learning/GPU/Divergency.md"
+    },
+    {
+      "basename": "层次结构",
+      "path": "Learning/GPU/层次结构.md"
+    },
+    {
       "basename": "pytorch基本操作",
       "path": "Learning/Programming Language & Framework/Pytorch/pytorch基本操作.md"
     },
@@ -177,10 +185,6 @@
       "path": "Learning/Tools/Docker.md"
     },
     {
-      "basename": "层次结构",
-      "path": "Learning/GPU/层次结构.md"
-    },
-    {
       "basename": "GPU",
       "path": "Learning/GPU/GPU.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2022-07-12",
       "path": "2022-07-12.md"
-    },
-    {
-      "basename": "Obsidian",
-      "path": "util/Obsidian.md"
     }
   ],
   "omittedPaths": [],
