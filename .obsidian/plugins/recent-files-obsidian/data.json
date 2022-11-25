@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Memory Coalescing",
+      "path": "Learning/GPU/Memory Coalescing.md"
+    },
+    {
       "basename": "Divergency",
       "path": "Learning/GPU/Divergency.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "全系workflow搭建",
       "path": "Workflow/全系workflow搭建.md"
-    },
-    {
-      "basename": "2022-07-12",
-      "path": "2022-07-12.md"
     }
   ],
   "omittedPaths": [],

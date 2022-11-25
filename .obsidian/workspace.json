@@ -157,6 +157,19 @@
             }
           },
           {
+            "id": "3ded87fea44991ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learning/GPU/Memory Coalescing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "856c6c60b51d0dc8",
             "type": "leaf",
             "state": {
@@ -170,7 +183,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -244,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/GPU/Divergency.md"
+                "file": "Learning/GPU/Memory Coalescing.md"
               }
             }
           },
@@ -277,7 +290,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/GPU/Divergency.md",
+                "file": "Learning/GPU/Memory Coalescing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -289,7 +302,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/GPU/Divergency.md",
+                "file": "Learning/GPU/Memory Coalescing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -341,8 +354,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "11512fc81c70ddcb",
+  "active": "3ded87fea44991ed",
   "lastOpenFiles": [
+    "Learning/GPU/Divergency.md",
     "Learning/GPU/层次结构.md",
     "Learning/Programming Language & Framework/Pytorch/pytorch基本操作.md",
     "Learning/Programming Language & Framework/Latex.md",
@@ -351,7 +365,6 @@
     "Learning/Tools/生成统计图表工具.md",
     "Learning/Programming Language & Framework/Python/Python Base.md",
     "Learning/Programming Language & Framework/Python/Code_对神经网络模型参数进行多线程单比特位故障注入.md",
-    "Learning/Tools/Git.md",
-    "util/Ubuntu 22.04探索.md"
+    "Learning/Tools/Git.md"
   ]
 }
