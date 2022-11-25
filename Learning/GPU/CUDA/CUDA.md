@@ -48,11 +48,10 @@ nvcc编译cuda代码的时候，Host和Device是分开进行的，nvcc --keep选
 - [ ] 离线编译和在线编译参考[《CUDA C Programming Guide》(《CUDA C 编程指南》)导读 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/53773183)
 https://www.findhao.net/easycoding/2039.html
 
+---
+
 # 环境搭建
 ![[插件用法#^bd19ab]]
-
-
-
 
 nvprof 分析工具使您能够从命令行收集和查看分析数据。请注意，Visual Profiler 和 nvprof 将在将来的 CUDA 版本中弃用。NVIDIA Volta 平台是最后一个完全支持这些工具的架构。建议使用下一代工具 NVIDIA Nsight Systems 进行 GPU 和 CPU 采样和跟踪，并使用 NVIDIA Nsight Compute 进行 GPU 内核分析。
 
@@ -99,7 +98,7 @@ void myfunc(int n, double * x*)
 ![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/SOL%20sections.png)
 ![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/SOL%20Section%20Unit%20details.png)
 
-
-
 待看教程
 - [ ] https://zhuanlan.zhihu.com/p/34587739
+
+---

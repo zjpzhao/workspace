@@ -4,80 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "120abed3b703c197",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a06af35eb0f55d5b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learning/Programming Language & Framework/Python/Python Base.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d60f86a72b9e3a30",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learning/Programming Language & Framework/Python/python典型写法示例.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2256bea8e2d9765b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "util/常用指令.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "047e99075829a256",
         "type": "tabs",
         "children": [
-          {
-            "id": "382133fc48c45650",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "papers/论文写作积累.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c09f3ab89c52e045",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learning/AI/AI tools/t-SNE.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
           {
             "id": "02969b7f98836494",
             "type": "leaf",
@@ -98,32 +27,6 @@
               "type": "markdown",
               "state": {
                 "file": "Learning/Programming Language & Framework/Python/Python Base.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "79c03f65baf806d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learning/Tools/生成统计图表工具.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "16f61320cced4f71",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learning/Programming Language & Framework/Markdown.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -170,6 +73,45 @@
             }
           },
           {
+            "id": "e8cf5eaf664a7361",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learning/GPU/GPGPU sim.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c3d53e3265bd5e54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learning/GPU/CUDA/CUDA.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "af8ee9cbb99925ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learning/GPU/CUDA/CUDA Programming.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "856c6c60b51d0dc8",
             "type": "leaf",
             "state": {
@@ -183,7 +125,26 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
+      },
+      {
+        "id": "f0638c6b910ab746",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "382133fc48c45650",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "papers/论文写作积累.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -257,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/GPU/Memory Coalescing.md"
+                "file": "Learning/GPU/CUDA/CUDA Programming.md"
               }
             }
           },
@@ -290,7 +251,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/GPU/Memory Coalescing.md",
+                "file": "Learning/GPU/CUDA/CUDA Programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -302,7 +263,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/GPU/Memory Coalescing.md",
+                "file": "Learning/GPU/CUDA/CUDA Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -354,17 +315,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3ded87fea44991ed",
+  "active": "af8ee9cbb99925ab",
   "lastOpenFiles": [
-    "Learning/GPU/Divergency.md",
+    "Learning/GPU/CUDA/CUDA.md",
+    "Learning/Programming Language & Framework/Python/python性能.md",
     "Learning/GPU/层次结构.md",
-    "Learning/Programming Language & Framework/Pytorch/pytorch基本操作.md",
-    "Learning/Programming Language & Framework/Latex.md",
-    "Learning/Programming Language & Framework/Markdown.md",
-    "Learning/Tools/Excel.md",
-    "Learning/Tools/生成统计图表工具.md",
+    "papers/论文写作积累.md",
     "Learning/Programming Language & Framework/Python/Python Base.md",
-    "Learning/Programming Language & Framework/Python/Code_对神经网络模型参数进行多线程单比特位故障注入.md",
-    "Learning/Tools/Git.md"
+    "Learning/Tools/生成统计图表工具.md",
+    "Learning/GPU/GPGPU sim.md",
+    "Learning/GPU/Memory Coalescing.md",
+    "Learning/GPU/Divergency.md",
+    "Learning/Programming Language & Framework/Pytorch/pytorch基本操作.md"
   ]
 }

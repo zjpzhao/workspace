@@ -1,16 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "CUDA Programming",
+      "path": "Learning/GPU/CUDA/CUDA Programming.md"
+    },
+    {
+      "basename": "CUDA",
+      "path": "Learning/GPU/CUDA/CUDA.md"
+    },
+    {
+      "basename": "python性能",
+      "path": "Learning/Programming Language & Framework/Python/python性能.md"
+    },
+    {
+      "basename": "层次结构",
+      "path": "Learning/GPU/层次结构.md"
+    },
+    {
+      "basename": "论文写作积累",
+      "path": "papers/论文写作积累.md"
+    },
+    {
+      "basename": "Python Base",
+      "path": "Learning/Programming Language & Framework/Python/Python Base.md"
+    },
+    {
+      "basename": "生成统计图表工具",
+      "path": "Learning/Tools/生成统计图表工具.md"
+    },
+    {
+      "basename": "GPGPU sim",
+      "path": "Learning/GPU/GPGPU sim.md"
+    },
+    {
       "basename": "Memory Coalescing",
       "path": "Learning/GPU/Memory Coalescing.md"
     },
     {
       "basename": "Divergency",
       "path": "Learning/GPU/Divergency.md"
-    },
-    {
-      "basename": "层次结构",
-      "path": "Learning/GPU/层次结构.md"
     },
     {
       "basename": "pytorch基本操作",
@@ -27,14 +55,6 @@
     {
       "basename": "Excel",
       "path": "Learning/Tools/Excel.md"
-    },
-    {
-      "basename": "生成统计图表工具",
-      "path": "Learning/Tools/生成统计图表工具.md"
-    },
-    {
-      "basename": "Python Base",
-      "path": "Learning/Programming Language & Framework/Python/Python Base.md"
     },
     {
       "basename": "Code_对神经网络模型参数进行多线程单比特位故障注入",
@@ -89,10 +109,6 @@
       "path": "Learning/Math/Sensitivity.md"
     },
     {
-      "basename": "论文写作积累",
-      "path": "papers/论文写作积累.md"
-    },
-    {
       "basename": "GNN",
       "path": "Learning/AI/GNN/GNN.md"
     },
@@ -107,10 +123,6 @@
     {
       "basename": "Collect Metrics",
       "path": "Learning/GPU/Collect Metrics.md"
-    },
-    {
-      "basename": "python性能",
-      "path": "Learning/Programming Language & Framework/Python/python性能.md"
     },
     {
       "basename": "Observations on Soft Error",
@@ -174,15 +186,11 @@
     },
     {
       "basename": "CUDA Toolkit",
-      "path": "Learning/GPU/CUDA Toolkit.md"
+      "path": "Learning/GPU/CUDA/CUDA Toolkit.md"
     },
     {
       "basename": "CUDA Binary Utilities",
-      "path": "Learning/GPU/CUDA Binary Utilities.md"
-    },
-    {
-      "basename": "CUDA",
-      "path": "Learning/GPU/CUDA.md"
+      "path": "Learning/GPU/CUDA/CUDA Binary Utilities.md"
     },
     {
       "basename": "Docker",
@@ -191,14 +199,6 @@
     {
       "basename": "GPU",
       "path": "Learning/GPU/GPU.md"
-    },
-    {
-      "basename": "Tricks",
-      "path": "util/Tricks.md"
-    },
-    {
-      "basename": "全系workflow搭建",
-      "path": "Workflow/全系workflow搭建.md"
     }
   ],
   "omittedPaths": [],

@@ -1,0 +1,10 @@
+- CUDA=Compute Unified Device Architecture，统一计算设备架构。
+- 由 NVIDIA 提出的通用并行计算平台和编程模型 
+- CUDA 软件环境使用 C++ 作为高级编程语言
+- 也支持其他编程语言和接口：Fortran, Python, OpenACC
+- 具有灵活性和可扩展性
+- Single Program Multiple Data ，单程序多数据单程序多数据
+- 不同的进程 / 线程运行同一个程序源代码（ SP ），单程序多数据但是分别使用不同的输入数据进行各自的计算（ MD ）
+	- 不同进程 / 线程相互独立，单程序多数据没有执行顺序的要求
+- 常用的并行编程模型多数采用 SPMD 模式
+- 例如： CUDA ，单程序多数据 MPI ，单程序多数据 openMP
