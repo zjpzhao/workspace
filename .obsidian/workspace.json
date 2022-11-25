@@ -34,19 +34,6 @@
             }
           },
           {
-            "id": "c80b6a42c5a9a13d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learning/GPU/层次结构.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "11512fc81c70ddcb",
             "type": "leaf",
             "state": {
@@ -91,19 +78,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning/GPU/CUDA/CUDA.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "af8ee9cbb99925ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Learning/GPU/CUDA/CUDA Programming.md",
                 "mode": "source",
                 "backlinks": true,
@@ -125,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       },
       {
         "id": "f0638c6b910ab746",
@@ -315,9 +289,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "af8ee9cbb99925ab",
+  "active": "c3d53e3265bd5e54",
   "lastOpenFiles": [
     "Learning/GPU/CUDA/CUDA.md",
+    "Learning/GPU/CUDA/CUDA Programming.md",
     "Learning/Programming Language & Framework/Python/python性能.md",
     "Learning/GPU/层次结构.md",
     "papers/论文写作积累.md",
@@ -325,7 +300,6 @@
     "Learning/Tools/生成统计图表工具.md",
     "Learning/GPU/GPGPU sim.md",
     "Learning/GPU/Memory Coalescing.md",
-    "Learning/GPU/Divergency.md",
-    "Learning/Programming Language & Framework/Pytorch/pytorch基本操作.md"
+    "Learning/GPU/Divergency.md"
   ]
 }
