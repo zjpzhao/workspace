@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "My Paper",
+      "path": "papers/My Paper.md"
+    },
+    {
+      "basename": "论文写作积累",
+      "path": "papers/论文写作积累.md"
+    },
+    {
       "basename": "CUDA Programming",
       "path": "Learning/GPU/CUDA/CUDA Programming.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "层次结构",
       "path": "Learning/GPU/层次结构.md"
-    },
-    {
-      "basename": "论文写作积累",
-      "path": "papers/论文写作积累.md"
     },
     {
       "basename": "Python Base",
@@ -163,10 +167,6 @@
     {
       "basename": "NVCC",
       "path": "Learning/GPU/NVCC.md"
-    },
-    {
-      "basename": "My DAC 2023",
-      "path": "papers/My DAC 2023.md"
     },
     {
       "basename": "论文撰写",
