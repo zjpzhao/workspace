@@ -13,10 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning/Soft Error/Observations on Soft Error.md",
+                "file": "Learning/GPU/Benchmarks/Benchmark探索.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "e9551594c6514c7d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.3"
               }
             }
           },
@@ -99,7 +109,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       },
       {
         "id": "f0638c6b910ab746",
@@ -172,8 +182,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "e9d25589cbee286f",
@@ -193,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/My Paper.md"
+                "file": "Learning/GPU/Benchmarks/Benchmark探索.md"
               }
             }
           },
@@ -210,7 +219,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 458
+    "width": 458,
+    "collapsed": true
   },
   "right": {
     "id": "15dd14e7068b76d4",
@@ -226,7 +236,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/My Paper.md",
+                "file": "Learning/GPU/Benchmarks/Benchmark探索.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -238,7 +248,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/My Paper.md",
+                "file": "Learning/GPU/Benchmarks/Benchmark探索.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -290,8 +300,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "382133fc48c45650",
+  "active": "e9551594c6514c7d",
   "lastOpenFiles": [
+    "Learning/Soft Error/Observations on Soft Error.md",
+    "papers/My Paper.md",
     "papers/论文写作积累.md",
     "Learning/GPU/CUDA/CUDA Programming.md",
     "Learning/GPU/CUDA/CUDA.md",
@@ -299,8 +311,6 @@
     "Learning/GPU/层次结构.md",
     "Learning/Programming Language & Framework/Python/Python Base.md",
     "Learning/Tools/生成统计图表工具.md",
-    "Learning/GPU/GPGPU sim.md",
-    "Learning/GPU/Memory Coalescing.md",
-    "Learning/GPU/Divergency.md"
+    "Learning/GPU/GPGPU sim.md"
   ]
 }

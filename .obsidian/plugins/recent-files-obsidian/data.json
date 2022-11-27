@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Benchmark探索",
+      "path": "Learning/GPU/Benchmarks/Benchmark探索.md"
+    },
+    {
+      "basename": "Observations on Soft Error",
+      "path": "Learning/Soft Error/Observations on Soft Error.md"
+    },
+    {
       "basename": "My Paper",
       "path": "papers/My Paper.md"
     },
@@ -97,10 +105,6 @@
       "path": "Learning/Programming Language & Framework/Shell.md"
     },
     {
-      "basename": "Benchmark探索",
-      "path": "Learning/GPU/Benchmarks/Benchmark探索.md"
-    },
-    {
       "basename": "各Benchmark特点",
       "path": "Learning/GPU/Benchmarks/各Benchmark特点.md"
     },
@@ -127,10 +131,6 @@
     {
       "basename": "Collect Metrics",
       "path": "Learning/GPU/Collect Metrics.md"
-    },
-    {
-      "basename": "Observations on Soft Error",
-      "path": "Learning/Soft Error/Observations on Soft Error.md"
     },
     {
       "basename": "理解和区分conda cudatoolkit、Nvidia cudatoolkit、nvidia-smi回显cuda版本",
