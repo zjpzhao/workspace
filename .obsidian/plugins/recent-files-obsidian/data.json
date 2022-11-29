@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "NVCC",
+      "path": "Learning/GPU/NVCC.md"
+    },
+    {
+      "basename": "Nsight Compute工具",
+      "path": "Learning/GPU/Nsight Compute工具.md"
+    },
+    {
       "basename": "Benchmark探索",
       "path": "Learning/GPU/Benchmarks/Benchmark探索.md"
     },
@@ -165,10 +173,6 @@
       "path": "Learning/GPU/SASS和PTX.md"
     },
     {
-      "basename": "NVCC",
-      "path": "Learning/GPU/NVCC.md"
-    },
-    {
       "basename": "论文撰写",
       "path": "papers/论文撰写.md"
     },
@@ -179,10 +183,6 @@
     {
       "basename": "PTX",
       "path": "Learning/GPU/PTX.md"
-    },
-    {
-      "basename": "Nsight Compute工具",
-      "path": "Learning/GPU/Nsight Compute工具.md"
     },
     {
       "basename": "CUDA Toolkit",

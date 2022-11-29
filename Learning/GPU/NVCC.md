@@ -1,7 +1,7 @@
 # NVCC
 ## 编译中断和续编
 编译过程暴露中间文件（如PTX）后继续编译过程
-1. 通过-dryrun选项输出编译子命令
+1. 通过-dryrun选项只打印要执行的命令但是不执行
 ```bash
 nvcc -dryrun -arch=sm_60 -o ${EXECUTABLE} ${CUFILES} --keep 2>dryrun.out
 ```

@@ -24,9 +24,12 @@
             "id": "e9551594c6514c7d",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.0.3"
+                "file": "Learning/GPU/NVCC.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           },
@@ -110,25 +113,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "f0638c6b910ab746",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "382133fc48c45650",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "papers/My Paper.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -202,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/GPU/Benchmarks/Benchmark探索.md"
+                "file": "Learning/GPU/NVCC.md"
               }
             }
           },
@@ -236,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/GPU/Benchmarks/Benchmark探索.md",
+                "file": "Learning/GPU/NVCC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -248,7 +232,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/GPU/Benchmarks/Benchmark探索.md",
+                "file": "Learning/GPU/NVCC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -302,6 +286,7 @@
   },
   "active": "e9551594c6514c7d",
   "lastOpenFiles": [
+    "Learning/GPU/Nsight Compute工具.md",
     "Learning/Soft Error/Observations on Soft Error.md",
     "papers/My Paper.md",
     "papers/论文写作积累.md",
@@ -310,7 +295,6 @@
     "Learning/Programming Language & Framework/Python/python性能.md",
     "Learning/GPU/层次结构.md",
     "Learning/Programming Language & Framework/Python/Python Base.md",
-    "Learning/Tools/生成统计图表工具.md",
-    "Learning/GPU/GPGPU sim.md"
+    "Learning/Tools/生成统计图表工具.md"
   ]
 }
