@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "论文写作积累",
+      "path": "papers/论文写作积累.md"
+    },
+    {
       "basename": "Benchmark探索",
       "path": "Learning/GPU/Benchmarks/Benchmark探索.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "My Paper",
       "path": "papers/My Paper.md"
-    },
-    {
-      "basename": "论文写作积累",
-      "path": "papers/论文写作积累.md"
     },
     {
       "basename": "CUDA Programming",

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning/GPU/Benchmarks/Benchmark探索.md",
+                "file": "papers/论文写作积累.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -185,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/GPU/Benchmarks/Benchmark探索.md"
+                "file": "papers/论文写作积累.md"
               }
             }
           },
@@ -218,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/GPU/Benchmarks/Benchmark探索.md",
+                "file": "papers/论文写作积累.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/GPU/Benchmarks/Benchmark探索.md",
+                "file": "papers/论文写作积累.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -284,6 +284,7 @@
   },
   "active": "2558a011cf756e09",
   "lastOpenFiles": [
+    "Learning/GPU/Benchmarks/Benchmark探索.md",
     "Learning/GPU/NVCC.md",
     "Learning/GPU/Nsight Compute工具.md",
     "Learning/Soft Error/Observations on Soft Error.md",
@@ -292,7 +293,6 @@
     "Learning/GPU/CUDA/CUDA Programming.md",
     "Learning/GPU/CUDA/CUDA.md",
     "Learning/Programming Language & Framework/Python/python性能.md",
-    "Learning/GPU/层次结构.md",
-    "Learning/Programming Language & Framework/Python/Python Base.md"
+    "Learning/GPU/层次结构.md"
   ]
 }
