@@ -169,6 +169,8 @@ jmeint好使了
 /usr/local/cuda/bin/nvcc -DRD_WG_SIZE_0=16 hotspot.cu -o hotspot -I /usr/local/cuda/include -L /usr/local/cuda/lib --keep
 ```
 
+具体benchmark下载处和用法可以参考[NMSU-PEARL/GPGPUs-Workloads: A collection of GPGPUs apps and benchmarks for architecture and HPC research (github.com)](https://github.com/NMSU-PEARL/GPGPUs-Workloads)
+
 ---
 
 # tensorcore相关benchmark

@@ -165,7 +165,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "e9d25589cbee286f",
@@ -282,7 +283,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "02969b7f98836494",
+  "active": "f20fbb262ea231a5",
   "lastOpenFiles": [
     "Learning/GPU/NVCC.md",
     "Learning/GPU/Nsight Compute工具.md",
