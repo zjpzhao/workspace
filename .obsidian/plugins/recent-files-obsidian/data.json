@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Benchmark探索",
+      "path": "Learning/GPU/Benchmarks/Benchmark探索.md"
+    },
+    {
       "basename": "NVCC",
       "path": "Learning/GPU/NVCC.md"
     },
     {
       "basename": "Nsight Compute工具",
       "path": "Learning/GPU/Nsight Compute工具.md"
-    },
-    {
-      "basename": "Benchmark探索",
-      "path": "Learning/GPU/Benchmarks/Benchmark探索.md"
     },
     {
       "basename": "Observations on Soft Error",

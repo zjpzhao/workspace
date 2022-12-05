@@ -99,7 +99,7 @@
   },
   "version": {
     "zotero": "6.0.18",
-    "bbt": "6.7.41"
+    "bbt": "6.7.42"
   },
   "collections": {
     "UT3SWZS2": {
@@ -296,7 +296,8 @@
         8956,
         9000,
         9016,
-        9333
+        9333,
+        10932
       ]
     },
     "KCJQMBL7": {
@@ -4011,6 +4012,83 @@
       "libraryID": 1,
       "select": "zotero://select/library/items/GRG9GGER",
       "publicationTitle": "SC20: International Conference for High Performance Computing, Networking, Storage and Analysis"
+    },
+    {
+      "key": "V4Q4CHH6",
+      "version": 7019,
+      "itemType": "conferencePaper",
+      "title": "GPUWattch: enabling energy optimizations in GPGPUs",
+      "abstractNote": "General-purpose GPUs (GPGPUs) are becoming prevalent in mainstream computing, and performance per watt has emerged as a more crucial evaluation metric than peak performance. As such, GPU architects require robust tools that will enable them to quickly explore new ways to optimize GPGPUs for energy e\ufb03ciency. We propose a new GPGPU power model that is con\ufb01gurable, capable of cycle-level calculations, and carefully validated against real hardware measurements. To achieve con\ufb01gurability, we use a bottom-up methodology and abstract parameters from the microarchitectural components as the model\u2019s inputs. We developed a rigorous suite of 80 microbenchmarks that we use to bound any modeling uncertainties and inaccuracies. The power model is comprehensively validated against measurements of two commercially available GPUs, and the measured error is within 9.9% and 13.4% for the two target GPUs (GTX 480 and Quadro FX5600). The model also accurately tracks the power consumption trend over time. We integrated the power model with the cycle-level simulator GPGPU-Sim and demonstrate the energy savings by utilizing dynamic voltage and frequency scaling (DVFS) and clock gating. Traditional DVFS reduces GPU energy consumption by 14.4% by leveraging within-kernel runtime variations. More \ufb01ner-grained SM cluster-level DVFS improves the energy savings from 6.6% to 13.6% for those benchmarks that show clustered execution behavior. We also show that clock gating inactive lanes during divergence reduces dynamic power by 11.2%.",
+      "language": "en",
+      "libraryCatalog": "Zotero",
+      "pages": "12",
+      "creators": [
+        {
+          "firstName": "Jingwen",
+          "lastName": "Leng",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Tayler",
+          "lastName": "Hetherington",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ahmed",
+          "lastName": "ElTantawy",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Syed",
+          "lastName": "Gilani",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Nam Sung",
+          "lastName": "Kim",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Tor M",
+          "lastName": "Aamodt",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Vijay Janapa",
+          "lastName": "Reddi",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "relations": [],
+      "dateAdded": "2022-11-30T03:59:09Z",
+      "dateModified": "2022-12-05T03:10:51Z",
+      "uri": "http://zotero.org/users/7659667/items/V4Q4CHH6",
+      "itemID": 10932,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Leng et al. - GPUWattch enabling energy optimizations in GPGPUs.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-11-30T03:58:59Z",
+          "dateModified": "2022-11-30T03:59:10Z",
+          "uri": "http://zotero.org/users/7659667/items/5Q8FRC4C",
+          "path": "D:\\Zotero\\storage\\5Q8FRC4C\\Leng et al. - GPUWattch enabling energy optimizations in GPGPUs.pdf",
+          "select": "zotero://select/library/items/5Q8FRC4C"
+        }
+      ],
+      "notes": [],
+      "citationKey": "GPUWattchEnablingEnergyleng",
+      "citekey": "GPUWattchEnablingEnergyleng",
+      "itemKey": "V4Q4CHH6",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/V4Q4CHH6"
     },
     {
       "key": "XQKHJ7RW",

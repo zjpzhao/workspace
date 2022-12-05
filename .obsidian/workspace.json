@@ -111,8 +111,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -186,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/GPU/NVCC.md"
+                "file": "Learning/GPU/Benchmarks/Benchmark探索.md"
               }
             }
           },
@@ -203,8 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 458,
-    "collapsed": true
+    "width": 458
   },
   "right": {
     "id": "15dd14e7068b76d4",
@@ -220,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/GPU/NVCC.md",
+                "file": "Learning/GPU/Benchmarks/Benchmark探索.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -232,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/GPU/NVCC.md",
+                "file": "Learning/GPU/Benchmarks/Benchmark探索.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -284,8 +282,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e9551594c6514c7d",
+  "active": "02969b7f98836494",
   "lastOpenFiles": [
+    "Learning/GPU/NVCC.md",
     "Learning/GPU/Nsight Compute工具.md",
     "Learning/Soft Error/Observations on Soft Error.md",
     "papers/My Paper.md",
@@ -294,7 +293,6 @@
     "Learning/GPU/CUDA/CUDA.md",
     "Learning/Programming Language & Framework/Python/python性能.md",
     "Learning/GPU/层次结构.md",
-    "Learning/Programming Language & Framework/Python/Python Base.md",
-    "Learning/Tools/生成统计图表工具.md"
+    "Learning/Programming Language & Framework/Python/Python Base.md"
   ]
 }
