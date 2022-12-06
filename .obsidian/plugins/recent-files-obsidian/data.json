@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "My Paper",
+      "path": "papers/My Paper.md"
+    },
+    {
       "basename": "论文写作积累",
       "path": "papers/论文写作积累.md"
     },
@@ -51,10 +55,6 @@
     {
       "basename": "Observations on Soft Error",
       "path": "Learning/Soft Error/Observations on Soft Error.md"
-    },
-    {
-      "basename": "My Paper",
-      "path": "papers/My Paper.md"
     },
     {
       "basename": "CUDA Programming",

@@ -1,4 +1,5 @@
 # 需要思考和解决的问题
+注错可不可以注到每条指令的返回值上？
 - [x] GAT能做inductive吗——能
 - [x] 能否将注意力融入GraphSage *or* 直接采用GAT——GAT
 - [x] 选用哪种图框架：DGL *or* PyG (参考https://github.com/cornell-zhang/GLAIVE)——DGL
