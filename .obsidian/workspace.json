@@ -21,64 +21,12 @@
             }
           },
           {
-            "id": "e9551594c6514c7d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learning/GPU/NVCC.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5db779392e74b89e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learning/Programming Language & Framework/Python/Python Base.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "11512fc81c70ddcb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Learning/GPU/Divergency.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3ded87fea44991ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learning/GPU/Memory Coalescing.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e8cf5eaf664a7361",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learning/GPU/GPGPU sim.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -97,21 +45,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "856c6c60b51d0dc8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learning/Programming Language & Framework/Python/python性能.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -202,7 +138,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 458
+    "width": 458,
+    "collapsed": true
   },
   "right": {
     "id": "15dd14e7068b76d4",
@@ -279,19 +216,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "2558a011cf756e09",
+  "active": "02969b7f98836494",
   "lastOpenFiles": [
-    "Learning/GPU/Benchmarks/Benchmark探索.md",
     "Learning/GPU/NVCC.md",
+    "Learning/GPU/Divergency.md",
+    "Learning/GPU/Memory Coalescing.md",
+    "Learning/GPU/GPGPU sim.md",
+    "Learning/Programming Language & Framework/Python/Python Base.md",
+    "papers/论文写作积累.md",
+    "Learning/GPU/Benchmarks/Benchmark探索.md",
     "Learning/GPU/Nsight Compute工具.md",
     "Learning/Soft Error/Observations on Soft Error.md",
-    "papers/My Paper.md",
-    "papers/论文写作积累.md",
-    "Learning/GPU/CUDA/CUDA Programming.md",
-    "Learning/GPU/CUDA/CUDA.md",
-    "Learning/Programming Language & Framework/Python/python性能.md",
-    "Learning/GPU/层次结构.md"
+    "papers/My Paper.md"
   ]
 }

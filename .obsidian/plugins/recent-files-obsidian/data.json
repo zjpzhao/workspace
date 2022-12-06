@@ -5,12 +5,28 @@
       "path": "papers/论文写作积累.md"
     },
     {
-      "basename": "Benchmark探索",
-      "path": "Learning/GPU/Benchmarks/Benchmark探索.md"
-    },
-    {
       "basename": "NVCC",
       "path": "Learning/GPU/NVCC.md"
+    },
+    {
+      "basename": "Divergency",
+      "path": "Learning/GPU/Divergency.md"
+    },
+    {
+      "basename": "Memory Coalescing",
+      "path": "Learning/GPU/Memory Coalescing.md"
+    },
+    {
+      "basename": "GPGPU sim",
+      "path": "Learning/GPU/GPGPU sim.md"
+    },
+    {
+      "basename": "Python Base",
+      "path": "Learning/Programming Language & Framework/Python/Python Base.md"
+    },
+    {
+      "basename": "Benchmark探索",
+      "path": "Learning/GPU/Benchmarks/Benchmark探索.md"
     },
     {
       "basename": "Nsight Compute工具",
@@ -41,24 +57,8 @@
       "path": "Learning/GPU/层次结构.md"
     },
     {
-      "basename": "Python Base",
-      "path": "Learning/Programming Language & Framework/Python/Python Base.md"
-    },
-    {
       "basename": "生成统计图表工具",
       "path": "Learning/Tools/生成统计图表工具.md"
-    },
-    {
-      "basename": "GPGPU sim",
-      "path": "Learning/GPU/GPGPU sim.md"
-    },
-    {
-      "basename": "Memory Coalescing",
-      "path": "Learning/GPU/Memory Coalescing.md"
-    },
-    {
-      "basename": "Divergency",
-      "path": "Learning/GPU/Divergency.md"
     },
     {
       "basename": "pytorch基本操作",

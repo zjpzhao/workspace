@@ -16,10 +16,12 @@
   "dataview",
   "excalibrain",
   "bibnotes",
-  "sliding-panes-obsidian",
   "obsidian-rollover-daily-todos",
   "calendar",
   "obsidian-style-settings",
   "obsidian-image-auto-upload-plugin",
-  "obsidian-copy-block-link"
+  "obsidian-copy-block-link",
+  "obsidian-emoji-toolbar",
+  "obsidian-auto-link-title",
+  "obsidian-columns"
 ]
