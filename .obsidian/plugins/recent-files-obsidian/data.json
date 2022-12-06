@@ -5,6 +5,22 @@
       "path": "papers/论文写作积累.md"
     },
     {
+      "basename": "文献阅读批注和同步体系",
+      "path": "Workflow/文献阅读批注和同步体系.md"
+    },
+    {
+      "basename": "图床搭建及配置",
+      "path": "Workflow/图床搭建及配置.md"
+    },
+    {
+      "basename": "全系workflow搭建",
+      "path": "Workflow/全系workflow搭建.md"
+    },
+    {
+      "basename": "插件用法",
+      "path": "Workflow/插件用法.md"
+    },
+    {
       "basename": "NVCC",
       "path": "Learning/GPU/NVCC.md"
     },
@@ -117,10 +133,6 @@
       "path": "Learning/GPU/Benchmarks/各Benchmark特点.md"
     },
     {
-      "basename": "文献阅读批注和同步体系",
-      "path": "Workflow/文献阅读批注和同步体系.md"
-    },
-    {
       "basename": "Sensitivity",
       "path": "Learning/Math/Sensitivity.md"
     },
@@ -147,10 +159,6 @@
     {
       "basename": "wandb",
       "path": "Learning/AI/AI tools/wandb.md"
-    },
-    {
-      "basename": "插件用法",
-      "path": "Workflow/插件用法.md"
     },
     {
       "basename": "换源",
@@ -191,14 +199,6 @@
     {
       "basename": "CUDA Binary Utilities",
       "path": "Learning/GPU/CUDA/CUDA Binary Utilities.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "Learning/Tools/Docker.md"
-    },
-    {
-      "basename": "GPU",
-      "path": "Learning/GPU/GPU.md"
     }
   ],
   "omittedPaths": [],

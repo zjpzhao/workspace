@@ -4015,7 +4015,7 @@
     },
     {
       "key": "V4Q4CHH6",
-      "version": 7019,
+      "version": 7031,
       "itemType": "conferencePaper",
       "title": "GPUWattch: enabling energy optimizations in GPGPUs",
       "abstractNote": "General-purpose GPUs (GPGPUs) are becoming prevalent in mainstream computing, and performance per watt has emerged as a more crucial evaluation metric than peak performance. As such, GPU architects require robust tools that will enable them to quickly explore new ways to optimize GPGPUs for energy e\ufb03ciency. We propose a new GPGPU power model that is con\ufb01gurable, capable of cycle-level calculations, and carefully validated against real hardware measurements. To achieve con\ufb01gurability, we use a bottom-up methodology and abstract parameters from the microarchitectural components as the model\u2019s inputs. We developed a rigorous suite of 80 microbenchmarks that we use to bound any modeling uncertainties and inaccuracies. The power model is comprehensively validated against measurements of two commercially available GPUs, and the measured error is within 9.9% and 13.4% for the two target GPUs (GTX 480 and Quadro FX5600). The model also accurately tracks the power consumption trend over time. We integrated the power model with the cycle-level simulator GPGPU-Sim and demonstrate the energy savings by utilizing dynamic voltage and frequency scaling (DVFS) and clock gating. Traditional DVFS reduces GPU energy consumption by 14.4% by leveraging within-kernel runtime variations. More \ufb01ner-grained SM cluster-level DVFS improves the energy savings from 6.6% to 13.6% for those benchmarks that show clustered execution behavior. We also show that clock gating inactive lanes during divergence reduces dynamic power by 11.2%.",
@@ -5638,8 +5638,8 @@
     },
     {
       "key": "K2P29V6L",
-      "version": 7032,
-      "itemType": "journalArticle",
+      "version": 7043,
+      "itemType": "conferencePaper",
       "title": "Mitigating Silent Data Corruptions in HPC Applications across Multiple Program Inputs",
       "abstractNote": "With the ever-shrinking size of transistors, silent data corruptions (SDCs) are becoming a common yet serious issue in HPC. Selective instruction duplication (SID) is a widely used fault-tolerance technique that can obtain high SDC coverage with low performance overhead. However, existing SID methods are confined to single program input in its assessment, assuming that error resilience of a program remains similar across inputs. Nevertheless, we observe that the assumption cannot always hold, leading to a drastic loss in SDC coverage across different inputs, compromising HPC reliability. We notice that the SDC coverage loss correlates with a small set of instructions - we call them incubative instructions, which reveal elusive error propagation characteristics across multiple inputs. We propose MINPSID, an automated SID framework that automatically identifies and re-prioritizes incubative instructions in a given program to enhance SDC coverage. Evaluation shows MINPSID can effectively mitigate the loss of SDC coverage across multiple inputs.",
       "language": "en",
@@ -5675,7 +5675,7 @@
       "tags": [],
       "relations": [],
       "dateAdded": "2022-11-16T07:21:51Z",
-      "dateModified": "2022-12-05T07:52:58Z",
+      "dateModified": "2022-12-06T09:54:55Z",
       "uri": "http://zotero.org/users/7659667/items/K2P29V6L",
       "itemID": 10673,
       "attachments": [

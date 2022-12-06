@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "02969b7f98836494",
+            "id": "ed7c3338b595e9ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "partial",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -112,8 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 458,
-    "collapsed": true
+    "width": 458
   },
   "right": {
     "id": "15dd14e7068b76d4",
@@ -193,17 +192,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "02969b7f98836494",
+  "active": "2558a011cf756e09",
   "lastOpenFiles": [
+    "Workflow/文献阅读批注和同步体系.md",
+    "Workflow/图床搭建及配置.md",
+    "Workflow/全系workflow搭建.md",
+    "Workflow/插件用法.md",
+    "papers/论文写作积累.md",
     "Learning/GPU/NVCC.md",
     "Learning/GPU/Divergency.md",
     "Learning/GPU/Memory Coalescing.md",
     "Learning/GPU/GPGPU sim.md",
-    "Learning/Programming Language & Framework/Python/Python Base.md",
-    "papers/论文写作积累.md",
-    "Learning/GPU/Benchmarks/Benchmark探索.md",
-    "Learning/GPU/Nsight Compute工具.md",
-    "Learning/Soft Error/Observations on Soft Error.md",
-    "papers/My Paper.md"
+    "Learning/Programming Language & Framework/Python/Python Base.md"
   ]
 }
