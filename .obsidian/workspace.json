@@ -19,32 +19,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "11512fc81c70ddcb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learning/GPU/Divergency.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c3d53e3265bd5e54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learning/GPU/CUDA/CUDA Programming.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
         "stacked": true
