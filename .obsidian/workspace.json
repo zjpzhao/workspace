@@ -34,7 +34,6 @@
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -110,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/My Paper.md"
+                "file": "papers/论文写作积累.md"
               }
             }
           },
@@ -144,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/My Paper.md",
+                "file": "papers/论文写作积累.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/My Paper.md",
+                "file": "papers/论文写作积累.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,10 +207,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2c3b22e395fa3173",
+  "active": "ed7c3338b595e9ef",
   "lastOpenFiles": [
-    "papers/论文写作积累.md",
     "papers/My Paper.md",
+    "papers/论文写作积累.md",
     "Workflow/文献阅读批注和同步体系.md",
     "Workflow/图床搭建及配置.md",
     "Workflow/全系workflow搭建.md",
