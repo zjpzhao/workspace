@@ -281,7 +281,8 @@
       "collections": [],
       "items": [
         8165,
-        8443
+        8443,
+        10981
       ]
     },
     "PRPTPRWT": {
@@ -6373,6 +6374,24 @@
       "itemKey": "6TTLKV5D",
       "libraryID": 1,
       "select": "zotero://select/library/items/6TTLKV5D"
+    },
+    {
+      "key": "7GV5C3RG",
+      "version": 7173,
+      "itemType": "note",
+      "note": "<div data-citation-items=\"%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F7EVJJVKA%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F7EVJJVKA%22%2C%22type%22%3A%22paper-conference%22%2C%22container-title%22%3A%22SC18%3A%20International%20Conference%20for%20High%20Performance%20Computing%2C%20Networking%2C%20Storage%20and%20Analysis%22%2C%22DOI%22%3A%2210.1109%2FSC.2018.00070%22%2C%22event-place%22%3A%22Dallas%2C%20TX%2C%20USA%22%2C%22event-title%22%3A%22SC18%3A%20International%20Conference%20for%20High%20Performance%20Computing%2C%20Networking%2C%20Storage%20and%20Analysis%22%2C%22ISBN%22%3A%22978-1-5386-8384-2%22%2C%22language%22%3A%22en%22%2C%22page%22%3A%22842-854%22%2C%22publisher%22%3A%22IEEE%22%2C%22publisher-place%22%3A%22Dallas%2C%20TX%2C%20USA%22%2C%22source%22%3A%22DOI.org%20(Crossref)%22%2C%22title%22%3A%22Optimizing%20Software-Directed%20Instruction%20Replication%20for%20GPU%20Error%20Detection%22%2C%22URL%22%3A%22https%3A%2F%2Fieeexplore.ieee.org%2Fdocument%2F8665772%2F%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Mahmoud%22%2C%22given%22%3A%22Abdulrahman%22%7D%2C%7B%22family%22%3A%22Hari%22%2C%22given%22%3A%22Siva%20Kumar%20Sastry%22%7D%2C%7B%22family%22%3A%22Sullivan%22%2C%22given%22%3A%22Michael%20B.%22%7D%2C%7B%22family%22%3A%22Tsai%22%2C%22given%22%3A%22Timothy%22%7D%2C%7B%22family%22%3A%22Keckler%22%2C%22given%22%3A%22Stephen%20W.%22%7D%5D%2C%22accessed%22%3A%7B%22date-parts%22%3A%5B%5B%222022%22%2C7%2C14%5D%5D%7D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%222018%22%2C11%5D%5D%7D%7D%7D%5D\" data-schema-version=\"8\"><p>\u7ed8\u56fe\u4f18\u79c0\u6837\u4f8b</p>\n<p><img alt=\"\" data-attachment-key=\"SLA38DDI\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FUZ5SAULU%22%2C%22annotationKey%22%3A%22TV6AGG64%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%229%22%2C%22position%22%3A%7B%22pageIndex%22%3A8%2C%22rects%22%3A%5B%5B47.82487284854365%2C557.0549999999998%2C564.0429999999999%2C746.2429999999999%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F7EVJJVKA%22%5D%2C%22locator%22%3A%229%22%7D%7D\" width=\"860\" height=\"315\"><br><span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F7EVJJVKA%22%5D%2C%22locator%22%3A%229%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Mahmoud et al., 2018, p. 9</span>)</span></p>\n<p><img alt=\"\" data-attachment-key=\"2WYXQZC5\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FUZ5SAULU%22%2C%22annotationKey%22%3A%22L9L4TAQN%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%229%22%2C%22position%22%3A%7B%22pageIndex%22%3A8%2C%22rects%22%3A%5B%5B49.423%2C383.299%2C563.979%2C555.753%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F7EVJJVKA%22%5D%2C%22locator%22%3A%229%22%7D%7D\" width=\"858\" height=\"288\"><br><span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F7EVJJVKA%22%5D%2C%22locator%22%3A%229%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Mahmoud et al., 2018, p. 9</span>)</span></p>\n<p><img alt=\"\" data-attachment-key=\"ZHA273DT\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2FUZ5SAULU%22%2C%22annotationKey%22%3A%22PSJ32K2Y%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%229%22%2C%22position%22%3A%7B%22pageIndex%22%3A8%2C%22rects%22%3A%5B%5B49.277%2C262.275%2C301.82%2C378.427%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F7EVJJVKA%22%5D%2C%22locator%22%3A%229%22%7D%7D\" width=\"421\" height=\"194\"><br><span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F7659667%2Fitems%2F7EVJJVKA%22%5D%2C%22locator%22%3A%229%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Mahmoud et al., 2018, p. 9</span>)</span></p>\n</div>",
+      "tags": [],
+      "collections": [
+        "35L73CYH"
+      ],
+      "relations": {},
+      "dateAdded": "2022-12-08T01:25:47Z",
+      "dateModified": "2022-12-08T01:28:05Z",
+      "uri": "http://zotero.org/users/7659667/items/7GV5C3RG",
+      "itemID": 10981,
+      "itemKey": "7GV5C3RG",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/7GV5C3RG"
     },
     {
       "key": "3VLLCQ5H",
