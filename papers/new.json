@@ -109,7 +109,8 @@
       "collections": [],
       "items": [
         176,
-        9834
+        9834,
+        10990
       ]
     },
     "SR4PU68B": {
@@ -4636,6 +4637,80 @@
       "itemKey": "KXNZYS9M",
       "libraryID": 1,
       "select": "zotero://select/library/items/KXNZYS9M",
+      "publicationTitle": "Proceedings of the 59th ACM/IEEE Design Automation Conference"
+    },
+    {
+      "key": "L7JLDXNB",
+      "version": 7179,
+      "itemType": "conferencePaper",
+      "title": "GTuner: tuning DNN computations on GPU via graph attention network",
+      "date": "2022-07-10",
+      "language": "en",
+      "shortTitle": "GTuner",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "url": "https://dl.acm.org/doi/10.1145/3489517.3530584",
+      "accessDate": "2022-12-08T03:06:25Z",
+      "place": "San Francisco California",
+      "publisher": "ACM",
+      "ISBN": "978-1-4503-9142-9",
+      "pages": "1045-1050",
+      "conferenceName": "DAC '22: 59th ACM/IEEE Design Automation Conference",
+      "DOI": "10.1145/3489517.3530584",
+      "creators": [
+        {
+          "firstName": "Qi",
+          "lastName": "Sun",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xinyun",
+          "lastName": "Zhang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Hao",
+          "lastName": "Geng",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Yuxuan",
+          "lastName": "Zhao",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Yang",
+          "lastName": "Bai",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Haisheng",
+          "lastName": "Zheng",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Bei",
+          "lastName": "Yu",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "relations": [],
+      "dateAdded": "2022-12-08T03:06:25Z",
+      "dateModified": "2022-12-08T03:06:26Z",
+      "uri": "http://zotero.org/users/7659667/items/L7JLDXNB",
+      "itemID": 10990,
+      "attachments": [],
+      "notes": [],
+      "citationKey": "GTunerTuningDNN2022suna",
+      "citekey": "GTunerTuningDNN2022suna",
+      "itemKey": "L7JLDXNB",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/L7JLDXNB",
       "publicationTitle": "Proceedings of the 59th ACM/IEEE Design Automation Conference"
     },
     {

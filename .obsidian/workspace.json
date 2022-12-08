@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/论文写作积累.md",
+                "file": "Learning/Programming Language & Framework/Latex.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,8 +88,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "e9d25589cbee286f",
@@ -109,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/论文写作积累.md"
+                "file": "Learning/Programming Language & Framework/Latex.md"
               }
             }
           },
@@ -143,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/论文写作积累.md",
+                "file": "Learning/Programming Language & Framework/Latex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/论文写作积累.md",
+                "file": "Learning/Programming Language & Framework/Latex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,15 +208,15 @@
   },
   "active": "ed7c3338b595e9ef",
   "lastOpenFiles": [
-    "papers/My Paper.md",
+    "Learning/Programming Language & Framework/Markdown.md",
     "papers/论文写作积累.md",
+    "papers/My Paper.md",
     "Workflow/文献阅读批注和同步体系.md",
     "Workflow/图床搭建及配置.md",
     "Workflow/全系workflow搭建.md",
     "Workflow/插件用法.md",
     "Learning/GPU/NVCC.md",
     "Learning/GPU/Divergency.md",
-    "Learning/GPU/Memory Coalescing.md",
-    "Learning/GPU/GPGPU sim.md"
+    "Learning/GPU/Memory Coalescing.md"
   ]
 }

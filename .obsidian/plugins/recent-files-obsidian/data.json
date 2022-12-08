@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Latex",
+      "path": "Learning/Programming Language & Framework/Latex.md"
+    },
+    {
+      "basename": "Markdown",
+      "path": "Learning/Programming Language & Framework/Markdown.md"
+    },
+    {
       "basename": "论文写作积累",
       "path": "papers/论文写作积累.md"
     },
@@ -79,14 +87,6 @@
     {
       "basename": "pytorch基本操作",
       "path": "Learning/Programming Language & Framework/Pytorch/pytorch基本操作.md"
-    },
-    {
-      "basename": "Latex",
-      "path": "Learning/Programming Language & Framework/Latex.md"
-    },
-    {
-      "basename": "Markdown",
-      "path": "Learning/Programming Language & Framework/Markdown.md"
     },
     {
       "basename": "Excel",

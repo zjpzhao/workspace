@@ -4,7 +4,7 @@ id: 50919e2f-a53d-4905-b3b4-73537442a528
 #doc #learning/LaTeX #learning/markdown 
 
 # 基础用法
-划掉
+划掉~~前后加两个波浪号~~
 
 
 # 数学符号和公式
