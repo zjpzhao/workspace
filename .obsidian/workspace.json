@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning/Programming Language & Framework/Latex.md",
+                "file": "papers/论文写作积累.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "e9d25589cbee286f",
@@ -108,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/Programming Language & Framework/Latex.md"
+                "file": "papers/论文写作积累.md"
               }
             }
           },
@@ -125,8 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 458,
-    "collapsed": true
+    "width": 569.5
   },
   "right": {
     "id": "15dd14e7068b76d4",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/Programming Language & Framework/Latex.md",
+                "file": "papers/论文写作积累.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/Programming Language & Framework/Latex.md",
+                "file": "papers/论文写作积累.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,6 +208,8 @@
   },
   "active": "ed7c3338b595e9ef",
   "lastOpenFiles": [
+    "Learning/GPU/理解和区分conda cudatoolkit、Nvidia cudatoolkit、nvidia-smi回显cuda版本.md",
+    "Learning/Programming Language & Framework/Latex.md",
     "Learning/Programming Language & Framework/Markdown.md",
     "papers/论文写作积累.md",
     "papers/My Paper.md",
@@ -215,8 +217,6 @@
     "Workflow/图床搭建及配置.md",
     "Workflow/全系workflow搭建.md",
     "Workflow/插件用法.md",
-    "Learning/GPU/NVCC.md",
-    "Learning/GPU/Divergency.md",
-    "Learning/GPU/Memory Coalescing.md"
+    "Learning/GPU/NVCC.md"
   ]
 }

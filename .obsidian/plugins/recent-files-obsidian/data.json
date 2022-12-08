@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "论文写作积累",
+      "path": "papers/论文写作积累.md"
+    },
+    {
+      "basename": "理解和区分conda cudatoolkit、Nvidia cudatoolkit、nvidia-smi回显cuda版本",
+      "path": "Learning/GPU/理解和区分conda cudatoolkit、Nvidia cudatoolkit、nvidia-smi回显cuda版本.md"
+    },
+    {
       "basename": "Latex",
       "path": "Learning/Programming Language & Framework/Latex.md"
     },
     {
       "basename": "Markdown",
       "path": "Learning/Programming Language & Framework/Markdown.md"
-    },
-    {
-      "basename": "论文写作积累",
-      "path": "papers/论文写作积累.md"
     },
     {
       "basename": "My Paper",
@@ -151,10 +155,6 @@
     {
       "basename": "Collect Metrics",
       "path": "Learning/GPU/Collect Metrics.md"
-    },
-    {
-      "basename": "理解和区分conda cudatoolkit、Nvidia cudatoolkit、nvidia-smi回显cuda版本",
-      "path": "Learning/GPU/理解和区分conda cudatoolkit、Nvidia cudatoolkit、nvidia-smi回显cuda版本.md"
     },
     {
       "basename": "wandb",
