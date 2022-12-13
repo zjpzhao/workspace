@@ -363,6 +363,7 @@
       "collections": [
         "89K6PZVW",
         "Q7FV3VXB",
+        "EIPNRE5V",
         "TQUX3GGM",
         "RLZKFTSE",
         "W43MLK4H",
@@ -408,6 +409,15 @@
         7855,
         8605,
         10673
+      ]
+    },
+    "EIPNRE5V": {
+      "key": "EIPNRE5V",
+      "parent": "KBPQ2ZH3",
+      "name": "Instruction Duplication",
+      "collections": [],
+      "items": [
+        10991
       ]
     },
     "TQUX3GGM": {
@@ -2489,6 +2499,89 @@
       "itemKey": "DTQ3NA64",
       "libraryID": 1,
       "select": "zotero://select/library/items/DTQ3NA64"
+    },
+    {
+      "key": "GP7BLN63",
+      "version": 7189,
+      "itemType": "conferencePaper",
+      "title": "Detecting SDCs in GPGPUs Through an Efficient Instruction Duplication Mechanism",
+      "date": "2021",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "url": "https://link.springer.com/10.1007/978-3-030-82153-1_47",
+      "accessDate": "2022-12-09T06:01:46Z",
+      "extra": "Series Title: Lecture Notes in Computer Science\nDOI: 10.1007/978-3-030-82153-1_47",
+      "volume": "12817",
+      "place": "Cham",
+      "publisher": "Springer International Publishing",
+      "ISBN": "978-3-030-82152-4 978-3-030-82153-1",
+      "pages": "571-584",
+      "creators": [
+        {
+          "firstName": "Han",
+          "lastName": "Qiu",
+          "creatorType": "editor"
+        },
+        {
+          "firstName": "Cheng",
+          "lastName": "Zhang",
+          "creatorType": "editor"
+        },
+        {
+          "firstName": "Zongming",
+          "lastName": "Fei",
+          "creatorType": "editor"
+        },
+        {
+          "firstName": "Meikang",
+          "lastName": "Qiu",
+          "creatorType": "editor"
+        },
+        {
+          "firstName": "Sun-Yuan",
+          "lastName": "Kung",
+          "creatorType": "editor"
+        },
+        {
+          "firstName": "Xiaohui",
+          "lastName": "Wei",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Nan",
+          "lastName": "Jiang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xiaonan",
+          "lastName": "Wang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Hengshan",
+          "lastName": "Yue",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "/unread",
+          "type": 1
+        }
+      ],
+      "relations": [],
+      "dateAdded": "2022-12-09T06:01:46Z",
+      "dateModified": "2022-12-09T06:02:37Z",
+      "uri": "http://zotero.org/users/7659667/items/GP7BLN63",
+      "itemID": 10991,
+      "attachments": [],
+      "notes": [],
+      "citationKey": "DetectingSDCsGPGPUs2021wei",
+      "citekey": "DetectingSDCsGPGPUs2021wei",
+      "itemKey": "GP7BLN63",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/GP7BLN63",
+      "publicationTitle": "Knowledge Science, Engineering and Management"
     },
     {
       "key": "79C382EV",
