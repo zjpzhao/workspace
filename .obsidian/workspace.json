@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "8234c93fccb4e2fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Workflow/图床搭建及配置.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "2c3b22e395fa3173",
             "type": "leaf",
             "state": {
@@ -34,6 +47,7 @@
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -88,8 +102,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "e9d25589cbee286f",
@@ -109,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/论文写作积累.md"
+                "file": "Workflow/图床搭建及配置.md"
               }
             }
           },
@@ -142,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/论文写作积累.md",
+                "file": "Workflow/图床搭建及配置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/论文写作积累.md",
+                "file": "Workflow/图床搭建及配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,12 +219,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ed7c3338b595e9ef",
+  "active": "8234c93fccb4e2fd",
   "lastOpenFiles": [
+    "papers/论文写作积累.md",
     "Learning/GPU/理解和区分conda cudatoolkit、Nvidia cudatoolkit、nvidia-smi回显cuda版本.md",
     "Learning/Programming Language & Framework/Latex.md",
     "Learning/Programming Language & Framework/Markdown.md",
-    "papers/论文写作积累.md",
     "papers/My Paper.md",
     "Workflow/文献阅读批注和同步体系.md",
     "Workflow/图床搭建及配置.md",

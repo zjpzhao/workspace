@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "图床搭建及配置",
+      "path": "Workflow/图床搭建及配置.md"
+    },
+    {
       "basename": "论文写作积累",
       "path": "papers/论文写作积累.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "文献阅读批注和同步体系",
       "path": "Workflow/文献阅读批注和同步体系.md"
-    },
-    {
-      "basename": "图床搭建及配置",
-      "path": "Workflow/图床搭建及配置.md"
     },
     {
       "basename": "全系workflow搭建",
