@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Ubuntu快捷键",
+      "path": "util/Ubuntu/Ubuntu快捷键.md"
+    },
+    {
       "basename": "论文写作积累",
       "path": "papers/论文写作积累.md"
     },
@@ -106,7 +110,7 @@
     },
     {
       "basename": "Ubuntu 22.04探索",
-      "path": "util/Ubuntu 22.04探索.md"
+      "path": "util/Ubuntu/Ubuntu 22.04探索.md"
     },
     {
       "basename": "局域网服务器通过本地正向代理联网",
@@ -195,10 +199,6 @@
     {
       "basename": "CUDA Toolkit",
       "path": "Learning/GPU/CUDA/CUDA Toolkit.md"
-    },
-    {
-      "basename": "CUDA Binary Utilities",
-      "path": "Learning/GPU/CUDA/CUDA Binary Utilities.md"
     }
   ],
   "omittedPaths": [],
