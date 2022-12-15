@@ -21,19 +21,6 @@
             }
           },
           {
-            "id": "8234c93fccb4e2fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Workflow/图床搭建及配置.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2c3b22e395fa3173",
             "type": "leaf",
             "state": {
@@ -138,7 +125,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 569.5
+    "width": 569.5,
+    "collapsed": true
   },
   "right": {
     "id": "15dd14e7068b76d4",
