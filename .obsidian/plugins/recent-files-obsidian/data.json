@@ -5,6 +5,14 @@
       "path": "papers/论文写作积累.md"
     },
     {
+      "basename": "雅思30天备考整体安排和建议",
+      "path": "Learning/IELTS/雅思30天备考整体安排和建议.md"
+    },
+    {
+      "basename": "雅思备考.png",
+      "path": "e4464616880c4bf9056b92e0/雅思备考.png.md"
+    },
+    {
       "basename": "Ubuntu快捷键",
       "path": "util/Ubuntu/Ubuntu快捷键.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "论文写作借鉴写法",
       "path": "papers/论文写作借鉴写法.md"
-    },
-    {
-      "basename": "PTX",
-      "path": "Learning/GPU/PTX.md"
-    },
-    {
-      "basename": "CUDA Toolkit",
-      "path": "Learning/GPU/CUDA/CUDA Toolkit.md"
     }
   ],
   "omittedPaths": [],
