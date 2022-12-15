@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "图床搭建及配置",
-      "path": "Workflow/图床搭建及配置.md"
-    },
-    {
       "basename": "论文写作积累",
       "path": "papers/论文写作积累.md"
+    },
+    {
+      "basename": "图床搭建及配置",
+      "path": "Workflow/图床搭建及配置.md"
     },
     {
       "basename": "理解和区分conda cudatoolkit、Nvidia cudatoolkit、nvidia-smi回显cuda版本",

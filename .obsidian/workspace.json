@@ -47,7 +47,6 @@
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -122,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Workflow/图床搭建及配置.md"
+                "file": "papers/论文写作积累.md"
               }
             }
           },
@@ -155,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Workflow/图床搭建及配置.md",
+                "file": "papers/论文写作积累.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Workflow/图床搭建及配置.md",
+                "file": "papers/论文写作积累.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,15 +218,15 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8234c93fccb4e2fd",
+  "active": "ed7c3338b595e9ef",
   "lastOpenFiles": [
+    "Workflow/图床搭建及配置.md",
     "papers/论文写作积累.md",
     "Learning/GPU/理解和区分conda cudatoolkit、Nvidia cudatoolkit、nvidia-smi回显cuda版本.md",
     "Learning/Programming Language & Framework/Latex.md",
     "Learning/Programming Language & Framework/Markdown.md",
     "papers/My Paper.md",
     "Workflow/文献阅读批注和同步体系.md",
-    "Workflow/图床搭建及配置.md",
     "Workflow/全系workflow搭建.md",
     "Workflow/插件用法.md",
     "Learning/GPU/NVCC.md"
