@@ -21,6 +21,16 @@
             }
           },
           {
+            "id": "98f7f7f08177815b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.8"
+              }
+            }
+          },
+          {
             "id": "19e1fc49c87e0ade",
             "type": "leaf",
             "state": {
@@ -47,6 +57,7 @@
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -120,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "papers/论文写作积累.md"
-              }
+              "state": {}
             }
           },
           {
@@ -154,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/论文写作积累.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +174,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/论文写作积累.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,11 +225,25 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ed7c3338b595e9ef",
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian42-brat:BRAT": false,
+      "3d-graph:3D Graph": false,
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "workspaces:Manage workspace layouts": false
+    }
+  },
+  "active": "98f7f7f08177815b",
   "lastOpenFiles": [
+    "papers/论文写作积累.md",
     "Learning/IELTS/雅思30天备考整体安排和建议.md",
     "e4464616880c4bf9056b92e0/雅思备考.png.md",
-    "papers/论文写作积累.md",
     "util/Ubuntu/Ubuntu快捷键.md",
     "Workflow/图床搭建及配置.md",
     "Learning/GPU/理解和区分conda cudatoolkit、Nvidia cudatoolkit、nvidia-smi回显cuda版本.md",
