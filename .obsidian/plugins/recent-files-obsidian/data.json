@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "文献阅读批注和同步体系",
+      "path": "Workflow/文献阅读批注和同步体系.md"
+    },
+    {
+      "basename": "jupyter-notebook + VSCode",
+      "path": "util/jupyter-notebook + VSCode.md"
+    },
+    {
       "basename": "论文写作积累",
       "path": "papers/论文写作积累.md"
     },
     {
       "basename": "雅思30天备考整体安排和建议",
       "path": "Learning/IELTS/雅思30天备考整体安排和建议.md"
-    },
-    {
-      "basename": "雅思备考.png",
-      "path": "e4464616880c4bf9056b92e0/雅思备考.png.md"
     },
     {
       "basename": "Ubuntu快捷键",
@@ -35,10 +39,6 @@
     {
       "basename": "My Paper",
       "path": "papers/My Paper.md"
-    },
-    {
-      "basename": "文献阅读批注和同步体系",
-      "path": "Workflow/文献阅读批注和同步体系.md"
     },
     {
       "basename": "全系workflow搭建",
@@ -159,10 +159,6 @@
     {
       "basename": "t-SNE",
       "path": "Learning/AI/AI tools/t-SNE.md"
-    },
-    {
-      "basename": "jupyter-notebook + VSCode",
-      "path": "util/jupyter-notebook + VSCode.md"
     },
     {
       "basename": "Collect Metrics",

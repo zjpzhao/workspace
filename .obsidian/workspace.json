@@ -24,9 +24,12 @@
             "id": "98f7f7f08177815b",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.1.8"
+                "file": "Workflow/文献阅读批注和同步体系.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           },
@@ -131,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Workflow/文献阅读批注和同步体系.md"
+              }
             }
           },
           {
@@ -163,6 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Workflow/文献阅读批注和同步体系.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,6 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Workflow/文献阅读批注和同步体系.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -241,15 +248,15 @@
   },
   "active": "98f7f7f08177815b",
   "lastOpenFiles": [
+    "util/jupyter-notebook + VSCode.md",
+    "e4464616880c4bf9056b92e0/雅思备考.png.md",
     "papers/论文写作积累.md",
     "Learning/IELTS/雅思30天备考整体安排和建议.md",
-    "e4464616880c4bf9056b92e0/雅思备考.png.md",
     "util/Ubuntu/Ubuntu快捷键.md",
     "Workflow/图床搭建及配置.md",
     "Learning/GPU/理解和区分conda cudatoolkit、Nvidia cudatoolkit、nvidia-smi回显cuda版本.md",
     "Learning/Programming Language & Framework/Latex.md",
     "Learning/Programming Language & Framework/Markdown.md",
-    "papers/My Paper.md",
-    "Workflow/文献阅读批注和同步体系.md"
+    "papers/My Paper.md"
   ]
 }
