@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "论文写作积累",
+      "path": "papers/论文写作积累.md"
+    },
+    {
+      "basename": "Sensitivity",
+      "path": "Learning/Math/Sensitivity.md"
+    },
+    {
       "basename": "文献阅读批注和同步体系",
       "path": "Workflow/文献阅读批注和同步体系.md"
     },
     {
       "basename": "jupyter-notebook + VSCode",
       "path": "util/jupyter-notebook + VSCode.md"
-    },
-    {
-      "basename": "论文写作积累",
-      "path": "papers/论文写作积累.md"
     },
     {
       "basename": "雅思30天备考整体安排和建议",
@@ -149,10 +153,6 @@
       "path": "Learning/GPU/Benchmarks/各Benchmark特点.md"
     },
     {
-      "basename": "Sensitivity",
-      "path": "Learning/Math/Sensitivity.md"
-    },
-    {
       "basename": "GNN",
       "path": "Learning/AI/GNN/GNN.md"
     },
@@ -191,10 +191,6 @@
     {
       "basename": "论文撰写",
       "path": "papers/论文撰写.md"
-    },
-    {
-      "basename": "论文写作借鉴写法",
-      "path": "papers/论文写作借鉴写法.md"
     }
   ],
   "omittedPaths": [],
