@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "雅思30天备考整体安排和建议",
+      "path": "Learning/IELTS/雅思30天备考整体安排和建议.md"
+    },
+    {
+      "basename": "My Paper",
+      "path": "papers/My Paper.md"
+    },
+    {
       "basename": "论文写作积累",
       "path": "papers/论文写作积累.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "jupyter-notebook + VSCode",
       "path": "util/jupyter-notebook + VSCode.md"
-    },
-    {
-      "basename": "雅思30天备考整体安排和建议",
-      "path": "Learning/IELTS/雅思30天备考整体安排和建议.md"
     },
     {
       "basename": "Ubuntu快捷键",
@@ -39,10 +43,6 @@
     {
       "basename": "Markdown",
       "path": "Learning/Programming Language & Framework/Markdown.md"
-    },
-    {
-      "basename": "My Paper",
-      "path": "papers/My Paper.md"
     },
     {
       "basename": "全系workflow搭建",
