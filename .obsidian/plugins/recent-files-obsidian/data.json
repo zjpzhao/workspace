@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Obsidian Tips",
+      "path": "util/Obsidian Tips.md"
+    },
+    {
+      "basename": "Obsidian",
+      "path": "util/Obsidian.md"
+    },
+    {
       "basename": "雅思30天备考整体安排和建议",
       "path": "Learning/IELTS/雅思30天备考整体安排和建议.md"
     },
@@ -191,10 +199,6 @@
     {
       "basename": "SASS和PTX",
       "path": "Learning/GPU/SASS和PTX.md"
-    },
-    {
-      "basename": "论文撰写",
-      "path": "papers/论文撰写.md"
     }
   ],
   "omittedPaths": [],
