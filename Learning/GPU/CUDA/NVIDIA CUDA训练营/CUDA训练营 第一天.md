@@ -31,6 +31,8 @@ x  (excute) -> 1
 Makefile高阶教程
 [Makefile详细教程\_扫地的小何尚的博客-CSDN博客](https://blog.csdn.net/kunhe0512/article/details/128623790)
 
+make时文件路径下如果有一个文件叫clean怎么办?
+在makefile里写一行.PHONY: clean，声明clean是个操作。./PHONY表示声明，有声明的会按照声明执行，没有声明的会寻找makefile同级的文件
 
 
 ## CUDA
