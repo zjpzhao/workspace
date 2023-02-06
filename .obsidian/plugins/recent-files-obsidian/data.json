@@ -5,16 +5,16 @@
       "path": "Learning/GPU/CUDA/NVIDIA CUDA训练营/CUDA训练营 第一天.md"
     },
     {
+      "basename": "CUDA Programming",
+      "path": "Learning/GPU/CUDA/CUDA Programming.md"
+    },
+    {
       "basename": "CUDA",
       "path": "Learning/GPU/CUDA/CUDA.md"
     },
     {
       "basename": "常用指令",
       "path": "util/常用指令.md"
-    },
-    {
-      "basename": "CUDA Programming",
-      "path": "Learning/GPU/CUDA/CUDA Programming.md"
     },
     {
       "basename": "Drawing 2023-02-06 14.59.35.excalidraw",
