@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Obsidian Tips",
-      "path": "util/Obsidian Tips.md"
+      "basename": "CUDA Programming",
+      "path": "Learning/GPU/CUDA/CUDA Programming.md"
+    },
+    {
+      "basename": "CUDA训练营 第一天",
+      "path": "Learning/GPU/CUDA/NVIDIA CUDA训练营/CUDA训练营 第一天.md"
     },
     {
       "basename": "Obsidian",
       "path": "util/Obsidian.md"
+    },
+    {
+      "basename": "Obsidian Tips",
+      "path": "util/Obsidian Tips.md"
     },
     {
       "basename": "雅思30天备考整体安排和建议",
@@ -95,10 +103,6 @@
     {
       "basename": "Observations on Soft Error",
       "path": "Learning/Soft Error/Observations on Soft Error.md"
-    },
-    {
-      "basename": "CUDA Programming",
-      "path": "Learning/GPU/CUDA/CUDA Programming.md"
     },
     {
       "basename": "CUDA",
@@ -195,10 +199,6 @@
     {
       "basename": "Networking",
       "path": "Learning/计算机网络/Networking.md"
-    },
-    {
-      "basename": "SASS和PTX",
-      "path": "Learning/GPU/SASS和PTX.md"
     }
   ],
   "omittedPaths": [],
