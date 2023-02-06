@@ -5,8 +5,28 @@
       "path": "Learning/GPU/CUDA/NVIDIA CUDA训练营/CUDA训练营 第一天.md"
     },
     {
+      "basename": "CUDA",
+      "path": "Learning/GPU/CUDA/CUDA.md"
+    },
+    {
+      "basename": "常用指令",
+      "path": "util/常用指令.md"
+    },
+    {
       "basename": "CUDA Programming",
       "path": "Learning/GPU/CUDA/CUDA Programming.md"
+    },
+    {
+      "basename": "Drawing 2023-02-06 14.59.35.excalidraw",
+      "path": "Excalidraw/Drawing 2023-02-06 14.59.35.excalidraw.md"
+    },
+    {
+      "basename": "Nsight Compute工具",
+      "path": "Learning/GPU/Nsight Compute工具.md"
+    },
+    {
+      "basename": "CUDA Binary Utilities",
+      "path": "Learning/GPU/CUDA/CUDA Binary Utilities.md"
     },
     {
       "basename": "Obsidian",
@@ -97,16 +117,8 @@
       "path": "Learning/GPU/Benchmarks/Benchmark探索.md"
     },
     {
-      "basename": "Nsight Compute工具",
-      "path": "Learning/GPU/Nsight Compute工具.md"
-    },
-    {
       "basename": "Observations on Soft Error",
       "path": "Learning/Soft Error/Observations on Soft Error.md"
-    },
-    {
-      "basename": "CUDA",
-      "path": "Learning/GPU/CUDA/CUDA.md"
     },
     {
       "basename": "python性能",
@@ -143,10 +155,6 @@
     {
       "basename": "局域网服务器通过本地正向代理联网",
       "path": "Learning/计算机网络/局域网服务器通过本地正向代理联网.md"
-    },
-    {
-      "basename": "常用指令",
-      "path": "util/常用指令.md"
     },
     {
       "basename": "内网穿透",
@@ -191,14 +199,6 @@
     {
       "basename": "Zotero",
       "path": "util/Zotero.md"
-    },
-    {
-      "basename": "LLVM",
-      "path": "Learning/Compiling/LLVM.md"
-    },
-    {
-      "basename": "Networking",
-      "path": "Learning/计算机网络/Networking.md"
     }
   ],
   "omittedPaths": [],

@@ -9,6 +9,12 @@ Jeston Nano's Compute Capability: 5.3
 SM53
 [CUDA GPUs - Compute Capability | NVIDIA Developer](https://developer.nvidia.com/cuda-gpus)
 
+
+### 优点
+- 统一存储，减少了耗时的PCIE传输数据操作
+
+- 对于个人用户来说，一个低成本的小jetson设备可能是比较适合入门的。价格便宜，能学习GPU开发，还能学习Linux上的CPU开发，和熟悉ARM CPU等等。
+
 # Linux
 
 
@@ -220,3 +226,38 @@ int main(void) {
   return 0;
 }
 ```
+
+
+## 下午实验
+d_xxx 的名字，常用来表示GPU上的变量(d = device, GPU)
+h_xxx 的名字，常用来表来CPU上的变量(h = host, CPU)
+
+同时有__device__和__host__等于分别生成了两份代码，一份在GPU上，一份在CPU上。方便你将一些通用的小例程，同时得到CPU+GPU的版本。
+
+2.x: Fermi
+3.0/3.2: Kepler (3.2老式嵌入式的TK1）
+
+device和host可以同时修饰一个函数吗：可以
+
+不同的架构，可以理解成不同代的卡（或者嵌入式的带有GPU的Jetson设备）。通过这里的arch和code设定，可以告诉编译器，在哪种显卡上生成代码。
+
+（1）.h里放声明
+（2）.cu里面放实现代码
+（3）用nvcc进行编译和链接操作，得到可执行文件（注意命令行）。
+
+.cuh和.h有啥区别吗，还有见过hpp：头文件扩展名无所谓。可以用.h, .hpp, .cuh, 或者.txt也可以。（因为头文件是被#include 后，在包含它的那个文件中.c或者.cpp或者.cu中参与编译的, 最终的文件类型看宿主文件。所以它自身无所谓）
+
+dim3类型。等于是一个特殊的uint3(没有用到的元素是1，而不是0）。
+
+![image.png](https://zjpimage.oss-cn-qingdao.aliyuncs.com/CUDA%E7%9A%84%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B.png)
+
+threadIdx整体是3个uint分量的向量类型（有threadIdx.x, threadIdx.y, threadIdx.z三个分量），类型是unsigned int, 或者说，uint32_t，32位的无符号的整数
+
+
+1个block里面能容纳的线程数量较少，x/y/z方向上安排的线程数量分别有限制（1024个，1024个，和64个），但是总大小（它们的乘积，例如我32行，每行32个线程）有限制，最多不能超过1024个线程（三个方向的乘积），不过grid里的blocks数量就比较大了。
+
+devicequery
+![](https://zjpimage.oss-cn-qingdao.aliyuncs.com/deviceQuery%E6%9F%A5%E7%9C%8BCUDA%E9%A9%B1%E5%8A%A8%E7%A8%8B%E5%BA%8F%E5%92%8C%E8%BF%90%E8%A1%8C%E6%97%B6%E7%89%88%E6%9C%AC.png)
+
+
+我们谈论warp的时候，假设这是NV平台。因为AMD上叫Wavefront，大小有两种，64（老A卡）和32（新A卡）。

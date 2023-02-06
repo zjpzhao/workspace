@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "047e99075829a256",
+        "id": "4586b2644e777203",
         "type": "tabs",
         "children": [
           {
-            "id": "dc116bb04df38579",
+            "id": "cd7efc3ddd0e7e62",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "devicequery",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -206,17 +206,17 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "dc116bb04df38579",
+  "active": "cd7efc3ddd0e7e62",
   "lastOpenFiles": [
+    "Learning/GPU/CUDA/CUDA.md",
+    "util/常用指令.md",
     "Learning/GPU/CUDA/CUDA Programming.md",
     "Learning/GPU/CUDA/NVIDIA CUDA训练营/CUDA训练营 第一天.md",
+    "Excalidraw/Drawing 2023-02-06 14.59.35.excalidraw.md",
+    "Learning/GPU/Nsight Compute工具.md",
+    "Learning/GPU/CUDA/CUDA Binary Utilities.md",
     "util/Obsidian.md",
     "util/Obsidian Tips.md",
-    "Learning/IELTS/雅思30天备考整体安排和建议.md",
-    "papers/论文词汇积累.md",
-    "Learning/IELTS/雅思词汇.md",
-    "papers/My Paper.md",
-    "Untitled.canvas",
-    "Excalidraw/Drawing 2022-12-24 11.21.01.excalidraw.md"
+    "Learning/IELTS/雅思30天备考整体安排和建议.md"
   ]
 }
