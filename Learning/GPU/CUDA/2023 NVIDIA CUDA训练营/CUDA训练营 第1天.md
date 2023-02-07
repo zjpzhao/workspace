@@ -295,7 +295,7 @@ __global__ void sobel_gpu(unsigned char* in, unsigned char* out, int imgHeight, 
     int Gx = 0;
     int Gy = 0;
     unsigned char x0, x1, x2, x3, x4, x5, x6, x7, x8;
-    if (x > 0 && x < imgWidth && y>0 && y < imgHeight)
+    if (x > 0 && x < imgWidth-1 && y>0 && y < imgHeight-1)
     {
         x0 = in[(y - 1) * imgWidth + x - 1];
         x1 = in[(y - 1) * imgWidth + x ];
@@ -393,4 +393,4 @@ int main()
 - 中间代码是伪汇编代码，PTX，用来确定代码中可以使用的cuda功能，ptx到cubin的编译用来指定真实架构。这就是中间表示IR，中间表示硬件无关，可以进行编译优化，增加一套新硬件就只需要增加后端，新语言支持就增加前端。其实nvcc就是在llvm中通过类似cuda中fatbinary的方式实现多种gpu架构编译。
 - cicc就是一个基于llvm的优化器, 生成ptx
 - ncnn 是一个为手机端极致优化的高性能神经网络前向计算框架。 ncnn 从设计之初深刻考虑手机端的部署和使用。 无第三方依赖，跨平台，手机端 cpu 的速度快于目前所有已知的开源框架。 基于 ncnn，开发者能够将深度学习算法轻松移植到手机端高效执行， 开发出人工智能 APP，将 AI 带到你的指尖。 ncnn 目前已在腾讯多款应用中使用，如：QQ，Qzone，微信，天天 P 图等。
-- 乱序执行只会出现在block之间，warp内是同时执行的
+- 乱序执行只会出现在block之间，warp内的线程是同时执行的
