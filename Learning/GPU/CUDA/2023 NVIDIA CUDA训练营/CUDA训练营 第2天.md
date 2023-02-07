@@ -107,3 +107,11 @@ Reg不够的时候就会用Local Mem来替代
 ![image.png](https://zjpimage.oss-cn-qingdao.aliyuncs.com/%E5%90%88%E5%B9%B6%E8%AE%BF%E5%AD%98.png)
 
 
+## 打卡题目和其他知识：
+1. GPU上多个线程的原子操作的多个分解步骤物理上不可能并行这句话对么？
+答：这句话不完全正确。GPU上多个线程可以同时进行原子操作，但是对于特定的存储单元，只有一个线程能够成功地完成原子操作。因此，多个线程同时对相同的存储单元执行原子操作时，其中的一些线程可能会遇到冲突，并且仅有一个线程的操作会被执行，其他的线程的操作将被阻塞直到它们能够完成操作为止。
+2. 原子操作所使用的存储单元，必须是shared memory吗？
+答：不是必须是shared memory。原子操作可以在多种存储单元中进行，包括global memory和shared memory，具体取决于操作的需求和性能要求。
+
+3. cudaMallocHost和使用malloc的区别
+回答：驱动程序跟踪用这个函数分配的虚拟内存范围，并自动加速对cudaMemcpy()等函数的调用。由于内存可以被设备直接访问，因此可以用比用malloc()等函数获得的可翻页内存高得多的带宽来读取或写入。另外：1. 存储位置：cudaMallocHost 分配的内存位于 Host 内存，而 malloc 分配的内存位于操作系统管理的堆中。2.可访问性：cudaMallocHost 分配的内存可以被 Host 和 GPU 访问，而 malloc 分配的内存仅能被 Host 访问。3.性能：cudaMallocHost 可以提高数据传输的性能，因为它允许 GPU 和 Host 共享内存，减少了数据传输时间；而 malloc 分配的内存必须在 GPU 和 Host 之间传输，可能导致更长的数据传输时间。总的来说，如果需要在 GPU 和主机之间共享内存，则应使用 cudaMallocHost。但如果仅需要在主机上分配内存，则可以使用 malloc。
