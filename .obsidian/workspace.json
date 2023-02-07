@@ -19,8 +19,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "794d253a53c845ff",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -94,16 +103,6 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Learning/GPU/CUDA/2023 NVIDIA CUDA训练营/CUDA训练营 第2天.md"
-              }
-            }
-          },
-          {
-            "id": "794d253a53c845ff",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
               "state": {}
             }
           }
@@ -128,7 +127,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/GPU/CUDA/2023 NVIDIA CUDA训练营/CUDA训练营 第2天.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +138,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/GPU/CUDA/2023 NVIDIA CUDA训练营/CUDA训练营 第2天.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,13 +203,13 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "cd7efc3ddd0e7e62",
+  "active": "794d253a53c845ff",
   "lastOpenFiles": [
+    "Learning/GPU/CUDA/2023 NVIDIA CUDA训练营/CUDA训练营 第2天.md",
     "Learning/GPU/CUDA/CUDA.md",
     "Learning/GPU/Collect Metrics.md",
     "util/常用指令.md",
     "Learning/GPU/CUDA/2023 NVIDIA CUDA训练营/CUDA训练营 第1天.md",
-    "Learning/GPU/CUDA/2023 NVIDIA CUDA训练营/CUDA训练营 第2天.md",
     "Learning/GPU/CUDA/2023 NVIDIA CUDA训练营/Untitled.md",
     "Learning/GPU/CUDA/CUDA Programming.md",
     "Excalidraw/Drawing 2023-02-06 14.59.35.excalidraw.md",
