@@ -21,15 +21,19 @@
             }
           },
           {
-            "id": "794d253a53c845ff",
+            "id": "75ac7c387734a7f5",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Learning/GPU/CUDA/2023 NVIDIA CUDA训练营/Untitled 1.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -103,6 +107,14 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "794d253a53c845ff",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
               "state": {}
             }
           }
@@ -203,7 +215,7 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "794d253a53c845ff",
+  "active": "6278bdfc5111baec",
   "lastOpenFiles": [
     "Learning/GPU/CUDA/2023 NVIDIA CUDA训练营/CUDA训练营 第2天.md",
     "Learning/GPU/CUDA/CUDA.md",
