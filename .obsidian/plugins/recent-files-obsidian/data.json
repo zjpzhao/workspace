@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "CUDA训练营 第3天",
+      "path": "Learning/GPU/CUDA/2023 NVIDIA CUDA训练营/CUDA训练营 第3天.md"
+    },
+    {
       "basename": "CUDA训练营 第2天",
       "path": "Learning/GPU/CUDA/2023 NVIDIA CUDA训练营/CUDA训练营 第2天.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "t-SNE",
       "path": "Learning/AI/AI tools/t-SNE.md"
-    },
-    {
-      "basename": "wandb",
-      "path": "Learning/AI/AI tools/wandb.md"
     }
   ],
   "omittedPaths": [],
