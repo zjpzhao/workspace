@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Nsight Compute工具",
+      "path": "Learning/GPU/Nsight Compute工具.md"
+    },
+    {
+      "basename": "CUDA Toolkit",
+      "path": "Learning/GPU/CUDA/CUDA Toolkit.md"
+    },
+    {
+      "basename": "CUDA Programming",
+      "path": "Learning/GPU/CUDA/CUDA Programming.md"
+    },
+    {
+      "basename": "CUDA Binary Utilities",
+      "path": "Learning/GPU/CUDA/CUDA Binary Utilities.md"
+    },
+    {
+      "basename": "PTX",
+      "path": "Learning/GPU/PTX.md"
+    },
+    {
+      "basename": "NVCC",
+      "path": "Learning/GPU/NVCC.md"
+    },
+    {
       "basename": "CUDA训练营 第3天",
       "path": "Learning/GPU/CUDA/2023 NVIDIA CUDA训练营/CUDA训练营 第3天.md"
     },
@@ -29,20 +53,8 @@
       "path": "Learning/GPU/CUDA/2023 NVIDIA CUDA训练营/Untitled.md"
     },
     {
-      "basename": "CUDA Programming",
-      "path": "Learning/GPU/CUDA/CUDA Programming.md"
-    },
-    {
       "basename": "Drawing 2023-02-06 14.59.35.excalidraw",
       "path": "Excalidraw/Drawing 2023-02-06 14.59.35.excalidraw.md"
-    },
-    {
-      "basename": "Nsight Compute工具",
-      "path": "Learning/GPU/Nsight Compute工具.md"
-    },
-    {
-      "basename": "CUDA Binary Utilities",
-      "path": "Learning/GPU/CUDA/CUDA Binary Utilities.md"
     },
     {
       "basename": "Obsidian",
@@ -107,10 +119,6 @@
     {
       "basename": "插件用法",
       "path": "Workflow/插件用法.md"
-    },
-    {
-      "basename": "NVCC",
-      "path": "Learning/GPU/NVCC.md"
     },
     {
       "basename": "Divergency",
@@ -191,14 +199,6 @@
     {
       "basename": "各Benchmark特点",
       "path": "Learning/GPU/Benchmarks/各Benchmark特点.md"
-    },
-    {
-      "basename": "GNN",
-      "path": "Learning/AI/GNN/GNN.md"
-    },
-    {
-      "basename": "t-SNE",
-      "path": "Learning/AI/AI tools/t-SNE.md"
     }
   ],
   "omittedPaths": [],
